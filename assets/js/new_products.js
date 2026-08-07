@@ -1,4 +1,3 @@
-/* NEW PRODUCTS — added to existing catalog */
 const NEW_PRODUCTS = [
   {id:'p901',cat:"Bourbon",sub:"BTAC",name:"Pappy Van Winkle 20 Year Family Reserve",dist:"Buffalo Trace Distillery",region:"Kentucky, USA",abv:53.5,age:"20yr",price:2999.99,badge:"rare",tag:"bourbon",img:"/assets/images/products/pappy-van-winkle-20-year-family-reserve.webp",tasting:["Caramel","Raisin","Tobacco"],desc:"America\'s most revered wheated bourbon. Twenty years of patient aging deliver unparalleled complexity.",metaDesc:"Buy Pappy Van Winkle 20 Year Family Reserve online. $2999.99."},
   {id:'p902',cat:"Bourbon",sub:"BTAC",name:"Pappy Van Winkle 23 Year Family Reserve",dist:"Buffalo Trace Distillery",region:"Kentucky, USA",abv:47.8,age:"23yr",price:4499.99,badge:"rare",tag:"bourbon",img:"/assets/images/products/pappy-van-winkle-23-year-family-reserve.webp",tasting:["Dark Fruit","Cedar","Vanilla Cream"],desc:"The pinnacle of the Pappy family. Twenty-three years create a bourbon of incomparable depth.",metaDesc:"Buy Pappy Van Winkle 23 Year Family Reserve online. $4499.99."},
@@ -313,6 +312,4 @@ const NEW_PRODUCTS = [
 ];
 
 // Merge into PRODUCTS array
-/* Products loaded separately via ALL_PRODUCTS() */
-
 

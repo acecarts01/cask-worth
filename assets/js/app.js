@@ -5,9 +5,7 @@ var currentPayMethod = "crypto";
    ═══════════════════════════════════════════════════════ */
 'use strict';
 
-/* ─── PRODUCTS CATALOG ─────────────────────────────────── */
 const PRODUCTS = [
-  /* BOURBON */
   {id:101,cat:'Bourbon',sub:'Single Barrel',name:"Blanton's Original Single Barrel",dist:"Buffalo Trace Distillery",region:"Kentucky, USA",abv:46.5,age:'NAS',price:64.99,badge:'hot',tag:'bourbon',
    img: '/assets/images/products/blantons-original-single-barrel.webp',
    imgFb:'https://placehold.co/300x480/f4e8d0/8b5a00?font=playfair-display&text=Blantons',
@@ -79,7 +77,6 @@ const PRODUCTS = [
    tasting:['Oak','Vanilla','Rich Caramel'],
    desc:"Hand-selected from single barrels on the upper floors where heat and wood influence is most pronounced. Rich oak, vanilla and caramel character.",
    metaDesc:"Buy Jack Daniel's Single Barrel online. Premium Tennessee whiskey. Same-day delivery. $49.99."},
-  /* SCOTCH */
   {id:201,cat:'Scotch',sub:'Speyside Single Malt',name:"Macallan 12 Double Cask",dist:"The Macallan Distillery",region:"Speyside, Scotland",abv:40,age:'12yr',price:74.99,badge:'hot',tag:'scotch',
    img: '/assets/images/products/macallan-12-double-cask.webp',
    tasting:['Vanilla','Orange','Wood Spice'],
@@ -125,7 +122,6 @@ const PRODUCTS = [
    tasting:['Seaweed','Peat','Sweetness'],
    desc:"The most richly flavored of all Scotch whiskies. Big powerful peat with sweetness and a hint of sea salt. Loved by enthusiasts worldwide.",
    metaDesc:"Order Laphroaig 10 Year online. Iconic Islay peated whisky. Same-day delivery. $49.99."},
-  /* IRISH */
   {id:301,cat:'Irish',sub:'Blended Irish',name:"Jameson Original",dist:"Midleton Distillery",region:"Cork, Ireland",abv:40,age:'NAS',price:27.99,badge:'',tag:'irish',
    img: '/assets/images/products/jameson-original.webp',
    tasting:['Toasted Wood','Vanilla','Pot Still Spices'],
@@ -146,7 +142,6 @@ const PRODUCTS = [
    tasting:['Green Apple','Barley','Spice'],
    desc:"A classic Irish single pot still whiskey. Delightfully complex with green apple, fresh barley and mouth-coating spice. Sophisticated and elegant.",
    metaDesc:"Order Green Spot Single Pot Still Irish whiskey online. Same-day delivery. $54.99."},
-  /* JAPANESE */
   {id:401,cat:'Japanese',sub:'Blended Japanese',name:"Hibiki Harmony",dist:"Suntory Distilleries",region:"Japan",abv:43,age:'NAS',price:79.99,badge:'hot',tag:'japanese',
    img: '/assets/images/products/hibiki-harmony.webp',
    tasting:['Honey','White Chocolate','Orange Blossom'],
@@ -172,7 +167,6 @@ const PRODUCTS = [
    tasting:['Honey','Spice','Dried Fruit'],
    desc:"Blended at cask strength and married in small casks. Incredibly rich and complex. A favourite among enthusiasts worldwide for its exceptional value.",
    metaDesc:"Buy Nikka From the Barrel online. Cask strength Japanese whisky. Same-day delivery. $69.99."},
-  /* RYE */
   {id:501,cat:'Rye',sub:'American Rye',name:"Bulleit Rye",dist:"Bulleit Distilling Co.",region:"Indiana, USA",abv:45,age:'NAS',price:29.99,badge:'',tag:'rye',
    img: '/assets/images/products/bulleit-rye.webp',
    tasting:['Vanilla','Honey','Spice'],
@@ -193,7 +187,6 @@ const PRODUCTS = [
    tasting:['Mint','Vanilla','Bold Spice'],
    desc:"Bottled-in-Bond 100 proof rye from Heaven Hill. A bar staple known for its bold rye spice and classic character. Perfect for cocktails.",
    metaDesc:"Order Rittenhouse Rye BiB online. 100 proof bottled-in-bond rye. Same-day delivery. $29.99."},
-  /* CANADIAN */
   {id:601,cat:'Canadian',sub:'Blended Canadian',name:"Crown Royal Deluxe",dist:"Crown Royal Distillery",region:"Manitoba, Canada",abv:40,age:'NAS',price:28.99,badge:'',tag:'canadian',
    img: '/assets/images/products/crown-royal-deluxe.webp',
    tasting:['Vanilla','Light Fruit','Smooth Spice'],
@@ -204,7 +197,6 @@ const PRODUCTS = [
    tasting:['Dark Fruit','Vanilla','Rich Caramel'],
    desc:"Blended with full-flavored whiskies for a richer bolder experience. Deeper darker character with dark fruit, vanilla and rich caramel.",
    metaDesc:"Order Crown Royal Black online. Richer bolder Canadian whisky. Same-day delivery. $32.99."},
-  /* ALLOCATED */
   {id:701,cat:'Allocated',sub:'Ultra Premium',name:"Pappy Van Winkle 15 Year",dist:"Buffalo Trace Distillery",region:"Kentucky, USA",abv:53.5,age:'15yr',price:1199.99,badge:'rare',tag:'allocated',
    img: '/assets/images/products/pappy-van-winkle-15-year.webp',
    tasting:['Caramel','Raisin','Tobacco'],
@@ -225,7 +217,6 @@ const PRODUCTS = [
    tasting:['Orange','Sweet Hay','Tobacco'],
    desc:"Named after Colonel Edmund Haynes Taylor. Bottled-in-Bond, old-fashioned and hard to find. A historic expression full of character.",
    metaDesc:"Buy E.H. Taylor Small Batch BiB online. Historic bottled-in-bond bourbon. $49.99."},
-  /* GIFT SETS */
   {id:801,cat:'Gifts',sub:'Gift Sets',name:"Woodford Reserve Gift Set with Glasses",dist:"Woodford Reserve",region:"Kentucky, USA",abv:45.2,age:'NAS',price:59.99,badge:'new',tag:'gifts',
    img: '/assets/images/products/woodford-reserve-gift-set-with-glasses.webp',
    tasting:['Dried Fruit','Vanilla','Spice'],
@@ -241,7 +232,6 @@ const PRODUCTS = [
    tasting:['Honey','Green Apple','Spice'],
    desc:"Three world-class Japanese whiskies — Suntory Toki, Hibiki Harmony and Nikka From the Barrel. The definitive introduction to Japanese whisky.",
    metaDesc:"Buy Japanese Whisky Trio gift set online. Toki, Hibiki, Nikka. Same-day delivery. $199.99."},
-/* ─── GROUP A ($200–$5,000) ─────────────────────────────────── */
 {id:901,cat:'Bourbon',sub:'BTAC',name:"Pappy Van Winkle 20 Year Family Reserve",dist:"Buffalo Trace Distillery",region:"Kentucky, USA",abv:53.5,age:'20yr',price:2999.99,badge:'rare',tag:'allocated',img: '/assets/images/products/pappy-van-winkle-20-year-family-reserve.webp',tasting:['Caramel','Dried Fruit','Vanilla'],desc:"The most coveted family reserve bourbon. Twenty years of maturation delivers extraordinary complexity — caramel, raisin and a finish that lingers for minutes.",metaDesc:"Buy Pappy Van Winkle 20 Year online. Ultra-rare family reserve bourbon. $2,999.99."},
 {id:902,cat:'Bourbon',sub:'BTAC',name:"Pappy Van Winkle 23 Year Family Reserve",dist:"Buffalo Trace Distillery",region:"Kentucky, USA",abv:47.8,age:'23yr',price:4499.99,badge:'rare',tag:'allocated',img: '/assets/images/products/pappy-van-winkle-23-year-family-reserve.webp',tasting:['Tobacco','Caramel','Dark Fruit'],desc:"Twenty-three years in American oak. The pinnacle of the Van Winkle family. Tobacco, caramel and dark dried fruit with an extraordinarily long finish.",metaDesc:"Buy Pappy Van Winkle 23 Year online. The pinnacle of bourbon. $4,499.99."},
 {id:903,cat:'Bourbon',sub:'BTAC',name:"George T. Stagg Barrel Proof",dist:"Buffalo Trace Distillery",region:"Kentucky, USA",abv:64.1,age:'NAS',price:449.99,badge:'hot',tag:'allocated',img: '/assets/images/products/george-t-stagg-barrel-proof.webp',tasting:['Dark Chocolate','Coffee','Oak'],desc:"Uncut, unfiltered barrel-proof buffalo trace antique collection. Massive concentration of dark chocolate, coffee and aged oak. A collectors must-have.",metaDesc:"Buy George T. Stagg Barrel Proof online. BTAC flagship. $449.99."},
@@ -284,7 +274,6 @@ const PRODUCTS = [
 {id:940,cat:'Allocated',sub:'Premium Blend',name:"Kentucky Owl The Wiseman",dist:"Stoli Group USA",region:"Kentucky, USA",abv:48.6,age:'NAS',price:399.99,badge:'',tag:'allocated',img: '/assets/images/products/kentucky-owl-the-wiseman.webp',tasting:['Honey','Oak','Soft Spice'],desc:"A carefully crafted blend of bourbon whiskies paying tribute to Kentucky's whiskey heritage. Honey sweetness, warm oak and soft spice in elegant balance.",metaDesc:"Buy Kentucky Owl The Wiseman online. Premium Kentucky blended bourbon. $399.99."},
 {id:941,cat:'Allocated',sub:'Bottled-in-Bond',name:"Old Fitzgerald 19 Year Bottled-in-Bond",dist:"Heaven Hill Distillery",region:"Kentucky, USA",abv:50.0,age:'19yr',price:499.99,badge:'rare',tag:'allocated',img: '/assets/images/products/old-fitzgerald-19-year-bottled-in-bond.webp',tasting:['Vanilla','Toasted Oak','Caramel'],desc:"Heaven Hill's prestigious decanter series. Nineteen years bottled-in-bond — vanilla, toasted oak and rich caramel from extended wheated bourbon aging.",metaDesc:"Buy Old Fitzgerald 19 Year BiB online. Premium decanter series bourbon. $499.99."},
 
-/* ─── GROUP B ($6k–$51k) ──────────────────────────────────────── */
 {id:1001,cat:'Scotch',sub:'Speyside Ultra Premium',name:"Macallan 40 Year Double Cask",dist:"The Macallan Distillery",region:"Speyside, Scotland",abv:43.0,age:'40yr',price:12999.99,badge:'rare',tag:'scotch',img: '/assets/images/products/macallan-40-year-double-cask.webp',tasting:['Profound Fruit','Ancient Oak','Delicate Spice'],desc:"Four decades of masterful cask management. Profound fruit complexity, ancient oak influence and the most delicate spice from 40 years in American and European casks.",metaDesc:"Buy Macallan 40 Year Double Cask. Forty years of masterful maturation. $12,999.99."},
 {id:1002,cat:'Scotch',sub:'Speyside Ultra Premium',name:"Macallan 50 Year in Lalique Crystal",dist:"The Macallan Distillery",region:"Speyside, Scotland",abv:42.8,age:'50yr',price:39999.99,badge:'rare',tag:'scotch',img: '/assets/images/products/macallan-50-year-in-lalique-crystal.webp',tasting:['Ancient Wood','Rich Fruit','Timeless Spice'],desc:"Presented in a Lalique crystal decanter — 50 years of whisky history. One of the rarest and most valuable Macallan expressions ever released.",metaDesc:"Buy Macallan 50 Year in Lalique Crystal. Ultra-rare collector's masterpiece. $39,999.99."},
 {id:1003,cat:'Scotch',sub:'Speyside Ultra Premium',name:"Macallan The Reach 81 Year",dist:"The Macallan Distillery",region:"Speyside, Scotland",abv:42.5,age:'81yr',price:49999.99,badge:'rare',tag:'scotch',img: '/assets/images/products/macallan-the-reach-81-year.webp',tasting:['Profound Complexity','Ancient Cask','Historical Depth'],desc:"The oldest Macallan ever bottled — filled in 1940, bottled in 2021. Eighty-one years of history in every drop. A once-in-a-generation whisky.",metaDesc:"Buy Macallan The Reach 81 Year. The oldest Macallan ever bottled. $49,999.99."},
@@ -316,7 +305,6 @@ const PRODUCTS = [
 {id:1029,cat:'Irish',sub:'Ultra Rare Single Pot Still',name:"Redbreast 32 Year Cask Strength",dist:"Midleton Distillery",region:"Cork, Ireland",abv:52.5,age:'32yr',price:6999.99,badge:'rare',tag:'irish',img: '/assets/images/products/redbreast-32-year-cask-strength.webp',tasting:['Profound Fruit','Ancient Spice','Deep Oak'],desc:"The oldest and rarest Redbreast ever released. Thirty-two years at cask strength — profound dried fruit, ancient pot still spice and deep Irish oak complexity.",metaDesc:"Buy Redbreast 32 Year Cask Strength. Ireland's rarest aged pot still. $6,999.99."},
 {id:1030,cat:'Rye',sub:'Vermont Ultra Premium',name:"WhistlePig The Boss Hog: Magellan's Atlantic",dist:"WhistlePig Farm",region:"Vermont, USA",abv:57.8,age:'NAS',price:8999.99,badge:'rare',tag:'rye',img: '/assets/images/products/whistlepig-the-boss-hog-magellans-atlantic.webp',tasting:['Atlantic Sea Spray','Tropical Rye','Dark Fruit'],desc:"The oceanic Boss Hog expression — finished in casks that crossed the Atlantic on a sailing expedition. Unique sea spray, tropical rye and deep dark fruit character.",metaDesc:"Buy WhistlePig Boss Hog Magellan's Atlantic. Ocean-finished premium rye. $8,999.99."},
 
-/* ─── GIFT SETS ──────────────────────────────────────────────── */
 {id:1101,cat:'Gifts',sub:'Entry Premium',name:"The Bourbon Foundations Set",dist:"Caskworth Curated",region:"USA",abv:0,age:'—',price:349.99,badge:'new',tag:'gifts',img: '/assets/images/products/the-bourbon-foundations-set.webp',tasting:['Variety','Glassware','Perfect Gift'],desc:"Eagle Rare 10yr + Buffalo Trace + Woodford Reserve with two premium Glencairn glasses. The perfect introduction to American bourbon.",metaDesc:"Buy The Bourbon Foundations Gift Set. Three bourbons plus glasses. $349.99."},
 {id:1102,cat:'Gifts',sub:'Entry Premium',name:"The Scotch Explorer Set",dist:"Caskworth Curated",region:"Scotland",abv:0,age:'—',price:399.99,badge:'new',tag:'gifts',img: '/assets/images/products/the-scotch-explorer-set.webp',tasting:['Variety','Glassware','Perfect Gift'],desc:"Glenfiddich 12yr + Macallan 12yr DC + Laphroaig 10yr with crystal glasses. A journey across the regions of Scotland in three bottles.",metaDesc:"Buy The Scotch Explorer Gift Set. Three Scotch whiskies plus glasses. $399.99."},
 {id:1103,cat:'Gifts',sub:'Entry Premium',name:"The Irish Whiskey Trio",dist:"Caskworth Curated",region:"Ireland",abv:0,age:'—',price:349.99,badge:'',tag:'gifts',img: '/assets/images/products/the-irish-whiskey-trio.webp',tasting:['Variety','Smooth','Perfect Gift'],desc:"Jameson Black Barrel + Redbreast 12yr + Green Spot — three of Ireland's finest with tasting notes. The definitive Irish whiskey gift.",metaDesc:"Buy The Irish Whiskey Trio Gift Set. Three premium Irish whiskies. $349.99."},
@@ -338,7 +326,6 @@ const PRODUCTS = [
 {id:1119,cat:'Gifts',sub:'Collector',name:"The World's Finest Whisky Box",dist:"Caskworth Curated",region:"International",abv:0,age:'—',price:24999.99,badge:'rare',tag:'gifts',img: '/assets/images/products/the-world-s-finest-whisky-box.webp',tasting:['World Elite','Armored Case','Ultimate Gift'],desc:"Macallan 40yr + Yamazaki 35yr + Pappy 23yr Collector + Glenfiddich 40yr in an armored presentation case. The greatest whisky gift ever assembled.",metaDesc:"Buy The World's Finest Whisky Box. Four ultra-premium world whiskies. $24,999.99."},
 {id:1120,cat:'Gifts',sub:'Collector',name:"The Collector's Ultimate Cellar",dist:"Caskworth Curated",region:"International",abv:0,age:'—',price:49999.99,badge:'rare',tag:'gifts',img: '/assets/images/products/the-bourbon-collector-s-vault.webp',tasting:['50-Year Aged','Bespoke Vault','Ultimate Collection'],desc:"Macallan 50yr Lalique + Yamazaki 50yr + Glenfiddich 50yr + Hibiki 35yr in a bespoke vault. The world's most extraordinary whisky gift — all 50+ years aged.",metaDesc:"Buy The Collector's Ultimate Cellar. Four 50-year whiskies in bespoke vault. $49,999.99."},
 
-/* ─── JOHNNIE WALKER ─────────────────────────────────────────── */
 {id:2001,cat:'Scotch',sub:'Blended Scotch',name:"Johnnie Walker Red Label",dist:"Diageo",region:"Scotland",abv:40,age:'NAS',price:24.99,badge:'',tag:'scotch',img: '/assets/images/products/johnnie-walker-red-label.webp',tasting:['Vanilla','Grain','Light Smoke'],desc:"The world's most popular Scotch whisky. Fresh, vibrant and versatile — perfect for mixing or sipping with ice. Vanilla, grain sweetness and a light smoky note.",metaDesc:"Buy Johnnie Walker Red Label online. World's most popular Scotch. $24.99."},
 {id:2002,cat:'Scotch',sub:'Blended Scotch',name:"Johnnie Walker Double Black",dist:"Diageo",region:"Scotland",abv:40,age:'NAS',price:39.99,badge:'',tag:'scotch',img: '/assets/images/products/johnnie-walker-double-black.webp',tasting:['Smoke','Rich Fruit','Dark Spice'],desc:"Intensified Black Label — deeper, smokier and more intense. Heavily peated whiskies create bold smoke, rich fruit and complex dark spice.",metaDesc:"Buy Johnnie Walker Double Black online. Intensified smoky blended Scotch. $39.99."},
 {id:2003,cat:'Scotch',sub:'Blended Malt Scotch',name:"Johnnie Walker Green Label 15 Year",dist:"Diageo",region:"Scotland",abv:43,age:'15yr',price:49.99,badge:'',tag:'scotch',img: '/assets/images/products/johnnie-walker-green-label-15-year.webp',tasting:['Grass','Fruit','Subtle Smoke'],desc:"100% malt blended Scotch whisky aged 15 years. Fresh grass, ripe fruit and subtle smoke from four single malts — Talisker, Linkwood, Cragganmore and Caol Ila.",metaDesc:"Buy Johnnie Walker Green Label 15 Year online. 100% malt blend. $49.99."},
@@ -355,7 +342,6 @@ const PRODUCTS = [
 {id:2014,cat:'Scotch',sub:'Blue Label',name:"Johnnie Walker The John Walker",dist:"Diageo",region:"Scotland",abv:40,age:'NAS',price:599.99,badge:'rare',tag:'scotch',img: '/assets/images/products/johnnie-walker-the-john-walker.webp',tasting:['Ultimate Complexity','Rare Casks','Profound Depth'],desc:"The rarest Johnnie Walker expression. Selected from the most extraordinary rare casks — extraordinary depth and complexity in a magnificent crystal decanter.",metaDesc:"Buy Johnnie Walker The John Walker. The rarest and finest JW expression. $599.99."},
 {id:2015,cat:'Scotch',sub:'Blue Label',name:"Johnnie Walker Blue Label Year of the Dragon 2024",dist:"Diageo",region:"Scotland",abv:43.8,age:'NAS',price:279.99,badge:'new',tag:'scotch',img: '/assets/images/products/johnnie-walker-blue-label-year-of-the-dragon-2024.webp',tasting:['Honey','Vanilla','Smoke'],desc:"Limited 2024 Year of the Dragon special edition Blue Label. In stunning collector packaging celebrating the Lunar New Year — the smoothest Blue Label.",metaDesc:"Buy JW Blue Label Year of the Dragon 2024. Limited Lunar New Year edition. $279.99."},
 
-/* ─── CHIVAS REGAL ───────────────────────────────────────────── */
 {id:2101,cat:'Scotch',sub:'Chivas Blended Scotch',name:"Chivas Regal 12 Year",dist:"Chivas Brothers",region:"Scotland",abv:40,age:'12yr',price:29.99,badge:'',tag:'scotch',img: '/assets/images/products/chivas-regal-12-year.webp',tasting:['Honey','Vanilla','Apple'],desc:"The iconic Chivas Regal blend — smooth, rich and generous. Honey, vanilla and apple with a smooth, creamy finish. The world's first luxury blended Scotch.",metaDesc:"Buy Chivas Regal 12 Year online. The world's first luxury Scotch whisky. $29.99."},
 {id:2102,cat:'Scotch',sub:'Chivas Blended Scotch',name:"Chivas Regal XV 15 Year",dist:"Chivas Brothers",region:"Scotland",abv:40,age:'15yr',price:44.99,badge:'',tag:'scotch',img: '/assets/images/products/chivas-regal-xv-15-year.webp',tasting:['Toffee Apple','Hazelnut','Butterscotch'],desc:"Finished in French cognac casks for an added layer of sweetness. Toffee apple, hazelnut and butterscotch — a richer, smoother Chivas experience.",metaDesc:"Buy Chivas Regal XV 15 Year online. Cognac cask finished blend. $44.99."},
 {id:2103,cat:'Scotch',sub:'Chivas Extra',name:"Chivas Regal Extra 13 Year Sherry Cask",dist:"Chivas Brothers",region:"Scotland",abv:40,age:'13yr',price:44.99,badge:'hot',tag:'scotch',img: '/assets/images/products/chivas-regal-extra-13-year-sherry-cask.webp',tasting:['Rich Sherry','Dark Fruit','Warm Spice'],desc:"Finished in Oloroso sherry casks — rich dried fruit, warming spice and the classic Chivas smoothness elevated by luxurious sherry sweetness.",metaDesc:"Buy Chivas Regal Extra 13 Year Sherry Cask online. Sherry-finished blend. $44.99."},
@@ -372,7 +358,6 @@ const PRODUCTS = [
 {id:2114,cat:'Scotch',sub:'Royal Salute',name:"Royal Salute 25 Year",dist:"Chivas Brothers",region:"Scotland",abv:40,age:'25yr',price:499.99,badge:'rare',tag:'scotch',img: '/assets/images/products/royal-salute-25-year.webp',tasting:['Dark Chocolate','Ancient Fruit','Profound Complexity'],desc:"Twenty-five years of the finest Scotch whiskies in a hand-crafted porcelain flagon. Dark chocolate, ancient fruit and profound complexity — true royalty.",metaDesc:"Buy Royal Salute 25 Year online. Ultra-premium 25-year luxury Scotch. $499.99."},
 {id:2115,cat:'Scotch',sub:'Chivas Ultra Premium',name:"Chivas Regal Icon",dist:"Chivas Brothers",region:"Scotland",abv:40,age:'NAS',price:3999.99,badge:'rare',tag:'scotch',img: '/assets/images/products/chivas-regal-icon.webp',tasting:['Extraordinary Blend','Rare Casks','Timeless Luxury'],desc:"The rarest and most precious Chivas Regal expression. Selected from extraordinary rare casks in a stunning Baccarat crystal decanter — the icon of blended Scotch.",metaDesc:"Buy Chivas Regal Icon online. The rarest most precious Chivas expression. $3,999.99."},
 
-/* ─── DEWAR'S ────────────────────────────────────────────────── */
 {id:2201,cat:'Scotch',sub:"Dewar's Blended Scotch",name:"Dewar's White Label",dist:"Dewar's",region:"Scotland",abv:40,age:'NAS',price:19.99,badge:'',tag:'scotch',img: '/assets/images/products/macallan-12-double-cask.webp',tasting:['Light Fruit','Honey','Smooth'],desc:"Scotland's most award-winning blended Scotch. Light fruit, honey and a smooth finish — the result of Dewar's unique double-aging process.",metaDesc:"Buy Dewar's White Label online. Scotland's most awarded blend. $19.99."},
 {id:2202,cat:'Scotch',sub:"Dewar's Premium",name:"Dewar's Caribbean Smooth 8 Year",dist:"Dewar's",region:"Scotland",abv:40,age:'8yr',price:24.99,badge:'',tag:'scotch',img: '/assets/images/products/macallan-12-double-cask.webp',tasting:['Tropical Rum','Sweet Vanilla','Smooth'],desc:"Finished in Caribbean rum casks after 8 years — adds tropical sweetness, vanilla richness and an exceptionally smooth finish.",metaDesc:"Buy Dewar's Caribbean Smooth 8 Year online. Rum cask finished blend. $24.99."},
 {id:2203,cat:'Scotch',sub:"Dewar's Premium",name:"Dewar's Scratched Cask 8 Year",dist:"Dewar's",region:"Scotland",abv:40,age:'8yr',price:29.99,badge:'new',tag:'scotch',img: '/assets/images/products/macallan-12-double-cask.webp',tasting:['Rich Oak','Vanilla','Warming Spice'],desc:"Finished in scratched and re-toasted casks that deliver extra oak influence. Rich vanilla, warm spice and deep caramel from the intensified wood contact.",metaDesc:"Buy Dewar's Scratched Cask 8 Year online. Innovative re-toasted cask blend. $29.99."},
@@ -385,7 +370,6 @@ const PRODUCTS = [
 {id:2210,cat:'Scotch',sub:"Dewar's Double Double",name:"Dewar's Double Double 27 Year",dist:"Dewar's",region:"Scotland",abv:46,age:'27yr',price:249.99,badge:'rare',tag:'scotch',img: '/assets/images/products/macallan-12-double-cask.webp',tasting:['Dark Fruit','Ancient Honey','Profound Oak'],desc:"Twenty-seven years with quadruple cask aging. Dark fruit, ancient honey and profound oak complexity from one of the world's most innovative aging processes.",metaDesc:"Buy Dewar's Double Double 27 Year online. Ultra-premium quadruple aged. $249.99."},
 {id:2211,cat:'Scotch',sub:"Dewar's Double Double",name:"Dewar's Double Double 32 Year",dist:"Dewar's",region:"Scotland",abv:46,age:'32yr',price:499.99,badge:'rare',tag:'scotch',img: '/assets/images/products/macallan-12-double-cask.webp',tasting:['Extraordinary Complexity','Ancient Fruit','Timeless Depth'],desc:"Thirty-two years with the extraordinary Double Double method. Extraordinary complexity, ancient fruit and timeless depth from the ultimate Dewar's expression.",metaDesc:"Buy Dewar's Double Double 32 Year online. The ultimate Dewar's expression. $499.99."},
 
-/* ─── JACK DANIEL'S ──────────────────────────────────────────── */
 {id:2301,cat:'Bourbon',sub:"Tennessee Whiskey",name:"Jack Daniel's Old No. 7",dist:"Jack Daniel Distillery",region:"Tennessee, USA",abv:40,age:'NAS',price:22.99,badge:'',tag:'bourbon',img: '/assets/images/products/jack-daniels-sinatra-select.webp',tasting:['Caramel','Vanilla','Charcoal'],desc:"The world's best-selling American whiskey. Tennessee sippin' whiskey charcoal mellowed through 10 feet of sugar maple charcoal — smooth, caramel and vanilla.",metaDesc:"Buy Jack Daniel's Old No. 7 online. World's best-selling whiskey. $22.99."},
 {id:2302,cat:'Bourbon',sub:"Tennessee Whiskey",name:"Jack Daniel's Gentleman Jack",dist:"Jack Daniel Distillery",region:"Tennessee, USA",abv:40,age:'NAS',price:29.99,badge:'',tag:'bourbon',img: '/assets/images/products/jack-daniels-sinatra-select.webp',tasting:['Smooth Caramel','Light Fruit','Refined'],desc:"Double mellowed through charcoal — before and after aging. The result is extraordinary smoothness with caramel, light fruit and a refined, gentle finish.",metaDesc:"Buy Jack Daniel's Gentleman Jack online. Double charcoal mellowed. $29.99."},
 {id:2303,cat:'Bourbon',sub:"Tennessee Flavored",name:"Jack Daniel's Tennessee Honey",dist:"Jack Daniel Distillery",region:"Tennessee, USA",abv:35,age:'NAS',price:27.99,badge:'',tag:'bourbon',img: '/assets/images/products/jack-daniels-sinatra-select.webp',tasting:['Real Honey','Vanilla','Smooth'],desc:"Old No. 7 blended with real Tennessee honey liqueur. Natural honey sweetness, vanilla and the smooth Jack Daniel's character — perfect over ice.",metaDesc:"Buy Jack Daniel's Tennessee Honey online. Real honey Tennessee whiskey. $27.99."},
@@ -394,36 +378,30 @@ const PRODUCTS = [
 {id:2306,cat:'Bourbon',sub:"Tennessee Whiskey",name:"Jack Daniel's 10 Year",dist:"Jack Daniel Distillery",region:"Tennessee, USA",abv:48.5,age:'10yr',price:49.99,badge:'hot',tag:'bourbon',img: '/assets/images/products/jack-daniels-sinatra-select.webp',tasting:['Rich Caramel','Toasted Oak','Dark Fruit'],desc:"The first age-stated Jack Daniel's in decades. Ten years of Tennessee aging creates rich caramel, toasted oak and dark dried fruit — a revelation for Jack fans.",metaDesc:"Buy Jack Daniel's 10 Year online. First age-stated JD expression. $49.99."},
 {id:2307,cat:'Bourbon',sub:"Tennessee Whiskey",name:"Jack Daniel's Sinatra Select",dist:"Jack Daniel Distillery",region:"Tennessee, USA",abv:45,age:'NAS',price:149.99,badge:'hot',tag:'bourbon',img: '/assets/images/products/jack-daniels-sinatra-select.webp',tasting:['Rich Oak','Caramel','Smooth Vanilla'],desc:"Created to celebrate Frank Sinatra's favourite whiskey. Aged in specially crafted 'Sinatra barrels' with grooved staves — rich oak, caramel and smooth vanilla.",metaDesc:"Buy Jack Daniel's Sinatra Select online. Frank Sinatra's favourite whiskey. $149.99."},
 
-/* ─── JIM BEAM ────────────────────────────────────────────────── */
 {id:2401,cat:'Bourbon',sub:"Jim Beam Original",name:"Jim Beam Original White Label",dist:"Beam Suntory",region:"Kentucky, USA",abv:40,age:'4yr',price:19.99,badge:'',tag:'bourbon',img: '/assets/images/products/jim-beam-original-white-label.webp',tasting:['Vanilla','Oak','Light Caramel'],desc:"The world's best-selling bourbon. Made from the original James B. Beam family recipe since 1795. Smooth vanilla, light oak and caramel character.",metaDesc:"Buy Jim Beam White Label online. World's best-selling bourbon. $19.99."},
 {id:2402,cat:'Bourbon',sub:"Jim Beam Premium",name:"Jim Beam Black Extra-Aged",dist:"Beam Suntory",region:"Kentucky, USA",abv:43,age:'8yr',price:24.99,badge:'hot',tag:'bourbon',img: '/assets/images/products/jim-beam-black-extra-aged.webp',tasting:['Rich Caramel','Dark Fruit','Complex Spice'],desc:"Aged twice as long as Jim Beam White. Double the aging creates rich caramel, dark fruit and complex spice — a premium everyday bourbon.",metaDesc:"Buy Jim Beam Black Extra-Aged online. Double-aged premium bourbon. $24.99."},
 {id:2403,cat:'Bourbon',sub:"Jim Beam Premium",name:"Jim Beam Double Oak",dist:"Beam Suntory",region:"Kentucky, USA",abv:43,age:'NAS',price:29.99,badge:'',tag:'bourbon',img: '/assets/images/products/jim-beam-double-oak.webp',tasting:['Vanilla','Caramel','Rich Oak'],desc:"Twice barreled in new charred American white oak. The first barreling delivers classic Jim Beam character; the second adds richness, vanilla and deep caramel.",metaDesc:"Buy Jim Beam Double Oak online. Twice-barreled premium bourbon. $29.99."},
 {id:2404,cat:'Bourbon',sub:"Jim Beam Bottled-in-Bond",name:"Jim Beam Bonded 4 Year",dist:"Beam Suntory",region:"Kentucky, USA",abv:50,age:'4yr',price:27.99,badge:'',tag:'bourbon',img: '/assets/images/products/jim-beam-bonded-4-year.webp',tasting:['Vanilla','Oak','Corn Sweetness'],desc:"Bottled-in-bond at 100 proof — four years in a single distillery season. Vanilla, American oak and corn sweetness at a bold 50% ABV.",metaDesc:"Buy Jim Beam Bonded 4 Year online. 100 proof bottled-in-bond bourbon. $27.99."},
 
-/* ─── BASIL HAYDEN'S ──────────────────────────────────────────── */
 {id:2501,cat:'Bourbon',sub:"Small Batch Bourbon",name:"Basil Hayden's Kentucky Straight Bourbon",dist:"Beam Suntory",region:"Kentucky, USA",abv:40,age:'NAS',price:39.99,badge:'',tag:'bourbon',img: '/assets/images/products/basil-hayden-s-toast.webp',tasting:['Honey','Light Rye Spice','Mint'],desc:"Named after a master distiller from 1796. High rye mashbill delivers honey sweetness, refreshing mint and a subtle rye spice in an approachable, elegant bourbon.",metaDesc:"Buy Basil Hayden's Bourbon online. Light and approachable high-rye bourbon. $39.99."},
 {id:2502,cat:'Bourbon',sub:"Basil Hayden's Dark",name:"Basil Hayden's Dark Rye",dist:"Beam Suntory",region:"Kentucky, USA",abv:40,age:'NAS',price:44.99,badge:'',tag:'bourbon',img: '/assets/images/products/basil-hayden-s-toast.webp',tasting:['Dark Fruit','Spice','Port Wine'],desc:"A bold Canadian rye whiskey blended with port wine and Kentucky straight rye whiskey. Dark fruit, rye spice and port wine sweetness — unique and complex.",metaDesc:"Buy Basil Hayden's Dark Rye online. Port wine finished dark rye. $44.99."},
 {id:2503,cat:'Bourbon',sub:"Basil Hayden's Premium",name:"Basil Hayden's 10 Year",dist:"Beam Suntory",region:"Kentucky, USA",abv:40,age:'10yr',price:69.99,badge:'hot',tag:'bourbon',img: '/assets/images/products/basil-hayden-s-toast.webp',tasting:['Caramel','Toasted Nut','Warm Spice'],desc:"Ten years of maturation brings greater complexity. Caramel, toasted nut and warm spice — Basil Hayden's signature elegance with added depth from a decade in oak.",metaDesc:"Buy Basil Hayden's 10 Year Bourbon online. 10-year aged small batch. $69.99."},
 {id:2504,cat:'Bourbon',sub:"Basil Hayden's",name:"Basil Hayden's Toast",dist:"Beam Suntory",region:"Kentucky, USA",abv:40,age:'NAS',price:49.99,badge:'new',tag:'bourbon',img: '/assets/images/products/basil-hayden-s-toast.webp',tasting:['Toasted Maple','Light Caramel','Vanilla'],desc:"Finished in toasted brown sugar barrels — toasted maple syrup, light caramel and vanilla in an unusually sweet and approachable bourbon expression.",metaDesc:"Buy Basil Hayden's Toast Bourbon online. Brown sugar barrel finished. $49.99."},
 
-/* ─── ELIJAH CRAIG ────────────────────────────────────────────── */
 {id:2601,cat:'Bourbon',sub:"Small Batch Bourbon",name:"Elijah Craig Small Batch Bourbon",dist:"Heaven Hill Distillery",region:"Kentucky, USA",abv:47,age:'NAS',price:34.99,badge:'',tag:'bourbon',img: '/assets/images/products/elijah-craig-small-batch-bourbon.webp',tasting:['Vanilla','Caramel','Oak'],desc:"Named after the Baptist minister credited with inventing bourbon whiskey. Rich vanilla, caramel and charred oak — one of America's most respected small batch bourbons.",metaDesc:"Buy Elijah Craig Small Batch online. Classic small batch Kentucky bourbon. $34.99."},
 {id:2602,cat:'Bourbon',sub:"Barrel Proof Bourbon",name:"Elijah Craig Barrel Proof Bourbon",dist:"Heaven Hill Distillery",region:"Kentucky, USA",abv:66.2,age:'12yr',price:69.99,badge:'hot',tag:'bourbon',img: '/assets/images/products/elijah-craig-barrel-proof-bourbon.webp',tasting:['Intense Oak','Caramel','Bold Spice'],desc:"Uncut and unfiltered at barrel proof — three times a year. Twelve years creates intense oak, rich caramel and bold spice at full cask strength. A legend.",metaDesc:"Buy Elijah Craig Barrel Proof online. Uncut 12-year barrel proof bourbon. $69.99."},
 {id:2603,cat:'Bourbon',sub:"Single Barrel Bourbon",name:"Elijah Craig 18 Year Single Barrel",dist:"Heaven Hill Distillery",region:"Kentucky, USA",abv:45,age:'18yr',price:199.99,badge:'rare',tag:'bourbon',img: '/assets/images/products/elijah-craig-18-year-single-barrel.webp',tasting:['Dark Caramel','Complex Spice','Ancient Oak'],desc:"Eighteen years from a single barrel — exceptional maturation delivers dark caramel, complex warming spice and profound ancient oak character.",metaDesc:"Buy Elijah Craig 18 Year Single Barrel online. 18-year aged luxury bourbon. $199.99."},
 {id:2604,cat:'Bourbon',sub:"Toasted Barrel",name:"Elijah Craig Toasted Barrel",dist:"Heaven Hill Distillery",region:"Kentucky, USA",abv:47,age:'NAS',price:44.99,badge:'new',tag:'bourbon',img: '/assets/images/products/elijah-craig-toasted-barrel.webp',tasting:['Toasted Oak','Vanilla','Maple'],desc:"Finished in toasted new oak barrels after standard maturation. Extra vanilla, toasted nut and maple syrup sweetness from the innovative barrel treatment.",metaDesc:"Buy Elijah Craig Toasted Barrel Bourbon online. Toasted barrel finished. $44.99."},
 
-/* ─── LARCENY / EVAN WILLIAMS ────────────────────────────────── */
 {id:2701,cat:'Bourbon',sub:"Wheated Small Batch",name:"Larceny Small Batch Bourbon",dist:"Heaven Hill Distillery",region:"Kentucky, USA",abv:46,age:'NAS',price:29.99,badge:'',tag:'bourbon',img: '/assets/images/products/larceny-small-batch-bourbon.webp',tasting:['Wheat','Brown Sugar','Caramel'],desc:"A wheated bourbon with Old Fitzgerald's historic mashbill. Soft wheat, brown sugar and caramel create approachable richness without a rye bite.",metaDesc:"Buy Larceny Small Batch Bourbon online. Wheated small batch bourbon. $29.99."},
 {id:2702,cat:'Bourbon',sub:"Barrel Proof Bourbon",name:"Larceny Barrel Proof Bourbon",dist:"Heaven Hill Distillery",region:"Kentucky, USA",abv:61.0,age:'NAS',price:49.99,badge:'hot',tag:'bourbon',img: '/assets/images/products/larceny-barrel-proof-bourbon.webp',tasting:['Rich Wheat','Caramel','Bold Spice'],desc:"Larceny at barrel proof — three times a year. Rich wheat character, deep caramel and bold spice at full cask strength. Among the best barrel proof values available.",metaDesc:"Buy Larceny Barrel Proof Bourbon online. Uncut wheated barrel proof. $49.99."},
 {id:2703,cat:'Bourbon',sub:"Single Barrel Bourbon",name:"Evan Williams Single Barrel Vintage",dist:"Heaven Hill Distillery",region:"Kentucky, USA",abv:43.3,age:'10yr',price:29.99,badge:'hot',tag:'bourbon',img: '/assets/images/products/evan-williams-single-barrel-vintage.webp',tasting:['Caramel','Vanilla','Light Oak'],desc:"Vintage dated single barrel from America's second largest distillery. Ten years creates caramel, vanilla and light oak character at exceptional value.",metaDesc:"Buy Evan Williams Single Barrel Vintage online. Vintage dated single barrel. $29.99."},
 {id:2704,cat:'Bourbon',sub:"Kentucky Straight",name:"Evan Williams Black Label",dist:"Heaven Hill Distillery",region:"Kentucky, USA",abv:43,age:'NAS',price:17.99,badge:'',tag:'bourbon',img: '/assets/images/products/evan-williams-black-label.webp',tasting:['Caramel','Vanilla','Light Oak'],desc:"America's second largest bourbon brand. An approachable, smooth bourbon at an exceptional price point — caramel, vanilla and light oak character.",metaDesc:"Buy Evan Williams Black Label online. Best-value everyday bourbon. $17.99."},
 
-/* ─── MAKER'S MARK EXTENDED ──────────────────────────────────── */
 {id:2801,cat:'Bourbon',sub:"Cask Strength",name:"Maker's Mark Cask Strength",dist:"Maker's Mark Distillery",region:"Kentucky, USA",abv:55.1,age:'NAS',price:64.99,badge:'hot',tag:'bourbon',img: '/assets/images/products/blantons-original-single-barrel.webp',tasting:['Bold Caramel','Vanilla Custard','Rich Spice'],desc:"Maker's Mark at full barrel proof — no water added. The soft wheat character amplified to bold caramel, rich vanilla custard and spice at full strength.",metaDesc:"Buy Maker's Mark Cask Strength online. Full proof wheated bourbon. $64.99."},
 {id:2802,cat:'Bourbon',sub:"Aged Expression",name:"Maker's Mark Cellar Aged",dist:"Maker's Mark Distillery",region:"Kentucky, USA",abv:45,age:'NAS',price:99.99,badge:'rare',tag:'bourbon',img: '/assets/images/products/blantons-original-single-barrel.webp',tasting:['Deep Caramel','Complex Vanilla','Rich Spice'],desc:"Matured in Maker's unique cellar environment with controlled temperature variation. Greater complexity with deep caramel, complex vanilla and richer spice.",metaDesc:"Buy Maker's Mark Cellar Aged online. Premium cellar-matured wheated bourbon. $99.99."},
 {id:2803,cat:'Bourbon',sub:"Wood Finish Series",name:"Maker's Mark RC6 Limited Release",dist:"Maker's Mark Distillery",region:"Kentucky, USA",abv:45,age:'NAS',price:79.99,badge:'new',tag:'bourbon',img: '/assets/images/products/blantons-original-single-barrel.webp',tasting:['Roasted Caramel','Toasted Coconut','Vanilla'],desc:"Finished with RC6 roasted French Moxx oak staves. Roasted caramel, toasted coconut and deep vanilla from the innovative stave-finishing program.",metaDesc:"Buy Maker's Mark RC6 Limited Release online. Wood stave finished bourbon. $79.99."},
 
-/* ─── ANGEL'S ENVY ───────────────────────────────────────────── */
 {id:2901,cat:'Bourbon',sub:"Port Barrel Finish",name:"Angel's Envy Kentucky Straight Bourbon",dist:"Angel's Envy Distillery",region:"Louisville, USA",abv:43.3,age:'NAS',price:44.99,badge:'hot',tag:'bourbon',img: '/assets/images/products/blantons-original-single-barrel.webp',tasting:['Port Wine','Dark Fruit','Rich Vanilla'],desc:"Finished in ruby port wine barrels. Deep vanilla, dark berry fruit and the elegance of Portuguese port wine — one of the most distinctive bourbons made today.",metaDesc:"Buy Angel's Envy Bourbon online. Port barrel finished Kentucky bourbon. $44.99."},
 {id:2902,cat:'Rye',sub:"Rum Barrel Finish",name:"Angel's Envy Rye Whiskey",dist:"Angel's Envy Distillery",region:"Louisville, USA",abv:50,age:'NAS',price:79.99,badge:'hot',tag:'rye',img: '/assets/images/products/whistlepig-10-year.webp',tasting:['Tropical Rum','Rye Spice','Pineapple'],desc:"Finished in Caribbean rum barrels — tropical pineapple, rum sweetness and classic rye spice. An innovative and delicious rum-finished rye whiskey.",metaDesc:"Buy Angel's Envy Rye Whiskey online. Caribbean rum barrel finished rye. $79.99."},
 {id:2903,cat:'Bourbon',sub:"Port Barrel Finish",name:"Angel's Envy Finished in Tawny Port Barrels",dist:"Angel's Envy Distillery",region:"Louisville, USA",abv:43.3,age:'NAS',price:54.99,badge:'new',tag:'bourbon',img: '/assets/images/products/blantons-original-single-barrel.webp',tasting:['Tawny Port','Nutty','Dark Fruit'],desc:"Finished in tawny port casks rather than ruby. Nutty oxidised port character, dark dried fruit and a more complex, evolved sweetness than the classic expression.",metaDesc:"Buy Angel's Envy Tawny Port Barrels online. Tawny port finished bourbon. $54.99."},
@@ -451,7 +429,6 @@ const PRODUCTS = [
 {id:4805,cat:'Cognac',sub:'Ultra Premium Cognac',name:"Pierre Ferrand 10 Générations",dist:"Pierre Ferrand",region:"Cognac, France",abv:47.3,age:'NAS',price:599.99,badge:'rare',tag:'cognac',img: '/assets/images/products/pierre-ferrand-10-generations.webp',tasting:['Extraordinary Complexity','Ancient Fruit','10 Generations'],desc:"Ten generations of the Ferrand family — their most precious Grande Champagne eaux-de-vie dating back decades. Extraordinary complexity and historical depth.",metaDesc:"Buy Pierre Ferrand 10 Générations online. Ten generations of excellence. $599.99."},
 {id:4806,cat:'Cognac',sub:'Ultra Premium Cognac',name:"Kelt Tour du Monde X.O",dist:"Kelt",region:"Cognac, France",abv:40,age:'NAS',price:349.99,badge:'new',tag:'cognac',img: '/assets/images/products/kelt-tour-du-monde-xo.webp',tasting:['Sea Spray','Tropical Fruit','Rich Spice'],desc:"Cognac matured on a sailing voyage around the world — the motion of the sea creates unique character. Sea spray, tropical fruit and rich spice from an oceanic journey.",metaDesc:"Buy Kelt Tour du Monde X.O online. Ocean voyage matured Cognac. $349.99."},
 
-/* ─── ARMAGNAC ────────────────────────────────────────────────── */
 {id:5001,cat:'Brandy',sub:'Armagnac',name:"Chateau de Laubade V.S.O.P Armagnac",dist:"Château de Laubade",region:"Armagnac, France",abv:40,age:'NAS',price:54.99,badge:'',tag:'brandy',img: '/assets/images/products/chateau-de-laubade-vsop-armagnac.webp',tasting:['Prune','Vanilla','Light Spice'],desc:"From one of the Bas-Armagnac's most celebrated estates. Prune, vanilla and light spice from a single estate that has produced Armagnac for over 500 years.",metaDesc:"Buy Château de Laubade V.S.O.P Armagnac online. 500-year estate. $54.99."},
 {id:5002,cat:'Brandy',sub:'Armagnac',name:"Chateau de Laubade X.O Armagnac",dist:"Château de Laubade",region:"Armagnac, France",abv:40,age:'NAS',price:149.99,badge:'hot',tag:'brandy',img: '/assets/images/products/chateau-de-laubade-xo-armagnac.webp',tasting:['Rich Prune','Dark Fruit','Profound Spice'],desc:"X.O from this legendary Bas-Armagnac estate — rich prune, dark fruit and profound spice from extended aging in French black oak.",metaDesc:"Buy Château de Laubade X.O Armagnac online. Estate premium XO. $149.99."},
 {id:5003,cat:'Brandy',sub:'Armagnac',name:"Janneau V.S.O.P Grand Armagnac",dist:"Janneau",region:"Armagnac, France",abv:40,age:'NAS',price:49.99,badge:'',tag:'brandy',img: '/assets/images/products/janneau-vsop-grand-armagnac.webp',tasting:['Dried Plum','Vanilla','Gentle Spice'],desc:"An approachable Grand Armagnac from one of the region's most respected houses. Dried plum, vanilla and gentle spice — the accessible face of Armagnac.",metaDesc:"Buy Janneau V.S.O.P Grand Armagnac online. Classic Armagnac VSOP. $49.99."},
@@ -461,45 +438,38 @@ const PRODUCTS = [
 {id:5007,cat:'Brandy',sub:'Armagnac',name:"Tariquet V.S.O.P Armagnac",dist:"Domaine Tariquet",region:"Bas-Armagnac, France",abv:41,age:'NAS',price:54.99,badge:'',tag:'brandy',img: '/assets/images/products/tariquet-vsop-armagnac.webp',tasting:['Vanilla','Dried Fruit','Light Spice'],desc:"From Domaine Tariquet, one of Gascony's most innovative estates. Vanilla, dried fruit and light spice from a modern approach to Bas-Armagnac production.",metaDesc:"Buy Tariquet V.S.O.P Armagnac online. Modern Gascony estate VSOP. $54.99."},
 {id:5008,cat:'Brandy',sub:'Armagnac',name:"Tariquet X.O Armagnac",dist:"Domaine Tariquet",region:"Bas-Armagnac, France",abv:43,age:'NAS',price:149.99,badge:'',tag:'brandy',img: '/assets/images/products/tariquet-xo-armagnac.webp',tasting:['Rich Prune','Complex Vanilla','Warm Spice'],desc:"Tariquet's flagship X.O — rich prune, complex vanilla and warm spice from extended aging at this innovative Gascony estate.",metaDesc:"Buy Tariquet X.O Armagnac online. Innovative Gascony estate XO. $149.99."},
 
-/* ─── SPANISH BRANDY ──────────────────────────────────────────── */
 {id:5101,cat:'Brandy',sub:'Spanish Brandy',name:"Torres 10 Year Brandy",dist:"Torres",region:"Penedès, Spain",abv:38,age:'10yr',price:24.99,badge:'hot',tag:'brandy',img: '/assets/images/products/torres-10-year-brandy.webp',tasting:['Caramel','Vanilla','Light Fruit'],desc:"Spain's most awarded brandy producer. Aged in American oak using the Solera system — caramel, vanilla and light fruit from 10 years of Spanish oak maturation.",metaDesc:"Buy Torres 10 Year Brandy online. Spain's most awarded brandy. $24.99."},
 {id:5102,cat:'Brandy',sub:'Spanish Brandy',name:"Torres 15 Year Brandy",dist:"Torres",region:"Penedès, Spain",abv:40,age:'15yr',price:34.99,badge:'',tag:'brandy',img: '/assets/images/products/torres-15-year-brandy.webp',tasting:['Rich Caramel','Dried Fruit','Warm Spice'],desc:"Fifteen years in American oak Solera creates greater depth — rich caramel, dried fruit and warm spice from one of Spain's finest brandy producers.",metaDesc:"Buy Torres 15 Year Brandy online. 15-year Solera Spanish brandy. $34.99."},
 {id:5103,cat:'Brandy',sub:'Spanish Brandy',name:"Torres 20 Year Brandy",dist:"Torres",region:"Penedès, Spain",abv:40,age:'20yr',price:44.99,badge:'hot',tag:'brandy',img: '/assets/images/products/torres-20-year-brandy.webp',tasting:['Deep Caramel','Complex Fruit','Rich Spice'],desc:"Twenty years of Solera aging delivers deep caramel, complex dried fruit and rich warming spice. Torres 20 consistently wins major international spirit awards.",metaDesc:"Buy Torres 20 Year Brandy online. Award-winning 20-year Solera. $44.99."},
 {id:5104,cat:'Brandy',sub:'Spanish Brandy',name:"Cardenal Mendoza Brandy",dist:"Sánchez Romate",region:"Jerez, Spain",abv:40,age:'NAS',price:39.99,badge:'',tag:'brandy',img: '/assets/images/products/torres-20-year-brandy.webp',tasting:['Rich Sherry','Dark Fruit','Oak'],desc:"Brandy de Jerez aged in Oloroso sherry casks — rich sherry sweetness, dark fruit and warm oak from one of Jerez's finest historic producers.",metaDesc:"Buy Cardenal Mendoza Brandy online. Jerez sherry oak brandy. $39.99."},
 {id:5105,cat:'Brandy',sub:'Spanish Brandy',name:"Miguel Torres Gran Reserva Brandy",dist:"Torres",region:"Penedès, Spain",abv:40,age:'NAS',price:59.99,badge:'rare',tag:'brandy',img: '/assets/images/products/miguel-torres-gran-reserva-brandy.webp',tasting:['Profound Caramel','Ancient Fruit','Rich Spice'],desc:"The flagship Torres expression — profound caramel, ancient fruit and rich spice from Torres' finest and oldest Solera reserves.",metaDesc:"Buy Miguel Torres Gran Reserva Brandy online. Torres flagship expression. $59.99."},
 
-/* ─── AMERICAN BRANDY ─────────────────────────────────────────── */
 {id:5201,cat:'Brandy',sub:'American Brandy',name:"E&J V.S Brandy",dist:"E&J Gallo Winery",region:"California, USA",abv:40,age:'NAS',price:14.99,badge:'',tag:'brandy',img: '/assets/images/products/ej-vs-brandy.webp',tasting:['Light Fruit','Smooth','Vanilla'],desc:"America's best-selling brandy. Light fruit, smooth character and vanilla from California grapes. The most accessible and versatile American brandy.",metaDesc:"Buy E&J V.S Brandy online. America's best-selling brandy. $14.99."},
 {id:5202,cat:'Brandy',sub:'American Brandy',name:"E&J V.S.O.P Brandy",dist:"E&J Gallo Winery",region:"California, USA",abv:40,age:'NAS',price:19.99,badge:'',tag:'brandy',img: '/assets/images/products/ej-vsop-brandy.webp',tasting:['Ripe Fruit','Caramel','Smooth Oak'],desc:"E&J's premium expression — ripe California fruit, caramel and smooth oak from extended aging. A richer, more complex American brandy.",metaDesc:"Buy E&J V.S.O.P Brandy online. Premium California brandy. $19.99."},
 {id:5203,cat:'Brandy',sub:'American Brandy',name:"Christian Brothers V.S Brandy",dist:"Christian Brothers",region:"California, USA",abv:40,age:'NAS',price:17.99,badge:'',tag:'brandy',img: '/assets/images/products/ej-vs-brandy.webp',tasting:['Smooth Fruit','Light Vanilla','Easy'],desc:"Made by the Christian Brothers since 1882 — smooth fruit, light vanilla and easy drinking character from California's most storied brandy producer.",metaDesc:"Buy Christian Brothers V.S Brandy online. 1882 California heritage. $17.99."},
 {id:5204,cat:'Brandy',sub:'American Brandy',name:"Paul Masson Grande Amber V.S Brandy",dist:"Paul Masson",region:"California, USA",abv:40,age:'NAS',price:14.99,badge:'',tag:'brandy',img: '/assets/images/products/paul-masson-grande-amber-vs-brandy.webp',tasting:['Caramel','Light Oak','Smooth'],desc:"Grande Amber from Paul Masson — caramel, light oak and smooth character from California grapes. A classic American brandy for everyday enjoyment.",metaDesc:"Buy Paul Masson Grande Amber V.S Brandy online. Classic California brandy. $14.99."},
 {id:5205,cat:'Brandy',sub:'American Brandy',name:"Argonaut Fat Thumb California Brandy",dist:"Argonaut Brandy",region:"California, USA",abv:40,age:'NAS',price:49.99,badge:'hot',tag:'brandy',img: '/assets/images/products/argonaut-fat-thumb-california-brandy.webp',tasting:['Rich Stone Fruit','Vanilla','Toasted Oak'],desc:"California craft brandy from Argonaut — rich stone fruit, vanilla and toasted American oak. A premium American brandy raising the bar for California distilling.",metaDesc:"Buy Argonaut Fat Thumb California Brandy online. Premium craft CA brandy. $49.99."},
 
-/* ─── SOUTH AFRICAN BRANDY ────────────────────────────────────── */
 {id:5301,cat:'Brandy',sub:'South African Brandy',name:"Klipdrift Premium Brandy",dist:"Klipdrift Distillery",region:"Robertson, South Africa",abv:43,age:'NAS',price:24.99,badge:'',tag:'brandy',img: '/assets/images/products/klipdrift-premium-brandy.webp',tasting:['Smooth Fruit','Vanilla','Light Oak'],desc:"South Africa's most popular brandy — smooth fruit, vanilla and light oak from the Robertson Winery Valley. Enjoyed across South Africa for generations.",metaDesc:"Buy Klipdrift Premium Brandy online. South Africa's most popular brandy. $24.99."},
 {id:5302,cat:'Brandy',sub:'South African Brandy',name:"KWV 10 Year Brandy",dist:"KWV",region:"Paarl, South Africa",abv:38,age:'10yr',price:34.99,badge:'hot',tag:'brandy',img: '/assets/images/products/kwv-15-year-brandy.webp',tasting:['Rich Fruit','Vanilla','Warm Spice'],desc:"10-year South African pot still brandy from KWV — rich fruit, vanilla and warm spice. South Africa produces some of the world's finest aged brandies.",metaDesc:"Buy KWV 10 Year Brandy online. 10-year South African pot still brandy. $34.99."},
 {id:5303,cat:'Brandy',sub:'South African Brandy',name:"KWV 15 Year Brandy",dist:"KWV",region:"Paarl, South Africa",abv:38,age:'15yr',price:49.99,badge:'',tag:'brandy',img: '/assets/images/products/kwv-15-year-brandy.webp',tasting:['Deep Fruit','Complex Vanilla','Rich Spice'],desc:"Fifteen years of maturation creates deep fruit, complex vanilla and rich spice. KWV's 15-year is consistently one of the most decorated brandies internationally.",metaDesc:"Buy KWV 15 Year Brandy online. Award-winning 15-year South African. $49.99."},
 {id:5304,cat:'Brandy',sub:'South African Brandy',name:"Oude Meester Brandy",dist:"Distell",region:"Stellenbosch, South Africa",abv:43,age:'NAS',price:22.99,badge:'',tag:'brandy',img: '/assets/images/products/oude-meester-brandy.webp',tasting:['Smooth Caramel','Vanilla','Light Fruit'],desc:"'The Old Master' — a classic South African blended brandy. Smooth caramel, vanilla and light fruit from the Cape Winelands. An authentic South African tradition.",metaDesc:"Buy Oude Meester Brandy online. Classic South African blended brandy. $22.99."},
 
-/* ─── CALVADOS / APPLE BRANDY ─────────────────────────────────── */
 {id:5401,cat:'Brandy',sub:'Calvados',name:"Busnel V.S.O.P Calvados",dist:"Busnel",region:"Normandy, France",abv:40,age:'NAS',price:39.99,badge:'',tag:'brandy',img: '/assets/images/products/busnel-vsop-calvados.webp',tasting:['Fresh Apple','Floral','Light Oak'],desc:"From the heart of Normandy's Pays d'Auge — fresh apple, floral notes and light oak. An approachable and authentic Calvados from one of the region's main producers.",metaDesc:"Buy Busnel V.S.O.P Calvados online. Fresh Normandy apple brandy. $39.99."},
 {id:5402,cat:'Brandy',sub:'Calvados',name:"Christian Drouin Calvados V.S.O.P",dist:"Christian Drouin",region:"Normandy, France",abv:42,age:'NAS',price:44.99,badge:'hot',tag:'brandy',img: '/assets/images/products/christian-drouin-calvados-vsop.webp',tasting:['Ripe Apple','Cider','Warm Spice'],desc:"Crafted from 100% Pays d'Auge apples — ripe apple, cider notes and warm spice from a highly regarded small Calvados producer.",metaDesc:"Buy Christian Drouin Calvados V.S.O.P online. Artisan Pays d'Auge. $44.99."},
 {id:5403,cat:'Brandy',sub:'Calvados',name:"Château du Breuil X.O Calvados",dist:"Château du Breuil",region:"Normandy, France",abv:40,age:'NAS',price:99.99,badge:'',tag:'brandy',img: '/assets/images/products/chateau-du-breuil-xo-calvados.webp',tasting:['Rich Apple','Complex Spice','Deep Oak'],desc:"X.O Calvados from the prestigious Château du Breuil estate — rich apple, complex spice and deep oak from extended aging in Normandy oak barrels.",metaDesc:"Buy Château du Breuil X.O Calvados online. Premium estate Calvados. $99.99."},
 {id:5404,cat:'Brandy',sub:'Apple Brandy',name:"Laird's Applejack Brandy",dist:"Laird & Company",region:"New Jersey, USA",abv:40,age:'NAS',price:24.99,badge:'',tag:'brandy',img: '/assets/images/products/hennessy-xo.webp',tasting:['Apple','Caramel','Light Oak'],desc:"America's oldest distillery, licensed in 1780. Applejack — America's native spirit — apple, caramel and light oak from the original American apple brandy tradition.",metaDesc:"Buy Laird's Applejack Brandy online. America's oldest distillery. $24.99."},
 {id:5405,cat:'Brandy',sub:'Apple Brandy',name:"Clear Creek Apple Brandy",dist:"Clear Creek Distillery",region:"Oregon, USA",abv:40,age:'NAS',price:49.99,badge:'hot',tag:'brandy',img: '/assets/images/products/clear-creek-apple-brandy.webp',tasting:['Crisp Apple','Pear','Light Vanilla'],desc:"Craft apple brandy from Oregon's Clear Creek — crisp Pacific Northwest apple, pear and light vanilla. One of America's most celebrated craft fruit brandies.",metaDesc:"Buy Clear Creek Apple Brandy online. Oregon craft apple brandy. $49.99."},
 
-/* ─── PISCO ───────────────────────────────────────────────────── */
 {id:5501,cat:'Brandy',sub:'Pisco',name:"Pisco Portón Mosto Verde",dist:"Hacienda La Caravedo",region:"Ica, Peru",abv:43,age:'NAS',price:44.99,badge:'hot',tag:'brandy',img: '/assets/images/products/pisco-portn-mosto-verde.webp',tasting:['Fresh Grape','Floral','Fruity'],desc:"Mosto Verde — distilled from partially fermented grape must. Intensely fresh grape aroma, delicate floral notes and vivid fruit from Peru's oldest pisco distillery.",metaDesc:"Buy Pisco Portón Mosto Verde online. Peru's oldest distillery premium pisco. $44.99."},
 {id:5502,cat:'Brandy',sub:'Pisco',name:"Barsol Quebranta Pisco",dist:"Barsol",region:"Ica, Peru",abv:41.3,age:'NAS',price:29.99,badge:'',tag:'brandy',img: '/assets/images/products/barsol-quebranta-pisco.webp',tasting:['Banana','Grape','Light Floral'],desc:"Made from 100% Quebranta grapes — the non-aromatic pisco grape. Banana, grape and light floral character from a premium Peruvian producer.",metaDesc:"Buy Barsol Quebranta Pisco online. Pure Quebranta grape pisco. $29.99."},
 {id:5503,cat:'Brandy',sub:'Pisco',name:"Capel Premium Pisco",dist:"Cooperativa Capel",region:"Elqui Valley, Chile",abv:40,age:'NAS',price:24.99,badge:'',tag:'brandy',img: '/assets/images/products/capel-premium-pisco.webp',tasting:['Fresh Grape','Floral','Smooth'],desc:"Chile's most celebrated pisco brand — fresh grape, floral aromatics and smooth finish from the cool Elqui Valley. The best introduction to Chilean pisco.",metaDesc:"Buy Capel Premium Pisco online. Chile's most celebrated pisco. $24.99."},
 
-/* ─── GRAPPA & ITALIAN BRANDY ─────────────────────────────────── */
 {id:5601,cat:'Brandy',sub:'Grappa',name:"Nonino Grappa Monovitigno",dist:"Nonino Distillery",region:"Friuli, Italy",abv:41,age:'NAS',price:54.99,badge:'hot',tag:'brandy',img: '/assets/images/products/nonino-grappa-monovitigno.webp',tasting:['Fresh Grape','Floral','Clean Fruit'],desc:"Single varietal grappa from Nonino — Italy's most celebrated grappa producer. Fresh grape, intense floral and clean fruit from a single grape pomace variety.",metaDesc:"Buy Nonino Grappa Monovitigno online. Italy's finest single varietal grappa. $54.99."},
 {id:5602,cat:'Brandy',sub:'Grappa',name:"Nardini Grappa Riserva",dist:"Bortolo Nardini",region:"Veneto, Italy",abv:50,age:'NAS',price:79.99,badge:'',tag:'brandy',img: '/assets/images/products/nardini-grappa-riserva.webp',tasting:['Oak','Dried Fruit','Complex Spice'],desc:"Aged grappa from Italy's oldest grappa producer, est. 1779. Oak influence, dried fruit and complex spice from extended aging in the historic Nardini cellars.",metaDesc:"Buy Nardini Grappa Riserva online. Italy's oldest grappa producer. $79.99."},
 {id:5603,cat:'Brandy',sub:'Grappa',name:"Jacopo Poli Sarpa di Poli",dist:"Jacopo Poli Distillery",region:"Veneto, Italy",abv:40,age:'NAS',price:44.99,badge:'',tag:'brandy',img: '/assets/images/products/jacopo-poli-sarpa-di-poli.webp',tasting:['Grape Skin','Floral','Fresh'],desc:"A classic grappa blend from one of the Veneto's most respected distilleries. Grape skin character, fresh floral notes and clean distillate purity.",metaDesc:"Buy Jacopo Poli Sarpa di Poli Grappa online. Classic Veneto grappa. $44.99."},
 {id:5604,cat:'Brandy',sub:'Italian Brandy',name:"Stock 84 V.S.O.P Brandy",dist:"Stock Spirits",region:"Trieste, Italy",abv:38,age:'NAS',price:22.99,badge:'',tag:'brandy',img: '/assets/images/products/stock-84-vsop-brandy.webp',tasting:['Smooth Fruit','Vanilla','Light Oak'],desc:"Italy's best-selling brandy — smooth fruit, vanilla and light oak from the historic Stock distillery in Trieste. An approachable Italian everyday brandy.",metaDesc:"Buy Stock 84 V.S.O.P Brandy online. Italy's best-selling brandy. $22.99."},
 
-/* ─── GLENMORANGIE ───────────────────────────────────────────── */
 {id:3001,cat:'Scotch',sub:'Highland Single Malt',name:"Glenmorangie Original 10 Year",dist:"Glenmorangie Distillery",region:"Highland, Scotland",abv:40,age:'10yr',price:34.99,badge:'',tag:'scotch',img: '/assets/images/products/glenmorangie-original-10-year.webp',tasting:['Vanilla','Floral','Peach'],desc:"The most soothing dram in the Highlands. Made using the tallest pot stills in Scotland — vanilla, floral freshness and peachy fruit in perfect harmony.",metaDesc:"Buy Glenmorangie Original 10 Year online. The Highland dram. $34.99."},
 {id:3002,cat:'Scotch',sub:'Highland Single Malt',name:"Glenmorangie Nectar D'Or 12 Year",dist:"Glenmorangie Distillery",region:"Highland, Scotland",abv:46,age:'12yr',price:64.99,badge:'hot',tag:'scotch',img: '/assets/images/products/glenmorangie-nectar-dor-12-year.webp',tasting:["Sauternes","Honey","Tropical Fruit"],desc:"Finished in Sauternes wine casks. Extraordinary honey, tropical fruit and dessert wine sweetness — one of the world's great cask finishes.",metaDesc:"Buy Glenmorangie Nectar D'Or 12 Year online. Sauternes cask finished. $64.99."},
 {id:3003,cat:'Scotch',sub:'Highland Single Malt',name:"Glenmorangie Quinta Ruban 14 Year",dist:"Glenmorangie Distillery",region:"Highland, Scotland",abv:46,age:'14yr',price:64.99,badge:'',tag:'scotch',img: '/assets/images/products/glenmorangie-quinta-ruban-14-year.webp',tasting:['Dark Chocolate','Port Wine','Mint'],desc:"Finished in ruby port casks — dark chocolate, port wine and fresh mint. The richest extra-matured Glenmorangie expression.",metaDesc:"Buy Glenmorangie Quinta Ruban 14 Year online. Port cask finished. $64.99."},
@@ -551,7 +521,6 @@ const PRODUCTS = [
 const FEATURED_IDS = ['p901','p906','p912','p1001','p924','p1019','p1028','p1029'];
 const MIN_ORDER = 150;
 
-/* ─── CRYPTO DISCOUNT ────────────────────────────────────────── */
 const CRYPTO_DISCOUNT = 0.05;  // 5% off all crypto payments
 
 function getDiscountedTotal(){
@@ -571,7 +540,6 @@ function updateCryptoDiscount(){
   if(discRow)  discRow.style.display = isCrypto ? 'flex' : 'none';
   if(discAmt)  discAmt.textContent   = '-$' + dt.discount.toFixed(2);
   if(totalEl)  totalEl.textContent = '$' + (isCrypto ? dt.total : dt.sub).toFixed(2);
-  /* Update min-order progress bar and green/red total */
   if(typeof updateMinOrderProgress==='function') updateMinOrderProgress();
 }
 function updateOrderSummaryDisplay(method){
@@ -579,8 +547,6 @@ function updateOrderSummaryDisplay(method){
   updateCryptoDiscount();
 }
 
-
-/* ─── CRYPTO WALLETS ────────────────────────────────────── */
 const WALLETS = [
   {id:'usdt-eth',label:'USDT (ETH)',icon:'₮',addr:'0x2629c24d3720E5A24adBe7Bde4677334B559C36D',network:'ERC-20'},
   {id:'usdt-trx',label:'USDT (TRX)',icon:'₮',addr:'TVQGzSJKcHXTwX6Fn8CPb6A5PmAkoCFZRh',network:'TRC-20'},
@@ -591,8 +557,6 @@ const WALLETS = [
   {id:'bnb',label:'BNB',icon:'⬡',addr:'0x2629c24d3720E5A24adBe7Bde4677334B559C36D',network:'BEP-20'},
 ];
 
-/* ─── CRYPTO DISCOUNT ──────────────────────────────────── */
-/* ─── CART ──────────────────────────────────────────────── */
 var cart = [];
 function loadCart(){try{cart=JSON.parse(localStorage.getItem('cw_cart'))||[];}catch(e){cart=[];}}
 function saveCart(){try{localStorage.setItem('cw_cart',JSON.stringify(cart));}catch(e){}}
@@ -614,7 +578,6 @@ function addToCart(id,qty){
   if(ex){ex.qty+=qty;}else{cart.push({id:p.id,name:p.name,price:p.price,qty,img:p.img,cat:p.cat});}
   saveCart();updateCartUI();
   showToast('✓ '+p.name.substring(0,30)+' added to cart');
-  /* Auto-open cart drawer so customer sees it immediately */
   openCart();
 }
 function openCart(){
@@ -636,10 +599,6 @@ function updateCartUI(){
   const total=cart.reduce((s,i)=>s+i.qty,0);
   document.querySelectorAll('.cart-count').forEach(el=>{el.textContent=total;el.style.display=total>0?'flex':'none';});
 }
-
-/* ─── RENDER PRODUCTS ───────────────────────────────────── */
-
-/* ── Product page slug helper ── */
 
 /* Slugs that have a real static product page. Products not listed here
    open the quick-view modal instead of linking to a 404. */
@@ -696,7 +655,6 @@ function filterTab(tag,btn,cid,pool){
   renderProducts(tag==='all'?pool:pool.filter(p=>p.tag===tag),cid);
 }
 
-/* ─── QUICK VIEW ────────────────────────────────────────── */
 let modalQty=1,currentModal=null;
 function openQV(id){
   const p=_findProduct(id);
@@ -723,7 +681,6 @@ function closeQV(){const ov=document.getElementById('qv-overlay');if(ov){ov.clas
 function qvQtyChange(d){modalQty=Math.max(1,modalQty+d);const e=document.getElementById('qv-qty-val');if(e)e.textContent=modalQty;}
 function qvAddToCart(){if(currentModal){addToCart(currentModal.id,modalQty);closeQV();}}
 
-/* ─── CART DRAWER ───────────────────────────────────────── */
 function toggleCart(){
   document.getElementById('cart-overlay').classList.toggle('open');
   document.getElementById('cart-drawer').classList.toggle('open');
@@ -790,7 +747,6 @@ function _rawIdFromCartEl(el){
 }
 function goCheckout(){if(getSubtotal()<MIN_ORDER){showToast('Minimum order $'+MIN_ORDER+' USD');return;}window.location.href='/checkout/';}
 
-/* ─── MOBILE NAV ────────────────────────────────────────── */
 function toggleNav(){
   const n=document.getElementById('mob-nav');
   if(!n)return;
@@ -798,16 +754,13 @@ function toggleNav(){
   document.body.style.overflow=n.classList.contains('open')?'hidden':'';
 }
 
-/* ─── AGE GATE ──────────────────────────────────────────── */
 function checkAge(){if(sessionStorage.getItem('cw_age')){const ag=document.getElementById('age-gate');if(ag)ag.style.display='none';}}
 function confirmAge(){sessionStorage.setItem('cw_age','1');const ag=document.getElementById('age-gate');if(ag){ag.style.opacity='0';ag.style.transition='opacity .3s';setTimeout(()=>ag.style.display='none',300);}}
 function denyAge(){window.location.href='https://www.responsibility.org/';}
 
-/* ─── TOAST ─────────────────────────────────────────────── */
 let toastTimer;
 function showToast(msg){const t=document.getElementById('toast');if(!t)return;t.textContent=msg;t.classList.add('show');clearTimeout(toastTimer);toastTimer=setTimeout(()=>t.classList.remove('show'),2800);}
 
-/* ─── FAQ ───────────────────────────────────────────────── */
 function toggleFaq(el){
   const item=el.closest('.faq-item');
   const isOpen=item.classList.contains('open');
@@ -815,20 +768,17 @@ function toggleFaq(el){
   if(!isOpen)item.classList.add('open');
 }
 
-/* ─── HEADER SCROLL ─────────────────────────────────────── */
 function initHeaderScroll(){
   const h=document.getElementById('site-header');
   if(!h)return;
   window.addEventListener('scroll',()=>{h.classList.toggle('scrolled',window.scrollY>10);},{passive:true});
 }
 
-/* ─── SCROLL REVEAL ─────────────────────────────────────── */
 function initReveal(){
   const obs=new IntersectionObserver((entries)=>{entries.forEach(e=>{if(e.isIntersecting){e.target.classList.add('visible');obs.unobserve(e.target);}});},{threshold:.1,rootMargin:'0px 0px -40px 0px'});
   document.querySelectorAll('.reveal').forEach(el=>obs.observe(el));
 }
 
-/* ─── NEWSLETTER ────────────────────────────────────────── */
 function subscribeNl(e){
   e.preventDefault();
   const inp=document.getElementById('nl-email');
@@ -837,7 +787,6 @@ function subscribeNl(e){
   inp.value='';
 }
 
-/* ─── CHECKOUT QR ───────────────────────────────────────── */
 function initCryptoTabs(){
   const tabs=document.querySelectorAll('.ctab');
   tabs.forEach(tab=>{
@@ -880,12 +829,9 @@ function renderCheckoutSummary(){
   } else {
     itemsEl.innerHTML=cart.map(i=>`<div class="ob-item"><span>${i.name.substring(0,28)} ×${i.qty}</span><span>$${(i.price*i.qty).toFixed(2)}</span></div>`).join('');
   }
-  /* Always recalculate subtotal + discount + total after rendering */
   updateCryptoDiscount();
 }
-/* placeOrder is defined per-page — checkout/index.html has its own full implementation */
 
-/* ─── INIT ──────────────────────────────────────────────── */
 document.addEventListener('DOMContentLoaded',()=>{
   loadCart();if(typeof checkAge==="function")checkAge();updateCartUI();initReveal();initHeaderScroll();
   const qvOv=document.getElementById('qv-overlay');

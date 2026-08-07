@@ -3,12 +3,12 @@
 # Link rel values use IANA-registered relation types (RFC 8288).
 
 /
-  Cache-Control: public, max-age=0, must-revalidate
+  Cache-Control: public, max-age=3600, must-revalidate
   X-Content-Type-Options: nosniff
   Link: </.well-known/api-catalog>; rel="api-catalog"; type="application/linkset+json", </openapi.json>; rel="service-desc"; type="application/openapi+json", </llms.txt>; rel="service-doc"; type="text/plain", </.well-known/agent-skills/index.json>; rel="describedby"; type="application/json", </sitemap.xml>; rel="describedby"; type="application/xml", <https://caskworth.com/>; rel="canonical"
 
 /*.html
-  Cache-Control: public, max-age=0, must-revalidate
+  Cache-Control: public, max-age=3600, must-revalidate
   X-Content-Type-Options: nosniff
   X-Frame-Options: SAMEORIGIN
   Referrer-Policy: strict-origin-when-cross-origin
