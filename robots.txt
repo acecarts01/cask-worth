@@ -1,0 +1,63 @@
+# Caskworth.com — robots.txt
+# https://caskworth.com/sitemap.xml
+
+User-agent: *
+Allow: /
+Disallow: /checkout/
+
+# Googlebot
+User-agent: Googlebot
+Allow: /
+Disallow: /checkout/
+
+# Bingbot
+User-agent: Bingbot
+Allow: /
+Disallow: /checkout/
+Crawl-delay: 1
+
+# Machine-readable catalogue API (read-only)
+# https://caskworth.com/openapi.json
+# https://caskworth.com/.well-known/api-catalog
+
+Sitemap: https://caskworth.com/sitemap.xml
+
+# ── AI / agent crawlers (explicitly allowed) ──
+User-agent: GPTBot
+Allow: /
+Disallow: /checkout/
+
+User-agent: OAI-SearchBot
+Allow: /
+Disallow: /checkout/
+
+User-agent: ChatGPT-User
+Allow: /
+Disallow: /checkout/
+
+User-agent: ClaudeBot
+Allow: /
+Disallow: /checkout/
+
+User-agent: Claude-User
+Allow: /
+Disallow: /checkout/
+
+User-agent: PerplexityBot
+Allow: /
+Disallow: /checkout/
+
+User-agent: Google-Extended
+Allow: /
+Disallow: /checkout/
+
+User-agent: Applebot-Extended
+Allow: /
+Disallow: /checkout/
+
+User-agent: CCBot
+Allow: /
+Disallow: /checkout/
+
+# Agent site summary
+# https://caskworth.com/llms.txt

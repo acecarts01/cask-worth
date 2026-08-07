@@ -1,0 +1,46 @@
+{
+ "linkset": [
+  {
+   "anchor": "https://caskworth.com/api/products.json",
+   "service-desc": [
+    {
+     "href": "https://caskworth.com/openapi.json",
+     "type": "application/openapi+json"
+    }
+   ],
+   "service-doc": [
+    {
+     "href": "https://caskworth.com/llms.txt",
+     "type": "text/plain"
+    }
+   ],
+   "status": [
+    {
+     "href": "https://caskworth.com/api/health.json",
+     "type": "application/json"
+    }
+   ]
+  },
+  {
+   "anchor": "https://caskworth.com/api/categories.json",
+   "service-desc": [
+    {
+     "href": "https://caskworth.com/openapi.json",
+     "type": "application/openapi+json"
+    }
+   ],
+   "service-doc": [
+    {
+     "href": "https://caskworth.com/llms.txt",
+     "type": "text/plain"
+    }
+   ],
+   "status": [
+    {
+     "href": "https://caskworth.com/api/health.json",
+     "type": "application/json"
+    }
+   ]
+  }
+ ]
+}

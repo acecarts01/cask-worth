@@ -1,0 +1,52 @@
+# Caskworth -- HTTP response headers
+# Each URL pattern appears exactly once (Cloudflare Pages parser requirement).
+# Link rel values use IANA-registered relation types (RFC 8288).
+
+/
+  Cache-Control: public, max-age=0, must-revalidate
+  X-Content-Type-Options: nosniff
+  Link: </.well-known/api-catalog>; rel="api-catalog"; type="application/linkset+json", </openapi.json>; rel="service-desc"; type="application/openapi+json", </llms.txt>; rel="service-doc"; type="text/plain", </.well-known/agent-skills/index.json>; rel="describedby"; type="application/json", </sitemap.xml>; rel="describedby"; type="application/xml", <https://caskworth.com/>; rel="canonical"
+
+/*.html
+  Cache-Control: public, max-age=0, must-revalidate
+  X-Content-Type-Options: nosniff
+  X-Frame-Options: SAMEORIGIN
+  Referrer-Policy: strict-origin-when-cross-origin
+  Link: </.well-known/api-catalog>; rel="api-catalog"; type="application/linkset+json", </openapi.json>; rel="service-desc"; type="application/openapi+json", </llms.txt>; rel="service-doc"; type="text/plain"
+
+/assets/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/favicon.ico
+  Cache-Control: public, max-age=86400
+
+/site.webmanifest
+  Cache-Control: public, max-age=86400
+  Content-Type: application/manifest+json
+
+/llms.txt
+  Content-Type: text/plain; charset=utf-8
+  Cache-Control: public, max-age=3600
+  Access-Control-Allow-Origin: *
+
+/openapi.json
+  Content-Type: application/openapi+json; charset=utf-8
+  Cache-Control: public, max-age=3600
+  Access-Control-Allow-Origin: *
+  X-Robots-Tag: noindex
+
+/api/*
+  Content-Type: application/json; charset=utf-8
+  Cache-Control: public, max-age=3600
+  Access-Control-Allow-Origin: *
+  X-Robots-Tag: noindex
+  Link: </openapi.json>; rel="service-desc"; type="application/openapi+json", </api/health.json>; rel="status"; type="application/json"
+
+/.well-known/api-catalog
+  Content-Type: application/linkset+json; charset=utf-8
+  Cache-Control: public, max-age=3600
+  Access-Control-Allow-Origin: *
+
+/.well-known/*
+  Cache-Control: public, max-age=3600
+  Access-Control-Allow-Origin: *

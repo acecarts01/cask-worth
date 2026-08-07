@@ -1,0 +1,266 @@
+{
+ "openapi": "3.1.0",
+ "info": {
+  "title": "Caskworth Catalogue API",
+  "version": "1.0.0",
+  "summary": "Read-only catalogue of premium whisky and spirits sold by Caskworth.",
+  "description": "A public, read-only JSON API exposing the Caskworth product catalogue.\n\n**There are no write, ordering, authentication or payment endpoints.** Checkout is completed by the customer on the website. Agents may read this catalogue but must not attempt to transact programmatically.\n\nCaskworth sells alcohol to adults 21 and over only. Minimum order is $150 USD.",
+  "contact": {
+   "name": "Caskworth",
+   "email": "info@caskworth.com",
+   "url": "https://caskworth.com/contact/"
+  },
+  "license": {
+   "name": "Proprietary — catalogue data, all rights reserved"
+  }
+ },
+ "servers": [
+  {
+   "url": "https://caskworth.com",
+   "description": "Production"
+  }
+ ],
+ "tags": [
+  {
+   "name": "catalogue",
+   "description": "Read-only product data"
+  },
+  {
+   "name": "status",
+   "description": "Service health"
+  }
+ ],
+ "paths": {
+  "/api/products.json": {
+   "get": {
+    "tags": [
+     "catalogue"
+    ],
+    "operationId": "listProducts",
+    "summary": "List all products",
+    "description": "Returns all 425 bottles with price, ABV, age, distillery, region, tasting notes and product URL.",
+    "responses": {
+     "200": {
+      "description": "The full catalogue",
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/ProductList"
+        }
+       }
+      }
+     }
+    }
+   }
+  },
+  "/api/categories.json": {
+   "get": {
+    "tags": [
+     "catalogue"
+    ],
+    "operationId": "listCategories",
+    "summary": "List categories with product counts",
+    "responses": {
+     "200": {
+      "description": "Category list",
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/CategoryList"
+        }
+       }
+      }
+     }
+    }
+   }
+  },
+  "/api/health.json": {
+   "get": {
+    "tags": [
+     "status"
+    ],
+    "operationId": "getHealth",
+    "summary": "Service health",
+    "responses": {
+     "200": {
+      "description": "Service status",
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/Health"
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+ },
+ "components": {
+  "schemas": {
+   "Product": {
+    "type": "object",
+    "required": [
+     "slug",
+     "name",
+     "price_usd",
+     "currency",
+     "url"
+    ],
+    "properties": {
+     "slug": {
+      "type": "string"
+     },
+     "name": {
+      "type": "string"
+     },
+     "category": {
+      "type": [
+       "string",
+       "null"
+      ]
+     },
+     "subcategory": {
+      "type": [
+       "string",
+       "null"
+      ]
+     },
+     "distillery": {
+      "type": [
+       "string",
+       "null"
+      ]
+     },
+     "region": {
+      "type": [
+       "string",
+       "null"
+      ]
+     },
+     "age": {
+      "type": [
+       "string",
+       "null"
+      ]
+     },
+     "abv_percent": {
+      "type": [
+       "number",
+       "null"
+      ]
+     },
+     "price_usd": {
+      "type": "number"
+     },
+     "currency": {
+      "type": "string",
+      "enum": [
+       "USD"
+      ]
+     },
+     "tasting_notes": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "description": {
+      "type": [
+       "string",
+       "null"
+      ]
+     },
+     "url": {
+      "type": "string",
+      "format": "uri"
+     },
+     "image": {
+      "type": [
+       "string",
+       "null"
+      ],
+      "format": "uri"
+     }
+    }
+   },
+   "ProductList": {
+    "type": "object",
+    "properties": {
+     "generated": {
+      "type": "string",
+      "format": "date"
+     },
+     "count": {
+      "type": "integer"
+     },
+     "currency": {
+      "type": "string"
+     },
+     "minimum_order_usd": {
+      "type": "number"
+     },
+     "age_restriction": {
+      "type": "string"
+     },
+     "products": {
+      "type": "array",
+      "items": {
+       "$ref": "#/components/schemas/Product"
+      }
+     }
+    }
+   },
+   "CategoryList": {
+    "type": "object",
+    "properties": {
+     "generated": {
+      "type": "string",
+      "format": "date"
+     },
+     "count": {
+      "type": "integer"
+     },
+     "categories": {
+      "type": "array",
+      "items": {
+       "type": "object",
+       "properties": {
+        "name": {
+         "type": "string"
+        },
+        "product_count": {
+         "type": "integer"
+        },
+        "url": {
+         "type": "string",
+         "format": "uri"
+        }
+       }
+      }
+     }
+    }
+   },
+   "Health": {
+    "type": "object",
+    "properties": {
+     "status": {
+      "type": "string"
+     },
+     "service": {
+      "type": "string"
+     },
+     "version": {
+      "type": "string"
+     },
+     "read_only": {
+      "type": "boolean"
+     },
+     "products": {
+      "type": "integer"
+     }
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,1143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="google-site-verification" content="ZIbj0n02_3brCTYFVckSRBPyAGcjZQGIurT0O9LQ0oc" />
+<meta name="msvalidate.01" content="514C36E83C926BAA61A7279458CA6142" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, follow">
+<title>Secure Checkout | Caskworth Premium Whisky</title>
+<meta name="description" content="Complete your Caskworth premium whisky order. Secure checkout with same-day delivery to USA and Canada.">
+<link rel="canonical" href="https://caskworth.com/checkout/">
+<link rel="api-catalog" href="/.well-known/api-catalog" type="application/linkset+json">
+<link rel="service-desc" href="/openapi.json" type="application/openapi+json">
+<link rel="service-doc" href="/llms.txt" type="text/plain">
+<link rel="describedby" href="/.well-known/agent-skills/index.json" type="application/json">
+<meta property="og:title" content="Checkout | Caskworth Premium Whisky">
+<meta property="og:url" content="https://caskworth.com/checkout/">
+<meta property="og:type" content="website">
+<link rel="icon" type="image/x-icon" href="/assets/images/favicon.ico">
+<link rel="stylesheet" href="/assets/css/style.css">
+<style id="logo-critical">
+.logo{display:flex;align-items:center;gap:10px;text-decoration:none;flex-shrink:0}
+.logo-icon{width:44px;height:44px;background:linear-gradient(150deg,#2a1a06,#0d0a04);border:1.5px solid #c9941a;border-radius:11px;display:flex;align-items:center;justify-content:center;flex-shrink:0;box-shadow:0 0 14px rgba(201,148,26,.3)}
+.logo-icon svg{width:22px;height:22px}
+.logo-text b{display:block;font-size:19px;font-weight:700;color:#1c1c1e;line-height:1}
+.logo-text small{display:block;font-size:9px;letter-spacing:.18em;text-transform:uppercase;color:#c9941a;font-weight:600}
+</style>
+<style id="checkout-css">
+/* === RESET === */
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+/* === PAGE GRID === */
+.co-wrap{max-width:1140px;margin:0 auto;padding:36px 20px 80px;display:grid;grid-template-columns:1fr 380px;gap:32px;align-items:start}
+@media(max-width:840px){.co-wrap{grid-template-columns:1fr;padding:20px 16px 60px}.co-right{order:-1}}
+/* === BREADCRUMB === */
+.co-steps{max-width:1140px;margin:0 auto;padding:16px 20px 0;display:flex;align-items:center;gap:8px;font-size:12px;color:#6b6b6b}
+.co-step{display:flex;align-items:center;gap:5px}
+.co-step.done{color:#16a34a}.co-step.active{color:#c9941a;font-weight:600}
+.co-snum{width:20px;height:20px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:9px;font-weight:700}
+.co-step.done .co-snum{background:#16a34a;color:#fff}
+.co-step.active .co-snum{background:#c9941a;color:#fff}
+.co-step.pending .co-snum{background:#f0ebe3;color:#6b6b6b}
+.co-sep{color:#ccc;font-size:12px}
+/* === CARDS === */
+.co-card{background:#fff;border:1px solid #e8e0d4;border-radius:14px;padding:24px;box-shadow:0 2px 8px rgba(0,0,0,.04);margin-bottom:0}
+.co-left{display:flex;flex-direction:column;gap:18px}
+.co-card-hd{font-family:Georgia,"Times New Roman",serif;font-size:16px;font-weight:700;color:#1c1c1e;margin-bottom:18px;padding-bottom:12px;border-bottom:1px solid #ede6da;display:flex;align-items:center;gap:8px}
+.cico{width:26px;height:26px;background:linear-gradient(135deg,#fef9ec,#fdf0ca);border:1px solid #f0d878;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:12px;flex-shrink:0}
+/* === FORM === */
+.fg{display:flex;flex-direction:column;gap:4px;margin-bottom:12px}
+.fg:last-child{margin-bottom:0}
+.fg label{font-size:12px;font-weight:600;color:#1c1c1e;letter-spacing:.02em}
+.fg .req{color:#c9941a}
+.fg input,.fg select,.fg textarea{padding:10px 13px;border:1.5px solid #e0d8cc;border-radius:8px;font-size:14px;color:#1c1c1e;background:#fff;width:100%;font-family:inherit;outline:none;transition:border-color .2s,box-shadow .2s}
+.fg input:focus,.fg select:focus,.fg textarea:focus{border-color:#c9941a;box-shadow:0 0 0 3px rgba(201,148,26,.1)}
+.fg input.err,.fg select.err{border-color:#ef4444;box-shadow:0 0 0 3px rgba(239,68,68,.08)}
+.fg textarea{resize:vertical;min-height:78px;line-height:1.5}
+.fg .hint{font-size:11px;color:#9b9b9b;margin-top:2px}
+.row2{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.row3{display:grid;grid-template-columns:2fr 1fr 1fr;gap:12px}
+@media(max-width:500px){.row2,.row3{grid-template-columns:1fr}}
+/* === PAYMENT === */
+.pay-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:0}
+@media(max-width:440px){.pay-grid{grid-template-columns:1fr}}
+.pay-opt{border:2px solid #e0d8cc;border-radius:12px;padding:12px 14px;cursor:pointer;display:flex;align-items:center;gap:10px;position:relative;background:#fff;transition:border-color .18s,background .18s;user-select:none}
+.pay-opt:hover{border-color:#c9941a;background:#fffdf5}
+.pay-opt.active{border-color:#c9941a;background:linear-gradient(135deg,#fffdf5,#fef8ea);box-shadow:0 0 0 3px rgba(201,148,26,.1)}
+.pay-ico{width:36px;height:36px;border-radius:8px;display:flex;align-items:center;justify-content:center;font-size:16px;background:#f5f0e8;flex-shrink:0}
+.pay-name{font-size:13px;font-weight:600;color:#1c1c1e}
+.pay-desc{font-size:11px;color:#6b6b6b;margin-top:1px}
+.pay-off{position:absolute;top:6px;right:6px;background:#c9941a;color:#fff;font-size:9px;font-weight:700;padding:2px 6px;border-radius:12px;letter-spacing:.05em}
+.pay-radio{width:16px;height:16px;border-radius:50%;border:2px solid #ddd;display:flex;align-items:center;justify-content:center;margin-left:auto;flex-shrink:0;transition:all .18s;font-size:9px;color:transparent}
+.pay-opt.active .pay-radio{background:#c9941a;border-color:#c9941a;color:#fff}
+/* === CRYPTO PANEL === */
+.crypto-box{display:none;margin-top:14px;background:linear-gradient(135deg,#1c0e03,#0d0803);border-radius:12px;padding:18px;color:#fff}
+.crypto-box.show{display:block}
+.crypto-discount{display:inline-flex;align-items:center;gap:5px;background:rgba(34,197,94,.15);border:1px solid rgba(34,197,94,.3);color:#4ade80;padding:4px 10px;border-radius:20px;font-size:11px;font-weight:600;margin-bottom:12px}
+.coin-tabs{display:flex;flex-wrap:wrap;gap:5px;margin-bottom:12px}
+.coin-tab{padding:4px 10px;border-radius:16px;border:1px solid rgba(201,148,26,.4);background:rgba(201,148,26,.08);color:#f0c020;font-size:10px;font-weight:600;cursor:pointer;transition:all .15s}
+.coin-tab.on,.coin-tab:hover{background:#c9941a;color:#fff;border-color:#c9941a}
+.wallet-wrap{background:rgba(255,255,255,.07);border-radius:9px;padding:12px;margin-bottom:10px}
+.wallet-tag{font-size:9px;color:#c9941a;font-weight:700;letter-spacing:.12em;text-transform:uppercase;margin-bottom:4px}
+.wallet-val{font-size:11px;font-family:'Courier New',monospace;color:#fff;word-break:break-all;line-height:1.5}
+.wallet-copy-btn{display:inline-flex;align-items:center;gap:5px;padding:6px 12px;border-radius:6px;background:rgba(201,148,26,.18);border:1px solid rgba(201,148,26,.35);color:#f0c020;font-size:10px;font-weight:600;cursor:pointer;transition:all .15s;margin-right:8px}
+.wallet-copy-btn:hover{background:#c9941a;color:#fff}
+.qr-area{display:flex;justify-content:center;margin:8px 0}
+/* === CHECKBOXES === */
+.chk-row{display:flex;align-items:flex-start;gap:9px;padding:7px 0;font-size:12px;color:#6b6b6b;line-height:1.5}
+.chk-row input{width:16px;height:16px;flex-shrink:0;accent-color:#c9941a;cursor:pointer;margin-top:1px}
+.chk-row a{color:#c9941a;text-decoration:none}
+/* === ORDER SUMMARY (right col) === */
+.co-right{display:flex;flex-direction:column;gap:14px}
+.sum-card{background:#fff;border:1px solid #e8e0d4;border-radius:14px;box-shadow:0 4px 20px rgba(0,0,0,.06)}
+.sum-head{background:linear-gradient(135deg,#2a1a06,#1a0d03);padding:15px 20px;display:flex;align-items:center;gap:10px}
+.sum-head h3{font-family:Georgia,serif;font-size:15px;color:#f0c020;font-weight:600;margin:0}
+.sum-count{margin-left:auto;background:rgba(201,148,26,.22);color:#f0c020;font-size:10px;font-weight:700;padding:2px 8px;border-radius:12px}
+/* === ITEMS === */
+.sum-items{padding:0}
+.sum-item{display:flex;align-items:center;gap:12px;padding:12px 18px;border-bottom:1px solid #f5efea}
+.sum-item:last-child{border-bottom:none}
+.sum-img{width:48px;height:48px;border-radius:8px;background:linear-gradient(135deg,#f5f0ea,#ede6da);overflow:hidden;position:relative;flex-shrink:0;display:flex;align-items:center;justify-content:center}
+.sum-img img{width:100%;height:100%;object-fit:cover}
+.sum-qbadge{position:absolute;top:-4px;right:-4px;width:16px;height:16px;border-radius:50%;background:#c9941a;color:#fff;font-size:9px;font-weight:700;display:flex;align-items:center;justify-content:center;border:1.5px solid #fff}
+.sum-info{flex:1;min-width:0}
+.sum-name{font-size:12px;font-weight:600;color:#1c1c1e;line-height:1.3}
+.sum-cat{font-size:10px;color:#6b6b6b;margin-top:1px;text-transform:uppercase;letter-spacing:.04em}
+.sum-ctrl{display:flex;align-items:center;gap:4px;margin-top:4px}
+.sum-ctrl button{width:22px;height:22px;border-radius:5px;border:1px solid #e0d8cc;background:#fff;cursor:pointer;font-size:14px;line-height:1;display:flex;align-items:center;justify-content:center;color:#1c1c1e;flex-shrink:0;transition:all .12s}
+.sum-ctrl button:hover{border-color:#c9941a;color:#c9941a}
+.sum-qnum{font-size:12px;font-weight:600;min-width:20px;text-align:center}
+.sum-rm{font-size:10px;color:#aaa;cursor:pointer;border:none;background:none;padding:0 3px;transition:color .12s}
+.sum-rm:hover{color:#ef4444}
+.sum-price{font-size:13px;font-weight:700;color:#1c1c1e;white-space:nowrap;align-self:center}
+/* === EMPTY CART === */
+.sum-empty{padding:28px 16px;text-align:center}
+.sum-empty-ico{font-size:32px;opacity:.4;margin-bottom:8px}
+.sum-empty-txt{font-size:13px;color:#6b6b6b;margin-bottom:10px}
+.shop-link{display:inline-block;padding:8px 16px;background:#c9941a;color:#fff;border-radius:8px;text-decoration:none;font-size:12px;font-weight:600}
+/* === PROGRESS BAR === */
+.min-bar{padding:10px 18px 8px;background:#faf8f5;border-top:1px solid #ede6da}
+.min-labels{display:flex;justify-content:space-between;font-size:10px;margin-bottom:4px}
+.bar-bg{height:5px;background:#ede6da;border-radius:3px;overflow:hidden}
+.bar-fill{height:100%;border-radius:3px;transition:width .5s ease,background .4s ease;width:0%;background:#ef4444}
+/* === TOTALS === */
+.sum-totals{padding:12px 18px 4px;background:#faf8f5}
+.trow{display:flex;justify-content:space-between;align-items:center;padding:4px 0;font-size:12px;color:#6b6b6b}
+.trow.disc-row{color:#16a34a}
+.trow.grand-row{font-size:16px;font-weight:700;color:#1c1c1e;padding:11px 0 5px;border-top:2px solid #ede6da;margin-top:5px}
+.trow.grand-row.met{color:#16a34a}
+/* === COUPON === */
+.sum-coupon{display:flex;gap:6px;padding:9px 18px;border-top:1px solid #ede6da}
+.sum-coupon input{flex:1;padding:8px 10px;border:1.5px solid #e0d8cc;border-radius:7px;font-size:12px;font-family:inherit;outline:none;transition:border-color .2s}
+.sum-coupon input:focus{border-color:#c9941a}
+.sum-coupon button{padding:8px 12px;border-radius:7px;background:#c9941a;color:#fff;border:none;font-size:11px;font-weight:600;cursor:pointer;white-space:nowrap}
+/* === TRUST === */
+.sum-trust{display:flex;justify-content:center;gap:12px;flex-wrap:wrap;padding:8px 18px;border-top:1px solid #ede6da}
+.sum-trust span{font-size:10px;color:#6b6b6b}
+/* === PLACE ORDER BUTTON === */
+.sum-action{padding:12px 18px 16px;background:linear-gradient(135deg,#fef9ec,#fff)}
+.place-btn{width:100%;padding:14px 20px;background:linear-gradient(135deg,#c9941a,#e8a820);color:#fff;border:none;border-radius:11px;font-size:15px;font-weight:700;cursor:pointer;display:flex;align-items:center;justify-content:center;gap:8px;box-shadow:0 4px 18px rgba(201,148,26,.3);transition:all .22s;letter-spacing:.02em}
+.place-btn:hover:not(:disabled){transform:translateY(-2px);box-shadow:0 7px 26px rgba(201,148,26,.4)}
+.place-btn:disabled{opacity:.38;cursor:not-allowed;transform:none}
+.place-note{font-size:10px;color:#6b6b6b;text-align:center;margin-top:7px}
+/* === SPINNER === */
+.spin{width:17px;height:17px;border:2.5px solid rgba(255,255,255,.3);border-top-color:#fff;border-radius:50%;animation:sp .7s linear infinite;display:none}
+.place-btn.busy .spin{display:block}
+.place-btn.busy .btn-text{display:none}
+@keyframes sp{to{transform:rotate(360deg)}}
+/* === SUCCESS MODAL === */
+.succ-overlay{display:none;position:fixed;inset:0;background:rgba(14,8,2,.88);z-index:9800;align-items:center;justify-content:center;padding:16px}
+.succ-overlay.on{display:flex}
+.succ-box{background:#fff;border-radius:20px;max-width:480px;width:100%;padding:38px 30px;text-align:center;animation:appear .38s cubic-bezier(.34,1.56,.64,1)}
+@keyframes appear{from{opacity:0;transform:scale(.88) translateY(16px)}to{opacity:1;transform:scale(1) translateY(0)}}
+.succ-ico{width:60px;height:60px;border-radius:50%;background:linear-gradient(135deg,#16a34a,#22c55e);color:#fff;font-size:28px;display:flex;align-items:center;justify-content:center;margin:0 auto 12px;box-shadow:0 6px 20px rgba(22,163,74,.22)}
+.succ-h{font-family:Georgia,serif;font-size:21px;font-weight:700;color:#1c1c1e;margin-bottom:5px}
+.succ-p{font-size:13px;color:#6b6b6b;margin-bottom:16px}
+.succ-refbox{background:#f0fdf4;border:2px solid #86efac;border-radius:10px;padding:12px;margin-bottom:12px}
+.succ-reflbl{font-size:9px;color:#6b6b6b;text-transform:uppercase;letter-spacing:.1em}
+.succ-refnum{font-size:18px;font-weight:700;font-family:monospace;color:#16a34a;margin-top:2px}
+.succ-det{text-align:left;background:#faf8f5;border-radius:8px;padding:10px 12px;font-size:11px;color:#6b6b6b;line-height:2;margin-bottom:14px}
+.succ-det strong{color:#1c1c1e}
+.succ-btns{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+.succ-wa{background:#25D366;color:#fff;padding:8px 16px;border-radius:8px;border:none;font-size:12px;font-weight:600;cursor:pointer;display:flex;align-items:center;gap:5px;text-decoration:none}
+.succ-shop{background:#c9941a;color:#fff;padding:8px 16px;border-radius:8px;font-size:12px;font-weight:600;text-decoration:none;display:inline-flex;align-items:center}
+/* === TOAST === */
+#co-toast{position:fixed;bottom:24px;left:50%;transform:translateX(-50%) translateY(70px);background:#1c1c1e;color:#fff;padding:10px 18px;border-radius:20px;font-size:12px;font-weight:500;z-index:99999;transition:transform .32s cubic-bezier(.34,1.56,.64,1);white-space:nowrap;pointer-events:none;box-shadow:0 6px 24px rgba(0,0,0,.18)}
+#co-toast.on{transform:translateX(-50%) translateY(0)}
+/* === SEO HIDE === */
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+</style>
+</head>
+<body>
+<div id="announce-bar">
+  <div class="announce-track">
+    <span class="announce-item"><span class="ann-dot"></span>Same-Day Delivery to 33 US States</span>
+    <span class="announce-item"><span class="ann-dot"></span>Premium Whisky from $24.99</span>
+    <span class="announce-item"><span class="ann-dot"></span>Minimum Order $150 USD</span>
+    <span class="announce-item"><span class="ann-dot"></span>Bourbon · Scotch · Japanese · Irish · Rye</span>
+    <span class="announce-item"><span class="ann-dot"></span>Same-Day to 7 Canadian Provinces</span>
+    <span class="announce-item"><span class="ann-dot"></span>Same-Day Delivery to 33 US States</span>
+    <span class="announce-item"><span class="ann-dot"></span>Premium Whisky from $24.99</span>
+    <span class="announce-item"><span class="ann-dot"></span>Minimum Order $150 USD</span>
+    <span class="announce-item"><span class="ann-dot"></span>Bourbon · Scotch · Japanese · Irish · Rye</span>
+    <span class="announce-item"><span class="ann-dot"></span>Same-Day to 7 Canadian Provinces</span>
+  </div>
+</div>
+<header id="site-header" role="banner">
+  <div class="header-inner">
+    <a href="/" class="logo">
+      <div class="logo-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 48" width="26" height="26" aria-hidden="true">
+          <defs>
+            <linearGradient id="cg" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0%" stop-color="#fff6c0"/>
+              <stop offset="40%" stop-color="#f0c020"/>
+              <stop offset="100%" stop-color="#8a5000"/>
+            </linearGradient>
+          </defs>
+          <rect x="6" y="22" width="28" height="5" rx="2" fill="url(#cg)"/>
+          <polygon points="8,22 11.5,8 15,22" fill="url(#cg)"/>
+          <polygon points="17,22 20,4 23,22" fill="#fff0a0"/>
+          <polygon points="25,22 28.5,8 32,22" fill="url(#cg)"/>
+          <ellipse cx="20" cy="6" rx="3.5" ry="4" fill="#fffce0" opacity=".95"/>
+          <ellipse cx="11.5" cy="10" rx="2" ry="2.2" fill="#fffce0" opacity=".8"/>
+          <ellipse cx="28.5" cy="10" rx="2" ry="2.2" fill="#fffce0" opacity=".8"/>
+          <path d="M20 27 C15 33 13 38 13 42 C13 46 16 48 20 48 C24 48 27 46 27 42 C27 38 25 33 20 27Z" fill="url(#cg)"/>
+        </svg>
+      </div>
+      <div class="logo-text"><b>Caskworth</b><small>Premium Whisky</small></div>
+    </a>
+    <nav class="site-nav" aria-label="Main navigation">
+      <a href="/" class="nav-link">Home</a>
+      <div class="nav-drop-wrap">
+        <a href="/shop/" class="nav-link nav-drop-btn">Shop <span class="drop-arrow">&#9660;</span></a>
+        <div class="nav-drop-menu">
+          <div class="ndm-col">
+            <div class="ndm-head">Whisky</div>
+            <a href="/shop/?cat=bourbon">Bourbon</a>
+            <a href="/shop/?cat=scotch">Scotch</a>
+            <a href="/shop/?cat=japanese">Japanese</a>
+            <a href="/shop/?cat=irish">Irish</a>
+            <a href="/shop/?cat=rye">Rye</a>
+            <a href="/shop/?cat=canadian">Canadian</a>
+            <a href="/shop/?cat=allocated">Rare &amp; Allocated</a>
+          </div>
+          <div class="ndm-col">
+            <div class="ndm-head">Spirits</div>
+            <a href="/shop/?cat=cognac">Cognac</a>
+            <a href="/shop/?cat=brandy">Brandy &amp; Armagnac</a>
+            <a href="/shop/?cat=gifts">Gift Sets</a>
+            <div class="ndm-divider"></div>
+            <div class="ndm-head" style="margin-top:4px;">Ultra Rare</div>
+            <a href="/shop/?cat=allocated" style="color:var(--gold);font-weight:600;">$65K – $980K</a>
+            <a href="/shop/" style="color:var(--gold);font-weight:700;margin-top:6px;display:block;">Browse All &rarr;</a>
+          </div>
+        </div>
+      </div>
+      <a href="/blog/" class="nav-link">Blog</a>
+      <a href="/how-to-order/" class="nav-link">How to Order</a>
+      <a href="/about/" class="nav-link">About</a>
+      <a href="/contact/" class="nav-link">Contact</a>
+    </nav>
+    <div class="h-actions">
+      <a href="/shop/" class="btn btn-gold btn-sm" style="display:none;" id="hdr-shop-btn">Shop Now</a>
+      <button class="h-btn" onclick="toggleCart()" aria-label="Cart">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 002 1.61h9.72a2 2 0 002-1.61L23 6H6"/></svg>
+        <span class="cart-count" style="display:none;">0</span>
+      </button>
+      <button class="hamburger" onclick="toggleNav()" aria-label="Open navigation menu" aria-expanded="false"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+
+<!-- FormSubmit backup form (hidden) -->
+<form id="fs-backup" action="https://formsubmit.co/info@caskworth.com" method="POST" target="_blank" style="display:none">
+  <input type="hidden" name="_captcha" value="false">
+  <input type="hidden" name="_template" value="box">
+  <input type="hidden" name="_next" value="https://caskworth.com/checkout/?order=success">
+  <input type="hidden" id="fs-subject" name="_subject" value="">
+  <input type="hidden" id="fs-cc" name="_cc" value="">
+  <input type="hidden" id="fs-replyto" name="_replyto" value="">
+  <input type="hidden" id="fs-ref" name="Order_Reference" value="">
+  <input type="hidden" id="fs-name" name="Customer_Name" value="">
+  <input type="hidden" id="fs-email" name="Email" value="">
+  <input type="hidden" id="fs-phone" name="Phone" value="">
+  <input type="hidden" id="fs-address" name="Delivery_Address" value="">
+  <input type="hidden" id="fs-items" name="Items_Ordered" value="">
+  <input type="hidden" id="fs-subtotal" name="Subtotal" value="">
+  <input type="hidden" id="fs-discount" name="Discount" value="">
+  <input type="hidden" id="fs-total" name="ORDER_TOTAL" value="">
+  <input type="hidden" id="fs-payment" name="Payment_Method" value="">
+  <input type="hidden" id="fs-date" name="Order_Date" value="">
+</form>
+<div id="age-gate" style="display:none;position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(15,8,2,.96);z-index:9999;align-items:center;justify-content:center;padding:20px">
+<div style="background:#fff;border-radius:18px;padding:40px;max-width:420px;width:100%;text-align:center;box-shadow:0 20px 60px rgba(0,0,0,.5)">
+<div style="font-size:42px;margin-bottom:12px">&#x1F943;</div>
+<h2 style="font-family:Georgia,serif;font-size:22px;margin-bottom:10px;color:#1c1c1e">Welcome to Caskworth</h2>
+<p style="font-size:14px;color:#6b6b6b;margin-bottom:24px;line-height:1.5">You must be 21 years of age or older to enter this site and purchase alcohol.</p>
+<button onclick="agYes()" style="display:block;width:100%;padding:14px;margin-bottom:10px;background:linear-gradient(135deg,#c9941a,#e8a820);color:#fff;border:none;border-radius:10px;font-size:15px;font-weight:700;cursor:pointer">Yes, I am 21 or older</button>
+<button onclick="agNo()" style="display:block;width:100%;padding:12px;background:#f0ebe3;color:#6b6b6b;border:none;border-radius:10px;font-size:13px;cursor:pointer">No, I am under 21</button>
+</div>
+</div>
+
+<div id="cart-overlay"></div>
+<div id="cart-drawer">
+  <div class="cart-hd"><h3>Your Cart</h3><button class="cart-x" onclick="toggleCart()" aria-label="Close cart">×</button></div>
+  <div class="cart-body" id="cart-body"></div>
+  <div id="cart-foot" style="display:none;">
+    <div class="cart-ft">
+      <div id="cart-warn"></div>
+      <div class="cart-row"><span>Subtotal</span><span id="cart-subtotal">$0.00</span></div>
+      <div class="cart-total-row"><span>Total</span><span id="cart-total-disp">$0.00</span></div>
+      <div class="min-warn" style="margin-top:10px;">Minimum order: <strong>$150.00 USD</strong></div>
+      <button class="btn btn-gold btn-full" id="cart-co-btn" onclick="goCheckout()" style="margin-top:12px;">Checkout</button>
+    </div>
+  </div>
+</div>
+
+<nav class="co-steps" aria-label="Checkout steps">
+  <div class="co-step done"><span class="co-snum">&#10003;</span> Cart</div>
+  <span class="co-sep">&#8250;</span>
+  <div class="co-step active"><span class="co-snum">2</span> Details</div>
+  <span class="co-sep">&#8250;</span>
+  <div class="co-step pending"><span class="co-snum">3</span> Confirm</div>
+</nav>
+
+<main role="main" id="main-content">
+<div class="co-wrap">
+
+<!-- LEFT COL: BILLING FORM -->
+<div class="co-left">
+
+  <!-- Contact Details -->
+  <div class="co-card">
+    <div class="co-card-hd"><span class="cico">&#128100;</span> Contact &amp; Delivery Details</div>
+    <div class="row2">
+      <div class="fg"><label>First Name <span class="req">*</span></label><input type="text" id="f-fn" placeholder="First name" autocomplete="given-name"></div>
+      <div class="fg"><label>Last Name <span class="req">*</span></label><input type="text" id="f-ln" placeholder="Last name" autocomplete="family-name"></div>
+    </div>
+    <div class="fg">
+      <label>Email Address <span class="req">*</span></label>
+      <input type="email" id="f-email" placeholder="your@email.com" autocomplete="email">
+      <span class="hint">&#128231; Order confirmation sent here automatically</span>
+    </div>
+    <div class="fg">
+      <label>Phone / WhatsApp <span class="req">*</span></label>
+      <input type="tel" id="f-phone" placeholder="+1 (555) 000-0000" autocomplete="tel">
+      <span class="hint">&#128241; Used for delivery coordination</span>
+    </div>
+    <div class="fg">
+      <label>Delivery Address <span class="req">*</span></label>
+      <input type="text" id="f-addr" placeholder="Street address, Apt / Suite" autocomplete="street-address">
+    </div>
+    <div class="row3">
+      <div class="fg"><label>City <span class="req">*</span></label><input type="text" id="f-city" placeholder="City" autocomplete="address-level2"></div>
+      <div class="fg"><label>State / Province</label><input type="text" id="f-state" placeholder="State" autocomplete="address-level1"></div>
+      <div class="fg"><label>ZIP / Postal</label><input type="text" id="f-zip" placeholder="ZIP" autocomplete="postal-code"></div>
+    </div>
+    <div class="fg">
+      <label>Country</label>
+      <select id="f-country" autocomplete="country-name">
+        <option value="US" selected>United States</option>
+        <option value="CA">Canada</option>
+        <option value="GB">United Kingdom</option>
+        <option value="AU">Australia</option>
+        <option value="DE">Germany</option>
+        <option value="FR">France</option>
+        <option value="AE">United Arab Emirates</option>
+        <option value="NG">Nigeria</option>
+        <option value="OTHER">Other Country</option>
+      </select>
+    </div>
+    <div class="fg">
+      <label>Order Notes <span style="font-weight:400;color:#6b6b6b">(optional)</span></label>
+      <textarea id="f-notes" placeholder="Delivery instructions, gift message, or any special requests..." rows="3"></textarea>
+    </div>
+  </div>
+
+  <!-- Payment Method -->
+  <div class="co-card">
+    <div class="co-card-hd"><span class="cico">&#128179;</span> Payment Method</div>
+    <div class="pay-grid">
+      <div class="pay-opt active" onclick="choosePay('crypto',this)" data-pay="crypto">
+        <div class="pay-ico">&#8383;</div>
+        <div><div class="pay-name">Cryptocurrency</div><div class="pay-desc">BTC &bull; ETH &bull; USDT &bull; SOL</div></div>
+        <span class="pay-off">5% OFF</span>
+        <div class="pay-radio">&#10003;</div>
+      </div>
+      <div class="pay-opt" onclick="choosePay('paypal',this)" data-pay="paypal">
+        <div class="pay-ico" style="background:#003087;color:#fff;font-size:13px;font-weight:800;border-radius:8px">P</div>
+        <div><div class="pay-name">PayPal</div><div class="pay-desc">Safe &amp; instant</div></div>
+        <div class="pay-radio"></div>
+      </div>
+      <div class="pay-opt" onclick="choosePay('applepay',this)" data-pay="applepay">
+        <div class="pay-ico" style="background:#000;color:#fff;font-size:18px;border-radius:8px">&#63743;</div>
+        <div><div class="pay-name">Apple Pay</div><div class="pay-desc">Touch / Face ID</div></div>
+        <div class="pay-radio"></div>
+      </div>
+      <div class="pay-opt" onclick="choosePay('chime',this)" data-pay="chime">
+        <div class="pay-ico" style="background:#05c168;color:#fff;font-size:14px;font-weight:700;border-radius:8px">$</div>
+        <div><div class="pay-name">Chime / Zelle</div><div class="pay-desc">Bank transfer</div></div>
+        <div class="pay-radio"></div>
+      </div>
+    </div>
+
+    <!-- Crypto Wallet Panel -->
+    <div class="crypto-box show" id="crypto-box">
+      <div class="crypto-discount">&#10022; 5% discount applied automatically with crypto</div>
+      <div class="coin-tabs">
+        <button class="coin-tab on" onclick="showCoin('usdt-eth',this)">USDT ERC-20</button>
+        <button class="coin-tab" onclick="showCoin('usdt-trx',this)">USDT TRC-20</button>
+        <button class="coin-tab" onclick="showCoin('btc',this)">Bitcoin</button>
+        <button class="coin-tab" onclick="showCoin('eth',this)">Ethereum</button>
+        <button class="coin-tab" onclick="showCoin('sol',this)">Solana</button>
+        <button class="coin-tab" onclick="showCoin('xrp',this)">XRP</button>
+        <button class="coin-tab" onclick="showCoin('bnb',this)">BNB</button>
+      </div>
+      <div class="wallet-wrap">
+        <div class="wallet-tag" id="w-lbl">USDT ERC-20 Address</div>
+        <div class="wallet-val" id="w-val">Loading...</div>
+      </div>
+      <div class="qr-area" id="qr-area"></div>
+      <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap">
+        <button class="wallet-copy-btn" onclick="copyWallet()">&#128203; Copy Address</button>
+      </div>
+      <p style="font-size:9px;color:#c9941a;margin-top:10px;opacity:.85">&#9888; Always verify the address before sending. Include your order reference in the transaction notes.</p>
+    </div>
+  </div>
+
+  
+  <!-- Payment instruction panels (shown by choosePay) -->
+  <div id="applepay-box" style="display:none;background:#f9f9f9;border:1px solid #e0d8cc;border-radius:12px;padding:18px">
+    <p style="font-size:14px;font-weight:700;margin-bottom:8px">&#63743; Apple Pay Instructions</p>
+    <p style="font-size:13px;color:#444;line-height:1.6">Complete your order form and click "Place Order". Our team will send you a secure Apple Pay payment link via email or WhatsApp.</p>
+  </div>
+  <div id="paypal-box" style="display:none;background:#f0f7ff;border:1px solid #b3d4f5;border-radius:12px;padding:18px">
+    <p style="font-size:14px;font-weight:700;margin-bottom:8px">P PayPal Instructions</p>
+    <p style="font-size:13px;color:#444;line-height:1.6">Complete your order form and click "Place Order". We will send a PayPal invoice to your email address. No PayPal account required.</p>
+  </div>
+  <div id="chime-box" style="display:none;background:#f0fff5;border:1px solid #86efac;border-radius:12px;padding:18px">
+    <p style="font-size:14px;font-weight:700;margin-bottom:8px">$ Chime / Zelle Instructions</p>
+    <p style="font-size:13px;color:#444;line-height:1.6">Complete your order and our team will provide Chime/Zelle payment details via WhatsApp or email. Fast, no fees.</p>
+  </div>
+
+<!-- Confirmations -->
+  <div class="co-card" style="padding:18px 24px">
+    <div class="chk-row">
+      <input type="checkbox" id="chk-age">
+      <label for="chk-age">I confirm I am <strong>21 years of age or older</strong> and legally permitted to purchase alcohol in my region. <span class="req">*</span></label>
+    </div>
+    <div class="chk-row">
+      <input type="checkbox" id="chk-terms">
+      <label for="chk-terms">I agree to the <a href="/terms-and-conditions/">Terms &amp; Conditions</a> and <a href="/privacy-policy/">Privacy Policy</a>. <span class="req">*</span></label>
+    </div>
+  </div>
+
+</div><!-- end left col -->
+
+<!-- RIGHT COL: ORDER SUMMARY -->
+<div class="co-right">
+  <div class="sum-card">
+
+    <div class="sum-head">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#c9941a" stroke-width="2.5" aria-hidden="true"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 001.99 1.61h9.72a2 2 0 001.99-1.74L23 6H6"/></svg>
+      <h3>Your Order</h3>
+      <span class="sum-count" id="sum-count">0 items</span>
+    </div>
+
+    <!-- Items populated by JS -->
+    <div id="sum-items">
+      <div class="sum-empty">
+        <div class="sum-empty-ico">&#x1F6D2;</div>
+        <div class="sum-empty-txt">Loading cart...</div>
+      </div>
+    </div>
+
+    <!-- Progress bar -->
+    <div class="min-bar">
+      <div class="min-labels">
+        <span style="color:#6b6b6b">Minimum order: $150.00</span>
+        <span id="min-right" style="color:#92400e;font-weight:700">$0 / $150</span>
+      </div>
+      <div class="bar-bg"><div class="bar-fill" id="bar-fill"></div></div>
+    </div>
+
+    <!-- Totals -->
+    <div class="sum-totals">
+      <div class="trow"><span>Subtotal</span><span id="t-sub">$0.00</span></div>
+      <div class="trow disc-row" id="t-disc-row" style="display:none">
+        <span>&#127881; 5% crypto discount</span>
+        <span id="t-disc" style="color:#16a34a">-$0.00</span>
+      </div>
+      <div class="trow"><span>Shipping</span><span style="color:#16a34a;font-weight:600">FREE</span></div>
+      <div class="trow grand-row" id="t-grand">
+        <span>Total</span>
+        <strong id="t-total">$0.00</strong>
+      </div>
+    </div>
+
+    <!-- Promo code -->
+    <div class="sum-coupon">
+      <input type="text" id="coupon-input" placeholder="Promo code" aria-label="Promo code">
+      <button onclick="applyCoupon()">Apply</button>
+    </div>
+
+    <!-- Trust badges -->
+    <div class="sum-trust">
+      <span>&#128274; SSL Secure</span>
+      <span>&#128666; Same-Day Delivery</span>
+      <span>&#10003; Authentic Bottles</span>
+    </div>
+
+    <!-- Place Order -->
+    <div class="sum-action">
+      <button class="place-btn" id="place-btn" onclick="placeOrder()">
+        <div class="spin"></div>
+        <span class="btn-text">&#128274; Place Order Securely</span>
+      </button>
+      <p class="place-note">&#128274; Your details are encrypted &amp; secure</p>
+      <p class="place-note" style="margin-top:4px">Confirmation sent to your email &amp; WhatsApp</p>
+    </div>
+
+  </div>
+</div><!-- end right col -->
+
+</div><!-- end co-wrap -->
+</main>
+
+<footer id="site-footer">
+  <div class="footer-top">
+    <div class="container">
+      <div class="footer-grid">
+
+        <!-- Brand -->
+        <div class="footer-col footer-brand">
+          <a href="/" class="logo" aria-label="Caskworth Premium Whisky — Home">
+            <div class="logo-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 48" width="22" height="22" aria-hidden="true">
+                <defs><linearGradient id="fcg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#fff6c0"/><stop offset="40%" stop-color="#f0c020"/><stop offset="100%" stop-color="#8a5000"/></linearGradient></defs>
+                <rect x="6" y="22" width="28" height="5" rx="2" fill="url(#fcg)"/>
+                <polygon points="8,22 11.5,8 15,22" fill="url(#fcg)"/>
+                <polygon points="17,22 20,4 23,22" fill="#fff0a0"/>
+                <polygon points="25,22 28.5,8 32,22" fill="url(#fcg)"/>
+                <ellipse cx="20" cy="6" rx="3.5" ry="4" fill="#fffce0" opacity=".95"/>
+                <path d="M20 27 C15 33 13 38 13 42 C13 46 16 48 20 48 C24 48 27 46 27 42 C27 38 25 33 20 27Z" fill="url(#fcg)"/>
+              </svg>
+            </div>
+            <div class="logo-text"><b>Caskworth</b><small>Premium Whisky</small></div>
+          </a>
+          <p class="footer-tagline">Buy premium whisky online with same-day delivery to 33 US states and 7 Canadian provinces.</p>
+          <div class="footer-contact">
+            <a href="https://wa.me/14482348667" rel="noopener" aria-label="WhatsApp us">&#x1F4F1; WhatsApp: +1 (448) 234-8667</a>
+            <a href="mailto:info@caskworth.com" aria-label="Email us">&#x2709; info@caskworth.com</a>
+          </div>
+        </div>
+
+        <!-- Shop by Category -->
+        <div class="footer-col">
+          <h3 class="footer-heading">Shop by Category</h3>
+          <ul class="footer-links">
+            <li><a href="/shop/">All Premium Spirits</a></li>
+            <li><a href="/shop/?cat=bourbon">Bourbon Whiskey</a></li>
+            <li><a href="/shop/?cat=scotch">Scotch Whisky</a></li>
+            <li><a href="/shop/?cat=japanese">Japanese Whisky</a></li>
+            <li><a href="/shop/?cat=cognac">Cognac &amp; Brandy</a></li>
+            <li><a href="/shop/?cat=irish">Irish Whiskey</a></li>
+            <li><a href="/shop/?cat=rye">Rye Whiskey</a></li>
+            <li><a href="/shop/?cat=canadian">Canadian Whisky</a></li>
+            <li><a href="/shop/?cat=rare">Rare &amp; Allocated</a></li>
+          </ul>
+        </div>
+
+        <!-- Top Products -->
+        <div class="footer-col">
+          <h3 class="footer-heading">Popular Bottles</h3>
+          <ul class="footer-links">
+            <li><a href="/products/blantons-original-single-barrel">Blanton&#x2019;s Original</a></li>
+            <li><a href="/products/pappy-van-winkle-20-year-family-reserve">Pappy Van Winkle 20yr</a></li>
+            <li><a href="/products/macallan-18-double-cask">Macallan 18 Year</a></li>
+            <li><a href="/products/yamazaki-18-year">Yamazaki 18 Year</a></li>
+            <li><a href="/products/hennessy-xo">Hennessy XO</a></li>
+            <li><a href="/products/hibiki-21-year">Hibiki 21 Year</a></li>
+            <li><a href="/products/johnnie-walker-blue-label">Johnnie Walker Blue</a></li>
+            <li><a href="/products/eagle-rare-10-year">Eagle Rare 10 Year</a></li>
+            <li><a href="/products/remy-martin-louis-xiii">R&#xE9;my Martin Louis XIII</a></li>
+          </ul>
+        </div>
+
+        <!-- Company + Resources -->
+        <div class="footer-col">
+          <h3 class="footer-heading">Company</h3>
+          <ul class="footer-links">
+            <li><a href="/about/">About Caskworth</a></li>
+            <li><a href="/how-to-order/">How to Order</a></li>
+            <li><a href="/wholesale/">Wholesale &amp; Trade</a></li>
+            <li><a href="/contact/">Contact Us</a></li>
+            <li><a href="/faq/">FAQ</a></li>
+            <li><a href="/reviews/">Customer Reviews</a></li>
+            <li><a href="/blog/">Whisky Blog &amp; Guides</a></li>
+          </ul>
+          <h3 class="footer-heading" style="margin-top:1.5rem">Legal</h3>
+          <ul class="footer-links">
+            <li><a href="/shipping-policy/">Shipping Policy</a></li>
+            <li><a href="/refund-and-returns/">Refunds &amp; Returns</a></li>
+            <li><a href="/terms-and-conditions/">Terms &amp; Conditions</a></li>
+            <li><a href="/privacy-policy/">Privacy Policy</a></li>
+          </ul>
+        </div>
+
+        <!-- Blog + Resources -->
+        <div class="footer-col">
+          <h3 class="footer-heading">Buying Guides</h3>
+          <ul class="footer-links">
+            <li><a href="/blog/best-bourbon-2025/">Best Bourbon 2025</a></li>
+            <li><a href="/blog/pappy-van-winkle-guide/">Pappy Van Winkle Guide</a></li>
+            <li><a href="/blog/macallan-12-vs-18/">Macallan 12 vs 18 Year</a></li>
+            <li><a href="/blog/japanese-vs-scotch/">Japanese vs Scotch Guide</a></li>
+            <li><a href="/blog/rare-whisky-investment-2025/">Whisky Investment 2025</a></li>
+            <li><a href="/blog/same-day-whiskey-delivery/">Same-Day Delivery Guide</a></li>
+          </ul>
+          <h3 class="footer-heading" style="margin-top:1.5rem">Industry Links</h3>
+          <ul class="footer-links">
+            <li><a href="https://www.distilledspirits.org/" rel="noopener nofollow" target="_blank">Distilled Spirits Council</a></li>
+            <li><a href="https://www.ttb.gov/" rel="noopener nofollow" target="_blank">TTB Regulations</a></li>
+            <li><a href="https://scotchwhiskyassociation.com/" rel="noopener nofollow" target="_blank">Scotch Whisky Association</a></li>
+            <li><a href="https://www.thewillowwhiskyclub.com/" rel="noopener nofollow" target="_blank">Whisky Investment Resources</a></li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <div class="container">
+      <div class="footer-bottom-inner">
+        <p class="footer-copy">&copy; 2025 Caskworth Premium Whisky. All rights reserved.</p>
+        <p class="footer-legal">Must be 21+ to purchase. Drink responsibly. <a href="https://www.responsibility.org/" rel="noopener nofollow" target="_blank">Responsibility.org</a> &bull; <a href="https://www.drinkaware.co.uk/" rel="noopener nofollow" target="_blank">DrinkAware</a></p>
+        <p class="footer-delivery">Same-day delivery available in: AL, AK, AZ, CA, CO, CT, DC, DE, FL, GA, HI, ID, IL, IN, IA, KY, LA, ME, MD, MA, MI, MN, MO, MT, NE, NV, NJ, NM, NY, NC, OH, OR, PA, RI, SC, TN, TX, UT, VA, WA, WI, WY &amp; 7 Canadian provinces.</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<div class="succ-overlay" id="succ-overlay" role="dialog" aria-modal="true" aria-labelledby="succ-h">
+  <div class="succ-box">
+    <div class="succ-ico">&#10003;</div>
+    <h2 class="succ-h" id="succ-h">Order Placed!</h2>
+    <p class="succ-p">Thank you &#8212; your order is confirmed and being processed.</p>
+    <div class="succ-refbox">
+      <div class="succ-reflbl">Order Reference</div>
+      <div class="succ-refnum" id="succ-ref">CW-XXXXXX</div>
+    </div>
+    <div class="succ-det" id="succ-det"></div>
+    <div class="succ-btns">
+      <button class="succ-wa" onclick="waConfirm()">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.123.555 4.11 1.528 5.837L0 24l6.337-1.507A11.945 11.945 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818a9.812 9.812 0 01-5.013-1.374l-.357-.213-3.76.893.953-3.663-.233-.374A9.818 9.818 0 012.182 12C2.182 6.57 6.57 2.182 12 2.182S21.818 6.57 21.818 12 17.43 21.818 12 21.818z"/></svg>
+        Confirm via WhatsApp
+      </button>
+      <a href="/shop/" class="succ-shop">Continue Shopping</a>
+    </div>
+  </div>
+</div>
+
+<div id="co-toast" role="status" aria-live="polite"></div>
+
+<!-- QRCode.js loaded AFTER content — never blocks rendering -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js" async></script>
+<script src="/assets/js/app.js" defer></script>
+<script src="/assets/js/new_products.js" defer></script>
+<script src="/assets/js/ultra_products.js" defer></script>
+<script src="/assets/js/more_products.js" defer></script>
+<script src="/assets/js/webmcp.js"></script>
+
+<script>
+
+/* === CASKWORTH CHECKOUT ENGINE === */
+/* Ensure cart variable exists even before app.js loads */
+if (typeof cart === 'undefined') { var cart = []; }
+/* Self-bootstrap: read from localStorage immediately */
+(function() {
+  try {
+    var _s = localStorage.getItem('cw_cart');
+    if (_s) { cart = JSON.parse(_s) || []; }
+  } catch(e) {}
+})();
+
+var CO_MIN  = 150;
+var CO_DISC = 0.05;
+var CO_PAY  = 'crypto';
+var CO_WKEY = 'usdt-eth';
+var CO_WA   = '';
+
+var CO_WALLETS = {
+  'usdt-eth': { label:'USDT (ERC-20)', addr:'0x2629c24d3720E5A24adBe7Bde4677334B559C36D', qr:'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJQAAACUCAAAAABQV18IAAABpElEQVR4nO3QMXLEMAxDUd//0ptWg3xQTJUdGGxsSxT45OfzhfX8N4CqqG0Vta2itlXUtoraVlHbKmpbv1DPUNp36z/PbHOLykTp2oRwe3TRKbeofJQbPMGo5y+5Rb0PRUMIMZ0tqig9vFl3VdS7UbR+7hHK9d5yi8pHuZowm+eUW1QuigJ13fXTux1s1ovKQymIgBP27KfBU05RmSgKPtdpqA2Xfeqns0Vloc4AN9wFE5AupVlFZaMIpqHumxDTBel8UXkoCiLghHJDFWdzi4pCucMaQKEK0ZwJWlQuiobdhruLEMbBi8pFuQH0TVjdmzAEKioPdR6i57RGQ92lHKioPJQbsNnf9N+yi8pDYdMRot/nUwdqHoGKyke5oQ5w63cXcD+gqDwUDaaawITaZBSViTrDpiE3iL7fMorKRT2XmnoIQhco6n0oXdNhDqTnde92tqhslB6iJ2Fu+AlT1DtRrvdcmzLou6h3ozREg29DV5ctKhI1rU9Y7aMchRWVj3JFgwhF77fLFZWL+oYqaltFbauobRW1raK2VdS2itrWV6J+ACDVa5padVi5AAAAAElFTkSuQmCC' },
+  'usdt-trx': { label:'USDT (TRC-20)', addr:'TVQGzSJKcHXTwX6Fn8CPb6A5PmAkoCFZRh', qr:'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJQAAACUCAAAAABQV18IAAABn0lEQVR4nO3SS27EMAwD0Nz/0u1WYEmZKVB0QFObJLI+z4N5vj4wnv8GsCjKjaLcKMqNotwoyo2i3CjKjR+oZwmsw+fW584tKhOFObac1apeZ25R+Sj1R93eFf40t6h7Uada9l5UUafmmcOe+X3qL+o+1JbfUAzkzi0qF6ViDnnzPEVR2ajfLlaXw3PE0v1FRaHeLJ7DcRnmcf46s6golAv5C3BRmSi2cItZ4/SxmqKyUWrwBlcwhsMZdH9RUSgczIbimboMq9kuUFQmSoHY91br9tP9RUWh5gCWZxB8V33sjPYUFYVSS938PJ+xnReVjWID2FMh2Tv2FHUXChcrmHrf+hS0qGyUGqAWIozNe3tWVBYKMRMwnyqHeXURVVNUHkoWilDnW4+aUVQmasJoA1mIMPWtckVlo55DbDUbml1UAYvKQ2HOHaZq384pKhPF/qjuN1vMQv0IRd2FwnrsRRA7Uxco6k6UGozD2TerLeoeFMtPkMq5sHVXUXEoFdtyrGOXceqLykN9QhTlRlFuFOVGUW4U5UZRbhTlxkeivgEGPKppTLE4AAAAAABJRU5ErkJggg==' },
+  'btc': { label:'Bitcoin (BTC)', addr:'bc1qdhgnlpctw37vg825eejkknurpm23a5lsthfdhg', qr:'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJQAAACUCAAAAABQV18IAAABj0lEQVR4nO3Sy26EQBBDUf7/p5MtcuzCrIKqrzcwTT1OS3P9fDDXfwNcQLUB1QZUG1BtQLUB1QZUmz+o6yF2yO1bqn8zE9Q+VFqcns1FnuaC2o9yQ59AbmkzFxQoB9LhrhYUqHbYVAcKlCuKzbJIEU/LQZ2DSlHI2+c0F9RelBuo501NWuouCGo3Shua5QmRUO4d1F7UG8hUo2cusR7UKlRa7JZPgITRHaD2o1xTAk0LG1QKqF2o1JgWPEFdrdsHai+qgcVhYfmEBLUfpUt1UFr8phfUWag0fBpy/6YIF7cL1F6Ug+i5Ip++ue9pD6h9KDf8qaapTU9Q+1G2SP6wbuAlcX2gzkRpsTZNSycsqHNRDUZrp/4rZJwBahVKC/XdoR14ukgCgtqJck3TgOkS99/3p3sHtRuVFqeFehmHmXpAnYGalthBJuk8XRzUeaj0ntBNj70gqGNQblCLcjv0HdRulDvXYQp3qLcgUDtRKW6oDna/E8T1g9qH+kJAtQHVBlQbUG1AtQHVBlSbT6J+AfspqXh1ECOEAAAAAElFTkSuQmCC' },
+  'eth': { label:'Ethereum (ETH)', addr:'0x2629c24d3720E5A24adBe7Bde4677334B559C36D', qr:'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJQAAACUCAAAAABQV18IAAABpElEQVR4nO3QMXLEMAxDUd//0ptWg3xQTJUdGGxsSxT45OfzhfX8N4CqqG0Vta2itlXUtoraVlHbKmpbv1DPUNp36z/PbHOLykTp2oRwe3TRKbeofJQbPMGo5y+5Rb0PRUMIMZ0tqig9vFl3VdS7UbR+7hHK9d5yi8pHuZowm+eUW1QuigJ13fXTux1s1ovKQymIgBP27KfBU05RmSgKPtdpqA2Xfeqns0Vloc4AN9wFE5AupVlFZaMIpqHumxDTBel8UXkoCiLghHJDFWdzi4pCucMaQKEK0ZwJWlQuiobdhruLEMbBi8pFuQH0TVjdmzAEKioPdR6i57RGQ92lHKioPJQbsNnf9N+yi8pDYdMRot/nUwdqHoGKyke5oQ5w63cXcD+gqDwUDaaawITaZBSViTrDpiE3iL7fMorKRT2XmnoIQhco6n0oXdNhDqTnde92tqhslB6iJ2Fu+AlT1DtRrvdcmzLou6h3ozREg29DV5ctKhI1rU9Y7aMchRWVj3JFgwhF77fLFZWL+oYqaltFbauobRW1raK2VdS2itrWV6J+ACDVa5padVi5AAAAAElFTkSuQmCC' },
+  'sol': { label:'Solana (SOL)', addr:'GdNUybxyu8cBY7snHAZsdopH6WKdHBVXo5d79mR9PhJ', qr:'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKQAAACkCAAAAAA83tqdAAAB8ElEQVR4nO3TQW7DMAxE0dz/0u3WmM4M5YZAG/hzY1sSyUcheX19QLz+GnASILcC5FaA3AqQWwFyK0BuBcit+IF8DRELyZmU2/ZTD5AgJ0QqqrkTLPUBCTIVvhZLhR3UwdtT+4AE+Q5S91Ke5oIEuYGcQFojDQES5G+Q0/r1W9/TXjoz9QcJMsW1yDvPKUCCdNDrc2vfQRIMJMjUwDW8rqWmKc/B3TtIkCfQtOegDdXWHBTks5EJ5hq/JBraNg8DgwR5Ak2oE5gbJOVZD8hHIxuwgV2zCXpSAyRIV7zt62Du/e5wIEFqEcVNxVLOneHqYCAfjVSUJmnBBkz7KR8kSIdsxbRhg6W8dAEJCBKkJjhIgqY9h0zfIEFODRSu0JPGd5B2aJCPRirQwdK6O+dqt+FsDshHI11SLVBgDXP9dusgQbri6V0bTHsnFwASZEI2kAJaA9cs7bkeIEFqUkwwqNQ0vadh03Agn41ssPadBlSIi1QXJMg7iDacg6XcBAYJMiW5Ato45beB3SDxAkA+HqlrbT2dsc0MwqFBgkxJ7g+gkPajv5PTLgEkyIRMzaem7ZzbBwnyDjI90yDT2QQGCbIdck21+DSoGzpdBEiQDtOKnw4wAVNPkCD/e4DcCpBbAXIrQG4FyK0AuRUgt+IjkN8nv7/u2NVM9QAAAABJRU5ErkJggg==' },
+  'xrp': { label:'XRP', addr:'rBiWxdA3a27BXYC9ZwQRTyFdXNWaEjLfBr', qr:'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJQAAACUCAAAAABQV18IAAABkElEQVR4nO3PQW4DMQxD0dz/0u0qwIAlZU42DTSfmySOTD2/fr4wr/8GuIBqA6oNqDag2oBqA6oNqDZ/UK8haSbde5+3vaD2ovRsKm/vnnpB7UfpYv3uZu4+ChSoVJTmQIFqUK5sQoIC5YYaxARqe0HtRaVcS+58ngJqN2pa4Gam/6eeBAK1D5WKpsUOkBafHgNqH0ohunD6nXL3DqhdqOvl9Hkt/ASaukDtRLlLCeHOXZc+TL+D2o3SggScFrk76T6o/ShXej13Cxy6fZDDgdqFShdTgaLc2QkLajcqgbTkdJbQqQ/UXlRaqoUT7BYA1HqUgyXEabGb03m7H9QqlF6YljtM+pzQoHajEmT6TxdNne7BoHajGkTzkCkKA7UbNUE+PU/doJ6B0gVpYcIk1PVz6gS1E6VnuiCdpcWnR4N6BkovuRK3oEFoL6jnonR2mr+euTvpEaCeh0pF+p/OKNZ9B7UbNZ034DSj83YXqHWolFOhQ7mlDg1qL+obAqoNqDag2oBqA6oNqDag2nwl6hdUIirp/CdeKAAAAABJRU5ErkJggg==' },
+  'bnb': { label:'BNB (BSC)', addr:'0x2629c24d3720E5A24adBe7Bde4677334B559C36D', qr:'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJQAAACUCAAAAABQV18IAAABpElEQVR4nO3QMXLEMAxDUd//0ptWg3xQTJUdGGxsSxT45OfzhfX8N4CqqG0Vta2itlXUtoraVlHbKmpbv1DPUNp36z/PbHOLykTp2oRwe3TRKbeofJQbPMGo5y+5Rb0PRUMIMZ0tqig9vFl3VdS7UbR+7hHK9d5yi8pHuZowm+eUW1QuigJ13fXTux1s1ovKQymIgBP27KfBU05RmSgKPtdpqA2Xfeqns0Vloc4AN9wFE5AupVlFZaMIpqHumxDTBel8UXkoCiLghHJDFWdzi4pCucMaQKEK0ZwJWlQuiobdhruLEMbBi8pFuQH0TVjdmzAEKioPdR6i57RGQ92lHKioPJQbsNnf9N+yi8pDYdMRot/nUwdqHoGKyke5oQ5w63cXcD+gqDwUDaaawITaZBSViTrDpiE3iL7fMorKRT2XmnoIQhco6n0oXdNhDqTnde92tqhslB6iJ2Fu+AlT1DtRrvdcmzLou6h3ozREg29DV5ctKhI1rU9Y7aMchRWVj3JFgwhF77fLFZWL+oYqaltFbauobRW1raK2VdS2itrWV6J+ACDVa5padVi5AAAAAElFTkSuQmCC' }
+};
+
+/* --- Age gate --- */
+function agYes() {
+  try { sessionStorage.setItem('cw_age','1'); } catch(e){}
+  var el = document.getElementById('age-gate');
+  if (el) el.style.display = 'none';
+}
+function agNo() {
+  window.location.href = 'https://www.google.com';
+}
+function checkAge() {
+  var ok = false;
+  try { ok = sessionStorage.getItem('cw_age') === '1'; } catch(e){}
+  var el = document.getElementById('age-gate');
+  if (!el) return;
+  el.style.display = ok ? 'none' : 'flex';
+}
+
+/* --- Payment selection --- */
+function choosePay(method, el) {
+  CO_PAY = method;
+  document.querySelectorAll('.pay-opt').forEach(function(o) {
+    o.classList.remove('active');
+    var r = o.querySelector('.pay-radio');
+    if (r) r.textContent = '';
+  });
+  if (el) {
+    el.classList.add('active');
+    var rr = el.querySelector('.pay-radio');
+    if (rr) rr.textContent = String.fromCharCode(10003);
+  }
+  /* Show/hide payment panels */
+  var panels = ['crypto-box','applepay-box','paypal-box','chime-box'];
+  panels.forEach(function(id) {
+    var p = document.getElementById(id);
+    if (p) p.style.display = 'none';
+  });
+  var active = document.getElementById(method + '-box');
+  if (active) active.style.display = 'block';
+  recalc();
+}
+
+/* --- Wallet display --- */
+function showCoin(key, btn) {
+  CO_WKEY = key;
+  document.querySelectorAll('.coin-tab').forEach(function(b) { b.classList.remove('on'); });
+  if (btn) btn.classList.add('on');
+  var w = CO_WALLETS[key] || {};
+  /* Label */
+  var lbl = document.getElementById('w-lbl');
+  if (lbl) lbl.textContent = w.label || '';
+  /* Address */
+  var val = document.getElementById('w-val');
+  if (val) val.textContent = w.addr || 'Contact us for wallet address';
+  /* QR code — show embedded PNG, fallback to QRCode.js */
+  var qrEl = document.getElementById('qr-area');
+  if (qrEl) {
+    qrEl.innerHTML = '';
+    if (w.qr) {
+      /* Show pre-generated QR image (embedded, always works) */
+      var img = document.createElement('img');
+      img.src = w.qr;
+      img.alt = 'QR code for ' + (w.label || key) + ' wallet';
+      img.style.cssText = 'width:140px;height:140px;border-radius:8px;background:#fff;padding:6px;display:block;margin:0 auto';
+      qrEl.appendChild(img);
+    } else if (typeof QRCode !== 'undefined' && w.addr && w.addr.length > 8) {
+      /* Fallback: generate via QRCode.js */
+      try {
+        new QRCode(qrEl, { text: w.addr, width: 130, height: 130, colorDark: '#1a0d03', colorLight: '#fff' });
+      } catch(e) {}
+    }
+  }
+}
+function copyWallet() {
+  var w = CO_WALLETS[CO_WKEY] || {};
+  if (!w.addr || w.addr.indexOf('YOUR_') >= 0) { toast('Wallet address not configured yet.'); return; }
+  if (navigator.clipboard) {
+    navigator.clipboard.writeText(w.addr).then(function() { toast('Address copied!'); });
+  } else {
+    var ta = document.createElement('textarea');
+    ta.value = w.addr; document.body.appendChild(ta); ta.select(); document.execCommand('copy');
+    document.body.removeChild(ta); toast('Address copied!');
+  }
+}
+
+/* --- Cart subtotal --- */
+function getSub() {
+  if (typeof cart === 'undefined' || !cart) return 0;
+  var s = 0;
+  for (var i = 0; i < cart.length; i++) {
+    s += (parseFloat(cart[i].price) || 0) * (parseInt(cart[i].qty) || 1);
+  }
+  return s;
+}
+
+/* --- Set element text safely --- */
+function setText(id, v) {
+  var el = document.getElementById(id);
+  if (el) el.textContent = v;
+}
+
+/* --- Recalculate totals + progress bar --- */
+function recalc() {
+  var sub   = getSub();
+  var disc  = CO_PAY === 'crypto' ? Math.round(sub * CO_DISC * 100) / 100 : 0;
+  var total = sub - disc;
+  var pct   = sub <= 0 ? 0 : Math.min(100, Math.round((sub / CO_MIN) * 100));
+  var met   = sub >= CO_MIN && sub > 0;
+
+  setText('t-sub',   '$' + sub.toFixed(2));
+  setText('t-total', '$' + total.toFixed(2));
+  setText('t-disc',  '-$' + disc.toFixed(2));
+
+  var dr = document.getElementById('t-disc-row');
+  if (dr) dr.style.display = disc > 0 ? 'flex' : 'none';
+
+  var gRow = document.getElementById('t-grand');
+  if (gRow) gRow.classList.toggle('met', met);
+
+  var fill = document.getElementById('bar-fill');
+  if (fill) {
+    fill.style.width = pct + '%';
+    fill.style.background = met ? '#16a34a' : pct > 55 ? '#f59e0b' : '#ef4444';
+  }
+
+  var minLbl = document.getElementById('min-right');
+  if (minLbl) {
+    minLbl.textContent = met ? 'Min. order met!' : '$' + (CO_MIN - sub).toFixed(2) + ' more needed';
+    minLbl.style.color = met ? '#16a34a' : '#92400e';
+    minLbl.style.fontWeight = '700';
+  }
+
+  var qty = 0;
+  if (typeof cart !== 'undefined') {
+    for (var i = 0; i < cart.length; i++) qty += (parseInt(cart[i].qty) || 1);
+  }
+  setText('sum-count', qty + ' item' + (qty !== 1 ? 's' : ''));
+
+  var btn = document.getElementById('place-btn');
+  if (btn) {
+    /* Always clickable — validation happens inside placeOrder() */
+    btn.disabled = false;
+    btn.style.opacity = '1';
+    btn.style.cursor = 'pointer';
+    btn.style.pointerEvents = 'all';
+  }
+}
+
+/* --- Render order summary items --- */
+function renderSummary() {
+  var el = document.getElementById('sum-items');
+  if (!el) return;
+
+  if (typeof cart === 'undefined' || !cart || cart.length === 0) {
+    el.innerHTML = '<div class="sum-empty"><div class="sum-empty-ico">&#x1F6D2;</div><div class="sum-empty-txt">Your cart is empty</div><a href="/shop/" class="shop-link">Browse Spirits</a></div>';
+    recalc();
+    return;
+  }
+
+  var html = '';
+  for (var i = 0; i < cart.length; i++) {
+    var item = cart[i];
+    var name = (item.name || '').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+    var imgHtml = '';
+    if (item.img) {
+      imgHtml = '<img src="' + item.img + '" alt="' + name + '" loading="lazy" style="width:100%;height:100%;object-fit:cover">';
+    }
+    var lineTotal = ((parseFloat(item.price) || 0) * (parseInt(item.qty) || 1)).toFixed(2);
+    html += '<div class="sum-item">';
+    html += '<div class="sum-img">' + imgHtml;
+    html += '<span class="sum-qbadge">' + (item.qty || 1) + '</span></div>';
+    html += '<div class="sum-info">';
+    html += '<div class="sum-name">' + name + '</div>';
+    html += '<div class="sum-cat">' + (item.cat || 'Premium Spirit') + '</div>';
+    html += '<div class="sum-ctrl">';
+    html += '<button onclick="adjQty(' + i + ',-1)" aria-label="Decrease">&#8722;</button>';
+    html += '<span class="sum-qnum">' + (item.qty || 1) + '</span>';
+    html += '<button onclick="adjQty(' + i + ',1)" aria-label="Increase">+</button>';
+    html += '<button class="sum-rm" onclick="removeItem(' + i + ')" aria-label="Remove">&#10005; Remove</button>';
+    html += '</div></div>';
+    html += '<div class="sum-price">$' + lineTotal + '</div>';
+    html += '</div>';
+  }
+  el.innerHTML = html;
+  recalc();
+}
+
+function adjQty(i, d) {
+  if (typeof cart === 'undefined' || !cart[i]) return;
+  cart[i].qty = Math.max(1, (parseInt(cart[i].qty) || 1) + d);
+  if (typeof saveCart === 'function') saveCart();
+  if (typeof updateCartUI === 'function') updateCartUI();
+  renderSummary();
+}
+function removeItem(i) {
+  if (typeof cart === 'undefined') return;
+  cart.splice(i, 1);
+  if (typeof saveCart === 'function') saveCart();
+  if (typeof updateCartUI === 'function') updateCartUI();
+  renderSummary();
+}
+function applyCoupon() {
+  var code = ((document.getElementById('coupon-input') || {}).value || '').trim().toUpperCase();
+  toast(code ? 'Code "' + code + '" is not valid.' : 'Enter a promo code first.');
+}
+
+/* --- Validation --- */
+function validateForm() {
+  var required = [
+    { id: 'f-fn',    msg: 'Enter your first name.' },
+    { id: 'f-ln',    msg: 'Enter your last name.' },
+    { id: 'f-email', msg: 'Enter your email address.' },
+    { id: 'f-phone', msg: 'Enter your phone number.' },
+    { id: 'f-addr',  msg: 'Enter your delivery address.' },
+    { id: 'f-city',  msg: 'Enter your city.' }
+  ];
+  for (var i = 0; i < required.length; i++) {
+    var el = document.getElementById(required[i].id);
+    if (!el || !el.value.trim()) {
+      if (el) { el.classList.add('err'); el.focus(); }
+      toast(required[i].msg);
+      return false;
+    }
+    el.classList.remove('err');
+  }
+  var em = document.getElementById('f-email');
+  if (em && !/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(em.value)) {
+    em.classList.add('err'); em.focus();
+    toast('Enter a valid email address.');
+    return false;
+  }
+  var ageChk = document.getElementById('chk-age');
+  if (!ageChk || !ageChk.checked) { toast('Please confirm you are 21+ to proceed.'); return false; }
+  var termsChk = document.getElementById('chk-terms');
+  if (!termsChk || !termsChk.checked) { toast('Please agree to the Terms & Conditions.'); return false; }
+  if (getSub() < CO_MIN) {
+    toast('Minimum order is $' + CO_MIN + '. Add $' + (CO_MIN - getSub()).toFixed(2) + ' more.');
+    return false;
+  }
+  return true;
+}
+
+/* --- Send email via FormSubmit --- */
+function sendOrderEmail(data, callback) {
+  /* Fill the HTML backup form */
+  function setField(id, val) { var el=document.getElementById(id); if(el) el.value=val; }
+  setField('fs-subject', 'New Order ' + data.ref + ' - Caskworth Premium Whisky');
+  setField('fs-cc',      data.email);
+  setField('fs-replyto', data.email);
+  setField('fs-ref',     data.ref);
+  setField('fs-name',    data.name);
+  setField('fs-email',   data.email);
+  setField('fs-phone',   data.phone);
+  setField('fs-address', data.address);
+  setField('fs-items',   data.items);
+  setField('fs-subtotal',data.subtotal);
+  setField('fs-discount',data.discount);
+  setField('fs-total',   data.total);
+  setField('fs-payment', data.payment);
+  setField('fs-date',    new Date().toLocaleString('en-US',{dateStyle:'full',timeStyle:'short'}));
+
+  var payload = {
+    '_subject':       'New Order ' + data.ref + ' - Caskworth Premium Whisky',
+    '_template':      'box',
+    '_captcha':       'false',
+    '_cc':            data.email,
+    '_replyto':       data.email,
+    'Order_Ref':      data.ref,
+    'Customer_Name':  data.name,
+    'Email':          data.email,
+    'Phone':          data.phone,
+    'Address':        data.address,
+    'Items_Ordered':  data.items,
+    'Subtotal':       data.subtotal,
+    'Crypto_Discount':data.discount,
+    'ORDER_TOTAL':    data.total,
+    'Payment_Method': data.payment,
+    'Order_Date':     new Date().toLocaleString('en-US', { dateStyle: 'full', timeStyle: 'short' })
+  };
+
+  fetch('https://formsubmit.co/ajax/info@caskworth.com', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
+    body: JSON.stringify(payload)
+  })
+  .then(function(r) { return r.json(); })
+  .then(function(j) { callback(j.success === 'true' || j.success === true); })
+  .catch(function() {
+    /* Fallback: submit the pre-filled hidden form */
+    try {
+      var fbk = document.getElementById('fs-backup');
+      if (fbk) { fbk.submit(); callback(true); return; }
+    } catch(e2) {}
+    callback(false);
+  });
+}
+
+/* --- Place order --- */
+function placeOrder() {
+  if (!validateForm()) return;
+
+  var btn = document.getElementById('place-btn');
+  btn.disabled = true;
+  btn.classList.add('busy');
+
+  var fn    = (document.getElementById('f-fn')    || {}).value.trim();
+  var ln    = (document.getElementById('f-ln')    || {}).value.trim();
+  var email = (document.getElementById('f-email') || {}).value.trim();
+  var phone = (document.getElementById('f-phone') || {}).value.trim();
+  var addr  = (document.getElementById('f-addr')  || {}).value.trim();
+  var city  = (document.getElementById('f-city')  || {}).value.trim();
+  var state = (document.getElementById('f-state') || {}).value.trim();
+  var zip   = (document.getElementById('f-zip')   || {}).value.trim();
+  var cntry = '';
+  var cntryEl = document.getElementById('f-country');
+  if (cntryEl && cntryEl.selectedOptions && cntryEl.selectedOptions[0]) {
+    cntry = cntryEl.selectedOptions[0].text;
+  }
+  var notes = (document.getElementById('f-notes') || {}).value.trim();
+
+  var addrFull = [addr, city, state, zip, cntry].filter(function(v) { return v && v.trim(); }).join(', ');
+  if (notes) addrFull += ' | Notes: ' + notes;
+
+  var sub   = getSub();
+  var disc  = CO_PAY === 'crypto' ? Math.round(sub * CO_DISC * 100) / 100 : 0;
+  var total = sub - disc;
+
+  var ref = 'CW-' + Date.now().toString(36).toUpperCase().slice(-6).replace(/[^A-Z0-9]/g,'X');
+
+  var itemsList = [];
+  if (typeof cart !== 'undefined') {
+    for (var i = 0; i < cart.length; i++) {
+      itemsList.push(cart[i].name + ' x' + (cart[i].qty || 1) + ' @ $' + parseFloat(cart[i].price).toFixed(2) + ' = $' + (parseFloat(cart[i].price) * (cart[i].qty || 1)).toFixed(2));
+    }
+  }
+  var itemsStr = itemsList.join(' | ');
+
+  var data = {
+    ref:      ref,
+    name:     fn + ' ' + ln,
+    email:    email,
+    phone:    phone,
+    address:  addrFull,
+    items:    itemsStr,
+    subtotal: '$' + sub.toFixed(2) + ' USD',
+    discount: disc > 0 ? '-$' + disc.toFixed(2) + ' (5% crypto)' : 'None',
+    total:    '$' + total.toFixed(2) + ' USD',
+    payment:  CO_PAY.toUpperCase()
+  };
+
+  CO_WA = 'NEW ORDER ' + ref
+    + ' | Customer: ' + fn + ' ' + ln
+    + ' | Email: ' + email
+    + ' | Phone: ' + phone
+    + ' | Address: ' + addrFull
+    + ' | Items: ' + itemsStr
+    + ' | TOTAL: $' + total.toFixed(2) + ' USD'
+    + ' | Payment: ' + CO_PAY.toUpperCase();
+
+  sendOrderEmail(data, function(sent) {
+    btn.disabled = false;
+    btn.classList.remove('busy');
+
+    /* Clear cart */
+    if (typeof cart !== 'undefined') cart = [];
+    if (typeof saveCart    === 'function') saveCart();
+    if (typeof updateCartUI === 'function') updateCartUI();
+
+    /* Show success */
+    setText('succ-ref', ref);
+    var det = document.getElementById('succ-det');
+    if (det) {
+      det.innerHTML =
+        '<div><strong>Name:</strong> ' + fn + ' ' + ln + '</div>' +
+        '<div><strong>Email:</strong> ' + email + '</div>' +
+        '<div><strong>Total:</strong> $' + total.toFixed(2) + ' USD</div>' +
+        '<div><strong>Payment:</strong> ' + CO_PAY.toUpperCase() + '</div>' +
+        '<div style="margin-top:6px;padding-top:6px;border-top:1px solid #e8e0d4">' +
+        (sent
+          ? 'Confirmation sent to ' + email + ' and info@caskworth.com'
+          : 'Email delivery failed. Please confirm via WhatsApp below.') +
+        '</div>';
+    }
+    var overlay = document.getElementById('succ-overlay');
+    if (overlay) overlay.classList.add('on');
+
+    /* Auto WhatsApp to store */
+    setTimeout(function() {
+      window.open('https://wa.me/14482348667?text=' + encodeURIComponent(CO_WA), '_blank');
+    }, 700);
+
+    renderSummary();
+  });
+}
+/* Save checkout's placeOrder before deferred scripts can overwrite it */
+var _co_placeOrder = placeOrder;
+
+function waConfirm() {
+  window.open('https://wa.me/14482348667?text=' + encodeURIComponent(CO_WA), '_blank');
+}
+
+/* --- Toast --- */
+function toast(msg) {
+  var el = document.getElementById('co-toast');
+  if (!el) return;
+  el.textContent = msg;
+  el.classList.add('on');
+  clearTimeout(window._toastTmr);
+  window._toastTmr = setTimeout(function() { el.classList.remove('on'); }, 3000);
+}
+
+/* --- Init --- */
+document.addEventListener('DOMContentLoaded', function() {
+  checkAge();
+  /* Load cart FIRST before anything else */
+  try {
+    var _stored = localStorage.getItem('cw_cart');
+    if (_stored) { cart = JSON.parse(_stored) || []; }
+  } catch(e) {}
+  if (typeof loadCart === 'function') { loadCart(); }
+  /* Ensure place-btn is always clickable - validation happens inside placeOrder() */
+  var _pb = document.getElementById('place-btn');
+  if (_pb) { _pb.disabled = false; _pb.style.opacity = '1'; _pb.style.cursor = 'pointer'; }
+  renderSummary();
+  /* Select crypto by default */
+  var cryptoBtn = document.querySelector('[data-pay="crypto"]');
+  choosePay('crypto', cryptoBtn);
+  /* Show first wallet */
+  showCoin('usdt-eth', document.querySelector('.coin-tab'));
+  recalc();
+});
+
+/* Reload after app.js finishes loading all products */
+window.addEventListener('load', function() {
+  /* Re-read cart — app.js is now fully loaded */
+  if (typeof loadCart === 'function') {
+    loadCart();
+  } else {
+    try {
+      var _s = localStorage.getItem('cw_cart');
+      if (_s) cart = JSON.parse(_s) || [];
+    } catch(e) {}
+  }
+  /* Restore placeOrder to checkout version in case app.js overwrote it */
+  if (typeof _co_placeOrder === 'function') {
+    window.placeOrder = _co_placeOrder;
+  }
+  /* Rebind place-btn onclick to be 100% sure */
+  var _pb = document.getElementById('place-btn');
+  if (_pb) {
+    _pb.disabled = false;
+    _pb.style.opacity = '1';
+    _pb.style.cursor = 'pointer';
+    _pb.style.pointerEvents = 'all';
+    _pb.onclick = function() { _co_placeOrder(); };
+  }
+  renderSummary();
+  recalc();
+});
+</script>
+</body>
+</html>

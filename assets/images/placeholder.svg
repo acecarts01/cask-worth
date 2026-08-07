@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 200" width="120" height="200">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#2a1a06"/>
+      <stop offset="100%" stop-color="#0d0a04"/>
+    </linearGradient>
+    <linearGradient id="bottle" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#c9941a"/>
+      <stop offset="50%" stop-color="#8a5a0a"/>
+      <stop offset="100%" stop-color="#5c3a06"/>
+    </linearGradient>
+    <linearGradient id="shine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="rgba(255,255,255,0.3)"/>
+      <stop offset="100%" stop-color="rgba(255,255,255,0)"/>
+    </linearGradient>
+  </defs>
+  <rect width="120" height="200" fill="url(#bg)" rx="8"/>
+  <!-- Bottle body -->
+  <path d="M45 140 L40 100 L38 80 Q38 65 44 58 L44 45 Q44 38 48 35 L48 28 L72 28 L72 35 Q76 38 76 45 L76 58 Q82 65 82 80 L80 100 L75 140 Q74 155 60 158 Q46 155 45 140Z" fill="url(#bottle)"/>
+  <!-- Shine -->
+  <path d="M48 80 L50 60 Q51 55 54 52 L54 35 L58 35 L58 52 Q55 56 54 62 L52 82Z" fill="url(#shine)"/>
+  <!-- Label area -->
+  <rect x="44" y="90" width="32" height="38" rx="3" fill="rgba(255,248,220,0.15)" stroke="rgba(201,148,26,0.6)" stroke-width="0.5"/>
+  <!-- Neck ring -->
+  <rect x="46" y="56" width="28" height="5" rx="2" fill="rgba(201,148,26,0.8)"/>
+  <!-- Cap -->
+  <rect x="50" y="22" width="20" height="9" rx="2" fill="#c9941a"/>
+  <!-- Gold text on label -->
+  <text x="60" y="106" text-anchor="middle" font-family="Georgia,serif" font-size="5" fill="#f0c020" font-weight="bold">CASKWORTH</text>
+  <text x="60" y="114" text-anchor="middle" font-family="Georgia,serif" font-size="3.5" fill="rgba(240,192,32,0.7)">PREMIUM SPIRITS</text>
+  <!-- Gold dots -->
+  <circle cx="60" cy="120" r="1.5" fill="rgba(201,148,26,0.6)"/>
+  <circle cx="55" cy="120" r="1" fill="rgba(201,148,26,0.4)"/>
+  <circle cx="65" cy="120" r="1" fill="rgba(201,148,26,0.4)"/>
+</svg>

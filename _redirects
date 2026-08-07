@@ -1,0 +1,65 @@
+# Caskworth -- redirects
+# NOTE: www -> apex and http -> https are handled by Cloudflare
+# Redirect Rules / custom-domain settings, NOT here.
+# Cloudflare Pages _redirects requires the source to be a PATH (starting with /)
+# and a bare status code (no Netlify-style "!" force flag).
+
+# -- Vanity / legacy path redirects --
+/home            /                  301
+/products        /shop/             301
+/store           /shop/             301
+/delivery        /how-to-order/     301
+/shipping        /shipping-policy/  301
+/trade           /wholesale/        301
+/returns         /refund-and-returns/ 301
+/order           /how-to-order/     301
+/bourbon         /shop/             301
+/scotch          /shop/             301
+/japanese        /shop/             301
+/blog/macallan-1926-fine-rare-review/ /blog/macallan-1926-most-expensive/ 301
+/blog/pappy-legacy-guide/ /blog/pappy-van-winkle-guide/ 301
+/blog/ultra-premium-same-day-delivery/ /blog/same-day-whiskey-delivery/ 301
+
+# -- Duplicate product consolidation (apostrophe slug variants) --
+/products/angel-s-envy-cask-strength-port-finish  /products/angels-envy-cask-strength-port-finish  301
+/products/angel-s-envy-finished-in-tawny-port-barrels  /products/angels-envy-finished-in-tawny-port-barrels  301
+/products/angel-s-envy-kentucky-straight-bourbon  /products/angels-envy-kentucky-straight-bourbon  301
+/products/angel-s-envy-rye-whiskey  /products/angels-envy-rye-whiskey  301
+/products/basil-hayden-s-10-year  /products/basil-haydens-10-year  301
+/products/basil-hayden-s-dark-rye  /products/basil-haydens-dark-rye  301
+/products/basil-hayden-s-kentucky-straight-bourbon  /products/basil-haydens-kentucky-straight-bourbon  301
+/products/basil-hayden-s-toast  /products/basil-haydens-toast  301
+/products/blanton-s-straight-from-the-barrel  /products/blantons-straight-from-the-barrel  301
+/products/dewar-s-12-year  /products/dewars-12-year  301
+/products/dewar-s-15-year  /products/dewars-15-year  301
+/products/dewar-s-18-year  /products/dewars-18-year  301
+/products/dewar-s-25-year  /products/dewars-25-year  301
+/products/dewar-s-caribbean-smooth-8-year  /products/dewars-caribbean-smooth-8-year  301
+/products/dewar-s-double-double-21-year  /products/dewars-double-double-21-year  301
+/products/dewar-s-double-double-27-year  /products/dewars-double-double-27-year  301
+/products/dewar-s-double-double-32-year  /products/dewars-double-double-32-year  301
+/products/dewar-s-ilegal-smooth-mezcal-cask  /products/dewars-ilegal-smooth-mezcal-cask  301
+/products/dewar-s-scratched-cask-8-year  /products/dewars-scratched-cask-8-year  301
+/products/dewar-s-white-label  /products/dewars-white-label  301
+/products/grant-s-triple-wood  /products/grants-triple-wood  301
+/products/jack-daniel-s-10-year  /products/jack-daniels-10-year  301
+/products/jack-daniel-s-gentleman-jack  /products/jack-daniels-gentleman-jack  301
+/products/jack-daniel-s-old-no-7  /products/jack-daniels-old-no-7  301
+/products/jack-daniel-s-sinatra-select  /products/jack-daniels-sinatra-select  301
+/products/jack-daniel-s-tennessee-apple  /products/jack-daniels-tennessee-apple  301
+/products/jack-daniel-s-tennessee-fire  /products/jack-daniels-tennessee-fire  301
+/products/jack-daniel-s-tennessee-honey  /products/jack-daniels-tennessee-honey  301
+/products/laird-s-applejack-brandy  /products/lairds-applejack-brandy  301
+/products/maker-s-mark-cask-strength  /products/makers-mark-cask-strength  301
+/products/maker-s-mark-cellar-aged  /products/makers-mark-cellar-aged  301
+/products/maker-s-mark-rc6-limited-release  /products/makers-mark-rc6-limited-release  301
+/products/michter-s-20-year-bourbon  /products/michters-20-year-bourbon  301
+/products/michter-s-25-year-bourbon  /products/michters-25-year-bourbon  301
+/products/michter-s-25-year-celebration-bourbon  /products/michters-25-year-celebration-bourbon  301
+/products/parker-s-heritage-27-year-promise-of-hope  /products/parkers-heritage-27-year-promise-of-hope  301
+/products/the-bourbon-collector-s-vault  /products/the-bourbon-collectors-vault  301
+/products/the-collector-s-ultimate-cellar  /products/the-collectors-ultimate-cellar  301
+/products/the-world-s-finest-whisky-box  /products/the-worlds-finest-whisky-box  301
+/products/whistlepig-the-boss-hog-magellan-s-atlantic  /products/whistlepig-the-boss-hog-magellans-atlantic  301
+/products/aberlour-a-bunadh-cask-strength  /products/aberlour-abunadh-cask-strength  301
+/products/glenmorangie-nectar-d-or-12-year  /products/glenmorangie-nectar-dor-12-year  301

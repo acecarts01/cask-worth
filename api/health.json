@@ -1,0 +1,8 @@
+{
+ "status": "ok",
+ "service": "caskworth-catalog-api",
+ "version": "1.0.0",
+ "generated": "2026-07-11",
+ "read_only": true,
+ "products": 425
+}

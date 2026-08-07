@@ -1,0 +1,1188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="theme-color" content="#c9941a">
+<style id="logo-critical">
+/* Logo — self-contained fallback (works without style.css) */
+.logo{display:flex;align-items:center;gap:10px;text-decoration:none;flex-shrink:0}
+.logo-icon{width:44px;height:44px;background:linear-gradient(150deg,#2a1a06,#0d0a04);
+  border:1.5px solid #c9941a;border-radius:11px;display:flex;align-items:center;
+  justify-content:center;flex-shrink:0;box-shadow:0 0 14px rgba(201,148,26,.3)}
+.logo-icon svg{width:22px;height:22px}
+.logo-text b{display:block;font-size:19px;font-weight:700;color:#1c1c1e;line-height:1}
+.logo-text small{display:block;font-size:9px;letter-spacing:.18em;text-transform:uppercase;
+  color:#c9941a;font-weight:600}
+</style><meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Shop Premium Whisky Online | Caskworth</title>
+<meta name="description" content="Browse 1,000+ premium whiskies, bourbons, Scotch, Japanese, Irish whiskey and cognac. Same-day delivery USA and Canada. Free consultation on rare bottles.">
+<meta property="og:title" content="Shop Premium Whisky | Caskworth"><meta property="og:type" content="website">
+<link rel="canonical" href="https://caskworth.com/shop/">
+<link rel="api-catalog" href="/.well-known/api-catalog" type="application/linkset+json">
+<link rel="service-desc" href="/openapi.json" type="application/openapi+json">
+<link rel="service-doc" href="/llms.txt" type="text/plain">
+<link rel="describedby" href="/.well-known/agent-skills/index.json" type="application/json">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="sitemap" type="application/xml" href="/sitemap.xml">
+<link rel="preload" href="/assets/css/style.css" as="style">
+<link rel="stylesheet" href="/assets/css/style.css">
+<meta name="keywords" content="buy premium whisky online, luxury whisky delivery USA, same day whisky delivery, buy scotch whisky online, buy bourbon online, rare whisky for sale, premium spirits delivery, buy Japanese whisky online, buy Irish whiskey online, buy rye whiskey online, buy cognac online, luxury cognac delivery, buy brandy online, premium brandy delivery, buy pappy van winkle online, pappy van winkle for sale, pappy van winkle delivery, buy macallan online, macallan whisky for sale, macallan same day delivery, bu">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Store","name":"Caskworth Premium Whisky","url":"https://caskworth.com","description":"Buy premium whisky online with same-day delivery to 33 U.S. states and 7 Canadian provinces. Bourbon, Scotch, Japanese, Irish, Rye, Cognac and Brandy.","priceRange":"$$$","currenciesAccepted":"USD","paymentAccepted":"Cryptocurrency, PayPal, Apple Pay","areaServed":"US, CA","hasMap":"https://caskworth.com/contact/","contactPoint":{"@type":"ContactPoint","telephone":"+14482348667","contactType":"customer service","availableLanguage":"English"}}
+</script>
+<link rel="icon" type="image/x-icon" href="/assets/images/favicon.ico">
+<link rel="icon" type="image/png" sizes="512x512" href="/assets/images/favicon-512.png">
+<link rel="icon" type="image/png" sizes="192x192" href="/assets/images/favicon-192.png">
+<link rel="icon" type="image/png" sizes="64x64"   href="/assets/images/favicon-64.png">
+<link rel="icon" type="image/png" sizes="32x32"   href="/assets/images/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16"   href="/assets/images/favicon-16.png">
+<link rel="apple-touch-icon"       href="/assets/images/favicon-192.png">
+<link rel="shortcut icon"         href="/assets/images/favicon.ico">
+<style>
+/* ── Shop dropdown ─────────────────────────────────────── */
+.nav-drop-wrap{position:relative;display:inline-block;}
+.nav-drop-btn{display:flex;align-items:center;gap:3px;cursor:pointer;}
+.drop-arrow{font-size:8px;opacity:.65;transition:transform .2s;}
+.nav-drop-menu{
+  display:none;
+  position:absolute;
+  top:calc(100% + 8px);
+  left:50%;
+  transform:translateX(-50%);
+  background:#fff;
+  border:1px solid #e8e0d0;
+  border-radius:12px;
+  box-shadow:0 12px 40px rgba(0,0,0,.14);
+  padding:16px;
+  min-width:340px;
+  z-index:99999;
+  gap:16px;
+}
+.nav-drop-wrap:hover .nav-drop-menu{display:flex;}
+.nav-drop-wrap:hover .drop-arrow{transform:rotate(-180deg);opacity:1;}
+.ndm-col{flex:1;min-width:0;}
+.ndm-col+.ndm-col{border-left:1px solid #f0e8d8;padding-left:14px;}
+.ndm-head{font-size:9px;font-weight:700;letter-spacing:.14em;
+  text-transform:uppercase;color:#c9941a;
+  padding-bottom:6px;margin-bottom:6px;
+  border-bottom:1px solid #f0e8d8;}
+.nav-drop-menu a{
+  display:block;padding:5px 0;
+  font-size:13px;color:#555;
+  text-decoration:none;
+  transition:color .15s,padding-left .15s;}
+.nav-drop-menu a:hover{color:#c9941a;padding-left:4px;}
+.ndm-divider{height:1px;background:#f0e8d8;margin:8px 0;}
+/* ── Mobile shop collapsible ──────────────────────────── */
+.mob-shop-toggle{
+  display:flex;align-items:center;justify-content:space-between;
+  width:100%;padding:14px 0;
+  font-size:15px;font-weight:600;color:#1c1c1e;
+  background:none;border:none;
+  border-bottom:1px solid #f0e8d8;cursor:pointer;}
+.mob-shop-toggle .mob-arrow{font-size:11px;opacity:.6;transition:transform .2s;}
+.mob-shop-toggle.open .mob-arrow{transform:rotate(-180deg);}
+.mob-shop-cats{display:none;padding:4px 0 8px;border-bottom:1px solid #f0e8d8;}
+.mob-shop-cats.open{display:block;}
+.mob-cat-link{
+  display:block;padding:9px 12px;font-size:13px;color:#555;
+  text-decoration:none;border-radius:6px;
+  transition:background .15s,color .15s;}
+.mob-cat-link:hover,.mob-cat-link:active{background:#fdf8f0;color:#c9941a;}
+</style>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="dns-prefetch" href="https://caskworth.com">
+<meta name="robots" content="index,follow">
+
+<link rel="alternate" hreflang="en" href="https://caskworth.com/shop/">
+<link rel="alternate" hreflang="en-US" href="https://caskworth.com/shop/">
+<link rel="alternate" hreflang="en-CA" href="https://caskworth.com/shop/">
+<link rel="alternate" hreflang="x-default" href="https://caskworth.com/shop/">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@caskworth">
+<meta name="twitter:title" content="Shop Premium Whisky | Caskworth">
+<meta name="twitter:description" content="Browse 1,000+ premium whiskies, bourbons, Scotch, Japanese, Irish whiskey and cognac with same-day delivery to USA and Canada.">
+<meta name="twitter:image" content="https://caskworth.com/assets/images/favicon-512.png">
+<meta property="og:description" content="Browse 1,000+ premium whiskies, bourbons, Scotch, Japanese, Irish whiskey and cognac with same-day delivery to USA and Canada.">
+<meta property="og:url" content="https://caskworth.com/shop/">
+<meta property="og:image" content="https://caskworth.com/assets/images/favicon-512.png">
+
+<style id="shop-pagination-css">
+/* ── Shop pagination ── */
+.shop-pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  padding: 32px 20px 16px;
+  flex-wrap: wrap;
+}
+.pag-btn {
+  min-width: 40px;
+  height: 40px;
+  padding: 0 12px;
+  border: 1.5px solid var(--border);
+  border-radius: 8px;
+  background: #fff;
+  color: var(--dark);
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all .18s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-b);
+}
+.pag-btn:hover:not(:disabled) {
+  border-color: var(--gold);
+  color: var(--gold);
+}
+.pag-btn.active {
+  background: var(--gold);
+  border-color: var(--gold);
+  color: #fff;
+  font-weight: 700;
+}
+.pag-btn:disabled {
+  opacity: .35;
+  cursor: not-allowed;
+}
+.pag-dots {
+  color: var(--muted);
+  font-size: 13px;
+  padding: 0 4px;
+}
+.pag-info {
+  text-align: center;
+  font-size: 12px;
+  color: var(--muted);
+  padding-bottom: 8px;
+}
+.shop-per-page {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 8px;
+  padding: 0 0 12px;
+  font-size: 12px;
+  color: var(--muted);
+}
+.shop-per-page select {
+  padding: 4px 8px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  font-size: 12px;
+  color: var(--dark);
+  background: #fff;
+  cursor: pointer;
+}
+@media (max-width: 480px) {
+  .pag-btn { min-width: 36px; height: 36px; font-size: 12px; }
+}
+</style>
+
+</head><body>
+<a href="#main-content" class="skip-link">Skip to main content</a>
+<script>
+/* Age Gate — runs immediately, before app.js */
+(function(){
+  function _confirmAge(){
+    try{sessionStorage.setItem('cw_age','1');}catch(e){}
+    var ag=document.getElementById('age-gate');
+    if(ag){ag.style.opacity='0';ag.style.transition='opacity .3s';
+    setTimeout(function(){ag.style.display='none';},300);}
+  }
+  function _denyAge(){window.location.href='https://www.responsibility.org/';}
+  function _checkAge(){
+    try{if(sessionStorage.getItem('cw_age')){
+      var ag=document.getElementById('age-gate');
+      if(ag)ag.style.display='none';
+    }}catch(e){}
+  }
+  window.confirmAge=_confirmAge;
+  window.denyAge=_denyAge;
+  window.checkAge=_checkAge;
+  /* Run immediately on DOM ready */
+  if(document.readyState==='loading'){
+    document.addEventListener('DOMContentLoaded',_checkAge);
+  }else{_checkAge();}
+})();
+</script>
+<div id="age-gate">
+  <div class="ag-box">
+    <div class="ag-logo"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 56" width="44" height="44">
+  <defs>
+    <linearGradient id="cg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#fff6c0"/>
+      <stop offset="40%" stop-color="#f0c020"/>
+      <stop offset="100%" stop-color="#8a5000"/>
+    </linearGradient>
+  </defs>
+  <rect x="7" y="29" width="34" height="7" rx="3" fill="url(#cg)"/>
+  <polygon points="9,29 13,9  18,29" fill="url(#cg)"/>
+  <polygon points="21,29 24,3 27,29" fill="#fff0a0"/>
+  <polygon points="30,29 35,9  39,29" fill="url(#cg)"/>
+  <ellipse cx="24" cy="5"  rx="3" ry="3.5" fill="#fffce0" opacity=".95"/>
+  <ellipse cx="13" cy="11" rx="2" ry="2.2" fill="#fffce0" opacity=".8"/>
+  <ellipse cx="35" cy="11" rx="2" ry="2.2" fill="#fffce0" opacity=".8"/>
+  <path d="M24 36 C17 43 14 50 14 54 C14 58 18 61 24 61 C30 61 34 58 34 54 C34 50 31 43 24 36Z" fill="url(#cg)"/>
+  <path d="M20 40 C17 46 16 50 16 54" fill="none" stroke="#fffce0" stroke-width="1.8" stroke-linecap="round" opacity=".45"/>
+</svg></div>
+    <h2 class="ag-title">Welcome to Caskworth</h2>
+    <p class="ag-sub">You must be 21 years or older to enter this site. Please confirm your age to continue.</p>
+    <div class="ag-btns">
+      <button class="btn btn-gold btn-lg" onclick="confirmAge()">I am 21 or Older</button>
+      <button class="btn btn-white" onclick="denyAge()">Under 21 — Exit</button>
+    </div>
+    <p class="ag-legal">By entering you confirm you are of legal drinking age. Adults 21+ only. Please drink responsibly.</p>
+  </div>
+</div><div id="mob-nav">
+  <div class="mob-inner">
+    <button class="mob-close" onclick="toggleNav()">×</button>
+    <a class="mob-link" href="/" onclick="toggleNav()">Home</a>
+    <button class="mob-shop-toggle" onclick="this.classList.toggle('open');document.getElementById('msc').classList.toggle('open')" aria-expanded="false">
+      Shop <span class="mob-arrow">&#9660;</span>
+    </button>
+    <div class="mob-shop-cats" id="msc">
+      <a class="mob-cat-link" href="/shop/?cat=bourbon" onclick="toggleNav()">Bourbon</a>
+      <a class="mob-cat-link" href="/shop/?cat=scotch" onclick="toggleNav()">Scotch Whisky</a>
+      <a class="mob-cat-link" href="/shop/?cat=japanese" onclick="toggleNav()">Japanese Whisky</a>
+      <a class="mob-cat-link" href="/shop/?cat=irish" onclick="toggleNav()">Irish Whiskey</a>
+      <a class="mob-cat-link" href="/shop/?cat=rye" onclick="toggleNav()">Rye Whiskey</a>
+      <a class="mob-cat-link" href="/shop/?cat=canadian" onclick="toggleNav()">Canadian Whisky</a>
+      <a class="mob-cat-link" href="/shop/?cat=allocated" onclick="toggleNav()">Rare &amp; Allocated</a>
+      <a class="mob-cat-link" href="/shop/?cat=cognac" onclick="toggleNav()">Cognac</a>
+      <a class="mob-cat-link" href="/shop/?cat=brandy" onclick="toggleNav()">Brandy &amp; Armagnac</a>
+      <a class="mob-cat-link" href="/shop/?cat=gifts" onclick="toggleNav()">Gift Sets</a>
+      <a class="mob-cat-link" href="/shop/" onclick="toggleNav()" style="color:var(--gold);font-weight:700;">Browse All Products</a>
+    </div>
+    <a class="mob-link" href="/blog/" onclick="toggleNav()">Blog</a>
+    <a class="mob-link" href="/how-to-order/" onclick="toggleNav()">How to Order</a>
+    <a class="mob-link" href="/about/" onclick="toggleNav()">About</a>
+    <a class="mob-link" href="/contact/" onclick="toggleNav()">Contact</a>
+    <a class="mob-link" href="/wholesale/" onclick="toggleNav()">Wholesale</a>
+    <div style="margin-top:32px;display:flex;flex-direction:column;gap:10px;">
+      <a href="/shop/" class="btn btn-gold btn-full" onclick="toggleNav()" style="justify-content:center;">Shop Whisky</a>
+      <a href="/contact/" class="btn btn-outline btn-full" onclick="toggleNav()" style="justify-content:center;">Contact Us</a>
+    </div>
+  </div>
+</div><div id="cart-overlay"></div>
+<div id="cart-drawer">
+  <div class="cart-hd"><h3>Your Cart</h3><button class="cart-x" onclick="toggleCart()">×</button></div>
+  <div class="cart-body" id="cart-body"></div>
+  <div id="cart-foot" style="display:none;">
+    <div class="cart-ft">
+      <div id="cart-warn"></div>
+      <div class="cart-row"><span>Subtotal</span><span id="cart-subtotal">$0.00</span></div>
+      <div class="cart-total-row"><span>Total</span><span id="cart-total-disp">$0.00</span></div>
+      <div class="min-warn" style="margin-top:10px;">Minimum order: <strong>$150.00 USD</strong></div>
+      <button class="btn btn-gold btn-full" id="cart-co-btn" onclick="goCheckout()" style="margin-top:12px;">Checkout</button>
+    </div>
+  </div>
+</div><div id="qv-overlay">
+  <div class="qv-box">
+    <div class="qv-img-wrap">
+      <img id="qv-img" src="" alt="" style="max-height:340px;width:auto;object-fit:contain;padding:24px;" loading="lazy">
+      <button class="qv-x" onclick="closeQV()">×</button>
+    </div>
+    <div class="qv-content">
+      <span class="qv-cat" id="qv-cat"></span>
+      <div class="qv-name" id="qv-name"></div>
+      <div style="font-size:11px;color:var(--muted2);" id="qv-dist"></div>
+      <div style="font-size:11px;color:var(--muted);margin:4px 0 0;" id="qv-abv"></div>
+      <div class="qv-price" id="qv-price"></div>
+      <p class="qv-desc" id="qv-desc"></p>
+      <div class="qv-notes" id="qv-notes"></div>
+      <div class="qv-qty-row">
+        <span style="font-size:12px;font-weight:600;color:var(--muted);">QTY</span>
+        <div class="qty-box">
+          <button onclick="qvQtyChange(-1)">−</button>
+          <span id="qv-qty-val">1</span>
+          <button onclick="qvQtyChange(1)">+</button>
+        </div>
+      </div>
+      <button class="btn btn-gold btn-full" onclick="qvAddToCart()">Add to Cart</button>
+      <p style="font-size:10px;color:var(--muted2);text-align:center;margin-top:10px;">Minimum order $150 USD · Adults 21+ only</p>
+    </div>
+  </div>
+</div><div id="announce-bar">
+  <div class="announce-track">
+    <span class="announce-item"><span class="ann-dot"></span>Same-Day Delivery to 33 US States</span>
+    <span class="announce-item"><span class="ann-dot"></span>Premium Whisky from $24.99</span>
+    <span class="announce-item"><span class="ann-dot"></span>Minimum Order $150 USD</span>
+    <span class="announce-item"><span class="ann-dot"></span>Bourbon · Scotch · Japanese · Irish · Rye</span>
+    <span class="announce-item"><span class="ann-dot"></span>Same-Day to 7 Canadian Provinces</span>
+    <span class="announce-item"><span class="ann-dot"></span>Same-Day Delivery to 33 US States</span>
+    <span class="announce-item"><span class="ann-dot"></span>Premium Whisky from $24.99</span>
+    <span class="announce-item"><span class="ann-dot"></span>Minimum Order $150 USD</span>
+    <span class="announce-item"><span class="ann-dot"></span>Bourbon · Scotch · Japanese · Irish · Rye</span>
+    <span class="announce-item"><span class="ann-dot"></span>Same-Day to 7 Canadian Provinces</span>
+  </div>
+</div>
+<header id="site-header" role="banner">
+  <div class="header-inner">
+    <a href="/" class="logo">
+      <div class="logo-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 48" width="26" height="26" aria-hidden="true">
+          <defs>
+            <linearGradient id="cg" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0%" stop-color="#fff6c0"/>
+              <stop offset="40%" stop-color="#f0c020"/>
+              <stop offset="100%" stop-color="#8a5000"/>
+            </linearGradient>
+          </defs>
+          <rect x="6" y="22" width="28" height="5" rx="2" fill="url(#cg)"/>
+          <polygon points="8,22 11.5,8 15,22" fill="url(#cg)"/>
+          <polygon points="17,22 20,4 23,22" fill="#fff0a0"/>
+          <polygon points="25,22 28.5,8 32,22" fill="url(#cg)"/>
+          <ellipse cx="20" cy="6" rx="3.5" ry="4" fill="#fffce0" opacity=".95"/>
+          <ellipse cx="11.5" cy="10" rx="2" ry="2.2" fill="#fffce0" opacity=".8"/>
+          <ellipse cx="28.5" cy="10" rx="2" ry="2.2" fill="#fffce0" opacity=".8"/>
+          <path d="M20 27 C15 33 13 38 13 42 C13 46 16 48 20 48 C24 48 27 46 27 42 C27 38 25 33 20 27Z" fill="url(#cg)"/>
+        </svg>
+      </div>
+      <div class="logo-text"><b>Caskworth</b><small>Premium Whisky</small></div>
+    </a>
+    <nav class="site-nav">
+      <a href="/" class="nav-link">Home</a>
+      <div class="nav-drop-wrap">
+        <a href="/shop/" class="nav-link nav-drop-btn">Shop <span class="drop-arrow">&#9660;</span></a>
+        <div class="nav-drop-menu">
+          <div class="ndm-col">
+            <div class="ndm-head">Whisky</div>
+            <a href="/shop/?cat=bourbon">Bourbon</a>
+            <a href="/shop/?cat=scotch">Scotch</a>
+            <a href="/shop/?cat=japanese">Japanese</a>
+            <a href="/shop/?cat=irish">Irish</a>
+            <a href="/shop/?cat=rye">Rye</a>
+            <a href="/shop/?cat=canadian">Canadian</a>
+            <a href="/shop/?cat=allocated">Rare &amp; Allocated</a>
+          </div>
+          <div class="ndm-col">
+            <div class="ndm-head">Spirits</div>
+            <a href="/shop/?cat=cognac">Cognac</a>
+            <a href="/shop/?cat=brandy">Brandy &amp; Armagnac</a>
+            <a href="/shop/?cat=gifts">Gift Sets</a>
+            <div class="ndm-divider"></div>
+            <div class="ndm-head" style="margin-top:4px;">Ultra Rare</div>
+            <a href="/shop/?cat=allocated" style="color:var(--gold);font-weight:600;">$65K – $980K</a>
+            <a href="/shop/" style="color:var(--gold);font-weight:700;margin-top:6px;display:block;">Browse All &rarr;</a>
+          </div>
+        </div>
+      </div>
+      <a href="/blog/" class="nav-link">Blog</a>
+      <a href="/how-to-order/" class="nav-link">How to Order</a>
+      <a href="/about/" class="nav-link">About</a>
+      <a href="/contact/" class="nav-link">Contact</a>
+    </nav>
+    <div class="h-actions">
+      <a href="/shop/" class="btn btn-gold btn-sm" style="display:none;" id="hdr-shop-btn">Shop Now</a>
+      <button class="h-btn" onclick="toggleCart()" aria-label="Cart">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 002 1.61h9.72a2 2 0 002-1.61L23 6H6"/></svg>
+        <span class="cart-count" style="display:none;">0</span>
+      </button>
+      <button class="hamburger" onclick="toggleNav()"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+<main id="main-content"><div class="page-hero"><div class="container">
+  <nav class="breadcrumb"><a href="/">Home</a> › <span>Shop</span></nav>
+  <span class="label">All Bottles</span>
+  <h1>Shop Whisky, Cognac &amp; Brandy</h1>
+  <p>300+ premium bottles. Whisky, Cognac &amp; Brandy. Same-day delivery to 33 U.S. states. $150 minimum order.</p>
+</div></div>
+<section class="section"><div class="container">
+  <div class="filter-wrap" id="shop-filters">
+      <button class="ftab active" onclick="filterAll(this)">All</button>
+      <button class="ftab" onclick="filterTab('bourbon',this,'shop-grid',ALL_PRODUCTS())">Bourbon</button>
+      <button class="ftab" onclick="filterTab('scotch',this,'shop-grid',ALL_PRODUCTS())">Scotch</button>
+      <button class="ftab" onclick="filterTab('japanese',this,'shop-grid',ALL_PRODUCTS())">Japanese</button>
+      <button class="ftab" onclick="filterTab('irish',this,'shop-grid',ALL_PRODUCTS())">Irish</button>
+      <button class="ftab" onclick="filterTab('rye',this,'shop-grid',ALL_PRODUCTS())">Rye</button>
+      <button class="ftab" onclick="filterTab('canadian',this,'shop-grid',ALL_PRODUCTS())">Canadian</button>
+      <button class="ftab" onclick="filterTab('allocated',this,'shop-grid',ALL_PRODUCTS())">Rare &amp; Allocated</button>
+      <button class="ftab" onclick="filterTab('cognac',this,'shop-grid',ALL_PRODUCTS())">Cognac</button>
+      <button class="ftab" onclick="filterTab('brandy',this,'shop-grid',ALL_PRODUCTS())">Brandy</button>
+      <button class="ftab" onclick="filterTab('gifts',this,'shop-grid',ALL_PRODUCTS())">Gift Sets</button>
+    </div>
+  <div class="shop-per-page">
+    Show:
+    <select onchange="setPerPage(this.value)" aria-label="Products per page">
+      <option value="12" selected>12 per page</option>
+      <option value="24">24 per page</option>
+      <option value="48">48 per page</option>
+    </select>
+  </div>
+  <div class="products-grid" id="shop-grid"></div>
+  <p class="pag-info" id="pag-info"></p>
+  <nav class="shop-pagination" id="shop-pag" aria-label="Shop pages"></nav>
+  <div style="background:var(--bg2);border:1px solid var(--border);border-radius:var(--rl);padding:20px;text-align:center;margin-top:32px;">
+    <p style="font-size:13px;">⚠️ Minimum order <strong style="color:var(--gold);">$150 USD</strong>. Products for adults 21+ only. Please drink responsibly.</p>
+  </div>
+</div></section></main>
+<!-- Crawlable product index — full internal linking for SEO -->
+<section class="product-index-seo" aria-label="Full product catalog" style="max-width:1200px;margin:0 auto;padding:40px 20px;border-top:1px solid var(--border);">
+  <h2 style="font-family:var(--font-d);font-size:22px;margin-bottom:8px;color:var(--dark);">Browse Our Full Collection</h2>
+  <p style="font-size:13px;color:var(--muted);margin-bottom:24px;">Explore all 435 premium spirits available for same-day delivery across 33 US states and 7 Canadian provinces.</p>
+  <div class="pi-cat" style="margin-bottom:22px;">
+    <h3 style="font-size:12px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--gold);margin-bottom:10px;">Bourbon (56)</h3>
+    <div style="display:flex;flex-wrap:wrap;gap:6px 16px;">
+      <a href="/products/angels-envy-finished-in-tawny-port-barrels" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Angel's Envy Finished in Tawny Port Barrels</a>
+      <a href="/products/angels-envy-kentucky-straight-bourbon" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Angel's Envy Kentucky Straight Bourbon</a>
+      <a href="/products/angels-envy-rye-whiskey" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Angel's Envy Rye Whiskey</a>
+      <a href="/products/basil-haydens-10-year" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Basil Hayden's 10 Year</a>
+      <a href="/products/basil-haydens-dark-rye" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Basil Hayden's Dark Rye</a>
+      <a href="/products/basil-haydens-kentucky-straight-bourbon" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Basil Hayden's Kentucky Straight Bourbon</a>
+      <a href="/products/basil-haydens-toast" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Basil Hayden's Toast</a>
+      <a href="/products/blantons-gold-edition" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Blanton's Gold Edition</a>
+      <a href="/products/blantons-original-single-barrel" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Blanton's Original Single Barrel</a>
+      <a href="/products/buffalo-trace-bourbon" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Buffalo Trace Bourbon</a>
+      <a href="/products/bulleit-bourbon" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Bulleit Bourbon</a>
+      <a href="/products/eagle-rare-10-year" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Eagle Rare 10 Year</a>
+      <a href="/products/elijah-craig-18-year-single-barrel" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Elijah Craig 18 Year Single Barrel</a>
+      <a href="/products/elijah-craig-barrel-proof-bourbon" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Elijah Craig Barrel Proof Bourbon</a>
+      <a href="/products/elijah-craig-small-batch-bourbon" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Elijah Craig Small Batch Bourbon</a>
+      <a href="/products/elijah-craig-toasted-barrel" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Elijah Craig Toasted Barrel</a>
+      <a href="/products/evan-williams-black-label" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Evan Williams Black Label</a>
+      <a href="/products/evan-williams-single-barrel-vintage" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Evan Williams Single Barrel Vintage</a>
+      <a href="/products/four-roses-limited-edition-small-batch" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Four Roses Limited Edition Small Batch</a>
+      <a href="/products/four-roses-small-batch" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Four Roses Small Batch</a>
+      <a href="/products/george-t-stagg-1978-single-barrel" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">George T. Stagg 1978 Single Barrel</a>
+      <a href="/products/george-t-stagg-2007-vintage-release" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">George T. Stagg 2007 Vintage Release</a>
+      <a href="/products/george-t-stagg-barrel-proof" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">George T. Stagg Barrel Proof</a>
+      <a href="/products/jack-daniels-sinatra-select" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Jack Daniel's Sinatra Select</a>
+      <a href="/products/jim-beam-black-extra-aged" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Jim Beam Black Extra-Aged</a>
+      <a href="/products/jim-beam-bonded-4-year" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Jim Beam Bonded 4 Year</a>
+      <a href="/products/jim-beam-double-oak" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Jim Beam Double Oak</a>
+      <a href="/products/jim-beam-original-white-label" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Jim Beam Original White Label</a>
+      <a href="/products/knob-creek-9-year" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Knob Creek 9 Year</a>
+      <a href="/products/larceny-barrel-proof-bourbon" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Larceny Barrel Proof Bourbon</a>
+      <a href="/products/larceny-small-batch-bourbon" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Larceny Small Batch Bourbon</a>
+      <a href="/products/makers-mark-46" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Maker's Mark 46</a>
+      <a href="/products/makers-mark-cask-strength" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Maker's Mark Cask Strength</a>
+      <a href="/products/makers-mark-cellar-aged" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Maker's Mark Cellar Aged</a>
+      <a href="/products/makers-mark-original" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Maker's Mark Original</a>
+      <a href="/products/makers-mark-rc6-limited-release" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Maker's Mark RC6 Limited Release</a>
+      <a href="/products/michters-10-year-bourbon" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Michter's 10 Year Bourbon</a>
+      <a href="/products/michters-20-year-bourbon" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Michter's 20 Year Bourbon</a>
+      <a href="/products/michters-25-year-bourbon" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Michter's 25 Year Bourbon</a>
+      <a href="/products/michters-25-year-celebration-bourbon" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Michter's 25 Year Celebration Bourbon</a>
+      <a href="/products/michters-25-year-celebration-bourbon-original-1970s" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Michter's 25 Year Celebration Bourbon Original 1970s</a>
+      <a href="/products/michters-us1-bourbon" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Michter's US*1 Bourbon</a>
+      <a href="/products/old-fitzgerald-1954-bottled-in-bond-stitzel-weller" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Old Fitzgerald 1954 Bottled-in-Bond Stitzel-Weller</a>
+      <a href="/products/old-forester-birthday-bourbon-2024" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Old Forester Birthday Bourbon 2024</a>
+      <a href="/products/pappy-van-winkle-20-year-family-reserve" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Pappy Van Winkle 20 Year Family Reserve</a>
+      <a href="/products/pappy-van-winkle-23-year-collector-edition" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Pappy Van Winkle 23 Year Collector Edition</a>
+      <a href="/products/pappy-van-winkle-23-year-family-reserve" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Pappy Van Winkle 23 Year Family Reserve</a>
+      <a href="/products/pappy-van-winkle-23-year-pre-fire-vintage-1990s" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Pappy Van Winkle 23 Year Pre-Fire Vintage 1990s</a>
+      <a href="/products/parkers-heritage-27-year-promise-of-hope" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Parker's Heritage 27 Year Promise of Hope</a>
+      <a href="/products/parkers-heritage-promise-of-hope-27-year-signed" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Parker's Heritage Promise of Hope 27 Year Signed</a>
+      <a href="/products/weller-full-proof-bourbon" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Weller Full Proof Bourbon</a>
+      <a href="/products/wild-turkey-101" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Wild Turkey 101</a>
+      <a href="/products/wild-turkey-rare-breed" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Wild Turkey Rare Breed</a>
+      <a href="/products/william-larue-weller-barrel-proof" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">William Larue Weller Barrel Proof</a>
+      <a href="/products/woodford-reserve-distillers-select" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Woodford Reserve Distiller's Select</a>
+      <a href="/products/woodford-reserve-double-oaked" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Woodford Reserve Double Oaked</a>
+    </div>
+  </div>
+  <div class="pi-cat" style="margin-bottom:22px;">
+    <h3 style="font-size:12px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--gold);margin-bottom:10px;">Scotch Whisky (127)</h3>
+    <div style="display:flex;flex-wrap:wrap;gap:6px 16px;">
+      <a href="/products/aberfeldy-12-year" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Aberfeldy 12 Year</a>
+      <a href="/products/aberfeldy-16-year" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Aberfeldy 16 Year</a>
+      <a href="/products/aberlour-12-year-double-cask" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Aberlour 12 Year Double Cask</a>
+      <a href="/products/aberlour-16-year-double-cask" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Aberlour 16 Year Double Cask</a>
+      <a href="/products/aberlour-18-year" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Aberlour 18 Year</a>
+      <a href="/products/aberlour-abunadh-cask-strength" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Aberlour A'bunadh Cask Strength</a>
+      <a href="/products/ancnoc-12-year" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">AnCnoc 12 Year</a>
+      <a href="/products/ancnoc-18-year" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">AnCnoc 18 Year</a>
+      <a href="/products/ardbeg-25-year-timeless" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Ardbeg 25 Year Timeless</a>
+      <a href="/products/auchentoshan-american-oak" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Auchentoshan American Oak</a>
+      <a href="/products/auchentoshan-three-wood" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Auchentoshan Three Wood</a>
+      <a href="/products/balvenie-21-year-portwood" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Balvenie 21 Year PortWood</a>
+      <a href="/products/balvenie-30-year" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Balvenie 30 Year</a>
+      <a href="/products/balvenie-50-year" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Balvenie 50 Year</a>
+      <a href="/products/benriach-50-year" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Benriach 50 Year</a>
+      <a href="/products/benromach-10-year" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Benromach 10 Year</a>
+      <a href="/products/benromach-15-year" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Benromach 15 Year</a>
+      <a href="/products/bowmore-25-year" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Bowmore 25 Year</a>
+      <a href="/products/bowmore-50-year" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Bowmore 50 Year</a>
+      <a href="/products/brora-40-year-annual-release" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Brora 40 Year Annual Release</a>
+      <a href="/products/chivas-brothers-blend" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Chivas Brothers Blend</a>
+      <a href="/products/chivas-regal-12-year" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Chivas Regal 12 Year</a>
+      <a href="/products/chivas-regal-18-year-gold-signature" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Chivas Regal 18 Year Gold Signature</a>
+      <a href="/products/chivas-regal-18-year-ultimate-cask-collection" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Chivas Regal 18 Year Ultimate Cask Collection</a>
+      <a href="/products/chivas-regal-25-year" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Chivas Regal 25 Year</a>
+      <a href="/products/chivas-regal-extra-13-year-american-rye-cask" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Chivas Regal Extra 13 Year American Rye Cask</a>
+      <a href="/products/chivas-regal-extra-13-year-oloroso-cask" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Chivas Regal Extra 13 Year Oloroso Cask</a>
+      <a href="/products/chivas-regal-extra-13-year-rum-cask" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Chivas Regal Extra 13 Year Rum Cask</a>
+      <a href="/products/chivas-regal-extra-13-year-sherry-cask" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Chivas Regal Extra 13 Year Sherry Cask</a>
+      <a href="/products/chivas-regal-icon" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Chivas Regal Icon</a>
+      <a href="/products/chivas-regal-mizunara" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Chivas Regal Mizunara</a>
+      <a href="/products/chivas-regal-ultis" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Chivas Regal Ultis</a>
+      <a href="/products/chivas-regal-xv-15-year" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Chivas Regal XV 15 Year</a>
+      <a href="/products/compass-box-asyla-blended-scotch" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Compass Box Asyla Blended Scotch</a>
+      <a href="/products/compass-box-no-name-no3" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Compass Box No Name No.3</a>
+      <a href="/products/compass-box-orchard-house" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Compass Box Orchard House</a>
+      <a href="/products/compass-box-the-peat-monster" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Compass Box The Peat Monster</a>
+      <a href="/products/dalmore-25-year" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Dalmore 25 Year</a>
+      <a href="/products/dalmore-62-year-trinitas" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Dalmore 62 Year Trinitas</a>
+      <a href="/products/dalmore-luminary-no3-1987" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Dalmore Luminary No.3 1987</a>
+      <a href="/products/dewars-12-year" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Dewar's 12 Year</a>
+      <a href="/products/dewars-15-year" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Dewar's 15 Year</a>
+      <a href="/products/dewars-18-year" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Dewar's 18 Year</a>
+      <a href="/products/dewars-25-year" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Dewar's 25 Year</a>
+      <a href="/products/dewars-caribbean-smooth-8-year" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Dewar's Caribbean Smooth 8 Year</a>
+      <a href="/products/dewars-double-double-21-year" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Dewar's Double Double 21 Year</a>
+      <a href="/products/dewars-double-double-27-year" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Dewar's Double Double 27 Year</a>
+      <a href="/products/dewars-double-double-32-year" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Dewar's Double Double 32 Year</a>
+      <a href="/products/dewars-ilegal-smooth-mezcal-cask" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Dewar's Ilegal Smooth Mezcal Cask</a>
+      <a href="/products/dewars-scratched-cask-8-year" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Dewar's Scratched Cask 8 Year</a>
+      <a href="/products/dewars-white-label" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Dewar's White Label</a>
+      <a href="/products/famous-grouse-smoky-black" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Famous Grouse Smoky Black</a>
+      <a href="/products/glendronach-12-year-original" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">GlenDronach 12 Year Original</a>
+      <a href="/products/glendronach-15-year-revival" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">GlenDronach 15 Year Revival</a>
+      <a href="/products/glendronach-18-year-allardice" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">GlenDronach 18 Year Allardice</a>
+      <a href="/products/glendronach-21-year-parliament" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">GlenDronach 21 Year Parliament</a>
+      <a href="/products/glenfarclas-10-year" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Glenfarclas 10 Year</a>
+      <a href="/products/glenfarclas-15-year" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Glenfarclas 15 Year</a>
+      <a href="/products/glenfarclas-21-year" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Glenfarclas 21 Year</a>
+      <a href="/products/glenfiddich-12-year" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Glenfiddich 12 Year</a>
+      <a href="/products/glenfiddich-18-year" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Glenfiddich 18 Year</a>
+      <a href="/products/glenfiddich-1937-rare-collection" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Glenfiddich 1937 Rare Collection</a>
+      <a href="/products/glenfiddich-26-year-excellence" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Glenfiddich 26 Year Excellence</a>
+      <a href="/products/glenfiddich-30-year" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Glenfiddich 30 Year</a>
+      <a href="/products/glenfiddich-40-year" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Glenfiddich 40 Year</a>
+      <a href="/products/glenfiddich-50-year" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Glenfiddich 50 Year</a>
+      <a href="/products/glenlivet-21-year-archive" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Glenlivet 21 Year Archive</a>
+      <a href="/products/glenlivet-50-year" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Glenlivet 50 Year</a>
+      <a href="/products/glenmorangie-18-year-extremely-rare" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Glenmorangie 18 Year Extremely Rare</a>
+      <a href="/products/glenmorangie-a-tale-of-cake" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Glenmorangie A Tale of Cake</a>
+      <a href="/products/glenmorangie-nectar-dor-12-year" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Glenmorangie Nectar D'Or 12 Year</a>
+      <a href="/products/glenmorangie-original-10-year" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Glenmorangie Original 10 Year</a>
+      <a href="/products/glenmorangie-quinta-ruban-14-year" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Glenmorangie Quinta Ruban 14 Year</a>
+      <a href="/products/glenmorangie-signet" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Glenmorangie Signet</a>
+      <a href="/products/grants-triple-wood" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Grant's Triple Wood</a>
+      <a href="/products/highland-park-25-year" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Highland Park 25 Year</a>
+      <a href="/products/highland-park-50-year" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Highland Park 50 Year</a>
+      <a href="/products/johnnie-walker-aged-18-year" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Johnnie Walker Aged 18 Year</a>
+      <a href="/products/johnnie-walker-black-label-12-year" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Johnnie Walker Black Label 12 Year</a>
+      <a href="/products/johnnie-walker-blenders-batch-red-rye-finish" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Johnnie Walker Blenders' Batch Red Rye Finish</a>
+      <a href="/products/johnnie-walker-blue-label" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Johnnie Walker Blue Label</a>
+      <a href="/products/johnnie-walker-blue-label-elusive-ports" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Johnnie Walker Blue Label Elusive Ports</a>
+      <a href="/products/johnnie-walker-blue-label-ghost-rare-port-dundas" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Johnnie Walker Blue Label Ghost & Rare Port Dundas</a>
+      <a href="/products/johnnie-walker-blue-label-xordinaire" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Johnnie Walker Blue Label Xordinaire</a>
+      <a href="/products/johnnie-walker-blue-label-year-of-the-dragon-2024" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Johnnie Walker Blue Label Year of the Dragon 2024</a>
+      <a href="/products/johnnie-walker-double-black" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Johnnie Walker Double Black</a>
+      <a href="/products/johnnie-walker-gold-label-reserve" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Johnnie Walker Gold Label Reserve</a>
+      <a href="/products/johnnie-walker-green-label-15-year" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Johnnie Walker Green Label 15 Year</a>
+      <a href="/products/johnnie-walker-king-george-v" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Johnnie Walker King George V</a>
+      <a href="/products/johnnie-walker-platinum-label-18-year" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Johnnie Walker Platinum Label 18 Year</a>
+      <a href="/products/johnnie-walker-red-label" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Johnnie Walker Red Label</a>
+      <a href="/products/johnnie-walker-swing" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Johnnie Walker Swing</a>
+      <a href="/products/johnnie-walker-the-john-walker" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Johnnie Walker The John Walker</a>
+      <a href="/products/johnnie-walker-xr-21-year" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Johnnie Walker XR 21 Year</a>
+      <a href="/products/lagavulin-16-year" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Lagavulin 16 Year</a>
+      <a href="/products/laphroaig-10-year" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Laphroaig 10 Year</a>
+      <a href="/products/macallan-12-double-cask" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Macallan 12 Double Cask</a>
+      <a href="/products/macallan-12-sherry-oak" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Macallan 12 Sherry Oak</a>
+      <a href="/products/macallan-18-double-cask" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Macallan 18 Double Cask</a>
+      <a href="/products/macallan-1926-fine-rare-60-year" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Macallan 1926 Fine & Rare 60 Year</a>
+      <a href="/products/macallan-25-year-double-cask" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Macallan 25 Year Double Cask</a>
+      <a href="/products/macallan-40-year-double-cask" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Macallan 40 Year Double Cask</a>
+      <a href="/products/macallan-50-year-in-lalique-crystal" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Macallan 50 Year in Lalique Crystal</a>
+      <a href="/products/macallan-the-reach-81-year" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Macallan The Reach 81 Year</a>
+      <a href="/products/monkey-shoulder-blended-malt" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Monkey Shoulder Blended Malt</a>
+      <a href="/products/oban-14-year" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Oban 14 Year</a>
+      <a href="/products/oban-18-year" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Oban 18 Year</a>
+      <a href="/products/oban-21-year" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Oban 21 Year</a>
+      <a href="/products/oban-little-bay" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Oban Little Bay</a>
+      <a href="/products/port-ellen-1979-first-fill-sherry-40-year" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Port Ellen 1979 First Fill Sherry 40 Year</a>
+      <a href="/products/port-ellen-32-year-13th-release" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Port Ellen 32 Year 13th Release</a>
+      <a href="/products/port-ellen-38-year-annual-release" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Port Ellen 38 Year Annual Release</a>
+      <a href="/products/royal-salute-21-year" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Royal Salute 21 Year</a>
+      <a href="/products/royal-salute-25-year" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Royal Salute 25 Year</a>
+      <a href="/products/singleton-12-year" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Singleton 12 Year</a>
+      <a href="/products/singleton-15-year" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Singleton 15 Year</a>
+      <a href="/products/singleton-18-year" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Singleton 18 Year</a>
+      <a href="/products/springbank-1919-100-year" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Springbank 1919 100 Year</a>
+      <a href="/products/springbank-21-year" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Springbank 21 Year</a>
+      <a href="/products/springbank-50-year" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Springbank 50 Year</a>
+      <a href="/products/talisker-10-year" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Talisker 10 Year</a>
+      <a href="/products/talisker-18-year" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Talisker 18 Year</a>
+      <a href="/products/talisker-25-year" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Talisker 25 Year</a>
+      <a href="/products/talisker-30-year" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Talisker 30 Year</a>
+      <a href="/products/talisker-storm" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Talisker Storm</a>
+      <a href="/products/tomatin-12-year" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Tomatin 12 Year</a>
+      <a href="/products/tomatin-18-year" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Tomatin 18 Year</a>
+    </div>
+  </div>
+  <div class="pi-cat" style="margin-bottom:22px;">
+    <h3 style="font-size:12px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--gold);margin-bottom:10px;">Japanese Whisky (25)</h3>
+    <div style="display:flex;flex-wrap:wrap;gap:6px 16px;">
+      <a href="/products/hakushu-12-year" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Hakushu 12 Year</a>
+      <a href="/products/hakushu-18-year" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Hakushu 18 Year</a>
+      <a href="/products/hakushu-35-year" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Hakushu 35 Year</a>
+      <a href="/products/hibiki-21-year" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Hibiki 21 Year</a>
+      <a href="/products/hibiki-30-year" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Hibiki 30 Year</a>
+      <a href="/products/hibiki-35-year" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Hibiki 35 Year</a>
+      <a href="/products/hibiki-harmony" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Hibiki Harmony</a>
+      <a href="/products/karuizawa-1960-single-cask" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Karuizawa 1960 Single Cask</a>
+      <a href="/products/karuizawa-1960-single-cask-no3603" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Karuizawa 1960 Single Cask No.3603</a>
+      <a href="/products/karuizawa-1964-noh-whisky-single-cask" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Karuizawa 1964 Noh Whisky Single Cask</a>
+      <a href="/products/karuizawa-1967-single-cask" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Karuizawa 1967 Single Cask</a>
+      <a href="/products/karuizawa-1984-single-cask" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Karuizawa 1984 Single Cask</a>
+      <a href="/products/nikka-from-the-barrel" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Nikka From the Barrel</a>
+      <a href="/products/nikka-single-malt-yoichi-20-year" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Nikka Single Malt Yoichi 20 Year</a>
+      <a href="/products/nikka-yoichi-1987-single-cask-35-year" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Nikka Yoichi 1987 Single Cask 35 Year</a>
+      <a href="/products/nikka-yoichi-50-year" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Nikka Yoichi 50 Year</a>
+      <a href="/products/suntory-royal-1960-original-bottling" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Suntory Royal 1960 Original Bottling</a>
+      <a href="/products/suntory-toki" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Suntory Toki</a>
+      <a href="/products/suntory-yamazaki-1984-single-cask" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Suntory Yamazaki 1984 Single Cask</a>
+      <a href="/products/yamazaki-12-year" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Yamazaki 12 Year</a>
+      <a href="/products/yamazaki-18-year" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Yamazaki 18 Year</a>
+      <a href="/products/yamazaki-25-year" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Yamazaki 25 Year</a>
+      <a href="/products/yamazaki-35-year" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Yamazaki 35 Year</a>
+      <a href="/products/yamazaki-50-year" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Yamazaki 50 Year</a>
+      <a href="/products/yamazaki-55-year-2021-release" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Yamazaki 55 Year 2021 Release</a>
+    </div>
+  </div>
+  <div class="pi-cat" style="margin-bottom:22px;">
+    <h3 style="font-size:12px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--gold);margin-bottom:10px;">Irish Whiskey (16)</h3>
+    <div style="display:flex;flex-wrap:wrap;gap:6px 16px;">
+      <a href="/products/green-spot-chateau-leoville-barton-1989-vintage" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Green Spot Chateau Leoville Barton 1989 Vintage</a>
+      <a href="/products/green-spot-single-pot-still" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Green Spot Single Pot Still</a>
+      <a href="/products/jameson-black-barrel" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Jameson Black Barrel</a>
+      <a href="/products/jameson-original" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Jameson Original</a>
+      <a href="/products/knappogue-castle-1951-vintage" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Knappogue Castle 1951 Vintage</a>
+      <a href="/products/knappogue-castle-21-year-twin-wood" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Knappogue Castle 21 Year Twin Wood</a>
+      <a href="/products/midleton-silent-distillery-chapter-one" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Midleton Silent Distillery Chapter One</a>
+      <a href="/products/midleton-very-rare-2014" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Midleton Very Rare 2014</a>
+      <a href="/products/midleton-very-rare-2024" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Midleton Very Rare 2024</a>
+      <a href="/products/midleton-very-rare-silent-distillery-chapter-four" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Midleton Very Rare Silent Distillery Chapter Four</a>
+      <a href="/products/powers-johns-lane-28-year-single-cask-1993" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Powers John's Lane 28 Year Single Cask 1993</a>
+      <a href="/products/redbreast-12-year" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Redbreast 12 Year</a>
+      <a href="/products/redbreast-21-year" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Redbreast 21 Year</a>
+      <a href="/products/redbreast-27-year-cask-strength" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Redbreast 27 Year Cask Strength</a>
+      <a href="/products/redbreast-32-year-cask-strength" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Redbreast 32 Year Cask Strength</a>
+      <a href="/products/redbreast-32-year-dream-cask-tawny-port" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Redbreast 32 Year Dream Cask Tawny Port</a>
+    </div>
+  </div>
+  <div class="pi-cat" style="margin-bottom:22px;">
+    <h3 style="font-size:12px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--gold);margin-bottom:10px;">Rye Whiskey (14)</h3>
+    <div style="display:flex;flex-wrap:wrap;gap:6px 16px;">
+      <a href="/products/bulleit-rye" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Bulleit Rye</a>
+      <a href="/products/george-dickel-rye-1988-cask-strength-heritage" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">George Dickel Rye 1988 Cask Strength Heritage</a>
+      <a href="/products/michters-25-year-american-rye-pre-prohibition-era" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Michter's 25 Year American Rye Pre-Prohibition Era</a>
+      <a href="/products/michters-us1-rye" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Michter's US*1 Rye</a>
+      <a href="/products/rittenhouse-rye-bib" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Rittenhouse Rye BiB</a>
+      <a href="/products/sazerac-18-year-1968-heritage-bottling" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Sazerac 18 Year 1968 Heritage Bottling</a>
+      <a href="/products/sazerac-18-year-rye" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Sazerac 18 Year Rye</a>
+      <a href="/products/thomas-h-handy-sazerac-rye-2003-first-release" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Thomas H. Handy Sazerac Rye 2003 First Release</a>
+      <a href="/products/whistlepig-10-year" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">WhistlePig 10 Year</a>
+      <a href="/products/whistlepig-15-year-vermont-estate-oak" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">WhistlePig 15 Year Vermont Estate Oak</a>
+      <a href="/products/whistlepig-18-year-double-malt-rye" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">WhistlePig 18 Year Double Malt Rye</a>
+      <a href="/products/whistlepig-boss-hog-spirit-of-mauve-special-edition" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">WhistlePig Boss Hog Spirit of Mauve Special Edition</a>
+      <a href="/products/whistlepig-the-boss-hog-ix" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">WhistlePig The Boss Hog IX</a>
+      <a href="/products/whistlepig-the-boss-hog-magellans-atlantic" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">WhistlePig The Boss Hog: Magellan's Atlantic</a>
+    </div>
+  </div>
+  <div class="pi-cat" style="margin-bottom:22px;">
+    <h3 style="font-size:12px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--gold);margin-bottom:10px;">Canadian Whisky (32)</h3>
+    <div style="display:flex;flex-wrap:wrap;gap:6px 16px;">
+      <a href="/products/alberta-premium-25-year" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Alberta Premium 25 Year</a>
+      <a href="/products/alberta-premium-30-year-dark-horse" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Alberta Premium 30 Year Dark Horse</a>
+      <a href="/products/alberta-premium-cask-strength-rye" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Alberta Premium Cask Strength Rye</a>
+      <a href="/products/canadian-club-100-rye-aged-8-year" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Canadian Club 100% Rye Aged 8 Year</a>
+      <a href="/products/canadian-club-30-year" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Canadian Club 30 Year</a>
+      <a href="/products/canadian-club-40-year" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Canadian Club 40 Year</a>
+      <a href="/products/canadian-club-chronicles-issue-no5" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Canadian Club Chronicles Issue No.5</a>
+      <a href="/products/canadian-club-classic-12-year-limited-edition" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Canadian Club Classic 12 Year Limited Edition</a>
+      <a href="/products/collingwood-21-year-rare-limited" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Collingwood 21 Year Rare Limited</a>
+      <a href="/products/crown-royal-18-year-extra-rare" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Crown Royal 18 Year Extra Rare</a>
+      <a href="/products/crown-royal-black" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Crown Royal Black</a>
+      <a href="/products/crown-royal-deluxe" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Crown Royal Deluxe</a>
+      <a href="/products/crown-royal-extra-rare-xr-limited" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Crown Royal Extra Rare (XR) Limited</a>
+      <a href="/products/crown-royal-noble-collection-cornerstone-blend" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Crown Royal Noble Collection Cornerstone Blend</a>
+      <a href="/products/crown-royal-noble-collection-winter-wheat" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Crown Royal Noble Collection Winter Wheat</a>
+      <a href="/products/crown-royal-xo" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Crown Royal XO</a>
+      <a href="/products/forty-creek-blood-oath-pact-no7" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Forty Creek Blood Oath Pact No.7</a>
+      <a href="/products/forty-creek-confederation-oak-reserve" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Forty Creek Confederation Oak Reserve</a>
+      <a href="/products/forty-creek-double-barrel-reserve" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Forty Creek Double Barrel Reserve</a>
+      <a href="/products/forty-creek-heart-of-gold" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Forty Creek Heart of Gold</a>
+      <a href="/products/forty-creek-rye-whisky-masters-cut" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Forty Creek Rye Whisky Masters Cut</a>
+      <a href="/products/gimli-distillery-crown-royal-cask-series-no16" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Gimli Distillery Crown Royal Cask Series No.16</a>
+      <a href="/products/glenora-glen-breton-rare-25-year" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Glenora Glen Breton Rare 25 Year</a>
+      <a href="/products/highwood-20-year-centennial-limited" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Highwood 20 Year Centennial Limited</a>
+      <a href="/products/highwood-25-year-presidents-reserve" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Highwood 25 Year President's Reserve</a>
+      <a href="/products/jp-wisers-18-year-dissertation" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">JP Wiser's 18 Year Dissertation</a>
+      <a href="/products/jp-wisers-35-year" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">JP Wiser's 35 Year</a>
+      <a href="/products/pike-creek-21-year-double-barrel" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Pike Creek 21 Year Double Barrel</a>
+      <a href="/products/pike-creek-30-year-speyside-finish" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Pike Creek 30 Year Speyside Finish</a>
+      <a href="/products/shelter-point-single-malt-10-year-cask-strength" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Shelter Point Single Malt 10 Year Cask Strength</a>
+      <a href="/products/stalk-barrel-single-malt-18-year" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Stalk & Barrel Single Malt 18 Year</a>
+      <a href="/products/whistlepig-farmstock-rye-crop-no003" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">WhistlePig FarmStock Rye Crop No.003</a>
+    </div>
+  </div>
+  <div class="pi-cat" style="margin-bottom:22px;">
+    <h3 style="font-size:12px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--gold);margin-bottom:10px;">Whiskey (7)</h3>
+    <div style="display:flex;flex-wrap:wrap;gap:6px 16px;">
+      <a href="/products/jack-daniels-10-year" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Jack Daniel's 10 Year</a>
+      <a href="/products/jack-daniels-gentleman-jack" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Jack Daniel's Gentleman Jack</a>
+      <a href="/products/jack-daniels-old-no-7" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Jack Daniel's Old No. 7</a>
+      <a href="/products/jack-daniels-single-barrel" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Jack Daniel's Single Barrel</a>
+      <a href="/products/jack-daniels-tennessee-apple" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Jack Daniel's Tennessee Apple</a>
+      <a href="/products/jack-daniels-tennessee-fire" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Jack Daniel's Tennessee Fire</a>
+      <a href="/products/jack-daniels-tennessee-honey" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Jack Daniel's Tennessee Honey</a>
+    </div>
+  </div>
+  <div class="pi-cat" style="margin-bottom:22px;">
+    <h3 style="font-size:12px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--gold);margin-bottom:10px;">Rare & Allocated (6)</h3>
+    <div style="display:flex;flex-wrap:wrap;gap:6px 16px;">
+      <a href="/products/angels-envy-cask-strength-port-finish" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Angel's Envy Cask Strength Port Finish</a>
+      <a href="/products/blantons-straight-from-the-barrel" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Blanton's Straight from the Barrel</a>
+      <a href="/products/eh-taylor-small-batch-bib" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">E.H. Taylor Small Batch BiB</a>
+      <a href="/products/kentucky-owl-the-wiseman" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Kentucky Owl The Wiseman</a>
+      <a href="/products/old-fitzgerald-19-year-bottled-in-bond" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Old Fitzgerald 19 Year Bottled-in-Bond</a>
+      <a href="/products/pappy-van-winkle-15-year" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Pappy Van Winkle 15 Year</a>
+    </div>
+  </div>
+  <div class="pi-cat" style="margin-bottom:22px;">
+    <h3 style="font-size:12px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--gold);margin-bottom:10px;">Cognac (82)</h3>
+    <div style="display:flex;flex-wrap:wrap;gap:6px 16px;">
+      <a href="/products/a-de-fussigny-xo-cognac" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">A. de Fussigny X.O Cognac</a>
+      <a href="/products/bisquit-dubouch-caractre" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Bisquit & Dubouché Caractère</a>
+      <a href="/products/bisquit-dubouch-extra" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Bisquit & Dubouché Extra</a>
+      <a href="/products/bisquit-dubouch-vs" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Bisquit & Dubouché V.S</a>
+      <a href="/products/bisquit-dubouch-vsop" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Bisquit & Dubouché V.S.O.P</a>
+      <a href="/products/bisquit-dubouch-xo" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Bisquit & Dubouché X.O</a>
+      <a href="/products/bisquit-dubuche-caractere" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Bisquit Dubuche Caractere</a>
+      <a href="/products/bisquit-dubuche-extra" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Bisquit Dubuche Extra</a>
+      <a href="/products/bisquit-dubuche-vs" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Bisquit Dubuche V.S</a>
+      <a href="/products/bisquit-dubuche-vsop" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Bisquit Dubuche V.S.O.P</a>
+      <a href="/products/bisquit-dubuche-xo" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Bisquit Dubuche X.O</a>
+      <a href="/products/camus-cuvee-5150-grande-champagne" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Camus Cuvee 5.150 Grande Champagne</a>
+      <a href="/products/camus-extra-elegance" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Camus Extra Elegance</a>
+      <a href="/products/camus-vs-elegance" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Camus V.S Elegance</a>
+      <a href="/products/camus-vsop-elegance" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Camus V.S.O.P Elegance</a>
+      <a href="/products/camus-xo-borderies" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Camus X.O Borderies</a>
+      <a href="/products/camus-xo-elegance" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Camus X.O Elegance</a>
+      <a href="/products/courvoisier-12-year" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Courvoisier 12 Year</a>
+      <a href="/products/courvoisier-21-year" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Courvoisier 21 Year</a>
+      <a href="/products/courvoisier-l-essence" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Courvoisier L Essence</a>
+      <a href="/products/courvoisier-lesprit-original-1800s-reserve" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Courvoisier L'Esprit Original 1800s Reserve</a>
+      <a href="/products/courvoisier-rose" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Courvoisier Rose</a>
+      <a href="/products/courvoisier-succession-js" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Courvoisier Succession J.S</a>
+      <a href="/products/courvoisier-vs" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Courvoisier V.S</a>
+      <a href="/products/courvoisier-vsop" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Courvoisier V.S.O.P</a>
+      <a href="/products/courvoisier-xo" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Courvoisier XO</a>
+      <a href="/products/d-usse-cabaret-edition" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">D USSE Cabaret Edition</a>
+      <a href="/products/d-usse-limited-edition-750ml" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">D USSE Limited Edition 750ml</a>
+      <a href="/products/d-usse-vsop-cognac" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">D USSE V.S.O.P Cognac</a>
+      <a href="/products/d-usse-xo-cognac" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">D USSE XO Cognac</a>
+      <a href="/products/duss-cabaret-edition" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">D'USSÉ Cabaret Edition</a>
+      <a href="/products/duss-limited-edition-750ml" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">D'USSÉ Limited Edition 750ml</a>
+      <a href="/products/delamain-pale-dry-xo" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Delamain Pale & Dry X.O</a>
+      <a href="/products/frapin-chateau-fontpinot-xo" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Frapin Chateau Fontpinot X.O</a>
+      <a href="/products/hennessy-8" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Hennessy 8</a>
+      <a href="/products/hennessy-black" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Hennessy Black</a>
+      <a href="/products/hennessy-classivm" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Hennessy Classivm</a>
+      <a href="/products/hennessy-ellipse" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Hennessy Ellipse</a>
+      <a href="/products/hennessy-ellipse-baccarat-crystal-1-of-100" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Hennessy Ellipse Baccarat Crystal 1 of 100</a>
+      <a href="/products/hennessy-master-blenders-selection-no5" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Hennessy Master Blenders Selection No.5</a>
+      <a href="/products/hennessy-paradis" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Hennessy Paradis</a>
+      <a href="/products/hennessy-paradis-imperial" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Hennessy Paradis Imperial</a>
+      <a href="/products/hennessy-pure-white" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Hennessy Pure White</a>
+      <a href="/products/hennessy-richard-hennessy" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Hennessy Richard Hennessy</a>
+      <a href="/products/hennessy-vs" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Hennessy V.S</a>
+      <a href="/products/hennessy-vsop-privilege" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Hennessy V.S.O.P Privilege</a>
+      <a href="/products/hennessy-vsop-privilege-limited-edition" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Hennessy V.S.O.P Privilege Limited Edition</a>
+      <a href="/products/hennessy-xo" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Hennessy X.O</a>
+      <a href="/products/hennessy-xo-limited-edition-by-marc-newson" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Hennessy X.O Limited Edition By Marc Newson</a>
+      <a href="/products/hennessy-xo-limited-edition-by-ridley-scott" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Hennessy X.O Limited Edition By Ridley Scott</a>
+      <a href="/products/hine-antique-xo-premier-cru" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Hine Antique X.O Premier Cru</a>
+      <a href="/products/hine-h-by-hine-vsop" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Hine H by Hine V.S.O.P</a>
+      <a href="/products/hine-rare-vsop" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Hine Rare V.S.O.P</a>
+      <a href="/products/hine-triomphe-grande-champagne" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Hine Triomphe Grande Champagne</a>
+      <a href="/products/kelt-tour-du-monde-xo" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Kelt Tour du Monde X.O</a>
+      <a href="/products/louis-royer-xo-cognac" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Louis Royer X.O Cognac</a>
+      <a href="/products/martell-assemblage-mathieu-gregoire" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Martell Assemblage Mathieu Gregoire</a>
+      <a href="/products/martell-chanteloup-perspective" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Martell Chanteloup Perspective</a>
+      <a href="/products/martell-cohiba-edition" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Martell Cohiba Edition</a>
+      <a href="/products/martell-cordon-bleu" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Martell Cordon Bleu</a>
+      <a href="/products/martell-cordon-bleu-extra" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Martell Cordon Bleu Extra</a>
+      <a href="/products/martell-creation-grand-extra" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Martell Creation Grand Extra</a>
+      <a href="/products/martell-l-or-de-jean-martell" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Martell L Or de Jean Martell</a>
+      <a href="/products/martell-lor-de-jean-martell-baccarat-edition" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Martell L'Or de Jean Martell Baccarat Edition</a>
+      <a href="/products/martell-vs-single-distillery" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Martell V.S Single Distillery</a>
+      <a href="/products/martell-vsop-aged-in-red-barrels" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Martell V.S.O.P Aged in Red Barrels</a>
+      <a href="/products/martell-xo" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Martell X.O</a>
+      <a href="/products/pierre-ferrand-10-generations" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Pierre Ferrand 10 Generations</a>
+      <a href="/products/pierre-ferrand-10-gnrations" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Pierre Ferrand 10 Générations</a>
+      <a href="/products/remy-martin-1738-accord-royal" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Remy Martin 1738 Accord Royal</a>
+      <a href="/products/remy-martin-300-years-anniversary" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Remy Martin 300 Years Anniversary</a>
+      <a href="/products/remy-martin-centaure-de-diamant" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Remy Martin Centaure de Diamant</a>
+      <a href="/products/remy-martin-club" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Remy Martin Club</a>
+      <a href="/products/remy-martin-coeur-de-cognac" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Remy Martin Coeur de Cognac</a>
+      <a href="/products/remy-martin-louis-xiii" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Remy Martin Louis XIII</a>
+      <a href="/products/remy-martin-louis-xiii-black-pearl" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Remy Martin Louis XIII Black Pearl</a>
+      <a href="/products/remy-martin-louis-xiii-black-pearl-grande-champagne" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Remy Martin Louis XIII Black Pearl Grande Champagne</a>
+      <a href="/products/remy-martin-louis-xiii-rare-cask" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Remy Martin Louis XIII Rare Cask</a>
+      <a href="/products/remy-martin-tercet" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Remy Martin Tercet</a>
+      <a href="/products/remy-martin-vsop" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Remy Martin V.S.O.P</a>
+      <a href="/products/remy-martin-xo-excellence" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Remy Martin X.O Excellence</a>
+      <a href="/products/remy-martin-xo-limited-edition" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Remy Martin X.O Limited Edition</a>
+    </div>
+  </div>
+  <div class="pi-cat" style="margin-bottom:22px;">
+    <h3 style="font-size:12px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--gold);margin-bottom:10px;">Brandy & Armagnac (41)</h3>
+    <div style="display:flex;flex-wrap:wrap;gap:6px 16px;">
+      <a href="/products/argonaut-fat-thumb-california-brandy" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Argonaut Fat Thumb California Brandy</a>
+      <a href="/products/barsol-quebranta-pisco" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Barsol Quebranta Pisco</a>
+      <a href="/products/busnel-vsop-calvados" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Busnel V.S.O.P Calvados</a>
+      <a href="/products/calvados-pere-magloire-1901-vintage" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Calvados Pere Magloire 1901 Vintage</a>
+      <a href="/products/capel-premium-pisco" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Capel Premium Pisco</a>
+      <a href="/products/cardenal-mendoza-brandy" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Cardenal Mendoza Brandy</a>
+      <a href="/products/chateau-de-laubade-1888-vintage-armagnac" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Chateau de Laubade 1888 Vintage Armagnac</a>
+      <a href="/products/chateau-de-laubade-vsop-armagnac" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Chateau de Laubade V.S.O.P Armagnac</a>
+      <a href="/products/chateau-de-laubade-xo-armagnac" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Chateau de Laubade X.O Armagnac</a>
+      <a href="/products/chateau-du-breuil-xo-calvados" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Chateau du Breuil X.O Calvados</a>
+      <a href="/products/christian-brothers-vs-brandy" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Christian Brothers V.S Brandy</a>
+      <a href="/products/christian-drouin-calvados-vsop" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Christian Drouin Calvados V.S.O.P</a>
+      <a href="/products/chteau-du-breuil-xo-calvados" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Château du Breuil X.O Calvados</a>
+      <a href="/products/clear-creek-apple-brandy" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Clear Creek Apple Brandy</a>
+      <a href="/products/delord-15-year-armagnac" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Delord 15 Year Armagnac</a>
+      <a href="/products/delord-25-year-armagnac" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Delord 25 Year Armagnac</a>
+      <a href="/products/ej-vs-brandy" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">E&J V.S Brandy</a>
+      <a href="/products/ej-vsop-brandy" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">E&J V.S.O.P Brandy</a>
+      <a href="/products/frapin-1858-grande-champagne-1er-cru" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Frapin 1858 Grande Champagne 1er Cru</a>
+      <a href="/products/jacopo-poli-sarpa-di-poli" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Jacopo Poli Sarpa di Poli</a>
+      <a href="/products/janneau-1904-vintage-grand-armagnac" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Janneau 1904 Vintage Grand Armagnac</a>
+      <a href="/products/janneau-vsop-grand-armagnac" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Janneau V.S.O.P Grand Armagnac</a>
+      <a href="/products/janneau-xo-grand-armagnac" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Janneau X.O Grand Armagnac</a>
+      <a href="/products/kwv-10-year-brandy" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">KWV 10 Year Brandy</a>
+      <a href="/products/kwv-15-year-brandy" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">KWV 15 Year Brandy</a>
+      <a href="/products/klipdrift-premium-brandy" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Klipdrift Premium Brandy</a>
+      <a href="/products/lairds-applejack-brandy" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Laird's Applejack Brandy</a>
+      <a href="/products/miguel-torres-gran-reserva-brandy" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Miguel Torres Gran Reserva Brandy</a>
+      <a href="/products/nardini-grappa-riserva" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Nardini Grappa Riserva</a>
+      <a href="/products/nonino-grappa-monovitigno" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Nonino Grappa Monovitigno</a>
+      <a href="/products/oude-meester-brandy" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Oude Meester Brandy</a>
+      <a href="/products/paul-masson-grande-amber-vs-brandy" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Paul Masson Grande Amber V.S Brandy</a>
+      <a href="/products/pisco-porton-mosto-verde" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Pisco Porton Mosto Verde</a>
+      <a href="/products/pisco-portn-mosto-verde" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Pisco Portón Mosto Verde</a>
+      <a href="/products/stock-84-vsop-brandy" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Stock 84 V.S.O.P Brandy</a>
+      <a href="/products/tariquet-vsop-armagnac" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Tariquet V.S.O.P Armagnac</a>
+      <a href="/products/tariquet-xo-armagnac" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Tariquet X.O Armagnac</a>
+      <a href="/products/torres-10-year-brandy" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Torres 10 Year Brandy</a>
+      <a href="/products/torres-15-year-brandy" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Torres 15 Year Brandy</a>
+      <a href="/products/torres-20-year-brandy" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Torres 20 Year Brandy</a>
+      <a href="/products/torres-reserva-privada-1922-gran-reserva" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Torres Reserva Privada 1922 Gran Reserva</a>
+    </div>
+  </div>
+  <div class="pi-cat" style="margin-bottom:22px;">
+    <h3 style="font-size:12px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--gold);margin-bottom:10px;">Gift Sets (29)</h3>
+    <div style="display:flex;flex-wrap:wrap;gap:6px 16px;">
+      <a href="/products/around-the-world-whisky-experience" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Around the World Whisky Experience</a>
+      <a href="/products/japanese-whisky-trio" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Japanese Whisky Trio</a>
+      <a href="/products/macallan-30-year-double-cask" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Macallan 30 Year Double Cask</a>
+      <a href="/products/macallan-discovery-set" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Macallan Discovery Set</a>
+      <a href="/products/suntory-ultimate-collection-vault" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Suntory Ultimate Collection Vault</a>
+      <a href="/products/the-allocated-rarities-trio" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">The Allocated Rarities Trio</a>
+      <a href="/products/the-american-rye-masters-set" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">The American Rye Masters Set</a>
+      <a href="/products/the-bourbon-collectors-vault" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">The Bourbon Collector's Vault</a>
+      <a href="/products/the-bourbon-foundations-set" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">The Bourbon Foundations Set</a>
+      <a href="/products/the-buffalo-trace-antique-collection" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">The Buffalo Trace Antique Collection</a>
+      <a href="/products/the-collectors-ultimate-cellar" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">The Collector's Ultimate Cellar</a>
+      <a href="/products/the-dalmore-64-year-trinitas-presentation-set" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">The Dalmore 64 Year Trinitas Presentation Set</a>
+      <a href="/products/the-glenfiddich-century-vault" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">The Glenfiddich Century Vault</a>
+      <a href="/products/the-glenfiddich-janet-sheed-roberts-reserve-1955-set" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">The Glenfiddich Janet Sheed Roberts Reserve 1955 Set</a>
+      <a href="/products/the-irish-whiskey-trio" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">The Irish Whiskey Trio</a>
+      <a href="/products/the-islay-smoke-collection" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">The Islay Smoke Collection</a>
+      <a href="/products/the-japanese-century-collection" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">The Japanese Century Collection</a>
+      <a href="/products/the-japanese-whisky-journey" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">The Japanese Whisky Journey</a>
+      <a href="/products/the-legendary-islay-vault" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">The Legendary Islay Vault</a>
+      <a href="/products/the-macallan-masters-of-photography-ansel-adams-edition" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">The Macallan Masters of Photography Ansel Adams Edition</a>
+      <a href="/products/the-macallan-pinnacle-collection" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">The Macallan Pinnacle Collection</a>
+      <a href="/products/the-macallan-sherry-cask-journey" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">The Macallan Sherry Cask Journey</a>
+      <a href="/products/the-pappy-family-legacy-collection" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">The Pappy Family Legacy Collection</a>
+      <a href="/products/the-pappy-van-winkle-experience" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">The Pappy Van Winkle Experience</a>
+      <a href="/products/the-rare-japanese-masters-set" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">The Rare Japanese Masters Set</a>
+      <a href="/products/the-scotch-explorer-set" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">The Scotch Explorer Set</a>
+      <a href="/products/the-speyside-masters-collection" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">The Speyside Masters Collection</a>
+      <a href="/products/the-worlds-finest-whisky-box" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">The World's Finest Whisky Box</a>
+      <a href="/products/woodford-reserve-gift-set-with-glasses" style="font-size:12px;color:var(--muted2);text-decoration:none;line-height:1.6;">Woodford Reserve Gift Set with Glasses</a>
+    </div>
+  </div>
+</section>
+<div class="nl-section">
+  <div class="container-sm">
+    <span class="label" style="color:var(--gold);display:block;margin-bottom:10px;">Stay Informed</span>
+    <h2>New Arrivals & Limited Releases</h2>
+    <p>Expert picks, rare finds and exclusive offers delivered to your inbox.</p>
+    <form class="nl-form" onsubmit="subscribeNl(event)">
+      <input type="email" id="nl-email" class="nl-input" placeholder="Your email address">
+      <button type="submit" class="nl-btn">Subscribe</button>
+    </form>
+  </div>
+</div>
+<footer id="site-footer">
+  <div class="footer-top">
+    <div class="container">
+      <div class="footer-grid">
+
+        <!-- Brand -->
+        <div class="footer-col footer-brand">
+          <a href="/" class="logo" aria-label="Caskworth Premium Whisky — Home">
+            <div class="logo-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 48" width="22" height="22" aria-hidden="true">
+                <defs><linearGradient id="fcg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#fff6c0"/><stop offset="40%" stop-color="#f0c020"/><stop offset="100%" stop-color="#8a5000"/></linearGradient></defs>
+                <rect x="6" y="22" width="28" height="5" rx="2" fill="url(#fcg)"/>
+                <polygon points="8,22 11.5,8 15,22" fill="url(#fcg)"/>
+                <polygon points="17,22 20,4 23,22" fill="#fff0a0"/>
+                <polygon points="25,22 28.5,8 32,22" fill="url(#fcg)"/>
+                <ellipse cx="20" cy="6" rx="3.5" ry="4" fill="#fffce0" opacity=".95"/>
+                <path d="M20 27 C15 33 13 38 13 42 C13 46 16 48 20 48 C24 48 27 46 27 42 C27 38 25 33 20 27Z" fill="url(#fcg)"/>
+              </svg>
+            </div>
+            <div class="logo-text"><b>Caskworth</b><small>Premium Whisky</small></div>
+          </a>
+          <p class="footer-tagline">Buy premium whisky online with same-day delivery to 33 US states and 7 Canadian provinces.</p>
+          <div class="footer-contact">
+            <a href="https://wa.me/14482348667" rel="noopener" aria-label="WhatsApp us">&#x1F4F1; WhatsApp: +1 (448) 234-8667</a>
+            <a href="mailto:info@caskworth.com" aria-label="Email us">&#x2709; info@caskworth.com</a>
+          </div>
+        </div>
+
+        <!-- Shop by Category -->
+        <div class="footer-col">
+          <h3 class="footer-heading">Shop by Category</h3>
+          <ul class="footer-links">
+            <li><a href="/shop/">All Premium Spirits</a></li>
+            <li><a href="/shop/?cat=bourbon">Bourbon Whiskey</a></li>
+            <li><a href="/shop/?cat=scotch">Scotch Whisky</a></li>
+            <li><a href="/shop/?cat=japanese">Japanese Whisky</a></li>
+            <li><a href="/shop/?cat=cognac">Cognac &amp; Brandy</a></li>
+            <li><a href="/shop/?cat=irish">Irish Whiskey</a></li>
+            <li><a href="/shop/?cat=rye">Rye Whiskey</a></li>
+            <li><a href="/shop/?cat=canadian">Canadian Whisky</a></li>
+            <li><a href="/shop/?cat=rare">Rare &amp; Allocated</a></li>
+          </ul>
+        </div>
+
+        <!-- Top Products -->
+        <div class="footer-col">
+          <h3 class="footer-heading">Popular Bottles</h3>
+          <ul class="footer-links">
+            <li><a href="/products/blantons-original-single-barrel">Blanton&#x2019;s Original</a></li>
+            <li><a href="/products/pappy-van-winkle-20-year-family-reserve">Pappy Van Winkle 20yr</a></li>
+            <li><a href="/products/macallan-18-double-cask">Macallan 18 Year</a></li>
+            <li><a href="/products/yamazaki-18-year">Yamazaki 18 Year</a></li>
+            <li><a href="/products/hennessy-xo">Hennessy XO</a></li>
+            <li><a href="/products/hibiki-21-year">Hibiki 21 Year</a></li>
+            <li><a href="/products/johnnie-walker-blue-label">Johnnie Walker Blue</a></li>
+            <li><a href="/products/eagle-rare-10-year">Eagle Rare 10 Year</a></li>
+            <li><a href="/products/remy-martin-louis-xiii">R&#xE9;my Martin Louis XIII</a></li>
+          </ul>
+        </div>
+
+        <!-- Company + Resources -->
+        <div class="footer-col">
+          <h3 class="footer-heading">Company</h3>
+          <ul class="footer-links">
+            <li><a href="/about/">About Caskworth</a></li>
+            <li><a href="/how-to-order/">How to Order</a></li>
+            <li><a href="/wholesale/">Wholesale &amp; Trade</a></li>
+            <li><a href="/contact/">Contact Us</a></li>
+            <li><a href="/faq/">FAQ</a></li>
+            <li><a href="/reviews/">Customer Reviews</a></li>
+            <li><a href="/blog/">Whisky Blog &amp; Guides</a></li>
+          </ul>
+          <h3 class="footer-heading" style="margin-top:1.5rem">Legal</h3>
+          <ul class="footer-links">
+            <li><a href="/shipping-policy/">Shipping Policy</a></li>
+            <li><a href="/refund-and-returns/">Refunds &amp; Returns</a></li>
+            <li><a href="/terms-and-conditions/">Terms &amp; Conditions</a></li>
+            <li><a href="/privacy-policy/">Privacy Policy</a></li>
+          </ul>
+        </div>
+
+        <!-- Blog + Resources -->
+        <div class="footer-col">
+          <h3 class="footer-heading">Buying Guides</h3>
+          <ul class="footer-links">
+            <li><a href="/blog/best-bourbon-2025/">Best Bourbon 2025</a></li>
+            <li><a href="/blog/pappy-van-winkle-guide/">Pappy Van Winkle Guide</a></li>
+            <li><a href="/blog/macallan-12-vs-18/">Macallan 12 vs 18 Year</a></li>
+            <li><a href="/blog/japanese-vs-scotch/">Japanese vs Scotch Guide</a></li>
+            <li><a href="/blog/rare-whisky-investment-2025/">Whisky Investment 2025</a></li>
+            <li><a href="/blog/same-day-whiskey-delivery/">Same-Day Delivery Guide</a></li>
+          </ul>
+          <h3 class="footer-heading" style="margin-top:1.5rem">Industry Links</h3>
+          <ul class="footer-links">
+            <li><a href="https://www.distilledspirits.org/" rel="noopener nofollow" target="_blank">Distilled Spirits Council</a></li>
+            <li><a href="https://www.ttb.gov/" rel="noopener nofollow" target="_blank">TTB Regulations</a></li>
+            <li><a href="https://scotchwhiskyassociation.com/" rel="noopener nofollow" target="_blank">Scotch Whisky Association</a></li>
+            <li><a href="https://www.thewillowwhiskyclub.com/" rel="noopener nofollow" target="_blank">Whisky Investment Resources</a></li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <div class="container">
+      <div class="footer-bottom-inner">
+        <p class="footer-copy">&copy; 2025 Caskworth Premium Whisky. All rights reserved.</p>
+        <p class="footer-legal">Must be 21+ to purchase. Drink responsibly. <a href="https://www.responsibility.org/" rel="noopener nofollow" target="_blank">Responsibility.org</a> &bull; <a href="https://www.drinkaware.co.uk/" rel="noopener nofollow" target="_blank">DrinkAware</a></p>
+        <p class="footer-delivery">Same-day delivery available in: AL, AK, AZ, CA, CO, CT, DC, DE, FL, GA, HI, ID, IL, IN, IA, KY, LA, ME, MD, MA, MI, MN, MO, MT, NE, NV, NJ, NM, NY, NC, OH, OR, PA, RI, SC, TN, TX, UT, VA, WA, WI, WY &amp; 7 Canadian provinces.</p>
+      </div>
+    </div>
+  </div>
+</footer>
+<div id="toast"></div>
+<a id="wa-float" href="https://wa.me/14482348667" target="_blank" rel="noopener">
+  <svg width="26" height="26" viewBox="0 0 24 24" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+  <span class="wa-label">Chat on WhatsApp</span>
+</a><script src="/assets/js/app.js"></script>
+<script src="/assets/js/new_products.js"></script>
+<script src="/assets/js/ultra_products.js"></script>
+<script src="/assets/js/more_products.js"></script>
+<script src="/assets/js/webmcp.js" defer></script><script>
+
+/* ══ PAGINATED SHOP ENGINE ══════════════════════════════════ */
+var SHOP_PAGE     = 1;
+var SHOP_PER_PAGE = 12;
+var SHOP_LIST     = [];
+
+function ALL_PRODUCTS() {
+  var p = PRODUCTS.slice();
+  if (typeof NEW_PRODUCTS    !== 'undefined') p = p.concat(NEW_PRODUCTS);
+  if (typeof ULTRA_PRODUCTS  !== 'undefined') p = p.concat(ULTRA_PRODUCTS);
+  if (typeof MORE_PRODUCTS   !== 'undefined') p = p.concat(MORE_PRODUCTS);
+  return p;
+}
+
+/* ── Render one page of products ── */
+function renderPage(list, page) {
+  SHOP_LIST = list;
+  SHOP_PAGE = page;
+  var perPage = SHOP_PER_PAGE;
+  var total   = list.length;
+  var pages   = Math.ceil(total / perPage);
+  var start   = (page - 1) * perPage;
+  var slice   = list.slice(start, start + perPage);
+
+  renderProducts(slice, 'shop-grid');
+
+  /* Page info */
+  var infoEl = document.getElementById('pag-info');
+  if (infoEl) {
+    var end = Math.min(start + perPage, total);
+    infoEl.textContent = 'Showing ' + (start + 1) + '–' + end + ' of ' + total + ' products';
+  }
+
+  /* Pagination controls */
+  buildPagination(pages, page);
+
+  /* Scroll to top of grid */
+  var grid = document.getElementById('shop-grid');
+  if (grid && page !== 1) {
+    var y = grid.getBoundingClientRect().top + window.scrollY - 100;
+    window.scrollTo({ top: Math.max(0, y), behavior: 'smooth' });
+  }
+}
+
+/* ── Build pagination controls ── */
+function buildPagination(pages, current) {
+  var el = document.getElementById('shop-pag');
+  if (!el) return;
+  if (pages <= 1) { el.innerHTML = ''; return; }
+
+  var html = '';
+
+  /* Prev */
+  html += '<button class="pag-btn" onclick="renderPage(SHOP_LIST,' + (current-1) + ')" '
+        + (current === 1 ? 'disabled' : '') + '>&#8592; Prev</button>';
+
+  /* Page numbers — smart windowing */
+  var shown = new Set();
+  var toShow = [];
+  // Always show: 1, last, current-1, current, current+1
+  [1, current-1, current, current+1, pages].forEach(function(n){
+    if (n >= 1 && n <= pages) shown.add(n);
+  });
+  // If gap < 3, fill it
+  if (current > 4)            shown.add(2);
+  if (current < pages - 3)    shown.add(pages - 1);
+
+  var sorted = Array.from(shown).sort(function(a,b){return a-b;});
+  var prev   = 0;
+  sorted.forEach(function(n) {
+    if (prev && n - prev > 1) {
+      html += '<span class="pag-dots">…</span>';
+    }
+    html += '<button class="pag-btn' + (n === current ? ' active' : '')
+          + '" onclick="renderPage(SHOP_LIST,' + n + ')">' + n + '</button>';
+    prev = n;
+  });
+
+  /* Next */
+  html += '<button class="pag-btn" onclick="renderPage(SHOP_LIST,' + (current+1) + ')" '
+        + (current === pages ? 'disabled' : '') + '>Next &#8594;</button>';
+
+  el.innerHTML = html;
+}
+
+/* ── Filter and go to page 1 ── */
+function filterAll(btn) {
+  document.querySelectorAll('.ftab').forEach(function(t){ t.classList.remove('active'); });
+  if (btn) btn.classList.add('active');
+  renderPage(ALL_PRODUCTS(), 1);
+}
+
+/* Override filterTab to use pagination */
+var _origFilterTab = typeof filterTab !== 'undefined' ? filterTab : null;
+function filterTab(cat, btn, containerId, allProds) {
+  document.querySelectorAll('.ftab').forEach(function(t){ t.classList.remove('active'); });
+  if (btn) btn.classList.add('active');
+  var filtered = cat === 'all'
+    ? allProds
+    : allProds.filter(function(p){ return (p.cat||'').toLowerCase().includes(cat.toLowerCase()) || (p.tag||'').toLowerCase().includes(cat.toLowerCase()); });
+  renderPage(filtered, 1);
+}
+
+/* ── Per-page selector ── */
+function setPerPage(n) {
+  SHOP_PER_PAGE = parseInt(n);
+  renderPage(SHOP_LIST.length ? SHOP_LIST : ALL_PRODUCTS(), 1);
+}
+
+/* ── Init ── */
+document.addEventListener('DOMContentLoaded', function() {
+  var all = ALL_PRODUCTS();
+  var p   = new URLSearchParams(window.location.search);
+  var cat = p.get('cat');
+  if (cat) {
+    var btn = document.querySelector('.ftab[onclick*="' + cat + '"]');
+    if (btn) {
+      document.querySelectorAll('.ftab').forEach(function(t){ t.classList.remove('active'); });
+      btn.classList.add('active');
+      var filtered = all.filter(function(pr){
+        return (pr.cat||'').toLowerCase().includes(cat.toLowerCase())
+            || (pr.tag||'').toLowerCase().includes(cat.toLowerCase());
+      });
+      renderPage(filtered, 1);
+    } else {
+      renderPage(all, 1);
+    }
+  } else {
+    renderPage(all, 1);
+  }
+});
+</script>
+</body></html>

@@ -1,0 +1,13 @@
+{
+  "$schema": "https://agentskills.io/schemas/v0.2.0/index.json",
+  "version": "0.2.0",
+  "skills": [
+    {
+      "name": "caskworth-catalog",
+      "type": "skill",
+      "description": "Search and browse the Caskworth premium whisky and spirits catalogue, look up bottle details and pricing, check delivery coverage and ordering terms, and stage items in the cart.",
+      "url": "https://caskworth.com/.well-known/agent-skills/caskworth-catalog/SKILL.md",
+      "sha256": "dc22d1e5db04e1d4fef0b59171ee28a40bb3c457baaf19e2dbd8ace0bae24240"
+    }
+  ]
+}

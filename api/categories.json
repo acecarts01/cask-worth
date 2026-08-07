@@ -1,0 +1,56 @@
+{
+ "generated": "2026-07-11",
+ "count": 10,
+ "categories": [
+  {
+   "name": "Scotch",
+   "product_count": 128,
+   "url": "https://caskworth.com/shop/?cat=scotch"
+  },
+  {
+   "name": "Cognac",
+   "product_count": 76,
+   "url": "https://caskworth.com/shop/?cat=cognac"
+  },
+  {
+   "name": "Bourbon",
+   "product_count": 60,
+   "url": "https://caskworth.com/shop/?cat=bourbon"
+  },
+  {
+   "name": "Brandy",
+   "product_count": 41,
+   "url": "https://caskworth.com/shop/?cat=brandy"
+  },
+  {
+   "name": "Canadian",
+   "product_count": 28,
+   "url": "https://caskworth.com/shop/?cat=canadian"
+  },
+  {
+   "name": "Gifts",
+   "product_count": 28,
+   "url": "https://caskworth.com/shop/?cat=gifts"
+  },
+  {
+   "name": "Japanese",
+   "product_count": 25,
+   "url": "https://caskworth.com/shop/?cat=japanese"
+  },
+  {
+   "name": "Irish",
+   "product_count": 16,
+   "url": "https://caskworth.com/shop/?cat=irish"
+  },
+  {
+   "name": "Rye",
+   "product_count": 15,
+   "url": "https://caskworth.com/shop/?cat=rye"
+  },
+  {
+   "name": "Allocated",
+   "product_count": 8,
+   "url": "https://caskworth.com/shop/?cat=allocated"
+  }
+ ]
+}
