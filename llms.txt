@@ -1,6 +1,6 @@
 # Caskworth Premium Whisky
 
-> Premium whisky and spirits retailer based in Los Angeles, California, offering same-day delivery to 33 U.S. states and 7 Canadian provinces. 435 bottles across bourbon, Scotch, Japanese, Irish, rye and Canadian whisky, plus cognac, Armagnac and gift sets — from everyday bottles at $24.99 up to ultra-rare allocated releases.
+> Premium whisky and spirits retailer based in Los Angeles, California, offering same-day delivery to 33 U.S. states and 7 Canadian provinces. 425 bottles across bourbon, Scotch, Japanese, Irish, rye and Canadian whisky, plus cognac, Armagnac and gift sets — from everyday bottles at $24.99 up to ultra-rare allocated releases.
 
 Caskworth sells to adults 21 and over only; an age gate must be accepted before browsing. Minimum order is $150 USD. Payment is accepted via cryptocurrency, PayPal and Apple Pay.
 
@@ -11,17 +11,16 @@ AI agents running in an agent-enabled browser can use this site's WebMCP tools (
 ## Shop
 
 - [All products](https://caskworth.com/shop/): Full catalogue, browsable by category
-- [Scotch](https://caskworth.com/shop/?cat=scotch): 126 bottles
-- [Bourbon](https://caskworth.com/shop/?cat=bourbon): 65 bottles
-- [Cognac](https://caskworth.com/shop/?cat=cognac): 46 bottles
+- [Scotch](https://caskworth.com/shop/?cat=scotch): 128 bottles
+- [Bourbon](https://caskworth.com/shop/?cat=bourbon): 60 bottles
+- [Cognac](https://caskworth.com/shop/?cat=cognac): 74 bottles
+- [Brandy](https://caskworth.com/shop/?cat=brandy): 39 bottles
+- [Canadian](https://caskworth.com/shop/?cat=canadian): 32 bottles
 - [Gifts](https://caskworth.com/shop/?cat=gifts): 28 bottles
-- [Brandy](https://caskworth.com/shop/?cat=brandy): 27 bottles
-- [Canadian](https://caskworth.com/shop/?cat=canadian): 25 bottles
-- [Japanese](https://caskworth.com/shop/?cat=japanese): 24 bottles
+- [Japanese](https://caskworth.com/shop/?cat=japanese): 25 bottles
 - [Irish](https://caskworth.com/shop/?cat=irish): 16 bottles
 - [Rye](https://caskworth.com/shop/?cat=rye): 15 bottles
-- [Allocated](https://caskworth.com/shop/?cat=allocated): 7 bottles
-- [Whiskey](https://caskworth.com/shop/?cat=whiskey): 6 bottles
+- [Allocated](https://caskworth.com/shop/?cat=allocated): 8 bottles
 
 ## Ordering & policies
 
@@ -83,4 +82,4 @@ This API is **read-only**. There are no ordering, authentication or payment endp
 - [Terms & Conditions](https://caskworth.com/terms-and-conditions/)
 - [Privacy Policy](https://caskworth.com/privacy-policy/)
 - [Customer Reviews](https://caskworth.com/reviews/)
-- [Sitemap](https://caskworth.com/sitemap.xml): 480 indexable URLs
+- [Sitemap](https://caskworth.com/sitemap.xml): 470 indexable URLs

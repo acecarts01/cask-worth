@@ -13,7 +13,7 @@
    "distillery": "A. de Fussigny",
    "region": "Cognac, France",
    "age": "NAS",
-   "abv_percent": 40.0,
+   "abv_percent": 40,
    "price_usd": 179.99,
    "currency": "USD",
    "tasting_notes": [
@@ -33,7 +33,7 @@
    "distillery": "Aberfeldy Distillery",
    "region": "Highland, Scotland",
    "age": "12yr",
-   "abv_percent": 40.0,
+   "abv_percent": 40,
    "price_usd": 44.99,
    "currency": "USD",
    "tasting_notes": [
@@ -53,7 +53,7 @@
    "distillery": "Aberfeldy Distillery",
    "region": "Highland, Scotland",
    "age": "16yr",
-   "abv_percent": 40.0,
+   "abv_percent": 40,
    "price_usd": 74.99,
    "currency": "USD",
    "tasting_notes": [
@@ -73,7 +73,7 @@
    "distillery": "Aberlour Distillery",
    "region": "Speyside, Scotland",
    "age": "12yr",
-   "abv_percent": 40.0,
+   "abv_percent": 40,
    "price_usd": 44.99,
    "currency": "USD",
    "tasting_notes": [
@@ -93,7 +93,7 @@
    "distillery": "Aberlour Distillery",
    "region": "Speyside, Scotland",
    "age": "16yr",
-   "abv_percent": 40.0,
+   "abv_percent": 40,
    "price_usd": 89.99,
    "currency": "USD",
    "tasting_notes": [
@@ -113,7 +113,7 @@
    "distillery": "Aberlour Distillery",
    "region": "Speyside, Scotland",
    "age": "18yr",
-   "abv_percent": 43.0,
+   "abv_percent": 43,
    "price_usd": 149.99,
    "currency": "USD",
    "tasting_notes": [
@@ -153,7 +153,7 @@
    "distillery": "Various",
    "region": "Canada",
    "age": "NAS",
-   "abv_percent": 40.0,
+   "abv_percent": 40,
    "price_usd": 1799.99,
    "currency": "USD",
    "tasting_notes": [
@@ -173,7 +173,7 @@
    "distillery": "Various",
    "region": "Canada",
    "age": "NAS",
-   "abv_percent": 40.0,
+   "abv_percent": 40,
    "price_usd": 2499.99,
    "currency": "USD",
    "tasting_notes": [
@@ -193,7 +193,7 @@
    "distillery": "Various",
    "region": "Canada",
    "age": "NAS",
-   "abv_percent": 40.0,
+   "abv_percent": 40,
    "price_usd": 499.99,
    "currency": "USD",
    "tasting_notes": [
@@ -213,7 +213,7 @@
    "distillery": "Knockdhu Distillery",
    "region": "Speyside, Scotland",
    "age": "12yr",
-   "abv_percent": 40.0,
+   "abv_percent": 40,
    "price_usd": 39.99,
    "currency": "USD",
    "tasting_notes": [
@@ -233,7 +233,7 @@
    "distillery": "Knockdhu Distillery",
    "region": "Speyside, Scotland",
    "age": "18yr",
-   "abv_percent": 46.0,
+   "abv_percent": 46,
    "price_usd": 79.99,
    "currency": "USD",
    "tasting_notes": [
@@ -253,7 +253,7 @@
    "distillery": "Angel's Envy Distillery",
    "region": "Louisville, USA",
    "age": "NAS",
-   "abv_percent": 60.0,
+   "abv_percent": 60,
    "price_usd": 249.99,
    "currency": "USD",
    "tasting_notes": [
@@ -313,7 +313,7 @@
    "distillery": "Angel's Envy Distillery",
    "region": "Louisville, USA",
    "age": "NAS",
-   "abv_percent": 50.0,
+   "abv_percent": 50,
    "price_usd": 79.99,
    "currency": "USD",
    "tasting_notes": [
@@ -353,7 +353,7 @@
    "distillery": "Argonaut Brandy",
    "region": "California, USA",
    "age": "NAS",
-   "abv_percent": 40.0,
+   "abv_percent": 40,
    "price_usd": 49.99,
    "currency": "USD",
    "tasting_notes": [
@@ -373,7 +373,7 @@
    "distillery": "Caskworth Curated",
    "region": "International",
    "age": "—",
-   "abv_percent": 0.0,
+   "abv_percent": 0,
    "price_usd": 999.99,
    "currency": "USD",
    "tasting_notes": [
@@ -393,7 +393,7 @@
    "distillery": "Auchentoshan Distillery",
    "region": "Lowland, Scotland",
    "age": "NAS",
-   "abv_percent": 40.0,
+   "abv_percent": 40,
    "price_usd": 39.99,
    "currency": "USD",
    "tasting_notes": [
@@ -413,7 +413,7 @@
    "distillery": "Auchentoshan Distillery",
    "region": "Lowland, Scotland",
    "age": "NAS",
-   "abv_percent": 43.0,
+   "abv_percent": 43,
    "price_usd": 74.99,
    "currency": "USD",
    "tasting_notes": [
@@ -433,7 +433,7 @@
    "distillery": "The Balvenie Distillery",
    "region": "Speyside, Scotland",
    "age": "21yr",
-   "abv_percent": 40.0,
+   "abv_percent": 40,
    "price_usd": 299.99,
    "currency": "USD",
    "tasting_notes": [
@@ -473,8 +473,8 @@
    "distillery": "The Balvenie Distillery",
    "region": "Speyside, Scotland",
    "age": "50yr",
-   "abv_percent": 42.0,
-   "price_usd": 45000.0,
+   "abv_percent": 42,
+   "price_usd": 45000,
    "currency": "USD",
    "tasting_notes": [
     "Dried Rose",
@@ -513,7 +513,7 @@
    "distillery": "Beam Suntory",
    "region": "Kentucky, USA",
    "age": "10yr",
-   "abv_percent": 40.0,
+   "abv_percent": 40,
    "price_usd": 69.99,
    "currency": "USD",
    "tasting_notes": [
@@ -533,7 +533,7 @@
    "distillery": "Beam Suntory",
    "region": "Kentucky, USA",
    "age": "NAS",
-   "abv_percent": 40.0,
+   "abv_percent": 40,
    "price_usd": 44.99,
    "currency": "USD",
    "tasting_notes": [
@@ -553,7 +553,7 @@
    "distillery": "Beam Suntory",
    "region": "Kentucky, USA",
    "age": "NAS",
-   "abv_percent": 40.0,
+   "abv_percent": 40,
    "price_usd": 39.99,
    "currency": "USD",
    "tasting_notes": [
@@ -573,7 +573,7 @@
    "distillery": "Beam Suntory",
    "region": "Kentucky, USA",
    "age": "NAS",
-   "abv_percent": 40.0,
+   "abv_percent": 40,
    "price_usd": 49.99,
    "currency": "USD",
    "tasting_notes": [
@@ -613,7 +613,7 @@
    "distillery": "Gordon & MacPhail",
    "region": "Speyside, Scotland",
    "age": "10yr",
-   "abv_percent": 43.0,
+   "abv_percent": 43,
    "price_usd": 49.99,
    "currency": "USD",
    "tasting_notes": [
@@ -633,7 +633,7 @@
    "distillery": "Gordon & MacPhail",
    "region": "Speyside, Scotland",
    "age": "15yr",
-   "abv_percent": 43.0,
+   "abv_percent": 43,
    "price_usd": 79.99,
    "currency": "USD",
    "tasting_notes": [
@@ -646,14 +646,14 @@
    "image": "https://caskworth.com/assets/images/products/benromach-15-year.webp"
   },
   {
-   "slug": "bisquit-dubouch-caractre",
+   "slug": "bisquit-dubouche-caractere",
    "name": "Bisquit & Dubouché Caractère",
    "category": "Cognac",
    "subcategory": "Premium Cognac",
    "distillery": "Bisquit & Dubouché",
    "region": "Cognac, France",
    "age": "NAS",
-   "abv_percent": 40.0,
+   "abv_percent": 40,
    "price_usd": 69.99,
    "currency": "USD",
    "tasting_notes": [
@@ -662,18 +662,18 @@
     "Warming Spice"
    ],
    "description": "Full of character — bold dried fruit, toasted nut and warming spice from carefully selected eaux-de-vie. A characterful expression of this historic house.",
-   "url": "https://caskworth.com/products/bisquit-dubouch-caractre",
+   "url": "https://caskworth.com/products/bisquit-dubouche-caractere",
    "image": "https://caskworth.com/assets/images/products/bisquit-dubouche-caractere.webp"
   },
   {
-   "slug": "bisquit-dubouch-extra",
+   "slug": "bisquit-dubouche-extra",
    "name": "Bisquit & Dubouché Extra",
    "category": "Cognac",
    "subcategory": "Ultra Prestige Cognac",
    "distillery": "Bisquit & Dubouché",
    "region": "Cognac, France",
    "age": "NAS",
-   "abv_percent": 40.0,
+   "abv_percent": 40,
    "price_usd": 499.99,
    "currency": "USD",
    "tasting_notes": [
@@ -682,18 +682,18 @@
     "Profound Depth"
    ],
    "description": "The most precious Bisquit & Dubouché expression — extraordinary complexity, ancient fruit and profound depth from the oldest eaux-de-vie in their historic cellars.",
-   "url": "https://caskworth.com/products/bisquit-dubouch-extra",
-   "image": "https://caskworth.com/assets/images/products/bisquit-dubouch-extra.webp"
+   "url": "https://caskworth.com/products/bisquit-dubouche-extra",
+   "image": "https://caskworth.com/assets/images/products/bisquit-dubouche-extra.webp"
   },
   {
-   "slug": "bisquit-dubouch-vs",
+   "slug": "bisquit-dubouche-vs",
    "name": "Bisquit & Dubouché V.S",
    "category": "Cognac",
    "subcategory": "V.S Cognac",
    "distillery": "Bisquit & Dubouché",
    "region": "Cognac, France",
    "age": "NAS",
-   "abv_percent": 40.0,
+   "abv_percent": 40,
    "price_usd": 34.99,
    "currency": "USD",
    "tasting_notes": [
@@ -702,18 +702,18 @@
     "Light Vanilla"
    ],
    "description": "One of Cognac's oldest houses, founded in 1819. Fresh fruit, floral notes and light vanilla — an approachable entry into the Bisquit & Dubouché range.",
-   "url": "https://caskworth.com/products/bisquit-dubouch-vs",
-   "image": "https://caskworth.com/assets/images/products/bisquit-dubouch-vs.webp"
+   "url": "https://caskworth.com/products/bisquit-dubouche-vs",
+   "image": "https://caskworth.com/assets/images/products/bisquit-dubouche-vs.webp"
   },
   {
-   "slug": "bisquit-dubouch-vsop",
+   "slug": "bisquit-dubouche-vsop",
    "name": "Bisquit & Dubouché V.S.O.P",
    "category": "Cognac",
    "subcategory": "V.S.O.P Cognac",
    "distillery": "Bisquit & Dubouché",
    "region": "Cognac, France",
    "age": "NAS",
-   "abv_percent": 40.0,
+   "abv_percent": 40,
    "price_usd": 54.99,
    "currency": "USD",
    "tasting_notes": [
@@ -722,18 +722,18 @@
     "Warm Oak"
    ],
    "description": "Aged 4–8 years in Limousin oak. Ripe fruit, honey sweetness and warm oak character from one of Cognac's most historically significant houses.",
-   "url": "https://caskworth.com/products/bisquit-dubouch-vsop",
-   "image": "https://caskworth.com/assets/images/products/bisquit-dubouch-vsop.webp"
+   "url": "https://caskworth.com/products/bisquit-dubouche-vsop",
+   "image": "https://caskworth.com/assets/images/products/bisquit-dubouche-vsop.webp"
   },
   {
-   "slug": "bisquit-dubouch-xo",
+   "slug": "bisquit-dubouche-xo",
    "name": "Bisquit & Dubouché X.O",
    "category": "Cognac",
    "subcategory": "X.O Cognac",
    "distillery": "Bisquit & Dubouché",
    "region": "Cognac, France",
    "age": "NAS",
-   "abv_percent": 40.0,
+   "abv_percent": 40,
    "price_usd": 149.99,
    "currency": "USD",
    "tasting_notes": [
@@ -742,108 +742,8 @@
     "Rich Oak"
    ],
    "description": "The flagship of Bisquit & Dubouché — dark fruit, complex warming spice and rich Limousin oak from the house's finest aged eaux-de-vie.",
-   "url": "https://caskworth.com/products/bisquit-dubouch-xo",
-   "image": "https://caskworth.com/assets/images/products/bisquit-dubouch-xo.webp"
-  },
-  {
-   "slug": "bisquit-dubuche-caractere",
-   "name": "Bisquit Dubuche Caractere",
-   "category": "Cognac",
-   "subcategory": "Premium Cognac",
-   "distillery": "Bisquit Dubuche",
-   "region": "Cognac, France",
-   "age": "NAS",
-   "abv_percent": 40.0,
-   "price_usd": 69.99,
-   "currency": "USD",
-   "tasting_notes": [
-    "Toasted Oak",
-    "Dried Fruit",
-    "Vanilla"
-   ],
-   "description": "Matured in toasted Limousin oak for extra wood character.",
-   "url": "https://caskworth.com/products/bisquit-dubuche-caractere",
-   "image": "https://caskworth.com/assets/images/products/bisquit-dubuche-caractere.webp"
-  },
-  {
-   "slug": "bisquit-dubuche-extra",
-   "name": "Bisquit Dubuche Extra",
-   "category": "Cognac",
-   "subcategory": "Ultra Premium Cognac",
-   "distillery": "Bisquit Dubuche",
-   "region": "Cognac, France",
-   "age": "NAS",
-   "abv_percent": 40.0,
-   "price_usd": 499.99,
-   "currency": "USD",
-   "tasting_notes": [
-    "Ancient Oak",
-    "Complex Bouquet",
-    "Rich Dried Fruit"
-   ],
-   "description": "Most prestigious Bisquit expression from historic reserves.",
-   "url": "https://caskworth.com/products/bisquit-dubuche-extra",
-   "image": "https://caskworth.com/assets/images/products/bisquit-dubuche-extra.webp"
-  },
-  {
-   "slug": "bisquit-dubuche-vs",
-   "name": "Bisquit Dubuche V.S",
-   "category": "Cognac",
-   "subcategory": "VS Cognac",
-   "distillery": "Bisquit Dubuche",
-   "region": "Cognac, France",
-   "age": "NAS",
-   "abv_percent": 40.0,
-   "price_usd": 34.99,
-   "currency": "USD",
-   "tasting_notes": [
-    "Fresh Fruit",
-    "Floral",
-    "Light Vanilla"
-   ],
-   "description": "One of Cognac's oldest houses revived. Fresh fruit-forward style.",
-   "url": "https://caskworth.com/products/bisquit-dubuche-vs",
-   "image": "https://caskworth.com/assets/images/products/bisquit-dubuche-vs.webp"
-  },
-  {
-   "slug": "bisquit-dubuche-vsop",
-   "name": "Bisquit Dubuche V.S.O.P",
-   "category": "Cognac",
-   "subcategory": "VSOP Cognac",
-   "distillery": "Bisquit Dubuche",
-   "region": "Cognac, France",
-   "age": "NAS",
-   "abv_percent": 40.0,
-   "price_usd": 54.99,
-   "currency": "USD",
-   "tasting_notes": [
-    "Orchard Fruit",
-    "Vanilla",
-    "Gentle Spice"
-   ],
-   "description": "Characteristic smooth aromatic style aged in fine grain French oak.",
-   "url": "https://caskworth.com/products/bisquit-dubuche-vsop",
-   "image": "https://caskworth.com/assets/images/products/bisquit-dubouche-vsop.webp"
-  },
-  {
-   "slug": "bisquit-dubuche-xo",
-   "name": "Bisquit Dubuche X.O",
-   "category": "Cognac",
-   "subcategory": "XO Cognac",
-   "distillery": "Bisquit Dubuche",
-   "region": "Cognac, France",
-   "age": "NAS",
-   "abv_percent": 40.0,
-   "price_usd": 149.99,
-   "currency": "USD",
-   "tasting_notes": [
-    "Jasmine",
-    "Warm Spice",
-    "Rich Fruit"
-   ],
-   "description": "Flagship XO from the oldest and finest eaux-de-vie in the house's reserves.",
-   "url": "https://caskworth.com/products/bisquit-dubuche-xo",
-   "image": "https://caskworth.com/assets/images/products/bisquit-dubuche-xo.webp"
+   "url": "https://caskworth.com/products/bisquit-dubouche-xo",
+   "image": "https://caskworth.com/assets/images/products/bisquit-dubouche-xo.webp"
   },
   {
    "slug": "blantons-gold-edition",
@@ -913,7 +813,7 @@
    "distillery": "Bowmore Distillery",
    "region": "Islay, Scotland",
    "age": "25yr",
-   "abv_percent": 43.0,
+   "abv_percent": 43,
    "price_usd": 799.99,
    "currency": "USD",
    "tasting_notes": [
@@ -973,7 +873,7 @@
    "distillery": "Buffalo Trace Distillery",
    "region": "Kentucky, USA",
    "age": "NAS",
-   "abv_percent": 45.0,
+   "abv_percent": 45,
    "price_usd": 28.99,
    "currency": "USD",
    "tasting_notes": [
@@ -993,7 +893,7 @@
    "distillery": "Bulleit Distilling Co.",
    "region": "Kentucky, USA",
    "age": "NAS",
-   "abv_percent": 45.0,
+   "abv_percent": 45,
    "price_usd": 27.99,
    "currency": "USD",
    "tasting_notes": [
@@ -1013,7 +913,7 @@
    "distillery": "Bulleit Distilling Co.",
    "region": "Indiana, USA",
    "age": "NAS",
-   "abv_percent": 45.0,
+   "abv_percent": 45,
    "price_usd": 29.99,
    "currency": "USD",
    "tasting_notes": [
@@ -1033,7 +933,7 @@
    "distillery": "Busnel",
    "region": "Normandy, France",
    "age": "NAS",
-   "abv_percent": 40.0,
+   "abv_percent": 40,
    "price_usd": 39.99,
    "currency": "USD",
    "tasting_notes": [
@@ -1053,8 +953,8 @@
    "distillery": "Pere Magloire",
    "region": "Normandy, France",
    "age": "NAS",
-   "abv_percent": 40.0,
-   "price_usd": 72000.0,
+   "abv_percent": 40,
+   "price_usd": 72000,
    "currency": "USD",
    "tasting_notes": [
     "Ancient Apple",
@@ -1073,8 +973,8 @@
    "distillery": "Camus",
    "region": "Cognac, France",
    "age": "NAS",
-   "abv_percent": 40.0,
-   "price_usd": 72000.0,
+   "abv_percent": 40,
+   "price_usd": 72000,
    "currency": "USD",
    "tasting_notes": [
     "Ancient Bordeaux Fruit",
@@ -1093,7 +993,7 @@
    "distillery": "Camus",
    "region": "Cognac, France",
    "age": "NAS",
-   "abv_percent": 40.0,
+   "abv_percent": 40,
    "price_usd": 499.99,
    "currency": "USD",
    "tasting_notes": [
@@ -1113,7 +1013,7 @@
    "distillery": "Camus",
    "region": "Cognac, France",
    "age": "NAS",
-   "abv_percent": 40.0,
+   "abv_percent": 40,
    "price_usd": 39.99,
    "currency": "USD",
    "tasting_notes": [
@@ -1133,7 +1033,7 @@
    "distillery": "Camus",
    "region": "Cognac, France",
    "age": "NAS",
-   "abv_percent": 40.0,
+   "abv_percent": 40,
    "price_usd": 59.99,
    "currency": "USD",
    "tasting_notes": [
@@ -1153,7 +1053,7 @@
    "distillery": "Camus",
    "region": "Cognac, France",
    "age": "NAS",
-   "abv_percent": 40.0,
+   "abv_percent": 40,
    "price_usd": 249.99,
    "currency": "USD",
    "tasting_notes": [
@@ -1173,7 +1073,7 @@
    "distillery": "Camus",
    "region": "Cognac, France",
    "age": "NAS",
-   "abv_percent": 40.0,
+   "abv_percent": 40,
    "price_usd": 189.99,
    "currency": "USD",
    "tasting_notes": [
@@ -1193,7 +1093,7 @@
    "distillery": "Various",
    "region": "Canada",
    "age": "NAS",
-   "abv_percent": 40.0,
+   "abv_percent": 40,
    "price_usd": 479.99,
    "currency": "USD",
    "tasting_notes": [
@@ -1213,7 +1113,7 @@
    "distillery": "Various",
    "region": "Canada",
    "age": "NAS",
-   "abv_percent": 40.0,
+   "abv_percent": 40,
    "price_usd": 649.99,
    "currency": "USD",
    "tasting_notes": [
@@ -1233,7 +1133,7 @@
    "distillery": "Various",
    "region": "Canada",
    "age": "NAS",
-   "abv_percent": 40.0,
+   "abv_percent": 40,
    "price_usd": 1499.99,
    "currency": "USD",
    "tasting_notes": [
@@ -1253,7 +1153,7 @@
    "distillery": "Various",
    "region": "Canada",
    "age": "NAS",
-   "abv_percent": 40.0,
+   "abv_percent": 40,
    "price_usd": 599.99,
    "currency": "USD",
    "tasting_notes": [
@@ -1273,7 +1173,7 @@
    "distillery": "Cooperativa Capel",
    "region": "Elqui Valley, Chile",
    "age": "NAS",
-   "abv_percent": 40.0,
+   "abv_percent": 40,
    "price_usd": 24.99,
    "currency": "USD",
    "tasting_notes": [
@@ -1293,7 +1193,7 @@
    "distillery": "Sánchez Romate",
    "region": "Jerez, Spain",
    "age": "NAS",
-   "abv_percent": 40.0,
+   "abv_percent": 40,
    "price_usd": 39.99,
    "currency": "USD",
    "tasting_notes": [
@@ -1313,8 +1213,8 @@
    "distillery": "Chateau de Laubade",
    "region": "Bas-Armagnac, France",
    "age": "NAS",
-   "abv_percent": 40.0,
-   "price_usd": 98000.0,
+   "abv_percent": 40,
+   "price_usd": 98000,
    "currency": "USD",
    "tasting_notes": [
     "Ancient Plum",
@@ -1333,7 +1233,7 @@
    "distillery": "Château de Laubade",
    "region": "Armagnac, France",
    "age": "NAS",
-   "abv_percent": 40.0,
+   "abv_percent": 40,
    "price_usd": 54.99,
    "currency": "USD",
    "tasting_notes": [
@@ -1353,7 +1253,7 @@
    "distillery": "Château de Laubade",
    "region": "Armagnac, France",
    "age": "NAS",
-   "abv_percent": 40.0,
+   "abv_percent": 40,
    "price_usd": 149.99,
    "currency": "USD",
    "tasting_notes": [
@@ -1373,7 +1273,7 @@
    "distillery": "Chateau du Breuil",
    "region": "Normandy, France",
    "age": "NAS",
-   "abv_percent": 41.0,
+   "abv_percent": 41,
    "price_usd": 99.99,
    "currency": "USD",
    "tasting_notes": [
@@ -1393,7 +1293,7 @@
    "distillery": "Chivas Brothers",
    "region": "Scotland",
    "age": "NAS",
-   "abv_percent": 40.0,
+   "abv_percent": 40,
    "price_usd": 39.99,
    "currency": "USD",
    "tasting_notes": [
@@ -1413,7 +1313,7 @@
    "distillery": "Chivas Brothers",
    "region": "Scotland",
    "age": "12yr",
-   "abv_percent": 40.0,
+   "abv_percent": 40,
    "price_usd": 29.99,
    "currency": "USD",
    "tasting_notes": [
@@ -1433,7 +1333,7 @@
    "distillery": "Chivas Brothers",
    "region": "Scotland",
    "age": "18yr",
-   "abv_percent": 40.0,
+   "abv_percent": 40,
    "price_usd": 74.99,
    "currency": "USD",
    "tasting_notes": [
@@ -1453,7 +1353,7 @@
    "distillery": "Chivas Brothers",
    "region": "Scotland",
    "age": "18yr",
-   "abv_percent": 40.0,
+   "abv_percent": 40,
    "price_usd": 79.99,
    "currency": "USD",
    "tasting_notes": [
@@ -1473,7 +1373,7 @@
    "distillery": "Chivas Brothers",
    "region": "Scotland",
    "age": "25yr",
-   "abv_percent": 40.0,
+   "abv_percent": 40,
    "price_usd": 299.99,
    "currency": "USD",
    "tasting_notes": [
@@ -1493,7 +1393,7 @@
    "distillery": "Chivas Brothers",
    "region": "Scotland",
    "age": "13yr",
-   "abv_percent": 40.0,
+   "abv_percent": 40,
    "price_usd": 44.99,
    "currency": "USD",
    "tasting_notes": [
@@ -1513,7 +1413,7 @@
    "distillery": "Chivas Brothers",
    "region": "Scotland",
    "age": "13yr",
-   "abv_percent": 40.0,
+   "abv_percent": 40,
    "price_usd": 44.99,
    "currency": "USD",
    "tasting_notes": [
@@ -1533,7 +1433,7 @@
    "distillery": "Chivas Brothers",
    "region": "Scotland",
    "age": "13yr",
-   "abv_percent": 40.0,
+   "abv_percent": 40,
    "price_usd": 44.99,
    "currency": "USD",
    "tasting_notes": [
@@ -1553,7 +1453,7 @@
    "distillery": "Chivas Brothers",
    "region": "Scotland",
    "age": "13yr",
-   "abv_percent": 40.0,
+   "abv_percent": 40,
    "price_usd": 44.99,
    "currency": "USD",
    "tasting_notes": [
@@ -1573,7 +1473,7 @@
    "distillery": "Chivas Brothers",
    "region": "Scotland",
    "age": "NAS",
-   "abv_percent": 40.0,
+   "abv_percent": 40,
    "price_usd": 3999.99,
    "currency": "USD",
    "tasting_notes": [
@@ -1593,7 +1493,7 @@
    "distillery": "Chivas Brothers",
    "region": "Scotland",
    "age": "NAS",
-   "abv_percent": 40.0,
+   "abv_percent": 40,
    "price_usd": 149.99,
    "currency": "USD",
    "tasting_notes": [
@@ -1613,7 +1513,7 @@
    "distillery": "Chivas Brothers",
    "region": "Scotland",
    "age": "NAS",
-   "abv_percent": 40.0,
+   "abv_percent": 40,
    "price_usd": 199.99,
    "currency": "USD",
    "tasting_notes": [
@@ -1633,7 +1533,7 @@
    "distillery": "Chivas Brothers",
    "region": "Scotland",
    "age": "15yr",
-   "abv_percent": 40.0,
+   "abv_percent": 40,
    "price_usd": 44.99,
    "currency": "USD",
    "tasting_notes": [
@@ -1653,7 +1553,7 @@
    "distillery": "Christian Brothers",
    "region": "California, USA",
    "age": "NAS",
-   "abv_percent": 40.0,
+   "abv_percent": 40,
    "price_usd": 17.99,
    "currency": "USD",
    "tasting_notes": [
@@ -1673,7 +1573,7 @@
    "distillery": "Christian Drouin",
    "region": "Normandy, France",
    "age": "NAS",
-   "abv_percent": 42.0,
+   "abv_percent": 42,
    "price_usd": 44.99,
    "currency": "USD",
    "tasting_notes": [
@@ -1686,26 +1586,6 @@
    "image": "https://caskworth.com/assets/images/products/christian-drouin-calvados-vsop.webp"
   },
   {
-   "slug": "chteau-du-breuil-xo-calvados",
-   "name": "Château du Breuil X.O Calvados",
-   "category": "Brandy",
-   "subcategory": "Calvados",
-   "distillery": "Château du Breuil",
-   "region": "Normandy, France",
-   "age": "NAS",
-   "abv_percent": 40.0,
-   "price_usd": 99.99,
-   "currency": "USD",
-   "tasting_notes": [
-    "Rich Apple",
-    "Complex Spice",
-    "Deep Oak"
-   ],
-   "description": "X.O Calvados from the prestigious Château du Breuil estate — rich apple, complex spice and deep oak from extended aging in Normandy oak barrels.",
-   "url": "https://caskworth.com/products/chteau-du-breuil-xo-calvados",
-   "image": "https://caskworth.com/assets/images/products/chateau-du-breuil-xo-calvados.webp"
-  },
-  {
    "slug": "clear-creek-apple-brandy",
    "name": "Clear Creek Apple Brandy",
    "category": "Brandy",
@@ -1713,7 +1593,7 @@
    "distillery": "Clear Creek Distillery",
    "region": "Oregon, USA",
    "age": "NAS",
-   "abv_percent": 40.0,
+   "abv_percent": 40,
    "price_usd": 49.99,
    "currency": "USD",
    "tasting_notes": [
@@ -1733,7 +1613,7 @@
    "distillery": "Various",
    "region": "Canada",
    "age": "NAS",
-   "abv_percent": 40.0,
+   "abv_percent": 40,
    "price_usd": 999.99,
    "currency": "USD",
    "tasting_notes": [
@@ -1753,7 +1633,7 @@
    "distillery": "Compass Box Whisky",
    "region": "Scotland",
    "age": "NAS",
-   "abv_percent": 40.0,
+   "abv_percent": 40,
    "price_usd": 39.99,
    "currency": "USD",
    "tasting_notes": [
@@ -1793,7 +1673,7 @@
    "distillery": "Compass Box Whisky",
    "region": "Scotland",
    "age": "NAS",
-   "abv_percent": 46.0,
+   "abv_percent": 46,
    "price_usd": 44.99,
    "currency": "USD",
    "tasting_notes": [
@@ -1813,7 +1693,7 @@
    "distillery": "Compass Box Whisky",
    "region": "Scotland",
    "age": "NAS",
-   "abv_percent": 46.0,
+   "abv_percent": 46,
    "price_usd": 49.99,
    "currency": "USD",
    "tasting_notes": [
@@ -1833,7 +1713,7 @@
    "distillery": "Courvoisier",
    "region": "Cognac, France",
    "age": "12yr",
-   "abv_percent": 40.0,
+   "abv_percent": 40,
    "price_usd": 89.99,
    "currency": "USD",
    "tasting_notes": [
@@ -1853,7 +1733,7 @@
    "distillery": "Courvoisier",
    "region": "Cognac, France",
    "age": "21yr",
-   "abv_percent": 40.0,
+   "abv_percent": 40,
    "price_usd": 299.99,
    "currency": "USD",
    "tasting_notes": [
@@ -1873,8 +1753,8 @@
    "distillery": "Courvoisier",
    "region": "Cognac, France",
    "age": "NAS",
-   "abv_percent": 40.0,
-   "price_usd": 98000.0,
+   "abv_percent": 40,
+   "price_usd": 98000,
    "currency": "USD",
    "tasting_notes": [
     "Ancient Bouquet",
@@ -1893,7 +1773,7 @@
    "distillery": "Courvoisier",
    "region": "Cognac, France",
    "age": "NAS",
-   "abv_percent": 40.0,
+   "abv_percent": 40,
    "price_usd": 54.99,
    "currency": "USD",
    "tasting_notes": [
@@ -1913,7 +1793,7 @@
    "distillery": "Courvoisier",
    "region": "Cognac, France",
    "age": "NAS",
-   "abv_percent": 40.0,
+   "abv_percent": 40,
    "price_usd": 1499.99,
    "currency": "USD",
    "tasting_notes": [
@@ -1933,7 +1813,7 @@
    "distillery": "Courvoisier",
    "region": "Cognac, France",
    "age": "NAS",
-   "abv_percent": 40.0,
+   "abv_percent": 40,
    "price_usd": 34.99,
    "currency": "USD",
    "tasting_notes": [
@@ -1953,7 +1833,7 @@
    "distillery": "Courvoisier",
    "region": "Cognac, France",
    "age": "NAS",
-   "abv_percent": 40.0,
+   "abv_percent": 40,
    "price_usd": 49.99,
    "currency": "USD",
    "tasting_notes": [
@@ -1973,7 +1853,7 @@
    "distillery": "Courvoisier",
    "region": "Cognac, France",
    "age": "NAS",
-   "abv_percent": 40.0,
+   "abv_percent": 40,
    "price_usd": 179.99,
    "currency": "USD",
    "tasting_notes": [
@@ -1993,7 +1873,7 @@
    "distillery": "Various",
    "region": "Canada",
    "age": "NAS",
-   "abv_percent": 40.0,
+   "abv_percent": 40,
    "price_usd": 849.99,
    "currency": "USD",
    "tasting_notes": [
@@ -2013,7 +1893,7 @@
    "distillery": "Crown Royal Distillery",
    "region": "Manitoba, Canada",
    "age": "NAS",
-   "abv_percent": 45.0,
+   "abv_percent": 45,
    "price_usd": 32.99,
    "currency": "USD",
    "tasting_notes": [
@@ -2033,7 +1913,7 @@
    "distillery": "Crown Royal Distillery",
    "region": "Manitoba, Canada",
    "age": "NAS",
-   "abv_percent": 40.0,
+   "abv_percent": 40,
    "price_usd": 28.99,
    "currency": "USD",
    "tasting_notes": [
@@ -2053,7 +1933,7 @@
    "distillery": "Various",
    "region": "Canada",
    "age": "NAS",
-   "abv_percent": 40.0,
+   "abv_percent": 40,
    "price_usd": 599.99,
    "currency": "USD",
    "tasting_notes": [
@@ -2073,7 +1953,7 @@
    "distillery": "Various",
    "region": "Canada",
    "age": "NAS",
-   "abv_percent": 40.0,
+   "abv_percent": 40,
    "price_usd": 699.99,
    "currency": "USD",
    "tasting_notes": [
@@ -2093,7 +1973,7 @@
    "distillery": "Various",
    "region": "Canada",
    "age": "NAS",
-   "abv_percent": 40.0,
+   "abv_percent": 40,
    "price_usd": 469.99,
    "currency": "USD",
    "tasting_notes": [
@@ -2106,14 +1986,14 @@
    "image": "https://caskworth.com/assets/images/products/crown-royal-xo.webp"
   },
   {
-   "slug": "duss-cabaret-edition",
+   "slug": "d-usse-cabaret-edition",
    "name": "D'USSÉ Cabaret Edition",
    "category": "Cognac",
    "subcategory": "Limited Edition",
    "distillery": "D'USSÉ",
    "region": "Cognac, France",
    "age": "NAS",
-   "abv_percent": 40.0,
+   "abv_percent": 40,
    "price_usd": 89.99,
    "currency": "USD",
    "tasting_notes": [
@@ -2122,18 +2002,18 @@
     "Elegant Spice"
    ],
    "description": "Special edition celebrating the arts — D'USSÉ V.S.O.P in a vibrant cabaret-inspired bottle. Smooth fruit, honey and elegant spice in a show-stopping presentation.",
-   "url": "https://caskworth.com/products/duss-cabaret-edition",
-   "image": "https://caskworth.com/assets/images/products/hennessy-xo.webp"
+   "url": "https://caskworth.com/products/d-usse-cabaret-edition",
+   "image": "https://caskworth.com/assets/images/products/d-usse-cabaret-edition.webp"
   },
   {
-   "slug": "duss-limited-edition-750ml",
+   "slug": "d-usse-limited-edition-750ml",
    "name": "D'USSÉ Limited Edition 750ml",
    "category": "Cognac",
    "subcategory": "Limited Edition",
    "distillery": "D'USSÉ",
    "region": "Cognac, France",
    "age": "NAS",
-   "abv_percent": 40.0,
+   "abv_percent": 40,
    "price_usd": 79.99,
    "currency": "USD",
    "tasting_notes": [
@@ -2142,8 +2022,8 @@
     "Warm Spice"
    ],
    "description": "D'USSÉ V.S.O.P in a stunning limited edition collector's bottle. The same exceptional Château de Cognac craftsmanship in a presentation designed to impress.",
-   "url": "https://caskworth.com/products/duss-limited-edition-750ml",
-   "image": "https://caskworth.com/assets/images/products/hennessy-xo.webp"
+   "url": "https://caskworth.com/products/d-usse-limited-edition-750ml",
+   "image": "https://caskworth.com/assets/images/products/d-usse-limited-edition-750ml.webp"
   },
   {
    "slug": "dalmore-25-year",
@@ -2153,7 +2033,7 @@
    "distillery": "Dalmore Distillery",
    "region": "Highland, Scotland",
    "age": "25yr",
-   "abv_percent": 42.0,
+   "abv_percent": 42,
    "price_usd": 999.99,
    "currency": "USD",
    "tasting_notes": [
@@ -2173,8 +2053,8 @@
    "distillery": "Dalmore Distillery",
    "region": "Highlands, Scotland",
    "age": "62yr",
-   "abv_percent": 42.0,
-   "price_usd": 195000.0,
+   "abv_percent": 42,
+   "price_usd": 195000,
    "currency": "USD",
    "tasting_notes": [
     "Ancient Highland",
@@ -2213,7 +2093,7 @@
    "distillery": "Delamain",
    "region": "Cognac, France",
    "age": "NAS",
-   "abv_percent": 40.0,
+   "abv_percent": 40,
    "price_usd": 149.99,
    "currency": "USD",
    "tasting_notes": [
@@ -2233,7 +2113,7 @@
    "distillery": "Delord",
    "region": "Bas-Armagnac, France",
    "age": "15yr",
-   "abv_percent": 40.0,
+   "abv_percent": 40,
    "price_usd": 79.99,
    "currency": "USD",
    "tasting_notes": [
@@ -2253,7 +2133,7 @@
    "distillery": "Delord",
    "region": "Bas-Armagnac, France",
    "age": "25yr",
-   "abv_percent": 40.0,
+   "abv_percent": 40,
    "price_usd": 199.99,
    "currency": "USD",
    "tasting_notes": [
@@ -2273,7 +2153,7 @@
    "distillery": "Dewar's",
    "region": "Scotland",
    "age": "12yr",
-   "abv_percent": 40.0,
+   "abv_percent": 40,
    "price_usd": 29.99,
    "currency": "USD",
    "tasting_notes": [
@@ -2293,7 +2173,7 @@
    "distillery": "Dewar's",
    "region": "Scotland",
    "age": "15yr",
-   "abv_percent": 40.0,
+   "abv_percent": 40,
    "price_usd": 44.99,
    "currency": "USD",
    "tasting_notes": [
@@ -2313,7 +2193,7 @@
    "distillery": "Dewar's",
    "region": "Scotland",
    "age": "18yr",
-   "abv_percent": 40.0,
+   "abv_percent": 40,
    "price_usd": 69.99,
    "currency": "USD",
    "tasting_notes": [
@@ -2333,7 +2213,7 @@
    "distillery": "Dewar's",
    "region": "Scotland",
    "age": "25yr",
-   "abv_percent": 40.0,
+   "abv_percent": 40,
    "price_usd": 299.99,
    "currency": "USD",
    "tasting_notes": [
@@ -2353,7 +2233,7 @@
    "distillery": "Dewar's",
    "region": "Scotland",
    "age": "8yr",
-   "abv_percent": 40.0,
+   "abv_percent": 40,
    "price_usd": 24.99,
    "currency": "USD",
    "tasting_notes": [
@@ -2373,7 +2253,7 @@
    "distillery": "Dewar's",
    "region": "Scotland",
    "age": "21yr",
-   "abv_percent": 46.0,
+   "abv_percent": 46,
    "price_usd": 149.99,
    "currency": "USD",
    "tasting_notes": [
@@ -2393,7 +2273,7 @@
    "distillery": "Dewar's",
    "region": "Scotland",
    "age": "27yr",
-   "abv_percent": 46.0,
+   "abv_percent": 46,
    "price_usd": 249.99,
    "currency": "USD",
    "tasting_notes": [
@@ -2413,7 +2293,7 @@
    "distillery": "Dewar's",
    "region": "Scotland",
    "age": "32yr",
-   "abv_percent": 46.0,
+   "abv_percent": 46,
    "price_usd": 499.99,
    "currency": "USD",
    "tasting_notes": [
@@ -2433,7 +2313,7 @@
    "distillery": "Dewar's",
    "region": "Scotland",
    "age": "NAS",
-   "abv_percent": 40.0,
+   "abv_percent": 40,
    "price_usd": 34.99,
    "currency": "USD",
    "tasting_notes": [
@@ -2453,7 +2333,7 @@
    "distillery": "Dewar's",
    "region": "Scotland",
    "age": "8yr",
-   "abv_percent": 40.0,
+   "abv_percent": 40,
    "price_usd": 29.99,
    "currency": "USD",
    "tasting_notes": [
@@ -2473,7 +2353,7 @@
    "distillery": "Dewar's",
    "region": "Scotland",
    "age": "NAS",
-   "abv_percent": 40.0,
+   "abv_percent": 40,
    "price_usd": 19.99,
    "currency": "USD",
    "tasting_notes": [
@@ -2493,7 +2373,7 @@
    "distillery": "E&J Gallo Winery",
    "region": "California, USA",
    "age": "NAS",
-   "abv_percent": 40.0,
+   "abv_percent": 40,
    "price_usd": 14.99,
    "currency": "USD",
    "tasting_notes": [
@@ -2513,7 +2393,7 @@
    "distillery": "E&J Gallo Winery",
    "region": "California, USA",
    "age": "NAS",
-   "abv_percent": 40.0,
+   "abv_percent": 40,
    "price_usd": 19.99,
    "currency": "USD",
    "tasting_notes": [
@@ -2533,7 +2413,7 @@
    "distillery": "Buffalo Trace Distillery",
    "region": "Kentucky, USA",
    "age": "NAS",
-   "abv_percent": 50.0,
+   "abv_percent": 50,
    "price_usd": 49.99,
    "currency": "USD",
    "tasting_notes": [
@@ -2553,7 +2433,7 @@
    "distillery": "Buffalo Trace Distillery",
    "region": "Kentucky, USA",
    "age": "10yr",
-   "abv_percent": 45.0,
+   "abv_percent": 45,
    "price_usd": 37.99,
    "currency": "USD",
    "tasting_notes": [
@@ -2573,7 +2453,7 @@
    "distillery": "Heaven Hill Distillery",
    "region": "Kentucky, USA",
    "age": "18yr",
-   "abv_percent": 45.0,
+   "abv_percent": 45,
    "price_usd": 199.99,
    "currency": "USD",
    "tasting_notes": [
@@ -2613,7 +2493,7 @@
    "distillery": "Heaven Hill Distillery",
    "region": "Kentucky, USA",
    "age": "NAS",
-   "abv_percent": 47.0,
+   "abv_percent": 47,
    "price_usd": 34.99,
    "currency": "USD",
    "tasting_notes": [
@@ -2633,7 +2513,7 @@
    "distillery": "Heaven Hill Distillery",
    "region": "Kentucky, USA",
    "age": "NAS",
-   "abv_percent": 47.0,
+   "abv_percent": 47,
    "price_usd": 44.99,
    "currency": "USD",
    "tasting_notes": [
@@ -2653,7 +2533,7 @@
    "distillery": "Heaven Hill Distillery",
    "region": "Kentucky, USA",
    "age": "NAS",
-   "abv_percent": 43.0,
+   "abv_percent": 43,
    "price_usd": 17.99,
    "currency": "USD",
    "tasting_notes": [
@@ -2693,7 +2573,7 @@
    "distillery": "Edrington Group",
    "region": "Scotland",
    "age": "NAS",
-   "abv_percent": 40.0,
+   "abv_percent": 40,
    "price_usd": 24.99,
    "currency": "USD",
    "tasting_notes": [
@@ -2713,7 +2593,7 @@
    "distillery": "Various",
    "region": "Canada",
    "age": "NAS",
-   "abv_percent": 40.0,
+   "abv_percent": 40,
    "price_usd": 899.99,
    "currency": "USD",
    "tasting_notes": [
@@ -2733,7 +2613,7 @@
    "distillery": "Various",
    "region": "Canada",
    "age": "NAS",
-   "abv_percent": 40.0,
+   "abv_percent": 40,
    "price_usd": 499.99,
    "currency": "USD",
    "tasting_notes": [
@@ -2753,7 +2633,7 @@
    "distillery": "Various",
    "region": "Canada",
    "age": "NAS",
-   "abv_percent": 40.0,
+   "abv_percent": 40,
    "price_usd": 549.99,
    "currency": "USD",
    "tasting_notes": [
@@ -2773,7 +2653,7 @@
    "distillery": "Various",
    "region": "Canada",
    "age": "NAS",
-   "abv_percent": 40.0,
+   "abv_percent": 40,
    "price_usd": 1299.99,
    "currency": "USD",
    "tasting_notes": [
@@ -2793,7 +2673,7 @@
    "distillery": "Various",
    "region": "Canada",
    "age": "NAS",
-   "abv_percent": 40.0,
+   "abv_percent": 40,
    "price_usd": 749.99,
    "currency": "USD",
    "tasting_notes": [
@@ -2833,7 +2713,7 @@
    "distillery": "Four Roses Distillery",
    "region": "Kentucky, USA",
    "age": "NAS",
-   "abv_percent": 45.0,
+   "abv_percent": 45,
    "price_usd": 32.99,
    "currency": "USD",
    "tasting_notes": [
@@ -2853,8 +2733,8 @@
    "distillery": "Frapin",
    "region": "Grande Champagne, France",
    "age": "NAS",
-   "abv_percent": 41.0,
-   "price_usd": 195000.0,
+   "abv_percent": 41,
+   "price_usd": 195000,
    "currency": "USD",
    "tasting_notes": [
     "Ancient Eaux-de-Vie",
@@ -2893,8 +2773,8 @@
    "distillery": "Cascade Hollow Distillery",
    "region": "Tennessee, USA",
    "age": "NAS",
-   "abv_percent": 56.0,
-   "price_usd": 65000.0,
+   "abv_percent": 56,
+   "price_usd": 65000,
    "currency": "USD",
    "tasting_notes": [
     "Tennessee Rye",
@@ -2913,8 +2793,8 @@
    "distillery": "Buffalo Trace Distillery",
    "region": "Kentucky, USA",
    "age": "NAS",
-   "abv_percent": 71.0,
-   "price_usd": 89000.0,
+   "abv_percent": 71,
+   "price_usd": 89000,
    "currency": "USD",
    "tasting_notes": [
     "Intense Dark Fruit",
@@ -2933,7 +2813,7 @@
    "distillery": "Buffalo Trace Distillery",
    "region": "Kentucky, USA",
    "age": "NAS",
-   "abv_percent": 71.0,
+   "abv_percent": 71,
    "price_usd": 7999.99,
    "currency": "USD",
    "tasting_notes": [
@@ -2973,7 +2853,7 @@
    "distillery": "GlenDronach Distillery",
    "region": "Highland, Scotland",
    "age": "12yr",
-   "abv_percent": 43.0,
+   "abv_percent": 43,
    "price_usd": 44.99,
    "currency": "USD",
    "tasting_notes": [
@@ -2993,7 +2873,7 @@
    "distillery": "GlenDronach Distillery",
    "region": "Highland, Scotland",
    "age": "15yr",
-   "abv_percent": 46.0,
+   "abv_percent": 46,
    "price_usd": 74.99,
    "currency": "USD",
    "tasting_notes": [
@@ -3013,7 +2893,7 @@
    "distillery": "GlenDronach Distillery",
    "region": "Highland, Scotland",
    "age": "18yr",
-   "abv_percent": 46.0,
+   "abv_percent": 46,
    "price_usd": 99.99,
    "currency": "USD",
    "tasting_notes": [
@@ -3033,7 +2913,7 @@
    "distillery": "GlenDronach Distillery",
    "region": "Highland, Scotland",
    "age": "21yr",
-   "abv_percent": 48.0,
+   "abv_percent": 48,
    "price_usd": 149.99,
    "currency": "USD",
    "tasting_notes": [
@@ -3053,7 +2933,7 @@
    "distillery": "J & G Grant",
    "region": "Speyside, Scotland",
    "age": "10yr",
-   "abv_percent": 40.0,
+   "abv_percent": 40,
    "price_usd": 44.99,
    "currency": "USD",
    "tasting_notes": [
@@ -3073,7 +2953,7 @@
    "distillery": "J & G Grant",
    "region": "Speyside, Scotland",
    "age": "15yr",
-   "abv_percent": 46.0,
+   "abv_percent": 46,
    "price_usd": 69.99,
    "currency": "USD",
    "tasting_notes": [
@@ -3093,7 +2973,7 @@
    "distillery": "J & G Grant",
    "region": "Speyside, Scotland",
    "age": "21yr",
-   "abv_percent": 43.0,
+   "abv_percent": 43,
    "price_usd": 149.99,
    "currency": "USD",
    "tasting_notes": [
@@ -3113,7 +2993,7 @@
    "distillery": "Glenfiddich Distillery",
    "region": "Speyside, Scotland",
    "age": "12yr",
-   "abv_percent": 40.0,
+   "abv_percent": 40,
    "price_usd": 39.99,
    "currency": "USD",
    "tasting_notes": [
@@ -3133,7 +3013,7 @@
    "distillery": "Glenfiddich Distillery",
    "region": "Speyside, Scotland",
    "age": "18yr",
-   "abv_percent": 40.0,
+   "abv_percent": 40,
    "price_usd": 89.99,
    "currency": "USD",
    "tasting_notes": [
@@ -3153,8 +3033,8 @@
    "distillery": "Glenfiddich Distillery",
    "region": "Speyside, Scotland",
    "age": "NAS",
-   "abv_percent": 40.0,
-   "price_usd": 410000.0,
+   "abv_percent": 40,
+   "price_usd": 410000,
    "currency": "USD",
    "tasting_notes": [
     "Ancient Oak",
@@ -3173,7 +3053,7 @@
    "distillery": "Glenfiddich Distillery",
    "region": "Speyside, Scotland",
    "age": "26yr",
-   "abv_percent": 43.0,
+   "abv_percent": 43,
    "price_usd": 599.99,
    "currency": "USD",
    "tasting_notes": [
@@ -3193,7 +3073,7 @@
    "distillery": "Glenfiddich Distillery",
    "region": "Speyside, Scotland",
    "age": "30yr",
-   "abv_percent": 43.0,
+   "abv_percent": 43,
    "price_usd": 899.99,
    "currency": "USD",
    "tasting_notes": [
@@ -3233,7 +3113,7 @@
    "distillery": "Glenfiddich Distillery",
    "region": "Speyside, Scotland",
    "age": "50yr",
-   "abv_percent": 44.0,
+   "abv_percent": 44,
    "price_usd": 39999.99,
    "currency": "USD",
    "tasting_notes": [
@@ -3253,7 +3133,7 @@
    "distillery": "Glenlivet Distillery",
    "region": "Speyside, Scotland",
    "age": "21yr",
-   "abv_percent": 43.0,
+   "abv_percent": 43,
    "price_usd": 299.99,
    "currency": "USD",
    "tasting_notes": [
@@ -3273,7 +3153,7 @@
    "distillery": "Glenlivet Distillery",
    "region": "Speyside, Scotland",
    "age": "50yr",
-   "abv_percent": 42.0,
+   "abv_percent": 42,
    "price_usd": 27999.99,
    "currency": "USD",
    "tasting_notes": [
@@ -3293,7 +3173,7 @@
    "distillery": "Glenmorangie Distillery",
    "region": "Highland, Scotland",
    "age": "18yr",
-   "abv_percent": 43.0,
+   "abv_percent": 43,
    "price_usd": 129.99,
    "currency": "USD",
    "tasting_notes": [
@@ -3313,7 +3193,7 @@
    "distillery": "Glenmorangie Distillery",
    "region": "Highland, Scotland",
    "age": "NAS",
-   "abv_percent": 46.0,
+   "abv_percent": 46,
    "price_usd": 79.99,
    "currency": "USD",
    "tasting_notes": [
@@ -3333,7 +3213,7 @@
    "distillery": "Glenmorangie Distillery",
    "region": "Highland, Scotland",
    "age": "12yr",
-   "abv_percent": 46.0,
+   "abv_percent": 46,
    "price_usd": 64.99,
    "currency": "USD",
    "tasting_notes": [
@@ -3353,7 +3233,7 @@
    "distillery": "Glenmorangie Distillery",
    "region": "Highland, Scotland",
    "age": "10yr",
-   "abv_percent": 40.0,
+   "abv_percent": 40,
    "price_usd": 34.99,
    "currency": "USD",
    "tasting_notes": [
@@ -3373,7 +3253,7 @@
    "distillery": "Glenmorangie Distillery",
    "region": "Highland, Scotland",
    "age": "14yr",
-   "abv_percent": 46.0,
+   "abv_percent": 46,
    "price_usd": 64.99,
    "currency": "USD",
    "tasting_notes": [
@@ -3393,7 +3273,7 @@
    "distillery": "Glenmorangie Distillery",
    "region": "Highland, Scotland",
    "age": "NAS",
-   "abv_percent": 46.0,
+   "abv_percent": 46,
    "price_usd": 199.99,
    "currency": "USD",
    "tasting_notes": [
@@ -3413,7 +3293,7 @@
    "distillery": "Various",
    "region": "Canada",
    "age": "NAS",
-   "abv_percent": 40.0,
+   "abv_percent": 40,
    "price_usd": 4999.99,
    "currency": "USD",
    "tasting_notes": [
@@ -3433,7 +3313,7 @@
    "distillery": "William Grant & Sons",
    "region": "Scotland",
    "age": "NAS",
-   "abv_percent": 40.0,
+   "abv_percent": 40,
    "price_usd": 21.99,
    "currency": "USD",
    "tasting_notes": [
@@ -3453,8 +3333,8 @@
    "distillery": "Midleton Distillery",
    "region": "Cork, Ireland",
    "age": "NAS",
-   "abv_percent": 46.0,
-   "price_usd": 65000.0,
+   "abv_percent": 46,
+   "price_usd": 65000,
    "currency": "USD",
    "tasting_notes": [
     "Bordeaux Wine",
@@ -3473,7 +3353,7 @@
    "distillery": "Midleton Distillery",
    "region": "Cork, Ireland",
    "age": "NAS",
-   "abv_percent": 40.0,
+   "abv_percent": 40,
    "price_usd": 54.99,
    "currency": "USD",
    "tasting_notes": [
@@ -3493,7 +3373,7 @@
    "distillery": "Hakushu Distillery",
    "region": "Japan",
    "age": "12yr",
-   "abv_percent": 43.0,
+   "abv_percent": 43,
    "price_usd": 149.99,
    "currency": "USD",
    "tasting_notes": [
@@ -3513,7 +3393,7 @@
    "distillery": "Hakushu Distillery",
    "region": "Japan",
    "age": "18yr",
-   "abv_percent": 43.0,
+   "abv_percent": 43,
    "price_usd": 499.99,
    "currency": "USD",
    "tasting_notes": [
@@ -3533,7 +3413,7 @@
    "distillery": "Hakushu Distillery",
    "region": "Japan",
    "age": "35yr",
-   "abv_percent": 43.0,
+   "abv_percent": 43,
    "price_usd": 12999.99,
    "currency": "USD",
    "tasting_notes": [
@@ -3553,7 +3433,7 @@
    "distillery": "Hennessy",
    "region": "Cognac, France",
    "age": "NAS",
-   "abv_percent": 40.0,
+   "abv_percent": 40,
    "price_usd": 799.99,
    "currency": "USD",
    "tasting_notes": [
@@ -3573,7 +3453,7 @@
    "distillery": "Hennessy",
    "region": "Cognac, France",
    "age": "NAS",
-   "abv_percent": 43.0,
+   "abv_percent": 43,
    "price_usd": 44.99,
    "currency": "USD",
    "tasting_notes": [
@@ -3593,7 +3473,7 @@
    "distillery": "Hennessy",
    "region": "Cognac, France",
    "age": "NAS",
-   "abv_percent": 40.0,
+   "abv_percent": 40,
    "price_usd": 499.99,
    "currency": "USD",
    "tasting_notes": [
@@ -3613,7 +3493,7 @@
    "distillery": "Hennessy",
    "region": "Cognac, France",
    "age": "NAS",
-   "abv_percent": 40.0,
+   "abv_percent": 40,
    "price_usd": 12999.99,
    "currency": "USD",
    "tasting_notes": [
@@ -3633,8 +3513,8 @@
    "distillery": "Hennessy",
    "region": "Cognac, France",
    "age": "NAS",
-   "abv_percent": 40.0,
-   "price_usd": 195000.0,
+   "abv_percent": 40,
+   "price_usd": 195000,
    "currency": "USD",
    "tasting_notes": [
     "Ancient Eaux-de-Vie",
@@ -3653,7 +3533,7 @@
    "distillery": "Hennessy",
    "region": "Cognac, France",
    "age": "NAS",
-   "abv_percent": 43.0,
+   "abv_percent": 43,
    "price_usd": 89.99,
    "currency": "USD",
    "tasting_notes": [
@@ -3673,7 +3553,7 @@
    "distillery": "Hennessy",
    "region": "Cognac, France",
    "age": "NAS",
-   "abv_percent": 40.0,
+   "abv_percent": 40,
    "price_usd": 999.99,
    "currency": "USD",
    "tasting_notes": [
@@ -3693,7 +3573,7 @@
    "distillery": "Hennessy",
    "region": "Cognac, France",
    "age": "NAS",
-   "abv_percent": 40.0,
+   "abv_percent": 40,
    "price_usd": 3499.99,
    "currency": "USD",
    "tasting_notes": [
@@ -3713,7 +3593,7 @@
    "distillery": "Hennessy",
    "region": "Cognac, France",
    "age": "NAS",
-   "abv_percent": 40.0,
+   "abv_percent": 40,
    "price_usd": 79.99,
    "currency": "USD",
    "tasting_notes": [
@@ -3733,7 +3613,7 @@
    "distillery": "Hennessy",
    "region": "Cognac, France",
    "age": "NAS",
-   "abv_percent": 40.0,
+   "abv_percent": 40,
    "price_usd": 4999.99,
    "currency": "USD",
    "tasting_notes": [
@@ -3753,7 +3633,7 @@
    "distillery": "Hennessy",
    "region": "Cognac, France",
    "age": "NAS",
-   "abv_percent": 40.0,
+   "abv_percent": 40,
    "price_usd": 39.99,
    "currency": "USD",
    "tasting_notes": [
@@ -3773,7 +3653,7 @@
    "distillery": "Hennessy",
    "region": "Cognac, France",
    "age": "NAS",
-   "abv_percent": 40.0,
+   "abv_percent": 40,
    "price_usd": 59.99,
    "currency": "USD",
    "tasting_notes": [
@@ -3793,7 +3673,7 @@
    "distillery": "Hennessy",
    "region": "Cognac, France",
    "age": "NAS",
-   "abv_percent": 40.0,
+   "abv_percent": 40,
    "price_usd": 69.99,
    "currency": "USD",
    "tasting_notes": [
@@ -3813,7 +3693,7 @@
    "distillery": "Hennessy",
    "region": "Cognac, France",
    "age": "NAS",
-   "abv_percent": 40.0,
+   "abv_percent": 40,
    "price_usd": 199.99,
    "currency": "USD",
    "tasting_notes": [
@@ -3833,7 +3713,7 @@
    "distillery": "Hennessy",
    "region": "Cognac, France",
    "age": "NAS",
-   "abv_percent": 40.0,
+   "abv_percent": 40,
    "price_usd": 249.99,
    "currency": "USD",
    "tasting_notes": [
@@ -3853,7 +3733,7 @@
    "distillery": "Hennessy",
    "region": "Cognac, France",
    "age": "NAS",
-   "abv_percent": 40.0,
+   "abv_percent": 40,
    "price_usd": 229.99,
    "currency": "USD",
    "tasting_notes": [
@@ -3873,7 +3753,7 @@
    "distillery": "Suntory Distilleries",
    "region": "Japan",
    "age": "21yr",
-   "abv_percent": 43.0,
+   "abv_percent": 43,
    "price_usd": 699.99,
    "currency": "USD",
    "tasting_notes": [
@@ -3893,7 +3773,7 @@
    "distillery": "Suntory Distilleries",
    "region": "Japan",
    "age": "30yr",
-   "abv_percent": 43.0,
+   "abv_percent": 43,
    "price_usd": 3999.99,
    "currency": "USD",
    "tasting_notes": [
@@ -3913,7 +3793,7 @@
    "distillery": "Suntory Distilleries",
    "region": "Japan",
    "age": "35yr",
-   "abv_percent": 43.0,
+   "abv_percent": 43,
    "price_usd": 11999.99,
    "currency": "USD",
    "tasting_notes": [
@@ -3933,7 +3813,7 @@
    "distillery": "Suntory Distilleries",
    "region": "Japan",
    "age": "NAS",
-   "abv_percent": 43.0,
+   "abv_percent": 43,
    "price_usd": 79.99,
    "currency": "USD",
    "tasting_notes": [
@@ -3973,7 +3853,7 @@
    "distillery": "Highland Park Distillery",
    "region": "Orkney, Scotland",
    "age": "50yr",
-   "abv_percent": 44.0,
+   "abv_percent": 44,
    "price_usd": 19999.99,
    "currency": "USD",
    "tasting_notes": [
@@ -3993,7 +3873,7 @@
    "distillery": "Various",
    "region": "Canada",
    "age": "NAS",
-   "abv_percent": 40.0,
+   "abv_percent": 40,
    "price_usd": 899.99,
    "currency": "USD",
    "tasting_notes": [
@@ -4013,7 +3893,7 @@
    "distillery": "Various",
    "region": "Canada",
    "age": "NAS",
-   "abv_percent": 40.0,
+   "abv_percent": 40,
    "price_usd": 1499.99,
    "currency": "USD",
    "tasting_notes": [
@@ -4033,7 +3913,7 @@
    "distillery": "Hine",
    "region": "Cognac, France",
    "age": "NAS",
-   "abv_percent": 40.0,
+   "abv_percent": 40,
    "price_usd": 199.99,
    "currency": "USD",
    "tasting_notes": [
@@ -4053,7 +3933,7 @@
    "distillery": "Hine",
    "region": "Cognac, France",
    "age": "NAS",
-   "abv_percent": 40.0,
+   "abv_percent": 40,
    "price_usd": 49.99,
    "currency": "USD",
    "tasting_notes": [
@@ -4073,7 +3953,7 @@
    "distillery": "Hine",
    "region": "Cognac, France",
    "age": "NAS",
-   "abv_percent": 40.0,
+   "abv_percent": 40,
    "price_usd": 59.99,
    "currency": "USD",
    "tasting_notes": [
@@ -4093,7 +3973,7 @@
    "distillery": "Hine",
    "region": "Cognac, France",
    "age": "NAS",
-   "abv_percent": 40.0,
+   "abv_percent": 40,
    "price_usd": 499.99,
    "currency": "USD",
    "tasting_notes": [
@@ -4113,7 +3993,7 @@
    "distillery": "Various",
    "region": "Canada",
    "age": "NAS",
-   "abv_percent": 40.0,
+   "abv_percent": 40,
    "price_usd": 2499.99,
    "currency": "USD",
    "tasting_notes": [
@@ -4133,7 +4013,7 @@
    "distillery": "Various",
    "region": "Canada",
    "age": "NAS",
-   "abv_percent": 40.0,
+   "abv_percent": 40,
    "price_usd": 3999.99,
    "currency": "USD",
    "tasting_notes": [
@@ -4173,7 +4053,7 @@
    "distillery": "Jack Daniel Distillery",
    "region": "Tennessee, USA",
    "age": "NAS",
-   "abv_percent": 40.0,
+   "abv_percent": 40,
    "price_usd": 29.99,
    "currency": "USD",
    "tasting_notes": [
@@ -4193,7 +4073,7 @@
    "distillery": "Jack Daniel Distillery",
    "region": "Tennessee, USA",
    "age": "NAS",
-   "abv_percent": 40.0,
+   "abv_percent": 40,
    "price_usd": 22.99,
    "currency": "USD",
    "tasting_notes": [
@@ -4213,7 +4093,7 @@
    "distillery": "Jack Daniel Distillery",
    "region": "Tennessee, USA",
    "age": "NAS",
-   "abv_percent": 45.0,
+   "abv_percent": 45,
    "price_usd": 149.99,
    "currency": "USD",
    "tasting_notes": [
@@ -4233,7 +4113,7 @@
    "distillery": "Jack Daniel Distillery",
    "region": "Tennessee, USA",
    "age": "NAS",
-   "abv_percent": 47.0,
+   "abv_percent": 47,
    "price_usd": 49.99,
    "currency": "USD",
    "tasting_notes": [
@@ -4253,7 +4133,7 @@
    "distillery": "Jack Daniel Distillery",
    "region": "Tennessee, USA",
    "age": "NAS",
-   "abv_percent": 35.0,
+   "abv_percent": 35,
    "price_usd": 27.99,
    "currency": "USD",
    "tasting_notes": [
@@ -4273,7 +4153,7 @@
    "distillery": "Jack Daniel Distillery",
    "region": "Tennessee, USA",
    "age": "NAS",
-   "abv_percent": 35.0,
+   "abv_percent": 35,
    "price_usd": 27.99,
    "currency": "USD",
    "tasting_notes": [
@@ -4293,7 +4173,7 @@
    "distillery": "Jack Daniel Distillery",
    "region": "Tennessee, USA",
    "age": "NAS",
-   "abv_percent": 35.0,
+   "abv_percent": 35,
    "price_usd": 27.99,
    "currency": "USD",
    "tasting_notes": [
@@ -4313,7 +4193,7 @@
    "distillery": "Jacopo Poli Distillery",
    "region": "Veneto, Italy",
    "age": "NAS",
-   "abv_percent": 40.0,
+   "abv_percent": 40,
    "price_usd": 44.99,
    "currency": "USD",
    "tasting_notes": [
@@ -4333,7 +4213,7 @@
    "distillery": "Midleton Distillery",
    "region": "Cork, Ireland",
    "age": "NAS",
-   "abv_percent": 40.0,
+   "abv_percent": 40,
    "price_usd": 39.99,
    "currency": "USD",
    "tasting_notes": [
@@ -4353,7 +4233,7 @@
    "distillery": "Midleton Distillery",
    "region": "Cork, Ireland",
    "age": "NAS",
-   "abv_percent": 40.0,
+   "abv_percent": 40,
    "price_usd": 27.99,
    "currency": "USD",
    "tasting_notes": [
@@ -4373,8 +4253,8 @@
    "distillery": "Janneau",
    "region": "Armagnac, France",
    "age": "NAS",
-   "abv_percent": 40.0,
-   "price_usd": 125000.0,
+   "abv_percent": 40,
+   "price_usd": 125000,
    "currency": "USD",
    "tasting_notes": [
     "Ancient Plum",
@@ -4393,7 +4273,7 @@
    "distillery": "Janneau",
    "region": "Armagnac, France",
    "age": "NAS",
-   "abv_percent": 40.0,
+   "abv_percent": 40,
    "price_usd": 49.99,
    "currency": "USD",
    "tasting_notes": [
@@ -4413,7 +4293,7 @@
    "distillery": "Janneau",
    "region": "Armagnac, France",
    "age": "NAS",
-   "abv_percent": 40.0,
+   "abv_percent": 40,
    "price_usd": 129.99,
    "currency": "USD",
    "tasting_notes": [
@@ -4433,7 +4313,7 @@
    "distillery": "Suntory & Nikka",
    "region": "Japan",
    "age": "NAS",
-   "abv_percent": 43.0,
+   "abv_percent": 43,
    "price_usd": 199.99,
    "currency": "USD",
    "tasting_notes": [
@@ -4453,7 +4333,7 @@
    "distillery": "Beam Suntory",
    "region": "Kentucky, USA",
    "age": "8yr",
-   "abv_percent": 43.0,
+   "abv_percent": 43,
    "price_usd": 24.99,
    "currency": "USD",
    "tasting_notes": [
@@ -4473,7 +4353,7 @@
    "distillery": "Beam Suntory",
    "region": "Kentucky, USA",
    "age": "4yr",
-   "abv_percent": 50.0,
+   "abv_percent": 50,
    "price_usd": 27.99,
    "currency": "USD",
    "tasting_notes": [
@@ -4493,7 +4373,7 @@
    "distillery": "Beam Suntory",
    "region": "Kentucky, USA",
    "age": "NAS",
-   "abv_percent": 43.0,
+   "abv_percent": 43,
    "price_usd": 29.99,
    "currency": "USD",
    "tasting_notes": [
@@ -4513,7 +4393,7 @@
    "distillery": "Beam Suntory",
    "region": "Kentucky, USA",
    "age": "4yr",
-   "abv_percent": 40.0,
+   "abv_percent": 40,
    "price_usd": 19.99,
    "currency": "USD",
    "tasting_notes": [
@@ -4533,7 +4413,7 @@
    "distillery": "Diageo",
    "region": "Scotland",
    "age": "18yr",
-   "abv_percent": 40.0,
+   "abv_percent": 40,
    "price_usd": 89.99,
    "currency": "USD",
    "tasting_notes": [
@@ -4553,7 +4433,7 @@
    "distillery": "Diageo",
    "region": "Scotland",
    "age": "12yr",
-   "abv_percent": 40.0,
+   "abv_percent": 40,
    "price_usd": 34.99,
    "currency": "USD",
    "tasting_notes": [
@@ -4573,7 +4453,7 @@
    "distillery": "Diageo",
    "region": "Scotland",
    "age": "NAS",
-   "abv_percent": 40.0,
+   "abv_percent": 40,
    "price_usd": 44.99,
    "currency": "USD",
    "tasting_notes": [
@@ -4593,7 +4473,7 @@
    "distillery": "Diageo",
    "region": "Scotland",
    "age": "NAS",
-   "abv_percent": 40.0,
+   "abv_percent": 40,
    "price_usd": 199.99,
    "currency": "USD",
    "tasting_notes": [
@@ -4693,7 +4573,7 @@
    "distillery": "Diageo",
    "region": "Scotland",
    "age": "NAS",
-   "abv_percent": 40.0,
+   "abv_percent": 40,
    "price_usd": 39.99,
    "currency": "USD",
    "tasting_notes": [
@@ -4713,7 +4593,7 @@
    "distillery": "Diageo",
    "region": "Scotland",
    "age": "NAS",
-   "abv_percent": 40.0,
+   "abv_percent": 40,
    "price_usd": 54.99,
    "currency": "USD",
    "tasting_notes": [
@@ -4733,7 +4613,7 @@
    "distillery": "Diageo",
    "region": "Scotland",
    "age": "15yr",
-   "abv_percent": 43.0,
+   "abv_percent": 43,
    "price_usd": 49.99,
    "currency": "USD",
    "tasting_notes": [
@@ -4753,7 +4633,7 @@
    "distillery": "Diageo",
    "region": "Scotland",
    "age": "NAS",
-   "abv_percent": 43.0,
+   "abv_percent": 43,
    "price_usd": 249.99,
    "currency": "USD",
    "tasting_notes": [
@@ -4773,7 +4653,7 @@
    "distillery": "Diageo",
    "region": "Scotland",
    "age": "18yr",
-   "abv_percent": 40.0,
+   "abv_percent": 40,
    "price_usd": 79.99,
    "currency": "USD",
    "tasting_notes": [
@@ -4793,7 +4673,7 @@
    "distillery": "Diageo",
    "region": "Scotland",
    "age": "NAS",
-   "abv_percent": 40.0,
+   "abv_percent": 40,
    "price_usd": 24.99,
    "currency": "USD",
    "tasting_notes": [
@@ -4813,7 +4693,7 @@
    "distillery": "Diageo",
    "region": "Scotland",
    "age": "NAS",
-   "abv_percent": 43.0,
+   "abv_percent": 43,
    "price_usd": 59.99,
    "currency": "USD",
    "tasting_notes": [
@@ -4833,7 +4713,7 @@
    "distillery": "Diageo",
    "region": "Scotland",
    "age": "NAS",
-   "abv_percent": 40.0,
+   "abv_percent": 40,
    "price_usd": 599.99,
    "currency": "USD",
    "tasting_notes": [
@@ -4853,7 +4733,7 @@
    "distillery": "Diageo",
    "region": "Scotland",
    "age": "21yr",
-   "abv_percent": 40.0,
+   "abv_percent": 40,
    "price_usd": 149.99,
    "currency": "USD",
    "tasting_notes": [
@@ -4873,7 +4753,7 @@
    "distillery": "KWV",
    "region": "Paarl, South Africa",
    "age": "10yr",
-   "abv_percent": 38.0,
+   "abv_percent": 38,
    "price_usd": 34.99,
    "currency": "USD",
    "tasting_notes": [
@@ -4893,7 +4773,7 @@
    "distillery": "KWV",
    "region": "Paarl, South Africa",
    "age": "15yr",
-   "abv_percent": 38.0,
+   "abv_percent": 38,
    "price_usd": 49.99,
    "currency": "USD",
    "tasting_notes": [
@@ -4934,7 +4814,7 @@
    "region": "Japan",
    "age": "NAS",
    "abv_percent": 56.2,
-   "price_usd": 118000.0,
+   "price_usd": 118000,
    "currency": "USD",
    "tasting_notes": [
     "Dark Chocolate",
@@ -4953,8 +4833,8 @@
    "distillery": "Karuizawa Distillery",
    "region": "Japan",
    "age": "NAS",
-   "abv_percent": 56.0,
-   "price_usd": 195000.0,
+   "abv_percent": 56,
+   "price_usd": 195000,
    "currency": "USD",
    "tasting_notes": [
     "Dark Chocolate",
@@ -4993,7 +4873,7 @@
    "distillery": "Karuizawa Distillery",
    "region": "Japan",
    "age": "NAS",
-   "abv_percent": 60.0,
+   "abv_percent": 60,
    "price_usd": 2499.99,
    "currency": "USD",
    "tasting_notes": [
@@ -5013,7 +4893,7 @@
    "distillery": "Kelt",
    "region": "Cognac, France",
    "age": "NAS",
-   "abv_percent": 40.0,
+   "abv_percent": 40,
    "price_usd": 349.99,
    "currency": "USD",
    "tasting_notes": [
@@ -5053,7 +4933,7 @@
    "distillery": "Klipdrift Distillery",
    "region": "Robertson, South Africa",
    "age": "NAS",
-   "abv_percent": 43.0,
+   "abv_percent": 43,
    "price_usd": 24.99,
    "currency": "USD",
    "tasting_notes": [
@@ -5073,8 +4953,8 @@
    "distillery": "Old Bushmills Distillery",
    "region": "Ireland",
    "age": "NAS",
-   "abv_percent": 40.0,
-   "price_usd": 125000.0,
+   "abv_percent": 40,
+   "price_usd": 125000,
    "currency": "USD",
    "tasting_notes": [
     "Ancient Irish Pot Still",
@@ -5093,7 +4973,7 @@
    "distillery": "Castle Brands",
    "region": "County Clare, Ireland",
    "age": "21yr",
-   "abv_percent": 40.0,
+   "abv_percent": 40,
    "price_usd": 229.99,
    "currency": "USD",
    "tasting_notes": [
@@ -5113,7 +4993,7 @@
    "distillery": "Beam Suntory",
    "region": "Kentucky, USA",
    "age": "9yr",
-   "abv_percent": 50.0,
+   "abv_percent": 50,
    "price_usd": 34.99,
    "currency": "USD",
    "tasting_notes": [
@@ -5133,7 +5013,7 @@
    "distillery": "Lagavulin Distillery",
    "region": "Islay, Scotland",
    "age": "16yr",
-   "abv_percent": 43.0,
+   "abv_percent": 43,
    "price_usd": 79.99,
    "currency": "USD",
    "tasting_notes": [
@@ -5153,7 +5033,7 @@
    "distillery": "Laird & Company",
    "region": "New Jersey, USA",
    "age": "NAS",
-   "abv_percent": 40.0,
+   "abv_percent": 40,
    "price_usd": 24.99,
    "currency": "USD",
    "tasting_notes": [
@@ -5173,7 +5053,7 @@
    "distillery": "Laphroaig Distillery",
    "region": "Islay, Scotland",
    "age": "10yr",
-   "abv_percent": 40.0,
+   "abv_percent": 40,
    "price_usd": 49.99,
    "currency": "USD",
    "tasting_notes": [
@@ -5193,7 +5073,7 @@
    "distillery": "Heaven Hill Distillery",
    "region": "Kentucky, USA",
    "age": "NAS",
-   "abv_percent": 61.0,
+   "abv_percent": 61,
    "price_usd": 49.99,
    "currency": "USD",
    "tasting_notes": [
@@ -5213,7 +5093,7 @@
    "distillery": "Heaven Hill Distillery",
    "region": "Kentucky, USA",
    "age": "NAS",
-   "abv_percent": 46.0,
+   "abv_percent": 46,
    "price_usd": 29.99,
    "currency": "USD",
    "tasting_notes": [
@@ -5233,7 +5113,7 @@
    "distillery": "Louis Royer",
    "region": "Cognac, France",
    "age": "NAS",
-   "abv_percent": 40.0,
+   "abv_percent": 40,
    "price_usd": 149.99,
    "currency": "USD",
    "tasting_notes": [
@@ -5253,7 +5133,7 @@
    "distillery": "The Macallan Distillery",
    "region": "Speyside, Scotland",
    "age": "12yr",
-   "abv_percent": 40.0,
+   "abv_percent": 40,
    "price_usd": 74.99,
    "currency": "USD",
    "tasting_notes": [
@@ -5273,7 +5153,7 @@
    "distillery": "The Macallan Distillery",
    "region": "Speyside, Scotland",
    "age": "12yr",
-   "abv_percent": 43.0,
+   "abv_percent": 43,
    "price_usd": 79.99,
    "currency": "USD",
    "tasting_notes": [
@@ -5293,7 +5173,7 @@
    "distillery": "The Macallan Distillery",
    "region": "Speyside, Scotland",
    "age": "18yr",
-   "abv_percent": 43.0,
+   "abv_percent": 43,
    "price_usd": 279.99,
    "currency": "USD",
    "tasting_notes": [
@@ -5313,8 +5193,8 @@
    "distillery": "The Macallan Distillery",
    "region": "Speyside, Scotland",
    "age": "60yr",
-   "abv_percent": 43.0,
-   "price_usd": 980000.0,
+   "abv_percent": 43,
+   "price_usd": 980000,
    "currency": "USD",
    "tasting_notes": [
     "Profound Dried Fruit",
@@ -5333,7 +5213,7 @@
    "distillery": "The Macallan Distillery",
    "region": "Speyside, Scotland",
    "age": "25yr",
-   "abv_percent": 43.0,
+   "abv_percent": 43,
    "price_usd": 1299.99,
    "currency": "USD",
    "tasting_notes": [
@@ -5353,7 +5233,7 @@
    "distillery": "The Macallan Distillery",
    "region": "Speyside, Scotland",
    "age": "30yr",
-   "abv_percent": 43.0,
+   "abv_percent": 43,
    "price_usd": 2999.99,
    "currency": "USD",
    "tasting_notes": [
@@ -5373,7 +5253,7 @@
    "distillery": "The Macallan Distillery",
    "region": "Speyside, Scotland",
    "age": "40yr",
-   "abv_percent": 43.0,
+   "abv_percent": 43,
    "price_usd": 12999.99,
    "currency": "USD",
    "tasting_notes": [
@@ -5413,7 +5293,7 @@
    "distillery": "The Macallan Distillery",
    "region": "Speyside, Scotland",
    "age": "NAS",
-   "abv_percent": 40.0,
+   "abv_percent": 40,
    "price_usd": 149.99,
    "currency": "USD",
    "tasting_notes": [
@@ -5453,7 +5333,7 @@
    "distillery": "Maker's Mark Distillery",
    "region": "Kentucky, USA",
    "age": "NAS",
-   "abv_percent": 47.0,
+   "abv_percent": 47,
    "price_usd": 39.99,
    "currency": "USD",
    "tasting_notes": [
@@ -5493,7 +5373,7 @@
    "distillery": "Maker's Mark Distillery",
    "region": "Kentucky, USA",
    "age": "NAS",
-   "abv_percent": 45.0,
+   "abv_percent": 45,
    "price_usd": 99.99,
    "currency": "USD",
    "tasting_notes": [
@@ -5513,7 +5393,7 @@
    "distillery": "Maker's Mark Distillery",
    "region": "Kentucky, USA",
    "age": "NAS",
-   "abv_percent": 45.0,
+   "abv_percent": 45,
    "price_usd": 29.99,
    "currency": "USD",
    "tasting_notes": [
@@ -5533,7 +5413,7 @@
    "distillery": "Maker's Mark Distillery",
    "region": "Kentucky, USA",
    "age": "NAS",
-   "abv_percent": 45.0,
+   "abv_percent": 45,
    "price_usd": 79.99,
    "currency": "USD",
    "tasting_notes": [
@@ -5553,7 +5433,7 @@
    "distillery": "Martell",
    "region": "Cognac, France",
    "age": "NAS",
-   "abv_percent": 40.0,
+   "abv_percent": 40,
    "price_usd": 799.99,
    "currency": "USD",
    "tasting_notes": [
@@ -5573,7 +5453,7 @@
    "distillery": "Martell",
    "region": "Cognac, France",
    "age": "NAS",
-   "abv_percent": 40.0,
+   "abv_percent": 40,
    "price_usd": 299.99,
    "currency": "USD",
    "tasting_notes": [
@@ -5593,7 +5473,7 @@
    "distillery": "Martell",
    "region": "Cognac, France",
    "age": "NAS",
-   "abv_percent": 40.0,
+   "abv_percent": 40,
    "price_usd": 349.99,
    "currency": "USD",
    "tasting_notes": [
@@ -5613,7 +5493,7 @@
    "distillery": "Martell",
    "region": "Cognac, France",
    "age": "NAS",
-   "abv_percent": 40.0,
+   "abv_percent": 40,
    "price_usd": 149.99,
    "currency": "USD",
    "tasting_notes": [
@@ -5633,7 +5513,7 @@
    "distillery": "Martell",
    "region": "Cognac, France",
    "age": "NAS",
-   "abv_percent": 40.0,
+   "abv_percent": 40,
    "price_usd": 499.99,
    "currency": "USD",
    "tasting_notes": [
@@ -5653,7 +5533,7 @@
    "distillery": "Martell",
    "region": "Cognac, France",
    "age": "NAS",
-   "abv_percent": 40.0,
+   "abv_percent": 40,
    "price_usd": 399.99,
    "currency": "USD",
    "tasting_notes": [
@@ -5673,8 +5553,8 @@
    "distillery": "Martell",
    "region": "Cognac, France",
    "age": "NAS",
-   "abv_percent": 40.0,
-   "price_usd": 125000.0,
+   "abv_percent": 40,
+   "price_usd": 125000,
    "currency": "USD",
    "tasting_notes": [
     "Jasmine",
@@ -5693,7 +5573,7 @@
    "distillery": "Martell",
    "region": "Cognac, France",
    "age": "NAS",
-   "abv_percent": 40.0,
+   "abv_percent": 40,
    "price_usd": 34.99,
    "currency": "USD",
    "tasting_notes": [
@@ -5713,7 +5593,7 @@
    "distillery": "Martell",
    "region": "Cognac, France",
    "age": "NAS",
-   "abv_percent": 40.0,
+   "abv_percent": 40,
    "price_usd": 59.99,
    "currency": "USD",
    "tasting_notes": [
@@ -5733,7 +5613,7 @@
    "distillery": "Martell",
    "region": "Cognac, France",
    "age": "NAS",
-   "abv_percent": 40.0,
+   "abv_percent": 40,
    "price_usd": 199.99,
    "currency": "USD",
    "tasting_notes": [
@@ -5794,7 +5674,7 @@
    "region": "Pennsylvania, USA",
    "age": "25yr",
    "abv_percent": 58.4,
-   "price_usd": 145000.0,
+   "price_usd": 145000,
    "currency": "USD",
    "tasting_notes": [
     "Ancient Rye Spice",
@@ -5854,7 +5734,7 @@
    "region": "Pennsylvania, USA",
    "age": "25yr",
    "abv_percent": 58.4,
-   "price_usd": 125000.0,
+   "price_usd": 125000,
    "currency": "USD",
    "tasting_notes": [
     "Ancient Caramel",
@@ -5933,7 +5813,7 @@
    "distillery": "Midleton Distillery",
    "region": "Cork, Ireland",
    "age": "NAS",
-   "abv_percent": 40.0,
+   "abv_percent": 40,
    "price_usd": 1749.99,
    "currency": "USD",
    "tasting_notes": [
@@ -5953,7 +5833,7 @@
    "distillery": "Midleton Distillery",
    "region": "Cork, Ireland",
    "age": "NAS",
-   "abv_percent": 40.0,
+   "abv_percent": 40,
    "price_usd": 299.99,
    "currency": "USD",
    "tasting_notes": [
@@ -5974,7 +5854,7 @@
    "region": "Cork, Ireland",
    "age": "NAS",
    "abv_percent": 50.7,
-   "price_usd": 95000.0,
+   "price_usd": 95000,
    "currency": "USD",
    "tasting_notes": [
     "Ancient Pot Still",
@@ -5993,7 +5873,7 @@
    "distillery": "Torres",
    "region": "Penedès, Spain",
    "age": "NAS",
-   "abv_percent": 40.0,
+   "abv_percent": 40,
    "price_usd": 59.99,
    "currency": "USD",
    "tasting_notes": [
@@ -6013,7 +5893,7 @@
    "distillery": "William Grant & Sons",
    "region": "Scotland",
    "age": "NAS",
-   "abv_percent": 40.0,
+   "abv_percent": 40,
    "price_usd": 29.99,
    "currency": "USD",
    "tasting_notes": [
@@ -6033,7 +5913,7 @@
    "distillery": "Bortolo Nardini",
    "region": "Veneto, Italy",
    "age": "NAS",
-   "abv_percent": 50.0,
+   "abv_percent": 50,
    "price_usd": 79.99,
    "currency": "USD",
    "tasting_notes": [
@@ -6073,7 +5953,7 @@
    "distillery": "Nikka Whisky",
    "region": "Japan",
    "age": "20yr",
-   "abv_percent": 52.0,
+   "abv_percent": 52,
    "price_usd": 899.99,
    "currency": "USD",
    "tasting_notes": [
@@ -6093,8 +5973,8 @@
    "distillery": "Nikka Whisky",
    "region": "Hokkaido, Japan",
    "age": "35yr",
-   "abv_percent": 52.0,
-   "price_usd": 75000.0,
+   "abv_percent": 52,
+   "price_usd": 75000,
    "currency": "USD",
    "tasting_notes": [
     "Peated Oak",
@@ -6113,7 +5993,7 @@
    "distillery": "Nikka Whisky",
    "region": "Japan",
    "age": "50yr",
-   "abv_percent": 42.0,
+   "abv_percent": 42,
    "price_usd": 18999.99,
    "currency": "USD",
    "tasting_notes": [
@@ -6133,7 +6013,7 @@
    "distillery": "Nonino Distillery",
    "region": "Friuli, Italy",
    "age": "NAS",
-   "abv_percent": 41.0,
+   "abv_percent": 41,
    "price_usd": 54.99,
    "currency": "USD",
    "tasting_notes": [
@@ -6153,7 +6033,7 @@
    "distillery": "Oban Distillery",
    "region": "West Highland, Scotland",
    "age": "14yr",
-   "abv_percent": 43.0,
+   "abv_percent": 43,
    "price_usd": 64.99,
    "currency": "USD",
    "tasting_notes": [
@@ -6173,7 +6053,7 @@
    "distillery": "Oban Distillery",
    "region": "West Highland, Scotland",
    "age": "18yr",
-   "abv_percent": 43.0,
+   "abv_percent": 43,
    "price_usd": 129.99,
    "currency": "USD",
    "tasting_notes": [
@@ -6213,7 +6093,7 @@
    "distillery": "Oban Distillery",
    "region": "West Highland, Scotland",
    "age": "NAS",
-   "abv_percent": 43.0,
+   "abv_percent": 43,
    "price_usd": 54.99,
    "currency": "USD",
    "tasting_notes": [
@@ -6233,7 +6113,7 @@
    "distillery": "Heaven Hill Distillery",
    "region": "Kentucky, USA",
    "age": "19yr",
-   "abv_percent": 50.0,
+   "abv_percent": 50,
    "price_usd": 499.99,
    "currency": "USD",
    "tasting_notes": [
@@ -6253,8 +6133,8 @@
    "distillery": "Stitzel-Weller Distillery",
    "region": "Louisville, Kentucky, USA",
    "age": "NAS",
-   "abv_percent": 50.0,
-   "price_usd": 98000.0,
+   "abv_percent": 50,
+   "price_usd": 98000,
    "currency": "USD",
    "tasting_notes": [
     "Wheat",
@@ -6273,7 +6153,7 @@
    "distillery": "Brown-Forman Distillery",
    "region": "Kentucky, USA",
    "age": "NAS",
-   "abv_percent": 49.0,
+   "abv_percent": 49,
    "price_usd": 249.99,
    "currency": "USD",
    "tasting_notes": [
@@ -6293,7 +6173,7 @@
    "distillery": "Distell",
    "region": "Stellenbosch, South Africa",
    "age": "NAS",
-   "abv_percent": 43.0,
+   "abv_percent": 43,
    "price_usd": 22.99,
    "currency": "USD",
    "tasting_notes": [
@@ -6394,7 +6274,7 @@
    "region": "Kentucky, USA",
    "age": "23yr",
    "abv_percent": 47.8,
-   "price_usd": 185000.0,
+   "price_usd": 185000,
    "currency": "USD",
    "tasting_notes": [
     "Ancient Caramel",
@@ -6413,7 +6293,7 @@
    "distillery": "Heaven Hill Distillery",
    "region": "Kentucky, USA",
    "age": "27yr",
-   "abv_percent": 48.0,
+   "abv_percent": 48,
    "price_usd": 6999.99,
    "currency": "USD",
    "tasting_notes": [
@@ -6433,8 +6313,8 @@
    "distillery": "Heaven Hill Distillery",
    "region": "Kentucky, USA",
    "age": "27yr",
-   "abv_percent": 48.0,
-   "price_usd": 72000.0,
+   "abv_percent": 48,
+   "price_usd": 72000,
    "currency": "USD",
    "tasting_notes": [
     "Rich Caramel",
@@ -6453,7 +6333,7 @@
    "distillery": "Paul Masson",
    "region": "California, USA",
    "age": "NAS",
-   "abv_percent": 40.0,
+   "abv_percent": 40,
    "price_usd": 14.99,
    "currency": "USD",
    "tasting_notes": [
@@ -6473,7 +6353,7 @@
    "distillery": "Pierre Ferrand",
    "region": "Cognac, France",
    "age": "NAS",
-   "abv_percent": 46.0,
+   "abv_percent": 46,
    "price_usd": 599.99,
    "currency": "USD",
    "tasting_notes": [
@@ -6486,26 +6366,6 @@
    "image": "https://caskworth.com/assets/images/products/pierre-ferrand-10-generations.webp"
   },
   {
-   "slug": "pierre-ferrand-10-gnrations",
-   "name": "Pierre Ferrand 10 Générations",
-   "category": "Cognac",
-   "subcategory": "Ultra Premium Cognac",
-   "distillery": "Pierre Ferrand",
-   "region": "Cognac, France",
-   "age": "NAS",
-   "abv_percent": 47.3,
-   "price_usd": 599.99,
-   "currency": "USD",
-   "tasting_notes": [
-    "Extraordinary Complexity",
-    "Ancient Fruit",
-    "10 Generations"
-   ],
-   "description": "Ten generations of the Ferrand family — their most precious Grande Champagne eaux-de-vie dating back decades. Extraordinary complexity and historical depth.",
-   "url": "https://caskworth.com/products/pierre-ferrand-10-gnrations",
-   "image": "https://caskworth.com/assets/images/products/pierre-ferrand-10-generations.webp"
-  },
-  {
    "slug": "pike-creek-21-year-double-barrel",
    "name": "Pike Creek 21 Year Double Barrel",
    "category": "Canadian",
@@ -6513,7 +6373,7 @@
    "distillery": "Various",
    "region": "Canada",
    "age": "NAS",
-   "abv_percent": 40.0,
+   "abv_percent": 40,
    "price_usd": 1299.99,
    "currency": "USD",
    "tasting_notes": [
@@ -6533,7 +6393,7 @@
    "distillery": "Various",
    "region": "Canada",
    "age": "NAS",
-   "abv_percent": 40.0,
+   "abv_percent": 40,
    "price_usd": 3499.99,
    "currency": "USD",
    "tasting_notes": [
@@ -6553,7 +6413,7 @@
    "distillery": "Destileria La Caravedo",
    "region": "Ica, Peru",
    "age": "NAS",
-   "abv_percent": 43.0,
+   "abv_percent": 43,
    "price_usd": 44.99,
    "currency": "USD",
    "tasting_notes": [
@@ -6566,26 +6426,6 @@
    "image": "https://caskworth.com/assets/images/products/pisco-porton-mosto-verde.webp"
   },
   {
-   "slug": "pisco-portn-mosto-verde",
-   "name": "Pisco Portón Mosto Verde",
-   "category": "Brandy",
-   "subcategory": "Pisco",
-   "distillery": "Hacienda La Caravedo",
-   "region": "Ica, Peru",
-   "age": "NAS",
-   "abv_percent": 43.0,
-   "price_usd": 44.99,
-   "currency": "USD",
-   "tasting_notes": [
-    "Fresh Grape",
-    "Floral",
-    "Fruity"
-   ],
-   "description": "Mosto Verde — distilled from partially fermented grape must. Intensely fresh grape aroma, delicate floral notes and vivid fruit from Peru's oldest pisco distillery.",
-   "url": "https://caskworth.com/products/pisco-portn-mosto-verde",
-   "image": "https://caskworth.com/assets/images/products/pisco-portn-mosto-verde.webp"
-  },
-  {
    "slug": "port-ellen-1979-first-fill-sherry-40-year",
    "name": "Port Ellen 1979 First Fill Sherry 40 Year",
    "category": "Scotch",
@@ -6594,7 +6434,7 @@
    "region": "Islay, Scotland",
    "age": "40yr",
    "abv_percent": 52.6,
-   "price_usd": 135000.0,
+   "price_usd": 135000,
    "currency": "USD",
    "tasting_notes": [
     "Intense Peat",
@@ -6653,8 +6493,8 @@
    "distillery": "Midleton Distillery",
    "region": "Cork, Ireland",
    "age": "28yr",
-   "abv_percent": 46.0,
-   "price_usd": 69000.0,
+   "abv_percent": 46,
+   "price_usd": 69000,
    "currency": "USD",
    "tasting_notes": [
     "Classic Pot Still",
@@ -6673,7 +6513,7 @@
    "distillery": "Midleton Distillery",
    "region": "Cork, Ireland",
    "age": "12yr",
-   "abv_percent": 40.0,
+   "abv_percent": 40,
    "price_usd": 64.99,
    "currency": "USD",
    "tasting_notes": [
@@ -6693,7 +6533,7 @@
    "distillery": "Midleton Distillery",
    "region": "Cork, Ireland",
    "age": "21yr",
-   "abv_percent": 46.0,
+   "abv_percent": 46,
    "price_usd": 349.99,
    "currency": "USD",
    "tasting_notes": [
@@ -6754,7 +6594,7 @@
    "region": "Cork, Ireland",
    "age": "32yr",
    "abv_percent": 52.5,
-   "price_usd": 78000.0,
+   "price_usd": 78000,
    "currency": "USD",
    "tasting_notes": [
     "Port Wine",
@@ -6773,7 +6613,7 @@
    "distillery": "Remy Martin",
    "region": "Cognac, France",
    "age": "NAS",
-   "abv_percent": 40.0,
+   "abv_percent": 40,
    "price_usd": 74.99,
    "currency": "USD",
    "tasting_notes": [
@@ -6793,7 +6633,7 @@
    "distillery": "Remy Martin",
    "region": "Cognac, France",
    "age": "NAS",
-   "abv_percent": 42.0,
+   "abv_percent": 42,
    "price_usd": 999.99,
    "currency": "USD",
    "tasting_notes": [
@@ -6813,7 +6653,7 @@
    "distillery": "Remy Martin",
    "region": "Cognac, France",
    "age": "NAS",
-   "abv_percent": 40.0,
+   "abv_percent": 40,
    "price_usd": 299.99,
    "currency": "USD",
    "tasting_notes": [
@@ -6833,7 +6673,7 @@
    "distillery": "Remy Martin",
    "region": "Cognac, France",
    "age": "NAS",
-   "abv_percent": 40.0,
+   "abv_percent": 40,
    "price_usd": 149.99,
    "currency": "USD",
    "tasting_notes": [
@@ -6853,7 +6693,7 @@
    "distillery": "Remy Martin",
    "region": "Cognac, France",
    "age": "NAS",
-   "abv_percent": 40.0,
+   "abv_percent": 40,
    "price_usd": 89.99,
    "currency": "USD",
    "tasting_notes": [
@@ -6873,7 +6713,7 @@
    "distillery": "Remy Martin",
    "region": "Cognac, France",
    "age": "NAS",
-   "abv_percent": 40.0,
+   "abv_percent": 40,
    "price_usd": 4299.99,
    "currency": "USD",
    "tasting_notes": [
@@ -6893,7 +6733,7 @@
    "distillery": "Remy Martin",
    "region": "Cognac, France",
    "age": "NAS",
-   "abv_percent": 40.0,
+   "abv_percent": 40,
    "price_usd": 24999.99,
    "currency": "USD",
    "tasting_notes": [
@@ -6913,8 +6753,8 @@
    "distillery": "Remy Martin",
    "region": "Cognac, France",
    "age": "NAS",
-   "abv_percent": 40.0,
-   "price_usd": 185000.0,
+   "abv_percent": 40,
+   "price_usd": 185000,
    "currency": "USD",
    "tasting_notes": [
     "Jasmine",
@@ -6933,7 +6773,7 @@
    "distillery": "Remy Martin",
    "region": "Cognac, France",
    "age": "NAS",
-   "abv_percent": 40.0,
+   "abv_percent": 40,
    "price_usd": 34999.99,
    "currency": "USD",
    "tasting_notes": [
@@ -6953,7 +6793,7 @@
    "distillery": "Remy Martin",
    "region": "Cognac, France",
    "age": "NAS",
-   "abv_percent": 42.0,
+   "abv_percent": 42,
    "price_usd": 129.99,
    "currency": "USD",
    "tasting_notes": [
@@ -6973,7 +6813,7 @@
    "distillery": "Remy Martin",
    "region": "Cognac, France",
    "age": "NAS",
-   "abv_percent": 40.0,
+   "abv_percent": 40,
    "price_usd": 54.99,
    "currency": "USD",
    "tasting_notes": [
@@ -6993,7 +6833,7 @@
    "distillery": "Remy Martin",
    "region": "Cognac, France",
    "age": "NAS",
-   "abv_percent": 40.0,
+   "abv_percent": 40,
    "price_usd": 199.99,
    "currency": "USD",
    "tasting_notes": [
@@ -7013,7 +6853,7 @@
    "distillery": "Remy Martin",
    "region": "Cognac, France",
    "age": "NAS",
-   "abv_percent": 40.0,
+   "abv_percent": 40,
    "price_usd": 219.99,
    "currency": "USD",
    "tasting_notes": [
@@ -7033,7 +6873,7 @@
    "distillery": "Heaven Hill",
    "region": "Kentucky, USA",
    "age": "4yr",
-   "abv_percent": 50.0,
+   "abv_percent": 50,
    "price_usd": 29.99,
    "currency": "USD",
    "tasting_notes": [
@@ -7053,7 +6893,7 @@
    "distillery": "Chivas Brothers",
    "region": "Scotland",
    "age": "21yr",
-   "abv_percent": 40.0,
+   "abv_percent": 40,
    "price_usd": 149.99,
    "currency": "USD",
    "tasting_notes": [
@@ -7073,7 +6913,7 @@
    "distillery": "Chivas Brothers",
    "region": "Scotland",
    "age": "25yr",
-   "abv_percent": 40.0,
+   "abv_percent": 40,
    "price_usd": 499.99,
    "currency": "USD",
    "tasting_notes": [
@@ -7093,8 +6933,8 @@
    "distillery": "Buffalo Trace Distillery",
    "region": "Kentucky, USA",
    "age": "18yr",
-   "abv_percent": 45.0,
-   "price_usd": 72000.0,
+   "abv_percent": 45,
+   "price_usd": 72000,
    "currency": "USD",
    "tasting_notes": [
     "Clove",
@@ -7113,7 +6953,7 @@
    "distillery": "Buffalo Trace Distillery",
    "region": "Kentucky, USA",
    "age": "18yr",
-   "abv_percent": 45.0,
+   "abv_percent": 45,
    "price_usd": 299.99,
    "currency": "USD",
    "tasting_notes": [
@@ -7133,7 +6973,7 @@
    "distillery": "Glen Ord Distillery",
    "region": "Speyside, Scotland",
    "age": "12yr",
-   "abv_percent": 40.0,
+   "abv_percent": 40,
    "price_usd": 34.99,
    "currency": "USD",
    "tasting_notes": [
@@ -7153,7 +6993,7 @@
    "distillery": "Glen Ord Distillery",
    "region": "Speyside, Scotland",
    "age": "15yr",
-   "abv_percent": 40.0,
+   "abv_percent": 40,
    "price_usd": 49.99,
    "currency": "USD",
    "tasting_notes": [
@@ -7173,7 +7013,7 @@
    "distillery": "Glen Ord Distillery",
    "region": "Speyside, Scotland",
    "age": "18yr",
-   "abv_percent": 40.0,
+   "abv_percent": 40,
    "price_usd": 74.99,
    "currency": "USD",
    "tasting_notes": [
@@ -7193,8 +7033,8 @@
    "distillery": "Springbank Distillery",
    "region": "Campbeltown, Scotland",
    "age": "100yr",
-   "abv_percent": 40.0,
-   "price_usd": 78000.0,
+   "abv_percent": 40,
+   "price_usd": 78000,
    "currency": "USD",
    "tasting_notes": [
     "Ancient Campbeltown",
@@ -7213,7 +7053,7 @@
    "distillery": "Springbank Distillery",
    "region": "Campbeltown, Scotland",
    "age": "21yr",
-   "abv_percent": 46.0,
+   "abv_percent": 46,
    "price_usd": 399.99,
    "currency": "USD",
    "tasting_notes": [
@@ -7233,7 +7073,7 @@
    "distillery": "Springbank Distillery",
    "region": "Campbeltown, Scotland",
    "age": "50yr",
-   "abv_percent": 42.0,
+   "abv_percent": 42,
    "price_usd": 34999.99,
    "currency": "USD",
    "tasting_notes": [
@@ -7253,7 +7093,7 @@
    "distillery": "Various",
    "region": "Canada",
    "age": "NAS",
-   "abv_percent": 40.0,
+   "abv_percent": 40,
    "price_usd": 1999.99,
    "currency": "USD",
    "tasting_notes": [
@@ -7273,7 +7113,7 @@
    "distillery": "Stock Spirits",
    "region": "Trieste, Italy",
    "age": "NAS",
-   "abv_percent": 38.0,
+   "abv_percent": 38,
    "price_usd": 22.99,
    "currency": "USD",
    "tasting_notes": [
@@ -7293,8 +7133,8 @@
    "distillery": "Suntory Distilleries",
    "region": "Japan",
    "age": "NAS",
-   "abv_percent": 43.0,
-   "price_usd": 68000.0,
+   "abv_percent": 43,
+   "price_usd": 68000,
    "currency": "USD",
    "tasting_notes": [
     "Aged Grain",
@@ -7313,7 +7153,7 @@
    "distillery": "Suntory Distilleries",
    "region": "Japan",
    "age": "NAS",
-   "abv_percent": 43.0,
+   "abv_percent": 43,
    "price_usd": 34.99,
    "currency": "USD",
    "tasting_notes": [
@@ -7333,8 +7173,8 @@
    "distillery": "Caskworth Curated",
    "region": "Japan",
    "age": "NAS",
-   "abv_percent": 0.0,
-   "price_usd": 175000.0,
+   "abv_percent": 0,
+   "price_usd": 175000,
    "currency": "USD",
    "tasting_notes": [
     "Yamazaki 50yr",
@@ -7353,7 +7193,7 @@
    "distillery": "Yamazaki Distillery",
    "region": "Japan",
    "age": "NAS",
-   "abv_percent": 57.0,
+   "abv_percent": 57,
    "price_usd": 19999.99,
    "currency": "USD",
    "tasting_notes": [
@@ -7473,7 +7313,7 @@
    "distillery": "Domaine Tariquet",
    "region": "Bas-Armagnac, France",
    "age": "NAS",
-   "abv_percent": 41.0,
+   "abv_percent": 41,
    "price_usd": 54.99,
    "currency": "USD",
    "tasting_notes": [
@@ -7493,7 +7333,7 @@
    "distillery": "Domaine Tariquet",
    "region": "Bas-Armagnac, France",
    "age": "NAS",
-   "abv_percent": 43.0,
+   "abv_percent": 43,
    "price_usd": 149.99,
    "currency": "USD",
    "tasting_notes": [
@@ -7513,7 +7353,7 @@
    "distillery": "Caskworth Curated",
    "region": "USA",
    "age": "—",
-   "abv_percent": 0.0,
+   "abv_percent": 0,
    "price_usd": 1299.99,
    "currency": "USD",
    "tasting_notes": [
@@ -7533,7 +7373,7 @@
    "distillery": "Caskworth Curated",
    "region": "USA",
    "age": "—",
-   "abv_percent": 0.0,
+   "abv_percent": 0,
    "price_usd": 399.99,
    "currency": "USD",
    "tasting_notes": [
@@ -7553,7 +7393,7 @@
    "distillery": "Caskworth Curated",
    "region": "USA",
    "age": "—",
-   "abv_percent": 0.0,
+   "abv_percent": 0,
    "price_usd": 799.99,
    "currency": "USD",
    "tasting_notes": [
@@ -7573,7 +7413,7 @@
    "distillery": "Caskworth Curated",
    "region": "USA",
    "age": "—",
-   "abv_percent": 0.0,
+   "abv_percent": 0,
    "price_usd": 349.99,
    "currency": "USD",
    "tasting_notes": [
@@ -7593,7 +7433,7 @@
    "distillery": "Caskworth Curated",
    "region": "Kentucky, USA",
    "age": "—",
-   "abv_percent": 0.0,
+   "abv_percent": 0,
    "price_usd": 2499.99,
    "currency": "USD",
    "tasting_notes": [
@@ -7613,7 +7453,7 @@
    "distillery": "Caskworth Curated",
    "region": "International",
    "age": "—",
-   "abv_percent": 0.0,
+   "abv_percent": 0,
    "price_usd": 49999.99,
    "currency": "USD",
    "tasting_notes": [
@@ -7633,8 +7473,8 @@
    "distillery": "Caskworth Curated",
    "region": "Highland, Scotland",
    "age": "64yr",
-   "abv_percent": 0.0,
-   "price_usd": 320000.0,
+   "abv_percent": 0,
+   "price_usd": 320000,
    "currency": "USD",
    "tasting_notes": [
     "Dalmore 64yr Trinitas",
@@ -7653,7 +7493,7 @@
    "distillery": "Caskworth Curated",
    "region": "Speyside, Scotland",
    "age": "—",
-   "abv_percent": 0.0,
+   "abv_percent": 0,
    "price_usd": 4499.99,
    "currency": "USD",
    "tasting_notes": [
@@ -7673,8 +7513,8 @@
    "distillery": "Caskworth Curated",
    "region": "Speyside, Scotland",
    "age": "NAS",
-   "abv_percent": 0.0,
-   "price_usd": 285000.0,
+   "abv_percent": 0,
+   "price_usd": 285000,
    "currency": "USD",
    "tasting_notes": [
     "Glenfiddich 1955",
@@ -7693,7 +7533,7 @@
    "distillery": "Caskworth Curated",
    "region": "Ireland",
    "age": "—",
-   "abv_percent": 0.0,
+   "abv_percent": 0,
    "price_usd": 349.99,
    "currency": "USD",
    "tasting_notes": [
@@ -7713,7 +7553,7 @@
    "distillery": "Caskworth Curated",
    "region": "Islay, Scotland",
    "age": "—",
-   "abv_percent": 0.0,
+   "abv_percent": 0,
    "price_usd": 749.99,
    "currency": "USD",
    "tasting_notes": [
@@ -7733,7 +7573,7 @@
    "distillery": "Caskworth Curated",
    "region": "Japan",
    "age": "—",
-   "abv_percent": 0.0,
+   "abv_percent": 0,
    "price_usd": 9999.99,
    "currency": "USD",
    "tasting_notes": [
@@ -7753,7 +7593,7 @@
    "distillery": "Caskworth Curated",
    "region": "Japan",
    "age": "—",
-   "abv_percent": 0.0,
+   "abv_percent": 0,
    "price_usd": 499.99,
    "currency": "USD",
    "tasting_notes": [
@@ -7773,7 +7613,7 @@
    "distillery": "Caskworth Curated",
    "region": "Islay, Scotland",
    "age": "—",
-   "abv_percent": 0.0,
+   "abv_percent": 0,
    "price_usd": 6999.99,
    "currency": "USD",
    "tasting_notes": [
@@ -7793,8 +7633,8 @@
    "distillery": "Caskworth Curated",
    "region": "Speyside, Scotland",
    "age": "52yr",
-   "abv_percent": 0.0,
-   "price_usd": 220000.0,
+   "abv_percent": 0,
+   "price_usd": 220000,
    "currency": "USD",
    "tasting_notes": [
     "Macallan 52yr",
@@ -7813,7 +7653,7 @@
    "distillery": "Caskworth Curated",
    "region": "Speyside, Scotland",
    "age": "—",
-   "abv_percent": 0.0,
+   "abv_percent": 0,
    "price_usd": 7999.99,
    "currency": "USD",
    "tasting_notes": [
@@ -7833,7 +7673,7 @@
    "distillery": "Caskworth Curated",
    "region": "Speyside, Scotland",
    "age": "—",
-   "abv_percent": 0.0,
+   "abv_percent": 0,
    "price_usd": 1999.99,
    "currency": "USD",
    "tasting_notes": [
@@ -7853,8 +7693,8 @@
    "distillery": "Caskworth Curated",
    "region": "Kentucky, USA",
    "age": "NAS",
-   "abv_percent": 0.0,
-   "price_usd": 98000.0,
+   "abv_percent": 0,
+   "price_usd": 98000,
    "currency": "USD",
    "tasting_notes": [
     "Pappy 15yr",
@@ -7873,7 +7713,7 @@
    "distillery": "Caskworth Curated",
    "region": "Kentucky, USA",
    "age": "—",
-   "abv_percent": 0.0,
+   "abv_percent": 0,
    "price_usd": 3999.99,
    "currency": "USD",
    "tasting_notes": [
@@ -7893,7 +7733,7 @@
    "distillery": "Caskworth Curated",
    "region": "Japan",
    "age": "—",
-   "abv_percent": 0.0,
+   "abv_percent": 0,
    "price_usd": 2999.99,
    "currency": "USD",
    "tasting_notes": [
@@ -7913,7 +7753,7 @@
    "distillery": "Caskworth Curated",
    "region": "Scotland",
    "age": "—",
-   "abv_percent": 0.0,
+   "abv_percent": 0,
    "price_usd": 399.99,
    "currency": "USD",
    "tasting_notes": [
@@ -7933,7 +7773,7 @@
    "distillery": "Caskworth Curated",
    "region": "Speyside, Scotland",
    "age": "—",
-   "abv_percent": 0.0,
+   "abv_percent": 0,
    "price_usd": 899.99,
    "currency": "USD",
    "tasting_notes": [
@@ -7953,7 +7793,7 @@
    "distillery": "Caskworth Curated",
    "region": "International",
    "age": "—",
-   "abv_percent": 0.0,
+   "abv_percent": 0,
    "price_usd": 24999.99,
    "currency": "USD",
    "tasting_notes": [
@@ -7974,7 +7814,7 @@
    "region": "Kentucky, USA",
    "age": "NAS",
    "abv_percent": 63.45,
-   "price_usd": 68000.0,
+   "price_usd": 68000,
    "currency": "USD",
    "tasting_notes": [
     "Bold Rye",
@@ -7993,7 +7833,7 @@
    "distillery": "Tomatin Distillery",
    "region": "Highland, Scotland",
    "age": "12yr",
-   "abv_percent": 43.0,
+   "abv_percent": 43,
    "price_usd": 34.99,
    "currency": "USD",
    "tasting_notes": [
@@ -8013,7 +7853,7 @@
    "distillery": "Tomatin Distillery",
    "region": "Highland, Scotland",
    "age": "18yr",
-   "abv_percent": 46.0,
+   "abv_percent": 46,
    "price_usd": 79.99,
    "currency": "USD",
    "tasting_notes": [
@@ -8033,7 +7873,7 @@
    "distillery": "Torres",
    "region": "Penedès, Spain",
    "age": "10yr",
-   "abv_percent": 38.0,
+   "abv_percent": 38,
    "price_usd": 24.99,
    "currency": "USD",
    "tasting_notes": [
@@ -8053,7 +7893,7 @@
    "distillery": "Torres",
    "region": "Penedès, Spain",
    "age": "15yr",
-   "abv_percent": 40.0,
+   "abv_percent": 40,
    "price_usd": 34.99,
    "currency": "USD",
    "tasting_notes": [
@@ -8073,7 +7913,7 @@
    "distillery": "Torres",
    "region": "Penedès, Spain",
    "age": "20yr",
-   "abv_percent": 40.0,
+   "abv_percent": 40,
    "price_usd": 44.99,
    "currency": "USD",
    "tasting_notes": [
@@ -8093,8 +7933,8 @@
    "distillery": "Miguel Torres",
    "region": "Catalonia, Spain",
    "age": "NAS",
-   "abv_percent": 40.0,
-   "price_usd": 68000.0,
+   "abv_percent": 40,
+   "price_usd": 68000,
    "currency": "USD",
    "tasting_notes": [
     "Ancient Spanish Oak",
@@ -8113,7 +7953,7 @@
    "distillery": "Buffalo Trace Distillery",
    "region": "Kentucky, USA",
    "age": "NAS",
-   "abv_percent": 57.0,
+   "abv_percent": 57,
    "price_usd": 219.99,
    "currency": "USD",
    "tasting_notes": [
@@ -8133,7 +7973,7 @@
    "distillery": "WhistlePig Farm",
    "region": "Vermont, USA",
    "age": "10yr",
-   "abv_percent": 50.0,
+   "abv_percent": 50,
    "price_usd": 79.99,
    "currency": "USD",
    "tasting_notes": [
@@ -8153,7 +7993,7 @@
    "distillery": "WhistlePig Farm",
    "region": "Vermont, USA",
    "age": "15yr",
-   "abv_percent": 46.0,
+   "abv_percent": 46,
    "price_usd": 249.99,
    "currency": "USD",
    "tasting_notes": [
@@ -8173,7 +8013,7 @@
    "distillery": "WhistlePig Farm",
    "region": "Vermont, USA",
    "age": "18yr",
-   "abv_percent": 46.0,
+   "abv_percent": 46,
    "price_usd": 449.99,
    "currency": "USD",
    "tasting_notes": [
@@ -8194,7 +8034,7 @@
    "region": "Vermont, USA",
    "age": "NAS",
    "abv_percent": 57.8,
-   "price_usd": 89000.0,
+   "price_usd": 89000,
    "currency": "USD",
    "tasting_notes": [
     "Complex Rye",
@@ -8213,7 +8053,7 @@
    "distillery": "Various",
    "region": "Canada",
    "age": "NAS",
-   "abv_percent": 40.0,
+   "abv_percent": 40,
    "price_usd": 649.99,
    "currency": "USD",
    "tasting_notes": [
@@ -8393,7 +8233,7 @@
    "distillery": "Yamazaki Distillery",
    "region": "Japan",
    "age": "12yr",
-   "abv_percent": 43.0,
+   "abv_percent": 43,
    "price_usd": 149.99,
    "currency": "USD",
    "tasting_notes": [
@@ -8413,7 +8253,7 @@
    "distillery": "Yamazaki Distillery",
    "region": "Japan",
    "age": "18yr",
-   "abv_percent": 43.0,
+   "abv_percent": 43,
    "price_usd": 499.99,
    "currency": "USD",
    "tasting_notes": [
@@ -8433,7 +8273,7 @@
    "distillery": "Yamazaki Distillery",
    "region": "Japan",
    "age": "25yr",
-   "abv_percent": 43.0,
+   "abv_percent": 43,
    "price_usd": 4499.99,
    "currency": "USD",
    "tasting_notes": [
@@ -8453,7 +8293,7 @@
    "distillery": "Yamazaki Distillery",
    "region": "Japan",
    "age": "35yr",
-   "abv_percent": 43.0,
+   "abv_percent": 43,
    "price_usd": 14999.99,
    "currency": "USD",
    "tasting_notes": [
@@ -8473,7 +8313,7 @@
    "distillery": "Yamazaki Distillery",
    "region": "Japan",
    "age": "50yr",
-   "abv_percent": 42.0,
+   "abv_percent": 42,
    "price_usd": 49999.99,
    "currency": "USD",
    "tasting_notes": [
@@ -8494,7 +8334,7 @@
    "region": "Japan",
    "age": "55yr",
    "abv_percent": 41.6,
-   "price_usd": 600000.0,
+   "price_usd": 600000,
    "currency": "USD",
    "tasting_notes": [
     "Ancient Mizunara",
@@ -8504,6 +8344,166 @@
    "description": "Japan's oldest single malt. Only 100 bottles released in 2021. 55 years in Japanese oak creates a whisky of transcendent beauty — the pinnacle of Suntory's art.",
    "url": "https://caskworth.com/products/yamazaki-55-year-2021-release",
    "image": "https://caskworth.com/assets/images/products/yamazaki-55-year-2021-release.webp"
+  },
+  {
+   "slug": "canadian-club-classic-12-year-limited-edition",
+   "name": "Canadian Club Classic 12 Year Limited Edition",
+   "category": "Canadian",
+   "subcategory": "Canadian Club Premium",
+   "distillery": "Canadian Club Distillery",
+   "region": "Ontario",
+   "age": "12yr",
+   "abv_percent": 40,
+   "price_usd": 549.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Vanilla",
+    "Fruit",
+    "Light Spice"
+   ],
+   "description": "A limited edition presentation of Canadian Club's acclaimed 12-year expression in premium packaging. Smooth complex and distinctly Canadian.",
+   "url": "https://caskworth.com/products/canadian-club-classic-12-year-limited-edition",
+   "image": "https://caskworth.com/assets/images/products/canadian-club-classic-12-year-limited-edition.webp"
+  },
+  {
+   "slug": "courvoisier-l-essence",
+   "name": "Courvoisier L'Essence",
+   "category": "Cognac",
+   "subcategory": "Ultra Premium Cognac",
+   "distillery": "Courvoisier",
+   "region": "Cognac",
+   "age": "NAS",
+   "abv_percent": 40,
+   "price_usd": 3999.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Transcendent Bouquet",
+    "Ancient Oak",
+    "Profound Depth"
+   ],
+   "description": "The most concentrated and rare Courvoisier expression. A Cognac of legend.",
+   "url": "https://caskworth.com/products/courvoisier-l-essence",
+   "image": "https://caskworth.com/assets/images/products/courvoisier-l-essence.webp"
+  },
+  {
+   "slug": "crown-royal-noble-collection-cornerstone-blend",
+   "name": "Crown Royal Noble Collection Cornerstone Blend",
+   "category": "Canadian",
+   "subcategory": "Crown Royal Noble Collection",
+   "distillery": "Crown Royal Distillery",
+   "region": "Manitoba",
+   "age": "NAS",
+   "abv_percent": 40,
+   "price_usd": 699.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Butterscotch",
+    "Vanilla",
+    "Baking Spice"
+   ],
+   "description": "A showcase of the rye distillates that form the cornerstone of Crown Royal's signature character. Rich and complex.",
+   "url": "https://caskworth.com/products/crown-royal-noble-collection-cornerstone-blend",
+   "image": "https://caskworth.com/assets/images/products/crown-royal-noble-collection-cornerstone-blend.webp"
+  },
+  {
+   "slug": "d-usse-vsop-cognac",
+   "name": "D'USSÉ V.S.O.P Cognac",
+   "category": "Cognac",
+   "subcategory": "VSOP Cognac",
+   "distillery": "D'USSE Cognac",
+   "region": "Cognac",
+   "age": "NAS",
+   "abv_percent": 40,
+   "price_usd": 54.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Stone Fruit",
+    "Honey",
+    "Warm Oak"
+   ],
+   "description": "Created with Jay-Z. Aged at Chateau de Cognac for rich smooth distinctive character.",
+   "url": "https://caskworth.com/products/d-usse-vsop-cognac",
+   "image": "https://caskworth.com/assets/images/products/d-usse-vsop-cognac.webp"
+  },
+  {
+   "slug": "d-usse-xo-cognac",
+   "name": "D'USSÉ XO Cognac",
+   "category": "Cognac",
+   "subcategory": "XO Cognac",
+   "distillery": "D'USSE Cognac",
+   "region": "Cognac",
+   "age": "NAS",
+   "abv_percent": 40,
+   "price_usd": 249.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Rich Dried Fruit",
+    "Oak",
+    "Warm Spice"
+   ],
+   "description": "Premium XO expression aged at the historic Chateau de Cognac.",
+   "url": "https://caskworth.com/products/d-usse-xo-cognac",
+   "image": "https://caskworth.com/assets/images/products/d-usse-xo-cognac.webp"
+  },
+  {
+   "slug": "gimli-distillery-crown-royal-cask-series-no16",
+   "name": "Gimli Distillery Crown Royal Cask Series No.16",
+   "category": "Canadian",
+   "subcategory": "Ultra Rare Canadian",
+   "distillery": "Crown Royal Distillery",
+   "region": "Manitoba",
+   "age": "NAS",
+   "abv_percent": 40,
+   "price_usd": 49999.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Ancient Canadian",
+    "Rare Oak",
+    "Profound Complexity"
+   ],
+   "description": "From the legendary Gimli Distillery on the shores of Lake Winnipeg. Cask Series No.16 draws on the oldest reserves from Crown Royal's historic cellars.",
+   "url": "https://caskworth.com/products/gimli-distillery-crown-royal-cask-series-no16",
+   "image": "https://caskworth.com/assets/images/products/gimli-distillery-crown-royal-cask-series-no16.webp"
+  },
+  {
+   "slug": "martell-l-or-de-jean-martell",
+   "name": "Martell L'Or de Jean Martell",
+   "category": "Cognac",
+   "subcategory": "Ultra Premium Cognac",
+   "distillery": "Martell",
+   "region": "Cognac",
+   "age": "NAS",
+   "abv_percent": 40,
+   "price_usd": 2499.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Jasmine",
+    "Exotic Fruit",
+    "Ancient Depth"
+   ],
+   "description": "The ultimate tribute to founder Jean Martell. Exceptionally rare.",
+   "url": "https://caskworth.com/products/martell-l-or-de-jean-martell",
+   "image": "https://caskworth.com/assets/images/products/martell-l-or-de-jean-martell.webp"
+  },
+  {
+   "slug": "shelter-point-single-malt-10-year-cask-strength",
+   "name": "Shelter Point Single Malt 10 Year Cask Strength",
+   "category": "Canadian",
+   "subcategory": "Single Malt Canadian",
+   "distillery": "Shelter Point Distillery",
+   "region": "British Columbia",
+   "age": "10yr",
+   "abv_percent": 60.2,
+   "price_usd": 649.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Barley",
+    "Orchard Fruit",
+    "Oak"
+   ],
+   "description": "Canada's westernmost craft distillery produces a single malt in the Scottish tradition. Cask strength after 10 years of BC maturation.",
+   "url": "https://caskworth.com/products/shelter-point-single-malt-10-year-cask-strength",
+   "image": "https://caskworth.com/assets/images/products/shelter-point-single-malt-10-year-cask-strength.webp"
   }
  ]
 }

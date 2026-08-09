@@ -63,3 +63,20 @@
 /products/whistlepig-the-boss-hog-magellan-s-atlantic  /products/whistlepig-the-boss-hog-magellans-atlantic  301
 /products/aberlour-a-bunadh-cask-strength  /products/aberlour-abunadh-cask-strength  301
 /products/glenmorangie-nectar-d-or-12-year  /products/glenmorangie-nectar-dor-12-year  301
+
+# -- Duplicate product consolidation (encoding/transliteration variants, 2026-08-09) --
+/products/bisquit-dubouch-caractre  /products/bisquit-dubouche-caractere  301
+/products/bisquit-dubuche-caractere  /products/bisquit-dubouche-caractere  301
+/products/bisquit-dubouch-extra  /products/bisquit-dubouche-extra  301
+/products/bisquit-dubuche-extra  /products/bisquit-dubouche-extra  301
+/products/bisquit-dubouch-vs  /products/bisquit-dubouche-vs  301
+/products/bisquit-dubuche-vs  /products/bisquit-dubouche-vs  301
+/products/bisquit-dubouch-vsop  /products/bisquit-dubouche-vsop  301
+/products/bisquit-dubuche-vsop  /products/bisquit-dubouche-vsop  301
+/products/bisquit-dubouch-xo  /products/bisquit-dubouche-xo  301
+/products/bisquit-dubuche-xo  /products/bisquit-dubouche-xo  301
+/products/chteau-du-breuil-xo-calvados  /products/chateau-du-breuil-xo-calvados  301
+/products/duss-cabaret-edition  /products/d-usse-cabaret-edition  301
+/products/duss-limited-edition-750ml  /products/d-usse-limited-edition-750ml  301
+/products/pierre-ferrand-10-gnrations  /products/pierre-ferrand-10-generations  301
+/products/pisco-portn-mosto-verde  /products/pisco-porton-mosto-verde  301
