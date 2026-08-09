@@ -1,0 +1,29 @@
+{
+  "issuer": "https://caskworth.com",
+  "authorization_endpoint": null,
+  "token_endpoint": null,
+  "jwks_uri": null,
+  "grant_types_supported": [],
+  "response_types_supported": [],
+  "scopes_supported": [],
+  "note": "Caskworth has no protected APIs. All resources are publicly accessible.",
+  "public_resources": [
+    "https://caskworth.com/shop/",
+    "https://caskworth.com/blog/",
+    "https://caskworth.com/faq/",
+    "https://caskworth.com/wholesale/",
+    "https://caskworth.com/llms.txt",
+    "https://caskworth.com/openapi.json",
+    "https://caskworth.com/api/products.json",
+    "https://caskworth.com/api/categories.json",
+    "https://caskworth.com/.well-known/api-catalog",
+    "https://caskworth.com/.well-known/agent-skills/index.json",
+    "https://caskworth.com/.well-known/mcp/server-card.json"
+  ],
+  "agent_auth": {
+    "register_uri": null,
+    "identity_types_supported": ["none"],
+    "credential_types_supported": ["none"],
+    "notes": "No registration required. All content is publicly accessible to agents."
+  }
+}

@@ -77,6 +77,15 @@ AI agents running in an agent-enabled browser can use this site's WebMCP tools (
 
 This API is **read-only**. There are no ordering, authentication or payment endpoints.
 
+## Agent & auth discovery
+
+- [Auth.md](https://caskworth.com/auth.md): No authentication required; agent registration notes
+- [MCP Server Card](https://caskworth.com/.well-known/mcp/server-card.json): Capability description
+- [Agent Skills index](https://caskworth.com/.well-known/agent-skills/index.json): Discoverable site actions
+- [OAuth Protected Resource](https://caskworth.com/.well-known/oauth-protected-resource): RFC 9728 — no auth required
+- [OAuth Authorization Server](https://caskworth.com/.well-known/oauth-authorization-server): RFC 8414 — no auth required
+- [OpenID Configuration](https://caskworth.com/.well-known/openid-configuration): No OIDC provider operated
+
 ## Optional
 
 - [Terms & Conditions](https://caskworth.com/terms-and-conditions/)

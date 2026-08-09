@@ -1,0 +1,47 @@
+{
+  "ucp": "1.0",
+  "protocol_version": "1.0",
+  "spec": "https://ucp.dev/specification/overview/",
+  "schema": "https://ucp.dev/schema/v1.json",
+  "site": "https://caskworth.com",
+  "name": "Caskworth Premium Whisky",
+  "description": "Premium whisky and spirits retailer offering bourbon, Scotch, Japanese, Irish, rye and Canadian whisky, cognac, Armagnac and gift sets, with same-day delivery across the United States and Canada.",
+  "services": [
+    {
+      "id": "product-catalog",
+      "type": "catalog",
+      "url": "https://caskworth.com/api/products.json",
+      "description": "Full product catalogue"
+    },
+    {
+      "id": "order",
+      "type": "commerce",
+      "url": "https://caskworth.com/shop/",
+      "description": "Browse and order via the website; checkout is completed by the customer"
+    },
+    {
+      "id": "wholesale",
+      "type": "b2b",
+      "url": "https://caskworth.com/wholesale/",
+      "description": "Wholesale pricing and bulk ordering"
+    }
+  ],
+  "capabilities": ["browse", "inquiry", "wholesale", "content"],
+  "endpoints": {
+    "catalog": "https://caskworth.com/api/products.json",
+    "categories": "https://caskworth.com/api/categories.json",
+    "contact": "https://caskworth.com/contact/",
+    "agent_skills": "https://caskworth.com/.well-known/agent-skills/index.json",
+    "mcp_server_card": "https://caskworth.com/.well-known/mcp/server-card.json",
+    "api_catalog": "https://caskworth.com/.well-known/api-catalog",
+    "llms_txt": "https://caskworth.com/llms.txt"
+  },
+  "currency": "USD",
+  "minimum_order_usd": "150.00",
+  "payment_methods": ["cryptocurrency", "PayPal", "Apple Pay"],
+  "legal": {
+    "age_restriction": "21+",
+    "product_type": "alcohol",
+    "compliance": "Adults 21 and older only"
+  }
+}
