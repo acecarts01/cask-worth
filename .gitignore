@@ -1,1 +1,8 @@
 .claude/
+
+# Internal-only working docs — this site has no build step separating a public/
+# output dir from the repo root, so anything committed here deploys live at
+# caskworth.com/<path>. Keep planning docs, outreach research, and anything not
+# meant for the public site out of git entirely.
+docs/
+backlink-outreach/
