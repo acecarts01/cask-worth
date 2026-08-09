@@ -44,8 +44,6 @@
 
 /.well-known/api-catalog
   Content-Type: application/linkset+json; charset=utf-8
-  Cache-Control: public, max-age=3600
-  Access-Control-Allow-Origin: *
 
 /auth.md
   Content-Type: text/markdown; charset=utf-8
@@ -54,33 +52,21 @@
 
 /.well-known/oauth-protected-resource
   Content-Type: application/json; charset=utf-8
-  Cache-Control: public, max-age=3600
-  Access-Control-Allow-Origin: *
 
 /.well-known/oauth-authorization-server
   Content-Type: application/json; charset=utf-8
-  Cache-Control: public, max-age=3600
-  Access-Control-Allow-Origin: *
 
 /.well-known/openid-configuration
   Content-Type: application/json; charset=utf-8
-  Cache-Control: public, max-age=3600
-  Access-Control-Allow-Origin: *
 
 /.well-known/acp.json
   Content-Type: application/json; charset=utf-8
-  Cache-Control: public, max-age=3600
-  Access-Control-Allow-Origin: *
 
 /.well-known/ucp
   Content-Type: application/json; charset=utf-8
-  Cache-Control: public, max-age=3600
-  Access-Control-Allow-Origin: *
 
 /.well-known/mcp/server-card.json
   Content-Type: application/json; charset=utf-8
-  Cache-Control: public, max-age=3600
-  Access-Control-Allow-Origin: *
 
 /.well-known/*
   Cache-Control: public, max-age=3600

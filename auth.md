@@ -20,6 +20,9 @@ category listings, blog content, and policy pages are public. There are no prote
 | Categories | https://caskworth.com/api/categories.json | Category list with product counts |
 | Health | https://caskworth.com/api/health.json | Service status |
 | Sitemap | https://caskworth.com/sitemap.xml | Full indexable URL list |
+| OAuth Protected Resource Metadata (RFC 9728) | https://caskworth.com/.well-known/oauth-protected-resource | Declares no authorization servers — all resources are public |
+| OAuth Authorization Server Metadata (RFC 8414) | https://caskworth.com/.well-known/oauth-authorization-server | Declares no auth endpoints; carries the `agent_auth` block below |
+| OpenID Provider Configuration | https://caskworth.com/.well-known/openid-configuration | `public_site: true` — no OIDC provider operated |
 
 ```json
 {
