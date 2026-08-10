@@ -172,15 +172,27 @@ p{color:var(--muted);line-height:1.75;}
 .hbadge{display:flex;align-items:center;gap:7px;font-size:12px;color:var(--muted);}
 .hbadge svg{color:var(--green);}
 .hero-img{position:relative;display:flex;align-items:center;justify-content:center;}
-.hero-img-wrap{position:relative;z-index:1;}
-.hero-img-wrap img{max-height:580px;width:auto;filter:drop-shadow(0 20px 60px rgba(0,0,0,.15));animation:float 4s ease-in-out infinite;}
-@keyframes float{0%,100%{transform:translateY(0);}50%{transform:translateY(-12px);}}
 .hero-img-circle{position:absolute;width:400px;height:400px;background:radial-gradient(circle,var(--goldbg),transparent 70%);border-radius:50%;top:50%;left:50%;transform:translate(-50%,-50%);z-index:0;}
-.hero-tag{position:absolute;background:#fff;border:1px solid var(--border);border-radius:12px;padding:12px 16px;box-shadow:var(--shadow);z-index:2;}
+.hero-tag{position:absolute;background:#fff;border:1px solid var(--border);border-radius:12px;padding:12px 16px;box-shadow:var(--shadow);z-index:3;}
 .hero-tag-top{top:8%;right:0;}
 .hero-tag-bot{bottom:12%;left:0;}
 .hero-tag .ht-val{font-family:var(--font-d);font-size:18px;font-weight:700;color:var(--gold);}
 .hero-tag .ht-label{font-size:10px;color:var(--muted);letter-spacing:.06em;}
+
+/* ── Hero photo slider ─────────────────────────────────── */
+.hero-slider{position:relative;z-index:1;width:100%;max-width:440px;aspect-ratio:4/5;border-radius:var(--rxl);overflow:hidden;box-shadow:var(--shadow2);isolation:isolate;}
+.hero-slide{position:absolute;inset:0;opacity:0;transition:opacity 1.1s ease;}
+.hero-slide.active{opacity:1;z-index:1;}
+.hero-slide picture,.hero-slide img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;}
+.hero-slide img{transform:scale(1);transition:transform 6.5s cubic-bezier(.25,.1,.25,1);}
+.hero-slide.active img{transform:scale(1.09);}
+.hero-slide::after{content:'';position:absolute;inset:0;background:linear-gradient(to top,rgba(10,6,2,.6) 0%,rgba(10,6,2,.02) 40%,rgba(10,6,2,0) 60%);pointer-events:none;}
+.hero-slide-caption{position:absolute;left:22px;bottom:20px;z-index:2;color:#fff;font-family:var(--font-d);font-size:16px;font-weight:600;letter-spacing:.01em;text-shadow:0 2px 10px rgba(0,0,0,.45);opacity:0;transform:translateY(6px);transition:opacity .6s ease .35s,transform .6s ease .35s;}
+.hero-slide.active .hero-slide-caption{opacity:1;transform:translateY(0);}
+.hero-dots{position:absolute;bottom:20px;right:20px;z-index:2;display:flex;gap:6px;}
+.hero-dot{width:6px;height:6px;border-radius:50%;background:rgba(255,255,255,.5);border:none;padding:0;cursor:pointer;transition:width .25s ease,background .25s ease;}
+.hero-dot:hover{background:rgba(255,255,255,.8);}
+.hero-dot.active{width:20px;border-radius:3px;background:#fff;}
 
 .trust-bar{background:#fff;border-top:1px solid var(--border);border-bottom:1px solid var(--border);padding:18px 0;}
 .trust-inner{display:flex;align-items:center;justify-content:space-around;flex-wrap:wrap;gap:12px;}
@@ -192,11 +204,15 @@ p{color:var(--muted);line-height:1.75;}
 .cat-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;}
 .cat-card{background:#fff;border:1px solid var(--border);border-radius:var(--rl);overflow:hidden;cursor:pointer;text-decoration:none;display:block;transition:var(--tr);}
 .cat-card:hover{border-color:var(--gold);transform:translateY(-3px);box-shadow:var(--shadow2);}
-.cat-img-wrap{height:160px;position:relative;overflow:hidden;display:flex;align-items:center;justify-content:center;}
-.cat-label-wrap{padding:14px 16px;}
+.cat-img-wrap{height:160px;position:relative;overflow:hidden;display:flex;align-items:center;justify-content:center;background:#fff;padding:8px;}
+.cat-img-wrap img{height:150px;width:auto;max-width:100%;object-fit:contain;filter:drop-shadow(0 4px 12px rgba(0,0,0,.15));transition:transform .35s;}
+.cat-card:hover .cat-img-wrap img{transform:scale(1.06);}
+.cat-label-wrap{padding:14px 16px;display:flex;align-items:center;justify-content:space-between;gap:8px;}
+.cat-label-text{min-width:0;}
 .cat-name{font-family:var(--font-d);font-size:16px;font-weight:600;color:var(--dark);margin-bottom:3px;}
 .cat-desc{font-size:11px;color:var(--muted);}
-.cat-arr{color:var(--gold);font-size:14px;float:right;margin-top:-20px;}
+.cat-arr{color:var(--gold);font-size:16px;flex-shrink:0;transition:transform .2s ease;}
+.cat-card:hover .cat-arr{transform:translateX(3px);}
 
 .products-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:20px;}
 .pc{background:#fff;border:1px solid var(--border);border-radius:var(--rl);transition:var(--tr);display:flex;flex-direction:column;position:relative;isolation:isolate;}
@@ -346,6 +362,34 @@ select.form-input{cursor:pointer;}
 
 .reveal{opacity:0;transform:translateY(18px);transition:opacity .5s,transform .5s;}
 .reveal.visible{opacity:1;transform:translateY(0);}
+
+/* Grid children cascade in one-by-one instead of the whole grid fading as a block.
+   Scoped strictly to grids that ALSO carry .reveal (homepage) — shop/index.html's
+   products-grid and blog/index.html's blog-grid have no .reveal wrapper, so without
+   this qualifier their cards would default to opacity:0 and never be triggered visible. */
+.cat-grid.reveal,.products-grid.reveal,.blog-grid.reveal{opacity:1;transform:none;}
+.cat-grid.reveal .cat-card,.products-grid.reveal .pc,.blog-grid.reveal .bc{opacity:0;transform:translateY(16px);transition:opacity .5s ease,transform .5s ease;}
+.cat-grid.reveal.visible .cat-card,.products-grid.reveal.visible .pc,.blog-grid.reveal.visible .bc{opacity:1;transform:translateY(0);}
+.cat-grid.reveal.visible .cat-card:nth-child(1),.products-grid.reveal.visible .pc:nth-child(1),.blog-grid.reveal.visible .bc:nth-child(1){transition-delay:.02s}
+.cat-grid.reveal.visible .cat-card:nth-child(2),.products-grid.reveal.visible .pc:nth-child(2),.blog-grid.reveal.visible .bc:nth-child(2){transition-delay:.07s}
+.cat-grid.reveal.visible .cat-card:nth-child(3),.products-grid.reveal.visible .pc:nth-child(3),.blog-grid.reveal.visible .bc:nth-child(3){transition-delay:.12s}
+.cat-grid.reveal.visible .cat-card:nth-child(4),.products-grid.reveal.visible .pc:nth-child(4),.blog-grid.reveal.visible .bc:nth-child(4){transition-delay:.17s}
+.cat-grid.reveal.visible .cat-card:nth-child(5),.products-grid.reveal.visible .pc:nth-child(5),.blog-grid.reveal.visible .bc:nth-child(5){transition-delay:.22s}
+.cat-grid.reveal.visible .cat-card:nth-child(6),.products-grid.reveal.visible .pc:nth-child(6),.blog-grid.reveal.visible .bc:nth-child(6){transition-delay:.27s}
+.cat-grid.reveal.visible .cat-card:nth-child(7),.products-grid.reveal.visible .pc:nth-child(7){transition-delay:.32s}
+.cat-grid.reveal.visible .cat-card:nth-child(8),.products-grid.reveal.visible .pc:nth-child(8){transition-delay:.37s}
+.products-grid.reveal.visible .pc:nth-child(n+9){transition-delay:.4s}
+
+/* Primary CTA sheen sweep on hover — subtle, one-shot, respects reduced-motion via the global override below. */
+.btn-gold{position:relative;overflow:hidden;}
+.btn-gold::before{content:'';position:absolute;top:0;left:-60%;width:40%;height:100%;background:linear-gradient(115deg,transparent,rgba(255,255,255,.35),transparent);transform:skewX(-20deg);transition:left .65s ease;}
+.btn-gold:hover::before{left:130%;}
+
+/* Section dividers draw in from the left instead of just appearing. */
+.divider{width:0;transition:width .6s ease .1s;}
+.reveal.visible .divider{width:48px;}
+.divider.center{width:0;}
+.reveal.visible .divider.center{width:48px;}
 
 .text-center{text-align:center;}
 .text-gold{color:var(--gold);}

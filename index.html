@@ -360,7 +360,7 @@ body{margin:0;font-family:'Inter',system-ui,sans-serif;background:#fff;color:#1c
       <div class="hero-text">
         <span class="label">California&rsquo;s Premium Whisky Store</span>
         <h1 class="hero-h1">Buy Premium Whisky Online.<br><em>Delivered Today.</em></h1>
-        <p class="hero-sub">Same-day delivery to 33 U.S. states and 7 Canadian provinces. Bourbon, Scotch, Japanese, Irish &amp; Rye. Minimum order $150 USD.</p>
+        <p class="hero-sub">Same-day delivery to 33 U.S. states and 7 Canadian provinces &mdash; Bourbon, Scotch, Japanese, Irish &amp; Rye, hand-picked and ready to pour. Minimum order $150 USD.</p>
         <div class="hero-ctas">
           <a href="/shop/" class="btn btn-gold btn-lg">Shop All Whisky</a>
           <a href="/how-to-order/" class="btn btn-outline btn-lg">How It Works</a>
@@ -373,10 +373,41 @@ body{margin:0;font-family:'Inter',system-ui,sans-serif;background:#fff;color:#1c
       </div>
       <div class="hero-img">
         <div class="hero-img-circle"></div>
-        <div class="hero-img-wrap">
-          <img width="800" height="600" src="/assets/images/products/blantons-original-single-barrel.webp" 
-               alt="Premium whisky bottle" loading="eager"
-               onerror="this.onerror=null;this.src='/assets/images/placeholder.svg'" >
+        <div class="hero-slider" id="hero-slider" role="group" aria-roledescription="carousel" aria-label="Caskworth in the pour">
+          <div class="hero-slide active">
+            <picture>
+              <source srcset="/assets/images/hero/hero-1.avif" type="image/avif">
+              <img src="/assets/images/hero/hero-1.webp" width="1400" height="933" alt="A whisky collector relaxes beside a crystal decanter" loading="eager" fetchpriority="high" style="object-position:76% center;" onerror="this.onerror=null;this.src='/assets/images/placeholder.svg'">
+            </picture>
+            <span class="hero-slide-caption">The Collector</span>
+          </div>
+          <div class="hero-slide">
+            <picture>
+              <source srcset="/assets/images/hero/hero-2.avif" type="image/avif">
+              <img src="/assets/images/hero/hero-2.webp" width="1000" height="1500" alt="Whisky poured over ice, caught mid-splash" loading="lazy" style="object-position:center 42%;" onerror="this.onerror=null;this.src='/assets/images/placeholder.svg'">
+            </picture>
+            <span class="hero-slide-caption">The Pour</span>
+          </div>
+          <div class="hero-slide">
+            <picture>
+              <source srcset="/assets/images/hero/hero-3.avif" type="image/avif">
+              <img src="/assets/images/hero/hero-3.webp" width="1000" height="1500" alt="A hand pours whisky beside a floor-to-ceiling city view" loading="lazy" style="object-position:center 32%;" onerror="this.onerror=null;this.src='/assets/images/placeholder.svg'">
+            </picture>
+            <span class="hero-slide-caption">The Ritual</span>
+          </div>
+          <div class="hero-slide">
+            <picture>
+              <source srcset="/assets/images/hero/hero-4.avif" type="image/avif">
+              <img src="/assets/images/hero/hero-4.webp" width="1000" height="1498" alt="A collector savoring a dram, glass raised" loading="lazy" style="object-position:center 22%;" onerror="this.onerror=null;this.src='/assets/images/placeholder.svg'">
+            </picture>
+            <span class="hero-slide-caption">The Tasting</span>
+          </div>
+          <div class="hero-dots" role="tablist" aria-label="Choose a photo">
+            <button type="button" class="hero-dot active" role="tab" aria-selected="true" aria-label="Photo 1 of 4: The Collector" onclick="heroGoTo(0)"></button>
+            <button type="button" class="hero-dot" role="tab" aria-selected="false" aria-label="Photo 2 of 4: The Pour" onclick="heroGoTo(1)"></button>
+            <button type="button" class="hero-dot" role="tab" aria-selected="false" aria-label="Photo 3 of 4: The Ritual" onclick="heroGoTo(2)"></button>
+            <button type="button" class="hero-dot" role="tab" aria-selected="false" aria-label="Photo 4 of 4: The Tasting" onclick="heroGoTo(3)"></button>
+          </div>
         </div>
         <div class="hero-tag hero-tag-top">
           <div class="ht-val">33</div>
@@ -414,52 +445,52 @@ body{margin:0;font-family:'Inter',system-ui,sans-serif;background:#fff;color:#1c
     </div>
     <div class="cat-grid reveal">
       <a href="/shop/?cat=bourbon" class="cat-card">
-        <div class="cat-img-wrap" style="background:#fff;padding:8px;">
-          <img width="400" height="560" src="/assets/images/products/pappy-van-winkle-20-year-family-reserve.webp" alt="Pappy Van Winkle - Premium Bourbon" style="height:150px;width:auto;object-fit:contain;filter:drop-shadow(0 4px 12px rgba(0,0,0,.15));" loading="lazy" onerror="this.onerror=null;this.src='/assets/images/placeholder.svg'">
+        <div class="cat-img-wrap">
+          <img width="400" height="560" src="/assets/images/products/pappy-van-winkle-20-year-family-reserve.webp" alt="Pappy Van Winkle - Premium Bourbon" loading="lazy" onerror="this.onerror=null;this.src='/assets/images/placeholder.svg'">
         </div>
-        <div class="cat-label-wrap"><div class="cat-name">Bourbon</div><div class="cat-desc">Kentucky &bull; Tennessee &bull; Small Batch</div><span class="cat-arr">→</span></div>
+        <div class="cat-label-wrap"><div class="cat-label-text"><div class="cat-name">Bourbon</div><div class="cat-desc">Kentucky &bull; Tennessee &bull; Small Batch</div></div><span class="cat-arr">→</span></div>
       </a>
       <a href="/shop/?cat=scotch" class="cat-card">
-        <div class="cat-img-wrap" style="background:#fff;padding:8px;">
-          <img width="400" height="560" src="/assets/images/products/macallan-30-year-double-cask.webp" alt="Macallan 30 Year - Premium Scotch" style="height:150px;width:auto;object-fit:contain;filter:drop-shadow(0 4px 12px rgba(0,0,0,.15));" loading="lazy" onerror="this.onerror=null;this.src='/assets/images/placeholder.svg'">
+        <div class="cat-img-wrap">
+          <img width="400" height="560" src="/assets/images/products/macallan-30-year-double-cask.webp" alt="Macallan 30 Year - Premium Scotch" loading="lazy" onerror="this.onerror=null;this.src='/assets/images/placeholder.svg'">
         </div>
-        <div class="cat-label-wrap"><div class="cat-name">Scotch Whisky</div><div class="cat-desc">Speyside &bull; Highland &bull; Islay</div><span class="cat-arr">→</span></div>
+        <div class="cat-label-wrap"><div class="cat-label-text"><div class="cat-name">Scotch Whisky</div><div class="cat-desc">Speyside &bull; Highland &bull; Islay</div></div><span class="cat-arr">→</span></div>
       </a>
       <a href="/shop/?cat=japanese" class="cat-card">
-        <div class="cat-img-wrap" style="background:#fff;padding:8px;">
-          <img width="400" height="560" src="/assets/images/products/yamazaki-25-year.webp" alt="Yamazaki 25 Year - Japanese Whisky" style="height:150px;width:auto;object-fit:contain;filter:drop-shadow(0 4px 12px rgba(0,0,0,.15));" loading="lazy" onerror="this.onerror=null;this.src='/assets/images/placeholder.svg'">
+        <div class="cat-img-wrap">
+          <img width="400" height="560" src="/assets/images/products/yamazaki-25-year.webp" alt="Yamazaki 25 Year - Japanese Whisky" loading="lazy" onerror="this.onerror=null;this.src='/assets/images/placeholder.svg'">
         </div>
-        <div class="cat-label-wrap"><div class="cat-name">Japanese Whisky</div><div class="cat-desc">Hibiki &bull; Yamazaki &bull; Nikka</div><span class="cat-arr">→</span></div>
+        <div class="cat-label-wrap"><div class="cat-label-text"><div class="cat-name">Japanese Whisky</div><div class="cat-desc">Hibiki &bull; Yamazaki &bull; Nikka</div></div><span class="cat-arr">→</span></div>
       </a>
       <a href="/shop/?cat=irish" class="cat-card">
-        <div class="cat-img-wrap" style="background:#fff;padding:8px;">
-          <img width="400" height="560" src="/assets/images/products/redbreast-27-year-cask-strength.webp" alt="Redbreast 27 Year - Irish Whiskey" style="height:150px;width:auto;object-fit:contain;filter:drop-shadow(0 4px 12px rgba(0,0,0,.15));" loading="lazy" onerror="this.onerror=null;this.src='/assets/images/placeholder.svg'">
+        <div class="cat-img-wrap">
+          <img width="400" height="560" src="/assets/images/products/redbreast-27-year-cask-strength.webp" alt="Redbreast 27 Year - Irish Whiskey" loading="lazy" onerror="this.onerror=null;this.src='/assets/images/placeholder.svg'">
         </div>
-        <div class="cat-label-wrap"><div class="cat-name">Irish Whiskey</div><div class="cat-desc">Single Pot Still &bull; Blended</div><span class="cat-arr">→</span></div>
+        <div class="cat-label-wrap"><div class="cat-label-text"><div class="cat-name">Irish Whiskey</div><div class="cat-desc">Single Pot Still &bull; Blended</div></div><span class="cat-arr">→</span></div>
       </a>
       <a href="/shop/?cat=rye" class="cat-card">
-        <div class="cat-img-wrap" style="background:#fff;padding:8px;">
-          <img width="400" height="560" src="/assets/images/products/whistlepig-10-year.webp" alt="WhistlePig 10 Year - American Rye" style="height:150px;width:auto;object-fit:contain;filter:drop-shadow(0 4px 12px rgba(0,0,0,.15));" loading="lazy" onerror="this.onerror=null;this.src='/assets/images/placeholder.svg'">
+        <div class="cat-img-wrap">
+          <img width="400" height="560" src="/assets/images/products/whistlepig-10-year.webp" alt="WhistlePig 10 Year - American Rye" loading="lazy" onerror="this.onerror=null;this.src='/assets/images/placeholder.svg'">
         </div>
-        <div class="cat-label-wrap"><div class="cat-name">Rye Whiskey</div><div class="cat-desc">American Rye &bull; Vermont</div><span class="cat-arr">→</span></div>
+        <div class="cat-label-wrap"><div class="cat-label-text"><div class="cat-name">Rye Whiskey</div><div class="cat-desc">American Rye &bull; Vermont</div></div><span class="cat-arr">→</span></div>
       </a>
       <a href="/shop/?cat=allocated" class="cat-card">
-        <div class="cat-img-wrap" style="background:#fff;padding:8px;">
-          <img width="400" height="560" src="/assets/images/products/pappy-van-winkle-23-year-family-reserve.webp" alt="Pappy Van Winkle 23 Year Collector - Rare" style="height:150px;width:auto;object-fit:contain;filter:drop-shadow(0 4px 12px rgba(0,0,0,.15));" loading="lazy" onerror="this.onerror=null;this.src='/assets/images/placeholder.svg'">
+        <div class="cat-img-wrap">
+          <img width="400" height="560" src="/assets/images/products/pappy-van-winkle-23-year-family-reserve.webp" alt="Pappy Van Winkle 23 Year Collector - Rare" loading="lazy" onerror="this.onerror=null;this.src='/assets/images/placeholder.svg'">
         </div>
-        <div class="cat-label-wrap"><div class="cat-name">Rare &amp; Allocated</div><div class="cat-desc">Pappy &bull; Blanton&rsquo;s &bull; Limited</div><span class="cat-arr">→</span></div>
+        <div class="cat-label-wrap"><div class="cat-label-text"><div class="cat-name">Rare &amp; Allocated</div><div class="cat-desc">Pappy &bull; Blanton&rsquo;s &bull; Limited</div></div><span class="cat-arr">→</span></div>
       </a>
       <a href="/shop/?cat=canadian" class="cat-card">
-        <div class="cat-img-wrap" style="background:#fff;padding:8px;">
-          <img width="400" height="560" src="/assets/images/products/crown-royal-deluxe.webp" alt="Crown Royal Deluxe - Canadian Whisky" style="height:150px;width:auto;object-fit:contain;filter:drop-shadow(0 4px 12px rgba(0,0,0,.15));" loading="lazy" onerror="this.onerror=null;this.src='/assets/images/placeholder.svg'">
+        <div class="cat-img-wrap">
+          <img width="400" height="560" src="/assets/images/products/crown-royal-deluxe.webp" alt="Crown Royal Deluxe - Canadian Whisky" loading="lazy" onerror="this.onerror=null;this.src='/assets/images/placeholder.svg'">
         </div>
-        <div class="cat-label-wrap"><div class="cat-name">Canadian Whisky</div><div class="cat-desc">Crown Royal &bull; Blended</div><span class="cat-arr">→</span></div>
+        <div class="cat-label-wrap"><div class="cat-label-text"><div class="cat-name">Canadian Whisky</div><div class="cat-desc">Crown Royal &bull; Blended</div></div><span class="cat-arr">→</span></div>
       </a>
       <a href="/shop/?cat=gifts" class="cat-card">
-        <div class="cat-img-wrap" style="background:#fff;padding:8px;">
-          <img width="400" height="560" src="/assets/images/products/around-the-world-whisky-experience.webp" alt="Macallan Pinnacle Collection - Gift Sets" style="height:150px;width:auto;object-fit:contain;filter:drop-shadow(0 4px 12px rgba(0,0,0,.15));" loading="lazy" onerror="this.onerror=null;this.src='/assets/images/placeholder.svg'">
+        <div class="cat-img-wrap">
+          <img width="400" height="560" src="/assets/images/products/around-the-world-whisky-experience.webp" alt="Macallan Pinnacle Collection - Gift Sets" loading="lazy" onerror="this.onerror=null;this.src='/assets/images/placeholder.svg'">
         </div>
-        <div class="cat-label-wrap"><div class="cat-name">Gift Sets</div><div class="cat-desc">Premium Pairings &bull; Collections</div><span class="cat-arr">→</span></div>
+        <div class="cat-label-wrap"><div class="cat-label-text"><div class="cat-name">Gift Sets</div><div class="cat-desc">Premium Pairings &bull; Collections</div></div><span class="cat-arr">→</span></div>
       </a>
     </div>
     </div>
