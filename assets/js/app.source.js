@@ -5,6 +5,8 @@ var currentPayMethod = "crypto";
    ═══════════════════════════════════════════════════════ */
 'use strict';
 
+var ASSET_V = '20260811';
+
 const PRODUCTS = [
   {id:"a-de-fussigny-xo-cognac",cat:"Cognac",sub:"Ultra Premium Cognac",name:"A. de Fussigny X.O Cognac",dist:"A. de Fussigny",region:"Cognac, France",abv:40,age:"NAS",price:179.99,badge:"",tag:"cognac",img:"/assets/images/products/a-de-fussigny-xo-cognac.webp",tasting:["Floral","Light Fruit","Creamy"],desc:"From Jarnac's most innovative independent house — floral elegance, light fruit and creamy texture from Grande Champagne and Petite Champagne eaux-de-vie.",metaDesc:"Buy A. de Fussigny X.O Cognac online — From Jarnac's most innovative independent house — floral elegance, light. Same-day delivery to USA & Canada. $179.99."},
   {id:"aberfeldy-12-year",cat:"Scotch",sub:"Highland Single Malt",name:"Aberfeldy 12 Year",dist:"Aberfeldy Distillery",region:"Highland, Scotland",abv:40,age:"12yr",price:44.99,badge:"",tag:"scotch",img:"/assets/images/products/aberfeldy-12-year.webp",tasting:["Honey","Soft Fruit","Gentle Spice"],desc:"Rich honey from Aberfeldy's distinctive style — soft orchard fruit, gentle spice and warming honeyed character.",metaDesc:"Buy Aberfeldy 12 Year online — Rich honey from Aberfeldy's distinctive style — soft orchard fruit, gentle spice. Same-day delivery to USA & Canada. $44.99."},
@@ -552,7 +554,7 @@ function renderProducts(list,containerId){
     const pid=String(p.id);
     return '<div class="pc" data-pid="'+pid+'">'
       +(hasPdp?'<a href="'+pdpUrl+'" class="pc-img-link">':'<div class="pc-img-link" role="button" tabindex="0" style="cursor:pointer" onclick="openQV(\''+pid+'\')">')
-        +'<div class="pc-img-wrap">'+badge+'<img src="'+p.img+'" alt="'+p.name+' — Premium Whisky at Caskworth" loading="lazy" onerror="this.onerror=null;this.src=\'/assets/images/placeholder.svg\'" width="220" height="280"></div>'
+        +'<div class="pc-img-wrap">'+badge+'<img src="'+p.img+'?v='+ASSET_V+'" alt="'+p.name+' — Premium Whisky at Caskworth" loading="lazy" onerror="this.onerror=null;this.src=\'/assets/images/placeholder.svg\'" width="220" height="280"></div>'
       +(hasPdp?'</a>':'</div>')
       +'<div class="pc-info">'
         +'<div class="pc-cat">'+p.cat+'</div>'
@@ -591,7 +593,7 @@ function openQV(id){
   const ov=document.getElementById('qv-overlay');
   if(!ov)return;
   const img=document.getElementById('qv-img');
-  if(img){img.src=p.img;img.alt=p.name;img.onerror=()=>img.src='/assets/images/products/p'+p.id+'.png';}
+  if(img){img.src=p.img+'?v='+ASSET_V;img.alt=p.name;img.onerror=()=>img.src='/assets/images/products/p'+p.id+'.png';}
   const set=(id,v)=>{const e=document.getElementById(id);if(e)e.textContent=v;};
   const setI=(id,v)=>{const e=document.getElementById(id);if(e)e.innerHTML=v;};
   set('qv-cat',p.cat+(p.sub?' — '+p.sub:''));
@@ -677,7 +679,7 @@ function renderCartItems(){
   body.innerHTML=cart.map(item=>{
     const pid=String(item.id);
     return `<div class="cart-item" data-cid="${pid}">
-    <img class="ci-img" src="${item.img}" alt="${item.name} — Caskworth" loading="lazy" onerror="this.onerror=null;this.src='/assets/images/placeholder.svg'" width="64" height="80">
+    <img class="ci-img" src="${item.img}?v=${ASSET_V}" alt="${item.name} — Caskworth" loading="lazy" onerror="this.onerror=null;this.src='/assets/images/placeholder.svg'" width="64" height="80">
     <div class="ci-info">
       <div class="ci-name">${item.name.substring(0,36)}</div>
       <div class="ci-price">$${(item.price*item.qty).toFixed(2)}</div>
