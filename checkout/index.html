@@ -362,11 +362,17 @@
   <div class="co-card">
     <div class="co-card-hd"><span class="cico">&#128179;</span> Payment Method</div>
     <div class="pay-grid">
-      <div class="pay-opt active" onclick="choosePay('crypto',this)" data-pay="crypto">
+      <div class="pay-opt active" onclick="choosePay('bachs',this)" data-pay="bachs">
+        <div class="pay-ico" style="background:#5b21b6;color:#fff;font-size:15px;font-weight:800;border-radius:8px">&#128179;</div>
+        <div><div class="pay-name">Debit / Credit Card</div><div class="pay-desc">Secure card checkout</div></div>
+        <span class="pay-off" style="background:#5b21b6">RECOMMENDED</span>
+        <div class="pay-radio">&#10003;</div>
+      </div>
+      <div class="pay-opt" onclick="choosePay('crypto',this)" data-pay="crypto">
         <div class="pay-ico">&#8383;</div>
         <div><div class="pay-name">Cryptocurrency</div><div class="pay-desc">BTC &bull; ETH &bull; USDT &bull; SOL</div></div>
         <span class="pay-off">5% OFF</span>
-        <div class="pay-radio">&#10003;</div>
+        <div class="pay-radio"></div>
       </div>
       <div class="pay-opt" onclick="choosePay('paypal',this)" data-pay="paypal">
         <div class="pay-ico" style="background:#003087;color:#fff;font-size:13px;font-weight:800;border-radius:8px">P</div>
@@ -383,15 +389,10 @@
         <div><div class="pay-name">Chime / Zelle</div><div class="pay-desc">Bank transfer</div></div>
         <div class="pay-radio"></div>
       </div>
-      <div class="pay-opt" onclick="choosePay('bachs',this)" data-pay="bachs">
-        <div class="pay-ico" style="background:#5b21b6;color:#fff;font-size:15px;font-weight:800;border-radius:8px">&#128179;</div>
-        <div><div class="pay-name">Debit / Credit Card</div><div class="pay-desc">Secure card checkout</div></div>
-        <div class="pay-radio"></div>
-      </div>
     </div>
 
     <!-- Crypto Wallet Panel -->
-    <div class="crypto-box show" id="crypto-box">
+    <div class="crypto-box" id="crypto-box">
       <div class="crypto-discount">&#10022; 5% discount applied automatically with crypto</div>
       <div class="coin-tabs">
         <button class="coin-tab on" onclick="showCoin('usdt-eth',this)">USDT ERC-20</button>
@@ -428,7 +429,7 @@
     <p style="font-size:14px;font-weight:700;margin-bottom:8px">$ Chime / Zelle Instructions</p>
     <p style="font-size:13px;color:#444;line-height:1.6">Complete your order and our team will provide Chime/Zelle payment details via WhatsApp or email. Fast, no fees.</p>
   </div>
-  <div id="bachs-box" style="display:none;background:#f5f3ff;border:1px solid #ddd6fe;border-radius:12px;padding:18px">
+  <div id="bachs-box" style="display:block;background:#f5f3ff;border:1px solid #ddd6fe;border-radius:12px;padding:18px">
     <p style="font-size:14px;font-weight:700;margin-bottom:8px">&#128179; Card Payment Instructions</p>
     <p style="font-size:13px;color:#444;line-height:1.6">Complete your order form and click "Place Order". You'll be redirected to our secure card payment page &mdash; enter your order total there to complete payment.</p>
   </div>
@@ -678,7 +679,7 @@ if (typeof cart === 'undefined') { var cart = []; }
 
 var CO_MIN  = 150;
 var CO_DISC = 0.05;
-var CO_PAY  = 'crypto';
+var CO_PAY  = 'bachs';
 var CO_WKEY = 'usdt-eth';
 var CO_WA   = '';
 var CO_BACHS_LINK = 'https://checkout.bachs.io/pay/pl_ef4a46d9a381';
@@ -1123,10 +1124,10 @@ document.addEventListener('DOMContentLoaded', function() {
   var _pb = document.getElementById('place-btn');
   if (_pb) { _pb.disabled = false; _pb.style.opacity = '1'; _pb.style.cursor = 'pointer'; }
   renderSummary();
-  /* Select crypto by default */
-  var cryptoBtn = document.querySelector('[data-pay="crypto"]');
-  choosePay('crypto', cryptoBtn);
-  /* Show first wallet */
+  /* Card is the default/main payment method */
+  var bachsBtn = document.querySelector('[data-pay="bachs"]');
+  choosePay('bachs', bachsBtn);
+  /* Show first wallet (in case the user switches to crypto) */
   showCoin('usdt-eth', document.querySelector('.coin-tab'));
   recalc();
 });
