@@ -17,7 +17,7 @@
 <meta property="og:url" content="https://caskworth.com/checkout/">
 <meta property="og:type" content="website">
 <link rel="icon" type="image/x-icon" href="/assets/images/favicon.ico">
-<link rel="stylesheet" href="/assets/css/style.css?v=20260811">
+<link rel="stylesheet" href="/assets/css/style.css?v=20260816">
 <style id="logo-critical">
 .logo{display:flex;align-items:center;gap:10px;text-decoration:none;flex-shrink:0}
 .logo-icon{width:44px;height:44px;background:linear-gradient(150deg,#2a1a06,#0d0a04);border:1.5px solid #c9941a;border-radius:11px;display:flex;align-items:center;justify-content:center;flex-shrink:0;box-shadow:0 0 14px rgba(201,148,26,.3)}
@@ -383,6 +383,11 @@
         <div><div class="pay-name">Chime / Zelle</div><div class="pay-desc">Bank transfer</div></div>
         <div class="pay-radio"></div>
       </div>
+      <div class="pay-opt" onclick="choosePay('bachs',this)" data-pay="bachs">
+        <div class="pay-ico" style="background:#5b21b6;color:#fff;font-size:15px;font-weight:800;border-radius:8px">&#128179;</div>
+        <div><div class="pay-name">Debit / Credit Card</div><div class="pay-desc">Secure card checkout</div></div>
+        <div class="pay-radio"></div>
+      </div>
     </div>
 
     <!-- Crypto Wallet Panel -->
@@ -422,6 +427,10 @@
   <div id="chime-box" style="display:none;background:#f0fff5;border:1px solid #86efac;border-radius:12px;padding:18px">
     <p style="font-size:14px;font-weight:700;margin-bottom:8px">$ Chime / Zelle Instructions</p>
     <p style="font-size:13px;color:#444;line-height:1.6">Complete your order and our team will provide Chime/Zelle payment details via WhatsApp or email. Fast, no fees.</p>
+  </div>
+  <div id="bachs-box" style="display:none;background:#f5f3ff;border:1px solid #ddd6fe;border-radius:12px;padding:18px">
+    <p style="font-size:14px;font-weight:700;margin-bottom:8px">&#128179; Card Payment Instructions</p>
+    <p style="font-size:13px;color:#444;line-height:1.6">Complete your order form and click "Place Order". You'll be redirected to our secure card payment page &mdash; enter your order total there to complete payment.</p>
   </div>
 
 <!-- Confirmations -->
@@ -648,10 +657,10 @@
 
 <!-- QRCode.js loaded AFTER content — never blocks rendering -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js" async></script>
-<script src="/assets/js/app.js?v=20260811" defer></script>
-<script src="/assets/js/new_products.js?v=20260811" defer></script>
-<script src="/assets/js/ultra_products.js?v=20260811" defer></script>
-<script src="/assets/js/more_products.js?v=20260811" defer></script>
+<script src="/assets/js/app.js?v=20260816" defer></script>
+<script src="/assets/js/new_products.js?v=20260816" defer></script>
+<script src="/assets/js/ultra_products.js?v=20260816" defer></script>
+<script src="/assets/js/more_products.js?v=20260816" defer></script>
 <script src="/assets/js/webmcp.js" defer></script>
 
 <script>
@@ -672,6 +681,7 @@ var CO_DISC = 0.05;
 var CO_PAY  = 'crypto';
 var CO_WKEY = 'usdt-eth';
 var CO_WA   = '';
+var CO_BACHS_LINK = 'https://checkout.bachs.io/pay/pl_ef4a46d9a381';
 
 var CO_WALLETS = {
   'usdt-eth': { label:'USDT (ERC-20)', addr:'0x2629c24d3720E5A24adBe7Bde4677334B559C36D', qr:'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJQAAACUCAAAAABQV18IAAABpElEQVR4nO3QMXLEMAxDUd//0ptWg3xQTJUdGGxsSxT45OfzhfX8N4CqqG0Vta2itlXUtoraVlHbKmpbv1DPUNp36z/PbHOLykTp2oRwe3TRKbeofJQbPMGo5y+5Rb0PRUMIMZ0tqig9vFl3VdS7UbR+7hHK9d5yi8pHuZowm+eUW1QuigJ13fXTux1s1ovKQymIgBP27KfBU05RmSgKPtdpqA2Xfeqns0Vloc4AN9wFE5AupVlFZaMIpqHumxDTBel8UXkoCiLghHJDFWdzi4pCucMaQKEK0ZwJWlQuiobdhruLEMbBi8pFuQH0TVjdmzAEKioPdR6i57RGQ92lHKioPJQbsNnf9N+yi8pDYdMRot/nUwdqHoGKyke5oQ5w63cXcD+gqDwUDaaawITaZBSViTrDpiE3iL7fMorKRT2XmnoIQhco6n0oXdNhDqTnde92tqhslB6iJ2Fu+AlT1DtRrvdcmzLou6h3ozREg29DV5ctKhI1rU9Y7aMchRWVj3JFgwhF77fLFZWL+oYqaltFbauobRW1raK2VdS2itrWV6J+ACDVa5padVi5AAAAAElFTkSuQmCC' },
@@ -714,7 +724,7 @@ function choosePay(method, el) {
     if (rr) rr.textContent = String.fromCharCode(10003);
   }
   /* Show/hide payment panels */
-  var panels = ['crypto-box','applepay-box','paypal-box','chime-box'];
+  var panels = ['crypto-box','applepay-box','paypal-box','chime-box','bachs-box'];
   panels.forEach(function(id) {
     var p = document.getElementById(id);
     if (p) p.style.display = 'none';
@@ -962,7 +972,7 @@ function sendOrderEmail(data, callback) {
     'Order_Date':     new Date().toLocaleString('en-US', { dateStyle: 'full', timeStyle: 'short' })
   };
 
-  fetch('https://formsubmit.co/ajax/info@caskworth.com', {
+  fetch('https://formsubmit.co/ajax/' + 'info' + '@' + 'caskworth.com', {
     method: 'POST',
     headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
     body: JSON.stringify(payload)
@@ -1059,6 +1069,9 @@ function placeOrder() {
         '<div><strong>Email:</strong> ' + email + '</div>' +
         '<div><strong>Total:</strong> $' + total.toFixed(2) + ' USD</div>' +
         '<div><strong>Payment:</strong> ' + CO_PAY.toUpperCase() + '</div>' +
+        (CO_PAY === 'bachs'
+          ? '<div style="margin-top:6px;color:#5b21b6;font-weight:700">A secure card payment page is opening in a new tab &mdash; enter $' + total.toFixed(2) + ' to complete your purchase.</div>'
+          : '') +
         '<div style="margin-top:6px;padding-top:6px;border-top:1px solid #e8e0d4">' +
         (sent
           ? 'Confirmation sent to ' + email + ' and info@caskworth.com'
@@ -1068,9 +1081,13 @@ function placeOrder() {
     var overlay = document.getElementById('succ-overlay');
     if (overlay) overlay.classList.add('on');
 
-    /* Auto WhatsApp to store */
+    /* Auto-open payment link (card) or WhatsApp confirmation (all other methods) */
     setTimeout(function() {
-      window.open('https://wa.me/14482348667?text=' + encodeURIComponent(CO_WA), '_blank');
+      if (CO_PAY === 'bachs') {
+        window.open(CO_BACHS_LINK, '_blank');
+      } else {
+        window.open('https://wa.me/14482348667?text=' + encodeURIComponent(CO_WA), '_blank');
+      }
     }, 700);
 
     renderSummary();

@@ -551,6 +551,8 @@ function renderProducts(list,containerId){
     const hasPdp=(typeof CW_VALID_PDP!=='undefined')&&CW_VALID_PDP.has(slug);
     const pdpUrl='/products/'+slug+'.html';
     const priceStr=p.price>=1000?'$'+Math.round(p.price).toLocaleString('en-US'):'$'+Number(p.price).toFixed(2);
+    const cryptoPrice=Math.round(p.price*0.95*100)/100;
+    const cryptoStr=cryptoPrice>=1000?'$'+Math.round(cryptoPrice).toLocaleString('en-US'):'$'+cryptoPrice.toFixed(2);
     const pid=String(p.id);
     return '<div class="pc" data-pid="'+pid+'">'
       +(hasPdp?'<a href="'+pdpUrl+'" class="pc-img-link">':'<div class="pc-img-link" role="button" tabindex="0" style="cursor:pointer" onclick="openQV(\''+pid+'\')">')
@@ -561,6 +563,7 @@ function renderProducts(list,containerId){
         +(hasPdp?'<a href="'+pdpUrl+'" class="pc-name-link"><div class="pc-name">'+p.name+'</div></a>':'<div class="pc-name-link" role="button" tabindex="0" style="cursor:pointer" onclick="openQV(\''+pid+'\')"><div class="pc-name">'+p.name+'</div></div>')
         +'<div class="pc-dist">'+p.dist+'</div>'
         +'<div class="pc-price">'+priceStr+'</div>'
+        +'<div class="pc-crypto">&#127881; '+cryptoStr+' with crypto</div>'
         +'<div class="pc-btns">'
           +'<button class="pc-atc" type="button">Add to Cart</button>'
           +'<a href="'+pdpUrl+'" class="pc-view-btn">Details ↗</a>'
