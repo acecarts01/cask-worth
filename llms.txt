@@ -11,16 +11,17 @@ AI agents running in an agent-enabled browser can use this site's WebMCP tools (
 ## Shop
 
 - [All products](https://caskworth.com/shop/): Full catalogue, browsable by category
-- [Scotch](https://caskworth.com/shop/?cat=scotch): 128 bottles
-- [Bourbon](https://caskworth.com/shop/?cat=bourbon): 60 bottles
-- [Cognac](https://caskworth.com/shop/?cat=cognac): 74 bottles
-- [Brandy](https://caskworth.com/shop/?cat=brandy): 39 bottles
-- [Canadian](https://caskworth.com/shop/?cat=canadian): 32 bottles
-- [Gifts](https://caskworth.com/shop/?cat=gifts): 28 bottles
-- [Japanese](https://caskworth.com/shop/?cat=japanese): 25 bottles
-- [Irish](https://caskworth.com/shop/?cat=irish): 16 bottles
-- [Rye](https://caskworth.com/shop/?cat=rye): 15 bottles
-- [Allocated](https://caskworth.com/shop/?cat=allocated): 8 bottles
+- [Scotch](https://caskworth.com/shop/scotch/): 128 bottles
+- [Bourbon](https://caskworth.com/shop/bourbon/): 60 bottles
+- [Cognac](https://caskworth.com/shop/cognac/): 74 bottles
+- [Brandy & Armagnac](https://caskworth.com/shop/brandy/): 39 bottles
+- [Canadian Whisky](https://caskworth.com/shop/canadian/): 32 bottles
+- [Gift Sets](https://caskworth.com/shop/gifts/): 28 bottles
+- [Japanese Whisky](https://caskworth.com/shop/japanese/): 25 bottles
+- [Irish Whiskey](https://caskworth.com/shop/irish/): 16 bottles
+- [Rye Whiskey](https://caskworth.com/shop/rye/): 15 bottles
+- [Rare & Allocated](https://caskworth.com/shop/allocated/): 8 bottles
+- [American Whiskey](https://caskworth.com/shop/whiskey/): 7 bottles (Jack Daniel's — a curated subset of the Bourbon category)
 
 ## Ordering & policies
 
@@ -111,4 +112,4 @@ This API is **read-only**. There are no ordering, authentication or payment endp
 - [Terms & Conditions](https://caskworth.com/terms-and-conditions/)
 - [Privacy Policy](https://caskworth.com/privacy-policy/)
 - [Customer Reviews](https://caskworth.com/reviews/)
-- [Sitemap](https://caskworth.com/sitemap.xml): 470 indexable URLs
+- [Sitemap](https://caskworth.com/sitemap.xml): 501 indexable URLs

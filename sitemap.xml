@@ -8,13 +8,79 @@
   </url>
   <url>
     <loc>https://caskworth.com/shop/</loc>
-    <lastmod>2026-08-07</lastmod>
+    <lastmod>2026-08-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
+    <loc>https://caskworth.com/shop/bourbon/</loc>
+    <lastmod>2026-08-26</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://caskworth.com/shop/scotch/</loc>
+    <lastmod>2026-08-26</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://caskworth.com/shop/japanese/</loc>
+    <lastmod>2026-08-26</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://caskworth.com/shop/irish/</loc>
+    <lastmod>2026-08-26</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://caskworth.com/shop/rye/</loc>
+    <lastmod>2026-08-26</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://caskworth.com/shop/canadian/</loc>
+    <lastmod>2026-08-26</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://caskworth.com/shop/whiskey/</loc>
+    <lastmod>2026-08-26</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://caskworth.com/shop/allocated/</loc>
+    <lastmod>2026-08-26</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://caskworth.com/shop/cognac/</loc>
+    <lastmod>2026-08-26</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://caskworth.com/shop/brandy/</loc>
+    <lastmod>2026-08-26</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://caskworth.com/shop/gifts/</loc>
+    <lastmod>2026-08-26</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
     <loc>https://caskworth.com/blog/</loc>
-    <lastmod>2026-08-18</lastmod>
+    <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -50,7 +116,7 @@
   </url>
   <url>
     <loc>https://caskworth.com/about/</loc>
-    <lastmod>2026-08-07</lastmod>
+    <lastmod>2026-08-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -62,25 +128,25 @@
   </url>
   <url>
     <loc>https://caskworth.com/faq/</loc>
-    <lastmod>2026-08-07</lastmod>
+    <lastmod>2026-08-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://caskworth.com/wholesale/</loc>
-    <lastmod>2026-08-07</lastmod>
+    <lastmod>2026-08-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://caskworth.com/reviews/</loc>
-    <lastmod>2026-08-07</lastmod>
+    <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://caskworth.com/how-to-order/</loc>
-    <lastmod>2026-08-07</lastmod>
+    <lastmod>2026-08-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>

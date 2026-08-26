@@ -1,0 +1,18 @@
+# Products to Stock — Irish Whiskey
+
+12 candidates, verified absent from Caskworth's 16-item Irish Whiskey catalog. Sourced from Robb Report's "11 Best Irish Whiskey Brands 2026" and InsideHook's "40 Best Irish Whiskeys 2026."
+
+| Product to stock | Why (competitor/market evidence) | Primary | Secondary (5) |
+|---|---|---|---|
+| **Bushmills (Original / Black Bush / 10 Year / 21 Year)** | The world's oldest licensed whiskey distillery and a top global Irish whiskey name by volume — a major, surprising gap in an otherwise deep 16-item Irish category | bushmills irish whiskey | buy bushmills online · bushmills black bush · bushmills 10 year single malt · bushmills 21 year · bushmills whiskey price |
+| **Tullamore D.E.W.** | One of the top 3 best-selling Irish whiskey brands globally, real high-volume search term | tullamore dew irish whiskey | buy tullamore dew online · tullamore dew original · tullamore dew price · blended irish whiskey · irish whiskey brands |
+| **Teeling Whiskey** | Leading modern Dublin distillery, strong 2026 critical acclaim and enthusiast search volume | teeling irish whiskey | buy teeling online · teeling small batch · teeling single grain · teeling whiskey price · dublin irish whiskey |
+| **Writers' Tears** | Well-regarded pot still/blend brand with a distinctive literary-themed search niche | writers tears irish whiskey | buy writers tears online · writers tears copper pot · writers tears price · pot still irish whiskey · irish whiskey brands |
+| **Yellow Spot** | Midleton's premium companion to your carried Green Spot — a natural, high-relevance line extension gap | yellow spot irish whiskey | buy yellow spot online · yellow spot 12 year · single pot still irish whiskey · yellow spot price · midleton spot whiskeys |
+| **Method and Madness** | Midleton's experimental-cask Irish whiskey line, real enthusiast/collector search interest | method and madness irish whiskey | buy method and madness online · method and madness single pot still · method and madness price · midleton irish whiskey · experimental cask irish whiskey |
+| **Slane Irish Whiskey** | Brown-Forman-backed brand with real US marketing push and search volume | slane irish whiskey | buy slane online · slane triple casked · slane whiskey price · irish whiskey brands · blended irish whiskey |
+| **Connemara** | The best-known peated Irish whiskey — a genuine category-first gap (no peated Irish whiskey currently carried) | connemara peated irish whiskey | buy connemara online · connemara peated single malt · connemara whiskey price · peated irish whiskey · irish whiskey brands |
+| **Kilbeggan** | Historic, accessible Irish whiskey brand with real value-search volume | kilbeggan irish whiskey | buy kilbeggan online · kilbeggan traditional · kilbeggan whiskey price · affordable irish whiskey · irish whiskey brands |
+| **The Sexton** | Proximo-owned single malt Irish whiskey with strong modern branding and real search growth | the sexton irish whiskey | buy the sexton online · the sexton single malt · the sexton whiskey price · irish single malt whiskey · irish whiskey brands |
+| **Roe & Co** | Diageo's modern Dublin Irish whiskey brand, notable given your deep Diageo scotch presence | roe and co irish whiskey | buy roe and co online · roe and co blended whiskey · roe and co price · dublin irish whiskey · irish whiskey brands |
+| **Waterford Whisky** | Terroir-focused single malt Irish whiskey with strong critical/collector search interest | waterford irish whisky | buy waterford online · waterford single malt whisky · waterford whisky price · terroir irish whiskey · irish single malt whiskey |

@@ -1,0 +1,101 @@
+Keyword,Intent,Volume,Trend,Keyword Difficulty,CPC (USD),Competitive Density,SERP Features,Number of Results
+glendronach,Navigational,2400,"0.67,0.53,0.67,0.53,0.80,0.67,1.00,0.67,0.53,0.53,0.53,0.67",43,0.43,1.00,"Sitelinks, AI Overview, Image, Video, Short videos, People also ask, Knowledge panel, Related searches",194
+glendronach 12,Commercial,2400,"0.43,0.36,0.43,0.43,0.65,0.65,1.00,0.54,0.54,0.43,0.30,0.36",12,0.46,1.00,"Sitelinks, AI Overview, Reviews, Image, Video, People also ask, Discussions and forums, Related searches, Popular products",197
+glendronach 15,Commercial,1600,"0.29,0.29,0.29,0.22,0.29,0.65,1.00,0.43,0.36,0.36,0.29,0.36",14,0.51,1.00,"Sitelinks, AI Overview, Image, Video, Video carousel, Short videos, People also ask, Related searches, Popular products",189
+glendronach 18,"Informational, Commercial",1600,"0.55,0.55,0.55,0.55,1.00,1.00,0.79,0.55,0.41,0.55,0.36,0.55",14,0.76,1.00,"Sitelinks, AI Overview, Image, Video, People also ask, Related searches, Popular products",198
+glendronach distillery,Navigational,1000,"0.41,0.54,0.20,0.41,0.24,0.54,1.00,0.66,0.41,0.66,0.20,0.36",36,0.43,1.00,"Sitelinks, Image, Video, People also ask, Knowledge panel, Related searches",68
+glendronach 21,Commercial,720,"0.82,0.82,0.65,0.65,0.65,0.82,1.00,1.00,0.55,0.65,0.55,0.65",14,0.88,1.00,"Sitelinks, AI Overview, Reviews, Image, Video, People also ask, Related searches, Popular products",189
+glendronach 15 revival,"Informational, Commercial",320,"0.29,0.29,0.19,0.29,0.54,0.66,1.00,0.44,0.36,0.29,0.23,0.29",1,0.56,1.00,"Sitelinks, AI Overview, Reviews, Image, Video, Video carousel, People also ask, Discussions and forums, Related searches, Popular products",191
+glendronach ode to the dark,Commercial,320,"0.18,0.35,0.66,0.44,0.66,0.54,1.00,0.81,0.54,0.54,0.54,0.66",8,0.80,1.00,"Sitelinks, AI Overview, Reviews, Video, Related searches, Popular products",181
+scotch whisky distillery,Informational,320,"0.44,1.00,0.54,0.54,0.15,0.15,0.15,0.54,0.36,0.44,0.23,0.29",41,1.36,0.08,"Sitelinks, Image, Image pack, Video, People also ask, Local pack, Related searches",197
+21 year old scotch,Commercial,260,"0.53,0.81,0.67,0.53,0.67,1.00,0.81,0.43,0.36,0.53,0.53,0.53",6,0.76,1.00,"Sitelinks, Reviews, Image, Video, Video carousel, People also ask, Discussions and forums, Related searches, Popular products",185
+glendronach port wood,"Informational, Commercial",260,"0.23,0.19,0.36,0.19,0.36,0.54,1.00,0.44,0.29,0.29,0.23,0.23",5,0.85,0.99,"Sitelinks, AI Overview, Reviews, Video, People also ask, Related searches, Popular products",186
+glendronach scotch,"Navigational, Commercial",260,"0.29,0.43,0.43,0.35,0.54,0.66,1.00,0.43,0.43,0.43,0.43,0.54",22,0.41,1.00,"Sitelinks, Video, People also ask, Knowledge panel, Related searches, Popular products",197
+oldest scotch distillery,Informational,210,"0.80,1.00,0.80,0.80,1.00,0.80,0.80,1.00,0.65,0.80,0.80,1.00",25,1.25,0.01,"Sitelinks, AI Overview, Reviews, Video, People also ask, Related searches",191
+glen dronach,"Navigational, Commercial",170,"0.42,0.42,0.17,0.67,0.42,0.54,1.00,0.17,0.54,0.54,0.33,0.54",36,0.32,1.00,"Sitelinks, AI Overview, Image, Video, People also ask, Knowledge panel, Related searches, Popular products",193
+glendronach 15 revival single malt whisky,"Informational, Commercial",170,"0.07,0.23,0.23,0.16,1.00,0.66,0.09,0.05,0.16,0.05,0.05,0.05",8,0.00,0.60,"Sitelinks, AI Overview, Reviews, Video, Video carousel, People also ask, Discussions and forums, Related searches, Popular products",203
+glendronach 18 allardice,Commercial,170,"0.22,0.22,0.22,0.18,0.81,1.00,0.54,0.29,0.22,0.29,0.22,0.29",1,0.92,1.00,"Sitelinks, Image, Video, Video carousel, Related searches, Popular products",187
+the glendronach,Navigational,170,"0.34,0.43,0.28,0.34,0.53,0.53,1.00,1.00,0.53,0.43,0.43,0.43",38,0.41,1.00,"Sitelinks, AI Overview, Video, People also ask, Related searches, Popular products",195
+glendronach revival 15,Commercial,140,"0.17,0.17,0.17,0.17,0.35,0.43,1.00,0.53,0.66,0.23,0.17,0.53",0,0.93,1.00,"Sitelinks, Reviews, Video, Video carousel, People also ask, Discussions and forums, Related searches, Popular products",184
+glendronach whiskey,"Navigational, Commercial",140,"0.42,0.65,0.42,0.34,0.53,1.00,0.80,0.42,0.26,0.26,0.34,0.42",33,0.48,1.00,"Sitelinks, Image, Video, Video carousel, People also ask, Related searches, Popular products",197
+glendronach 12 price,Transactional,110,"0.21,0.15,0.21,0.21,0.34,0.43,1.00,0.28,0.28,0.28,0.34,0.28",8,0.00,0.56,"Sitelinks, Reviews, Image, Video, People also ask, Related searches, Popular products",198
+glendronach 12 review,"Informational, Commercial",110,"0.51,0.42,0.33,0.42,0.67,0.67,1.00,0.33,0.67,0.33,0.33,0.42",9,0.00,0.16,"Sitelinks, AI Overview, Reviews, Video, People also ask, Related searches",180
+glendronach 12 year scotch,"Informational, Commercial",110,"0.02,0.02,1.00,0.02,0.02,0.02,0.02,0.02,0.02,0.02,0.02,0.02",10,0.00,0.23,"Sitelinks, AI Overview, Reviews, Video, Video carousel, People also ask, Related searches, Popular products",189
+glendronach cask strength,Commercial,110,"0.80,0.80,0.66,0.66,0.66,0.80,1.00,0.80,0.49,0.49,0.66,0.66",2,1.03,1.00,"Sitelinks, AI Overview, Reviews, Image, Video, Video carousel, Related searches, Popular products",193
+the glendronach distillery,Navigational,110,"0.50,0.79,1.00,0.79,0.79,0.79,0.79,1.00,0.79,1.00,0.79,1.00",40,0.00,0.07,"Sitelinks, Image, Video, People also ask, Knowledge panel, Related searches",196
+21 year scotch,Commercial,90,"0.65,0.41,0.29,1.00,0.53,0.65,0.65,0.53,0.29,0.29,0.53,0.65",6,0.59,1.00,"Sitelinks, AI Overview, Image pack, Video, Video carousel, People also ask, Related searches, Popular products",192
+glendorach,Informational,90,"0.02,1.00,0.04,0.05,0.04,0.05,0.06,0.02,0.02,0.04,0.04,0.04",28,0.32,1.00,"Sitelinks, AI Overview, Image, Video, People also ask, Knowledge panel, Related searches, Popular products",192
+glendronach 12 year,"Informational, Commercial",90,"0.40,0.40,0.52,0.52,1.00,0.65,1.00,0.65,0.52,0.40,0.52,0.40",10,0.83,0.99,"Sitelinks, AI Overview, Reviews, Image, Video, Video carousel, People also ask, Related searches, Popular products",191
+glendronach 15 review,Commercial,90,"0.07,0.19,0.07,0.11,0.07,0.65,1.00,0.34,0.34,0.34,0.34,0.26",2,0.00,0.23,"Sitelinks, AI Overview, Reviews, Video, Video carousel, People also ask, Discussions and forums, Related searches",186
+glendronach 21 parliament,Commercial,90,"0.40,0.53,0.40,0.23,0.40,0.53,1.00,0.81,0.40,0.53,0.40,0.81",2,0.97,1.00,"Sitelinks, AI Overview, Reviews, Image, Video, Video carousel, Related searches, Popular products",194
+glendronach ode to the embers,Informational,90,"0.11,0.11,0.64,0.23,0.64,1.00,1.00,0.64,0.41,0.52,0.41,0.41",2,0.75,1.00,"Sitelinks, Video, Video carousel, Related searches",182
+glendronach ode to the valley,"Informational, Commercial",90,"0.11,0.11,0.64,0.23,1.00,0.64,0.82,0.64,0.41,0.64,0.64,0.52",5,0.93,1.00,"Sitelinks, AI Overview, Reviews, Video, Related searches, Popular products",184
+glendronach parliament 21,Commercial,90,"0.49,0.64,0.49,0.49,0.36,0.79,0.64,0.79,0.49,0.64,0.79,1.00",0,0.97,1.00,"Sitelinks, AI Overview, Reviews, Image, Video, Video carousel, Related searches, Popular products",189
+glendronach scotch whiskey,"Informational, Commercial",90,"0.41,0.41,0.64,0.82,0.82,0.41,1.00,0.52,0.52,0.52,0.52,0.64",26,0.41,1.00,"Sitelinks, Video, Video carousel, People also ask, Discussions and forums, Related searches, Popular products",200
+glenno,Informational,90,"1.00,0.81,0.64,0.81,0.81,0.64,0.64,0.64,0.64,0.64,0.45,0.45",9,0.00,0.33,"AI Overview, Reviews, Image, Video",108
+glendronach 12 sherry cask,Commercial,70,"0.11,0.11,0.17,0.11,0.41,0.64,1.00,0.64,0.64,0.29,0.17,0.29",3,0.22,0.95,"Sitelinks, AI Overview, Reviews, Image, Video, Video carousel, People also ask, Related searches, Popular products",190
+glendronach 15 sherry cask,Commercial,70,"0.11,0.11,0.11,0.11,0.15,0.42,1.00,0.26,0.26,0.19,0.26,0.26",0,0.44,1.00,"Sitelinks, Reviews, Image, Video, Video carousel, Discussions and forums, Related searches, Popular products",182
+glendronach 15 year,Commercial,70,"0.21,0.21,0.28,0.21,0.50,0.78,1.00,0.50,0.35,0.35,0.35,0.50",4,0.75,1.00,"Sitelinks, AI Overview, Reviews, Video, Video carousel, People also ask, Related searches, Popular products",192
+glendronach 30,Commercial,70,"0.14,0.14,0.14,0.78,0.78,1.00,1.00,0.78,0.28,0.50,0.78,0.50",3,1.46,1.00,"Sitelinks, AI Overview, Image, Video, Video carousel, Related searches, Popular products",178
+glendronach allardice 18,Commercial,70,"0.17,0.17,0.29,0.17,0.82,1.00,0.52,0.29,0.64,0.29,0.29,0.29",6,0.92,0.99,"Sitelinks, Reviews, Video, Video carousel, People also ask, Related searches, Popular products",190
+glendronach scotch whisky,"Navigational, Commercial",70,"0.81,0.40,0.23,0.00,0.40,0.64,1.00,0.17,0.11,0.06,0.06,0.11",24,0.41,1.00,"Sitelinks, Image, Video, People also ask, Related searches, Popular products",191
+glendronach whisky,"Navigational, Commercial",70,"0.79,0.35,0.35,0.35,0.50,0.50,1.00,0.50,0.21,0.35,0.21,0.35",35,0.54,1.00,"Sitelinks, AI Overview, Video, Video carousel, People also ask, Knowledge panel, Related searches, Popular products",194
+glendronach.,Navigational,70,"0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,1.00,0.00,0.00,0.00",37,0.43,1.00,"Sitelinks, Video, Short videos, People also ask, Knowledge panel, Related searches",197
+glendronarch,"Navigational, Commercial",70,"0.00,0.00,0.01,0.01,0.01,0.01,0.01,0.00,1.00,0.01,0.00,0.01",36,0.43,1.00,"Sitelinks, Video, Video carousel, People also ask, Knowledge panel, Related searches, Popular products",196
+scotch glendronach,"Navigational, Commercial",70,"0.29,0.51,0.23,0.40,0.63,0.40,0.63,0.17,0.06,0.51,0.11,1.00",26,0.41,1.00,"Sitelinks, AI Overview, Video, People also ask, Related searches, Popular products",193
+glendronach 12 year old,Commercial,50,"0.78,0.56,0.44,0.44,0.56,0.44,1.00,1.00,0.56,1.00,0.56,0.56",9,0.00,0.00,"Sitelinks, Reviews, Image, Video, Video carousel, People also ask, Related searches, Popular products",189
+glendronach 12 years,Commercial,50,"0.57,1.00,0.71,0.71,1.00,0.71,1.00,1.00,0.29,0.29,0.29,1.00",9,0.83,0.99,"Sitelinks, AI Overview, Reviews, Image, Video, Video carousel, People also ask, Related searches, Popular products",199
+glendronach 1993,Commercial,50,"1.00,0.71,1.00,0.56,1.00,0.71,1.00,0.71,0.56,0.56,0.56,0.56",3,0.00,1.00,"Sitelinks, Reviews, Image, Image pack, Video, Related searches, Popular products",204
+glendronach ode to dark,Commercial,50,"0.18,0.18,1.00,0.36,0.45,0.45,0.63,0.45,0.36,0.36,0.18,0.27",5,0.81,1.00,"Sitelinks, AI Overview, Reviews, Video, Video carousel, Related searches",182
+glendronach port wood review,Commercial,50,"0.13,0.13,0.49,0.21,0.79,0.28,1.00,0.49,0.13,0.21,0.13,0.13",2,0.00,0.64,"Sitelinks, AI Overview, Reviews, Video, Video carousel, People also ask, Related searches",191
+glendronach revival,Commercial,50,"0.18,0.11,0.21,0.11,0.29,0.21,1.00,0.64,0.11,0.11,0.11,0.11",1,0.00,1.00,"Sitelinks, AI Overview, Reviews, Video, Video carousel, People also ask, Related searches, Popular products",188
+glendronich,"Navigational, Commercial",50,"0.02,0.05,0.08,0.09,0.02,1.00,0.05,0.02,0.02,0.05,0.02,0.02",29,0.32,1.00,"Sitelinks, AI Overview, Image, Video, People also ask, Knowledge panel, Related searches, Popular products",199
+glenn whiskey,Informational,50,"0.63,0.81,0.44,0.44,1.00,0.81,1.00,0.27,0.08,0.08,0.17,0.44",25,0.00,0.96,"Sitelinks, Image pack, Video, Video carousel, People also ask, Related searches, Popular products",184
+the glendronach 12,Commercial,50,"0.11,0.17,0.29,0.23,0.29,0.52,1.00,0.41,0.29,0.23,0.29,0.17",5,0.00,0.97,"Sitelinks, AI Overview, Reviews, Image, Video, People also ask, Related searches, Popular products",130
+glendro,Informational,40,"0.00,0.00,0.00,1.00,0.02,0.00,0.02,0.02,0.00,0.05,0.00,0.02",40,0.00,0.03,"Sitelinks, Reviews, Video, People also ask, Knowledge panel, Related searches, Popular products",194
+glendronac,"Navigational, Commercial",40,"0.00,0.50,0.50,0.50,0.50,0.50,0.50,0.50,0.50,0.50,1.00,0.00",24,0.32,1.00,"Sitelinks, AI Overview, Image, Video, Video carousel, People also ask, Knowledge panel, Related searches, Popular products",194
+glendronach 12 tasting notes,Informational,40,"0.33,0.22,0.33,0.77,1.00,0.33,0.22,0.22,0.22,0.44,0.22,0.44",10,0.00,0.33,"Sitelinks, AI Overview, Reviews, Image, Video, People also ask, Related searches",186
+glendronach 12 vs glenfiddich 12,"Informational, Commercial",40,"0.23,0.11,0.11,0.11,1.00,0.11,0.11,0.11,0.11,0.11,0.11,0.11",4,0.00,0.09,"Sitelinks, AI Overview, Reviews, Video, Video carousel, People also ask, Related searches",180
+glendronach 18 year,Commercial,40,"0.14,0.21,0.28,0.14,0.35,0.28,1.00,0.21,0.14,0.21,0.28,0.21",6,1.12,0.98,"Sitelinks, Reviews, Image, Video, Video carousel, People also ask, Related searches, Popular products",197
+glendronach 30 year old,,40,"0.00,0.00,0.00,0.45,1.00,0.81,0.63,0.27,0.27,0.18,0.18,0.09",,0.00,0.00,,
+glendronach golf course,,40,"0.50,0.14,0.14,0.28,0.14,0.14,1.00,0.50,0.14,0.14,0.14,0.14",,0.00,0.09,,
+glendronach portwood,,40,"0.61,0.39,0.83,0.61,1.00,1.00,1.00,0.61,0.61,0.61,0.39,0.39",,0.00,0.99,,
+格 蘭 多 納 威士忌,Informational,40,"0.23,0.41,0.11,0.41,0.41,1.00,0.11,0.11,0.00,0.00,0.00,0.00",4,0.00,0.00,"Sitelinks, AI Overview, Image pack, Video, Related searches",135
+glendronach 10,,30,"0.80,0.60,1.00,0.40,0.60,0.60,0.60,0.40,0.40,0.40,0.40,0.40",,0.00,1.00,,
+glendronach 15 price,,30,"0.14,0.14,0.14,0.14,0.14,0.14,1.00,0.14,0.14,0.14,0.14,0.14",,0.00,0.86,,
+glendronach 15 sherry cask review,,30,"0.00,1.00,0.18,1.00,0.18,0.18,0.45,0.18,0.18,0.18,0.18,0.18",,0.00,0.66,,
+glendronach 15 year old revival,,30,"0.59,0.39,0.39,0.20,0.20,0.39,1.00,0.39,0.39,0.59,0.00,1.00",,0.00,0.00,,
+glendronach 15 year revival,"Informational, Commercial",30,"0.74,0.74,0.48,0.74,0.48,0.74,1.00,1.00,0.48,0.48,0.48,0.48",3,1.44,0.96,"Sitelinks, AI Overview, Reviews, Video, Video carousel, Discussions and forums, Related searches, Popular products",194
+glendronach 16,,30,"0.58,0.42,0.58,0.42,0.58,1.00,1.00,0.58,0.42,0.42,0.42,0.58",,0.00,0.99,,
+glendronach 18 price,,30,"0.40,0.60,1.00,0.40,1.00,0.60,0.40,0.40,0.40,0.40,0.40,0.40",,0.85,0.72,,
+glendronach 18 year old,,30,"0.21,0.47,0.21,0.47,0.47,0.74,1.00,0.74,0.47,1.00,0.74,0.47",,0.00,0.00,,
+glendronach 18 year old allardice,,30,"1.00,1.00,0.75,0.50,0.75,0.75,0.50,0.50,0.50,0.50,0.75,0.25",,0.00,0.00,,
+glendronach 40,,30,"0.40,0.40,0.40,0.80,0.80,0.80,0.60,1.00,0.60,0.60,0.60,0.40",,0.00,1.00,,
+glendronach age chart,,30,"0.61,0.61,0.83,0.39,0.61,1.00,0.83,0.83,0.39,0.39,0.39,0.39",,0.00,0.04,,
+glendronach distillery location,,30,"0.65,0.65,1.00,1.00,1.00,1.00,1.00,1.00,1.00,0.65,0.65,0.65",,0.00,0.33,,
+glendronach grandeur,"Informational, Commercial",30,"0.61,0.61,0.61,0.39,0.61,0.83,0.61,1.00,0.61,0.83,1.00,0.83",8,1.55,1.00,"Sitelinks, AI Overview, Reviews, Image, Image pack, Video, Related searches, Popular products",184
+glendronach grandeur batch 12,,30,"0.75,0.50,0.50,0.75,0.75,0.50,1.00,1.00,0.75,1.00,0.75,0.50",,0.00,0.99,,
+glendronach ode,,30,"0.28,0.28,0.71,0.57,1.00,0.42,0.42,0.42,0.42,0.28,0.42,0.28",,0.00,1.00,,
+glendronach ode series,,30,"0.29,0.29,0.57,0.71,1.00,0.29,0.57,0.29,0.43,0.29,0.29,0.29",,0.00,0.99,,
+glendronach ode to the dark review,,30,"0.18,0.18,1.00,0.18,0.18,0.18,0.18,0.18,0.18,0.18,0.18,0.18",,0.00,0.44,,
+glendronach peated,,30,"0.75,0.75,1.00,0.50,0.75,0.50,0.75,0.75,0.50,0.50,0.50,0.50",,0.00,0.90,,
+glendronach port wood single malt,,30,"0.14,1.00,0.42,0.28,0.28,0.28,0.28",,0.00,0.99,,
+glendronach scotch 12 year,,30,"0.00,0.00,0.00,1.00,0.50,0.14,0.14,0.14,0.28,0.14,0.14,0.14",,0.00,0.99,,
+glendronach scotch 12 year 700ml,,30,"0.00,0.00,0.00,0.17,1.00,0.11,0.11,0.11,0.29,0.11,0.11,0.11",,0.00,0.99,,
+glendronach sherry cask,,30,"0.75,0.50,0.50,0.50,0.50,0.75,1.00,0.75,0.75,0.50,0.50,0.75",,0.00,1.00,,
+glendronach single cask,Commercial,30,"0.59,0.38,0.38,0.38,0.38,0.79,1.00,0.59,0.79,0.79,0.79,0.38",0,1.20,1.00,"Sitelinks, Reviews, Image, Image pack, Video, Related searches, Popular products",200
+ode to the dark glendronach,,30,"0.50,0.50,0.50,0.75,1.00,0.50,0.75,1.00,0.50,0.75,0.50,0.75",,0.00,0.99,,
+the glendronach 15,,30,"0.29,0.29,0.29,0.29,0.43,0.57,1.00,0.43,0.29,0.29,0.43,0.29",,0.00,0.91,,
+whiskey glendronach,,30,"0.39,0.39,0.39,0.39,0.39,1.00,0.61,1.00,0.39,0.39,0.39,0.39",,0.51,1.00,,
+15 year glendronach,,20,"0.50,1.00,1.00,1.00,1.00,1.00",,0.00,0.75,,
+1993 glendronach,,20,"1.00,0.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00",,0.00,0.91,,
+2019 glendronach 18,,20,"1.00,1.00,1.00,1.00,1.00,1.00,0.00,1.00,1.00,1.00,1.00,1.00",,0.00,0.00,,
+21 glendronach,,20,"1.00,1.00,0.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00",,0.00,1.00,,
+aberlour 12 vs glendronach 12,,20,"1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00",,0.00,0.33,,
+best glendronach,,20,"1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00",,0.00,0.99,,
+best glendronach whisky,,20,"1.00,0.00,1.00,0.00,1.00,1.00,1.00,1.00,1.00,1.00,0.00,1.00",,0.00,1.00,,
+billy walker glendronach,,20,"1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00",,0.00,0.57,,
+brown forman glendronach,,20,"1.00,0.00,1.00,1.00,1.00,1.00,1.00,1.00,0.00,1.00,1.00,1.00",,0.00,0.36,,
+bunnahabhain 12 vs glendronach 12,,20,"1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00",,0.00,0.29,,
+buy glendronach,,20,"1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00",,0.00,1.00,,
+buy glendronach 12,,20,"0.00,1.00,0.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00",,0.00,1.00,,
