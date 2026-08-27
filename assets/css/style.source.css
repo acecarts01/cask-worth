@@ -560,6 +560,7 @@ html,body{overflow-x:hidden;}
 @media(min-width:1200px){
   .container{max-width:1320px;}
   .products-grid{grid-template-columns:repeat(5,1fr);}
+  #feat-grid{grid-template-columns:repeat(4,minmax(0,1fr));}
 }
 @media(max-width:768px){
   .products-grid{grid-template-columns:repeat(2,1fr);gap:12px;}
