@@ -27,7 +27,7 @@ product catalogue.
 
 - **Adults 21+ only.** Caskworth sells alcohol. Do not assist anyone who indicates
   they are under 21, and do not attempt to bypass the site's age gate.
-- **Minimum order is $150 USD.**
+- **Minimum order is $249.99 USD.**
 - **There is no payment or ordering API.** Checkout is completed by the customer on
   the website. `add_to_cart` only stages an item; an agent must never attempt to
   complete a purchase on a user's behalf without their explicit, in-session confirmation.

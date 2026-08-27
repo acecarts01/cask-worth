@@ -4,7 +4,7 @@
   "title": "Caskworth Catalogue API",
   "version": "1.0.0",
   "summary": "Read-only catalogue of premium whisky and spirits sold by Caskworth.",
-  "description": "A public, read-only JSON API exposing the Caskworth product catalogue.\n\n**There are no write, ordering, authentication or payment endpoints.** Checkout is completed by the customer on the website. Agents may read this catalogue but must not attempt to transact programmatically.\n\nCaskworth sells alcohol to adults 21 and over only. Minimum order is $150 USD.",
+  "description": "A public, read-only JSON API exposing the Caskworth product catalogue.\n\n**There are no write, ordering, authentication or payment endpoints.** Checkout is completed by the customer on the website. Agents may read this catalogue but must not attempt to transact programmatically.\n\nCaskworth sells alcohol to adults 21 and over only. Minimum order is $249.99 USD.",
   "contact": {
    "name": "Caskworth",
    "email": "info@caskworth.com",

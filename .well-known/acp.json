@@ -13,7 +13,7 @@
     "ordering": "human-assisted-website-checkout",
     "payment_methods": ["cryptocurrency", "PayPal", "Apple Pay"],
     "currency": "USD",
-    "minimum_order_usd": "150.00",
+    "minimum_order_usd": "249.99",
     "free_shipping_threshold_usd": null
   },
   "contact": {

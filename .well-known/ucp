@@ -37,7 +37,7 @@
     "llms_txt": "https://caskworth.com/llms.txt"
   },
   "currency": "USD",
-  "minimum_order_usd": "150.00",
+  "minimum_order_usd": "249.99",
   "payment_methods": ["cryptocurrency", "PayPal", "Apple Pay"],
   "legal": {
     "age_restriction": "21+",

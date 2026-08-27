@@ -111,7 +111,7 @@
         return ok({
           total_matches: items.length,
           returned: results.length,
-          minimum_order_usd: 150,
+          minimum_order_usd: 249.99,
           results: results
         });
       }
@@ -188,7 +188,7 @@
           quantity: qty,
           unit_price_usd: hit.price,
           line_total_usd: +(hit.price * qty).toFixed(2),
-          minimum_order_usd: 150,
+          minimum_order_usd: 249.99,
           note: 'Item staged in the cart. The customer must review and complete checkout themselves.'
         });
       }
@@ -203,7 +203,7 @@
         try { raw = JSON.parse(localStorage.getItem('cw_cart') || '[]'); }
         catch (e) { raw = []; }
         if (!Array.isArray(raw) || !raw.length) {
-          return ok({ items: [], subtotal_usd: 0, minimum_order_usd: 150, note: 'The cart is empty.' });
+          return ok({ items: [], subtotal_usd: 0, minimum_order_usd: 249.99, note: 'The cart is empty.' });
         }
         var items = allProducts();
         var lines = raw.map(function (c) {
@@ -219,8 +219,8 @@
         return ok({
           items: lines,
           subtotal_usd: +subtotal.toFixed(2),
-          minimum_order_usd: 150,
-          meets_minimum: subtotal >= 150
+          minimum_order_usd: 249.99,
+          meets_minimum: subtotal >= 249.99
         });
       }
     },
@@ -237,7 +237,7 @@
             united_states: '33 states',
             canada: '7 provinces'
           },
-          minimum_order_usd: 150,
+          minimum_order_usd: 249.99,
           currency: 'USD',
           payment_methods: ['Cryptocurrency', 'PayPal', 'Apple Pay'],
           age_restriction: 'Adults 21+ only. An age gate must be accepted before browsing.',
