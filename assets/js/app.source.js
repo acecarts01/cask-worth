@@ -436,7 +436,7 @@ const PRODUCTS = [
 ];
 
 const FEATURED_IDS = ['p901','p906','p912','p1001','p924','p1019','p1028','p1029'];
-const MIN_ORDER = 150;
+const MIN_ORDER = 249.99;
 
 const CRYPTO_DISCOUNT = 0.05;  // 5% off all crypto payments
 
