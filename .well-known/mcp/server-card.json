@@ -3,7 +3,7 @@
   "serverInfo": {
     "name": "Caskworth Premium Whisky",
     "version": "1.0.0",
-    "description": "Premium whisky and spirits retailer based in Los Angeles, California, offering same-day delivery to 33 U.S. states and 7 Canadian provinces. 425 bottles across bourbon, Scotch, Japanese, Irish, rye and Canadian whisky, plus cognac, Armagnac and gift sets.",
+    "description": "Premium whisky and spirits retailer based in Los Angeles, California, offering same-day delivery to 33 U.S. states and 7 Canadian provinces. 682 bottles across bourbon, Scotch, Japanese, Irish, rye and Canadian whisky, plus cognac, Armagnac and gift sets.",
     "homepage": "https://caskworth.com",
     "contact": {
       "email": "info@caskworth.com",
@@ -18,7 +18,7 @@
     "resources": [
       {
         "name": "product-catalog",
-        "description": "Full product catalogue — 425 bottles with price, ABV, region and tasting notes",
+        "description": "Full product catalogue — 682 bottles with price, ABV, region and tasting notes",
         "uri": "https://caskworth.com/api/products.json"
       },
       {

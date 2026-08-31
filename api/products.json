@@ -1,6 +1,6 @@
 {
- "generated": "2026-08-27",
- "count": 425,
+ "generated": "2026-08-31",
+ "count": 682,
  "currency": "USD",
  "minimum_order_usd": 249.99,
  "age_restriction": "21+",
@@ -8504,6 +8504,5146 @@
    "description": "Canada's westernmost craft distillery produces a single malt in the Scottish tradition. Cask strength after 10 years of BC maturation.",
    "url": "https://caskworth.com/products/shelter-point-single-malt-10-year-cask-strength",
    "image": "https://caskworth.com/assets/images/products/shelter-point-single-malt-10-year-cask-strength.webp"
+  },
+  {
+   "slug": "ballantines-scotch-whisky",
+   "name": "Ballantine's Finest",
+   "category": "Scotch",
+   "subcategory": "Blended Scotch",
+   "distillery": "Ballantine's Distillery",
+   "region": "Scotland",
+   "age": "NAS",
+   "abv_percent": 40,
+   "price_usd": 17.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Honey",
+    "Malt",
+    "Soft Smoke"
+   ],
+   "description": "Top-5 global scotch blend by volume; carried by every major competitor; zero Ballantine's SKUs in your 128-item Scotch category.",
+   "url": "https://caskworth.com/products/ballantines-scotch-whisky",
+   "image": "https://caskworth.com/assets/images/products/ballantines-scotch-whisky.webp"
+  },
+  {
+   "slug": "cutty-sark-scotch-whisky",
+   "name": "Cutty Sark",
+   "category": "Scotch",
+   "subcategory": "Blended Scotch",
+   "distillery": "Cutty Sark Distillery",
+   "region": "Scotland",
+   "age": "NAS",
+   "abv_percent": 40,
+   "price_usd": 15.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Honey",
+    "Malt",
+    "Soft Smoke"
+   ],
+   "description": "Iconic blended scotch, consistently top-10 global by volume, carried at Total Wine/Caskers.",
+   "url": "https://caskworth.com/products/cutty-sark-scotch-whisky",
+   "image": "https://caskworth.com/assets/images/products/cutty-sark-scotch-whisky.webp"
+  },
+  {
+   "slug": "jb-rare-scotch-whisky",
+   "name": "J&B Rare",
+   "category": "Scotch",
+   "subcategory": "Blended Scotch",
+   "distillery": "J&B Rare Distillery",
+   "region": "Scotland",
+   "age": "NAS",
+   "abv_percent": 40,
+   "price_usd": 25.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Honey",
+    "Malt",
+    "Soft Smoke"
+   ],
+   "description": "Major global blend (Diageo), especially strong in European/duty-free search volume.",
+   "url": "https://caskworth.com/products/jb-rare-scotch-whisky",
+   "image": "https://caskworth.com/assets/images/products/jb-rare-scotch-whisky.webp"
+  },
+  {
+   "slug": "black-and-white-scotch-whisky",
+   "name": "Black & White",
+   "category": "Scotch",
+   "subcategory": "Blended Scotch",
+   "distillery": "Black & White Distillery",
+   "region": "Scotland",
+   "age": "NAS",
+   "abv_percent": 40,
+   "price_usd": 29.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Honey",
+    "Malt",
+    "Soft Smoke"
+   ],
+   "description": "Confirmed top-4 global blended scotch by recent volume growth (Bacardi).",
+   "url": "https://caskworth.com/products/black-and-white-scotch-whisky",
+   "image": "https://caskworth.com/assets/images/products/black-and-white-scotch-whisky.webp"
+  },
+  {
+   "slug": "white-horse-scotch-whisky",
+   "name": "White Horse",
+   "category": "Scotch",
+   "subcategory": "Blended Scotch",
+   "distillery": "White Horse Distillery",
+   "region": "Scotland",
+   "age": "NAS",
+   "abv_percent": 40,
+   "price_usd": 33.49,
+   "currency": "USD",
+   "tasting_notes": [
+    "Honey",
+    "Malt",
+    "Soft Smoke"
+   ],
+   "description": "Historic Diageo blend, strong Asian/US search volume, no SKU carried.",
+   "url": "https://caskworth.com/products/white-horse-scotch-whisky",
+   "image": "https://caskworth.com/assets/images/products/white-horse-scotch-whisky.webp"
+  },
+  {
+   "slug": "teachers-highland-cream-scotch",
+   "name": "Teacher's Highland Cream",
+   "category": "Scotch",
+   "subcategory": "Blended Scotch",
+   "distillery": "Teacher's Highland Cream Distillery",
+   "region": "Scotland",
+   "age": "NAS",
+   "abv_percent": 40,
+   "price_usd": 23.96,
+   "currency": "USD",
+   "tasting_notes": [
+    "Honey",
+    "Malt",
+    "Soft Smoke"
+   ],
+   "description": "Long-standing blended scotch staple at every major US retailer.",
+   "url": "https://caskworth.com/products/teachers-highland-cream-scotch",
+   "image": "https://caskworth.com/assets/images/products/teachers-highland-cream-scotch.webp"
+  },
+  {
+   "slug": "whyte-and-mackay-scotch-whisky",
+   "name": "Whyte & Mackay",
+   "category": "Scotch",
+   "subcategory": "Blended Scotch",
+   "distillery": "Whyte & Mackay Distillery",
+   "region": "Scotland",
+   "age": "NAS",
+   "abv_percent": 40,
+   "price_usd": 89.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Honey",
+    "Malt",
+    "Soft Smoke"
+   ],
+   "description": "Well-known blend, notable for its Dalmore-family connection (you carry Dalmore's sibling malts but not this blend).",
+   "url": "https://caskworth.com/products/whyte-and-mackay-scotch-whisky",
+   "image": "https://caskworth.com/assets/images/products/whyte-and-mackay-scotch-whisky.webp"
+  },
+  {
+   "slug": "glen-grant-single-malt-scotch",
+   "name": "Glen Grant",
+   "category": "Scotch",
+   "subcategory": "Speyside Single Malt",
+   "distillery": "Glen Grant Distillery",
+   "region": "Speyside, Scotland",
+   "age": "NAS",
+   "abv_percent": 40,
+   "price_usd": 53.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Honey",
+    "Orchard Fruit",
+    "Vanilla"
+   ],
+   "description": "Major Speyside single malt, popular 10/12 year entry bottles, gap in your deep Speyside lineup.",
+   "url": "https://caskworth.com/products/glen-grant-single-malt-scotch",
+   "image": "https://caskworth.com/assets/images/products/glen-grant-single-malt-scotch.webp"
+  },
+  {
+   "slug": "glenrothes-single-malt-scotch",
+   "name": "The Glenrothes",
+   "category": "Scotch",
+   "subcategory": "Speyside Single Malt",
+   "distillery": "The Glenrothes Distillery",
+   "region": "Speyside, Scotland",
+   "age": "NAS",
+   "abv_percent": 40,
+   "price_usd": 71.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Honey",
+    "Orchard Fruit",
+    "Vanilla"
+   ],
+   "description": "Well-known Speyside single malt with vintage-dated releases, strong collector search interest.",
+   "url": "https://caskworth.com/products/glenrothes-single-malt-scotch",
+   "image": "https://caskworth.com/assets/images/products/glenrothes-single-malt-scotch.webp"
+  },
+  {
+   "slug": "cragganmore-single-malt-scotch",
+   "name": "Cragganmore",
+   "category": "Scotch",
+   "subcategory": "Highland Single Malt",
+   "distillery": "Cragganmore Distillery",
+   "region": "Highland, Scotland",
+   "age": "NAS",
+   "abv_percent": 40,
+   "price_usd": 82.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Heather",
+    "Malt",
+    "Gentle Spice"
+   ],
+   "description": "Diageo Classic Malts member, notable gap given your deep Diageo-owned lineup (Lagavulin, Talisker, Oban).",
+   "url": "https://caskworth.com/products/cragganmore-single-malt-scotch",
+   "image": "https://caskworth.com/assets/images/products/cragganmore-single-malt-scotch.webp"
+  },
+  {
+   "slug": "cardhu-single-malt-scotch",
+   "name": "Cardhu",
+   "category": "Scotch",
+   "subcategory": "Speyside Single Malt",
+   "distillery": "Cardhu Distillery",
+   "region": "Speyside, Scotland",
+   "age": "NAS",
+   "abv_percent": 40,
+   "price_usd": 75.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Honey",
+    "Orchard Fruit",
+    "Vanilla"
+   ],
+   "description": "Diageo Speyside single malt, major in blended (Johnnie Walker heart malt) and standalone bottlings.",
+   "url": "https://caskworth.com/products/cardhu-single-malt-scotch",
+   "image": "https://caskworth.com/assets/images/products/cardhu-single-malt-scotch.webp"
+  },
+  {
+   "slug": "knockando-single-malt-scotch",
+   "name": "Knockando",
+   "category": "Scotch",
+   "subcategory": "Speyside Single Malt",
+   "distillery": "Knockando Distillery",
+   "region": "Speyside, Scotland",
+   "age": "NAS",
+   "abv_percent": 40,
+   "price_usd": 54.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Honey",
+    "Orchard Fruit",
+    "Vanilla"
+   ],
+   "description": "Diageo Speyside vintage-dated single malt, niche but real collector search volume.",
+   "url": "https://caskworth.com/products/knockando-single-malt-scotch",
+   "image": "https://caskworth.com/assets/images/products/knockando-single-malt-scotch.webp"
+  },
+  {
+   "slug": "bruichladdich-single-malt-scotch",
+   "name": "Bruichladdich",
+   "category": "Scotch",
+   "subcategory": "Islay Single Malt",
+   "distillery": "Bruichladdich Distillery",
+   "region": "Islay, Scotland",
+   "age": "NAS",
+   "abv_percent": 40,
+   "price_usd": 44.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Peat",
+    "Smoke",
+    "Sea Salt"
+   ],
+   "description": "Prominent Islay distillery (progressive/unpeated), significant gap alongside your peated Islay lineup.",
+   "url": "https://caskworth.com/products/bruichladdich-single-malt-scotch",
+   "image": "https://caskworth.com/assets/images/products/bruichladdich-single-malt-scotch.webp"
+  },
+  {
+   "slug": "bunnahabhain-single-malt-scotch",
+   "name": "Bunnahabhain",
+   "category": "Scotch",
+   "subcategory": "Islay Single Malt",
+   "distillery": "Bunnahabhain Distillery",
+   "region": "Islay, Scotland",
+   "age": "NAS",
+   "abv_percent": 40,
+   "price_usd": 57.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Peat",
+    "Smoke",
+    "Sea Salt"
+   ],
+   "description": "Islay distillery known for unpeated expressions, real gap vs. your Islay depth.",
+   "url": "https://caskworth.com/products/bunnahabhain-single-malt-scotch",
+   "image": "https://caskworth.com/assets/images/products/bunnahabhain-single-malt-scotch.webp"
+  },
+  {
+   "slug": "kilchoman-single-malt-scotch",
+   "name": "Kilchoman",
+   "category": "Scotch",
+   "subcategory": "Islay Single Malt",
+   "distillery": "Kilchoman Distillery",
+   "region": "Islay, Scotland",
+   "age": "NAS",
+   "abv_percent": 40,
+   "price_usd": 71.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Peat",
+    "Smoke",
+    "Sea Salt"
+   ],
+   "description": "Modern farm distillery on Islay, strong enthusiast/collector search demand.",
+   "url": "https://caskworth.com/products/kilchoman-single-malt-scotch",
+   "image": "https://caskworth.com/assets/images/products/kilchoman-single-malt-scotch.webp"
+  },
+  {
+   "slug": "deanston-single-malt-scotch",
+   "name": "Deanston",
+   "category": "Scotch",
+   "subcategory": "Highland Single Malt",
+   "distillery": "Deanston Distillery",
+   "region": "Highland, Scotland",
+   "age": "NAS",
+   "abv_percent": 40,
+   "price_usd": 72.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Heather",
+    "Malt",
+    "Gentle Spice"
+   ],
+   "description": "Highland single malt, growing search interest via organic/sustainable positioning.",
+   "url": "https://caskworth.com/products/deanston-single-malt-scotch",
+   "image": "https://caskworth.com/assets/images/products/deanston-single-malt-scotch.webp"
+  },
+  {
+   "slug": "tobermory-single-malt-scotch",
+   "name": "Tobermory / Ledaig",
+   "category": "Scotch",
+   "subcategory": "Island Single Malt",
+   "distillery": "Tobermory Distillery",
+   "region": "Scottish Islands",
+   "age": "NAS",
+   "abv_percent": 40,
+   "price_usd": 89.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Sea Spray",
+    "Peat",
+    "Citrus"
+   ],
+   "description": "Isle of Mull distillery (Tobermory unpeated, Ledaig peated) — real regional gap, no Mull whisky carried.",
+   "url": "https://caskworth.com/products/tobermory-single-malt-scotch",
+   "image": "https://caskworth.com/assets/images/products/tobermory-single-malt-scotch.webp"
+  },
+  {
+   "slug": "old-pulteney-single-malt-scotch",
+   "name": "Old Pulteney",
+   "category": "Scotch",
+   "subcategory": "Highland Single Malt",
+   "distillery": "Old Pulteney Distillery",
+   "region": "Highland, Scotland",
+   "age": "NAS",
+   "abv_percent": 40,
+   "price_usd": 53.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Heather",
+    "Malt",
+    "Gentle Spice"
+   ],
+   "description": "Highland/coastal single malt with strong maritime whisky search niche.",
+   "url": "https://caskworth.com/products/old-pulteney-single-malt-scotch",
+   "image": "https://caskworth.com/assets/images/products/old-pulteney-single-malt-scotch.webp"
+  },
+  {
+   "slug": "wolfburn-single-malt-scotch",
+   "name": "Wolfburn",
+   "category": "Scotch",
+   "subcategory": "Highland Single Malt",
+   "distillery": "Wolfburn Distillery",
+   "region": "Highland, Scotland",
+   "age": "NAS",
+   "abv_percent": 40,
+   "price_usd": 71.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Heather",
+    "Malt",
+    "Gentle Spice"
+   ],
+   "description": "Scotland's most northerly distillery, real novelty/collector search interest.",
+   "url": "https://caskworth.com/products/wolfburn-single-malt-scotch",
+   "image": "https://caskworth.com/assets/images/products/wolfburn-single-malt-scotch.webp"
+  },
+  {
+   "slug": "arran-single-malt-scotch",
+   "name": "Isle of Arran",
+   "category": "Scotch",
+   "subcategory": "Island Single Malt",
+   "distillery": "Isle of Arran Distillery",
+   "region": "Scottish Islands",
+   "age": "NAS",
+   "abv_percent": 40,
+   "price_usd": 74.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Sea Spray",
+    "Peat",
+    "Citrus"
+   ],
+   "description": "Well-known island distillery, notable gap in your island-whisky depth.",
+   "url": "https://caskworth.com/products/arran-single-malt-scotch",
+   "image": "https://caskworth.com/assets/images/products/arran-single-malt-scotch.webp"
+  },
+  {
+   "slug": "jura-single-malt-scotch",
+   "name": "Isle of Jura",
+   "category": "Scotch",
+   "subcategory": "Island Single Malt",
+   "distillery": "Isle of Jura Distillery",
+   "region": "Scottish Islands",
+   "age": "NAS",
+   "abv_percent": 40,
+   "price_usd": 34.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Sea Spray",
+    "Peat",
+    "Citrus"
+   ],
+   "description": "Well-known island distillery with strong Jura brand recognition (novel/literary tie-in searches).",
+   "url": "https://caskworth.com/products/jura-single-malt-scotch",
+   "image": "https://caskworth.com/assets/images/products/jura-single-malt-scotch.webp"
+  },
+  {
+   "slug": "tullibardine-single-malt-scotch",
+   "name": "Tullibardine",
+   "category": "Scotch",
+   "subcategory": "Highland Single Malt",
+   "distillery": "Tullibardine Distillery",
+   "region": "Highland, Scotland",
+   "age": "NAS",
+   "abv_percent": 40,
+   "price_usd": 48,
+   "currency": "USD",
+   "tasting_notes": [
+    "Heather",
+    "Malt",
+    "Gentle Spice"
+   ],
+   "description": "Highland distillery known for value + cask-finish range, real search presence.",
+   "url": "https://caskworth.com/products/tullibardine-single-malt-scotch",
+   "image": "https://caskworth.com/assets/images/products/tullibardine-single-malt-scotch.webp"
+  },
+  {
+   "slug": "loch-lomond-single-malt-scotch",
+   "name": "Loch Lomond",
+   "category": "Scotch",
+   "subcategory": "Highland Single Malt",
+   "distillery": "Loch Lomond Distillery",
+   "region": "Highland, Scotland",
+   "age": "NAS",
+   "abv_percent": 40,
+   "price_usd": 34.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Heather",
+    "Malt",
+    "Gentle Spice"
+   ],
+   "description": "High-volume Scottish distillery with unique still technology, real market presence.",
+   "url": "https://caskworth.com/products/loch-lomond-single-malt-scotch",
+   "image": "https://caskworth.com/assets/images/products/loch-lomond-single-malt-scotch.webp"
+  },
+  {
+   "slug": "glengoyne-single-malt-scotch",
+   "name": "Glengoyne",
+   "category": "Scotch",
+   "subcategory": "Highland Single Malt",
+   "distillery": "Glengoyne Distillery",
+   "region": "Highland, Scotland",
+   "age": "NAS",
+   "abv_percent": 40,
+   "price_usd": 74.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Heather",
+    "Malt",
+    "Gentle Spice"
+   ],
+   "description": "Unpeated Highland malt with strong unpeated/slowest distilled search niche.",
+   "url": "https://caskworth.com/products/glengoyne-single-malt-scotch",
+   "image": "https://caskworth.com/assets/images/products/glengoyne-single-malt-scotch.webp"
+  },
+  {
+   "slug": "tamdhu-single-malt-scotch",
+   "name": "Tamdhu",
+   "category": "Scotch",
+   "subcategory": "Speyside Single Malt",
+   "distillery": "Tamdhu Distillery",
+   "region": "Speyside, Scotland",
+   "age": "NAS",
+   "abv_percent": 40,
+   "price_usd": 58,
+   "currency": "USD",
+   "tasting_notes": [
+    "Honey",
+    "Orchard Fruit",
+    "Vanilla"
+   ],
+   "description": "Sherry-cask-focused Speyside malt, complements your existing sherry-cask lineup (Macallan, GlenDronach).",
+   "url": "https://caskworth.com/products/tamdhu-single-malt-scotch",
+   "image": "https://caskworth.com/assets/images/products/tamdhu-single-malt-scotch.webp"
+  },
+  {
+   "slug": "glenallachie-12-year",
+   "name": "GlenAllachie 12 Year",
+   "category": "Scotch",
+   "subcategory": "Speyside Single Malt",
+   "distillery": "GlenAllachie Distillery",
+   "region": "Speyside, Scotland",
+   "age": "12yr",
+   "abv_percent": 40,
+   "price_usd": 80.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Honey",
+    "Orchard Fruit",
+    "Vanilla"
+   ],
+   "description": "Billy Walker revival, acclaimed sherry-forward malt.",
+   "url": "https://caskworth.com/products/glenallachie-12-year",
+   "image": "https://caskworth.com/assets/images/products/glenallachie-12-year.webp"
+  },
+  {
+   "slug": "tomintoul-10-year",
+   "name": "Tomintoul 10 Year",
+   "category": "Scotch",
+   "subcategory": "Speyside Single Malt",
+   "distillery": "Tomintoul Distillery",
+   "region": "Speyside, Scotland",
+   "age": "10yr",
+   "abv_percent": 40,
+   "price_usd": 44.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Honey",
+    "Orchard Fruit",
+    "Vanilla"
+   ],
+   "description": "\"Gentle dram,\" easy-drinking Speyside.",
+   "url": "https://caskworth.com/products/tomintoul-10-year",
+   "image": "https://caskworth.com/assets/images/products/tomintoul-10-year.webp"
+  },
+  {
+   "slug": "speyburn-10-year",
+   "name": "Speyburn 10 Year",
+   "category": "Scotch",
+   "subcategory": "Speyside Single Malt",
+   "distillery": "Speyburn Distillery",
+   "region": "Speyside, Scotland",
+   "age": "10yr",
+   "abv_percent": 40,
+   "price_usd": 34.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Honey",
+    "Orchard Fruit",
+    "Vanilla"
+   ],
+   "description": "Budget Speyside entry, honey-forward.",
+   "url": "https://caskworth.com/products/speyburn-10-year",
+   "image": "https://caskworth.com/assets/images/products/speyburn-10-year.webp"
+  },
+  {
+   "slug": "craigellachie-13-year",
+   "name": "Craigellachie 13 Year",
+   "category": "Scotch",
+   "subcategory": "Speyside Single Malt",
+   "distillery": "Craigellachie Distillery",
+   "region": "Speyside, Scotland",
+   "age": "13yr",
+   "abv_percent": 40,
+   "price_usd": 66.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Honey",
+    "Orchard Fruit",
+    "Vanilla"
+   ],
+   "description": "\"The Dog's Nose,\" worm-tub cult favorite.",
+   "url": "https://caskworth.com/products/craigellachie-13-year",
+   "image": "https://caskworth.com/assets/images/products/craigellachie-13-year.webp"
+  },
+  {
+   "slug": "balblair-12-year",
+   "name": "Balblair 12 Year",
+   "category": "Scotch",
+   "subcategory": "Highland Single Malt",
+   "distillery": "Balblair Distillery",
+   "region": "Highland, Scotland",
+   "age": "12yr",
+   "abv_percent": 40,
+   "price_usd": 73.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Heather",
+    "Malt",
+    "Gentle Spice"
+   ],
+   "description": "Vintage-dated Highland, slow-release philosophy.",
+   "url": "https://caskworth.com/products/balblair-12-year",
+   "image": "https://caskworth.com/assets/images/products/balblair-12-year.webp"
+  },
+  {
+   "slug": "clynelish-14-year",
+   "name": "Clynelish 14 Year",
+   "category": "Scotch",
+   "subcategory": "Highland Single Malt",
+   "distillery": "Clynelish Distillery",
+   "region": "Highland, Scotland",
+   "age": "14yr",
+   "abv_percent": 40,
+   "price_usd": 78.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Heather",
+    "Malt",
+    "Gentle Spice"
+   ],
+   "description": "Waxy coastal Highland, Game of Thrones tie-in.",
+   "url": "https://caskworth.com/products/clynelish-14-year",
+   "image": "https://caskworth.com/assets/images/products/clynelish-14-year.webp"
+  },
+  {
+   "slug": "dalwhinnie-15-year",
+   "name": "Dalwhinnie 15 Year",
+   "category": "Scotch",
+   "subcategory": "Highland Single Malt",
+   "distillery": "Dalwhinnie Distillery",
+   "region": "Highland, Scotland",
+   "age": "15yr",
+   "abv_percent": 40,
+   "price_usd": 79.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Heather",
+    "Malt",
+    "Gentle Spice"
+   ],
+   "description": "Diageo Classic Malts, highest distillery in Scotland.",
+   "url": "https://caskworth.com/products/dalwhinnie-15-year",
+   "image": "https://caskworth.com/assets/images/products/dalwhinnie-15-year.webp"
+  },
+  {
+   "slug": "edradour-10-year",
+   "name": "Edradour 10 Year",
+   "category": "Scotch",
+   "subcategory": "Highland Single Malt",
+   "distillery": "Edradour Distillery",
+   "region": "Highland, Scotland",
+   "age": "10yr",
+   "abv_percent": 40,
+   "price_usd": 88.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Heather",
+    "Malt",
+    "Gentle Spice"
+   ],
+   "description": "Scotland's smallest traditional distillery.",
+   "url": "https://caskworth.com/products/edradour-10-year",
+   "image": "https://caskworth.com/assets/images/products/edradour-10-year.webp"
+  },
+  {
+   "slug": "glen-scotia-double-cask",
+   "name": "Glen Scotia Double Cask",
+   "category": "Scotch",
+   "subcategory": "Campbeltown Single Malt",
+   "distillery": "Glen Scotia Double Cask Distillery",
+   "region": "Campbeltown, Scotland",
+   "age": "NAS",
+   "abv_percent": 40,
+   "price_usd": 58.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Brine",
+    "Toffee",
+    "Smoke"
+   ],
+   "description": "Campbeltown revival, rare regional category.",
+   "url": "https://caskworth.com/products/glen-scotia-double-cask",
+   "image": "https://caskworth.com/assets/images/products/glen-scotia-double-cask.webp"
+  },
+  {
+   "slug": "glenkinchie-12-year",
+   "name": "Glenkinchie 12 Year",
+   "category": "Scotch",
+   "subcategory": "Lowland Single Malt",
+   "distillery": "Glenkinchie Distillery",
+   "region": "Lowlands, Scotland",
+   "age": "12yr",
+   "abv_percent": 40,
+   "price_usd": 77.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Grass",
+    "Citrus",
+    "Honey"
+   ],
+   "description": "Diageo Classic Malts, Lowland representative.",
+   "url": "https://caskworth.com/products/glenkinchie-12-year",
+   "image": "https://caskworth.com/assets/images/products/glenkinchie-12-year.webp"
+  },
+  {
+   "slug": "mortlach-12-year-wee-witchie",
+   "name": "Mortlach 12 Year Wee Witchie",
+   "category": "Scotch",
+   "subcategory": "Speyside Single Malt",
+   "distillery": "Mortlach Wee Witchie Distillery",
+   "region": "Speyside, Scotland",
+   "age": "12yr",
+   "abv_percent": 40,
+   "price_usd": 61.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Honey",
+    "Orchard Fruit",
+    "Vanilla"
+   ],
+   "description": "\"Beast of Dufftown,\" 2.81x-distilled cult malt.",
+   "url": "https://caskworth.com/products/mortlach-12-year-wee-witchie",
+   "image": "https://caskworth.com/assets/images/products/mortlach-12-year-wee-witchie.webp"
+  },
+  {
+   "slug": "royal-brackla-12-year",
+   "name": "Royal Brackla 12 Year",
+   "category": "Scotch",
+   "subcategory": "Highland Single Malt",
+   "distillery": "Royal Brackla Distillery",
+   "region": "Highland, Scotland",
+   "age": "12yr",
+   "abv_percent": 40,
+   "price_usd": 73.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Heather",
+    "Malt",
+    "Gentle Spice"
+   ],
+   "description": "\"The King's Own Whisky,\" royal warrant heritage.",
+   "url": "https://caskworth.com/products/royal-brackla-12-year",
+   "image": "https://caskworth.com/assets/images/products/royal-brackla-12-year.webp"
+  },
+  {
+   "slug": "glen-moray-classic",
+   "name": "Glen Moray Classic",
+   "category": "Scotch",
+   "subcategory": "Speyside Single Malt",
+   "distillery": "Glen Moray Classic Distillery",
+   "region": "Speyside, Scotland",
+   "age": "NAS",
+   "abv_percent": 40,
+   "price_usd": 29.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Honey",
+    "Orchard Fruit",
+    "Vanilla"
+   ],
+   "description": "Entry-level Speyside, best-value bourbon-cask malt.",
+   "url": "https://caskworth.com/products/glen-moray-classic",
+   "image": "https://caskworth.com/assets/images/products/glen-moray-classic.webp"
+  },
+  {
+   "slug": "the-famous-grouse",
+   "name": "The Famous Grouse",
+   "category": "Scotch",
+   "subcategory": "Blended Scotch",
+   "distillery": "The Famous Grouse Distillery",
+   "region": "Scotland",
+   "age": "NAS",
+   "abv_percent": 40,
+   "price_usd": 24.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Honey",
+    "Malt",
+    "Soft Smoke"
+   ],
+   "description": "Scotland's #1-selling blended Scotch at home.",
+   "url": "https://caskworth.com/products/the-famous-grouse",
+   "image": "https://caskworth.com/assets/images/products/the-famous-grouse.webp"
+  },
+  {
+   "slug": "naked-malt",
+   "name": "Naked Malt",
+   "category": "Scotch",
+   "subcategory": "Blended Malt Scotch",
+   "distillery": "Naked Malt Distillery",
+   "region": "Scotland",
+   "age": "NAS",
+   "abv_percent": 40,
+   "price_usd": 34.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Sherry",
+    "Dried Fruit",
+    "Spice"
+   ],
+   "description": "Sherried blended-malt, Dewar's stablemate.",
+   "url": "https://caskworth.com/products/naked-malt",
+   "image": "https://caskworth.com/assets/images/products/naked-malt.webp"
+  },
+  {
+   "slug": "buchanans-deluxe-12-year",
+   "name": "Buchanan's DeLuxe 12 Year",
+   "category": "Scotch",
+   "subcategory": "Blended Scotch",
+   "distillery": "Buchanan's DeLuxe Distillery",
+   "region": "Scotland",
+   "age": "12yr",
+   "abv_percent": 40,
+   "price_usd": 31.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Honey",
+    "Malt",
+    "Soft Smoke"
+   ],
+   "description": "Diageo's top Hispanic-market Scotch.",
+   "url": "https://caskworth.com/products/buchanans-deluxe-12-year",
+   "image": "https://caskworth.com/assets/images/products/buchanans-deluxe-12-year.webp"
+  },
+  {
+   "slug": "wemyss-spice-king-8-year",
+   "name": "Wemyss Spice King 8 Year",
+   "category": "Scotch",
+   "subcategory": "Blended Malt Scotch",
+   "distillery": "Wemyss Spice King Distillery",
+   "region": "Scotland",
+   "age": "8yr",
+   "abv_percent": 40,
+   "price_usd": 51.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Sherry",
+    "Dried Fruit",
+    "Spice"
+   ],
+   "description": "Independent bottler, artisan blended malt.",
+   "url": "https://caskworth.com/products/wemyss-spice-king-8-year",
+   "image": "https://caskworth.com/assets/images/products/wemyss-spice-king-8-year.webp"
+  },
+  {
+   "slug": "grants-ale-cask-finish",
+   "name": "Grant's Ale Cask Finish",
+   "category": "Scotch",
+   "subcategory": "Blended Scotch",
+   "distillery": "Grant's Ale Cask Finish Distillery",
+   "region": "Scotland",
+   "age": "NAS",
+   "abv_percent": 40,
+   "price_usd": 24.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Honey",
+    "Malt",
+    "Soft Smoke"
+   ],
+   "description": "Craft-beer-cask blended Scotch innovation.",
+   "url": "https://caskworth.com/products/grants-ale-cask-finish",
+   "image": "https://caskworth.com/assets/images/products/grants-ale-cask-finish.webp"
+  },
+  {
+   "slug": "the-sassenach-blended-scotch",
+   "name": "The Sassenach Blended Scotch",
+   "category": "Scotch",
+   "subcategory": "Blended Scotch",
+   "distillery": "The Sassenach Distillery",
+   "region": "Scotland",
+   "age": "NAS",
+   "abv_percent": 40,
+   "price_usd": 123.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Honey",
+    "Malt",
+    "Soft Smoke"
+   ],
+   "description": "Sam Heughan (Outlander) celebrity brand.",
+   "url": "https://caskworth.com/products/the-sassenach-blended-scotch",
+   "image": "https://caskworth.com/assets/images/products/the-sassenach-blended-scotch.webp"
+  },
+  {
+   "slug": "benriach-10-year",
+   "name": "BenRiach 10 Year",
+   "category": "Scotch",
+   "subcategory": "Speyside Single Malt",
+   "distillery": "BenRiach Distillery",
+   "region": "Speyside, Scotland",
+   "age": "10yr",
+   "abv_percent": 40,
+   "price_usd": 52.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Honey",
+    "Orchard Fruit",
+    "Vanilla"
+   ],
+   "description": "Core-range entry, acclaimed Speyside revival.",
+   "url": "https://caskworth.com/products/benriach-10-year",
+   "image": "https://caskworth.com/assets/images/products/benriach-10-year.webp"
+  },
+  {
+   "slug": "balvenie-25-year-old",
+   "name": "Balvenie 25 Year Old",
+   "category": "Scotch",
+   "subcategory": "Speyside Single Malt",
+   "distillery": "Balvenie Distillery",
+   "region": "Speyside, Scotland",
+   "age": "25yr",
+   "abv_percent": 40,
+   "price_usd": 901,
+   "currency": "USD",
+   "tasting_notes": [
+    "Honey",
+    "Orchard Fruit",
+    "Vanilla"
+   ],
+   "description": "Aged flagship tier of a carried brand; distinct SKU from entry Balvenie 12/14, verified at retail in the $500-$3,700 collector band.",
+   "url": "https://caskworth.com/products/balvenie-25-year-old",
+   "image": "https://caskworth.com/assets/images/products/balvenie-25-year-old.webp"
+  },
+  {
+   "slug": "glenfarclas-40-year-old",
+   "name": "Glenfarclas 40 Year Old",
+   "category": "Scotch",
+   "subcategory": "Speyside Single Malt",
+   "distillery": "Glenfarclas Distillery",
+   "region": "Speyside, Scotland",
+   "age": "40yr",
+   "abv_percent": 40,
+   "price_usd": 1299.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Honey",
+    "Orchard Fruit",
+    "Vanilla"
+   ],
+   "description": "Aged flagship of carried brand; independent family distillery cult favorite in the luxury collector tier.",
+   "url": "https://caskworth.com/products/glenfarclas-40-year-old",
+   "image": "https://caskworth.com/assets/images/products/glenfarclas-40-year-old.webp"
+  },
+  {
+   "slug": "glendronach-grandeur-25-year-old-batch-8",
+   "name": "GlenDronach Grandeur 25 Year Old Batch 8",
+   "category": "Scotch",
+   "subcategory": "Highland Single Malt",
+   "distillery": "GlenDronach Grandeur Distillery",
+   "region": "Highland, Scotland",
+   "age": "25yr",
+   "abv_percent": 40,
+   "price_usd": 2999,
+   "currency": "USD",
+   "tasting_notes": [
+    "Heather",
+    "Malt",
+    "Gentle Spice"
+   ],
+   "description": "Limited sherry-cask batch release, distinct from standard GlenDronach 12/15/18.",
+   "url": "https://caskworth.com/products/glendronach-grandeur-25-year-old-batch-8",
+   "image": "https://caskworth.com/assets/images/products/glendronach-grandeur-25-year-old-batch-8.webp"
+  },
+  {
+   "slug": "rosebank-special-release-21-year-old",
+   "name": "Rosebank Special Release 21 Year Old",
+   "category": "Scotch",
+   "subcategory": "Lowland Single Malt",
+   "distillery": "Rosebank Special Release Distillery",
+   "region": "Lowlands, Scotland",
+   "age": "21yr",
+   "abv_percent": 40,
+   "price_usd": 2438,
+   "currency": "USD",
+   "tasting_notes": [
+    "Grass",
+    "Citrus",
+    "Honey"
+   ],
+   "description": "Wholly new brand — legendary closed Lowland distillery revived 2023.",
+   "url": "https://caskworth.com/products/rosebank-special-release-21-year-old",
+   "image": "https://caskworth.com/assets/images/products/rosebank-special-release-21-year-old.webp"
+  },
+  {
+   "slug": "willett-bourbon",
+   "name": "Willett Family Estate / Pot Still",
+   "category": "Bourbon",
+   "subcategory": "Kentucky Straight Bourbon",
+   "distillery": "Willett Distillery",
+   "region": "Kentucky, USA",
+   "age": "NAS",
+   "abv_percent": 45,
+   "price_usd": 40.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Caramel",
+    "Vanilla",
+    "Oak"
+   ],
+   "description": "One of the most collector-searched bourbon names in the US; handcrafted single-barrel releases command real premiums — zero Willett SKUs carried.",
+   "url": "https://caskworth.com/products/willett-bourbon",
+   "image": "https://caskworth.com/assets/images/products/willett-bourbon.webp"
+  },
+  {
+   "slug": "high-west-bourbon",
+   "name": "High West Bourye / Rendezvous Rye / Campfire",
+   "category": "Bourbon",
+   "subcategory": "Craft Bourbon",
+   "distillery": "High West Bourye Distillery",
+   "region": "Kentucky, USA",
+   "age": "NAS",
+   "abv_percent": 45,
+   "price_usd": 96.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Caramel",
+    "Vanilla",
+    "Oak"
+   ],
+   "description": "Nationally distributed, frequently reviewed craft distillery with real annual release hype (2026 Bourye return).",
+   "url": "https://caskworth.com/products/high-west-bourbon",
+   "image": "https://caskworth.com/assets/images/products/high-west-bourbon.webp"
+  },
+  {
+   "slug": "bookers-bourbon",
+   "name": "Booker's Bourbon",
+   "category": "Bourbon",
+   "subcategory": "Cask Strength Bourbon",
+   "distillery": "Booker's Bourbon Distillery",
+   "region": "Kentucky, USA",
+   "age": "NAS",
+   "abv_percent": 60,
+   "price_usd": 104.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Dark Caramel",
+    "Oak",
+    "Pepper"
+   ],
+   "description": "Jim Beam's uncut/unfiltered small-batch flagship; 2026 named batches drive real seasonal search spikes.",
+   "url": "https://caskworth.com/products/bookers-bourbon",
+   "image": "https://caskworth.com/assets/images/products/bookers-bourbon.webp"
+  },
+  {
+   "slug": "bakers-bourbon",
+   "name": "Baker's Bourbon",
+   "category": "Bourbon",
+   "subcategory": "Kentucky Straight Bourbon",
+   "distillery": "Baker's Bourbon Distillery",
+   "region": "Kentucky, USA",
+   "age": "NAS",
+   "abv_percent": 45,
+   "price_usd": 72.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Caramel",
+    "Vanilla",
+    "Oak"
+   ],
+   "description": "Beam Suntory's 7-year single barrel-style bourbon, complements your existing Basil Hayden's/Knob Creek lineup.",
+   "url": "https://caskworth.com/products/bakers-bourbon",
+   "image": "https://caskworth.com/assets/images/products/bakers-bourbon.webp"
+  },
+  {
+   "slug": "wilderness-trail-bourbon",
+   "name": "Wilderness Trail",
+   "category": "Bourbon",
+   "subcategory": "Craft Bourbon",
+   "distillery": "Wilderness Trail Distillery",
+   "region": "Kentucky, USA",
+   "age": "NAS",
+   "abv_percent": 45,
+   "price_usd": 56.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Caramel",
+    "Vanilla",
+    "Oak"
+   ],
+   "description": "Fast-rising Kentucky craft distillery, heavy 2025-26 enthusiast search growth.",
+   "url": "https://caskworth.com/products/wilderness-trail-bourbon",
+   "image": "https://caskworth.com/assets/images/products/wilderness-trail-bourbon.webp"
+  },
+  {
+   "slug": "widow-jane-bourbon",
+   "name": "Widow Jane",
+   "category": "Bourbon",
+   "subcategory": "Kentucky Straight Bourbon",
+   "distillery": "Widow Jane Distillery",
+   "region": "New York, USA",
+   "age": "NAS",
+   "abv_percent": 45,
+   "price_usd": 75,
+   "currency": "USD",
+   "tasting_notes": [
+    "Caramel",
+    "Vanilla",
+    "Oak"
+   ],
+   "description": "NYC-based bourbon brand known for cave-aged marketing angle, real novelty search volume.",
+   "url": "https://caskworth.com/products/widow-jane-bourbon",
+   "image": "https://caskworth.com/assets/images/products/widow-jane-bourbon.webp"
+  },
+  {
+   "slug": "belle-meade-bourbon",
+   "name": "Belle Meade Bourbon",
+   "category": "Bourbon",
+   "subcategory": "High-Rye Bourbon",
+   "distillery": "Belle Meade Bourbon Distillery",
+   "region": "Kentucky, USA",
+   "age": "NAS",
+   "abv_percent": 45,
+   "price_usd": 42.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Baking Spice",
+    "Caramel",
+    "Citrus Peel"
+   ],
+   "description": "Nelson's Green Brier brand, notable high-rye bourbon with real regional following.",
+   "url": "https://caskworth.com/products/belle-meade-bourbon",
+   "image": "https://caskworth.com/assets/images/products/belle-meade-bourbon.webp"
+  },
+  {
+   "slug": "rebel-yell-bourbon",
+   "name": "Rebel Yell / Rebel 100",
+   "category": "Bourbon",
+   "subcategory": "Wheated Bourbon",
+   "distillery": "Rebel Yell Distillery",
+   "region": "Kentucky, USA",
+   "age": "NAS",
+   "abv_percent": 50,
+   "price_usd": 19.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Caramel",
+    "Soft Wheat",
+    "Honey"
+   ],
+   "description": "Well-known wheated bourbon brand at a lower price point than Weller, real Weller alternative search intent.",
+   "url": "https://caskworth.com/products/rebel-yell-bourbon",
+   "image": "https://caskworth.com/assets/images/products/rebel-yell-bourbon.webp"
+  },
+  {
+   "slug": "1792-bourbon",
+   "name": "1792 Bourbon",
+   "category": "Bourbon",
+   "subcategory": "High-Rye Bourbon",
+   "distillery": "1792 Bourbon Distillery",
+   "region": "Kentucky, USA",
+   "age": "NAS",
+   "abv_percent": 45,
+   "price_usd": 25.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Baking Spice",
+    "Caramel",
+    "Citrus Peel"
+   ],
+   "description": "Barton 1792 Distillery brand, strong high rye bourbon search presence and frequent barrel-select releases.",
+   "url": "https://caskworth.com/products/1792-bourbon",
+   "image": "https://caskworth.com/assets/images/products/1792-bourbon.webp"
+  },
+  {
+   "slug": "old-grand-dad-bourbon",
+   "name": "Old Grand-Dad",
+   "category": "Bourbon",
+   "subcategory": "Bottled-in-Bond Bourbon",
+   "distillery": "Old Grand-Dad Distillery",
+   "region": "Kentucky, USA",
+   "age": "NAS",
+   "abv_percent": 50,
+   "price_usd": 34.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Caramel",
+    "Vanilla",
+    "Oak"
+   ],
+   "description": "Historic Beam-family bourbon brand (114/Bonded), real value bourbon search volume.",
+   "url": "https://caskworth.com/products/old-grand-dad-bourbon",
+   "image": "https://caskworth.com/assets/images/products/old-grand-dad-bourbon.webp"
+  },
+  {
+   "slug": "ancient-age-bourbon",
+   "name": "Ancient Age",
+   "category": "Bourbon",
+   "subcategory": "Kentucky Straight Bourbon",
+   "distillery": "Ancient Age Distillery",
+   "region": "Kentucky, USA",
+   "age": "NAS",
+   "abv_percent": 45,
+   "price_usd": 16.49,
+   "currency": "USD",
+   "tasting_notes": [
+    "Caramel",
+    "Vanilla",
+    "Oak"
+   ],
+   "description": "Buffalo Trace's budget bourbon line, complements your deep Buffalo Trace Antique Collection presence.",
+   "url": "https://caskworth.com/products/ancient-age-bourbon",
+   "image": "https://caskworth.com/assets/images/products/ancient-age-bourbon.webp"
+  },
+  {
+   "slug": "very-old-barton-bourbon",
+   "name": "Very Old Barton",
+   "category": "Bourbon",
+   "subcategory": "Kentucky Straight Bourbon",
+   "distillery": "Very Old Barton Distillery",
+   "region": "Kentucky, USA",
+   "age": "NAS",
+   "abv_percent": 45,
+   "price_usd": 35,
+   "currency": "USD",
+   "tasting_notes": [
+    "Caramel",
+    "Vanilla",
+    "Oak"
+   ],
+   "description": "Barton 1792's value bourbon, a real hidden gem search term among bourbon enthusiasts.",
+   "url": "https://caskworth.com/products/very-old-barton-bourbon",
+   "image": "https://caskworth.com/assets/images/products/very-old-barton-bourbon.webp"
+  },
+  {
+   "slug": "ezra-brooks-bourbon",
+   "name": "Ezra Brooks",
+   "category": "Bourbon",
+   "subcategory": "Kentucky Straight Bourbon",
+   "distillery": "Ezra Brooks Distillery",
+   "region": "Kentucky, USA",
+   "age": "NAS",
+   "abv_percent": 45,
+   "price_usd": 15.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Caramel",
+    "Vanilla",
+    "Oak"
+   ],
+   "description": "Long-running value bourbon brand with a cult hidden gem following and real search volume.",
+   "url": "https://caskworth.com/products/ezra-brooks-bourbon",
+   "image": "https://caskworth.com/assets/images/products/ezra-brooks-bourbon.webp"
+  },
+  {
+   "slug": "redemption-bourbon",
+   "name": "Redemption Bourbon / High-Rye",
+   "category": "Bourbon",
+   "subcategory": "High-Rye Bourbon",
+   "distillery": "Redemption Bourbon Distillery",
+   "region": "Kentucky, USA",
+   "age": "NAS",
+   "abv_percent": 45,
+   "price_usd": 35.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Baking Spice",
+    "Caramel",
+    "Citrus Peel"
+   ],
+   "description": "Notable craft/sourced bourbon brand, real high rye bourbon and cocktail-focused search volume.",
+   "url": "https://caskworth.com/products/redemption-bourbon",
+   "image": "https://caskworth.com/assets/images/products/redemption-bourbon.webp"
+  },
+  {
+   "slug": "bardstown-bourbon-company",
+   "name": "Bardstown Bourbon Company",
+   "category": "Bourbon",
+   "subcategory": "Kentucky Straight Bourbon",
+   "distillery": "Bardstown Bourbon Company Distillery",
+   "region": "Kentucky, USA",
+   "age": "NAS",
+   "abv_percent": 45,
+   "price_usd": 139.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Caramel",
+    "Vanilla",
+    "Oak"
+   ],
+   "description": "Prominent Bourbon Capital collaborative distillery, strong 2025-26 media/enthusiast coverage.",
+   "url": "https://caskworth.com/products/bardstown-bourbon-company",
+   "image": "https://caskworth.com/assets/images/products/bardstown-bourbon-company.webp"
+  },
+  {
+   "slug": "new-riff-bourbon",
+   "name": "New Riff",
+   "category": "Bourbon",
+   "subcategory": "Bottled-in-Bond Bourbon",
+   "distillery": "New Riff Distillery",
+   "region": "Kentucky, USA",
+   "age": "NAS",
+   "abv_percent": 50,
+   "price_usd": 40.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Caramel",
+    "Vanilla",
+    "Oak"
+   ],
+   "description": "Northern Kentucky bottled-in-bond specialist, strong critical acclaim and real search growth.",
+   "url": "https://caskworth.com/products/new-riff-bourbon",
+   "image": "https://caskworth.com/assets/images/products/new-riff-bourbon.webp"
+  },
+  {
+   "slug": "old-elk-bourbon",
+   "name": "Old Elk",
+   "category": "Bourbon",
+   "subcategory": "Craft Bourbon",
+   "distillery": "Old Elk Distillery",
+   "region": "Colorado, USA",
+   "age": "NAS",
+   "abv_percent": 45,
+   "price_usd": 39.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Caramel",
+    "Vanilla",
+    "Oak"
+   ],
+   "description": "Colorado craft bourbon/rye brand with growing national distribution and search presence.",
+   "url": "https://caskworth.com/products/old-elk-bourbon",
+   "image": "https://caskworth.com/assets/images/products/old-elk-bourbon.webp"
+  },
+  {
+   "slug": "smooth-ambler-bourbon",
+   "name": "Smooth Ambler",
+   "category": "Bourbon",
+   "subcategory": "Kentucky Straight Bourbon",
+   "distillery": "Smooth Ambler Distillery",
+   "region": "West Virginia, USA",
+   "age": "NAS",
+   "abv_percent": 45,
+   "price_usd": 71.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Caramel",
+    "Vanilla",
+    "Oak"
+   ],
+   "description": "West Virginia distillery known for Contradiction/Old Scout lines, real enthusiast following.",
+   "url": "https://caskworth.com/products/smooth-ambler-bourbon",
+   "image": "https://caskworth.com/assets/images/products/smooth-ambler-bourbon.webp"
+  },
+  {
+   "slug": "garrison-brothers-bourbon",
+   "name": "Garrison Brothers",
+   "category": "Bourbon",
+   "subcategory": "Kentucky Straight Bourbon",
+   "distillery": "Garrison Brothers Distillery",
+   "region": "Texas, USA",
+   "age": "NAS",
+   "abv_percent": 45,
+   "price_usd": 89.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Caramel",
+    "Vanilla",
+    "Oak"
+   ],
+   "description": "Leading Texas bourbon brand, strong regional + collector search volume.",
+   "url": "https://caskworth.com/products/garrison-brothers-bourbon",
+   "image": "https://caskworth.com/assets/images/products/garrison-brothers-bourbon.webp"
+  },
+  {
+   "slug": "balcones-whiskey",
+   "name": "Balcones",
+   "category": "Bourbon",
+   "subcategory": "Craft Bourbon",
+   "distillery": "Balcones Distillery",
+   "region": "Texas, USA",
+   "age": "NAS",
+   "abv_percent": 45,
+   "price_usd": 33.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Caramel",
+    "Vanilla",
+    "Oak"
+   ],
+   "description": "Leading Texas whisky brand (Baby Blue corn whisky, Texas single malt), strong craft-whiskey search presence.",
+   "url": "https://caskworth.com/products/balcones-whiskey",
+   "image": "https://caskworth.com/assets/images/products/balcones-whiskey.webp"
+  },
+  {
+   "slug": "henry-mckenna-bourbon",
+   "name": "Henry McKenna",
+   "category": "Bourbon",
+   "subcategory": "Bottled-in-Bond Bourbon",
+   "distillery": "Henry McKenna Distillery",
+   "region": "Kentucky, USA",
+   "age": "NAS",
+   "abv_percent": 50,
+   "price_usd": 77.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Caramel",
+    "Vanilla",
+    "Oak"
+   ],
+   "description": "Heaven Hill's bottled-in-bond single barrel, a genuine hidden gem bourbon with strong critic scores.",
+   "url": "https://caskworth.com/products/henry-mckenna-bourbon",
+   "image": "https://caskworth.com/assets/images/products/henry-mckenna-bourbon.webp"
+  },
+  {
+   "slug": "yellowstone-bourbon",
+   "name": "Yellowstone Bourbon",
+   "category": "Bourbon",
+   "subcategory": "Kentucky Straight Bourbon",
+   "distillery": "Yellowstone Bourbon Distillery",
+   "region": "Kentucky, USA",
+   "age": "NAS",
+   "abv_percent": 45,
+   "price_usd": 29.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Caramel",
+    "Vanilla",
+    "Oak"
+   ],
+   "description": "Limestone Branch brand with strong select and limited edition annual release search volume.",
+   "url": "https://caskworth.com/products/yellowstone-bourbon",
+   "image": "https://caskworth.com/assets/images/products/yellowstone-bourbon.webp"
+  },
+  {
+   "slug": "starlight-distillery-bourbon",
+   "name": "Starlight Distillery Bourbon",
+   "category": "Bourbon",
+   "subcategory": "Bottled-in-Bond Bourbon",
+   "distillery": "Starlight Distillery Bourbon Distillery",
+   "region": "Indiana, USA",
+   "age": "NAS",
+   "abv_percent": 50,
+   "price_usd": 45,
+   "currency": "USD",
+   "tasting_notes": [
+    "Caramel",
+    "Vanilla",
+    "Oak"
+   ],
+   "description": "Indiana farm distillery; Bottled-in-Bond drew strong Breaking Bourbon reviews.",
+   "url": "https://caskworth.com/products/starlight-distillery-bourbon",
+   "image": "https://caskworth.com/assets/images/products/starlight-distillery-bourbon.webp"
+  },
+  {
+   "slug": "rabbit-hole-dareringer",
+   "name": "Rabbit Hole Dareringer",
+   "category": "Bourbon",
+   "subcategory": "Craft Bourbon",
+   "distillery": "Rabbit Hole Dareringer Distillery",
+   "region": "Kentucky, USA",
+   "age": "NAS",
+   "abv_percent": 45,
+   "price_usd": 81.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Caramel",
+    "Vanilla",
+    "Oak"
+   ],
+   "description": "Louisville craft distillery; PX sherry cask finish.",
+   "url": "https://caskworth.com/products/rabbit-hole-dareringer",
+   "image": "https://caskworth.com/assets/images/products/rabbit-hole-dareringer.webp"
+  },
+  {
+   "slug": "wyoming-whiskey-small-batch",
+   "name": "Wyoming Whiskey Small Batch",
+   "category": "Bourbon",
+   "subcategory": "Kentucky Straight Bourbon",
+   "distillery": "Wyoming Whiskey Distillery",
+   "region": "Wyoming, USA",
+   "age": "NAS",
+   "abv_percent": 45,
+   "price_usd": 39.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Caramel",
+    "Vanilla",
+    "Oak"
+   ],
+   "description": "Wyoming's first legal distillery, strong regional branding.",
+   "url": "https://caskworth.com/products/wyoming-whiskey-small-batch",
+   "image": "https://caskworth.com/assets/images/products/wyoming-whiskey-small-batch.webp"
+  },
+  {
+   "slug": "barrell-bourbon",
+   "name": "Barrell Bourbon",
+   "category": "Bourbon",
+   "subcategory": "Kentucky Straight Bourbon",
+   "distillery": "Barrell Bourbon Distillery",
+   "region": "Kentucky, USA",
+   "age": "NAS",
+   "abv_percent": 60,
+   "price_usd": 59.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Caramel",
+    "Vanilla",
+    "Oak"
+   ],
+   "description": "Numbered cask-strength blends, serious collector attention.",
+   "url": "https://caskworth.com/products/barrell-bourbon",
+   "image": "https://caskworth.com/assets/images/products/barrell-bourbon.webp"
+  },
+  {
+   "slug": "stellum-bourbon",
+   "name": "Stellum Bourbon",
+   "category": "Bourbon",
+   "subcategory": "Kentucky Straight Bourbon",
+   "distillery": "Stellum Bourbon Distillery",
+   "region": "Kentucky, USA",
+   "age": "NAS",
+   "abv_percent": 45,
+   "price_usd": 49.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Caramel",
+    "Vanilla",
+    "Oak"
+   ],
+   "description": "Barrell-adjacent brand; Black and standard tiers.",
+   "url": "https://caskworth.com/products/stellum-bourbon",
+   "image": "https://caskworth.com/assets/images/products/stellum-bourbon.webp"
+  },
+  {
+   "slug": "bardstown-bourbon-co-origin-series",
+   "name": "Bardstown Bourbon Co. Origin Series",
+   "category": "Bourbon",
+   "subcategory": "Kentucky Straight Bourbon",
+   "distillery": "Bardstown Bourbon Co. Distillery",
+   "region": "Kentucky, USA",
+   "age": "NAS",
+   "abv_percent": 45,
+   "price_usd": 46.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Caramel",
+    "Vanilla",
+    "Oak"
+   ],
+   "description": "BBC's house-distilled straight bourbon (vs. sourced Discovery blends).",
+   "url": "https://caskworth.com/products/bardstown-bourbon-co-origin-series",
+   "image": "https://caskworth.com/assets/images/products/bardstown-bourbon-co-origin-series.webp"
+  },
+  {
+   "slug": "nulu-bourbon",
+   "name": "Nulu Bourbon",
+   "category": "Bourbon",
+   "subcategory": "Kentucky Straight Bourbon",
+   "distillery": "Nulu Bourbon Distillery",
+   "region": "Kentucky, USA",
+   "age": "NAS",
+   "abv_percent": 45,
+   "price_usd": 69.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Caramel",
+    "Vanilla",
+    "Oak"
+   ],
+   "description": "Louisville-neighborhood-branded line, toasted/double-oak variants.",
+   "url": "https://caskworth.com/products/nulu-bourbon",
+   "image": "https://caskworth.com/assets/images/products/nulu-bourbon.webp"
+  },
+  {
+   "slug": "blade-and-bow-bourbon",
+   "name": "Blade and Bow Bourbon",
+   "category": "Bourbon",
+   "subcategory": "Kentucky Straight Bourbon",
+   "distillery": "Blade and Bow Bourbon Distillery",
+   "region": "Kentucky, USA",
+   "age": "NAS",
+   "abv_percent": 45,
+   "price_usd": 64.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Caramel",
+    "Vanilla",
+    "Oak"
+   ],
+   "description": "Diageo's Stitzel-Weller-heritage brand.",
+   "url": "https://caskworth.com/products/blade-and-bow-bourbon",
+   "image": "https://caskworth.com/assets/images/products/blade-and-bow-bourbon.webp"
+  },
+  {
+   "slug": "calumet-farm-12-year",
+   "name": "Calumet Farm 12 Year",
+   "category": "Bourbon",
+   "subcategory": "Kentucky Straight Bourbon",
+   "distillery": "Calumet Farm Distillery",
+   "region": "Kentucky, USA",
+   "age": "12yr",
+   "abv_percent": 45,
+   "price_usd": 64.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Caramel",
+    "Vanilla",
+    "Oak"
+   ],
+   "description": "Historic Calumet Farm name revival, 12-yr single-rack.",
+   "url": "https://caskworth.com/products/calumet-farm-12-year",
+   "image": "https://caskworth.com/assets/images/products/calumet-farm-12-year.webp"
+  },
+  {
+   "slug": "frey-ranch-bourbon",
+   "name": "Frey Ranch Bourbon",
+   "category": "Bourbon",
+   "subcategory": "Craft Bourbon",
+   "distillery": "Frey Ranch Bourbon Distillery",
+   "region": "Nevada, USA",
+   "age": "NAS",
+   "abv_percent": 45,
+   "price_usd": 59.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Caramel",
+    "Vanilla",
+    "Oak"
+   ],
+   "description": "Nevada \"grain to glass\" estate distillery.",
+   "url": "https://caskworth.com/products/frey-ranch-bourbon",
+   "image": "https://caskworth.com/assets/images/products/frey-ranch-bourbon.webp"
+  },
+  {
+   "slug": "old-forester-1920-prohibition-style",
+   "name": "Old Forester 1920 Prohibition Style",
+   "category": "Bourbon",
+   "subcategory": "Kentucky Straight Bourbon",
+   "distillery": "Old Forester 1920 Prohibition Style Distillery",
+   "region": "Kentucky, USA",
+   "age": "NAS",
+   "abv_percent": 45,
+   "price_usd": 59.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Caramel",
+    "Vanilla",
+    "Oak"
+   ],
+   "description": "Whiskey Row series entry (only Birthday Bourbon currently carried).",
+   "url": "https://caskworth.com/products/old-forester-1920-prohibition-style",
+   "image": "https://caskworth.com/assets/images/products/old-forester-1920-prohibition-style.webp"
+  },
+  {
+   "slug": "heaven-hill-bottled-in-bond-7-year",
+   "name": "Heaven Hill Bottled in Bond 7 Year",
+   "category": "Bourbon",
+   "subcategory": "Bottled-in-Bond Bourbon",
+   "distillery": "Heaven Hill Bottled in Bond Distillery",
+   "region": "Kentucky, USA",
+   "age": "7yr",
+   "abv_percent": 50,
+   "price_usd": 45,
+   "currency": "USD",
+   "tasting_notes": [
+    "Caramel",
+    "Vanilla",
+    "Oak"
+   ],
+   "description": "Heaven Hill's flagship Bottled-in-Bond.",
+   "url": "https://caskworth.com/products/heaven-hill-bottled-in-bond-7-year",
+   "image": "https://caskworth.com/assets/images/products/heaven-hill-bottled-in-bond-7-year.webp"
+  },
+  {
+   "slug": "penelope-bourbon-toasted-series",
+   "name": "Penelope Bourbon Toasted Series",
+   "category": "Bourbon",
+   "subcategory": "Craft Bourbon",
+   "distillery": "Penelope Bourbon Distillery",
+   "region": "Kentucky, USA",
+   "age": "NAS",
+   "abv_percent": 45,
+   "price_usd": 67.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Caramel",
+    "Vanilla",
+    "Oak"
+   ],
+   "description": "Fast-growing independent KY brand, four-grain/toasted-barrel.",
+   "url": "https://caskworth.com/products/penelope-bourbon-toasted-series",
+   "image": "https://caskworth.com/assets/images/products/penelope-bourbon-toasted-series.webp"
+  },
+  {
+   "slug": "bib-and-tucker-6-year",
+   "name": "Bib & Tucker 6 Year",
+   "category": "Bourbon",
+   "subcategory": "Kentucky Straight Bourbon",
+   "distillery": "Bib & Tucker Distillery",
+   "region": "Kentucky, USA",
+   "age": "6yr",
+   "abv_percent": 50,
+   "price_usd": 44.97,
+   "currency": "USD",
+   "tasting_notes": [
+    "Caramel",
+    "Vanilla",
+    "Oak"
+   ],
+   "description": "Small batch with coffee-finished Gold Roast variant.",
+   "url": "https://caskworth.com/products/bib-and-tucker-6-year",
+   "image": "https://caskworth.com/assets/images/products/bib-and-tucker-6-year.webp"
+  },
+  {
+   "slug": "wathens-single-barrel",
+   "name": "Wathen's Single Barrel",
+   "category": "Bourbon",
+   "subcategory": "Kentucky Straight Bourbon",
+   "distillery": "Wathen's Distillery",
+   "region": "Kentucky, USA",
+   "age": "NAS",
+   "abv_percent": 45,
+   "price_usd": 52,
+   "currency": "USD",
+   "tasting_notes": [
+    "Caramel",
+    "Vanilla",
+    "Oak"
+   ],
+   "description": "Charles Medley Distillers heritage single barrel.",
+   "url": "https://caskworth.com/products/wathens-single-barrel",
+   "image": "https://caskworth.com/assets/images/products/wathens-single-barrel.webp"
+  },
+  {
+   "slug": "green-river-bourbon",
+   "name": "Green River Bourbon",
+   "category": "Bourbon",
+   "subcategory": "Kentucky Straight Bourbon",
+   "distillery": "Green River Bourbon Distillery",
+   "region": "Kentucky, USA",
+   "age": "NAS",
+   "abv_percent": 45,
+   "price_usd": 35,
+   "currency": "USD",
+   "tasting_notes": [
+    "Caramel",
+    "Vanilla",
+    "Oak"
+   ],
+   "description": "Revived historic Owensboro distillery, fast-growing new entrant.",
+   "url": "https://caskworth.com/products/green-river-bourbon",
+   "image": "https://caskworth.com/assets/images/products/green-river-bourbon.webp"
+  },
+  {
+   "slug": "horse-soldier-bourbon",
+   "name": "Horse Soldier Bourbon",
+   "category": "Bourbon",
+   "subcategory": "Kentucky Straight Bourbon",
+   "distillery": "Horse Soldier Bourbon Distillery",
+   "region": "Kentucky, USA",
+   "age": "NAS",
+   "abv_percent": 45,
+   "price_usd": 40.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Caramel",
+    "Vanilla",
+    "Oak"
+   ],
+   "description": "Veteran-founded brand (\"12 Strong\" film story).",
+   "url": "https://caskworth.com/products/horse-soldier-bourbon",
+   "image": "https://caskworth.com/assets/images/products/horse-soldier-bourbon.webp"
+  },
+  {
+   "slug": "george-remus-bourbon",
+   "name": "George Remus Bourbon",
+   "category": "Bourbon",
+   "subcategory": "Kentucky Straight Bourbon",
+   "distillery": "George Remus Bourbon Distillery",
+   "region": "Kentucky, USA",
+   "age": "NAS",
+   "abv_percent": 45,
+   "price_usd": 33,
+   "currency": "USD",
+   "tasting_notes": [
+    "Caramel",
+    "Vanilla",
+    "Oak"
+   ],
+   "description": "MGP-owned, Prohibition-gangster branding, wide distribution.",
+   "url": "https://caskworth.com/products/george-remus-bourbon",
+   "image": "https://caskworth.com/assets/images/products/george-remus-bourbon.webp"
+  },
+  {
+   "slug": "kentucky-owl-batch-8",
+   "name": "Kentucky Owl Batch 8",
+   "category": "Bourbon",
+   "subcategory": "Kentucky Straight Bourbon",
+   "distillery": "Kentucky Owl Distillery",
+   "region": "Kentucky, USA",
+   "age": "NAS",
+   "abv_percent": 45,
+   "price_usd": 682,
+   "currency": "USD",
+   "tasting_notes": [
+    "Caramel",
+    "Vanilla",
+    "Oak"
+   ],
+   "description": "Bardstown-based allocated batch-release brand; each numbered batch sells out and trades up on secondary.",
+   "url": "https://caskworth.com/products/kentucky-owl-batch-8",
+   "image": "https://caskworth.com/assets/images/products/kentucky-owl-batch-8.webp"
+  },
+  {
+   "slug": "black-maple-hill-16-year-old-premium-small-batch",
+   "name": "Black Maple Hill 16 Year Old Premium Small Batch",
+   "category": "Bourbon",
+   "subcategory": "Kentucky Straight Bourbon",
+   "distillery": "Black Maple Hill Distillery",
+   "region": "Kentucky, USA",
+   "age": "16yr",
+   "abv_percent": 45,
+   "price_usd": 3192,
+   "currency": "USD",
+   "tasting_notes": [
+    "Caramel",
+    "Vanilla",
+    "Oak"
+   ],
+   "description": "Cult independently-sourced/bottled brand; extremely limited remaining stock drives steep per-batch premiums.",
+   "url": "https://caskworth.com/products/black-maple-hill-16-year-old-premium-small-batch",
+   "image": "https://caskworth.com/assets/images/products/black-maple-hill-16-year-old-premium-small-batch.webp"
+  },
+  {
+   "slug": "rabbit-hole-founders-collection-nevallier-16-year",
+   "name": "Rabbit Hole Founder's Collection Nevallier 16 Year",
+   "category": "Bourbon",
+   "subcategory": "Kentucky Straight Bourbon",
+   "distillery": "Rabbit Hole Distillery",
+   "region": "Kentucky, USA",
+   "age": "16yr",
+   "abv_percent": 45,
+   "price_usd": 1444,
+   "currency": "USD",
+   "tasting_notes": [
+    "Caramel",
+    "Vanilla",
+    "Oak"
+   ],
+   "description": "Rabbit Hole's ultra-premium French-oak-finished annual Founder's release.",
+   "url": "https://caskworth.com/products/rabbit-hole-founders-collection-nevallier-16-year",
+   "image": "https://caskworth.com/assets/images/products/rabbit-hole-founders-collection-nevallier-16-year.webp"
+  },
+  {
+   "slug": "jeffersons-presidential-select-17-year",
+   "name": "Jefferson's Presidential Select 17 Year",
+   "category": "Bourbon",
+   "subcategory": "Wheated Bourbon",
+   "distillery": "Jefferson's Presidential Select Distillery",
+   "region": "Kentucky, USA",
+   "age": "17yr",
+   "abv_percent": 45,
+   "price_usd": 2982,
+   "currency": "USD",
+   "tasting_notes": [
+    "Caramel",
+    "Soft Wheat",
+    "Honey"
+   ],
+   "description": "Stitzel-Weller-sourced wheated bourbon; no MSRP set by the brand since 2013.",
+   "url": "https://caskworth.com/products/jeffersons-presidential-select-17-year",
+   "image": "https://caskworth.com/assets/images/products/jeffersons-presidential-select-17-year.webp"
+  },
+  {
+   "slug": "blue-run-single-barrel-cask-strength-135-year",
+   "name": "Blue Run Single Barrel Cask Strength 13.5 Year",
+   "category": "Bourbon",
+   "subcategory": "Cask Strength Bourbon",
+   "distillery": "Blue Run Distillery",
+   "region": "Kentucky, USA",
+   "age": "13.5yr",
+   "abv_percent": 60,
+   "price_usd": 1243,
+   "currency": "USD",
+   "tasting_notes": [
+    "Dark Caramel",
+    "Oak",
+    "Pepper"
+   ],
+   "description": "Fast-growing allocated brand; every release including this cask-strength single barrel sells out immediately online.",
+   "url": "https://caskworth.com/products/blue-run-single-barrel-cask-strength-135-year",
+   "image": "https://caskworth.com/assets/images/products/blue-run-single-barrel-cask-strength-135-year.webp"
+  },
+  {
+   "slug": "ah-hirsch-reserve-bourbon",
+   "name": "A.H. Hirsch Reserve",
+   "category": "Allocated",
+   "subcategory": "Allocated Bourbon",
+   "distillery": "A.H. Hirsch Reserve Distillery",
+   "region": "Kentucky, USA",
+   "age": "NAS",
+   "abv_percent": 45,
+   "price_usd": 7078,
+   "currency": "USD",
+   "tasting_notes": [
+    "Toffee",
+    "Oak",
+    "Dried Fruit"
+   ],
+   "description": "Legendary discontinued bourbon, among the highest secondary-market values in American whiskey.",
+   "url": "https://caskworth.com/products/ah-hirsch-reserve-bourbon",
+   "image": "https://caskworth.com/assets/images/products/ah-hirsch-reserve-bourbon.webp"
+  },
+  {
+   "slug": "willett-family-estate-single-barrel",
+   "name": "Willett Family Estate Single Barrel",
+   "category": "Allocated",
+   "subcategory": "Allocated Bourbon",
+   "distillery": "Willett Distillery",
+   "region": "Kentucky, USA",
+   "age": "NAS",
+   "abv_percent": 45,
+   "price_usd": 941,
+   "currency": "USD",
+   "tasting_notes": [
+    "Toffee",
+    "Oak",
+    "Dried Fruit"
+   ],
+   "description": "Among the most wanted bourbons on Wine-Searcher's tracked list, real allocated-market demand.",
+   "url": "https://caskworth.com/products/willett-family-estate-single-barrel",
+   "image": "https://caskworth.com/assets/images/products/willett-family-estate-single-barrel.webp"
+  },
+  {
+   "slug": "elmer-t-lee-bourbon",
+   "name": "Elmer T. Lee Single Barrel",
+   "category": "Allocated",
+   "subcategory": "Allocated Bourbon",
+   "distillery": "Elmer T. Lee Distillery",
+   "region": "Kentucky, USA",
+   "age": "NAS",
+   "abv_percent": 45,
+   "price_usd": 199.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Toffee",
+    "Oak",
+    "Dried Fruit"
+   ],
+   "description": "Buffalo Trace's namesake allocated bourbon, extremely high search + resale demand.",
+   "url": "https://caskworth.com/products/elmer-t-lee-bourbon",
+   "image": "https://caskworth.com/assets/images/products/elmer-t-lee-bourbon.webp"
+  },
+  {
+   "slug": "rock-hill-farms-bourbon",
+   "name": "Rock Hill Farms",
+   "category": "Allocated",
+   "subcategory": "Allocated Bourbon",
+   "distillery": "Rock Hill Farms Distillery",
+   "region": "Kentucky, USA",
+   "age": "NAS",
+   "abv_percent": 45,
+   "price_usd": 399.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Toffee",
+    "Oak",
+    "Dried Fruit"
+   ],
+   "description": "Buffalo Trace's single-barrel allocated release, complements your existing Antique Collection depth.",
+   "url": "https://caskworth.com/products/rock-hill-farms-bourbon",
+   "image": "https://caskworth.com/assets/images/products/rock-hill-farms-bourbon.webp"
+  },
+  {
+   "slug": "weller-12-year-bourbon",
+   "name": "W.L. Weller 12 Year",
+   "category": "Allocated",
+   "subcategory": "Allocated Bourbon",
+   "distillery": "W.L. Weller Distillery",
+   "region": "Kentucky, USA",
+   "age": "12yr",
+   "abv_percent": 60,
+   "price_usd": 209,
+   "currency": "USD",
+   "tasting_notes": [
+    "Toffee",
+    "Oak",
+    "Dried Fruit"
+   ],
+   "description": "The Weller line's most in-demand allocated expression (distinct from your carried Weller Full Proof).",
+   "url": "https://caskworth.com/products/weller-12-year-bourbon",
+   "image": "https://caskworth.com/assets/images/products/weller-12-year-bourbon.webp"
+  },
+  {
+   "slug": "weller-antique-107",
+   "name": "Weller Antique 107",
+   "category": "Allocated",
+   "subcategory": "Allocated Bourbon",
+   "distillery": "Weller Antique 107 Distillery",
+   "region": "Kentucky, USA",
+   "age": "NAS",
+   "abv_percent": 53.5,
+   "price_usd": 84.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Toffee",
+    "Oak",
+    "Dried Fruit"
+   ],
+   "description": "Standard-tier but heavily allocated Weller expression, real everyday-search volume.",
+   "url": "https://caskworth.com/products/weller-antique-107",
+   "image": "https://caskworth.com/assets/images/products/weller-antique-107.webp"
+  },
+  {
+   "slug": "eh-taylor-single-barrel-bourbon",
+   "name": "Colonel E.H. Taylor Single Barrel / Barrel Proof",
+   "category": "Allocated",
+   "subcategory": "Allocated Bourbon",
+   "distillery": "Colonel E.H. Taylor Distillery",
+   "region": "Kentucky, USA",
+   "age": "NAS",
+   "abv_percent": 50,
+   "price_usd": 344,
+   "currency": "USD",
+   "tasting_notes": [
+    "Toffee",
+    "Oak",
+    "Dried Fruit"
+   ],
+   "description": "Distinct from your carried E.H. Taylor Small Batch BiB — the Single Barrel and Barrel Proof tiers drive most of the brand's allocated search volume.",
+   "url": "https://caskworth.com/products/eh-taylor-single-barrel-bourbon",
+   "image": "https://caskworth.com/assets/images/products/eh-taylor-single-barrel-bourbon.webp"
+  },
+  {
+   "slug": "orphan-barrel-whiskey",
+   "name": "Orphan Barrel Series",
+   "category": "Allocated",
+   "subcategory": "Allocated Bourbon",
+   "distillery": "Orphan Barrel Series Distillery",
+   "region": "Kentucky, USA",
+   "age": "NAS",
+   "abv_percent": 45,
+   "price_usd": 555,
+   "currency": "USD",
+   "tasting_notes": [
+    "Toffee",
+    "Oak",
+    "Dried Fruit"
+   ],
+   "description": "Diageo's discovered-barrel allocated whiskey series (Barterhouse, Rhetoric, Lost Prophet), strong collector search interest.",
+   "url": "https://caskworth.com/products/orphan-barrel-whiskey",
+   "image": "https://caskworth.com/assets/images/products/orphan-barrel-whiskey.webp"
+  },
+  {
+   "slug": "old-carter-whiskey",
+   "name": "Old Carter Whiskey Co.",
+   "category": "Allocated",
+   "subcategory": "Allocated Bourbon",
+   "distillery": "Old Carter Whiskey Co. Distillery",
+   "region": "Kentucky, USA",
+   "age": "NAS",
+   "abv_percent": 45,
+   "price_usd": 492,
+   "currency": "USD",
+   "tasting_notes": [
+    "Toffee",
+    "Oak",
+    "Dried Fruit"
+   ],
+   "description": "High-scoring, fast-growing allocated sourced-whiskey brand with strong 2025-26 critical buzz.",
+   "url": "https://caskworth.com/products/old-carter-whiskey",
+   "image": "https://caskworth.com/assets/images/products/old-carter-whiskey.webp"
+  },
+  {
+   "slug": "four-roses-limited-edition-single-barrel",
+   "name": "Four Roses Limited Edition Single Barrel",
+   "category": "Allocated",
+   "subcategory": "Allocated Bourbon",
+   "distillery": "Four Roses Limited Edition Distillery",
+   "region": "Kentucky, USA",
+   "age": "NAS",
+   "abv_percent": 45,
+   "price_usd": 114.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Toffee",
+    "Oak",
+    "Dried Fruit"
+   ],
+   "description": "Annual September release is a marquee allocated-bourbon event.",
+   "url": "https://caskworth.com/products/four-roses-limited-edition-single-barrel",
+   "image": "https://caskworth.com/assets/images/products/four-roses-limited-edition-single-barrel.webp"
+  },
+  {
+   "slug": "very-olde-st-nick-15-year-ancient-cask",
+   "name": "Very Olde St. Nick 15 Year Ancient Cask",
+   "category": "Allocated",
+   "subcategory": "Allocated Bourbon",
+   "distillery": "Very Olde St. Nick Distillery",
+   "region": "Kentucky, USA",
+   "age": "15yr",
+   "abv_percent": 45,
+   "price_usd": 1500,
+   "currency": "USD",
+   "tasting_notes": [
+    "Toffee",
+    "Oak",
+    "Dried Fruit"
+   ],
+   "description": "Preservation Distillery's ultra-limited aged bourbon/rye line.",
+   "url": "https://caskworth.com/products/very-olde-st-nick-15-year-ancient-cask",
+   "image": "https://caskworth.com/assets/images/products/very-olde-st-nick-15-year-ancient-cask.webp"
+  },
+  {
+   "slug": "bookers-annual-batch-2026-01",
+   "name": "Booker's Annual Batch 2026-01",
+   "category": "Allocated",
+   "subcategory": "Allocated Bourbon",
+   "distillery": "Booker's Distillery",
+   "region": "Kentucky, USA",
+   "age": "NAS",
+   "abv_percent": 60,
+   "price_usd": 98,
+   "currency": "USD",
+   "tasting_notes": [
+    "Toffee",
+    "Oak",
+    "Dried Fruit"
+   ],
+   "description": "Named uncut/unfiltered batches produced in limited quantity.",
+   "url": "https://caskworth.com/products/bookers-annual-batch-2026-01",
+   "image": "https://caskworth.com/assets/images/products/bookers-annual-batch-2026-01.webp"
+  },
+  {
+   "slug": "old-rip-van-winkle-10-year",
+   "name": "Old Rip Van Winkle 10 Year",
+   "category": "Allocated",
+   "subcategory": "Allocated Bourbon",
+   "distillery": "Old Rip Van Winkle Distillery",
+   "region": "Kentucky, USA",
+   "age": "10yr",
+   "abv_percent": 45,
+   "price_usd": 995,
+   "currency": "USD",
+   "tasting_notes": [
+    "Toffee",
+    "Oak",
+    "Dried Fruit"
+   ],
+   "description": "Entry point to the full Van Winkle allocated lineup.",
+   "url": "https://caskworth.com/products/old-rip-van-winkle-10-year",
+   "image": "https://caskworth.com/assets/images/products/old-rip-van-winkle-10-year.webp"
+  },
+  {
+   "slug": "jeffersons-ocean-aged-at-sea",
+   "name": "Jefferson's Ocean Aged at Sea",
+   "category": "Allocated",
+   "subcategory": "Allocated Bourbon",
+   "distillery": "Jefferson's Ocean Aged at Sea Distillery",
+   "region": "Kentucky, USA",
+   "age": "NAS",
+   "abv_percent": 45,
+   "price_usd": 82.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Toffee",
+    "Oak",
+    "Dried Fruit"
+   ],
+   "description": "Bourbon aged at sea on cargo ships, voyage-numbered releases.",
+   "url": "https://caskworth.com/products/jeffersons-ocean-aged-at-sea",
+   "image": "https://caskworth.com/assets/images/products/jeffersons-ocean-aged-at-sea.webp"
+  },
+  {
+   "slug": "michters-bombergers-declaration",
+   "name": "Michter's Bomberger's Declaration",
+   "category": "Allocated",
+   "subcategory": "Allocated Bourbon",
+   "distillery": "Michter's Bomberger's Declaration Distillery",
+   "region": "Kentucky, USA",
+   "age": "NAS",
+   "abv_percent": 45,
+   "price_usd": 182,
+   "currency": "USD",
+   "tasting_notes": [
+    "Toffee",
+    "Oak",
+    "Dried Fruit"
+   ],
+   "description": "Ultra-limited \"Declaration\" line, single rarest available lot.",
+   "url": "https://caskworth.com/products/michters-bombergers-declaration",
+   "image": "https://caskworth.com/assets/images/products/michters-bombergers-declaration.webp"
+  },
+  {
+   "slug": "rare-character-obliteration-14-year-bourbon",
+   "name": "Rare Character Obliteration 14 Year Bourbon",
+   "category": "Allocated",
+   "subcategory": "Allocated Bourbon",
+   "distillery": "Rare Character Distillery",
+   "region": "Kentucky, USA",
+   "age": "14yr",
+   "abv_percent": 45,
+   "price_usd": 599,
+   "currency": "USD",
+   "tasting_notes": [
+    "Toffee",
+    "Oak",
+    "Dried Fruit"
+   ],
+   "description": "36-bottle release from 20 barrels that survived a warehouse fire.",
+   "url": "https://caskworth.com/products/rare-character-obliteration-14-year-bourbon",
+   "image": "https://caskworth.com/assets/images/products/rare-character-obliteration-14-year-bourbon.webp"
+  },
+  {
+   "slug": "boone-county-1833-12-year-single-barrel-bourbon",
+   "name": "Boone County 1833 12 Year Single Barrel Bourbon",
+   "category": "Allocated",
+   "subcategory": "Allocated Bourbon",
+   "distillery": "Boone County Distilling Distillery",
+   "region": "Kentucky, USA",
+   "age": "12yr",
+   "abv_percent": 45,
+   "price_usd": 647,
+   "currency": "USD",
+   "tasting_notes": [
+    "Toffee",
+    "Oak",
+    "Dried Fruit"
+   ],
+   "description": "Flagship heritage-tier release from a small independent Kentucky producer.",
+   "url": "https://caskworth.com/products/boone-county-1833-12-year-single-barrel-bourbon",
+   "image": "https://caskworth.com/assets/images/products/boone-county-1833-12-year-single-barrel-bourbon.webp"
+  },
+  {
+   "slug": "rabbit-hole-founders-collection-mizunara-cask-strength",
+   "name": "Rabbit Hole Founder's Collection Mizunara Cask Strength",
+   "category": "Allocated",
+   "subcategory": "Allocated Bourbon",
+   "distillery": "Rabbit Hole Distillery",
+   "region": "Kentucky, USA",
+   "age": "NAS",
+   "abv_percent": 60,
+   "price_usd": 1221.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Toffee",
+    "Oak",
+    "Dried Fruit"
+   ],
+   "description": "Japanese-oak-finished limited Founder's Collection drop.",
+   "url": "https://caskworth.com/products/rabbit-hole-founders-collection-mizunara-cask-strength",
+   "image": "https://caskworth.com/assets/images/products/rabbit-hole-founders-collection-mizunara-cask-strength.webp"
+  },
+  {
+   "slug": "kentucky-owl-batch-7-straight-bourbon",
+   "name": "Kentucky Owl Batch 7 Straight Bourbon",
+   "category": "Allocated",
+   "subcategory": "Allocated Bourbon",
+   "distillery": "Kentucky Owl Distillery",
+   "region": "Kentucky, USA",
+   "age": "NAS",
+   "abv_percent": 45,
+   "price_usd": 895,
+   "currency": "USD",
+   "tasting_notes": [
+    "Toffee",
+    "Oak",
+    "Dried Fruit"
+   ],
+   "description": "Older, discontinued numbered batch from the same allocated brand — different SKU from the Bourbon-category Batch 8.",
+   "url": "https://caskworth.com/products/kentucky-owl-batch-7-straight-bourbon",
+   "image": "https://caskworth.com/assets/images/products/kentucky-owl-batch-7-straight-bourbon.webp"
+  },
+  {
+   "slug": "black-maple-hill-premium-small-batch",
+   "name": "Black Maple Hill Premium Small Batch",
+   "category": "Allocated",
+   "subcategory": "Allocated Bourbon",
+   "distillery": "Black Maple Hill Distillery",
+   "region": "Kentucky, USA",
+   "age": "NAS",
+   "abv_percent": 45,
+   "price_usd": 1681,
+   "currency": "USD",
+   "tasting_notes": [
+    "Toffee",
+    "Oak",
+    "Dried Fruit"
+   ],
+   "description": "Non-vintage flagship bottling of the cult sourced-whiskey brand — different SKU from the Bourbon-category 16-Year.",
+   "url": "https://caskworth.com/products/black-maple-hill-premium-small-batch",
+   "image": "https://caskworth.com/assets/images/products/black-maple-hill-premium-small-batch.webp"
+  },
+  {
+   "slug": "old-overholt-rye-whiskey",
+   "name": "Old Overholt Extra Aged Cask Strength 11 Year",
+   "category": "Rye",
+   "subcategory": "Cask Strength Rye",
+   "distillery": "Old Overholt Extra Aged Distillery",
+   "region": "Kentucky, USA",
+   "age": "11yr",
+   "abv_percent": 60,
+   "price_usd": 109.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Black Pepper",
+    "Rye Spice",
+    "Citrus"
+   ],
+   "description": "Named best overall rye for 2026 by Men's Journal — a major, high-volume gap in your rye lineup.",
+   "url": "https://caskworth.com/products/old-overholt-rye-whiskey",
+   "image": "https://caskworth.com/assets/images/products/old-overholt-rye-whiskey.webp"
+  },
+  {
+   "slug": "high-west-double-rye",
+   "name": "High West Double Rye",
+   "category": "Rye",
+   "subcategory": "Straight Rye Whiskey",
+   "distillery": "High West Double Rye Distillery",
+   "region": "Kentucky, USA",
+   "age": "NAS",
+   "abv_percent": 45,
+   "price_usd": 35,
+   "currency": "USD",
+   "tasting_notes": [
+    "Black Pepper",
+    "Rye Spice",
+    "Citrus"
+   ],
+   "description": "Frequently recommended \"gateway rye\" in cocktail media.",
+   "url": "https://caskworth.com/products/high-west-double-rye",
+   "image": "https://caskworth.com/assets/images/products/high-west-double-rye.webp"
+  },
+  {
+   "slug": "templeton-rye-whiskey",
+   "name": "Templeton Rye",
+   "category": "Rye",
+   "subcategory": "Straight Rye Whiskey",
+   "distillery": "Templeton Rye Distillery",
+   "region": "Kentucky, USA",
+   "age": "NAS",
+   "abv_percent": 45,
+   "price_usd": 33.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Black Pepper",
+    "Rye Spice",
+    "Citrus"
+   ],
+   "description": "Well-known Prohibition-era recipe branded rye with strong retail search presence.",
+   "url": "https://caskworth.com/products/templeton-rye-whiskey",
+   "image": "https://caskworth.com/assets/images/products/templeton-rye-whiskey.webp"
+  },
+  {
+   "slug": "redemption-rye-whiskey",
+   "name": "Redemption Rye",
+   "category": "Rye",
+   "subcategory": "Craft Rye Whiskey",
+   "distillery": "Redemption Rye Distillery",
+   "region": "Kentucky, USA",
+   "age": "NAS",
+   "abv_percent": 45,
+   "price_usd": 27.49,
+   "currency": "USD",
+   "tasting_notes": [
+    "Black Pepper",
+    "Rye Spice",
+    "Citrus"
+   ],
+   "description": "Notable sourced/craft rye brand, strong cocktail and value-search volume.",
+   "url": "https://caskworth.com/products/redemption-rye-whiskey",
+   "image": "https://caskworth.com/assets/images/products/redemption-rye-whiskey.webp"
+  },
+  {
+   "slug": "dads-hat-rye-whiskey",
+   "name": "Dad's Hat",
+   "category": "Rye",
+   "subcategory": "Straight Rye Whiskey",
+   "distillery": "Dad's Hat Distillery",
+   "region": "Pennsylvania, USA",
+   "age": "NAS",
+   "abv_percent": 45,
+   "price_usd": 44.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Black Pepper",
+    "Rye Spice",
+    "Citrus"
+   ],
+   "description": "Leading Pennsylvania rye whiskey, real rye whiskey heritage search niche.",
+   "url": "https://caskworth.com/products/dads-hat-rye-whiskey",
+   "image": "https://caskworth.com/assets/images/products/dads-hat-rye-whiskey.webp"
+  },
+  {
+   "slug": "james-e-pepper-rye-whiskey",
+   "name": "James E. Pepper 1776",
+   "category": "Rye",
+   "subcategory": "Straight Rye Whiskey",
+   "distillery": "James E. Pepper 1776 Distillery",
+   "region": "Kentucky, USA",
+   "age": "NAS",
+   "abv_percent": 45,
+   "price_usd": 40.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Black Pepper",
+    "Rye Spice",
+    "Citrus"
+   ],
+   "description": "Historic rye brand with strong bartender/cocktail-culture search presence.",
+   "url": "https://caskworth.com/products/james-e-pepper-rye-whiskey",
+   "image": "https://caskworth.com/assets/images/products/james-e-pepper-rye-whiskey.webp"
+  },
+  {
+   "slug": "woodford-reserve-rye",
+   "name": "Woodford Reserve Rye",
+   "category": "Rye",
+   "subcategory": "Straight Rye Whiskey",
+   "distillery": "Woodford Reserve Rye Distillery",
+   "region": "Kentucky, USA",
+   "age": "NAS",
+   "abv_percent": 45,
+   "price_usd": 41.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Black Pepper",
+    "Rye Spice",
+    "Citrus"
+   ],
+   "description": "Distinct from your carried Woodford Reserve bourbon expressions — a natural, high-relevance line-extension gap.",
+   "url": "https://caskworth.com/products/woodford-reserve-rye",
+   "image": "https://caskworth.com/assets/images/products/woodford-reserve-rye.webp"
+  },
+  {
+   "slug": "pikesville-rye-whiskey",
+   "name": "Pikesville Rye",
+   "category": "Rye",
+   "subcategory": "Bottled-in-Bond Rye",
+   "distillery": "Pikesville Rye Distillery",
+   "region": "Kentucky, USA",
+   "age": "NAS",
+   "abv_percent": 50,
+   "price_usd": 56.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Black Pepper",
+    "Rye Spice",
+    "Citrus"
+   ],
+   "description": "Heaven Hill's premium bottled-in-bond rye, a genuine hidden gem with strong critic scores.",
+   "url": "https://caskworth.com/products/pikesville-rye-whiskey",
+   "image": "https://caskworth.com/assets/images/products/pikesville-rye-whiskey.webp"
+  },
+  {
+   "slug": "jack-daniels-rye-whiskey",
+   "name": "Jack Daniel's Rye",
+   "category": "Rye",
+   "subcategory": "Straight Rye Whiskey",
+   "distillery": "Jack Daniel's Rye Distillery",
+   "region": "Tennessee, USA",
+   "age": "NAS",
+   "abv_percent": 45,
+   "price_usd": 39.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Black Pepper",
+    "Rye Spice",
+    "Citrus"
+   ],
+   "description": "Distinct from your carried Jack Daniel's bourbon/Tennessee whiskey lineup — real, separate search volume.",
+   "url": "https://caskworth.com/products/jack-daniels-rye-whiskey",
+   "image": "https://caskworth.com/assets/images/products/jack-daniels-rye-whiskey.webp"
+  },
+  {
+   "slug": "wild-turkey-rye-101",
+   "name": "Wild Turkey Rye 101",
+   "category": "Rye",
+   "subcategory": "Straight Rye Whiskey",
+   "distillery": "Wild Turkey Rye 101 Distillery",
+   "region": "Kentucky, USA",
+   "age": "NAS",
+   "abv_percent": 50.5,
+   "price_usd": 41.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Black Pepper",
+    "Rye Spice",
+    "Citrus"
+   ],
+   "description": "Distinct from your carried Wild Turkey bourbon lineup — a natural line-extension gap.",
+   "url": "https://caskworth.com/products/wild-turkey-rye-101",
+   "image": "https://caskworth.com/assets/images/products/wild-turkey-rye-101.webp"
+  },
+  {
+   "slug": "russells-reserve-rye-whiskey",
+   "name": "Russell's Reserve Rye",
+   "category": "Rye",
+   "subcategory": "Straight Rye Whiskey",
+   "distillery": "Russell's Reserve Rye Distillery",
+   "region": "Kentucky, USA",
+   "age": "NAS",
+   "abv_percent": 50.5,
+   "price_usd": 42.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Black Pepper",
+    "Rye Spice",
+    "Citrus"
+   ],
+   "description": "Wild Turkey's premium rye tier, strong enthusiast search volume distinct from the standard Rye 101.",
+   "url": "https://caskworth.com/products/russells-reserve-rye-whiskey",
+   "image": "https://caskworth.com/assets/images/products/russells-reserve-rye-whiskey.webp"
+  },
+  {
+   "slug": "knob-creek-rye-whiskey",
+   "name": "Knob Creek Rye",
+   "category": "Rye",
+   "subcategory": "Straight Rye Whiskey",
+   "distillery": "Knob Creek Rye Distillery",
+   "region": "Kentucky, USA",
+   "age": "NAS",
+   "abv_percent": 45,
+   "price_usd": 44.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Black Pepper",
+    "Rye Spice",
+    "Citrus"
+   ],
+   "description": "Distinct from your carried Knob Creek 9 Year bourbon — real, separate search volume.",
+   "url": "https://caskworth.com/products/knob-creek-rye-whiskey",
+   "image": "https://caskworth.com/assets/images/products/knob-creek-rye-whiskey.webp"
+  },
+  {
+   "slug": "sagamore-spirit-straight-rye",
+   "name": "Sagamore Spirit Straight Rye",
+   "category": "Rye",
+   "subcategory": "Straight Rye Whiskey",
+   "distillery": "Sagamore Spirit Distillery",
+   "region": "Maryland, USA",
+   "age": "NAS",
+   "abv_percent": 45,
+   "price_usd": 40,
+   "currency": "USD",
+   "tasting_notes": [
+    "Black Pepper",
+    "Rye Spice",
+    "Citrus"
+   ],
+   "description": "Maryland-style rye revival brand from Baltimore.",
+   "url": "https://caskworth.com/products/sagamore-spirit-straight-rye",
+   "image": "https://caskworth.com/assets/images/products/sagamore-spirit-straight-rye.webp"
+  },
+  {
+   "slug": "rabbit-hole-boxergrail",
+   "name": "Rabbit Hole Boxergrail",
+   "category": "Rye",
+   "subcategory": "Craft Rye Whiskey",
+   "distillery": "Rabbit Hole Boxergrail Distillery",
+   "region": "Kentucky, USA",
+   "age": "NAS",
+   "abv_percent": 60,
+   "price_usd": 54.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Black Pepper",
+    "Rye Spice",
+    "Citrus"
+   ],
+   "description": "Louisville craft distillery's flagship cask-strength rye.",
+   "url": "https://caskworth.com/products/rabbit-hole-boxergrail",
+   "image": "https://caskworth.com/assets/images/products/rabbit-hole-boxergrail.webp"
+  },
+  {
+   "slug": "catoctin-creek-roundstone-rye",
+   "name": "Catoctin Creek Roundstone Rye",
+   "category": "Rye",
+   "subcategory": "Craft Rye Whiskey",
+   "distillery": "Catoctin Creek Roundstone Rye Distillery",
+   "region": "Virginia, USA",
+   "age": "NAS",
+   "abv_percent": 45,
+   "price_usd": 44.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Black Pepper",
+    "Rye Spice",
+    "Citrus"
+   ],
+   "description": "Virginia craft distillery, organic rye grain story.",
+   "url": "https://caskworth.com/products/catoctin-creek-roundstone-rye",
+   "image": "https://caskworth.com/assets/images/products/catoctin-creek-roundstone-rye.webp"
+  },
+  {
+   "slug": "old-forester-rye",
+   "name": "Old Forester Rye",
+   "category": "Rye",
+   "subcategory": "Straight Rye Whiskey",
+   "distillery": "Old Forester Rye Distillery",
+   "region": "Kentucky, USA",
+   "age": "NAS",
+   "abv_percent": 45,
+   "price_usd": 28,
+   "currency": "USD",
+   "tasting_notes": [
+    "Black Pepper",
+    "Rye Spice",
+    "Citrus"
+   ],
+   "description": "Brown-Forman's rye entry, single-barrel barrel-proof tier.",
+   "url": "https://caskworth.com/products/old-forester-rye",
+   "image": "https://caskworth.com/assets/images/products/old-forester-rye.webp"
+  },
+  {
+   "slug": "peerless-straight-rye",
+   "name": "Peerless Straight Rye",
+   "category": "Rye",
+   "subcategory": "Straight Rye Whiskey",
+   "distillery": "Peerless Distillery",
+   "region": "Kentucky, USA",
+   "age": "NAS",
+   "abv_percent": 45,
+   "price_usd": 99.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Black Pepper",
+    "Rye Spice",
+    "Citrus"
+   ],
+   "description": "Louisville's revived historic Peerless brand.",
+   "url": "https://caskworth.com/products/peerless-straight-rye",
+   "image": "https://caskworth.com/assets/images/products/peerless-straight-rye.webp"
+  },
+  {
+   "slug": "few-rye-whiskey",
+   "name": "FEW Rye Whiskey",
+   "category": "Rye",
+   "subcategory": "Craft Rye Whiskey",
+   "distillery": "FEW Rye Whiskey Distillery",
+   "region": "Kentucky, USA",
+   "age": "NAS",
+   "abv_percent": 45,
+   "price_usd": 45.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Black Pepper",
+    "Rye Spice",
+    "Citrus"
+   ],
+   "description": "Evanston, IL craft distillery, early post-Prohibition craft rye pioneer.",
+   "url": "https://caskworth.com/products/few-rye-whiskey",
+   "image": "https://caskworth.com/assets/images/products/few-rye-whiskey.webp"
+  },
+  {
+   "slug": "journeyman-ravenswood-rye",
+   "name": "Journeyman Ravenswood Rye",
+   "category": "Rye",
+   "subcategory": "Craft Rye Whiskey",
+   "distillery": "Journeyman Ravenswood Rye Distillery",
+   "region": "Michigan, USA",
+   "age": "NAS",
+   "abv_percent": 45,
+   "price_usd": 49.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Black Pepper",
+    "Rye Spice",
+    "Citrus"
+   ],
+   "description": "Michigan craft distillery, wheat-forward rye mash bill.",
+   "url": "https://caskworth.com/products/journeyman-ravenswood-rye",
+   "image": "https://caskworth.com/assets/images/products/journeyman-ravenswood-rye.webp"
+  },
+  {
+   "slug": "old-carter-straight-rye",
+   "name": "Old Carter Straight Rye",
+   "category": "Rye",
+   "subcategory": "Craft Rye Whiskey",
+   "distillery": "Old Carter Distillery",
+   "region": "Kentucky, USA",
+   "age": "NAS",
+   "abv_percent": 45,
+   "price_usd": 356,
+   "currency": "USD",
+   "tasting_notes": [
+    "Black Pepper",
+    "Rye Spice",
+    "Citrus"
+   ],
+   "description": "Independent KY bottler's high-proof rye counterpart to its bourbon.",
+   "url": "https://caskworth.com/products/old-carter-straight-rye",
+   "image": "https://caskworth.com/assets/images/products/old-carter-straight-rye.webp"
+  },
+  {
+   "slug": "kentucky-owl-rye-batch-1",
+   "name": "Kentucky Owl Rye Batch 1",
+   "category": "Rye",
+   "subcategory": "Straight Rye Whiskey",
+   "distillery": "Kentucky Owl Distillery",
+   "region": "Kentucky, USA",
+   "age": "NAS",
+   "abv_percent": 45,
+   "price_usd": 649.97,
+   "currency": "USD",
+   "tasting_notes": [
+    "Black Pepper",
+    "Rye Spice",
+    "Citrus"
+   ],
+   "description": "Kentucky Owl's rye program is now discontinued, driving demand for remaining numbered batches.",
+   "url": "https://caskworth.com/products/kentucky-owl-rye-batch-1",
+   "image": "https://caskworth.com/assets/images/products/kentucky-owl-rye-batch-1.webp"
+  },
+  {
+   "slug": "kentucky-owl-mardi-gras-xo-cask-rye",
+   "name": "Kentucky Owl Mardi Gras X.O. Cask Rye",
+   "category": "Rye",
+   "subcategory": "Straight Rye Whiskey",
+   "distillery": "Kentucky Owl Distillery",
+   "region": "Kentucky, USA",
+   "age": "NAS",
+   "abv_percent": 45,
+   "price_usd": 509,
+   "currency": "USD",
+   "tasting_notes": [
+    "Black Pepper",
+    "Rye Spice",
+    "Citrus"
+   ],
+   "description": "One-off finished-cask limited edition, separate from the standard 11-Year release.",
+   "url": "https://caskworth.com/products/kentucky-owl-mardi-gras-xo-cask-rye",
+   "image": "https://caskworth.com/assets/images/products/kentucky-owl-mardi-gras-xo-cask-rye.webp"
+  },
+  {
+   "slug": "thomas-h-handy-sazerac-rye",
+   "name": "Thomas H. Handy Sazerac Rye",
+   "category": "Rye",
+   "subcategory": "Straight Rye Whiskey",
+   "distillery": "Thomas H. Handy Distillery",
+   "region": "Kentucky, USA",
+   "age": "NAS",
+   "abv_percent": 45,
+   "price_usd": 549.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Black Pepper",
+    "Rye Spice",
+    "Citrus"
+   ],
+   "description": "Distinct annually-named Buffalo Trace Antique Collection release.",
+   "url": "https://caskworth.com/products/thomas-h-handy-sazerac-rye",
+   "image": "https://caskworth.com/assets/images/products/thomas-h-handy-sazerac-rye.webp"
+  },
+  {
+   "slug": "chicken-cock-cotton-club-20-year-rye",
+   "name": "Chicken Cock Cotton Club 20 Year Rye",
+   "category": "Rye",
+   "subcategory": "Straight Rye Whiskey",
+   "distillery": "Chicken Cock Distillery",
+   "region": "Kentucky, USA",
+   "age": "20yr",
+   "abv_percent": 45,
+   "price_usd": 549,
+   "currency": "USD",
+   "tasting_notes": [
+    "Black Pepper",
+    "Rye Spice",
+    "Citrus"
+   ],
+   "description": "Marketed as one of the oldest rye age statements at retail; sits right at MSRP floor with limited supply.",
+   "url": "https://caskworth.com/products/chicken-cock-cotton-club-20-year-rye",
+   "image": "https://caskworth.com/assets/images/products/chicken-cock-cotton-club-20-year-rye.webp"
+  },
+  {
+   "slug": "tesseron-cognac",
+   "name": "Tesseron Cognac",
+   "category": "Cognac",
+   "subcategory": "Ultra Premium Cognac",
+   "distillery": "Tesseron Cognac",
+   "region": "Cognac, France",
+   "age": "NAS",
+   "abv_percent": 40,
+   "price_usd": 139.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Dried Fruit",
+    "Vanilla",
+    "Oak"
+   ],
+   "description": "Prominent luxury/prestige cognac house with strong lot-numbered rarity marketing and real collector search volume.",
+   "url": "https://caskworth.com/products/tesseron-cognac",
+   "image": "https://caskworth.com/assets/images/products/tesseron-cognac.webp"
+  },
+  {
+   "slug": "leopold-gourmel-cognac",
+   "name": "Léopold Gourmel",
+   "category": "Cognac",
+   "subcategory": "Ultra Premium Cognac",
+   "distillery": "Léopold Gourmel",
+   "region": "Cognac, France",
+   "age": "NAS",
+   "abv_percent": 40,
+   "price_usd": 289.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Dried Fruit",
+    "Vanilla",
+    "Oak"
+   ],
+   "description": "Distinctive independent cognac house known for terroir-driven bottlings, real enthusiast search presence.",
+   "url": "https://caskworth.com/products/leopold-gourmel-cognac",
+   "image": "https://caskworth.com/assets/images/products/leopold-gourmel-cognac.webp"
+  },
+  {
+   "slug": "ragnaud-sabourin-cognac",
+   "name": "Ragnaud-Sabourin",
+   "category": "Cognac",
+   "subcategory": "Ultra Premium Cognac",
+   "distillery": "Ragnaud-Sabourin",
+   "region": "Cognac, France",
+   "age": "NAS",
+   "abv_percent": 40,
+   "price_usd": 87,
+   "currency": "USD",
+   "tasting_notes": [
+    "Dried Fruit",
+    "Vanilla",
+    "Oak"
+   ],
+   "description": "Respected small-grower Grande Champagne house, real collector/specialist search interest.",
+   "url": "https://caskworth.com/products/ragnaud-sabourin-cognac",
+   "image": "https://caskworth.com/assets/images/products/ragnaud-sabourin-cognac.webp"
+  },
+  {
+   "slug": "otard-cognac",
+   "name": "Otard",
+   "category": "Cognac",
+   "subcategory": "Ultra Premium Cognac",
+   "distillery": "Otard",
+   "region": "Cognac, France",
+   "age": "NAS",
+   "abv_percent": 40,
+   "price_usd": 36.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Dried Fruit",
+    "Vanilla",
+    "Oak"
+   ],
+   "description": "Historic cognac house (Château de Cognac), real brand-recognition search volume.",
+   "url": "https://caskworth.com/products/otard-cognac",
+   "image": "https://caskworth.com/assets/images/products/otard-cognac.webp"
+  },
+  {
+   "slug": "godet-cognac",
+   "name": "Godet",
+   "category": "Cognac",
+   "subcategory": "Ultra Premium Cognac",
+   "distillery": "Godet",
+   "region": "Cognac, France",
+   "age": "NAS",
+   "abv_percent": 40,
+   "price_usd": 52.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Dried Fruit",
+    "Vanilla",
+    "Oak"
+   ],
+   "description": "Well-known independent cognac house, real search presence among cognac specialists.",
+   "url": "https://caskworth.com/products/godet-cognac",
+   "image": "https://caskworth.com/assets/images/products/godet-cognac.webp"
+  },
+  {
+   "slug": "meukow-cognac",
+   "name": "Meukow",
+   "category": "Cognac",
+   "subcategory": "Ultra Premium Cognac",
+   "distillery": "Meukow",
+   "region": "Cognac, France",
+   "age": "NAS",
+   "abv_percent": 40,
+   "price_usd": 22.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Dried Fruit",
+    "Vanilla",
+    "Oak"
+   ],
+   "description": "Distinctive black-bottle cognac brand with real younger-demographic/nightlife search volume.",
+   "url": "https://caskworth.com/products/meukow-cognac",
+   "image": "https://caskworth.com/assets/images/products/meukow-cognac.webp"
+  },
+  {
+   "slug": "lheraud-cognac",
+   "name": "Lhéraud",
+   "category": "Cognac",
+   "subcategory": "Ultra Premium Cognac",
+   "distillery": "Lhéraud",
+   "region": "Cognac, France",
+   "age": "NAS",
+   "abv_percent": 40,
+   "price_usd": 119.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Dried Fruit",
+    "Vanilla",
+    "Oak"
+   ],
+   "description": "Small-grower cognac house known for extra-aged rarities, real specialist search interest.",
+   "url": "https://caskworth.com/products/lheraud-cognac",
+   "image": "https://caskworth.com/assets/images/products/lheraud-cognac.webp"
+  },
+  {
+   "slug": "dupuy-cognac",
+   "name": "Dupuy",
+   "category": "Cognac",
+   "subcategory": "Ultra Premium Cognac",
+   "distillery": "Dupuy",
+   "region": "Cognac, France",
+   "age": "NAS",
+   "abv_percent": 40,
+   "price_usd": 149.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Dried Fruit",
+    "Vanilla",
+    "Oak"
+   ],
+   "description": "Established cognac house with real presence in specialty retailer search results.",
+   "url": "https://caskworth.com/products/dupuy-cognac",
+   "image": "https://caskworth.com/assets/images/products/dupuy-cognac.webp"
+  },
+  {
+   "slug": "gautier-cognac",
+   "name": "Gautier Cognac",
+   "category": "Cognac",
+   "subcategory": "Ultra Premium Cognac",
+   "distillery": "Gautier Cognac",
+   "region": "Cognac, France",
+   "age": "NAS",
+   "abv_percent": 40,
+   "price_usd": 104.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Dried Fruit",
+    "Vanilla",
+    "Oak"
+   ],
+   "description": "One of the oldest cognac houses (founded 1755), real heritage-search angle.",
+   "url": "https://caskworth.com/products/gautier-cognac",
+   "image": "https://caskworth.com/assets/images/products/gautier-cognac.webp"
+  },
+  {
+   "slug": "abk6-cognac",
+   "name": "ABK6",
+   "category": "Cognac",
+   "subcategory": "Ultra Premium Cognac",
+   "distillery": "ABK6",
+   "region": "Cognac, France",
+   "age": "NAS",
+   "abv_percent": 40,
+   "price_usd": 54.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Dried Fruit",
+    "Vanilla",
+    "Oak"
+   ],
+   "description": "Modern, design-forward cognac house with real growing search presence among younger buyers.",
+   "url": "https://caskworth.com/products/abk6-cognac",
+   "image": "https://caskworth.com/assets/images/products/abk6-cognac.webp"
+  },
+  {
+   "slug": "normandin-mercier-cognac",
+   "name": "Normandin-Mercier",
+   "category": "Cognac",
+   "subcategory": "Ultra Premium Cognac",
+   "distillery": "Normandin-Mercier",
+   "region": "Cognac, France",
+   "age": "NAS",
+   "abv_percent": 40,
+   "price_usd": 169.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Dried Fruit",
+    "Vanilla",
+    "Oak"
+   ],
+   "description": "Respected small-batch cognac house, real specialist/collector search interest.",
+   "url": "https://caskworth.com/products/normandin-mercier-cognac",
+   "image": "https://caskworth.com/assets/images/products/normandin-mercier-cognac.webp"
+  },
+  {
+   "slug": "vallein-tercinier-cognac",
+   "name": "Vallein Tercinier",
+   "category": "Cognac",
+   "subcategory": "Ultra Premium Cognac",
+   "distillery": "Vallein Tercinier",
+   "region": "Cognac, France",
+   "age": "NAS",
+   "abv_percent": 40,
+   "price_usd": 149.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Dried Fruit",
+    "Vanilla",
+    "Oak"
+   ],
+   "description": "Acclaimed small-grower Petite Champagne house, strong specialist search presence.",
+   "url": "https://caskworth.com/products/vallein-tercinier-cognac",
+   "image": "https://caskworth.com/assets/images/products/vallein-tercinier-cognac.webp"
+  },
+  {
+   "slug": "larsen-vsop",
+   "name": "Larsen VSOP",
+   "category": "Cognac",
+   "subcategory": "VSOP Cognac",
+   "distillery": "Larsen",
+   "region": "Cognac, France",
+   "age": "NAS",
+   "abv_percent": 40,
+   "price_usd": 139.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Dried Fruit",
+    "Vanilla",
+    "Oak"
+   ],
+   "description": "Danish-founded house (1926), distinctive Viking-ship packaging.",
+   "url": "https://caskworth.com/products/larsen-vsop",
+   "image": "https://caskworth.com/assets/images/products/larsen-vsop.webp"
+  },
+  {
+   "slug": "prunier-vsop-grande-champagne",
+   "name": "Prunier VSOP Grande Champagne",
+   "category": "Cognac",
+   "subcategory": "Grande Champagne Cognac",
+   "distillery": "Prunier",
+   "region": "Cognac, France",
+   "age": "NAS",
+   "abv_percent": 40,
+   "price_usd": 169.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Dried Fruit",
+    "Vanilla",
+    "Oak"
+   ],
+   "description": "Historic (1701) Grande Champagne house, one of the oldest in the region.",
+   "url": "https://caskworth.com/products/prunier-vsop-grande-champagne",
+   "image": "https://caskworth.com/assets/images/products/prunier-vsop-grande-champagne.webp"
+  },
+  {
+   "slug": "croizet-vsop",
+   "name": "Croizet VSOP",
+   "category": "Cognac",
+   "subcategory": "VSOP Cognac",
+   "distillery": "Croizet",
+   "region": "Cognac, France",
+   "age": "NAS",
+   "abv_percent": 40,
+   "price_usd": 179.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Dried Fruit",
+    "Vanilla",
+    "Oak"
+   ],
+   "description": "Grande Champagne 1er Cru house, famous ultra-aged 1928 bottling.",
+   "url": "https://caskworth.com/products/croizet-vsop",
+   "image": "https://caskworth.com/assets/images/products/croizet-vsop.webp"
+  },
+  {
+   "slug": "merlet-vsop",
+   "name": "Merlet VSOP",
+   "category": "Cognac",
+   "subcategory": "VSOP Cognac",
+   "distillery": "Merlet",
+   "region": "Cognac, France",
+   "age": "NAS",
+   "abv_percent": 40,
+   "price_usd": 54.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Dried Fruit",
+    "Vanilla",
+    "Oak"
+   ],
+   "description": "Family-owned distiller, accessible VSOP price point.",
+   "url": "https://caskworth.com/products/merlet-vsop",
+   "image": "https://caskworth.com/assets/images/products/merlet-vsop.webp"
+  },
+  {
+   "slug": "ae-dor-vsop-fine-champagne",
+   "name": "A.E. Dor VSOP Fine Champagne",
+   "category": "Cognac",
+   "subcategory": "Fine Champagne Cognac",
+   "distillery": "A.E. Dor",
+   "region": "Cognac, France",
+   "age": "NAS",
+   "abv_percent": 40,
+   "price_usd": 269.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Dried Fruit",
+    "Vanilla",
+    "Oak"
+   ],
+   "description": "Historic merchant house renowned for extremely old reserves.",
+   "url": "https://caskworth.com/products/ae-dor-vsop-fine-champagne",
+   "image": "https://caskworth.com/assets/images/products/ae-dor-vsop-fine-champagne.webp"
+  },
+  {
+   "slug": "renault-vsop-carte-noire",
+   "name": "Renault VSOP Carte Noire",
+   "category": "Cognac",
+   "subcategory": "VSOP Cognac",
+   "distillery": "Renault",
+   "region": "Cognac, France",
+   "age": "NAS",
+   "abv_percent": 40,
+   "price_usd": 209.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Dried Fruit",
+    "Vanilla",
+    "Oak"
+   ],
+   "description": "One of the oldest recorded Cognac trading houses.",
+   "url": "https://caskworth.com/products/renault-vsop-carte-noire",
+   "image": "https://caskworth.com/assets/images/products/renault-vsop-carte-noire.webp"
+  },
+  {
+   "slug": "bache-gabrielsen-vsop-pure-and-rustic",
+   "name": "Bache-Gabrielsen VSOP Pure & Rustic",
+   "category": "Cognac",
+   "subcategory": "VSOP Cognac",
+   "distillery": "Bache-Gabrielsen",
+   "region": "Cognac, France",
+   "age": "NAS",
+   "abv_percent": 40,
+   "price_usd": 67.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Dried Fruit",
+    "Vanilla",
+    "Oak"
+   ],
+   "description": "Norwegian-founded house, innovative cask-finish/minimal-dosage bottlings.",
+   "url": "https://caskworth.com/products/bache-gabrielsen-vsop-pure-and-rustic",
+   "image": "https://caskworth.com/assets/images/products/bache-gabrielsen-vsop-pure-and-rustic.webp"
+  },
+  {
+   "slug": "grosperrin-18-year-old",
+   "name": "Grosperrin 18 Year Old",
+   "category": "Cognac",
+   "subcategory": "Ultra Premium Cognac",
+   "distillery": "Grosperrin",
+   "region": "Cognac, France",
+   "age": "18yr",
+   "abv_percent": 40,
+   "price_usd": 149.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Dried Fruit",
+    "Vanilla",
+    "Oak"
+   ],
+   "description": "Prestige independent bottler favored by enthusiast communities; grower-producer angle.",
+   "url": "https://caskworth.com/products/grosperrin-18-year-old",
+   "image": "https://caskworth.com/assets/images/products/grosperrin-18-year-old.webp"
+  },
+  {
+   "slug": "hardy-noces-dor-sublime-50-year-old",
+   "name": "Hardy Noces d'Or Sublime 50 Year Old",
+   "category": "Cognac",
+   "subcategory": "Ultra Premium Cognac",
+   "distillery": "Hardy",
+   "region": "Cognac, France",
+   "age": "50yr",
+   "abv_percent": 40,
+   "price_usd": 599.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Dried Fruit",
+    "Vanilla",
+    "Oak"
+   ],
+   "description": "5th-generation family house (est. 1863); flagship 50-year Grande/Fine Champagne bottling in etched rooster decanter.",
+   "url": "https://caskworth.com/products/hardy-noces-dor-sublime-50-year-old",
+   "image": "https://caskworth.com/assets/images/products/hardy-noces-dor-sublime-50-year-old.webp"
+  },
+  {
+   "slug": "jcb-xo-grande-champagne-cognac",
+   "name": "JCB XO Grande Champagne Cognac",
+   "category": "Cognac",
+   "subcategory": "Grande Champagne Cognac",
+   "distillery": "JCB",
+   "region": "Cognac, France",
+   "age": "NAS",
+   "abv_percent": 40,
+   "price_usd": 789.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Dried Fruit",
+    "Vanilla",
+    "Oak"
+   ],
+   "description": "Personal luxury cognac project of celebrity Burgundy winemaker Jean-Charles Boisset.",
+   "url": "https://caskworth.com/products/jcb-xo-grande-champagne-cognac",
+   "image": "https://caskworth.com/assets/images/products/jcb-xo-grande-champagne-cognac.webp"
+  },
+  {
+   "slug": "scotch-malt-whisky-society-cognac-nectar-celeste",
+   "name": "Scotch Malt Whisky Society Cognac Nectar Céleste",
+   "category": "Cognac",
+   "subcategory": "Ultra Premium Cognac",
+   "distillery": "Scotch Malt Whisky Society",
+   "region": "Cognac, France",
+   "age": "NAS",
+   "abv_percent": 40,
+   "price_usd": 999.97,
+   "currency": "USD",
+   "tasting_notes": [
+    "Dried Fruit",
+    "Vanilla",
+    "Oak"
+   ],
+   "description": "SMWS (est. 1983, ~35,000 global members) rarely releases non-Scotch casks; single-cask, undisclosed-house Cognac.",
+   "url": "https://caskworth.com/products/scotch-malt-whisky-society-cognac-nectar-celeste",
+   "image": "https://caskworth.com/assets/images/products/scotch-malt-whisky-society-cognac-nectar-celeste.webp"
+  },
+  {
+   "slug": "francois-voyer-hors-dage-grande-champagne-cognac",
+   "name": "François Voyer Hors d'Âge Grande Champagne Cognac",
+   "category": "Cognac",
+   "subcategory": "Grande Champagne Cognac",
+   "distillery": "François Voyer",
+   "region": "Cognac, France",
+   "age": "NAS",
+   "abv_percent": 40,
+   "price_usd": 1099.97,
+   "currency": "USD",
+   "tasting_notes": [
+    "Dried Fruit",
+    "Vanilla",
+    "Oak"
+   ],
+   "description": "Small grower-producer, 100% Grande Champagne cru (top designation); no chill-filtration.",
+   "url": "https://caskworth.com/products/francois-voyer-hors-dage-grande-champagne-cognac",
+   "image": "https://caskworth.com/assets/images/products/francois-voyer-hors-dage-grande-champagne-cognac.webp"
+  },
+  {
+   "slug": "l-de-salignac-fine-champagne-extra-cognac-50-year-old",
+   "name": "L. de Salignac Fine Champagne Extra Cognac 50 Year Old",
+   "category": "Cognac",
+   "subcategory": "Fine Champagne Cognac",
+   "distillery": "L. de Salignac",
+   "region": "Cognac, France",
+   "age": "50yr",
+   "abv_percent": 40,
+   "price_usd": 1999.97,
+   "currency": "USD",
+   "tasting_notes": [
+    "Dried Fruit",
+    "Vanilla",
+    "Oak"
+   ],
+   "description": "Historic house tied to Cognac's 19th-century merchant families; single-decade vintage bottling now 60+ years old.",
+   "url": "https://caskworth.com/products/l-de-salignac-fine-champagne-extra-cognac-50-year-old",
+   "image": "https://caskworth.com/assets/images/products/l-de-salignac-fine-champagne-extra-cognac-50-year-old.webp"
+  },
+  {
+   "slug": "lot-no-40-canadian-whisky",
+   "name": "Lot No. 40",
+   "category": "Canadian",
+   "subcategory": "Blended Canadian Whisky",
+   "distillery": "Lot No. 40 Distillery",
+   "region": "Canada",
+   "age": "NAS",
+   "abv_percent": 40,
+   "price_usd": 48.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Caramel",
+    "Vanilla",
+    "Toffee"
+   ],
+   "description": "Corby's flagship 100% rye Canadian whisky, among the most critically acclaimed and searched Canadian whiskies.",
+   "url": "https://caskworth.com/products/lot-no-40-canadian-whisky",
+   "image": "https://caskworth.com/assets/images/products/lot-no-40-canadian-whisky.webp"
+  },
+  {
+   "slug": "gooderham-and-worts-canadian-whisky",
+   "name": "Gooderham & Worts",
+   "category": "Canadian",
+   "subcategory": "Blended Canadian Whisky",
+   "distillery": "Gooderham & Worts Distillery",
+   "region": "Canada",
+   "age": "NAS",
+   "abv_percent": 40,
+   "price_usd": 46.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Caramel",
+    "Vanilla",
+    "Toffee"
+   ],
+   "description": "Corby's premium blended Canadian whisky, real high-end search presence.",
+   "url": "https://caskworth.com/products/gooderham-and-worts-canadian-whisky",
+   "image": "https://caskworth.com/assets/images/products/gooderham-and-worts-canadian-whisky.webp"
+  },
+  {
+   "slug": "caribou-crossing-canadian-whisky",
+   "name": "Caribou Crossing",
+   "category": "Canadian",
+   "subcategory": "Blended Canadian Whisky",
+   "distillery": "Caribou Crossing Distillery",
+   "region": "Canada",
+   "age": "NAS",
+   "abv_percent": 40,
+   "price_usd": 56.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Caramel",
+    "Vanilla",
+    "Toffee"
+   ],
+   "description": "Sazerac's single-barrel Canadian whisky, a genuine allocated Canadian search niche.",
+   "url": "https://caskworth.com/products/caribou-crossing-canadian-whisky",
+   "image": "https://caskworth.com/assets/images/products/caribou-crossing-canadian-whisky.webp"
+  },
+  {
+   "slug": "pendleton-canadian-whisky",
+   "name": "Pendleton",
+   "category": "Canadian",
+   "subcategory": "Blended Canadian Whisky",
+   "distillery": "Pendleton Distillery",
+   "region": "Alberta, Canada",
+   "age": "NAS",
+   "abv_percent": 40,
+   "price_usd": 89.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Caramel",
+    "Vanilla",
+    "Toffee"
+   ],
+   "description": "Hood River-finished, Alberta-distilled whisky with a real dedicated US Western-market following.",
+   "url": "https://caskworth.com/products/pendleton-canadian-whisky",
+   "image": "https://caskworth.com/assets/images/products/pendleton-canadian-whisky.webp"
+  },
+  {
+   "slug": "canadian-mist-whisky",
+   "name": "Canadian Mist",
+   "category": "Canadian",
+   "subcategory": "Blended Canadian Whisky",
+   "distillery": "Canadian Mist Distillery",
+   "region": "Canada",
+   "age": "NAS",
+   "abv_percent": 40,
+   "price_usd": 8.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Caramel",
+    "Vanilla",
+    "Toffee"
+   ],
+   "description": "High-volume, widely searched everyday Canadian whisky brand.",
+   "url": "https://caskworth.com/products/canadian-mist-whisky",
+   "image": "https://caskworth.com/assets/images/products/canadian-mist-whisky.webp"
+  },
+  {
+   "slug": "black-velvet-canadian-whisky",
+   "name": "Black Velvet",
+   "category": "Canadian",
+   "subcategory": "Blended Canadian Whisky",
+   "distillery": "Black Velvet Distillery",
+   "region": "Canada",
+   "age": "NAS",
+   "abv_percent": 40,
+   "price_usd": 12.49,
+   "currency": "USD",
+   "tasting_notes": [
+    "Caramel",
+    "Vanilla",
+    "Toffee"
+   ],
+   "description": "One of the highest-volume Canadian whisky brands in the US market, notable gap.",
+   "url": "https://caskworth.com/products/black-velvet-canadian-whisky",
+   "image": "https://caskworth.com/assets/images/products/black-velvet-canadian-whisky.webp"
+  },
+  {
+   "slug": "seagrams-vo-canadian-whisky",
+   "name": "Seagram's VO",
+   "category": "Canadian",
+   "subcategory": "Blended Canadian Whisky",
+   "distillery": "Seagram's VO Distillery",
+   "region": "Canada",
+   "age": "NAS",
+   "abv_percent": 40,
+   "price_usd": 14.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Caramel",
+    "Vanilla",
+    "Toffee"
+   ],
+   "description": "Historic, high-volume Canadian whisky brand with enduring search presence.",
+   "url": "https://caskworth.com/products/seagrams-vo-canadian-whisky",
+   "image": "https://caskworth.com/assets/images/products/seagrams-vo-canadian-whisky.webp"
+  },
+  {
+   "slug": "gibsons-finest-canadian-whisky",
+   "name": "Gibson's Finest",
+   "category": "Canadian",
+   "subcategory": "Blended Canadian Whisky",
+   "distillery": "Gibson's Distillery",
+   "region": "Canada",
+   "age": "NAS",
+   "abv_percent": 40,
+   "price_usd": 71.95,
+   "currency": "USD",
+   "tasting_notes": [
+    "Caramel",
+    "Vanilla",
+    "Toffee"
+   ],
+   "description": "Major Canadian whisky brand (Rare 12/18 year tiers), real premium-search volume.",
+   "url": "https://caskworth.com/products/gibsons-finest-canadian-whisky",
+   "image": "https://caskworth.com/assets/images/products/gibsons-finest-canadian-whisky.webp"
+  },
+  {
+   "slug": "two-brewers-whisky",
+   "name": "Two Brewers",
+   "category": "Canadian",
+   "subcategory": "Canadian Single Malt",
+   "distillery": "Two Brewers Distillery",
+   "region": "Yukon, Canada",
+   "age": "NAS",
+   "abv_percent": 40,
+   "price_usd": 119.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Caramel",
+    "Vanilla",
+    "Toffee"
+   ],
+   "description": "Yukon's acclaimed craft single malt distillery, strong purist/collector search interest, real regional novelty.",
+   "url": "https://caskworth.com/products/two-brewers-whisky",
+   "image": "https://caskworth.com/assets/images/products/two-brewers-whisky.webp"
+  },
+  {
+   "slug": "jp-wisers-legacy-canadian-whisky",
+   "name": "J.P. Wiser's Legacy",
+   "category": "Canadian",
+   "subcategory": "Blended Canadian Whisky",
+   "distillery": "J.P. Wiser's Legacy Distillery",
+   "region": "Canada",
+   "age": "NAS",
+   "abv_percent": 40,
+   "price_usd": 44.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Caramel",
+    "Vanilla",
+    "Toffee"
+   ],
+   "description": "Award pedigree frequently cited in Canadian whisky rankings.",
+   "url": "https://caskworth.com/products/jp-wisers-legacy-canadian-whisky",
+   "image": "https://caskworth.com/assets/images/products/jp-wisers-legacy-canadian-whisky.webp"
+  },
+  {
+   "slug": "wayne-gretzky-no99-red-cask",
+   "name": "Wayne Gretzky No.99 Red Cask",
+   "category": "Canadian",
+   "subcategory": "Blended Canadian Whisky",
+   "distillery": "Wayne Gretzky No.99 Red Cask Distillery",
+   "region": "Canada",
+   "age": "NAS",
+   "abv_percent": 40,
+   "price_usd": 29.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Caramel",
+    "Vanilla",
+    "Toffee"
+   ],
+   "description": "Celebrity-branded whisky, red-wine-barrel finish, US retail expansion.",
+   "url": "https://caskworth.com/products/wayne-gretzky-no99-red-cask",
+   "image": "https://caskworth.com/assets/images/products/wayne-gretzky-no99-red-cask.webp"
+  },
+  {
+   "slug": "mastersons-10-year-straight-rye",
+   "name": "Masterson's 10 Year Straight Rye",
+   "category": "Canadian",
+   "subcategory": "Canadian Rye Whisky",
+   "distillery": "Masterson's Distillery",
+   "region": "Alberta, Canada",
+   "age": "10yr",
+   "abv_percent": 40,
+   "price_usd": 86.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Rye Spice",
+    "Vanilla",
+    "Caramel"
+   ],
+   "description": "Cult favorite among rye enthusiasts (Alberta-distilled, US-bottled).",
+   "url": "https://caskworth.com/products/mastersons-10-year-straight-rye",
+   "image": "https://caskworth.com/assets/images/products/mastersons-10-year-straight-rye.webp"
+  },
+  {
+   "slug": "dillons-small-batch-rye",
+   "name": "Dillon's Small Batch Rye",
+   "category": "Canadian",
+   "subcategory": "Canadian Rye Whisky",
+   "distillery": "Dillon's Small Batch Rye Distillery",
+   "region": "Ontario, Canada",
+   "age": "NAS",
+   "abv_percent": 40,
+   "price_usd": 49.95,
+   "currency": "USD",
+   "tasting_notes": [
+    "Rye Spice",
+    "Vanilla",
+    "Caramel"
+   ],
+   "description": "Leading Ontario craft distillery, triple-oak-aged, 100% Ontario grain.",
+   "url": "https://caskworth.com/products/dillons-small-batch-rye",
+   "image": "https://caskworth.com/assets/images/products/dillons-small-batch-rye.webp"
+  },
+  {
+   "slug": "eau-claire-distillery-ruperts-whisky",
+   "name": "Eau Claire Distillery Rupert's Whisky",
+   "category": "Canadian",
+   "subcategory": "Blended Canadian Whisky",
+   "distillery": "Eau Claire Distillery Rupert's Whisky Distillery",
+   "region": "Alberta, Canada",
+   "age": "NAS",
+   "abv_percent": 40,
+   "price_usd": 39.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Caramel",
+    "Vanilla",
+    "Toffee"
+   ],
+   "description": "Award-winning Alberta craft distillery, underrepresented Western-Canada craft category.",
+   "url": "https://caskworth.com/products/eau-claire-distillery-ruperts-whisky",
+   "image": "https://caskworth.com/assets/images/products/eau-claire-distillery-ruperts-whisky.webp"
+  },
+  {
+   "slug": "jp-wisers-deluxe",
+   "name": "J.P. Wiser's Deluxe",
+   "category": "Canadian",
+   "subcategory": "Blended Canadian Whisky",
+   "distillery": "J.P. Wiser's Deluxe Distillery",
+   "region": "Canada",
+   "age": "NAS",
+   "abv_percent": 40,
+   "price_usd": 21.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Caramel",
+    "Vanilla",
+    "Toffee"
+   ],
+   "description": "Core flagship Wiser's expression, complements existing 18yr/35yr tiers.",
+   "url": "https://caskworth.com/products/jp-wisers-deluxe",
+   "image": "https://caskworth.com/assets/images/products/jp-wisers-deluxe.webp"
+  },
+  {
+   "slug": "okanagan-spirits-laird-of-fintry",
+   "name": "Okanagan Spirits Laird of Fintry",
+   "category": "Canadian",
+   "subcategory": "Canadian Single Malt",
+   "distillery": "Okanagan Spirits Laird of Fintry Distillery",
+   "region": "Canada",
+   "age": "NAS",
+   "abv_percent": 40,
+   "price_usd": 85,
+   "currency": "USD",
+   "tasting_notes": [
+    "Caramel",
+    "Vanilla",
+    "Toffee"
+   ],
+   "description": "BC craft single malt, rum-cask finish, limited-release cachet.",
+   "url": "https://caskworth.com/products/okanagan-spirits-laird-of-fintry",
+   "image": "https://caskworth.com/assets/images/products/okanagan-spirits-laird-of-fintry.webp"
+  },
+  {
+   "slug": "rare-hare-lucky-bastard-30-year-canadian-whiskey",
+   "name": "Rare Hare Lucky Bastard 30 Year Canadian Whiskey",
+   "category": "Canadian",
+   "subcategory": "Blended Canadian Whisky",
+   "distillery": "Rare Hare Distillery",
+   "region": "Canada",
+   "age": "30yr",
+   "abv_percent": 40,
+   "price_usd": 599.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Caramel",
+    "Vanilla",
+    "Toffee"
+   ],
+   "description": "Only 2,500 bottles; Playboy Spirits' first Canadian whisky, aged 30 years then 120-day French cask finish.",
+   "url": "https://caskworth.com/products/rare-hare-lucky-bastard-30-year-canadian-whiskey",
+   "image": "https://caskworth.com/assets/images/products/rare-hare-lucky-bastard-30-year-canadian-whiskey.webp"
+  },
+  {
+   "slug": "barrell-craft-spirits-seagrass-gold-label-20-year-old-canadian-rye",
+   "name": "Barrell Craft Spirits Seagrass Gold Label 20 Year Old Canadian Rye",
+   "category": "Canadian",
+   "subcategory": "Canadian Rye Whisky",
+   "distillery": "Barrell Craft Spirits Distillery",
+   "region": "Canada",
+   "age": "20yr",
+   "abv_percent": 40,
+   "price_usd": 509.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Rye Spice",
+    "Vanilla",
+    "Caramel"
+   ],
+   "description": "Cult NDP bottler; blends two 100% Canadian rye barrel sets across 3 cask finishes.",
+   "url": "https://caskworth.com/products/barrell-craft-spirits-seagrass-gold-label-20-year-old-canadian-rye",
+   "image": "https://caskworth.com/assets/images/products/barrell-craft-spirits-seagrass-gold-label-20-year-old-canadian-rye.webp"
+  },
+  {
+   "slug": "chicken-cock-cotton-club-20-year-old-canadian-rye-whiskey",
+   "name": "Chicken Cock Cotton Club 20 Year Old Canadian Rye Whiskey",
+   "category": "Canadian",
+   "subcategory": "Canadian Rye Whisky",
+   "distillery": "Chicken Cock Distillery",
+   "region": "Canada",
+   "age": "20yr",
+   "abv_percent": 40,
+   "price_usd": 515.84,
+   "currency": "USD",
+   "tasting_notes": [
+    "Rye Spice",
+    "Vanilla",
+    "Caramel"
+   ],
+   "description": "Revived Prohibition-era brand smuggled from Canada in tin cans; ~1,600-bottle release in replica apothecary bottle.",
+   "url": "https://caskworth.com/products/chicken-cock-cotton-club-20-year-old-canadian-rye-whiskey",
+   "image": "https://caskworth.com/assets/images/products/chicken-cock-cotton-club-20-year-old-canadian-rye-whiskey.webp"
+  },
+  {
+   "slug": "found-north-peregrine-first-flight-21-year-old-cask-strength",
+   "name": "Found North Peregrine First Flight 21 Year Old Cask Strength",
+   "category": "Canadian",
+   "subcategory": "Blended Canadian Whisky",
+   "distillery": "Found North Distillery",
+   "region": "Canada",
+   "age": "21yr",
+   "abv_percent": 60,
+   "price_usd": 650,
+   "currency": "USD",
+   "tasting_notes": [
+    "Caramel",
+    "Vanilla",
+    "Toffee"
+   ],
+   "description": "One of the few dedicated Canadian whisky blending houses; limited to 1,602 bottles.",
+   "url": "https://caskworth.com/products/found-north-peregrine-first-flight-21-year-old-cask-strength",
+   "image": "https://caskworth.com/assets/images/products/found-north-peregrine-first-flight-21-year-old-cask-strength.webp"
+  },
+  {
+   "slug": "orphan-barrel-entrapment-25-year-old-canadian-whisky",
+   "name": "Orphan Barrel Entrapment 25 Year Old Canadian Whisky",
+   "category": "Canadian",
+   "subcategory": "Blended Canadian Whisky",
+   "distillery": "Orphan Barrel Distillery",
+   "region": "Canada",
+   "age": "25yr",
+   "abv_percent": 40,
+   "price_usd": 599.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Caramel",
+    "Vanilla",
+    "Toffee"
+   ],
+   "description": "Diageo's first Canadian release under its Orphan Barrel discovery series; discontinued, now collector-only.",
+   "url": "https://caskworth.com/products/orphan-barrel-entrapment-25-year-old-canadian-whisky",
+   "image": "https://caskworth.com/assets/images/products/orphan-barrel-entrapment-25-year-old-canadian-whisky.webp"
+  },
+  {
+   "slug": "korbel-brandy",
+   "name": "Korbel Brandy",
+   "category": "Brandy",
+   "subcategory": "Grape Brandy",
+   "distillery": "Korbel Brandy",
+   "region": "California, USA",
+   "age": "NAS",
+   "abv_percent": 40,
+   "price_usd": 31.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Dried Fruit",
+    "Toffee",
+    "Oak"
+   ],
+   "description": "Confirmed one of the best-selling American brandy brands in the US, a significant, high-volume gap.",
+   "url": "https://caskworth.com/products/korbel-brandy",
+   "image": "https://caskworth.com/assets/images/products/korbel-brandy.webp"
+  },
+  {
+   "slug": "presidente-brandy",
+   "name": "Presidente Brandy",
+   "category": "Brandy",
+   "subcategory": "Grape Brandy",
+   "distillery": "Presidente Brandy",
+   "region": "Dominican Republic",
+   "age": "NAS",
+   "abv_percent": 40,
+   "price_usd": 34.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Dried Fruit",
+    "Toffee",
+    "Oak"
+   ],
+   "description": "Dominant Latin American brandy brand with substantial US Hispanic-market search volume.",
+   "url": "https://caskworth.com/products/presidente-brandy",
+   "image": "https://caskworth.com/assets/images/products/presidente-brandy.webp"
+  },
+  {
+   "slug": "metaxa-brandy",
+   "name": "Metaxa",
+   "category": "Brandy",
+   "subcategory": "Grape Brandy",
+   "distillery": "Metaxa",
+   "region": "Greece",
+   "age": "NAS",
+   "abv_percent": 40,
+   "price_usd": 109.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Dried Fruit",
+    "Toffee",
+    "Oak"
+   ],
+   "description": "Greece's signature brandy-based spirit, real and distinctive global search volume with no equivalent in your catalog.",
+   "url": "https://caskworth.com/products/metaxa-brandy",
+   "image": "https://caskworth.com/assets/images/products/metaxa-brandy.webp"
+  },
+  {
+   "slug": "asbach-brandy",
+   "name": "Asbach Uralt",
+   "category": "Brandy",
+   "subcategory": "Grape Brandy",
+   "distillery": "Asbach Uralt",
+   "region": "Germany",
+   "age": "NAS",
+   "abv_percent": 40,
+   "price_usd": 59.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Dried Fruit",
+    "Toffee",
+    "Oak"
+   ],
+   "description": "Germany's best-known brandy, real heritage/import-search niche with zero German brandy currently carried.",
+   "url": "https://caskworth.com/products/asbach-brandy",
+   "image": "https://caskworth.com/assets/images/products/asbach-brandy.webp"
+  },
+  {
+   "slug": "boulard-calvados",
+   "name": "Boulard Calvados",
+   "category": "Brandy",
+   "subcategory": "Calvados",
+   "distillery": "Boulard Calvados",
+   "region": "Normandy, France",
+   "age": "NAS",
+   "abv_percent": 40,
+   "price_usd": 209.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Baked Apple",
+    "Orchard Fruit",
+    "Oak"
+   ],
+   "description": "One of Normandy's best-known calvados houses, a notable gap alongside your existing calvados lineup.",
+   "url": "https://caskworth.com/products/boulard-calvados",
+   "image": "https://caskworth.com/assets/images/products/boulard-calvados.webp"
+  },
+  {
+   "slug": "marquis-de-montesquiou-armagnac",
+   "name": "Marquis de Montesquiou",
+   "category": "Brandy",
+   "subcategory": "Bas Armagnac",
+   "distillery": "Marquis de Montesquiou",
+   "region": "Armagnac, France",
+   "age": "NAS",
+   "abv_percent": 40,
+   "price_usd": 249.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Prune",
+    "Fig",
+    "Oak"
+   ],
+   "description": "Well-known armagnac house, real specialist-retailer search presence.",
+   "url": "https://caskworth.com/products/marquis-de-montesquiou-armagnac",
+   "image": "https://caskworth.com/assets/images/products/marquis-de-montesquiou-armagnac.webp"
+  },
+  {
+   "slug": "baron-de-sigognac-armagnac",
+   "name": "Baron de Sigognac",
+   "category": "Brandy",
+   "subcategory": "Bas Armagnac",
+   "distillery": "Baron de Sigognac",
+   "region": "Armagnac, France",
+   "age": "NAS",
+   "abv_percent": 40,
+   "price_usd": 229.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Prune",
+    "Fig",
+    "Oak"
+   ],
+   "description": "Prominent armagnac house known for vintage-dated bottlings, real collector search interest.",
+   "url": "https://caskworth.com/products/baron-de-sigognac-armagnac",
+   "image": "https://caskworth.com/assets/images/products/baron-de-sigognac-armagnac.webp"
+  },
+  {
+   "slug": "larressingle-armagnac",
+   "name": "Larressingle",
+   "category": "Brandy",
+   "subcategory": "Bas Armagnac",
+   "distillery": "Larressingle",
+   "region": "Armagnac, France",
+   "age": "NAS",
+   "abv_percent": 40,
+   "price_usd": 199.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Prune",
+    "Fig",
+    "Oak"
+   ],
+   "description": "Well-established armagnac house with real specialty-retailer presence.",
+   "url": "https://caskworth.com/products/larressingle-armagnac",
+   "image": "https://caskworth.com/assets/images/products/larressingle-armagnac.webp"
+  },
+  {
+   "slug": "germain-robin-brandy",
+   "name": "Germain-Robin",
+   "category": "Brandy",
+   "subcategory": "Grape Brandy",
+   "distillery": "Germain-Robin",
+   "region": "California, USA",
+   "age": "NAS",
+   "abv_percent": 40,
+   "price_usd": 129.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Dried Fruit",
+    "Toffee",
+    "Oak"
+   ],
+   "description": "Acclaimed California artisanal brandy, the leading US alembic brandy name with real craft-spirits search volume.",
+   "url": "https://caskworth.com/products/germain-robin-brandy",
+   "image": "https://caskworth.com/assets/images/products/germain-robin-brandy.webp"
+  },
+  {
+   "slug": "coeur-de-lion-calvados",
+   "name": "Coeur de Lion Calvados",
+   "category": "Brandy",
+   "subcategory": "Calvados",
+   "distillery": "Coeur de Lion Calvados",
+   "region": "Normandy, France",
+   "age": "NAS",
+   "abv_percent": 40,
+   "price_usd": 99.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Baked Apple",
+    "Orchard Fruit",
+    "Oak"
+   ],
+   "description": "Well-known calvados house with real specialist-retailer search presence.",
+   "url": "https://caskworth.com/products/coeur-de-lion-calvados",
+   "image": "https://caskworth.com/assets/images/products/coeur-de-lion-calvados.webp"
+  },
+  {
+   "slug": "gran-duque-de-alba-brandy",
+   "name": "Gran Duque d'Alba",
+   "category": "Brandy",
+   "subcategory": "Brandy de Jerez",
+   "distillery": "Gran Duque d'Alba",
+   "region": "Jerez, Spain",
+   "age": "NAS",
+   "abv_percent": 40,
+   "price_usd": 79.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Dried Fruit",
+    "Toffee",
+    "Oak"
+   ],
+   "description": "Leading Spanish brandy de Jerez brand, complements your existing Spanish brandy lineup.",
+   "url": "https://caskworth.com/products/gran-duque-de-alba-brandy",
+   "image": "https://caskworth.com/assets/images/products/gran-duque-de-alba-brandy.webp"
+  },
+  {
+   "slug": "lepanto-brandy",
+   "name": "Lepanto Brandy de Jerez",
+   "category": "Brandy",
+   "subcategory": "Brandy de Jerez",
+   "distillery": "Lepanto Brandy de Jerez",
+   "region": "Jerez, Spain",
+   "age": "NAS",
+   "abv_percent": 40,
+   "price_usd": 149.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Dried Fruit",
+    "Toffee",
+    "Oak"
+   ],
+   "description": "Acclaimed premium Spanish brandy, real specialist search interest.",
+   "url": "https://caskworth.com/products/lepanto-brandy",
+   "image": "https://caskworth.com/assets/images/products/lepanto-brandy.webp"
+  },
+  {
+   "slug": "fundador-brandy",
+   "name": "Fundador Brandy",
+   "category": "Brandy",
+   "subcategory": "Brandy de Jerez",
+   "distillery": "Fundador Brandy",
+   "region": "Jerez, Spain",
+   "age": "NAS",
+   "abv_percent": 40,
+   "price_usd": 34.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Dried Fruit",
+    "Toffee",
+    "Oak"
+   ],
+   "description": "Spain's original Brandy de Jerez (est. 1874, Pedro Domecq), approachable entry price.",
+   "url": "https://caskworth.com/products/fundador-brandy",
+   "image": "https://caskworth.com/assets/images/products/fundador-brandy.webp"
+  },
+  {
+   "slug": "carlos-i-brandy-de-jerez",
+   "name": "Carlos I Brandy de Jerez",
+   "category": "Brandy",
+   "subcategory": "Brandy de Jerez",
+   "distillery": "Carlos I Brandy de Jerez",
+   "region": "Jerez, Spain",
+   "age": "NAS",
+   "abv_percent": 40,
+   "price_usd": 149.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Dried Fruit",
+    "Toffee",
+    "Oak"
+   ],
+   "description": "Premium Pedro Domecq tier, Solera Gran Reserva.",
+   "url": "https://caskworth.com/products/carlos-i-brandy-de-jerez",
+   "image": "https://caskworth.com/assets/images/products/carlos-i-brandy-de-jerez.webp"
+  },
+  {
+   "slug": "darroze-bas-armagnac",
+   "name": "Darroze Bas Armagnac",
+   "category": "Brandy",
+   "subcategory": "Bas Armagnac",
+   "distillery": "Darroze Bas Armagnac",
+   "region": "Armagnac, France",
+   "age": "NAS",
+   "abv_percent": 40,
+   "price_usd": 199.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Prune",
+    "Fig",
+    "Oak"
+   ],
+   "description": "Renowned single-domaine négociant, vintage-dated bottlings.",
+   "url": "https://caskworth.com/products/darroze-bas-armagnac",
+   "image": "https://caskworth.com/assets/images/products/darroze-bas-armagnac.webp"
+  },
+  {
+   "slug": "domaine-boingneres-armagnac",
+   "name": "Domaine Boingnères Armagnac",
+   "category": "Brandy",
+   "subcategory": "Bas Armagnac",
+   "distillery": "Domaine Boingnères Armagnac",
+   "region": "Armagnac, France",
+   "age": "NAS",
+   "abv_percent": 40,
+   "price_usd": 269.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Prune",
+    "Fig",
+    "Oak"
+   ],
+   "description": "Rare biodynamic single-estate producer (100% Folle Blanche).",
+   "url": "https://caskworth.com/products/domaine-boingneres-armagnac",
+   "image": "https://caskworth.com/assets/images/products/domaine-boingneres-armagnac.webp"
+  },
+  {
+   "slug": "roger-groult-calvados",
+   "name": "Roger Groult Calvados",
+   "category": "Brandy",
+   "subcategory": "Calvados",
+   "distillery": "Roger Groult Calvados",
+   "region": "Normandy, France",
+   "age": "NAS",
+   "abv_percent": 40,
+   "price_usd": 139.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Baked Apple",
+    "Orchard Fruit",
+    "Oak"
+   ],
+   "description": "Renowned Pays d'Auge house, extensive cask-finish experimentation.",
+   "url": "https://caskworth.com/products/roger-groult-calvados",
+   "image": "https://caskworth.com/assets/images/products/roger-groult-calvados.webp"
+  },
+  {
+   "slug": "domfront-calvados",
+   "name": "Domfront Calvados",
+   "category": "Brandy",
+   "subcategory": "Calvados",
+   "distillery": "Domfront Calvados",
+   "region": "Normandy, France",
+   "age": "NAS",
+   "abv_percent": 40,
+   "price_usd": 189.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Baked Apple",
+    "Orchard Fruit",
+    "Oak"
+   ],
+   "description": "AOC Domfrontais style (pear-inclusive), distinct terroir vs. Pays d'Auge.",
+   "url": "https://caskworth.com/products/domfront-calvados",
+   "image": "https://caskworth.com/assets/images/products/domfront-calvados.webp"
+  },
+  {
+   "slug": "copper-and-kings-american-craft-brandy",
+   "name": "Copper & Kings American Craft Brandy",
+   "category": "Brandy",
+   "subcategory": "Grape Brandy",
+   "distillery": "Copper & Kings American Craft Brandy",
+   "region": "Kentucky, USA",
+   "age": "NAS",
+   "abv_percent": 40,
+   "price_usd": 72.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Dried Fruit",
+    "Toffee",
+    "Oak"
+   ],
+   "description": "Leading US craft brandy distillery (Louisville), pot-still/cognac-style methods.",
+   "url": "https://caskworth.com/products/copper-and-kings-american-craft-brandy",
+   "image": "https://caskworth.com/assets/images/products/copper-and-kings-american-craft-brandy.webp"
+  },
+  {
+   "slug": "st-george-spirits-pear-brandy",
+   "name": "St. George Spirits Pear Brandy",
+   "category": "Brandy",
+   "subcategory": "Grape Brandy",
+   "distillery": "St. George Spirits",
+   "region": "California, USA",
+   "age": "NAS",
+   "abv_percent": 40,
+   "price_usd": 139.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Dried Fruit",
+    "Toffee",
+    "Oak"
+   ],
+   "description": "Pioneering California craft distillery, critically respected eaux-de-vie/fruit brandies.",
+   "url": "https://caskworth.com/products/st-george-spirits-pear-brandy",
+   "image": "https://caskworth.com/assets/images/products/st-george-spirits-pear-brandy.webp"
+  },
+  {
+   "slug": "ararat-erebuni-30-year-old-armenian-brandy",
+   "name": "Ararat Erebuni 30 Year Old Armenian Brandy",
+   "category": "Brandy",
+   "subcategory": "Grape Brandy",
+   "distillery": "Ararat",
+   "region": "Armenia",
+   "age": "30yr",
+   "abv_percent": 40,
+   "price_usd": 1099.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Dried Fruit",
+    "Toffee",
+    "Oak"
+   ],
+   "description": "Yerevan Brandy Company (est. 1887); tied to Churchill's decades-long personal order of it.",
+   "url": "https://caskworth.com/products/ararat-erebuni-30-year-old-armenian-brandy",
+   "image": "https://caskworth.com/assets/images/products/ararat-erebuni-30-year-old-armenian-brandy.webp"
+  },
+  {
+   "slug": "bhakta-1962-single-vintage-armagnac",
+   "name": "BHAKTA 1962 Single-Vintage Armagnac",
+   "category": "Brandy",
+   "subcategory": "Bas Armagnac",
+   "distillery": "BHAKTA",
+   "region": "Armagnac, France",
+   "age": "NAS",
+   "abv_percent": 40,
+   "price_usd": 790,
+   "currency": "USD",
+   "tasting_notes": [
+    "Prune",
+    "Fig",
+    "Oak"
+   ],
+   "description": "Raj Bhakta's widely covered discovery of a cellar of single-vintage Armagnac dating to 1868.",
+   "url": "https://caskworth.com/products/bhakta-1962-single-vintage-armagnac",
+   "image": "https://caskworth.com/assets/images/products/bhakta-1962-single-vintage-armagnac.webp"
+  },
+  {
+   "slug": "baron-de-lustrac-bas-armagnac-40-year-old",
+   "name": "Baron de Lustrac Bas-Armagnac 40 Year Old",
+   "category": "Brandy",
+   "subcategory": "Bas Armagnac",
+   "distillery": "Baron de Lustrac",
+   "region": "Armagnac, France",
+   "age": "40yr",
+   "abv_percent": 40,
+   "price_usd": 999.97,
+   "currency": "USD",
+   "tasting_notes": [
+    "Prune",
+    "Fig",
+    "Oak"
+   ],
+   "description": "Single-estate Gascon Armagnac house; 40-year age statement is rare even within Armagnac.",
+   "url": "https://caskworth.com/products/baron-de-lustrac-bas-armagnac-40-year-old",
+   "image": "https://caskworth.com/assets/images/products/baron-de-lustrac-bas-armagnac-40-year-old.webp"
+  },
+  {
+   "slug": "lencantada-1973-brut-de-fut-bas-armagnac",
+   "name": "L'Encantada 1973 Brut de Fût Bas-Armagnac",
+   "category": "Brandy",
+   "subcategory": "Bas Armagnac",
+   "distillery": "L'Encantada",
+   "region": "Armagnac, France",
+   "age": "NAS",
+   "abv_percent": 40,
+   "price_usd": 699.97,
+   "currency": "USD",
+   "tasting_notes": [
+    "Prune",
+    "Fig",
+    "Oak"
+   ],
+   "description": "US-based independent bottler specializing in single-cask, single-vintage Armagnac; numbered 500ml cask release.",
+   "url": "https://caskworth.com/products/lencantada-1973-brut-de-fut-bas-armagnac",
+   "image": "https://caskworth.com/assets/images/products/lencantada-1973-brut-de-fut-bas-armagnac.webp"
+  },
+  {
+   "slug": "chateau-de-lacaze-1982-hallmark-collection-bas-armagnac",
+   "name": "Château de Lacaze 1982 Hallmark Collection Bas-Armagnac",
+   "category": "Brandy",
+   "subcategory": "Bas Armagnac",
+   "distillery": "Château de Lacaze",
+   "region": "Armagnac, France",
+   "age": "NAS",
+   "abv_percent": 40,
+   "price_usd": 1199.97,
+   "currency": "USD",
+   "tasting_notes": [
+    "Prune",
+    "Fig",
+    "Oak"
+   ],
+   "description": "Single-vintage 1982 (43-year-old) release from a designated prestige tier.",
+   "url": "https://caskworth.com/products/chateau-de-lacaze-1982-hallmark-collection-bas-armagnac",
+   "image": "https://caskworth.com/assets/images/products/chateau-de-lacaze-1982-hallmark-collection-bas-armagnac.webp"
+  },
+  {
+   "slug": "chichibu-whisky",
+   "name": "Chichibu Ichiro's Malt",
+   "category": "Japanese",
+   "subcategory": "Japanese Single Malt",
+   "distillery": "Chichibu Distillery",
+   "region": "Japan",
+   "age": "NAS",
+   "abv_percent": 40,
+   "price_usd": 82.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Honey",
+    "Light Smoke",
+    "Orchard Fruit"
+   ],
+   "description": "The single most sought-after modern Japanese whisky name; tiny production drives massive collector search demand.",
+   "url": "https://caskworth.com/products/chichibu-whisky",
+   "image": "https://caskworth.com/assets/images/products/chichibu-whisky.webp"
+  },
+  {
+   "slug": "mars-shinshu-whisky",
+   "name": "Mars Shinshu Komagatake",
+   "category": "Japanese",
+   "subcategory": "Japanese Single Malt",
+   "distillery": "Mars Shinshu Distillery",
+   "region": "Japan",
+   "age": "NAS",
+   "abv_percent": 40,
+   "price_usd": 293.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Honey",
+    "Light Smoke",
+    "Orchard Fruit"
+   ],
+   "description": "Japan's highest-elevation distillery, real and growing enthusiast search volume.",
+   "url": "https://caskworth.com/products/mars-shinshu-whisky",
+   "image": "https://caskworth.com/assets/images/products/mars-shinshu-whisky.webp"
+  },
+  {
+   "slug": "miyagikyo-whisky",
+   "name": "Miyagikyo",
+   "category": "Japanese",
+   "subcategory": "Japanese Single Malt",
+   "distillery": "Miyagikyo Distillery",
+   "region": "Japan",
+   "age": "NAS",
+   "abv_percent": 40,
+   "price_usd": 92.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Honey",
+    "Light Smoke",
+    "Orchard Fruit"
+   ],
+   "description": "Nikka's second distillery (alongside your carried Yoichi) — a real, prominent gap.",
+   "url": "https://caskworth.com/products/miyagikyo-whisky",
+   "image": "https://caskworth.com/assets/images/products/miyagikyo-whisky.webp"
+  },
+  {
+   "slug": "fuji-whisky",
+   "name": "Fuji Whisky",
+   "category": "Japanese",
+   "subcategory": "Japanese Single Malt",
+   "distillery": "Fuji Whisky Distillery",
+   "region": "Japan",
+   "age": "NAS",
+   "abv_percent": 40,
+   "price_usd": 54.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Honey",
+    "Light Smoke",
+    "Orchard Fruit"
+   ],
+   "description": "Kirin's Fuji Gotemba distillery brand, real and rising Western-market search volume.",
+   "url": "https://caskworth.com/products/fuji-whisky",
+   "image": "https://caskworth.com/assets/images/products/fuji-whisky.webp"
+  },
+  {
+   "slug": "akashi-whisky",
+   "name": "Akashi White Oak",
+   "category": "Japanese",
+   "subcategory": "Japanese Single Malt",
+   "distillery": "Akashi Distillery",
+   "region": "Japan",
+   "age": "NAS",
+   "abv_percent": 40,
+   "price_usd": 45.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Honey",
+    "Light Smoke",
+    "Orchard Fruit"
+   ],
+   "description": "Long-established, accessible Japanese whisky brand with real budget-conscious search volume.",
+   "url": "https://caskworth.com/products/akashi-whisky",
+   "image": "https://caskworth.com/assets/images/products/akashi-whisky.webp"
+  },
+  {
+   "slug": "kurayoshi-whisky",
+   "name": "Kurayoshi",
+   "category": "Japanese",
+   "subcategory": "Japanese Blended Malt",
+   "distillery": "Kurayoshi Distillery",
+   "region": "Japan",
+   "age": "NAS",
+   "abv_percent": 40,
+   "price_usd": 75.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Honey",
+    "Light Smoke",
+    "Orchard Fruit"
+   ],
+   "description": "Matsui Shuzo's well-known pure malt Japanese whisky, real retail/search presence.",
+   "url": "https://caskworth.com/products/kurayoshi-whisky",
+   "image": "https://caskworth.com/assets/images/products/kurayoshi-whisky.webp"
+  },
+  {
+   "slug": "togouchi-whisky",
+   "name": "Togouchi",
+   "category": "Japanese",
+   "subcategory": "Japanese Single Malt",
+   "distillery": "Togouchi Distillery",
+   "region": "Japan",
+   "age": "NAS",
+   "abv_percent": 40,
+   "price_usd": 54.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Honey",
+    "Light Smoke",
+    "Orchard Fruit"
+   ],
+   "description": "Chugoku Jozo's cave-aged Japanese whisky, real novelty/enthusiast search interest.",
+   "url": "https://caskworth.com/products/togouchi-whisky",
+   "image": "https://caskworth.com/assets/images/products/togouchi-whisky.webp"
+  },
+  {
+   "slug": "iwai-tradition-whisky",
+   "name": "Iwai Tradition Mars",
+   "category": "Japanese",
+   "subcategory": "Japanese Blended Whisky",
+   "distillery": "Iwai Tradition Distillery",
+   "region": "Japan",
+   "age": "NAS",
+   "abv_percent": 40,
+   "price_usd": 39.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Honey",
+    "Light Smoke",
+    "Orchard Fruit"
+   ],
+   "description": "Approachable Hombo Shuzo blend, complements Mars Shinshu as an entry-level companion listing.",
+   "url": "https://caskworth.com/products/iwai-tradition-whisky",
+   "image": "https://caskworth.com/assets/images/products/iwai-tradition-whisky.webp"
+  },
+  {
+   "slug": "ohishi-whisky",
+   "name": "Ohishi",
+   "category": "Japanese",
+   "subcategory": "Japanese Single Malt",
+   "distillery": "Ohishi Distillery",
+   "region": "Japan",
+   "age": "NAS",
+   "abv_percent": 40,
+   "price_usd": 49.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Honey",
+    "Light Smoke",
+    "Orchard Fruit"
+   ],
+   "description": "Rice-whisky specialist, a distinctive niche gap.",
+   "url": "https://caskworth.com/products/ohishi-whisky",
+   "image": "https://caskworth.com/assets/images/products/ohishi-whisky.webp"
+  },
+  {
+   "slug": "nikka-coffey-whisky",
+   "name": "Nikka Coffey Grain / Coffey Malt",
+   "category": "Japanese",
+   "subcategory": "Japanese Grain Whisky",
+   "distillery": "Nikka Coffey Grain Distillery",
+   "region": "Japan",
+   "age": "NAS",
+   "abv_percent": 40,
+   "price_usd": 58.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Honey",
+    "Light Smoke",
+    "Orchard Fruit"
+   ],
+   "description": "Distinct from your carried Nikka From the Barrel/Yoichi — the Coffey-still expressions drive real, separate search volume.",
+   "url": "https://caskworth.com/products/nikka-coffey-whisky",
+   "image": "https://caskworth.com/assets/images/products/nikka-coffey-whisky.webp"
+  },
+  {
+   "slug": "kaiyo-mizunara-oak",
+   "name": "Kaiyo Mizunara Oak",
+   "category": "Japanese",
+   "subcategory": "Japanese Single Malt",
+   "distillery": "Kaiyo Mizunara Oak Distillery",
+   "region": "Japan",
+   "age": "NAS",
+   "abv_percent": 40,
+   "price_usd": 65.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Honey",
+    "Light Smoke",
+    "Orchard Fruit"
+   ],
+   "description": "Mizunara-only aging, ship-wheel bottle.",
+   "url": "https://caskworth.com/products/kaiyo-mizunara-oak",
+   "image": "https://caskworth.com/assets/images/products/kaiyo-mizunara-oak.webp"
+  },
+  {
+   "slug": "nikka-taketsuru-pure-malt",
+   "name": "Nikka Taketsuru Pure Malt",
+   "category": "Japanese",
+   "subcategory": "Japanese Blended Malt",
+   "distillery": "Nikka Taketsuru Distillery",
+   "region": "Japan",
+   "age": "NAS",
+   "abv_percent": 40,
+   "price_usd": 75.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Honey",
+    "Light Smoke",
+    "Orchard Fruit"
+   ],
+   "description": "Named for Nikka's founder, blended-malt flagship.",
+   "url": "https://caskworth.com/products/nikka-taketsuru-pure-malt",
+   "image": "https://caskworth.com/assets/images/products/nikka-taketsuru-pure-malt.webp"
+  },
+  {
+   "slug": "tenjaku-pure-malt",
+   "name": "Tenjaku Pure Malt",
+   "category": "Japanese",
+   "subcategory": "Japanese Blended Malt",
+   "distillery": "Tenjaku Distillery",
+   "region": "Japan",
+   "age": "NAS",
+   "abv_percent": 40,
+   "price_usd": 78.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Honey",
+    "Light Smoke",
+    "Orchard Fruit"
+   ],
+   "description": "Newer export-only, affordable pure malt.",
+   "url": "https://caskworth.com/products/tenjaku-pure-malt",
+   "image": "https://caskworth.com/assets/images/products/tenjaku-pure-malt.webp"
+  },
+  {
+   "slug": "kamiki-original",
+   "name": "Kamiki Original",
+   "category": "Japanese",
+   "subcategory": "Japanese Single Malt",
+   "distillery": "Kamiki Original Distillery",
+   "region": "Japan",
+   "age": "NAS",
+   "abv_percent": 40,
+   "price_usd": 90.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Honey",
+    "Light Smoke",
+    "Orchard Fruit"
+   ],
+   "description": "Sakura-cask finish, striking bottle design.",
+   "url": "https://caskworth.com/products/kamiki-original",
+   "image": "https://caskworth.com/assets/images/products/kamiki-original.webp"
+  },
+  {
+   "slug": "hatozaki-small-batch",
+   "name": "Hatozaki Small Batch",
+   "category": "Japanese",
+   "subcategory": "Japanese Blended Whisky",
+   "distillery": "Hatozaki Distillery",
+   "region": "Japan",
+   "age": "NAS",
+   "abv_percent": 40,
+   "price_usd": 59.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Honey",
+    "Light Smoke",
+    "Orchard Fruit"
+   ],
+   "description": "Kaikyo Distillery's flagship export blend.",
+   "url": "https://caskworth.com/products/hatozaki-small-batch",
+   "image": "https://caskworth.com/assets/images/products/hatozaki-small-batch.webp"
+  },
+  {
+   "slug": "sekk-sato-shiki-single-grain",
+   "name": "Sekk Sato Shiki Single Grain",
+   "category": "Japanese",
+   "subcategory": "Japanese Grain Whisky",
+   "distillery": "Sekk Sato Shiki Single Grain Distillery",
+   "region": "Japan",
+   "age": "NAS",
+   "abv_percent": 40,
+   "price_usd": 55.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Honey",
+    "Light Smoke",
+    "Orchard Fruit"
+   ],
+   "description": "Emerging small-batch grain whisky brand.",
+   "url": "https://caskworth.com/products/sekk-sato-shiki-single-grain",
+   "image": "https://caskworth.com/assets/images/products/sekk-sato-shiki-single-grain.webp"
+  },
+  {
+   "slug": "yamato-takeda-shingen-edition",
+   "name": "Yamato Takeda Shingen Edition",
+   "category": "Japanese",
+   "subcategory": "Japanese Single Malt",
+   "distillery": "Yamato Takeda Shingen Edition Distillery",
+   "region": "Japan",
+   "age": "NAS",
+   "abv_percent": 40,
+   "price_usd": 161.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Honey",
+    "Light Smoke",
+    "Orchard Fruit"
+   ],
+   "description": "Samurai-themed limited packaging.",
+   "url": "https://caskworth.com/products/yamato-takeda-shingen-edition",
+   "image": "https://caskworth.com/assets/images/products/yamato-takeda-shingen-edition.webp"
+  },
+  {
+   "slug": "mars-the-lucky-cat-blended",
+   "name": "Mars The Lucky Cat Blended",
+   "category": "Japanese",
+   "subcategory": "Japanese Blended Whisky",
+   "distillery": "Mars Shinshu Distillery",
+   "region": "Japan",
+   "age": "NAS",
+   "abv_percent": 40,
+   "price_usd": 107.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Honey",
+    "Light Smoke",
+    "Orchard Fruit"
+   ],
+   "description": "Maneki-neko (lucky cat) gift bottle.",
+   "url": "https://caskworth.com/products/mars-the-lucky-cat-blended",
+   "image": "https://caskworth.com/assets/images/products/mars-the-lucky-cat-blended.webp"
+  },
+  {
+   "slug": "mars-komagatake-27-year-old-single-malt",
+   "name": "Mars Komagatake 27 Year Old Single Malt",
+   "category": "Japanese",
+   "subcategory": "Japanese Single Malt",
+   "distillery": "Mars Shinshu Distillery",
+   "region": "Japan",
+   "age": "27yr",
+   "abv_percent": 40,
+   "price_usd": 2025,
+   "currency": "USD",
+   "tasting_notes": [
+    "Honey",
+    "Light Smoke",
+    "Orchard Fruit"
+   ],
+   "description": "Marries 1986/1988/1990 sherry casks — among the oldest Japanese single malts commercially available.",
+   "url": "https://caskworth.com/products/mars-komagatake-27-year-old-single-malt",
+   "image": "https://caskworth.com/assets/images/products/mars-komagatake-27-year-old-single-malt.webp"
+  },
+  {
+   "slug": "mars-komagatake-single-cask-vintage",
+   "name": "Mars Komagatake Single Cask Vintage",
+   "category": "Japanese",
+   "subcategory": "Japanese Single Malt",
+   "distillery": "Mars Shinshu Distillery",
+   "region": "Japan",
+   "age": "NAS",
+   "abv_percent": 40,
+   "price_usd": 650,
+   "currency": "USD",
+   "tasting_notes": [
+    "Honey",
+    "Light Smoke",
+    "Orchard Fruit"
+   ],
+   "description": "Wine-Searcher notes price has risen over the last year, ranking it among the higher-priced Japanese whiskies tracked.",
+   "url": "https://caskworth.com/products/mars-komagatake-single-cask-vintage",
+   "image": "https://caskworth.com/assets/images/products/mars-komagatake-single-cask-vintage.webp"
+  },
+  {
+   "slug": "ichiros-malt-hanyu-2000-final-vintage-15-year",
+   "name": "Ichiro's Malt Hanyu 2000 Final Vintage 15 Year",
+   "category": "Japanese",
+   "subcategory": "Japanese Single Malt",
+   "distillery": "Hanyu Distillery",
+   "region": "Japan",
+   "age": "15yr",
+   "abv_percent": 40,
+   "price_usd": 2581,
+   "currency": "USD",
+   "tasting_notes": [
+    "Honey",
+    "Light Smoke",
+    "Orchard Fruit"
+   ],
+   "description": "From the legendary silent Hanyu distillery — distinct from carried/researched Chichibu.",
+   "url": "https://caskworth.com/products/ichiros-malt-hanyu-2000-final-vintage-15-year",
+   "image": "https://caskworth.com/assets/images/products/ichiros-malt-hanyu-2000-final-vintage-15-year.webp"
+  },
+  {
+   "slug": "kigai-japanese-whisky-7-year",
+   "name": "Kigai Japanese Whisky 7 Year",
+   "category": "Japanese",
+   "subcategory": "Japanese Single Malt",
+   "distillery": "Kigai Japanese Whisky Distillery",
+   "region": "Japan",
+   "age": "7yr",
+   "abv_percent": 40,
+   "price_usd": 649.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Honey",
+    "Light Smoke",
+    "Orchard Fruit"
+   ],
+   "description": "Listed with only 1 bottle in stock at a specialist Japanese-whisky importer — direct evidence of scarcity.",
+   "url": "https://caskworth.com/products/kigai-japanese-whisky-7-year",
+   "image": "https://caskworth.com/assets/images/products/kigai-japanese-whisky-7-year.webp"
+  },
+  {
+   "slug": "nagahama-tokyo-2020-whisky",
+   "name": "Nagahama Tokyo 2020 Whisky",
+   "category": "Japanese",
+   "subcategory": "Japanese Single Malt",
+   "distillery": "Nagahama Tokyo 2020 Whisky Distillery",
+   "region": "Japan",
+   "age": "NAS",
+   "abv_percent": 40,
+   "price_usd": 529.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Honey",
+    "Light Smoke",
+    "Orchard Fruit"
+   ],
+   "description": "Part of an actively-collected dated-batch series; several sister editions already sold out.",
+   "url": "https://caskworth.com/products/nagahama-tokyo-2020-whisky",
+   "image": "https://caskworth.com/assets/images/products/nagahama-tokyo-2020-whisky.webp"
+  },
+  {
+   "slug": "bushmills-irish-whiskey",
+   "name": "Bushmills Original Black Bush 10 Year 21 Year",
+   "category": "Irish",
+   "subcategory": "Irish Single Malt",
+   "distillery": "Bushmills Original Black Bush Distillery",
+   "region": "Ireland",
+   "age": "10yr",
+   "abv_percent": 40,
+   "price_usd": 34.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Honey",
+    "Malt",
+    "Orchard Fruit"
+   ],
+   "description": "The world's oldest licensed whiskey distillery and a top global Irish whiskey name by volume.",
+   "url": "https://caskworth.com/products/bushmills-irish-whiskey",
+   "image": "https://caskworth.com/assets/images/products/bushmills-irish-whiskey.webp"
+  },
+  {
+   "slug": "tullamore-dew-irish-whiskey",
+   "name": "Tullamore D.E.W.",
+   "category": "Irish",
+   "subcategory": "Irish Single Malt",
+   "distillery": "Tullamore D.E.W. Distillery",
+   "region": "Ireland",
+   "age": "NAS",
+   "abv_percent": 40,
+   "price_usd": 31.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Honey",
+    "Malt",
+    "Orchard Fruit"
+   ],
+   "description": "One of the top 3 best-selling Irish whiskey brands globally, real high-volume search term.",
+   "url": "https://caskworth.com/products/tullamore-dew-irish-whiskey",
+   "image": "https://caskworth.com/assets/images/products/tullamore-dew-irish-whiskey.webp"
+  },
+  {
+   "slug": "teeling-irish-whiskey",
+   "name": "Teeling Whiskey",
+   "category": "Irish",
+   "subcategory": "Irish Single Malt",
+   "distillery": "Teeling Whiskey Distillery",
+   "region": "Ireland",
+   "age": "NAS",
+   "abv_percent": 40,
+   "price_usd": 31.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Honey",
+    "Malt",
+    "Orchard Fruit"
+   ],
+   "description": "Leading modern Dublin distillery, strong 2026 critical acclaim and enthusiast search volume.",
+   "url": "https://caskworth.com/products/teeling-irish-whiskey",
+   "image": "https://caskworth.com/assets/images/products/teeling-irish-whiskey.webp"
+  },
+  {
+   "slug": "writers-tears-irish-whiskey",
+   "name": "Writers' Tears",
+   "category": "Irish",
+   "subcategory": "Irish Single Malt",
+   "distillery": "Writers' Tears Distillery",
+   "region": "Ireland",
+   "age": "NAS",
+   "abv_percent": 40,
+   "price_usd": 45.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Honey",
+    "Malt",
+    "Orchard Fruit"
+   ],
+   "description": "Award-winning craft brand, cult following.",
+   "url": "https://caskworth.com/products/writers-tears-irish-whiskey",
+   "image": "https://caskworth.com/assets/images/products/writers-tears-irish-whiskey.webp"
+  },
+  {
+   "slug": "yellow-spot-irish-whiskey",
+   "name": "Yellow Spot",
+   "category": "Irish",
+   "subcategory": "Irish Single Malt",
+   "distillery": "Yellow Spot Distillery",
+   "region": "Ireland",
+   "age": "NAS",
+   "abv_percent": 40,
+   "price_usd": 89.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Honey",
+    "Malt",
+    "Orchard Fruit"
+   ],
+   "description": "Midleton's premium companion to your carried Green Spot — a natural, high-relevance line extension gap.",
+   "url": "https://caskworth.com/products/yellow-spot-irish-whiskey",
+   "image": "https://caskworth.com/assets/images/products/yellow-spot-irish-whiskey.webp"
+  },
+  {
+   "slug": "method-and-madness-irish-whiskey",
+   "name": "Method and Madness",
+   "category": "Irish",
+   "subcategory": "Irish Single Malt",
+   "distillery": "Method and Madness Distillery",
+   "region": "Ireland",
+   "age": "NAS",
+   "abv_percent": 40,
+   "price_usd": 69.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Honey",
+    "Malt",
+    "Orchard Fruit"
+   ],
+   "description": "Midleton's experimental-cask Irish whiskey line, real enthusiast/collector search interest.",
+   "url": "https://caskworth.com/products/method-and-madness-irish-whiskey",
+   "image": "https://caskworth.com/assets/images/products/method-and-madness-irish-whiskey.webp"
+  },
+  {
+   "slug": "slane-irish-whiskey",
+   "name": "Slane Irish Whiskey",
+   "category": "Irish",
+   "subcategory": "Irish Single Malt",
+   "distillery": "Slane Irish Whiskey Distillery",
+   "region": "Ireland",
+   "age": "NAS",
+   "abv_percent": 40,
+   "price_usd": 24.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Honey",
+    "Malt",
+    "Orchard Fruit"
+   ],
+   "description": "Brown-Forman-backed brand with real US marketing push and search volume.",
+   "url": "https://caskworth.com/products/slane-irish-whiskey",
+   "image": "https://caskworth.com/assets/images/products/slane-irish-whiskey.webp"
+  },
+  {
+   "slug": "connemara-peated-irish-whiskey",
+   "name": "Connemara",
+   "category": "Irish",
+   "subcategory": "Peated Irish Whiskey",
+   "distillery": "Connemara Distillery",
+   "region": "Ireland",
+   "age": "NAS",
+   "abv_percent": 40,
+   "price_usd": 44.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Peat",
+    "Honey",
+    "Malt"
+   ],
+   "description": "The best-known peated Irish whiskey — a genuine category-first gap.",
+   "url": "https://caskworth.com/products/connemara-peated-irish-whiskey",
+   "image": "https://caskworth.com/assets/images/products/connemara-peated-irish-whiskey.webp"
+  },
+  {
+   "slug": "kilbeggan-irish-whiskey",
+   "name": "Kilbeggan",
+   "category": "Irish",
+   "subcategory": "Irish Single Malt",
+   "distillery": "Kilbeggan Distillery",
+   "region": "Ireland",
+   "age": "NAS",
+   "abv_percent": 40,
+   "price_usd": 24.97,
+   "currency": "USD",
+   "tasting_notes": [
+    "Honey",
+    "Malt",
+    "Orchard Fruit"
+   ],
+   "description": "Historic, accessible Irish whiskey brand with real value-search volume.",
+   "url": "https://caskworth.com/products/kilbeggan-irish-whiskey",
+   "image": "https://caskworth.com/assets/images/products/kilbeggan-irish-whiskey.webp"
+  },
+  {
+   "slug": "the-sexton-irish-whiskey",
+   "name": "The Sexton",
+   "category": "Irish",
+   "subcategory": "Irish Single Malt",
+   "distillery": "The Sexton Distillery",
+   "region": "Ireland",
+   "age": "NAS",
+   "abv_percent": 40,
+   "price_usd": 27.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Honey",
+    "Malt",
+    "Orchard Fruit"
+   ],
+   "description": "Proximo-owned single malt Irish whiskey with strong modern branding and real search growth.",
+   "url": "https://caskworth.com/products/the-sexton-irish-whiskey",
+   "image": "https://caskworth.com/assets/images/products/the-sexton-irish-whiskey.webp"
+  },
+  {
+   "slug": "roe-and-co-irish-whiskey",
+   "name": "Roe & Co",
+   "category": "Irish",
+   "subcategory": "Irish Single Malt",
+   "distillery": "Roe & Co Distillery",
+   "region": "Ireland",
+   "age": "NAS",
+   "abv_percent": 40,
+   "price_usd": 29.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Honey",
+    "Malt",
+    "Orchard Fruit"
+   ],
+   "description": "Diageo's modern Dublin Irish whiskey brand, notable given your deep Diageo scotch presence.",
+   "url": "https://caskworth.com/products/roe-and-co-irish-whiskey",
+   "image": "https://caskworth.com/assets/images/products/roe-and-co-irish-whiskey.webp"
+  },
+  {
+   "slug": "waterford-irish-whisky",
+   "name": "Waterford Whisky",
+   "category": "Irish",
+   "subcategory": "Irish Single Malt",
+   "distillery": "Waterford Whisky Distillery",
+   "region": "Ireland",
+   "age": "NAS",
+   "abv_percent": 40,
+   "price_usd": 61.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Honey",
+    "Malt",
+    "Orchard Fruit"
+   ],
+   "description": "Terroir-focused single malt Irish whiskey with strong critical/collector search interest.",
+   "url": "https://caskworth.com/products/waterford-irish-whisky",
+   "image": "https://caskworth.com/assets/images/products/waterford-irish-whisky.webp"
+  },
+  {
+   "slug": "egans-vintage-grain",
+   "name": "Egan's Vintage Grain",
+   "category": "Irish",
+   "subcategory": "Irish Single Grain",
+   "distillery": "Egan's Vintage Grain Distillery",
+   "region": "Ireland",
+   "age": "NAS",
+   "abv_percent": 40,
+   "price_usd": 50.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Honey",
+    "Malt",
+    "Orchard Fruit"
+   ],
+   "description": "Independent family bottler, single grain niche.",
+   "url": "https://caskworth.com/products/egans-vintage-grain",
+   "image": "https://caskworth.com/assets/images/products/egans-vintage-grain.webp"
+  },
+  {
+   "slug": "west-cork-bourbon-cask",
+   "name": "West Cork Bourbon Cask",
+   "category": "Irish",
+   "subcategory": "Irish Single Malt",
+   "distillery": "West Cork Bourbon Cask Distillery",
+   "region": "Ireland",
+   "age": "NAS",
+   "abv_percent": 40,
+   "price_usd": 30.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Honey",
+    "Malt",
+    "Orchard Fruit"
+   ],
+   "description": "Fast-growing independent distillery, value tier.",
+   "url": "https://caskworth.com/products/west-cork-bourbon-cask",
+   "image": "https://caskworth.com/assets/images/products/west-cork-bourbon-cask.webp"
+  },
+  {
+   "slug": "dingle-single-malt",
+   "name": "Dingle Single Malt",
+   "category": "Irish",
+   "subcategory": "Irish Single Malt",
+   "distillery": "Dingle Single Malt Distillery",
+   "region": "Ireland",
+   "age": "NAS",
+   "abv_percent": 40,
+   "price_usd": 127.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Honey",
+    "Malt",
+    "Orchard Fruit"
+   ],
+   "description": "First new Irish distillery of the craft boom (2012).",
+   "url": "https://caskworth.com/products/dingle-single-malt",
+   "image": "https://caskworth.com/assets/images/products/dingle-single-malt.webp"
+  },
+  {
+   "slug": "glendalough-double-barrel",
+   "name": "Glendalough Double Barrel",
+   "category": "Irish",
+   "subcategory": "Irish Single Malt",
+   "distillery": "Glendalough Double Barrel Distillery",
+   "region": "Ireland",
+   "age": "NAS",
+   "abv_percent": 40,
+   "price_usd": 28.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Honey",
+    "Malt",
+    "Orchard Fruit"
+   ],
+   "description": "Boutique Wicklow distillery, value expression.",
+   "url": "https://caskworth.com/products/glendalough-double-barrel",
+   "image": "https://caskworth.com/assets/images/products/glendalough-double-barrel.webp"
+  },
+  {
+   "slug": "proper-no-twelve",
+   "name": "Proper No. Twelve",
+   "category": "Irish",
+   "subcategory": "Irish Single Malt",
+   "distillery": "Proper No. Twelve Distillery",
+   "region": "Ireland",
+   "age": "NAS",
+   "abv_percent": 40,
+   "price_usd": 25.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Honey",
+    "Malt",
+    "Orchard Fruit"
+   ],
+   "description": "One of fastest-growing Irish whiskey brands in US.",
+   "url": "https://caskworth.com/products/proper-no-twelve",
+   "image": "https://caskworth.com/assets/images/products/proper-no-twelve.webp"
+  },
+  {
+   "slug": "kinahans-10-year",
+   "name": "Kinahan's 10 Year",
+   "category": "Irish",
+   "subcategory": "Irish Single Malt",
+   "distillery": "Kinahan's Distillery",
+   "region": "Ireland",
+   "age": "10yr",
+   "abv_percent": 40,
+   "price_usd": 66.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Honey",
+    "Malt",
+    "Orchard Fruit"
+   ],
+   "description": "Revived 1779 heritage brand, single malt.",
+   "url": "https://caskworth.com/products/kinahans-10-year",
+   "image": "https://caskworth.com/assets/images/products/kinahans-10-year.webp"
+  },
+  {
+   "slug": "the-busker-single-malt",
+   "name": "The Busker Single Malt",
+   "category": "Irish",
+   "subcategory": "Irish Single Malt",
+   "distillery": "The Busker Single Malt Distillery",
+   "region": "Ireland",
+   "age": "NAS",
+   "abv_percent": 40,
+   "price_usd": 23.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Honey",
+    "Malt",
+    "Orchard Fruit"
+   ],
+   "description": "Royal Oak Distillery's new multi-still range.",
+   "url": "https://caskworth.com/products/the-busker-single-malt",
+   "image": "https://caskworth.com/assets/images/products/the-busker-single-malt.webp"
+  },
+  {
+   "slug": "powers-gold-label",
+   "name": "Powers Gold Label",
+   "category": "Irish",
+   "subcategory": "Single Pot Still Irish Whiskey",
+   "distillery": "Powers Gold Label Distillery",
+   "region": "Ireland",
+   "age": "NAS",
+   "abv_percent": 40,
+   "price_usd": 34.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Spice",
+    "Malt",
+    "Orchard Fruit"
+   ],
+   "description": "Ireland's iconic single pot still, home-market leader.",
+   "url": "https://caskworth.com/products/powers-gold-label",
+   "image": "https://caskworth.com/assets/images/products/powers-gold-label.webp"
+  },
+  {
+   "slug": "old-comber-30-year-old-pure-pot-still",
+   "name": "Old Comber 30 Year Old Pure Pot Still",
+   "category": "Irish",
+   "subcategory": "Single Pot Still Irish Whiskey",
+   "distillery": "Old Comber Distillery",
+   "region": "Ireland",
+   "age": "30yr",
+   "abv_percent": 40,
+   "price_usd": 620,
+   "currency": "USD",
+   "tasting_notes": [
+    "Spice",
+    "Malt",
+    "Orchard Fruit"
+   ],
+   "description": "Closed-distillery (1953) rare bottling with a dedicated Whisky Auctioneer valuation guide.",
+   "url": "https://caskworth.com/products/old-comber-30-year-old-pure-pot-still",
+   "image": "https://caskworth.com/assets/images/products/old-comber-30-year-old-pure-pot-still.webp"
+  },
+  {
+   "slug": "coleraine-1959-34-year-old-very-rare",
+   "name": "Coleraine 1959 34 Year Old Very Rare",
+   "category": "Irish",
+   "subcategory": "Irish Single Malt",
+   "distillery": "Coleraine Distillery",
+   "region": "Ireland",
+   "age": "34yr",
+   "abv_percent": 40,
+   "price_usd": 1900,
+   "currency": "USD",
+   "tasting_notes": [
+    "Honey",
+    "Malt",
+    "Orchard Fruit"
+   ],
+   "description": "Bottle-numbered limited edition (of 400) from a distillery shuttered over 50 years.",
+   "url": "https://caskworth.com/products/coleraine-1959-34-year-old-very-rare",
+   "image": "https://caskworth.com/assets/images/products/coleraine-1959-34-year-old-very-rare.webp"
+  },
+  {
+   "slug": "the-craft-irish-whiskey-co-the-taoscan-15-year",
+   "name": "The Craft Irish Whiskey Co The Taoscán 15 Year",
+   "category": "Irish",
+   "subcategory": "Irish Single Malt",
+   "distillery": "The Craft Irish Whiskey Co. Distillery",
+   "region": "Ireland",
+   "age": "15yr",
+   "abv_percent": 40,
+   "price_usd": 1720,
+   "currency": "USD",
+   "tasting_notes": [
+    "Honey",
+    "Malt",
+    "Orchard Fruit"
+   ],
+   "description": "Silver medal, World Whiskies Awards 2022; parent brand set the all-time whiskey auction record.",
+   "url": "https://caskworth.com/products/the-craft-irish-whiskey-co-the-taoscan-15-year",
+   "image": "https://caskworth.com/assets/images/products/the-craft-irish-whiskey-co-the-taoscan-15-year.webp"
+  },
+  {
+   "slug": "lockes-8-year-old-single-malt",
+   "name": "Locke's 8 Year Old Single Malt",
+   "category": "Irish",
+   "subcategory": "Irish Single Malt",
+   "distillery": "Locke's Distillery",
+   "region": "Ireland",
+   "age": "8yr",
+   "abv_percent": 40,
+   "price_usd": 840,
+   "currency": "USD",
+   "tasting_notes": [
+    "Honey",
+    "Malt",
+    "Orchard Fruit"
+   ],
+   "description": "Historic Kilbeggan-site brand; boxed/decanter editions trade far above the everyday bottle.",
+   "url": "https://caskworth.com/products/lockes-8-year-old-single-malt",
+   "image": "https://caskworth.com/assets/images/products/lockes-8-year-old-single-malt.webp"
+  },
+  {
+   "slug": "redbreast-27-year-old-single-pot-still",
+   "name": "Redbreast 27 Year Old Single Pot Still",
+   "category": "Irish",
+   "subcategory": "Single Pot Still Irish Whiskey",
+   "distillery": "Redbreast Distillery",
+   "region": "Ireland",
+   "age": "27yr",
+   "abv_percent": 40,
+   "price_usd": 629.99,
+   "currency": "USD",
+   "tasting_notes": [
+    "Spice",
+    "Malt",
+    "Orchard Fruit"
+   ],
+   "description": "Widely stocked at consistent four-figure-adjacent pricing across major US chains.",
+   "url": "https://caskworth.com/products/redbreast-27-year-old-single-pot-still",
+   "image": "https://caskworth.com/assets/images/products/redbreast-27-year-old-single-pot-still.webp"
   }
  ]
 }

@@ -1,4 +1,5 @@
 .claude/
+node_modules/
 
 # Internal-only working docs — this site has no build step separating a public/
 # output dir from the repo root, so anything committed here deploys live at

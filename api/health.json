@@ -2,7 +2,7 @@
  "status": "ok",
  "service": "caskworth-catalog-api",
  "version": "1.0.0",
- "generated": "2026-07-11",
+ "generated": "2026-08-31",
  "read_only": true,
- "products": 425
+ "products": 682
 }

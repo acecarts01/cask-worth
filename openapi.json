@@ -38,7 +38,7 @@
     ],
     "operationId": "listProducts",
     "summary": "List all products",
-    "description": "Returns all 425 bottles with price, ABV, age, distillery, region, tasting notes and product URL.",
+    "description": "Returns all 682 bottles with price, ABV, age, distillery, region, tasting notes and product URL.",
     "responses": {
      "200": {
       "description": "The full catalogue",
