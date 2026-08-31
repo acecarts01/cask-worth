@@ -1,6 +1,6 @@
 # Caskworth Premium Whisky
 
-> Premium whisky and spirits retailer based in Los Angeles, California, offering same-day delivery to 33 U.S. states and 7 Canadian provinces. 682 bottles across bourbon, Scotch, Japanese, Irish, rye and Canadian whisky, plus cognac, Armagnac and gift sets — from everyday bottles at $24.99 up to ultra-rare allocated releases.
+> Premium whisky and spirits retailer based in Los Angeles, California, offering same-day delivery to 33 U.S. states and 7 Canadian provinces. 682 bottles across bourbon, Scotch, Japanese, Irish, rye and Canadian whisky, plus cognac, Armagnac and gift sets — from everyday bottles at $8.99 up to ultra-rare allocated releases.
 
 Caskworth sells to adults 21 and over only; an age gate must be accepted before browsing. Minimum order is $249.99 USD. Payment is accepted via cryptocurrency, PayPal and Apple Pay.
 
@@ -11,16 +11,16 @@ AI agents running in an agent-enabled browser can use this site's WebMCP tools (
 ## Shop
 
 - [All products](https://caskworth.com/shop/): Full catalogue, browsable by category
-- [Scotch](https://caskworth.com/shop/scotch/): 128 bottles
-- [Bourbon](https://caskworth.com/shop/bourbon/): 60 bottles
-- [Cognac](https://caskworth.com/shop/cognac/): 74 bottles
-- [Brandy & Armagnac](https://caskworth.com/shop/brandy/): 39 bottles
-- [Canadian Whisky](https://caskworth.com/shop/canadian/): 32 bottles
+- [Scotch](https://caskworth.com/shop/scotch/): 177 bottles
+- [Bourbon](https://caskworth.com/shop/bourbon/): 105 bottles
+- [Cognac](https://caskworth.com/shop/cognac/): 99 bottles
+- [Brandy & Armagnac](https://caskworth.com/shop/brandy/): 64 bottles
+- [Canadian Whisky](https://caskworth.com/shop/canadian/): 53 bottles
 - [Gift Sets](https://caskworth.com/shop/gifts/): 28 bottles
-- [Japanese Whisky](https://caskworth.com/shop/japanese/): 25 bottles
-- [Irish Whiskey](https://caskworth.com/shop/irish/): 16 bottles
-- [Rye Whiskey](https://caskworth.com/shop/rye/): 15 bottles
-- [Rare & Allocated](https://caskworth.com/shop/allocated/): 8 bottles
+- [Japanese Whisky](https://caskworth.com/shop/japanese/): 48 bottles
+- [Irish Whiskey](https://caskworth.com/shop/irish/): 41 bottles
+- [Rye Whiskey](https://caskworth.com/shop/rye/): 39 bottles
+- [Rare & Allocated](https://caskworth.com/shop/allocated/): 28 bottles
 - [American Whiskey](https://caskworth.com/shop/whiskey/): 7 bottles (Jack Daniel's — a curated subset of the Bourbon category)
 
 ## Ordering & policies

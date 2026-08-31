@@ -68,5 +68,21 @@ User-agent: CCBot
 Allow: /
 Disallow: /checkout/
 
+User-agent: Amazonbot
+Allow: /
+Disallow: /checkout/
+
+User-agent: Bytespider
+Allow: /
+Disallow: /checkout/
+
+User-agent: Meta-ExternalAgent
+Allow: /
+Disallow: /checkout/
+
+User-agent: cohere-ai
+Allow: /
+Disallow: /checkout/
+
 # Agent site summary
 # https://caskworth.com/llms.txt

@@ -172,12 +172,12 @@
 <div id="announce-bar">
   <div class="announce-track">
     <span class="announce-item"><span class="ann-dot"></span>Same-Day Delivery to 33 US States</span>
-    <span class="announce-item"><span class="ann-dot"></span>Premium Whisky from $24.99</span>
+    <span class="announce-item"><span class="ann-dot"></span>Premium Whisky from $8.99</span>
     <span class="announce-item"><span class="ann-dot"></span>Minimum Order $249.99 USD</span>
     <span class="announce-item"><span class="ann-dot"></span>Bourbon · Scotch · Japanese · Irish · Rye</span>
     <span class="announce-item"><span class="ann-dot"></span>Same-Day to 7 Canadian Provinces</span>
     <span class="announce-item"><span class="ann-dot"></span>Same-Day Delivery to 33 US States</span>
-    <span class="announce-item"><span class="ann-dot"></span>Premium Whisky from $24.99</span>
+    <span class="announce-item"><span class="ann-dot"></span>Premium Whisky from $8.99</span>
     <span class="announce-item"><span class="ann-dot"></span>Minimum Order $249.99 USD</span>
     <span class="announce-item"><span class="ann-dot"></span>Bourbon · Scotch · Japanese · Irish · Rye</span>
     <span class="announce-item"><span class="ann-dot"></span>Same-Day to 7 Canadian Provinces</span>
@@ -363,17 +363,11 @@
   <div class="co-card">
     <div class="co-card-hd"><span class="cico">&#128179;</span> Payment Method</div>
     <div class="pay-grid">
-      <div class="pay-opt active" onclick="choosePay('bachs',this)" data-pay="bachs">
-        <div class="pay-ico" style="background:#5b21b6;color:#fff;font-size:15px;font-weight:800;border-radius:8px">&#128179;</div>
-        <div><div class="pay-name">Debit / Credit Card</div><div class="pay-desc">Secure card checkout</div></div>
-        <span class="pay-off" style="background:#5b21b6">RECOMMENDED</span>
-        <div class="pay-radio">&#10003;</div>
-      </div>
-      <div class="pay-opt" onclick="choosePay('crypto',this)" data-pay="crypto">
+      <div class="pay-opt active" onclick="choosePay('crypto',this)" data-pay="crypto">
         <div class="pay-ico">&#8383;</div>
         <div><div class="pay-name">Cryptocurrency</div><div class="pay-desc">BTC &bull; ETH &bull; USDT &bull; SOL</div></div>
-        <span class="pay-off">5% OFF</span>
-        <div class="pay-radio"></div>
+        <span class="pay-off">10% OFF</span>
+        <div class="pay-radio">&#10003;</div>
       </div>
       <div class="pay-opt" onclick="choosePay('paypal',this)" data-pay="paypal">
         <div class="pay-ico" style="background:#003087;color:#fff;font-size:13px;font-weight:800;border-radius:8px">P</div>
@@ -394,7 +388,7 @@
 
     <!-- Crypto Wallet Panel -->
     <div class="crypto-box" id="crypto-box">
-      <div class="crypto-discount">&#10022; 5% discount applied automatically with crypto</div>
+      <div class="crypto-discount">&#10022; 10% discount applied automatically with crypto</div>
       <div class="coin-tabs">
         <button class="coin-tab on" onclick="showCoin('usdt-eth',this)">USDT ERC-20</button>
         <button class="coin-tab" onclick="showCoin('usdt-trx',this)">USDT TRC-20</button>
@@ -429,10 +423,6 @@
   <div id="chime-box" style="display:none;background:#f0fff5;border:1px solid #86efac;border-radius:12px;padding:18px">
     <p style="font-size:14px;font-weight:700;margin-bottom:8px">$ Chime / Zelle Instructions</p>
     <p style="font-size:13px;color:#444;line-height:1.6">Complete your order and our team will provide Chime/Zelle payment details via WhatsApp or email. Fast, no fees.</p>
-  </div>
-  <div id="bachs-box" style="display:block;background:#f5f3ff;border:1px solid #ddd6fe;border-radius:12px;padding:18px">
-    <p style="font-size:14px;font-weight:700;margin-bottom:8px">&#128179; Card Payment Instructions</p>
-    <p style="font-size:13px;color:#444;line-height:1.6">Complete your order form and click "Place Order". You'll be redirected to our secure card payment page &mdash; enter your order total there to complete payment.</p>
   </div>
 
 <!-- Confirmations -->
@@ -480,7 +470,7 @@
     <div class="sum-totals">
       <div class="trow"><span>Subtotal</span><span id="t-sub">$0.00</span></div>
       <div class="trow disc-row" id="t-disc-row" style="display:none">
-        <span>&#127881; 5% crypto discount</span>
+        <span>&#127881; 10% crypto discount</span>
         <span id="t-disc" style="color:#16a34a">-$0.00</span>
       </div>
       <div class="trow"><span>Shipping</span><span style="color:#16a34a;font-weight:600">FREE</span></div>
@@ -679,11 +669,10 @@ if (typeof cart === 'undefined') { var cart = []; }
 })();
 
 var CO_MIN  = 249.99;
-var CO_DISC = 0.05;
-var CO_PAY  = 'bachs';
+var CO_DISC = 0.10;
+var CO_PAY  = 'crypto';
 var CO_WKEY = 'usdt-eth';
 var CO_WA   = '';
-var CO_BACHS_LINK = 'https://checkout.bachs.io/pay/pl_ef4a46d9a381';
 
 var CO_WALLETS = {
   'usdt-eth': { label:'USDT (ERC-20)', addr:'0x2629c24d3720E5A24adBe7Bde4677334B559C36D', qr:'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJQAAACUCAAAAABQV18IAAABpElEQVR4nO3QMXLEMAxDUd//0ptWg3xQTJUdGGxsSxT45OfzhfX8N4CqqG0Vta2itlXUtoraVlHbKmpbv1DPUNp36z/PbHOLykTp2oRwe3TRKbeofJQbPMGo5y+5Rb0PRUMIMZ0tqig9vFl3VdS7UbR+7hHK9d5yi8pHuZowm+eUW1QuigJ13fXTux1s1ovKQymIgBP27KfBU05RmSgKPtdpqA2Xfeqns0Vloc4AN9wFE5AupVlFZaMIpqHumxDTBel8UXkoCiLghHJDFWdzi4pCucMaQKEK0ZwJWlQuiobdhruLEMbBi8pFuQH0TVjdmzAEKioPdR6i57RGQ92lHKioPJQbsNnf9N+yi8pDYdMRot/nUwdqHoGKyke5oQ5w63cXcD+gqDwUDaaawITaZBSViTrDpiE3iL7fMorKRT2XmnoIQhco6n0oXdNhDqTnde92tqhslB6iJ2Fu+AlT1DtRrvdcmzLou6h3ozREg29DV5ctKhI1rU9Y7aMchRWVj3JFgwhF77fLFZWL+oYqaltFbauobRW1raK2VdS2itrWV6J+ACDVa5padVi5AAAAAElFTkSuQmCC' },
@@ -726,7 +715,7 @@ function choosePay(method, el) {
     if (rr) rr.textContent = String.fromCharCode(10003);
   }
   /* Show/hide payment panels */
-  var panels = ['crypto-box','applepay-box','paypal-box','chime-box','bachs-box'];
+  var panels = ['crypto-box','applepay-box','paypal-box','chime-box'];
   panels.forEach(function(id) {
     var p = document.getElementById(id);
     if (p) p.style.display = 'none';
@@ -1039,7 +1028,7 @@ function placeOrder() {
     address:  addrFull,
     items:    itemsStr,
     subtotal: '$' + sub.toFixed(2) + ' USD',
-    discount: disc > 0 ? '-$' + disc.toFixed(2) + ' (5% crypto)' : 'None',
+    discount: disc > 0 ? '-$' + disc.toFixed(2) + ' (10% crypto)' : 'None',
     total:    '$' + total.toFixed(2) + ' USD',
     payment:  CO_PAY.toUpperCase()
   };
@@ -1071,9 +1060,6 @@ function placeOrder() {
         '<div><strong>Email:</strong> ' + email + '</div>' +
         '<div><strong>Total:</strong> $' + total.toFixed(2) + ' USD</div>' +
         '<div><strong>Payment:</strong> ' + CO_PAY.toUpperCase() + '</div>' +
-        (CO_PAY === 'bachs'
-          ? '<div style="margin-top:6px;color:#5b21b6;font-weight:700">A secure card payment page is opening in a new tab &mdash; enter $' + total.toFixed(2) + ' to complete your purchase.</div>'
-          : '') +
         '<div style="margin-top:6px;padding-top:6px;border-top:1px solid #e8e0d4">' +
         (sent
           ? 'Confirmation sent to ' + email + ' and info@caskworth.com'
@@ -1083,13 +1069,9 @@ function placeOrder() {
     var overlay = document.getElementById('succ-overlay');
     if (overlay) overlay.classList.add('on');
 
-    /* Auto-open payment link (card) or WhatsApp confirmation (all other methods) */
+    /* Auto-open WhatsApp confirmation */
     setTimeout(function() {
-      if (CO_PAY === 'bachs') {
-        window.open(CO_BACHS_LINK, '_blank');
-      } else {
-        window.open('https://wa.me/14482348667?text=' + encodeURIComponent(CO_WA), '_blank');
-      }
+      window.open('https://wa.me/14482348667?text=' + encodeURIComponent(CO_WA), '_blank');
     }, 700);
 
     renderSummary();
@@ -1125,9 +1107,9 @@ document.addEventListener('DOMContentLoaded', function() {
   var _pb = document.getElementById('place-btn');
   if (_pb) { _pb.disabled = false; _pb.style.opacity = '1'; _pb.style.cursor = 'pointer'; }
   renderSummary();
-  /* Card is the default/main payment method */
-  var bachsBtn = document.querySelector('[data-pay="bachs"]');
-  choosePay('bachs', bachsBtn);
+  /* Crypto is the default/main payment method */
+  var cryptoBtn = document.querySelector('[data-pay="crypto"]');
+  choosePay('crypto', cryptoBtn);
   /* Show first wallet (in case the user switches to crypto) */
   showCoin('usdt-eth', document.querySelector('.coin-tab'));
   recalc();

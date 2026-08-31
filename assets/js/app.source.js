@@ -696,7 +696,7 @@ const PRODUCTS = [
 const FEATURED_IDS = ['p901','p906','p912','p1001','p924','p1019','p1028','p1029'];
 const MIN_ORDER = 249.99;
 
-const CRYPTO_DISCOUNT = 0.05;  // 5% off all crypto payments
+const CRYPTO_DISCOUNT = 0.10;  // 10% off all crypto payments
 
 function getDiscountedTotal(){
   var sub = getSubtotal();
@@ -809,7 +809,7 @@ function renderProducts(list,containerId){
     const hasPdp=(typeof CW_VALID_PDP!=='undefined')&&CW_VALID_PDP.has(slug);
     const pdpUrl='/products/'+slug+'.html';
     const priceStr=p.price>=1000?'$'+Math.round(p.price).toLocaleString('en-US'):'$'+Number(p.price).toFixed(2);
-    const cryptoPrice=Math.round(p.price*0.95*100)/100;
+    const cryptoPrice=Math.round(p.price*0.90*100)/100;
     const cryptoStr=cryptoPrice>=1000?'$'+Math.round(cryptoPrice).toLocaleString('en-US'):'$'+cryptoPrice.toFixed(2);
     const pid=String(p.id);
     return '<div class="pc" data-pid="'+pid+'">'
