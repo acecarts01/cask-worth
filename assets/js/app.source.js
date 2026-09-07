@@ -824,7 +824,7 @@ function renderProducts(list,containerId){
         +'<div class="pc-crypto">&#127881; '+cryptoStr+' with crypto</div>'
         +'<div class="pc-btns">'
           +'<button class="pc-atc" type="button">Add to Cart</button>'
-          +'<a href="'+pdpUrl+'" class="pc-view-btn">Details ↗</a>'
+          +'<a href="'+pdpUrl+'" class="pc-view-btn" aria-label="Details — '+p.name+'">Details ↗</a>'
         +'</div>'
       +'</div></div>';
   }).join('');
