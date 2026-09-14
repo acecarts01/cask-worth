@@ -1016,6 +1016,28 @@ function initHeaderScroll(){
   window.addEventListener('scroll',()=>{h.classList.toggle('scrolled',window.scrollY>10);},{passive:true});
 }
 
+function initVerifyBadge(){
+  var badge=document.createElement('a');
+  badge.href='https://bizfileonline.sos.ca.gov/search/business';
+  badge.target='_blank';
+  badge.rel='noopener noreferrer';
+  badge.className='verify-badge';
+  badge.title='Caskworth is operated by 49er Liquors Inc, a licensed California corporation (Entity No. 5373948). Click to verify with the California Secretary of State.';
+  badge.innerHTML='<svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M12 2l8 3v6c0 5-3.5 9-8 11-4.5-2-8-6-8-11V5z"/><path d="M9 12l2 2 4-4"/></svg><span class="vb-full">CA Licensed Corp &middot; Verify</span><span class="vb-short">Verified</span>';
+  var bar=document.getElementById('announce-bar');
+  if(bar){
+    bar.insertBefore(badge,bar.firstChild);
+  }else{
+    var header=document.getElementById('site-header');
+    if(header&&header.parentNode){
+      var slim=document.createElement('div');
+      slim.id='verify-bar';
+      slim.appendChild(badge);
+      header.parentNode.insertBefore(slim,header);
+    }
+  }
+}
+
 function initReveal(){
   const obs=new IntersectionObserver((entries)=>{entries.forEach(e=>{if(e.isIntersecting){e.target.classList.add('visible');obs.unobserve(e.target);}});},{threshold:.1,rootMargin:'0px 0px -40px 0px'});
   document.querySelectorAll('.reveal').forEach(el=>obs.observe(el));
@@ -1106,7 +1128,7 @@ function renderCheckoutSummary(){
 }
 
 document.addEventListener('DOMContentLoaded',()=>{
-  loadCart();if(typeof checkAge==="function")checkAge();updateCartUI();initReveal();initHeaderScroll();initHeroSlider();
+  loadCart();if(typeof checkAge==="function")checkAge();updateCartUI();initReveal();initHeaderScroll();initHeroSlider();initVerifyBadge();
   const qvOv=document.getElementById('qv-overlay');
   if(qvOv)qvOv.addEventListener('click',e=>{if(e.target===qvOv)closeQV();});
   const cOv=document.getElementById('cart-overlay');
