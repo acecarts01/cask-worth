@@ -254,26 +254,6 @@
   </div>
 </header>
 
-<!-- FormSubmit backup form (hidden) -->
-<form id="fs-backup" action="https://formsubmit.co/info&#64;caskworth.com" method="POST" target="_blank" style="display:none">
-  <input type="hidden" name="_captcha" value="false">
-  <input type="hidden" name="_template" value="box">
-  <input type="hidden" name="_next" value="https://caskworth.com/checkout/?order=success">
-  <input type="hidden" id="fs-subject" name="_subject" value="">
-  <input type="hidden" id="fs-cc" name="_cc" value="">
-  <input type="hidden" id="fs-replyto" name="_replyto" value="">
-  <input type="hidden" id="fs-ref" name="Order_Reference" value="">
-  <input type="hidden" id="fs-name" name="Customer_Name" value="">
-  <input type="hidden" id="fs-email" name="Email" value="">
-  <input type="hidden" id="fs-phone" name="Phone" value="">
-  <input type="hidden" id="fs-address" name="Delivery_Address" value="">
-  <input type="hidden" id="fs-items" name="Items_Ordered" value="">
-  <input type="hidden" id="fs-subtotal" name="Subtotal" value="">
-  <input type="hidden" id="fs-discount" name="Discount" value="">
-  <input type="hidden" id="fs-total" name="ORDER_TOTAL" value="">
-  <input type="hidden" id="fs-payment" name="Payment_Method" value="">
-  <input type="hidden" id="fs-date" name="Order_Date" value="">
-</form>
 <div id="age-gate" style="display:none;position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(15,8,2,.96);z-index:9999;align-items:center;justify-content:center;padding:20px">
 <div style="background:#fff;border-radius:18px;padding:40px;max-width:420px;width:100%;text-align:center;box-shadow:0 20px 60px rgba(0,0,0,.5)">
 <div style="font-size:42px;margin-bottom:12px">&#x1F943;</div>
@@ -925,59 +905,16 @@ function validateForm() {
   return true;
 }
 
-/* --- Send email via FormSubmit --- */
+/* --- Send order notification via Resend (through our own Pages Function) --- */
 function sendOrderEmail(data, callback) {
-  /* Fill the HTML backup form */
-  function setField(id, val) { var el=document.getElementById(id); if(el) el.value=val; }
-  setField('fs-subject', 'New Order ' + data.ref + ' - Caskworth Premium Whisky');
-  setField('fs-cc',      data.email);
-  setField('fs-replyto', data.email);
-  setField('fs-ref',     data.ref);
-  setField('fs-name',    data.name);
-  setField('fs-email',   data.email);
-  setField('fs-phone',   data.phone);
-  setField('fs-address', data.address);
-  setField('fs-items',   data.items);
-  setField('fs-subtotal',data.subtotal);
-  setField('fs-discount',data.discount);
-  setField('fs-total',   data.total);
-  setField('fs-payment', data.payment);
-  setField('fs-date',    new Date().toLocaleString('en-US',{dateStyle:'full',timeStyle:'short'}));
-
-  var payload = {
-    '_subject':       'New Order ' + data.ref + ' - Caskworth Premium Whisky',
-    '_template':      'box',
-    '_captcha':       'false',
-    '_cc':            data.email,
-    '_replyto':       data.email,
-    'Order_Ref':      data.ref,
-    'Customer_Name':  data.name,
-    'Email':          data.email,
-    'Phone':          data.phone,
-    'Address':        data.address,
-    'Items_Ordered':  data.items,
-    'Subtotal':       data.subtotal,
-    'Crypto_Discount':data.discount,
-    'ORDER_TOTAL':    data.total,
-    'Payment_Method': data.payment,
-    'Order_Date':     new Date().toLocaleString('en-US', { dateStyle: 'full', timeStyle: 'short' })
-  };
-
-  fetch('https://formsubmit.co/ajax/' + 'info' + '@' + 'caskworth.com', {
+  fetch('/api/send-order', {
     method: 'POST',
-    headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
-    body: JSON.stringify(payload)
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify(data)
   })
   .then(function(r) { return r.json(); })
-  .then(function(j) { callback(j.success === 'true' || j.success === true); })
-  .catch(function() {
-    /* Fallback: submit the pre-filled hidden form */
-    try {
-      var fbk = document.getElementById('fs-backup');
-      if (fbk) { fbk.submit(); callback(true); return; }
-    } catch(e2) {}
-    callback(false);
-  });
+  .then(function(j) { callback(!!j.success); })
+  .catch(function() { callback(false); });
 }
 
 /* --- Place order --- */
