@@ -1023,7 +1023,7 @@ function initVerifyBadge(){
   badge.rel='noopener noreferrer';
   badge.className='verify-badge';
   badge.title='Caskworth is operated by 49er Liquors Inc, a licensed California corporation (Entity No. 5373948). Click to verify with the California Secretary of State.';
-  badge.innerHTML='<svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M12 2l8 3v6c0 5-3.5 9-8 11-4.5-2-8-6-8-11V5z"/><path d="M9 12l2 2 4-4"/></svg><span class="vb-full">CA Licensed Corp &middot; Verify</span><span class="vb-short">Verified</span>';
+  badge.innerHTML='<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M12 2l8 3v6c0 5-3.5 9-8 11-4.5-2-8-6-8-11V5z"/><path d="M9 12l2 2 4-4"/></svg><span class="vb-text"><span class="vb-line1"><span class="vb-full">CA Licensed Corp</span><span class="vb-short">Verified</span></span><span class="vb-line2"><span class="vb-full">49er Liquors Inc &middot; Entity #5373948</span><span class="vb-short">Entity #5373948</span></span></span>';
   var bar=document.getElementById('announce-bar');
   if(bar){
     bar.insertBefore(badge,bar.firstChild);
