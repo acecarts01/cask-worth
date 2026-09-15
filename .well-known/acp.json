@@ -11,7 +11,7 @@
   "capabilities": {
     "services": ["product-catalog", "wholesale", "blog", "faq"],
     "ordering": "human-assisted-website-checkout",
-    "payment_methods": ["cryptocurrency", "PayPal", "Apple Pay"],
+    "payment_methods": ["cryptocurrency", "PayPal", "Apple Pay", "bank-transfer"],
     "currency": "USD",
     "minimum_order_usd": "249.99",
     "free_shipping_threshold_usd": null
