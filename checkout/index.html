@@ -905,15 +905,15 @@ function validateForm() {
   return true;
 }
 
-/* --- Send order notification via Resend (through our own Pages Function) --- */
+/* --- Create the order (persists to D1, sends the Resend notification + customer confirmation) --- */
 function sendOrderEmail(data, callback) {
-  fetch('/api/send-order', {
+  fetch('/api/orders', {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify(data)
   })
   .then(function(r) { return r.json(); })
-  .then(function(j) { callback(!!j.success); })
+  .then(function(j) { callback(!!j.success, j.ref); })
   .catch(function() { callback(false); });
 }
 
@@ -958,16 +958,16 @@ function placeOrder() {
   var itemsStr = itemsList.join(' | ');
 
   var data = {
-    ref:      ref,
-    name:     fn + ' ' + ln,
-    email:    email,
-    phone:    phone,
-    address:  addrFull,
-    items:    itemsStr,
-    subtotal: '$' + sub.toFixed(2) + ' USD',
-    discount: disc > 0 ? '-$' + disc.toFixed(2) + ' (10% crypto)' : 'None',
-    total:    '$' + total.toFixed(2) + ' USD',
-    payment:  CO_PAY.toUpperCase()
+    name:      fn + ' ' + ln,
+    email:     email,
+    phone:     phone,
+    address:   addrFull,
+    items:     itemsStr,
+    subtotal:  '$' + sub.toFixed(2) + ' USD',
+    discount:  disc > 0 ? '-$' + disc.toFixed(2) + ' (10% crypto)' : 'None',
+    total:     '$' + total.toFixed(2) + ' USD',
+    payment:   CO_PAY.toUpperCase(),
+    walletKey: CO_PAY === 'crypto' ? CO_WKEY : ''
   };
 
   CO_WA = 'NEW ORDER ' + ref
@@ -979,9 +979,12 @@ function placeOrder() {
     + ' | TOTAL: $' + total.toFixed(2) + ' USD'
     + ' | Payment: ' + CO_PAY.toUpperCase();
 
-  sendOrderEmail(data, function(sent) {
+  sendOrderEmail(data, function(sent, serverRef) {
     btn.disabled = false;
     btn.classList.remove('busy');
+
+    var finalRef = serverRef || ref;
+    CO_WA = CO_WA.replace(ref, finalRef);
 
     /* Clear cart */
     if (typeof cart !== 'undefined') cart = [];
@@ -989,7 +992,7 @@ function placeOrder() {
     if (typeof updateCartUI === 'function') updateCartUI();
 
     /* Show success */
-    setText('succ-ref', ref);
+    setText('succ-ref', finalRef);
     var det = document.getElementById('succ-det');
     if (det) {
       det.innerHTML =

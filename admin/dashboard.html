@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Orders — Caskworth Admin</title>
+<link rel="stylesheet" href="/admin/admin.css">
+</head>
+<body class="dash-body">
+  <header class="dash-hd">
+    <div class="wm">CASKWORTH <span class="tag">Admin</span></div>
+    <button id="logout-btn" class="btn-ghost">Log Out</button>
+  </header>
+  <main class="dash-main">
+    <h1>Orders</h1>
+    <div id="orders-list" class="orders-list">Loading orders&hellip;</div>
+  </main>
+
+  <div id="order-modal" class="modal" hidden>
+    <div class="modal-card">
+      <button id="modal-close" class="modal-close">&times;</button>
+      <div id="modal-body"></div>
+    </div>
+  </div>
+
+  <script src="/admin/admin.js"></script>
+</body>
+</html>

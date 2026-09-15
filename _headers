@@ -77,3 +77,7 @@
 /.well-known/*
   Cache-Control: public, max-age=3600
   Access-Control-Allow-Origin: *
+
+/admin/*
+  Cache-Control: no-store
+  X-Robots-Tag: noindex

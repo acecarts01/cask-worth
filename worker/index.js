@@ -10,94 +10,13 @@
 //
 // wrangler.toml sets `run_worker_first = true` so every request -- not just
 // ones that miss a static asset -- passes through fetch() below. That lets
-// this script both serve /api/send-order and inspect the Accept header on
-// ordinary HTML pages for the markdown-negotiation feature, falling back to
-// env.ASSETS.fetch() for normal static serving.
+// this script both serve the /api/* and /admin/setup routes below and
+// inspect the Accept header on ordinary HTML pages for the markdown-
+// negotiation feature, falling back to env.ASSETS.fetch() for normal
+// static serving.
 
-/* ---------- shared helpers ---------- */
-
-function esc(s) {
-  return String(s == null ? '' : s)
-    .replace(/&/g, '&amp;')
-    .replace(/</g, '&lt;')
-    .replace(/>/g, '&gt;');
-}
-
-/* ---------- POST /api/send-order (Resend email notification) ---------- */
-
-const REQUIRED_FIELDS = ['ref', 'name', 'email', 'phone', 'address', 'items', 'subtotal', 'discount', 'total', 'payment'];
-const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-
-async function handleSendOrder(request, env) {
-  if (request.method !== 'POST') {
-    return Response.json({ error: 'Method not allowed' }, { status: 405 });
-  }
-
-  let data;
-  try {
-    data = await request.json();
-  } catch (e) {
-    return Response.json({ success: false, error: 'Invalid JSON body' }, { status: 400 });
-  }
-
-  for (const field of REQUIRED_FIELDS) {
-    if (!data[field]) {
-      return Response.json({ success: false, error: `Missing field: ${field}` }, { status: 400 });
-    }
-  }
-  if (!EMAIL_RE.test(data.email)) {
-    return Response.json({ success: false, error: 'Invalid email address' }, { status: 400 });
-  }
-  if (!env.RESEND_API_KEY) {
-    return Response.json({ success: false, error: 'Email service is not configured' }, { status: 500 });
-  }
-
-  const itemsHtml = esc(data.items).split(' | ').filter(Boolean).map((line) => `<li>${line}</li>`).join('');
-  const orderDate = new Date().toLocaleString('en-US', { dateStyle: 'full', timeStyle: 'short' });
-
-  const html = `
-    <h2 style="font-family:Georgia,serif;margin-bottom:4px;">New Order ${esc(data.ref)}</h2>
-    <p style="color:#666;margin-top:0;">${orderDate}</p>
-    <table style="border-collapse:collapse;width:100%;max-width:600px;">
-      <tr><td style="padding:4px 12px 4px 0;color:#666;">Customer</td><td>${esc(data.name)}</td></tr>
-      <tr><td style="padding:4px 12px 4px 0;color:#666;">Email</td><td>${esc(data.email)}</td></tr>
-      <tr><td style="padding:4px 12px 4px 0;color:#666;">Phone</td><td>${esc(data.phone)}</td></tr>
-      <tr><td style="padding:4px 12px 4px 0;color:#666;">Address</td><td>${esc(data.address)}</td></tr>
-      <tr><td style="padding:4px 12px 4px 0;color:#666;">Payment</td><td>${esc(data.payment)}</td></tr>
-      <tr><td style="padding:4px 12px 4px 0;color:#666;">Subtotal</td><td>${esc(data.subtotal)}</td></tr>
-      <tr><td style="padding:4px 12px 4px 0;color:#666;">Discount</td><td>${esc(data.discount)}</td></tr>
-      <tr><td style="padding:4px 12px 4px 0;color:#666;font-weight:700;">Total</td><td style="font-weight:700;">${esc(data.total)}</td></tr>
-    </table>
-    <h3 style="margin-bottom:4px;">Items</h3>
-    <ul>${itemsHtml}</ul>
-  `;
-
-  try {
-    const resendRes = await fetch('https://api.resend.com/emails', {
-      method: 'POST',
-      headers: {
-        'Authorization': `Bearer ${env.RESEND_API_KEY}`,
-        'Content-Type': 'application/json',
-      },
-      body: JSON.stringify({
-        from: 'Caskworth Orders <orders@caskworth.com>',
-        to: ['info@caskworth.com'],
-        reply_to: data.email,
-        subject: `New Order ${data.ref} - Caskworth Premium Whisky`,
-        html,
-      }),
-    });
-
-    if (!resendRes.ok) {
-      const errBody = await resendRes.text();
-      return Response.json({ success: false, error: `Resend error: ${errBody}` }, { status: 502 });
-    }
-
-    return Response.json({ success: true });
-  } catch (e) {
-    return Response.json({ success: false, error: e.message }, { status: 500 });
-  }
-}
+import { handleCreateOrder, handleInvoicePage } from './orders.js';
+import { handleAdminSetup, handleAdminLogin, handleAdminLogout, handleAdminOrders, handleAdminOrderAction } from './admin.js';
 
 /* ---------- Markdown negotiation for AI agents ---------- */
 
@@ -192,7 +111,7 @@ function htmlToMarkdown(html, pageUrl) {
   return md;
 }
 
-const SKIP_PREFIXES = ['/assets/', '/api/', '/.well-known/', '/checkout'];
+const SKIP_PREFIXES = ['/assets/', '/api/', '/.well-known/', '/checkout', '/admin', '/invoice/'];
 const SKIP_EXT = /\.(css|js|mjs|json|xml|txt|png|jpe?g|webp|svg|ico|avif|gif|woff2?|ttf|manifest|md)$/i;
 
 async function maybeNegotiateMarkdown(request, env, url) {
@@ -227,12 +146,38 @@ async function maybeNegotiateMarkdown(request, env, url) {
 
 /* ---------- entry point ---------- */
 
+function matchOrderAction(pathname) {
+  // /api/admin/orders/{id}/invoice  or  /api/admin/orders/{id}/paid
+  const m = /^\/api\/admin\/orders\/(\d+)\/(invoice|paid)$/.exec(pathname);
+  return m ? { id: Number(m[1]), action: m[2] } : null;
+}
+
 export default {
   async fetch(request, env, ctx) {
     const url = new URL(request.url);
+    const path = url.pathname;
 
-    if (url.pathname === '/api/send-order') {
-      return handleSendOrder(request, env);
+    if (path === '/api/orders') {
+      return handleCreateOrder(request, env);
+    }
+    if (path.startsWith('/invoice/')) {
+      return handleInvoicePage(path.slice('/invoice/'.length), env);
+    }
+    if (path === '/admin/setup') {
+      return handleAdminSetup(request, env, url);
+    }
+    if (path === '/api/admin/login') {
+      return handleAdminLogin(request, env);
+    }
+    if (path === '/api/admin/logout') {
+      return handleAdminLogout();
+    }
+    if (path === '/api/admin/orders') {
+      return handleAdminOrders(request, env);
+    }
+    const orderAction = matchOrderAction(path);
+    if (orderAction) {
+      return handleAdminOrderAction(request, env, orderAction.id, orderAction.action);
     }
 
     try {

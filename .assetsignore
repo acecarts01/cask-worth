@@ -2,6 +2,7 @@
 wrangler.toml
 worker
 functions
+schema.sql
 .github
 .claude
 node_modules

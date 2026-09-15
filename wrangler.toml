@@ -6,3 +6,8 @@ main = "worker/index.js"
 directory = "."
 binding = "ASSETS"
 run_worker_first = true
+
+[[d1_databases]]
+binding = "DB"
+database_name = "caskworth-orders"
+database_id = "39dda7a0-0c7d-4b6e-9969-2904441ace58"

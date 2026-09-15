@@ -13,16 +13,25 @@ Content-Signal: search=yes, ai-input=yes, ai-train=no
 User-agent: *
 Allow: /
 Disallow: /checkout/
+Disallow: /admin/
+Disallow: /api/
+Disallow: /invoice/
 
 # Googlebot
 User-agent: Googlebot
 Allow: /
 Disallow: /checkout/
+Disallow: /admin/
+Disallow: /api/
+Disallow: /invoice/
 
 # Bingbot
 User-agent: Bingbot
 Allow: /
 Disallow: /checkout/
+Disallow: /admin/
+Disallow: /api/
+Disallow: /invoice/
 Crawl-delay: 1
 
 # Machine-readable catalogue API (read-only)
@@ -35,54 +44,93 @@ Sitemap: https://caskworth.com/sitemap.xml
 User-agent: GPTBot
 Allow: /
 Disallow: /checkout/
+Disallow: /admin/
+Disallow: /api/
+Disallow: /invoice/
 
 User-agent: OAI-SearchBot
 Allow: /
 Disallow: /checkout/
+Disallow: /admin/
+Disallow: /api/
+Disallow: /invoice/
 
 User-agent: ChatGPT-User
 Allow: /
 Disallow: /checkout/
+Disallow: /admin/
+Disallow: /api/
+Disallow: /invoice/
 
 User-agent: ClaudeBot
 Allow: /
 Disallow: /checkout/
+Disallow: /admin/
+Disallow: /api/
+Disallow: /invoice/
 
 User-agent: Claude-User
 Allow: /
 Disallow: /checkout/
+Disallow: /admin/
+Disallow: /api/
+Disallow: /invoice/
 
 User-agent: PerplexityBot
 Allow: /
 Disallow: /checkout/
+Disallow: /admin/
+Disallow: /api/
+Disallow: /invoice/
 
 User-agent: Google-Extended
 Allow: /
 Disallow: /checkout/
+Disallow: /admin/
+Disallow: /api/
+Disallow: /invoice/
 
 User-agent: Applebot-Extended
 Allow: /
 Disallow: /checkout/
+Disallow: /admin/
+Disallow: /api/
+Disallow: /invoice/
 
 User-agent: CCBot
 Allow: /
 Disallow: /checkout/
+Disallow: /admin/
+Disallow: /api/
+Disallow: /invoice/
 
 User-agent: Amazonbot
 Allow: /
 Disallow: /checkout/
+Disallow: /admin/
+Disallow: /api/
+Disallow: /invoice/
 
 User-agent: Bytespider
 Allow: /
 Disallow: /checkout/
+Disallow: /admin/
+Disallow: /api/
+Disallow: /invoice/
 
 User-agent: Meta-ExternalAgent
 Allow: /
 Disallow: /checkout/
+Disallow: /admin/
+Disallow: /api/
+Disallow: /invoice/
 
 User-agent: cohere-ai
 Allow: /
 Disallow: /checkout/
+Disallow: /admin/
+Disallow: /api/
+Disallow: /invoice/
 
 # Agent site summary
 # https://caskworth.com/llms.txt
