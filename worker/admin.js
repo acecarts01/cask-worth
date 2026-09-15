@@ -94,7 +94,12 @@ export async function handleAdminOrderAction(request, env, orderId, action) {
   if (!session) return unauthorized();
 
   if (action === 'invoice') {
-    const result = await dispatchInvoiceForOrder(orderId, env);
+    let paymentDetails = '';
+    try {
+      const body = await request.json();
+      paymentDetails = (body && body.paymentDetails) || '';
+    } catch (e) { /* no body sent -- fine, falls back to the generic instructions */ }
+    const result = await dispatchInvoiceForOrder(orderId, env, paymentDetails);
     if (!result.ok) return Response.json({ error: result.error }, { status: 400 });
     return Response.json({ success: true });
   }

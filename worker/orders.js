@@ -1,6 +1,6 @@
 import { sendEmail } from './lib/resend.js';
 import { randomToken } from './lib/auth.js';
-import { renderOrderNotificationEmail, renderOrderConfirmationEmail, renderInvoiceEmail, paymentInstructionsHtml } from './lib/email-templates.js';
+import { renderOrderNotificationEmail, renderOrderConfirmationEmail, renderInvoiceEmail, customPaymentDetailsHtml } from './lib/email-templates.js';
 
 const REQUIRED_FIELDS = ['name', 'email', 'phone', 'address', 'items', 'subtotal', 'discount', 'total', 'payment'];
 const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
@@ -120,7 +120,7 @@ export async function handleInvoicePage(token, env) {
       <tr><td>Discount</td><td align="right">${esc(order.discount)}</td></tr>
       <tr class="grand"><td>Total</td><td align="right">${esc(order.total)}</td></tr>
     </table>
-    ${paymentInstructionsHtml(order)}
+    ${customPaymentDetailsHtml(order)}
   </div>
   <div class="ft">Caskworth Premium Whisky, a trade name of 49er Liquors Inc, a licensed California Stock Corporation (Entity No. 5373948). Questions about this invoice? Reply to the invoice email, or contact info@caskworth.com.</div>
 </div></div></body></html>`;
@@ -128,9 +128,11 @@ export async function handleInvoicePage(token, env) {
   return new Response(html, { headers: { 'content-type': 'text/html; charset=utf-8', 'Cache-Control': 'no-store', 'X-Robots-Tag': 'noindex' } });
 }
 
-export async function dispatchInvoiceForOrder(orderId, env) {
+export async function dispatchInvoiceForOrder(orderId, env, paymentDetails) {
   const order = await env.DB.prepare('SELECT * FROM orders WHERE id = ?').bind(orderId).first();
   if (!order) return { ok: false, error: 'Order not found' };
+
+  if (paymentDetails) order.payment_details = paymentDetails;
 
   const invoiceUrl = invoiceUrlFor(order.invoice_token);
   await sendEmail(env, {
@@ -142,8 +144,8 @@ export async function dispatchInvoiceForOrder(orderId, env) {
     html: renderInvoiceEmail(order, invoiceUrl),
   });
 
-  await env.DB.prepare(`UPDATE orders SET status = 'invoiced', invoiced_at = ? WHERE id = ?`)
-    .bind(new Date().toISOString(), orderId).run();
+  await env.DB.prepare(`UPDATE orders SET status = 'invoiced', invoiced_at = ?, payment_details = ? WHERE id = ?`)
+    .bind(new Date().toISOString(), order.payment_details || null, orderId).run();
 
   return { ok: true };
 }

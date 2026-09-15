@@ -57,6 +57,19 @@ export function paymentInstructionsHtml(order) {
     </div>`;
 }
 
+// Merchant-typed, order-specific payment details entered at invoice-dispatch time
+// (bank/wallet specifics, a payment link, etc.) -- shown instead of the generic
+// per-method boilerplate once the merchant has actually written something.
+export function customPaymentDetailsHtml(order) {
+  if (!order.payment_details) return paymentInstructionsHtml(order);
+  const lines = esc(order.payment_details).split('\n').join('<br>');
+  return `
+    <div style="background:#fdf6e8;border:1px solid rgba(201,148,26,.3);border-radius:14px;padding:20px 24px;margin-top:20px;">
+      <p style="margin:0 0 8px;font-size:13px;font-weight:700;color:#8a6712;font-family:'Inter',Arial,sans-serif;text-transform:uppercase;letter-spacing:.04em;">Payment Details</p>
+      <p style="margin:0;font-size:14px;color:#2d2d2d;font-family:'Inter',Arial,sans-serif;line-height:1.6;">${lines}</p>
+    </div>`;
+}
+
 function emailShell({ eyebrow, heading, bodyHtml, ctaLabel, ctaUrl }) {
   return `<!doctype html>
 <html>
@@ -156,7 +169,7 @@ export function renderInvoiceEmail(order, invoiceUrl) {
       Dear ${esc(order.name)}, here is your formal invoice for order <strong>${esc(order.ref)}</strong>. Please review the details below and complete payment using the method you selected at checkout.
     </p>
     ${orderSummaryTable(order)}
-    ${paymentInstructionsHtml(order)}
+    ${customPaymentDetailsHtml(order)}
     <p style="font-family:'Inter',Arial,sans-serif;font-size:13px;color:#6b6b6b;margin-top:20px;">
       A permanent copy of this invoice is always available at the link below.
     </p>

@@ -16,6 +16,7 @@ CREATE TABLE IF NOT EXISTS orders (
   total TEXT NOT NULL,
   payment TEXT NOT NULL,              -- CRYPTO | PAYPAL | APPLEPAY | CHIME
   wallet_key TEXT,                    -- which coin, when payment = CRYPTO (e.g. 'usdt-eth')
+  payment_details TEXT,               -- merchant-typed, order-specific payment info, set at invoice dispatch
   created_at TEXT NOT NULL,
   invoiced_at TEXT,
   paid_at TEXT
