@@ -1,12 +1,6 @@
 (function () {
   'use strict';
 
-  // Classic iOS Safari quirk: a tappable element with only a CSS :hover state
-  // (no native <button>/<a>) needs two taps -- the first just triggers :hover,
-  // only the second registers as a click. Registering any real touchstart
-  // listener on the document makes iOS treat taps as immediate clicks instead.
-  document.addEventListener('touchstart', function () {}, true);
-
   function esc(s) {
     return String(s == null ? '' : s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
   }
@@ -60,11 +54,11 @@
         return;
       }
       ordersList.innerHTML = orders.map(function (o) {
-        return '<div class="order-row" data-id="' + o.id + '">' +
-          '<div><div class="ref">' + esc(o.ref) + '</div><div class="name">' + esc(o.name) + ' &middot; ' + fmtDate(o.created_at) + '</div></div>' +
+        return '<button type="button" class="order-row" data-id="' + o.id + '">' +
+          '<span class="order-row-main"><span class="ref">' + esc(o.ref) + '</span><span class="name">' + esc(o.name) + ' &middot; ' + fmtDate(o.created_at) + '</span></span>' +
           '<span class="status-pill ' + esc(o.status) + '">' + esc(o.status) + '</span>' +
-          '<div class="total">' + esc(o.total) + '</div>' +
-          '</div>';
+          '<span class="total">' + esc(o.total) + '</span>' +
+          '</button>';
       }).join('');
       Array.prototype.forEach.call(ordersList.querySelectorAll('.order-row'), function (row) {
         row.addEventListener('click', function () { openModal(Number(row.dataset.id)); });
@@ -126,8 +120,9 @@
         '</table>' +
         paymentSection(o) +
         '<div class="modal-actions">' +
-        '<button class="btn-invoice" id="dispatch-invoice-btn"' + (o.status !== 'new' ? ' disabled' : '') + '>' + (o.status === 'new' ? 'Send Invoice' : 'Invoice Sent') + '</button>' +
-        '<button class="btn-paid" id="mark-paid-btn"' + (o.status === 'paid' ? ' disabled' : '') + '>' + (o.status === 'paid' ? 'Paid' : 'Mark as Paid') + '</button>' +
+        '<button type="button" class="btn-invoice" id="dispatch-invoice-btn"' + (o.status !== 'new' ? ' disabled' : '') + '>' + (o.status === 'new' ? 'Send Invoice' : 'Invoice Sent') + '</button>' +
+        '<button type="button" class="btn-paid" id="mark-paid-btn"' + (o.status === 'paid' ? ' disabled' : '') + '>' + (o.status === 'paid' ? 'Paid' : 'Mark as Paid') + '</button>' +
+        '<button type="button" class="btn-close" id="modal-close-btn">Close</button>' +
         '</div>';
 
       var invoiceBtn = document.getElementById('dispatch-invoice-btn');
@@ -146,6 +141,9 @@
       }
       var paidBtn = document.getElementById('mark-paid-btn');
       if (paidBtn) paidBtn.addEventListener('click', function () { runAction(o.id, 'paid', paidBtn); });
+
+      var closeBtn = document.getElementById('modal-close-btn');
+      if (closeBtn) closeBtn.addEventListener('click', function () { modal.hidden = true; });
 
       modal.hidden = false;
     }
