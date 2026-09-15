@@ -4,8 +4,6 @@
 //   near-black gradient family used sitewide: #0d0a04 / #1a0d03 / #2a1a06
 //   headings: 'Playfair Display', Georgia, serif   body: 'Inter', system-ui, sans-serif
 
-import { WALLETS } from './wallets.js';
-
 function esc(s) {
   return String(s == null ? '' : s)
     .replace(/&/g, '&amp;')
@@ -21,47 +19,22 @@ function itemsRows(itemsStr) {
     .join('');
 }
 
-// Real payment instructions for whichever method the customer chose at checkout --
-// never fabricated, mirrors checkout/index.html's payment-option copy exactly.
-export function paymentInstructionsHtml(order) {
-  const method = (order.payment || '').toUpperCase();
-
-  if (method === 'CRYPTO') {
-    const wallet = WALLETS[order.wallet_key] || WALLETS['usdt-eth'];
-    return `
-      <div style="background:#fdf6e8;border:1px solid rgba(201,148,26,.3);border-radius:14px;padding:20px 24px;margin-top:20px;">
-        <p style="margin:0 0 6px;font-size:13px;font-weight:700;color:#8a6712;font-family:'Inter',Arial,sans-serif;text-transform:uppercase;letter-spacing:.04em;">Payment &mdash; Cryptocurrency (10% discount applied)</p>
-        <p style="margin:0 0 4px;font-size:13px;color:#444;font-family:'Inter',Arial,sans-serif;">${esc(wallet.label)} address:</p>
-        <p style="margin:0;font-size:14px;font-family:monospace;color:#1c1c1e;word-break:break-all;background:#fff;border:1px solid #e8e0d4;border-radius:8px;padding:10px 12px;">${esc(wallet.addr)}</p>
-        <p style="margin:10px 0 0;font-size:12px;color:#8a6712;">Please include your order reference (${esc(order.ref)}) in the transaction memo, and allow a short delay for network confirmation.</p>
-      </div>`;
-  }
-  if (method === 'PAYPAL') {
-    return `
-      <div style="background:#f0f7ff;border:1px solid #b3d4f5;border-radius:14px;padding:20px 24px;margin-top:20px;">
-        <p style="margin:0 0 6px;font-size:13px;font-weight:700;color:#1c4a7a;font-family:'Inter',Arial,sans-serif;text-transform:uppercase;letter-spacing:.04em;">Payment &mdash; PayPal</p>
-        <p style="margin:0;font-size:13px;color:#444;font-family:'Inter',Arial,sans-serif;">A PayPal invoice for this order will be sent to your email address shortly &mdash; no PayPal account required to pay it.</p>
-      </div>`;
-  }
-  if (method === 'APPLEPAY') {
-    return `
-      <div style="background:#f5f5f5;border:1px solid #ddd;border-radius:14px;padding:20px 24px;margin-top:20px;">
-        <p style="margin:0 0 6px;font-size:13px;font-weight:700;color:#1c1c1e;font-family:'Inter',Arial,sans-serif;text-transform:uppercase;letter-spacing:.04em;">Payment &mdash; Apple Pay</p>
-        <p style="margin:0;font-size:13px;color:#444;font-family:'Inter',Arial,sans-serif;">A secure Apple Pay payment link will follow by email or WhatsApp.</p>
-      </div>`;
-  }
+// No payment specifics (wallet address, bank/Zelle recipient, PayPal link, etc.)
+// are ever auto-generated. The merchant is the sole source of payment details --
+// this neutral placeholder shows until they've personally typed something in at
+// invoice-dispatch time (see customPaymentDetailsHtml below).
+function pendingPaymentHtml() {
   return `
-    <div style="background:#f0fff5;border:1px solid #86efac;border-radius:14px;padding:20px 24px;margin-top:20px;">
-      <p style="margin:0 0 6px;font-size:13px;font-weight:700;color:#15803d;font-family:'Inter',Arial,sans-serif;text-transform:uppercase;letter-spacing:.04em;">Payment &mdash; Chime / Zelle</p>
-      <p style="margin:0;font-size:13px;color:#444;font-family:'Inter',Arial,sans-serif;">Bank transfer details will follow by WhatsApp or email.</p>
+    <div style="background:#faf8f5;border:1px solid #e8e0d4;border-radius:14px;padding:20px 24px;margin-top:20px;">
+      <p style="margin:0;font-size:13px;color:#6b6b6b;font-family:'Inter',Arial,sans-serif;line-height:1.6;">Our team will follow up shortly with the specific payment details for your order.</p>
     </div>`;
 }
 
 // Merchant-typed, order-specific payment details entered at invoice-dispatch time
-// (bank/wallet specifics, a payment link, etc.) -- shown instead of the generic
-// per-method boilerplate once the merchant has actually written something.
+// (bank/wallet specifics, a payment link, etc.) -- this is the ONLY place payment
+// specifics ever come from; nothing is ever auto-filled or guessed.
 export function customPaymentDetailsHtml(order) {
-  if (!order.payment_details) return paymentInstructionsHtml(order);
+  if (!order.payment_details) return pendingPaymentHtml();
   const lines = esc(order.payment_details).split('\n').join('<br>');
   return `
     <div style="background:#fdf6e8;border:1px solid rgba(201,148,26,.3);border-radius:14px;padding:20px 24px;margin-top:20px;">
@@ -152,7 +125,7 @@ export function renderOrderConfirmationEmail(order, invoiceUrl) {
       Thank you, ${esc(order.name.split(' ')[0] || order.name)}. We've received your order and our team is preparing it with the same care every Caskworth collector expects. Your reference is <strong>${esc(order.ref)}</strong>.
     </p>
     ${orderSummaryTable(order)}
-    ${paymentInstructionsHtml(order)}
+    ${customPaymentDetailsHtml(order)}
   `;
   return emailShell({
     eyebrow: `Order ${order.ref}`,

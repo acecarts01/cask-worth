@@ -5,29 +5,6 @@
     return String(s == null ? '' : s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
   }
 
-  // Mirrors worker/lib/wallets.js -- used only to pre-fill a sensible starting
-  // point in the payment-details textarea; the merchant can edit or replace it.
-  var WALLETS = {
-    'usdt-eth': { label: 'USDT (ERC-20)', addr: '0x2629c24d3720E5A24adBe7Bde4677334B559C36D' },
-    'usdt-trx': { label: 'USDT (TRC-20)', addr: 'TVQGzSJKcHXTwX6Fn8CPb6A5PmAkoCFZRh' },
-    'btc':      { label: 'Bitcoin (BTC)', addr: 'bc1qdhgnlpctw37vg825eejkknurpm23a5lsthfdhg' },
-    'eth':      { label: 'Ethereum (ETH)', addr: '0x2629c24d3720E5A24adBe7Bde4677334B559C36D' },
-    'sol':      { label: 'Solana (SOL)', addr: 'GdNUybxyu8cBY7snHAZsdopH6WKdHBVXo5d79mR9PhJ' },
-    'xrp':      { label: 'XRP', addr: 'rBiWxdA3a27BXYC9ZwQRTyFdXNWaEjLfBr' },
-    'bnb':      { label: 'BNB (BSC)', addr: '0x2629c24d3720E5A24adBe7Bde4677334B559C36D' },
-  };
-
-  function defaultPaymentText(o) {
-    var method = (o.payment || '').toUpperCase();
-    if (method === 'CRYPTO') {
-      var w = WALLETS[o.wallet_key] || WALLETS['usdt-eth'];
-      return w.label + ' address: ' + w.addr + '\nPlease include order ref ' + o.ref + ' in the transaction memo.';
-    }
-    if (method === 'PAYPAL') return 'PayPal: send to [your PayPal.me link or email]. Reference order ' + o.ref + '.';
-    if (method === 'APPLEPAY') return 'Apple Pay: [payment link]. Reference order ' + o.ref + '.';
-    return 'Chime / Zelle: [recipient name / handle]. Reference order ' + o.ref + '.';
-  }
-
   var loginForm = document.getElementById('login-form');
   if (loginForm) {
     loginForm.addEventListener('submit', function (e) {
@@ -112,8 +89,9 @@
 
     function paymentSection(o) {
       if (o.status === 'new') {
-        return '<label style="display:block;font-size:12px;color:#6b6b6b;margin:16px 0 4px">Payment details to send with the invoice</label>' +
-          '<textarea id="payment-details-input" rows="4" style="width:100%;padding:10px;border-radius:8px;border:1px solid #e8e0d4;font-family:inherit;font-size:13px;box-sizing:border-box">' + esc(defaultPaymentText(o)) + '</textarea>';
+        return '<label style="display:block;font-size:13px;font-weight:700;color:#1c1c1e;margin:20px 0 6px">Enter payment details to send the customer</label>' +
+          '<textarea id="payment-details-input" rows="5" placeholder="Type the exact payment details for this order (account/wallet, amount, reference, etc.)&#10;\nThe customer sees only what you type here." style="width:100%;padding:12px;border-radius:8px;border:1.5px solid #c9941a;font-family:inherit;font-size:13px;box-sizing:border-box"></textarea>' +
+          '<p id="payment-details-err" style="color:#b91c1c;font-size:12px;margin:6px 0 0" hidden>Please enter the payment details before sending.</p>';
       }
       if (o.payment_details) {
         return '<label style="display:block;font-size:12px;color:#6b6b6b;margin:16px 0 4px">Payment details sent</label>' +
@@ -150,7 +128,14 @@
       if (invoiceBtn) {
         invoiceBtn.addEventListener('click', function () {
           var input = document.getElementById('payment-details-input');
-          runAction(o.id, 'invoice', invoiceBtn, { paymentDetails: input ? input.value : '' });
+          var value = input ? input.value.trim() : '';
+          if (!value) {
+            var errEl = document.getElementById('payment-details-err');
+            if (errEl) errEl.hidden = false;
+            if (input) input.focus();
+            return;
+          }
+          runAction(o.id, 'invoice', invoiceBtn, { paymentDetails: value });
         });
       }
       var paidBtn = document.getElementById('mark-paid-btn');

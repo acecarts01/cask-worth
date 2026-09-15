@@ -97,8 +97,11 @@ export async function handleAdminOrderAction(request, env, orderId, action) {
     let paymentDetails = '';
     try {
       const body = await request.json();
-      paymentDetails = (body && body.paymentDetails) || '';
-    } catch (e) { /* no body sent -- fine, falls back to the generic instructions */ }
+      paymentDetails = ((body && body.paymentDetails) || '').trim();
+    } catch (e) { /* no body sent */ }
+    if (!paymentDetails) {
+      return Response.json({ error: 'Payment details are required to dispatch an invoice' }, { status: 400 });
+    }
     const result = await dispatchInvoiceForOrder(orderId, env, paymentDetails);
     if (!result.ok) return Response.json({ error: result.error }, { status: 400 });
     return Response.json({ success: true });
