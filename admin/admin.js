@@ -1,6 +1,12 @@
 (function () {
   'use strict';
 
+  // Classic iOS Safari quirk: a tappable element with only a CSS :hover state
+  // (no native <button>/<a>) needs two taps -- the first just triggers :hover,
+  // only the second registers as a click. Registering any real touchstart
+  // listener on the document makes iOS treat taps as immediate clicks instead.
+  document.addEventListener('touchstart', function () {}, true);
+
   function esc(s) {
     return String(s == null ? '' : s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
   }

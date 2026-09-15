@@ -26,8 +26,9 @@ body{margin:0;font-family:var(--font-b);color:var(--text);background:var(--bg)}
 .dash-main h1{font-family:var(--font-d);font-size:26px;margin-bottom:20px}
 
 .orders-list{display:flex;flex-direction:column;gap:12px}
-.order-row{background:var(--card);border:1px solid var(--border);border-radius:14px;padding:16px 20px;display:flex;align-items:center;justify-content:space-between;gap:16px;cursor:pointer;transition:box-shadow .15s}
+.order-row{background:var(--card);border:1px solid var(--border);border-radius:14px;padding:16px 20px;display:flex;align-items:center;justify-content:space-between;gap:16px;cursor:pointer;transition:box-shadow .15s;-webkit-tap-highlight-color:rgba(201,148,26,.25)}
 .order-row:hover{box-shadow:0 4px 20px rgba(0,0,0,.08)}
+.order-row:active{box-shadow:0 4px 20px rgba(0,0,0,.08)}
 .order-row .ref{font-weight:700;font-size:14px}
 .order-row .name{color:var(--muted);font-size:13px}
 .order-row .total{font-weight:700;font-size:14px}
@@ -37,7 +38,7 @@ body{margin:0;font-family:var(--font-b);color:var(--text);background:var(--bg)}
 .status-pill.paid{background:#f0fff5;color:#15803d}
 
 .modal{position:fixed;inset:0;background:rgba(0,0,0,.5);display:flex;align-items:center;justify-content:center;padding:20px;z-index:100}
-.modal-card{background:#fff;border-radius:16px;max-width:520px;width:100%;max-height:85vh;overflow:auto;padding:28px;position:relative}
+.modal-card{background:#fff;border-radius:16px;max-width:520px;width:100%;max-height:85vh;overflow:auto;-webkit-overflow-scrolling:touch;padding:28px;position:relative}
 .modal-close{position:absolute;top:12px;right:12px;width:32px;height:32px;line-height:32px;text-align:center;background:#f4f0ea;border-radius:999px;border:none;font-size:20px;cursor:pointer;color:var(--muted);z-index:5}
 .modal-card h2{font-family:var(--font-d);margin:0 44px 16px 0}
 .modal-card table{width:100%;border-collapse:collapse;margin-bottom:16px}
