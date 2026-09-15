@@ -80,7 +80,7 @@ async function handleSendOrder(request, env) {
         'Content-Type': 'application/json',
       },
       body: JSON.stringify({
-        from: 'Caskworth Orders <orders@send.caskworth.com>',
+        from: 'Caskworth Orders <orders@caskworth.com>',
         to: ['info@caskworth.com'],
         reply_to: data.email,
         subject: `New Order ${data.ref} - Caskworth Premium Whisky`,
