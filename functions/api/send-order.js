@@ -2,6 +2,10 @@
 // FormSubmit.co integration. Requires the RESEND_API_KEY environment
 // variable (set as a Cloudflare Pages secret) and a verified sending
 // domain in the Resend dashboard.
+//
+// Requires the project's Deploy command to be `wrangler pages deploy`
+// (not plain `wrangler deploy`) -- otherwise this whole /functions
+// directory is silently ignored and every route here 404s in production.
 
 function esc(s) {
   return String(s == null ? '' : s)
