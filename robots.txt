@@ -1,12 +1,12 @@
 # Caskworth.com — robots.txt
 # https://caskworth.com/sitemap.xml
 #
-# NOTE: Cloudflare's "AI Crawl Control" / "Block AI Bots" dashboard feature injects its own
-# "Cloudflare Managed content" block ABOVE this file's own rules on the live site, and it
-# currently Disallows ClaudeBot, GPTBot, Google-Extended, Applebot-Extended, CCBot and others —
-# directly contradicting the explicit Allow rules below. This must be fixed in the Cloudflare
-# dashboard (Security → Bots / AI Crawl Control for this zone), not in this file. See
-# docs/PROJECT.md "SEO / AI-visibility / agent-ready audit" for details.
+# Cloudflare's dashboard-level robots.txt management (Security → Settings →
+# "Manage your robots.txt") previously injected a "Cloudflare Managed content"
+# block ABOVE this file's own rules, disallowing ClaudeBot/GPTBot/Google-Extended/
+# Applebot-Extended/CCBot/etc and directly contradicting the Allow rules below.
+# Fixed 2026-09-15 by setting that dashboard option to "Disable robots.txt
+# configuration" so this file is the sole source of truth again.
 
 Content-Signal: search=yes, ai-input=yes, ai-train=no
 
