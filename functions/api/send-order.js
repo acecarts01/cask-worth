@@ -1,11 +1,8 @@
-// Sends a new-order notification email via Resend, replacing the previous
-// FormSubmit.co integration. Requires the RESEND_API_KEY environment
-// variable (set as a Cloudflare Pages secret) and a verified sending
-// domain in the Resend dashboard.
-//
-// Requires the project's Deploy command to be `wrangler pages deploy`
-// (not plain `wrangler deploy`) -- otherwise this whole /functions
-// directory is silently ignored and every route here 404s in production.
+// SUPERSEDED: this Pages Functions file is never read by `wrangler deploy`
+// (this project is a native Workers service, not Pages -- confirmed when
+// `wrangler pages deploy` failed with an Authentication error because no
+// Pages project named "caskworth" exists on this account) and is excluded
+// from the deploy via .assetsignore. Logic now lives in worker/index.js.
 
 function esc(s) {
   return String(s == null ? '' : s)

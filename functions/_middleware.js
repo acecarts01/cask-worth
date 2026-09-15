@@ -1,3 +1,7 @@
+// SUPERSEDED: this Pages Functions file is never read by `wrangler deploy`
+// (this project is a native Workers service, not Pages) and is excluded
+// from the deploy via .assetsignore. Logic now lives in worker/index.js.
+//
 // Markdown Negotiation for AI agents.
 // When a request's Accept header genuinely prefers text/markdown over text/html
 // (proper q-value comparison, not a substring match), return a markdown rendering

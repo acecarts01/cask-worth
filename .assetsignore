@@ -1,0 +1,6 @@
+wrangler.toml
+worker
+functions
+.github
+.claude
+node_modules
