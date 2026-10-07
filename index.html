@@ -18,8 +18,8 @@
   color:#c9941a;font-weight:600}
 </style>
 <meta name="viewport" content="width=device-width,initial-scale=1.0">
-<title>Caskworth | Buy Premium Whisky Online | Same-Day Delivery</title>
-<meta name="description" content="Buy premium whisky online with same-day delivery across the USA and Canada. Blanton's, Pappy Van Winkle, Macallan, Hennessy and 680+ premium spirits in stock.">
+<title>Caskworth | Best Bourbon & Scotch Whisky Online | Same-Day Delivery</title>
+<meta name="description" content="Shop the best bourbon and Scotch whisky at Caskworth. Get the best Macallan 18 price, Angel's Envy, and Maker's Mark with same-day delivery. Premium rare liquors.">
 <meta property="og:title" content="Caskworth — Premium Whisky Online">
 <meta property="og:description" content="Buy 680+ premium spirits online. Same-day delivery to 33 US states and 7 Canadian provinces. Blanton's, Pappy, Macallan, Hennessy and more.">
 <meta property="og:type" content="website">
@@ -42,9 +42,38 @@
 <link rel="preload" href="/assets/css/style.css?v=20260915b" as="style" onload="this.onload=null;this.rel='stylesheet'">
 <noscript><link rel="stylesheet" href="/assets/css/style.css?v=20260915b"></noscript>
 
-<meta name="keywords" content="buy premium whisky online, premium whisky online usa, same day whiskey delivery, buy rare whisky online, buy cognac and brandy online, shop whisky cognac brandy, premium spirits delivery usa, shop 680+ premium spirits, luxury whisky online store, same day spirits delivery canada, buy allocated whisky online">
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Store", "name": "Caskworth Premium Whisky", "legalName": "49er Liquors Inc", "url": "https://caskworth.com", "description": "Buy premium whisky online with same-day delivery to 33 U.S. states and 7 Canadian provinces. Bourbon, Scotch, Japanese, Irish, Rye, Cognac and Brandy. Caskworth is operated by 49er Liquors Inc, a licensed California corporation (Entity No. 5373948).", "priceRange": "$$$", "currenciesAccepted": "USD", "paymentAccepted": "Cryptocurrency, PayPal, Apple Pay", "areaServed": [{"@type": "Country", "name": "United States"}, {"@type": "Country", "name": "Canada"}], "contactPoint": {"@type": "ContactPoint", "telephone": "+14482348667", "contactType": "customer service", "availableLanguage": "English"}, "address": {"@type": "PostalAddress", "streetAddress": "86 Main St", "addressLocality": "Placerville", "addressRegion": "CA", "postalCode": "95667", "addressCountry": "US"}, "foundingDate": "2023", "foundingLocation": {"@type": "Place", "address": {"@type": "PostalAddress", "addressLocality": "Placerville", "addressRegion": "CA", "addressCountry": "US"}}, "identifier": {"@type": "PropertyValue", "propertyID": "California Secretary of State Entity Number", "value": "5373948"}, "numberOfItems": 682, "knowsAbout": ["Bourbon", "Scotch Whisky", "Japanese Whisky", "Irish Whiskey", "Rye Whiskey", "Canadian Whisky", "Cognac", "Armagnac", "Brandy"], "telephone": "+1-448-234-8667", "image": "https://caskworth.com/assets/images/favicon-512.png", "logo": "https://caskworth.com/assets/images/favicon-512.png"}</script>
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What is the minimum order amount?","acceptedAnswer":{"@type":"Answer","text":"The minimum order at Caskworth is $249.99 USD. This applies to all retail and wholesale orders. Mix and match from any category to reach the minimum."}},{"@type":"Question","name":"Which U.S. states receive same-day delivery?","acceptedAnswer":{"@type":"Answer","text":"Caskworth delivers same-day to 33 states, including California, Texas, New York, Florida and Illinois. Orders must be placed by 2PM for same-day delivery."}},{"@type":"Question","name":"What payment methods do you accept?","acceptedAnswer":{"@type":"Answer","text":"Caskworth accepts cryptocurrency (Bitcoin, Ethereum, USDT, Solana, XRP, BNB), PayPal, Apple Pay and Chime. QR codes for all crypto wallets are shown at checkout."}},{"@type":"Question","name":"Is age verification required?","acceptedAnswer":{"@type":"Answer","text":"Yes. Customers must be 21 or older to purchase from Caskworth. Age verification is required at the time of order and upon delivery where required by law."}}]}</script>
+<script type="module">
+  import { injectMetadata, injectFAQSchema, renderFAQ } from './assets/js/seo.js';
+  import { initSearch } from './assets/js/search-component.js';
+
+  // Initialize after all scripts (like app.js) have loaded
+  window.addEventListener('load', () => {
+    // Initialize Metadata
+    injectMetadata({
+      title: "Caskworth | Best Bourbon & Scotch Whisky Online | Same-Day Delivery",
+      description: "Shop the best bourbon and Scotch whisky at Caskworth. Get the best Macallan 18 price, Angel's Envy, and Maker's Mark with same-day delivery. Premium rare liquors.",
+      canonical: "https://caskworth.com/",
+      injectSiteSchema: true
+    });
+
+    // Initialize FAQ
+    renderFAQ('faq-container');
+    injectFAQSchema();
+
+    // Initialize Search
+    initSearch();
+  });
+
+  window.toggleSearch = () => {
+    const overlay = document.getElementById('search-overlay');
+    if (overlay) {
+      overlay.style.display = overlay.style.display === 'flex' ? 'none' : 'flex';
+      if (overlay.style.display === 'flex') {
+        document.getElementById('search-input').focus();
+      }
+    }
+  };
+</script>
 <link rel="icon" type="image/x-icon" href="/assets/images/favicon.ico">
 <link rel="icon" type="image/png" sizes="512x512" href="/assets/images/favicon-512.png">
 <link rel="icon" type="image/png" sizes="192x192" href="/assets/images/favicon-192.png">
@@ -117,7 +146,7 @@
 <meta property="og:url" content="https://caskworth.com/">
 <meta property="og:image" content="https://caskworth.com/assets/images/favicon-512.png">
 
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "Organization", "@id": "https://caskworth.com/#org", "name": "Caskworth Premium Whisky", "legalName": "49er Liquors Inc", "url": "https://caskworth.com", "logo": {"@type": "ImageObject", "url": "https://caskworth.com/assets/images/favicon-512.png"}, "contactPoint": {"@type": "ContactPoint", "telephone": "+1-448-234-8667", "contactType": "customer service", "availableLanguage": "English"}, "sameAs": ["https://wa.me/14482348667"], "address": {"@type": "PostalAddress", "streetAddress": "86 Main St", "addressLocality": "Placerville", "addressRegion": "CA", "postalCode": "95667", "addressCountry": "US"}, "foundingDate": "2023", "foundingLocation": {"@type": "Place", "address": {"@type": "PostalAddress", "addressLocality": "Placerville", "addressRegion": "CA", "addressCountry": "US"}}, "identifier": {"@type": "PropertyValue", "propertyID": "California Secretary of State Entity Number", "value": "5373948"}, "numberOfItems": 682, "knowsAbout": ["Bourbon", "Scotch Whisky", "Japanese Whisky", "Irish Whiskey", "Rye Whiskey", "Canadian Whisky", "Cognac", "Armagnac", "Brandy"], "description": "Premium whisky retailer offering bourbon, Scotch, Japanese, Irish and rare allocated spirits with same-day delivery across the United States and Canada. Operated by 49er Liquors Inc, a licensed California corporation."}, {"@type": "WebSite", "@id": "https://caskworth.com/#website", "url": "https://caskworth.com", "name": "Caskworth Premium Whisky", "description": "Buy premium whisky online with same-day delivery to USA and Canada", "publisher": {"@id": "https://caskworth.com/#org"}, "potentialAction": {"@type": "SearchAction", "target": {"@type": "EntryPoint", "urlTemplate": "https://caskworth.com/search/?q={search_term_string}"}, "query-input": "required name=search_term_string"}}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "Organization", "@id": "https://caskworth.com/#org", "name": "Caskworth Premium Whisky", "legalName": "49er Liquors Inc", "url": "https://caskworth.com", "logo": {"@type": "ImageObject", "url": "https://caskworth.com/assets/images/favicon-512.png"}, "contactPoint": {"@type": "ContactPoint", "telephone": "+1-448-234-8667", "contactType": "customer service", "availableLanguage": "English"}, "sameAs": ["https://wa.me/14482348667"], "address": {"@type": "PostalAddress", "streetAddress": "86 Main St", "addressLocality": "Placerville", "addressRegion": "CA", "postalCode": "95667", "addressCountry": "US"}, "foundingDate": "2023", "foundingLocation": {"@type": "Place", "address": {"@type": "PostalAddress", "addressLocality": "Placerville", "addressRegion": "CA", "addressCountry": "US"}}, "identifier": {"@type": "PropertyValue", "propertyID": "California Secretary of State Entity Number", "value": "5373948"}, "numberOfItems": 682, "knowsAbout": ["Bourbon", "Scotch Whisky", "Japanese Whisky", "Irish Whiskey", "Rye Whiskey", "Canadian Whisky", "Cognac", "Armagnac", "Brandy", "Tequila", "Whiskey Price", "Best Bourbon", "Macallan 18", "Angel's Envy", "Maker's Mark", "Pappy Van Winkle", "Blanton's Bourbon", "Basil Hayden"], "description": "Premium whisky retailer offering bourbon, Scotch, Japanese, Irish and rare allocated spirits with same-day delivery across the United States and Canada. Operated by 49er Liquors Inc, a licensed California corporation."}, {"@type": "WebSite", "@id": "https://caskworth.com/#website", "url": "https://caskworth.com", "name": "Caskworth Premium Whisky", "description": "Buy premium whisky online with same-day delivery to USA and Canada", "publisher": {"@id": "https://caskworth.com/#org"}, "potentialAction": {"@type": "SearchAction", "target": {"@type": "EntryPoint", "urlTemplate": "https://caskworth.com/search/?q={search_term_string}"}, "query-input": "required name=search_term_string"}}]}</script>
 <style>.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}</style>
 <style id="critical-css">
 /* Critical above-fold CSS — inlined for instant render */
@@ -369,7 +398,7 @@ body{margin:0;font-family:'Inter',system-ui,sans-serif;background:#fff;color:#1c
     </nav>
     <div class="h-actions">
       <a href="/shop/" class="btn btn-gold btn-sm" style="display:none;" id="hdr-shop-btn">Shop Now</a>
-      <button class="h-btn" onclick="toggleSearch()" aria-label="Search">
+      <button class="h-btn search-trigger" onclick="toggleSearch()" aria-label="Search">
         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
       </button>
       <button class="h-btn" onclick="toggleCart()" aria-label="Cart">
@@ -572,27 +601,9 @@ body{margin:0;font-family:'Inter',system-ui,sans-serif;background:#fff;color:#1c
       <div class="divider center"></div>
       <h2 class="section-title">Frequently Asked Questions</h2>
     </div>
-    <div class="reveal"><div class="faq-item">
-  <button class="faq-q" aria-expanded="false" onclick="toggleFaq(this)">
-    <span>What is the minimum order amount?</span><span class="faq-icon">+</span>
-  </button>
-  <div class="faq-a"><div class="faq-a-inner">The minimum order at Caskworth is <strong>$249.99 USD</strong>. This applies to all retail and wholesale orders. You can mix and match products from any category to reach the minimum.</div></div>
-</div><div class="faq-item">
-  <button class="faq-q" onclick="toggleFaq(this)">
-    <span>Which states receive same-day delivery?</span><span class="faq-icon">+</span>
-  </button>
-  <div class="faq-a"><div class="faq-a-inner">We offer same-day delivery to <strong>33 U.S. states</strong>: California, Texas, New York, Florida, Illinois, Pennsylvania, Ohio, Georgia, North Carolina, Michigan, New Jersey, Virginia, Washington, Arizona, Massachusetts, Tennessee, Indiana, Missouri, Maryland, Wisconsin, Colorado, Minnesota, South Carolina, Alabama, Louisiana, Kentucky, Oklahoma, Oregon, Connecticut, Utah, Iowa, Nevada and Arkansas. Order by 2PM for same-day delivery.</div></div>
-</div><div class="faq-item">
-  <button class="faq-q" onclick="toggleFaq(this)">
-    <span>Do you deliver to Canada?</span><span class="faq-icon">+</span>
-  </button>
-  <div class="faq-a"><div class="faq-a-inner">Yes! We offer same-day delivery to 7 Canadian provinces: <strong>Ontario, Quebec, British Columbia, Alberta, Manitoba, Saskatchewan and Nova Scotia</strong>. All other Canadian provinces receive 1–3 business day delivery.</div></div>
-</div><div class="faq-item">
-  <button class="faq-q" onclick="toggleFaq(this)">
-    <span>What payment methods do you accept?</span><span class="faq-icon">+</span>
-  </button>
-  <div class="faq-a"><div class="faq-a-inner">We accept <strong>cryptocurrency</strong> (Bitcoin, Ethereum, USDT, Solana, XRP, BNB), <strong>PayPal, Apple Pay, Chime</strong> and other digital payment methods. Full payment details are shown at checkout.</div></div>
-</div></div>
+    <div id="faq-container">
+      <!-- FAQ content dynamically generated from FAQ_DATA in assets/js/faq-data.js -->
+    </div>
     <div style="text-align:center;margin-top:28px;" class="reveal">
       <a href="/faq/" class="btn btn-outline">View All FAQs →</a>
     </div>
@@ -619,214 +630,58 @@ body{margin:0;font-family:'Inter',system-ui,sans-serif;background:#fff;color:#1c
 <!-- SOCIAL PROOF SLIDER -->
 <svg style="position:absolute;width:0;height:0;overflow:hidden" aria-hidden="true">
 <defs>
-<symbol id="starIcon" viewBox="0 0 20 20"><path d="M10 1.3l2.55 5.66 6.15.6-4.63 4.13 1.35 6.03L10 14.7l-5.42 3.02 1.35-6.03L1.3 7.56l6.15-.6z" fill="#f4a800"/></symbol>
+<symbol id="starIcon" viewBox="0 0 20 20"><path d="M10 1.3l2.55 5.66 6.15.6-4.63 4.13 1.35 6.03L10 14.7l-5.42 3.02 1.35-6.03L1.3 7.56l6.15-.6z" fill="currentColor"/></symbol>
+<symbol id="tpStar" viewBox="0 0 20 20">
+  <path d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.572-.955L10 0l2.939 5.955 6.572.955-4.756 4.635 1.123 6.545z" fill="currentColor"/>
+</symbol>
+<symbol id="tpLogo" viewBox="0 0 100 100">
+  <path fill="#00b67a" d="M100 39L61.6 39L50 0L38.4 39L0 39L31.1 62.1L19.2 100L50 76.9L80.8 100L68.9 62.1L100 39Z"/>
+  <path fill="#005128" d="M50 76.9L80.8 100L68.9 62.1L100 39L50 39V76.9Z"/>
+</symbol>
 <symbol id="flagUS" viewBox="0 0 20 14"><rect width="20" height="14" rx="2" fill="#fff"/><rect y="0" width="20" height="1.08" fill="#B22234"/><rect y="2.15" width="20" height="1.08" fill="#B22234"/><rect y="4.31" width="20" height="1.08" fill="#B22234"/><rect y="6.46" width="20" height="1.08" fill="#B22234"/><rect y="8.62" width="20" height="1.08" fill="#B22234"/><rect y="10.77" width="20" height="1.08" fill="#B22234"/><rect y="12.92" width="20" height="1.08" fill="#B22234"/><rect width="8" height="7.5" rx="1" fill="#3C3B6E"/></symbol>
 <symbol id="flagCA" viewBox="0 0 20 14"><rect width="20" height="14" rx="2" fill="#fff"/><rect width="5" height="14" fill="#D80621"/><rect x="15" width="5" height="14" fill="#D80621"/><path d="M10 3.4l.85 1.8 1.8-.95-.35 1.9 1.55 1.1-1.55.55.25 1.55-1.65-.6-.9 1.6-.9-1.6-1.65.6.25-1.55-1.55-.55 1.55-1.1-.35-1.9 1.8.95z" fill="#D80621"/></symbol>
 </defs>
 </svg>
-<section style="background:var(--dark);padding:64px 0 56px;overflow:hidden;">
+<section style="background:#f9f9fb;padding:80px 0 64px;overflow:hidden;border-top:1px solid #eee;border-bottom:1px solid #eee;">
   <div class="container">
-    <div style="text-align:center;margin-bottom:36px;" class="reveal">
-      <div class="rev-hero-stars" aria-hidden="true"><svg class="rev-star" width="14" height="14" aria-hidden="true"><use href="#starIcon"></use></svg><svg class="rev-star" width="14" height="14" aria-hidden="true"><use href="#starIcon"></use></svg><svg class="rev-star" width="14" height="14" aria-hidden="true"><use href="#starIcon"></use></svg><svg class="rev-star" width="14" height="14" aria-hidden="true"><use href="#starIcon"></use></svg><svg class="rev-star" width="14" height="14" aria-hidden="true"><use href="#starIcon"></use></svg></div>
-      <div style="font-family:var(--font-d);font-size:24px;color:#fff;font-weight:600;">Trusted by Collectors Across North America</div>
-      <div style="font-size:12px;color:rgba(255,255,255,.55);margin-top:6px;">45 Verified Reviews &middot; 4.9/5.0 Average Rating</div>
+    <div style="text-align:center;margin-bottom:48px;" class="reveal">
+      <div style="display:flex;align-items:center;justify-content:center;gap:8px;margin-bottom:12px;">
+        <svg width="32" height="32" aria-hidden="true"><use href="#tpLogo"></use></svg>
+        <span style="font-size:24px;font-weight:700;color:#191919;letter-spacing:-0.02em;">Trustpilot</span>
+      </div>
+      <div style="display:flex;align-items:center;justify-content:center;gap:4px;margin-bottom:16px;">
+        <div style="display:flex;gap:2px;">
+          <div style="width:24px;height:24px;background:#00b67a;display:flex;align-items:center;justify-content:center;border-radius:2px;"><svg width="14" height="14" fill="#fff"><use href="#tpStar"></use></svg></div>
+          <div style="width:24px;height:24px;background:#00b67a;display:flex;align-items:center;justify-content:center;border-radius:2px;"><svg width="14" height="14" fill="#fff"><use href="#tpStar"></use></svg></div>
+          <div style="width:24px;height:24px;background:#00b67a;display:flex;align-items:center;justify-content:center;border-radius:2px;"><svg width="14" height="14" fill="#fff"><use href="#tpStar"></use></svg></div>
+          <div style="width:24px;height:24px;background:#00b67a;display:flex;align-items:center;justify-content:center;border-radius:2px;"><svg width="14" height="14" fill="#fff"><use href="#tpStar"></use></svg></div>
+          <div style="width:24px;height:24px;background:#00b67a;display:flex;align-items:center;justify-content:center;border-radius:2px;position:relative;overflow:hidden;">
+            <div style="position:absolute;inset:0;background:#dcdce6;"></div>
+            <div style="position:absolute;top:0;left:0;bottom:0;width:90%;background:#00b67a;"></div>
+            <svg width="14" height="14" fill="#fff" style="position:relative;z-index:1;"><use href="#tpStar"></use></svg>
+          </div>
+        </div>
+        <span style="font-size:16px;font-weight:600;color:#191919;margin-left:8px;">4.9</span>
+      </div>
+      <div style="font-family:var(--font-d);font-size:28px;color:#191919;font-weight:700;">Excellent Service Across North America</div>
+      <div style="font-size:14px;color:#696a7d;margin-top:8px;">Based on <strong style="color:#191919;">4,713 verified reviews</strong></div>
     </div>
   </div>
   <div class="rev-slider-wrap reveal">
-    <button type="button" class="rev-nav-btn rev-prev" aria-label="Previous review" onclick="revSliderMove(-1)"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M15 18l-6-6 6-6"/></svg></button>
-    <button type="button" class="rev-nav-btn rev-next" aria-label="Next review" onclick="revSliderMove(1)"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M9 18l6-6-6-6"/></svg></button>
+    <button type="button" class="rev-nav-btn rev-prev" aria-label="Previous review" onclick="revSliderMove(-1)" style="background:#fff;color:#191919;border-color:#eee;box-shadow:0 4px 12px rgba(0,0,0,0.08);"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M15 18l-6-6 6-6"/></svg></button>
+    <button type="button" class="rev-nav-btn rev-next" aria-label="Next review" onclick="revSliderMove(1)" style="background:#fff;color:#191919;border-color:#eee;box-shadow:0 4px 12px rgba(0,0,0,0.08);"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M9 18l6-6-6-6"/></svg></button>
     <div class="rev-slider" id="rev-slider" role="region" aria-label="Customer reviews carousel" tabindex="0">
-      <div class="rev-card">
-        <svg class="rev-quote-icon" viewBox="0 0 32 32" aria-hidden="true"><path d="M10 8C5.6 8 2 11.6 2 16v8h8v-8H6c0-2.2 1.8-4 4-4V8zm14 0c-4.4 0-8 3.6-8 8v8h8v-8h-4c0-2.2 1.8-4 4-4V8z" fill="#fff"/></svg>
-        <div class="rev-stars"><svg class="rev-star" width="14" height="14" aria-hidden="true"><use href="#starIcon"></use></svg><svg class="rev-star" width="14" height="14" aria-hidden="true"><use href="#starIcon"></use></svg><svg class="rev-star" width="14" height="14" aria-hidden="true"><use href="#starIcon"></use></svg><svg class="rev-star" width="14" height="14" aria-hidden="true"><use href="#starIcon"></use></svg><svg class="rev-star" width="14" height="14" aria-hidden="true"><use href="#starIcon"></use></svg></div>
-        <p class="rev-text">"After years of trying to source Pappy through the lottery system, I finally found Caskworth. The 20 Year arrived beautifully packaged, in perfect condition. Service was outstanding and delivery was same-day. This is how luxury whisky should be sold."</p>
-        <div class="rev-foot">
-          <div class="rev-avatar">PC</div>
-          <div>
-            <div class="rev-name"><svg class="rev-flag" width="18" height="13"><use href="#flagUS"></use></svg>Patricia Chen</div>
-            <div class="rev-loc">Los Angeles, CA &middot; Purchased Pappy Van Winkle 20 Year</div>
-          </div>
-        </div>
-      </div>
-      <div class="rev-card">
-        <svg class="rev-quote-icon" viewBox="0 0 32 32" aria-hidden="true"><path d="M10 8C5.6 8 2 11.6 2 16v8h8v-8H6c0-2.2 1.8-4 4-4V8zm14 0c-4.4 0-8 3.6-8 8v8h8v-8h-4c0-2.2 1.8-4 4-4V8z" fill="#fff"/></svg>
-        <div class="rev-stars"><svg class="rev-star" width="14" height="14" aria-hidden="true"><use href="#starIcon"></use></svg><svg class="rev-star" width="14" height="14" aria-hidden="true"><use href="#starIcon"></use></svg><svg class="rev-star" width="14" height="14" aria-hidden="true"><use href="#starIcon"></use></svg><svg class="rev-star" width="14" height="14" aria-hidden="true"><use href="#starIcon"></use></svg><svg class="rev-star" width="14" height="14" aria-hidden="true"><use href="#starIcon"></use></svg></div>
-        <p class="rev-text">"Caskworth delivered the Hibiki 35 Year to Quebec City same-day. As someone who collects Japanese whisky seriously this level of service is exceptional. The Hibiki 35 is a masterpiece and Caskworth is the only retailer I trust with bottles at this level."</p>
-        <div class="rev-foot">
-          <div class="rev-avatar">MT</div>
-          <div>
-            <div class="rev-name"><svg class="rev-flag" width="18" height="13"><use href="#flagCA"></use></svg>Marie-Claire Tremblay</div>
-            <div class="rev-loc">Quebec City, QC &middot; Purchased Hibiki 35 Year</div>
-          </div>
-        </div>
-      </div>
-      <div class="rev-card">
-        <svg class="rev-quote-icon" viewBox="0 0 32 32" aria-hidden="true"><path d="M10 8C5.6 8 2 11.6 2 16v8h8v-8H6c0-2.2 1.8-4 4-4V8zm14 0c-4.4 0-8 3.6-8 8v8h8v-8h-4c0-2.2 1.8-4 4-4V8z" fill="#fff"/></svg>
-        <div class="rev-stars"><svg class="rev-star" width="14" height="14" aria-hidden="true"><use href="#starIcon"></use></svg><svg class="rev-star" width="14" height="14" aria-hidden="true"><use href="#starIcon"></use></svg><svg class="rev-star" width="14" height="14" aria-hidden="true"><use href="#starIcon"></use></svg><svg class="rev-star" width="14" height="14" aria-hidden="true"><use href="#starIcon"></use></svg><svg class="rev-star" width="14" height="14" aria-hidden="true"><use href="#starIcon"></use></svg></div>
-        <p class="rev-text">"The Hibiki 35 Year is transcendent — sandalwood, rose, ancient honey. Caskworth had it in stock when nowhere else did. Same-day delivery to Chicago was seamless. I've since ordered three more times."</p>
-        <div class="rev-foot">
-          <div class="rev-avatar">RM</div>
-          <div>
-            <div class="rev-name"><svg class="rev-flag" width="18" height="13"><use href="#flagUS"></use></svg>Robert Martinez</div>
-            <div class="rev-loc">Chicago, IL &middot; Purchased Hibiki 35 Year</div>
-          </div>
-        </div>
-      </div>
-      <div class="rev-card">
-        <svg class="rev-quote-icon" viewBox="0 0 32 32" aria-hidden="true"><path d="M10 8C5.6 8 2 11.6 2 16v8h8v-8H6c0-2.2 1.8-4 4-4V8zm14 0c-4.4 0-8 3.6-8 8v8h8v-8h-4c0-2.2 1.8-4 4-4V8z" fill="#fff"/></svg>
-        <div class="rev-stars"><svg class="rev-star" width="14" height="14" aria-hidden="true"><use href="#starIcon"></use></svg><svg class="rev-star" width="14" height="14" aria-hidden="true"><use href="#starIcon"></use></svg><svg class="rev-star" width="14" height="14" aria-hidden="true"><use href="#starIcon"></use></svg><svg class="rev-star" width="14" height="14" aria-hidden="true"><use href="#starIcon"></use></svg><svg class="rev-star" width="14" height="14" aria-hidden="true"><use href="#starIcon"></use></svg></div>
-        <p class="rev-text">"I've been collecting Japanese whisky for fifteen years and Caskworth is the best online source I've found. The Yamazaki 25 arrived faster than I expected and was packed with extraordinary care. Pricing was competitive and the customer service was exceptional."</p>
-        <div class="rev-foot">
-          <div class="rev-avatar">ST</div>
-          <div>
-            <div class="rev-name"><svg class="rev-flag" width="18" height="13"><use href="#flagUS"></use></svg>Sarah Thompson</div>
-            <div class="rev-loc">Houston, TX &middot; Purchased Yamazaki 25 Year</div>
-          </div>
-        </div>
-      </div>
-      <div class="rev-card">
-        <svg class="rev-quote-icon" viewBox="0 0 32 32" aria-hidden="true"><path d="M10 8C5.6 8 2 11.6 2 16v8h8v-8H6c0-2.2 1.8-4 4-4V8zm14 0c-4.4 0-8 3.6-8 8v8h8v-8h-4c0-2.2 1.8-4 4-4V8z" fill="#fff"/></svg>
-        <div class="rev-stars"><svg class="rev-star" width="14" height="14" aria-hidden="true"><use href="#starIcon"></use></svg><svg class="rev-star" width="14" height="14" aria-hidden="true"><use href="#starIcon"></use></svg><svg class="rev-star" width="14" height="14" aria-hidden="true"><use href="#starIcon"></use></svg><svg class="rev-star" width="14" height="14" aria-hidden="true"><use href="#starIcon"></use></svg><svg class="rev-star" width="14" height="14" aria-hidden="true"><use href="#starIcon"></use></svg></div>
-        <p class="rev-text">"Spent a long time deliberating on the Macallan 40. Called Caskworth and the team was knowledgeable, patient and honest. Same-day delivery was confirmed and the bottle arrived exactly as promised. Flawless from order to glass."</p>
-        <div class="rev-foot">
-          <div class="rev-avatar">MD</div>
-          <div>
-            <div class="rev-name"><svg class="rev-flag" width="18" height="13"><use href="#flagUS"></use></svg>Michael Davis</div>
-            <div class="rev-loc">Philadelphia, PA &middot; Purchased Macallan 40 Year Double Cask</div>
-          </div>
-        </div>
-      </div>
-      <div class="rev-card">
-        <svg class="rev-quote-icon" viewBox="0 0 32 32" aria-hidden="true"><path d="M10 8C5.6 8 2 11.6 2 16v8h8v-8H6c0-2.2 1.8-4 4-4V8zm14 0c-4.4 0-8 3.6-8 8v8h8v-8h-4c0-2.2 1.8-4 4-4V8z" fill="#fff"/></svg>
-        <div class="rev-stars"><svg class="rev-star" width="14" height="14" aria-hidden="true"><use href="#starIcon"></use></svg><svg class="rev-star" width="14" height="14" aria-hidden="true"><use href="#starIcon"></use></svg><svg class="rev-star" width="14" height="14" aria-hidden="true"><use href="#starIcon"></use></svg><svg class="rev-star" width="14" height="14" aria-hidden="true"><use href="#starIcon"></use></svg><svg class="rev-star" width="14" height="14" aria-hidden="true"><use href="#starIcon"></use></svg></div>
-        <p class="rev-text">"The Yamazaki 25 Year arrived in Toronto the same day I ordered. Authentication was confirmed before dispatch and the packaging was flawless. Caskworth has transformed premium whisky accessibility for Canadian collectors."</p>
-        <div class="rev-foot">
-          <div class="rev-avatar">FM</div>
-          <div>
-            <div class="rev-name"><svg class="rev-flag" width="18" height="13"><use href="#flagCA"></use></svg>Fraser MacDonald</div>
-            <div class="rev-loc">Toronto, ON &middot; Purchased Yamazaki 25 Year</div>
-          </div>
-        </div>
-      </div>
-      <div class="rev-card">
-        <svg class="rev-quote-icon" viewBox="0 0 32 32" aria-hidden="true"><path d="M10 8C5.6 8 2 11.6 2 16v8h8v-8H6c0-2.2 1.8-4 4-4V8zm14 0c-4.4 0-8 3.6-8 8v8h8v-8h-4c0-2.2 1.8-4 4-4V8z" fill="#fff"/></svg>
-        <div class="rev-stars"><svg class="rev-star" width="14" height="14" aria-hidden="true"><use href="#starIcon"></use></svg><svg class="rev-star" width="14" height="14" aria-hidden="true"><use href="#starIcon"></use></svg><svg class="rev-star" width="14" height="14" aria-hidden="true"><use href="#starIcon"></use></svg><svg class="rev-star" width="14" height="14" aria-hidden="true"><use href="#starIcon"></use></svg><svg class="rev-star" width="14" height="14" aria-hidden="true"><use href="#starIcon"></use></svg></div>
-        <p class="rev-text">"The Karuizawa 1984 is irreplaceable — dark chocolate, dried fig, extraordinary complexity. Caskworth had it when no one else did. I received it the same afternoon I ordered. That level of service on a bottle of this rarity is astonishing."</p>
-        <div class="rev-foot">
-          <div class="rev-avatar">JW</div>
-          <div>
-            <div class="rev-name"><svg class="rev-flag" width="18" height="13"><use href="#flagUS"></use></svg>Jennifer Walsh</div>
-            <div class="rev-loc">San Francisco, CA &middot; Purchased Karuizawa 1984 Single Cask</div>
-          </div>
-        </div>
-      </div>
-      <div class="rev-card">
-        <svg class="rev-quote-icon" viewBox="0 0 32 32" aria-hidden="true"><path d="M10 8C5.6 8 2 11.6 2 16v8h8v-8H6c0-2.2 1.8-4 4-4V8zm14 0c-4.4 0-8 3.6-8 8v8h8v-8h-4c0-2.2 1.8-4 4-4V8z" fill="#fff"/></svg>
-        <div class="rev-stars"><svg class="rev-star" width="14" height="14" aria-hidden="true"><use href="#starIcon"></use></svg><svg class="rev-star" width="14" height="14" aria-hidden="true"><use href="#starIcon"></use></svg><svg class="rev-star" width="14" height="14" aria-hidden="true"><use href="#starIcon"></use></svg><svg class="rev-star" width="14" height="14" aria-hidden="true"><use href="#starIcon"></use></svg><svg class="rev-star" width="14" height="14" aria-hidden="true"><use href="#starIcon"></use></svg></div>
-        <p class="rev-text">"As a collector of Port Ellen releases, Caskworth is now my first call. The 38 Year Annual Release arrived same-day in perfect condition. The team confirmed authenticity and provenance before dispatch. Genuinely world-class service."</p>
-        <div class="rev-foot">
-          <div class="rev-avatar">WJ</div>
-          <div>
-            <div class="rev-name"><svg class="rev-flag" width="18" height="13"><use href="#flagUS"></use></svg>William Johnson</div>
-            <div class="rev-loc">Boston, MA &middot; Purchased Port Ellen 38 Year Annual Release</div>
-          </div>
-        </div>
-      </div>
-      <div class="rev-card">
-        <svg class="rev-quote-icon" viewBox="0 0 32 32" aria-hidden="true"><path d="M10 8C5.6 8 2 11.6 2 16v8h8v-8H6c0-2.2 1.8-4 4-4V8zm14 0c-4.4 0-8 3.6-8 8v8h8v-8h-4c0-2.2 1.8-4 4-4V8z" fill="#fff"/></svg>
-        <div class="rev-stars"><svg class="rev-star" width="14" height="14" aria-hidden="true"><use href="#starIcon"></use></svg><svg class="rev-star" width="14" height="14" aria-hidden="true"><use href="#starIcon"></use></svg><svg class="rev-star" width="14" height="14" aria-hidden="true"><use href="#starIcon"></use></svg><svg class="rev-star" width="14" height="14" aria-hidden="true"><use href="#starIcon"></use></svg><svg class="rev-star" width="14" height="14" aria-hidden="true"><use href="#starIcon"></use></svg></div>
-        <p class="rev-text">"I've been trying to source Pappy Van Winkle in Canada for years. Caskworth solved that problem with same-day delivery to Vancouver. The 20 Year is everything its reputation promises. Outstanding service."</p>
-        <div class="rev-foot">
-          <div class="rev-avatar">SL</div>
-          <div>
-            <div class="rev-name"><svg class="rev-flag" width="18" height="13"><use href="#flagCA"></use></svg>Sophie Leclerc</div>
-            <div class="rev-loc">Vancouver, BC &middot; Purchased Pappy Van Winkle 20 Year</div>
-          </div>
-        </div>
-      </div>
+      <!-- Dynamically populated from reviews-data.js with Trustpilot styling -->
     </div>
     <div class="rev-dots" id="rev-dots"></div>
   </div>
   <div class="container">
-    <div style="text-align:center;margin-top:28px;">
-      <a href="/reviews/" class="btn btn-outline" style="border-color:rgba(201,148,26,.5);color:var(--gold-a11y-light);">Read All 45 Reviews &rarr;</a>
+    <div style="text-align:center;margin-top:36px;">
+      <a href="/reviews/" class="btn btn-outline" style="border-color:#191919;color:#191919;padding:12px 32px;">Read All 4,713 Reviews on Trustpilot &rarr;</a>
     </div>
   </div>
 </section>
-<script>
-(function(){
-  var slider=document.getElementById('rev-slider');
-  if(!slider)return;
-  var wrap=slider.closest('.rev-slider-wrap')||slider;
-  var cards=slider.querySelectorAll('.rev-card');
-  var dotsWrap=document.getElementById('rev-dots');
-  cards.forEach(function(_,i){
-    var d=document.createElement('button');
-    d.type='button';d.className='rev-dot';d.setAttribute('aria-label','Go to review '+(i+1));
-    d.onclick=function(){scrollToCard(i);};
-    dotsWrap.appendChild(d);
-  });
-  var dots=dotsWrap.querySelectorAll('.rev-dot');
-  function padLeft(){return parseFloat(getComputedStyle(slider).scrollPaddingLeft)||0;}
-  function targetLeft(i){return cards[i].offsetLeft-padLeft();}
-  function currentIndex(){
-    var sl=slider.scrollLeft,best=0,bestDist=Infinity;
-    cards.forEach(function(_,i){
-      var d=Math.abs(targetLeft(i)-sl);
-      if(d<bestDist){bestDist=d;best=i;}
-    });
-    return best;
-  }
-  function updateDots(){
-    var idx=currentIndex();
-    dots.forEach(function(d,i){d.classList.toggle('active',i===idx);});
-  }
-  var animFrame=null;
-  function animateTo(target,duration){
-    duration=duration||420;
-    if(animFrame)cancelAnimationFrame(animFrame);
-    var start=slider.scrollLeft,change=target-start,startTime=null;
-    if(Math.abs(change)<1)return;
-    function step(ts){
-      if(!startTime)startTime=ts;
-      var t=Math.min(1,(ts-startTime)/duration);
-      var eased=1-Math.pow(1-t,3);
-      slider.scrollLeft=start+change*eased;
-      if(t<1)animFrame=requestAnimationFrame(step);
-      else animFrame=null;
-    }
-    animFrame=requestAnimationFrame(step);
-  }
-  function scrollToCard(i){
-    i=Math.max(0,Math.min(cards.length-1,i));
-    animateTo(targetLeft(i));
-  }
-  window.revSliderMove=function(dir){scrollToCard(currentIndex()+dir);};
-  var scrollTimer;
-  slider.addEventListener('scroll',function(){
-    clearTimeout(scrollTimer);
-    scrollTimer=setTimeout(updateDots,100);
-  },{passive:true});
-  updateDots();
 
-  var reduceMotion=window.matchMedia&&window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-  var timer;
-  function startAuto(){
-    if(reduceMotion)return;
-    stopAuto();
-    timer=setInterval(function(){
-      var next=(currentIndex()+1)%cards.length;
-      scrollToCard(next);
-    },5500);
-  }
-  function stopAuto(){clearInterval(timer);}
-  wrap.addEventListener('pointerdown',stopAuto);
-  wrap.addEventListener('mouseenter',stopAuto);
-  wrap.addEventListener('mouseleave',startAuto);
-  wrap.addEventListener('focusin',stopAuto);
-  startAuto();
-})();
-</script>
 
 <section class="section"><div class="container-sm">
   <div class="section-header center reveal"><span class="label">Legally Registered &amp; Verified</span><div class="divider center"></div><h2 class="section-title">A Real, Licensed California Corporation</h2></div>
@@ -853,13 +708,19 @@ body{margin:0;font-family:'Inter',system-ui,sans-serif;background:#fff;color:#1c
   </a>
 </div></section>
 
-<!-- SEO KEYWORD CONTENT — Structured for search engines -->
-<section style="padding:48px 0;background:var(--bg2);">
+<!-- SEO KEYWORD CONTENT — Structured for USA search engine dominance -->
+<section style="padding:64px 0;background:var(--bg2);border-top:1px solid #eee;">
   <div class="container">
-    <div style="columns:3;column-gap:32px;font-size:11px;color:var(--muted);line-height:1.9;">
-      <p><strong>Buy Premium Whisky Online USA</strong> — Caskworth is the premier destination for buying rare and premium whisky online with same-day delivery across 33 U.S. states. Our collection spans Kentucky straight bourbon, Speyside single malt Scotch, Japanese single malt, Irish single pot still, American rye, Canadian whisky, Grande Champagne cognac and aged Armagnac brandy.</p>
-      <p><strong>Same-Day Luxury Spirits Delivery</strong> — Order by 2PM and receive your premium whisky the same day in California, New York, Texas, Florida, Illinois, Pennsylvania, Ohio, Georgia, North Carolina, Michigan, New Jersey, Virginia, Washington, Arizona, Massachusetts, Tennessee, Indiana, Missouri, Maryland, Wisconsin, Colorado, Minnesota, South Carolina, Alabama, Louisiana, Kentucky, Oklahoma, Oregon, Connecticut, Utah, Iowa, Nevada and Arkansas.</p>
-      <p><strong>Rare & Allocated Whisky Available Now</strong> — Pappy Van Winkle 15 Year, 20 Year, 23 Year. Blanton's Original Single Barrel and Gold Edition. George T. Stagg Barrel Proof. William Larue Weller. Eagle Rare 10 Year. Macallan 25, 30, 40 and 50 Year. Yamazaki 18, 25, 35 and 50 Year. Hibiki 21, 30 and 35 Year. Karuizawa 1984 Single Cask. Port Ellen 32 Year and 38 Year. Brora 40 Year. Michter's 20 Year and 25 Year.</p>
+    <div style="columns:3;column-gap:40px;font-size:11px;color:var(--muted);line-height:2.1;text-align:justify;">
+      <p><strong>What is the <a href="/blog/best-bourbon-2025/">Best Bourbon</a> Whiskey to Buy Online?</strong> — At Caskworth, we curate the definitive list of <strong><a href="/shop/bourbon/">best bourbon</a></strong> brands for the American collector. Whether you are looking for <strong><a href="/shop/brands/">Woodford Reserve Double Oaked</a></strong>, <strong><a href="/shop/allocated/">Old Fitzgerald 7 Year</a></strong>, or the elusive <strong><a href="/products/pappy-van-winkle-20-year-family-reserve/">Pappy Van Winkle's Family Reserve</a></strong>, our inventory is unrivaled. For those asking <strong><a href="/faq/">what is a good bourbon</a></strong> or <strong>what is the best bourbon</strong> for a gift, we recommend <strong><a href="/shop/brands/">Basil Hayden's Kentucky Straight Bourbon Whiskey</a></strong> or <strong><a href="/shop/brands/">Maker's Mark Cask Strength bourbon whisky</a></strong>. We provide the most competitive <strong><a href="/shop/brands/">Maker's Mark price</a></strong> and <strong><a href="/shop/brands/">Basil Hayden price</a></strong> in the USA, including limited releases like <strong><a href="/shop/allocated/">Maker's Mark cellar aged</a></strong> and <strong>Maker mark whiskey price</strong> specials.</p>
+      
+      <p><strong>Premium <a href="/shop/scotch/">Scotch Whisky</a> & <a href="/shop/brands/">Glenfiddich Single Malt</a></strong> — Explore the world of <strong><a href="/shop/scotch/">Scotch whisky</a></strong> with Caskworth's expert selection. We feature the full <strong><a href="/shop/brands/">Glenfiddich distillery malt whisky</a></strong> range, from the classic <strong><a href="/shop/brands/">Glenfiddich single malt</a></strong> to the rare <strong><a href="/shop/allocated/">Glenfiddich 16 Aston Martin</a></strong> edition. Compare <strong><a href="/blog/macallan-12-vs-18/">Glenlivet vs Glenfiddich</a></strong> or explore the rich complexity of <strong><a href="/shop/brands/">Aberlour 12</a></strong>, <strong><a href="/shop/brands/">12 year Aberlour</a></strong>, and <strong><a href="/shop/brands/">A'bunadh Aberlour</a></strong>. Collectors frequently search for the <strong><a href="/shop/brands/">Macallan 18 price</a></strong>, <strong><a href="/shop/brands/">Macallan 25 price</a></strong>, <strong><a href="/shop/brands/">Macallan 12 price</a></strong>, <strong><a href="/shop/brands/">Macallan 15 price</a></strong>, and <strong><a href="/shop/brands/">Macallan 30 price</a></strong>; we offer the best value for <strong><a href="/products/macallan-18-double-cask/">Macallan Sherry Oak 18</a></strong>, <strong><a href="/products/macallan-18-double-cask/">Macallan 15 Double Cask</a></strong>, <strong><a href="/products/macallan-18-double-cask/">Macallan 18 double cask</a></strong>, and the legendary <strong><a href="/shop/allocated/">Macallan 81</a></strong>. Check our <strong>Macallan whisky price</strong> and <strong>Macallan whiskey price</strong> for the best deals.</p>
+      
+      <p><strong><a href="/blog/angels-envy-explained/">Angel's Envy Near Me</a> & Rare Allocations</strong> — If you are searching for <strong><a href="/search/?q=envy">Envy near me</a></strong> or <strong><a href="/shop/brands/">Angel's Envy price</a></strong>, Caskworth delivers to 33 states same-day. Our <strong><a href="/shop/brands/">Angel's Envy</a></strong> collection includes the <strong><a href="/shop/brands/">Angel's Envy cask strength</a></strong>, <strong><a href="/shop/brands/">Angel's Envy single barrel</a></strong>, and <strong><a href="/shop/brands/">Angel's Envy triple oaked</a></strong> (also searched as <strong><a href="/shop/brands/">Angel Envy triple oak</a></strong>). For rye enthusiasts, the <strong><a href="/shop/rye/">Angel's Envy finished rye</a></strong> (also known as <strong><a href="/shop/rye/">Angel Envy rye</a></strong>) is a top-tier choice. We are the premier destination for those wondering <strong><a href="/blog/blantons-bourbon-buy-online/">where can i buy Blanton's bourbon</a></strong> or <strong><a href="/shop/brands/">where to buy Blanton's bourbon</a></strong> online without the wait. Don't miss our <strong><a href="/shop/allocated/">Angel's Envy cellar collection</a></strong> and <strong><a href="/shop/allocated/">Angel's Envy bottled in bond</a></strong>.</p>
+      
+      <p><strong>Best <a href="/shop/brandy/">Brandy</a>, <a href="/shop/cognac/">Cognac</a> & Luxury Spirits</strong> — Discover <strong><a href="/shop/brandy/">good brandy</a></strong> and the <strong><a href="/shop/brandy/">best brandy brands</a></strong> available today. From <strong><a href="/shop/brandy/">Armagnac brandy</a></strong> and <strong><a href="/shop/cognac/">Cognac Courvoisier</a></strong> (including <strong><a href="/shop/brands/">Courvoisier VS</a></strong>, <strong><a href="/shop/brands/">Courvoisier vs</a></strong>, and <strong><a href="/shop/brands/">Courvoisier VS Cognac</a></strong>) to American craft options like <strong><a href="/shop/brandy/">Copper and Kings Brandy</a></strong>. If you prefer <strong><a href="/shop/brandy/">apple liquor</a></strong> or <strong><a href="/shop/brandy/">apple alcohol</a></strong>, try <strong><a href="/shop/brandy/">apple brandy on the rocks</a></strong>, <strong><a href="/shop/brandy/">apple jack liquor</a></strong>, or <strong><a href="/shop/brandy/">apple liquors</a></strong>. For a spicy kick, we stock <strong><a href="/products/jack-daniels-tennessee-fire/">Jack Daniel's Tennessee Fire</a></strong>. Whether you need <strong><a href="/shop/scotch/">cheap scotch</a></strong>, <strong><a href="/shop/tequila/">cheap tequila</a></strong>, or the most expensive <strong><a href="/shop/cognac/">LeBron Hennessy</a></strong>, Caskworth is the only <strong>liquors liquors</strong> destination you need in the USA. Explore our <strong><a href="/shop/brandy/">best brandy alcohol</a></strong>, <strong><a href="/shop/brandy/">best brandy to drink</a></strong>, and <strong><a href="/shop/brandy/">good brandy brands</a></strong>.</p>
+      
+      <p><strong><a href="/wholesale/">Wholesale Pricing</a> for Premium Labels</strong> — We provide transparent <strong><a href="/shop/brands/">Maker's Mark bourbon whiskey price</a></strong> and <strong><a href="/shop/brands/">Maker's Mark liquor price</a></strong> data for trade clients. Check our <strong><a href="/blog/">Basil Hayden bourbon review</a></strong>, <strong><a href="/blog/">Basil Hayden review</a></strong>, or <strong><a href="/blog/angels-envy-explained/">Angel's Envy bourbon review</a></strong> sections to make informed purchases. From <strong><a href="/shop/brands/">uisque Glenfiddich</a></strong> to <strong><a href="/shop/allocated/">Michter's 20</a></strong>, we ensure every bottle is indexed for <strong><a href="/shop/shop/">best whiskey</a></strong> and <strong><a href="/shop/bourbon/">best bourbon whiskey</a></strong> rankings on Google. Shop our <strong><a href="/shop/brands/">Angel bourbon whiskey</a></strong> and <strong><a href="/shop/brands/">Tomatin</a></strong> selections today for immediate delivery. Get the best <strong><a href="/shop/brands/">cask strength Makers Mark</a></strong> and <strong><a href="/shop/brands/">price for Maker's Mark</a></strong> right here.</p>
     </div>
   </div>
 </section>
@@ -966,12 +827,14 @@ body{margin:0;font-family:'Inter',system-ui,sans-serif;background:#fff;color:#1c
             <li><a href="/blog/rare-whisky-investment-2025/">Whisky Investment 2025</a></li>
             <li><a href="/blog/same-day-whiskey-delivery/">Same-Day Delivery Guide</a></li>
           </ul>
-          <h3 class="footer-heading" style="margin-top:1.5rem">Industry Links</h3>
+          <h3 class="footer-heading" style="margin-top:1.5rem">Industry Authorities</h3>
           <ul class="footer-links">
-            <li><a href="https://www.distilledspirits.org/" rel="noopener nofollow" target="_blank">Distilled Spirits Council</a></li>
-            <li><a href="https://www.ttb.gov/" rel="noopener nofollow" target="_blank">TTB Regulations</a></li>
-            <li><a href="https://scotchwhiskyassociation.com/" rel="noopener nofollow" target="_blank">Scotch Whisky Association</a></li>
-            <li><a href="https://www.thewillowwhiskyclub.com/" rel="noopener nofollow" target="_blank">Whisky Investment Resources</a></li>
+            <li><a href="https://www.ttb.gov/" rel="noopener nofollow" target="_blank">Alcohol &amp; Tobacco Tax &amp; Trade Bureau</a></li>
+            <li><a href="https://www.distilledspirits.org/" rel="noopener nofollow" target="_blank">Distilled Spirits Council (DISCUS)</a></li>
+            <li><a href="https://www.scotch-whisky.org.uk/" rel="noopener nofollow" target="_blank">Scotch Whisky Association (SWA)</a></li>
+            <li><a href="https://www.whiskyadvocate.com/" rel="noopener nofollow" target="_blank">Whisky Advocate Magazine</a></li>
+            <li><a href="https://www.thespiritsbusiness.com/" rel="noopener nofollow" target="_blank">The Spirits Business</a></li>
+            <li><a href="https://breakingbourbon.com/" rel="noopener nofollow" target="_blank">Breaking Bourbon</a></li>
           </ul>
         </div>
 
@@ -994,6 +857,8 @@ body{margin:0;font-family:'Inter',system-ui,sans-serif;background:#fff;color:#1c
   <svg width="26" height="26" viewBox="0 0 24 24" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
   <span class="wa-label">Chat on WhatsApp</span>
 </a>
+<script src="/assets/js/reviews-data.js" defer></script>
+<script src="/assets/js/reviews-init.js" defer></script>
 <script src="/assets/js/app.js?v=20260915b" defer></script>
 <script src="/assets/js/new_products.js?v=20260915b" defer></script>
 <script src="/assets/js/ultra_products.js?v=20260915b" defer></script>

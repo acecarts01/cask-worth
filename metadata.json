@@ -1,0 +1,7 @@
+{
+  "name": "Caskworth Premium Whisky",
+  "description": "Caskworth is the premier destination for premium whisky and spirits in the USA. Shop best bourbon, Scotch whisky, Macallan 18, Angel's Envy, and rare liquors with same-day delivery. Specializing in Macallan 18 price, Woodford Reserve, and Pappy Van Winkle.",
+  "capabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

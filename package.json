@@ -1,0 +1,15 @@
+{
+  "name": "cask-worth",
+  "version": "1.0.0",
+  "description": "Caskworth Premium Whisky - Premium Spirits Retailer",
+  "type": "module",
+  "scripts": {
+    "dev": "node server.js",
+    "start": "node server.js",
+    "build": "echo 'Build complete'"
+  },
+  "dependencies": {
+    "express": "^4.21.0",
+    "dotenv": "^16.4.5"
+  }
+}
