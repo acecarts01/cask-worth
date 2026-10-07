@@ -54,7 +54,7 @@ export function injectMetadata(config) {
   }
 }
 
-function injectSiteSchema() {
+export function injectSiteSchema() {
   const schema = {
     "@context": "https://schema.org",
     "@type": "Organization",
