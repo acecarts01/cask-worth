@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Search Results | Caskworth Premium Whisky</title>
+<meta name="description" content="Search our collection of premium bourbon, Scotch, Japanese and rare allocated whiskies. Find the best Macallan 18 price and more.">
+<link rel="stylesheet" href="/assets/css/style.css?v=20260915b">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<script type="module">
+  import { injectMetadata, injectSiteSchema } from '../assets/js/seo.js';
+  import { initSearch } from '../assets/js/search-component.js';
+  import { getSearchItems } from '../assets/js/search-data.js';
+
+  function initApp() {
+    try {
+      injectMetadata({
+        title: "Search Results | Caskworth Premium Whisky",
+        description: "Search our collection of premium bourbon, Scotch, Japanese and rare allocated whiskies.",
+        canonical: "https://caskworth.com/search/",
+        injectSiteSchema: true
+      });
+      initSearch();
+      
+      // Handle URL query
+      const params = new URLSearchParams(window.location.search);
+      const q = params.get('q');
+      if (q) {
+        document.getElementById('search-query-display').textContent = q;
+        renderResults(q);
+      }
+    } catch (e) {
+      console.error("Search init failed:", e);
+    }
+  }
+
+  function renderResults(query) {
+    const container = document.getElementById('search-results-page');
+    const items = getSearchItems();
+    const filtered = items.filter(item => 
+      item.title.toLowerCase().includes(query.toLowerCase()) || 
+      (item.category && item.category.toLowerCase().includes(query.toLowerCase()))
+    );
+
+    if (filtered.length > 0) {
+      container.innerHTML = filtered.map(item => `
+        <div class="search-result-item" style="padding: 20px; border-bottom: 1px solid #eee; display: flex; align-items: center; gap: 20px;">
+          <div style="flex: 1;">
+            <span class="label" style="font-size: 10px;">${item.type}</span>
+            <h3 style="margin: 5px 0;"><a href="${item.url}" style="color: var(--dark); text-decoration: none;">${item.title}</a></h3>
+            <p style="font-size: 13px; margin: 0;">${item.category || ''}</p>
+          </div>
+          <a href="${item.url}" class="btn btn-gold btn-sm">View Details</a>
+        </div>
+      `).join('');
+    } else {
+      container.innerHTML = `<div style="padding: 40px; text-align: center; color: #999;">No results found for "${query}". Try searching for "Bourbon" or "Macallan".</div>`;
+    }
+  }
+
+  if (document.readyState === 'complete') {
+    initApp();
+  } else {
+    window.addEventListener('load', initApp);
+  }
+</script>
+</head>
+<body>
+<header id="site-header">
+  <div class="header-inner">
+    <a href="/" class="logo">
+      <div class="logo-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#c9941a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l8 3v6c0 5-3.5 9-8 11-4.5-2-8-6-8-11V5z"/><path d="M9 12l2 2 4-4"/></svg>
+      </div>
+      <div class="logo-text"><b>Caskworth</b><small>Premium Whisky</small></div>
+    </a>
+    <nav class="site-nav">
+      <a href="/" class="nav-link">Home</a>
+      <a href="/shop/" class="nav-link">Shop</a>
+      <a href="/blog/" class="nav-link">Blog</a>
+      <a href="/contact/" class="nav-link">Contact</a>
+    </nav>
+    <div class="h-actions">
+      <a href="/shop/" class="h-btn"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg></a>
+    </div>
+  </div>
+</header>
+
+<main id="main-content">
+  <div class="page-hero">
+    <div class="container">
+      <nav class="breadcrumb"><a href="/">Home</a> › <span>Search</span></nav>
+      <h1>Search Results</h1>
+      <p>Results for: <strong id="search-query-display">...</strong></p>
+    </div>
+  </div>
+
+  <section class="section">
+    <div class="container-sm">
+      <div id="search-results-page">
+        <!-- Results injected here -->
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer id="site-footer" style="background: var(--dark); padding: 60px 0; color: #fff; text-align: center;">
+  <div class="container">
+    <p>&copy; 2026 Caskworth Premium Whisky. All rights reserved.</p>
+    <div style="margin-top: 20px;">
+      <a href="/privacy-policy/" style="color: #ccc; margin: 0 10px;">Privacy Policy</a>
+      <a href="/faq/" style="color: #ccc; margin: 0 10px;">FAQ</a>
+      <a href="/contact/" style="color: #ccc; margin: 0 10px;">Contact</a>
+    </div>
+  </div>
+</footer>
+</body>
+</html>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Premium Scotch Whisky | Single Malts & Blends | Caskworth</title>
+<meta name="description" content="Shop Speyside, Islay, Highland and Lowland single malts. The best Macallan 18 price, Glenfiddich and rare independent bottlings.">
+<link rel="stylesheet" href="/assets/css/style.css?v=20260915b">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<script type="module">
+  import { injectMetadata, injectSiteSchema } from '../../assets/js/seo.js';
+  import { initSearch } from '../../assets/js/search-component.js';
+
+  function initApp() {
+    try {
+      injectMetadata({
+        title: "Premium Scotch Whisky | Single Malts & Blends | Caskworth",
+        description: "Shop Speyside, Islay, Highland and Lowland single malts.",
+        canonical: "https://caskworth.com/shop/scotch/",
+        injectSiteSchema: true
+      });
+      initSearch();
+    } catch (e) {
+      console.error("Shop init failed:", e);
+    }
+  }
+
+  if (document.readyState === 'complete') {
+    initApp();
+  } else {
+    window.addEventListener('load', initApp);
+  }
+</script>
+</head>
+<body>
+<header id="site-header">
+  <div class="header-inner">
+    <a href="/" class="logo">
+      <div class="logo-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#c9941a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l8 3v6c0 5-3.5 9-8 11-4.5-2-8-6-8-11V5z"/><path d="M9 12l2 2 4-4"/></svg>
+      </div>
+      <div class="logo-text"><b>Caskworth</b><small>Premium Whisky</small></div>
+    </a>
+    <nav class="site-nav">
+      <a href="/" class="nav-link">Home</a>
+      <a href="/shop/" class="nav-link active">Shop</a>
+      <a href="/blog/" class="nav-link">Blog</a>
+      <a href="/contact/" class="nav-link">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main-content">
+  <div class="page-hero">
+    <div class="container">
+      <nav class="breadcrumb"><a href="/">Home</a> › <a href="/shop/">Shop</a> › <span>Scotch Whisky</span></nav>
+      <h1>Premium Scotch Whisky</h1>
+      <p>From the peat smoke of Islay to the honeyed malts of Speyside.</p>
+    </div>
+  </div>
+
+  <section class="section">
+    <div class="container">
+      <div id="category-grid" class="products-grid">
+        <!-- Products will be rendered by app.js -->
+      </div>
+    </div>
+  </section>
+</main>
+
+<script src="/assets/js/app.js" defer></script>
+<script>
+  window.addEventListener('load', () => {
+    if (typeof PRODUCTS !== 'undefined' && typeof renderProducts === 'function') {
+      const scotch = PRODUCTS.filter(p => p.tag === 'scotch' || p.cat === 'Scotch');
+      renderProducts(scotch, "category-grid");
+    }
+  });
+</script>
+</body>
+</html>

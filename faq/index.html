@@ -12,30 +12,45 @@
 .logo-text b{display:block;font-size:19px;font-weight:700;color:#1c1c1e;line-height:1}
 .logo-text small{display:block;font-size:9px;letter-spacing:.18em;text-transform:uppercase;
   color:#c9941a;font-weight:600}
-</style><meta name="viewport" content="width=device-width,initial-scale=1.0">
+</style><link rel="stylesheet" href="/assets/css/style.css?v=20260915b">
+<link rel="preload" href="/assets/fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/playfair-latin-normal.woff2" as="font" type="font/woff2" crossorigin>
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
 <script type="module">
   import { injectMetadata, injectFAQSchema, renderFAQ } from '../assets/js/seo.js';
   import { initSearch } from '../assets/js/search-component.js';
 
-  window.addEventListener('load', () => {
-    injectMetadata({
-      title: "FAQ | Caskworth Premium Whisky",
-      description: "Frequently asked questions about buying premium whisky online at Caskworth. Delivery, payment, crypto discounts, returns and more answered.",
-      canonical: "https://caskworth.com/faq/",
-      injectSiteSchema: true
-    });
+  // Initialize component
+  function initApp() {
+    try {
+      injectMetadata({
+        title: "FAQ | Caskworth Premium Whisky",
+        description: "Frequently asked questions about buying premium whisky online at Caskworth. Delivery, payment, crypto discounts, returns and more answered.",
+        canonical: "https://caskworth.com/faq/",
+        injectSiteSchema: true
+      });
 
-    renderFAQ('faq-container-full');
-    injectFAQSchema();
-    initSearch();
-  });
+      renderFAQ('faq-container-full');
+      injectFAQSchema();
+      initSearch();
+    } catch (e) {
+      console.error("Component init failed:", e);
+    }
+  }
+
+  if (document.readyState === 'complete') {
+    initApp();
+  } else {
+    window.addEventListener('load', initApp);
+  }
 
   window.toggleSearch = () => {
     const overlay = document.getElementById('search-overlay');
     if (overlay) {
       overlay.style.display = overlay.style.display === 'flex' ? 'none' : 'flex';
       if (overlay.style.display === 'flex') {
-        document.getElementById('search-input').focus();
+        const input = document.getElementById('search-input');
+        if (input) input.focus();
       }
     }
   };
@@ -453,6 +468,8 @@
             <li><a href="https://www.ttb.gov/" rel="noopener nofollow" target="_blank">Alcohol &amp; Tobacco Tax &amp; Trade Bureau</a></li>
             <li><a href="https://www.distilledspirits.org/" rel="noopener nofollow" target="_blank">Distilled Spirits Council (DISCUS)</a></li>
             <li><a href="https://www.scotch-whisky.org.uk/" rel="noopener nofollow" target="_blank">Scotch Whisky Association (SWA)</a></li>
+            <li><a href="https://www.wsetglobal.com/" rel="noopener nofollow" target="_blank">Wine &amp; Spirit Education Trust (WSET)</a></li>
+            <li><a href="https://www.theiwsr.com/" rel="noopener nofollow" target="_blank">IWSR Drinks Market Analysis</a></li>
             <li><a href="https://www.whiskyadvocate.com/" rel="noopener nofollow" target="_blank">Whisky Advocate Magazine</a></li>
             <li><a href="https://www.thespiritsbusiness.com/" rel="noopener nofollow" target="_blank">The Spirits Business</a></li>
             <li><a href="https://breakingbourbon.com/" rel="noopener nofollow" target="_blank">Breaking Bourbon</a></li>

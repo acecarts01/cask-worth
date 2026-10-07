@@ -46,30 +46,41 @@
   import { injectMetadata, injectFAQSchema, renderFAQ } from './assets/js/seo.js';
   import { initSearch } from './assets/js/search-component.js';
 
-  // Initialize after all scripts (like app.js) have loaded
-  window.addEventListener('load', () => {
-    // Initialize Metadata
-    injectMetadata({
-      title: "Caskworth | Best Bourbon & Scotch Whisky Online | Same-Day Delivery",
-      description: "Shop the best bourbon and Scotch whisky at Caskworth. Get the best Macallan 18 price, Angel's Envy, and Maker's Mark with same-day delivery. Premium rare liquors.",
-      canonical: "https://caskworth.com/",
-      injectSiteSchema: true
-    });
+  // Initialize component
+  function initApp() {
+    try {
+      // Initialize Metadata
+      injectMetadata({
+        title: "Caskworth | Best Bourbon & Scotch Whisky Online | Same-Day Delivery",
+        description: "Shop the best bourbon and Scotch whisky at Caskworth. Get the best Macallan 18 price, Angel's Envy, and Maker's Mark with same-day delivery. Premium rare liquors.",
+        canonical: "https://caskworth.com/",
+        injectSiteSchema: true
+      });
 
-    // Initialize FAQ
-    renderFAQ('faq-container');
-    injectFAQSchema();
+      // Initialize FAQ
+      renderFAQ('faq-container');
+      injectFAQSchema();
 
-    // Initialize Search
-    initSearch();
-  });
+      // Initialize Search
+      initSearch();
+    } catch (e) {
+      console.error("Component init failed:", e);
+    }
+  }
+
+  if (document.readyState === 'complete') {
+    initApp();
+  } else {
+    window.addEventListener('load', initApp);
+  }
 
   window.toggleSearch = () => {
     const overlay = document.getElementById('search-overlay');
     if (overlay) {
       overlay.style.display = overlay.style.display === 'flex' ? 'none' : 'flex';
       if (overlay.style.display === 'flex') {
-        document.getElementById('search-input').focus();
+        const input = document.getElementById('search-input');
+        if (input) input.focus();
       }
     }
   };
@@ -479,12 +490,12 @@ body{margin:0;font-family:'Inter',system-ui,sans-serif;background:#fff;color:#1c
 <!-- CATEGORIES -->
 <section class="section">
   <div class="container">
-    <div class="section-header center reveal">
+    <div class="section-header center >
       <span class="label">Browse by Style</span>
       <div class="divider center"></div>
       <h2 class="section-title">Our Collections</h2>
     </div>
-    <div class="cat-grid reveal">
+    <div class="cat-grid >
       <a href="/shop/bourbon/" class="cat-card">
         <div class="cat-img-wrap">
           <img width="900" height="1350" src="/assets/images/categories/bourbon.webp?v=20260915b" alt="A handwritten single-barrel bourbon label" loading="lazy" style="object-position:center 40%;" onerror="this.onerror=null;this.src='/assets/images/placeholder.svg'">
@@ -540,21 +551,21 @@ body{margin:0;font-family:'Inter',system-ui,sans-serif;background:#fff;color:#1c
 <!-- FEATURED PRODUCTS -->
 <section class="section" style="background:var(--bg2);">
   <div class="container">
-    <div class="section-header center reveal">
+    <div class="section-header center >
       <span class="label">Handpicked Selection</span>
       <div class="divider center"></div>
       <h2 class="section-title">Best Sellers</h2>
       <p style="max-width:460px;margin:12px auto 0;">Our most popular bottles. Same-day delivery in 33 states. $249.99 minimum order.</p>
     </div>
-    <div class="filter-wrap reveal">
+    <div class="filter-wrap >
       <button class="ftab active" id="feat-all" onclick="featFilter('all',this)">All</button>
       <button class="ftab" onclick="featFilter('bourbon',this)">Bourbon</button>
       <button class="ftab" onclick="featFilter('scotch',this)">Scotch</button>
       <button class="ftab" onclick="featFilter('japanese',this)">Japanese</button>
       <button class="ftab" onclick="featFilter('irish',this)">Irish</button>
     </div>
-    <div class="products-grid reveal" id="feat-grid"></div>
-    <div style="text-align:center;margin-top:36px;" class="reveal">
+    <div class="products-grid  id="feat-grid"></div>
+    <div style="text-align:center;margin-top:36px;" class="">
       <a href="/shop/" class="btn btn-dark btn-lg">View All 300+ Bottles →</a>
     </div>
   </div>
@@ -563,12 +574,12 @@ body{margin:0;font-family:'Inter',system-ui,sans-serif;background:#fff;color:#1c
 <!-- DELIVERY SECTION -->
 <section class="section">
   <div class="container">
-    <div class="section-header center reveal">
+    <div class="section-header center >
       <span class="label">Delivery Coverage</span>
       <div class="divider center"></div>
       <h2 class="section-title">Order Today.<br><em>Delivered Today.</em></h2>
     </div>
-    <div style="display:grid;grid-template-columns:1fr 1fr;gap:24px;" class="reveal">
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:24px;" class="">
       <div class="info-card" style="border-left:4px solid #16a34a;">
         <div style="display:flex;align-items:center;gap:10px;margin-bottom:14px;"><span style="width:10px;height:10px;border-radius:50%;background:#16a34a;display:inline-block;box-shadow:0 0 8px rgba(22,163,74,.5);"></span><span class="label" style="color:#16a34a;">Same-Day USA — 33 States</span></div>
         <h3>Order by 2PM. Delivered Today.</h3>
@@ -596,7 +607,7 @@ body{margin:0;font-family:'Inter',system-ui,sans-serif;background:#fff;color:#1c
 <!-- FAQ PREVIEW -->
 <section class="section" style="background:var(--bg2);">
   <div class="container-sm">
-    <div class="section-header center reveal">
+    <div class="section-header center">
       <span class="label">Common Questions</span>
       <div class="divider center"></div>
       <h2 class="section-title">Frequently Asked Questions</h2>
@@ -604,7 +615,7 @@ body{margin:0;font-family:'Inter',system-ui,sans-serif;background:#fff;color:#1c
     <div id="faq-container">
       <!-- FAQ content dynamically generated from FAQ_DATA in assets/js/faq-data.js -->
     </div>
-    <div style="text-align:center;margin-top:28px;" class="reveal">
+    <div style="text-align:center;margin-top:28px;">
       <a href="/faq/" class="btn btn-outline">View All FAQs →</a>
     </div>
   </div>
@@ -613,17 +624,17 @@ body{margin:0;font-family:'Inter',system-ui,sans-serif;background:#fff;color:#1c
 <!-- BLOG PREVIEW -->
 <section class="section">
   <div class="container">
-    <div class="section-header center reveal">
+    <div class="section-header center >
       <span class="label">Whisky Education</span>
       <div class="divider center"></div>
       <h2 class="section-title">From the Blog</h2>
     </div>
-    <div class="blog-grid reveal">
+    <div class="blog-grid >
       <a href="/blog/best-bourbon-2025/" class="bc"><div class="bc-img"><img width="400" height="560" src="/assets/images/products/pappy-van-winkle-20-year-family-reserve.webp?v=20260915b" alt="Pappy Van Winkle 20 Year - Best Bourbon 2025" style="width:100%;height:100%;object-fit:contain;background:#fff;" onerror="this.onerror=null;this.src='/assets/images/placeholder.svg'" loading="lazy"></div><div class="bc-body"><span class="bc-cat">Bourbon Guide</span><div class="bc-title">Best Bourbon Whiskey to Buy Online in 2025</div><p class="bc-excerpt">Our expert picks for the top bourbons you can order online right now — from accessible everyday pours to rare allocated bottles.</p><div class="bc-meta"><span>May 2025</span><span>6 min read</span></div></div></a>
       <a href="/blog/hibiki-harmony-buy/" class="bc"><div class="bc-img"><img width="400" height="560" src="/assets/images/products/hibiki-harmony.webp?v=20260915b" alt="Hibiki Harmony - Japanese Whisky" style="width:100%;height:100%;object-fit:contain;background:#fff;" onerror="this.onerror=null;this.src='/assets/images/placeholder.svg'" loading="lazy"></div><div class="bc-body"><span class="bc-cat">Japanese Whisky</span><div class="bc-title">Hibiki Harmony: Japan&rsquo;s Most Sought-After Whisky</div><p class="bc-excerpt">Why Hibiki Harmony is the world&rsquo;s most decorated Japanese whisky — and where to buy it online with same-day delivery.</p><div class="bc-meta"><span>April 2025</span><span>7 min read</span></div></div></a>
       <a href="/blog/same-day-whiskey-delivery/" class="bc"><div class="bc-img"><img width="400" height="560" src="/assets/images/products/macallan-30-year-double-cask.webp?v=20260915b" alt="Macallan 30 Year - Premium Whisky Delivery" style="width:100%;height:100%;object-fit:contain;background:#fff;" onerror="this.onerror=null;this.src='/assets/images/placeholder.svg'" loading="lazy"></div><div class="bc-body"><span class="bc-cat">Delivery Guide</span><div class="bc-title">Same-Day Whiskey Delivery: How to Get Bourbon at Your Door Today</div><p class="bc-excerpt">Everything you need to know about ordering whisky online with same-day delivery — which states qualify, how it works.</p><div class="bc-meta"><span>April 2025</span><span>5 min read</span></div></div></a>
     </div>
-    <div style="text-align:center;margin-top:32px;" class="reveal"><a href="/blog/" class="btn btn-outline">View All Articles →</a></div>
+    <div style="text-align:center;margin-top:32px;" class=""><a href="/blog/" class="btn btn-outline">View All Articles →</a></div>
   </div>
 </section></main>
 
@@ -644,7 +655,7 @@ body{margin:0;font-family:'Inter',system-ui,sans-serif;background:#fff;color:#1c
 </svg>
 <section style="background:#f9f9fb;padding:80px 0 64px;overflow:hidden;border-top:1px solid #eee;border-bottom:1px solid #eee;">
   <div class="container">
-    <div style="text-align:center;margin-bottom:48px;" class="reveal">
+    <div style="text-align:center;margin-bottom:48px;" class="">
       <div style="display:flex;align-items:center;justify-content:center;gap:8px;margin-bottom:12px;">
         <svg width="32" height="32" aria-hidden="true"><use href="#tpLogo"></use></svg>
         <span style="font-size:24px;font-weight:700;color:#191919;letter-spacing:-0.02em;">Trustpilot</span>
@@ -667,7 +678,7 @@ body{margin:0;font-family:'Inter',system-ui,sans-serif;background:#fff;color:#1c
       <div style="font-size:14px;color:#696a7d;margin-top:8px;">Based on <strong style="color:#191919;">4,713 verified reviews</strong></div>
     </div>
   </div>
-  <div class="rev-slider-wrap reveal">
+  <div class="rev-slider-wrap >
     <button type="button" class="rev-nav-btn rev-prev" aria-label="Previous review" onclick="revSliderMove(-1)" style="background:#fff;color:#191919;border-color:#eee;box-shadow:0 4px 12px rgba(0,0,0,0.08);"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M15 18l-6-6 6-6"/></svg></button>
     <button type="button" class="rev-nav-btn rev-next" aria-label="Next review" onclick="revSliderMove(1)" style="background:#fff;color:#191919;border-color:#eee;box-shadow:0 4px 12px rgba(0,0,0,0.08);"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M9 18l6-6-6-6"/></svg></button>
     <div class="rev-slider" id="rev-slider" role="region" aria-label="Customer reviews carousel" tabindex="0">
@@ -684,8 +695,8 @@ body{margin:0;font-family:'Inter',system-ui,sans-serif;background:#fff;color:#1c
 
 
 <section class="section"><div class="container-sm">
-  <div class="section-header center reveal"><span class="label">Legally Registered &amp; Verified</span><div class="divider center"></div><h2 class="section-title">A Real, Licensed California Corporation</h2></div>
-  <a href="https://bizfileonline.sos.ca.gov/search/business" target="_blank" rel="noopener noreferrer" class="verify-card reveal" aria-label="Verify Caskworth's business registration on the California Secretary of State website (opens in a new tab)">
+  <div class="section-header center ><span class="label">Legally Registered &amp; Verified</span><div class="divider center"></div><h2 class="section-title">A Real, Licensed California Corporation</h2></div>
+  <a href="https://bizfileonline.sos.ca.gov/search/business" target="_blank" rel="noopener noreferrer" class="verify-card  aria-label="Verify Caskworth's business registration on the California Secretary of State website (opens in a new tab)">
     <div style="display:flex;align-items:center;gap:16px;margin-bottom:28px;justify-content:center;flex-wrap:wrap;">
       <div style="width:56px;height:56px;background:rgba(201,148,26,.12);border:1.5px solid var(--gold);border-radius:14px;display:flex;align-items:center;justify-content:center;flex-shrink:0;">
         <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#e0ac3d" stroke-width="2"><path d="M12 2l8 3v6c0 5-3.5 9-8 11-4.5-2-8-6-8-11V5z"/><path d="M9 12l2 2 4-4"/></svg>
@@ -832,6 +843,8 @@ body{margin:0;font-family:'Inter',system-ui,sans-serif;background:#fff;color:#1c
             <li><a href="https://www.ttb.gov/" rel="noopener nofollow" target="_blank">Alcohol &amp; Tobacco Tax &amp; Trade Bureau</a></li>
             <li><a href="https://www.distilledspirits.org/" rel="noopener nofollow" target="_blank">Distilled Spirits Council (DISCUS)</a></li>
             <li><a href="https://www.scotch-whisky.org.uk/" rel="noopener nofollow" target="_blank">Scotch Whisky Association (SWA)</a></li>
+            <li><a href="https://www.wsetglobal.com/" rel="noopener nofollow" target="_blank">Wine &amp; Spirit Education Trust (WSET)</a></li>
+            <li><a href="https://www.theiwsr.com/" rel="noopener nofollow" target="_blank">IWSR Drinks Market Analysis</a></li>
             <li><a href="https://www.whiskyadvocate.com/" rel="noopener nofollow" target="_blank">Whisky Advocate Magazine</a></li>
             <li><a href="https://www.thespiritsbusiness.com/" rel="noopener nofollow" target="_blank">The Spirits Business</a></li>
             <li><a href="https://breakingbourbon.com/" rel="noopener nofollow" target="_blank">Breaking Bourbon</a></li>
@@ -844,6 +857,33 @@ body{margin:0;font-family:'Inter',system-ui,sans-serif;background:#fff;color:#1c
 
   <div class="footer-bottom">
     <div class="container">
+      <!-- SEO Knowledge Hub -->
+      <div style="margin-bottom: 48px; border-top: 1px solid rgba(255,255,255,0.1); padding-top: 32px;">
+        <h3 class="footer-heading" style="text-align: center; margin-bottom: 24px;">Premium Whisky Knowledge Hub</h3>
+        <div style="display: flex; flex-wrap: wrap; gap: 8px 16px; justify-content: center; font-size: 11px; color: rgba(255,255,255,0.5);">
+          <a href="/shop/bourbon/" style="color: rgba(255,255,255,0.7); text-decoration: none;">best bourbon</a> |
+          <a href="/shop/scotch/" style="color: rgba(255,255,255,0.7); text-decoration: none;">scotch whisky</a> |
+          <a href="/search/?q=macallan+18" style="color: rgba(255,255,255,0.7); text-decoration: none;">macallan 18 price</a> |
+          <a href="/shop/bourbon/" style="color: rgba(255,255,255,0.7); text-decoration: none;">best whiskey</a> |
+          <a href="/shop/allocated/" style="color: rgba(255,255,255,0.7); text-decoration: none;">pappy van winkle's family reserve</a> |
+          <a href="/search/?q=woodford+reserve" style="color: rgba(255,255,255,0.7); text-decoration: none;">woodford reserve double oaked</a> |
+          <a href="/shop/brandy/" style="color: rgba(255,255,255,0.7); text-decoration: none;">best brandy</a> |
+          <a href="/shop/bourbon/" style="color: rgba(255,255,255,0.7); text-decoration: none;">old fitzgerald 7 year</a> |
+          <a href="/shop/bourbon/" style="color: rgba(255,255,255,0.7); text-decoration: none;">maker's mark cask strength</a> |
+          <a href="/shop/allocated/" style="color: rgba(255,255,255,0.7); text-decoration: none;">angel's envy price</a> |
+          <a href="/search/?q=glenfiddich" style="color: rgba(255,255,255,0.7); text-decoration: none;">uisque glenfiddich</a> |
+          <a href="/shop/cognac/" style="color: rgba(255,255,255,0.7); text-decoration: none;">courvoisier vs cognac</a> |
+          <a href="/shop/bourbon/" style="color: rgba(255,255,255,0.7); text-decoration: none;">what is the best bourbon</a> |
+          <a href="/shop/allocated/" style="color: rgba(255,255,255,0.7); text-decoration: none;">where to buy blanton's bourbon</a> |
+          <a href="/shop/rye/" style="color: rgba(255,255,255,0.7); text-decoration: none;">angel's envy finished rye</a> |
+          <a href="/shop/brandy/" style="color: rgba(255,255,255,0.7); text-decoration: none;">apple brandy on the rocks</a> |
+          <a href="/shop/bourbon/" style="color: rgba(255,255,255,0.7); text-decoration: none;">jack daniel's tennessee fire</a> |
+          <a href="/search/?q=basil+hayden" style="color: rgba(255,255,255,0.7); text-decoration: none;">basil hayden bourbon price</a> |
+          <a href="/shop/brandy/" style="color: rgba(255,255,255,0.7); text-decoration: none;">cognac courvoisier</a> |
+          <a href="/shop/scotch/" style="color: rgba(255,255,255,0.7); text-decoration: none;">macallan whiskey price</a> |
+          <a href="/shop/allocated/" style="color: rgba(255,255,255,0.7); text-decoration: none;">angel's envy bottled in bond</a>
+        </div>
+      </div>
       <div class="footer-bottom-inner">
         <p class="footer-copy">&copy; 2026 Caskworth Premium Whisky, a trade name of 49er Liquors Inc. All rights reserved.</p>
         <p class="footer-legal">Must be 21+ to purchase. Drink responsibly. <a href="https://www.responsibility.org/" rel="noopener nofollow" target="_blank">Responsibility.org</a> &bull; <a href="https://www.drinkaware.co.uk/" rel="noopener nofollow" target="_blank">DrinkAware</a></p>

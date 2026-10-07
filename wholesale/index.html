@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Wholesale Premium Whisky | Bulk Orders | Caskworth</title>
+<meta name="description" content="Wholesale opportunities for premium bourbon, Scotch and rare allocated spirits. Competitve pricing for bars, restaurants and retailers.">
+<link rel="stylesheet" href="/assets/css/style.css?v=20260915b">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<script type="module">
+  import { injectMetadata, injectSiteSchema } from '../assets/js/seo.js';
+  import { initSearch } from '../assets/js/search-component.js';
+
+  function initApp() {
+    try {
+      injectMetadata({
+        title: "Wholesale Premium Whisky | Bulk Orders | Caskworth",
+        description: "Wholesale opportunities for premium bourbon, Scotch and rare allocated spirits.",
+        canonical: "https://caskworth.com/wholesale/",
+        injectSiteSchema: true
+      });
+      initSearch();
+    } catch (e) {
+      console.error("Wholesale init failed:", e);
+    }
+  }
+
+  if (document.readyState === 'complete') {
+    initApp();
+  } else {
+    window.addEventListener('load', initApp);
+  }
+</script>
+</head>
+<body>
+<header id="site-header">
+  <div class="header-inner">
+    <a href="/" class="logo">
+      <div class="logo-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#c9941a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l8 3v6c0 5-3.5 9-8 11-4.5-2-8-6-8-11V5z"/><path d="M9 12l2 2 4-4"/></svg>
+      </div>
+      <div class="logo-text"><b>Caskworth</b><small>Premium Whisky</small></div>
+    </a>
+    <nav class="site-nav">
+      <a href="/" class="nav-link">Home</a>
+      <a href="/shop/" class="nav-link">Shop</a>
+      <a href="/blog/" class="nav-link">Blog</a>
+      <a href="/contact/" class="nav-link">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main-content">
+  <div class="page-hero">
+    <div class="container">
+      <nav class="breadcrumb"><a href="/">Home</a> › <span>Wholesale</span></nav>
+      <h1>Wholesale & Bulk Orders</h1>
+      <p>Premium solutions for hospitality and retail partners.</p>
+    </div>
+  </div>
+
+  <section class="section">
+    <div class="container">
+      <div class="ws-tiers">
+        <div class="ws-tier">
+          <h3 class="ws-tier-name">Hospitality</h3>
+          <div class="ws-tier-price">Tier 1</div>
+          <ul>
+            <li>Curated selection for bars</li>
+            <li>Priority allocation</li>
+            <li>Staff training available</li>
+          </ul>
+          <a href="/contact/" class="btn btn-dark btn-full">Inquire Now</a>
+        </div>
+        <div class="ws-tier featured">
+          <div class="ws-badge">Most Popular</div>
+          <h3 class="ws-tier-name">Retail</h3>
+          <div class="ws-tier-price">Tier 2</div>
+          <ul>
+            <li>Volume discounts</li>
+            <li>Same-day delivery (select areas)</li>
+            <li>Marketing support</li>
+          </ul>
+          <a href="/contact/" class="btn btn-gold btn-full">Inquire Now</a>
+        </div>
+        <div class="ws-tier">
+          <h3 class="ws-tier-name">Enterprise</h3>
+          <div class="ws-tier-price">Custom</div>
+          <ul>
+            <li>Direct distillery access</li>
+            <li>Global shipping support</li>
+            <li>Dedicated account manager</li>
+          </ul>
+          <a href="/contact/" class="btn btn-dark btn-full">Inquire Now</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer id="site-footer" style="background: var(--dark); padding: 60px 0; color: #fff; text-align: center;">
+  <div class="container">
+    <p>&copy; 2026 Caskworth Premium Whisky. All rights reserved.</p>
+  </div>
+</footer>
+</body>
+</html>

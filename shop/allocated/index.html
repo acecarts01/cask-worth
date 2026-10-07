@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Rare & Allocated Spirits | Pappy, Blanton's & More | Caskworth</title>
+<meta name="description" content="Shop our vault of rare and allocated spirits. Pappy Van Winkle, Blanton's Gold, BTAC and ultra-premium Macallan releases.">
+<link rel="stylesheet" href="/assets/css/style.css?v=20260915b">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<script type="module">
+  import { injectMetadata, injectSiteSchema } from '../../assets/js/seo.js';
+  import { initSearch } from '../../assets/js/search-component.js';
+
+  function initApp() {
+    try {
+      injectMetadata({
+        title: "Rare & Allocated Spirits | Pappy, Blanton's & More | Caskworth",
+        description: "Shop our vault of rare and allocated spirits.",
+        canonical: "https://caskworth.com/shop/allocated/",
+        injectSiteSchema: true
+      });
+      initSearch();
+    } catch (e) {
+      console.error("Shop init failed:", e);
+    }
+  }
+
+  if (document.readyState === 'complete') {
+    initApp();
+  } else {
+    window.addEventListener('load', initApp);
+  }
+</script>
+</head>
+<body>
+<header id="site-header">
+  <div class="header-inner">
+    <a href="/" class="logo">
+      <div class="logo-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#c9941a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l8 3v6c0 5-3.5 9-8 11-4.5-2-8-6-8-11V5z"/><path d="M9 12l2 2 4-4"/></svg>
+      </div>
+      <div class="logo-text"><b>Caskworth</b><small>Premium Whisky</small></div>
+    </a>
+  </div>
+</header>
+
+<main id="main-content">
+  <div class="page-hero">
+    <div class="container">
+      <nav class="breadcrumb"><a href="/">Home</a> › <a href="/shop/">Shop</a> › <span>Rare & Allocated</span></nav>
+      <h1>Rare & Allocated Spirits</h1>
+      <p>Hard-to-find bottles from the world's most prestigious distilleries.</p>
+    </div>
+  </div>
+
+  <section class="section">
+    <div class="container">
+      <div id="category-grid" class="products-grid">
+        <!-- Products will be rendered by app.js -->
+      </div>
+    </div>
+  </section>
+</main>
+
+<script src="/assets/js/app.js" defer></script>
+<script>
+  window.addEventListener('load', () => {
+    if (typeof PRODUCTS !== 'undefined' && typeof renderProducts === 'function') {
+      const allocated = PRODUCTS.filter(p => p.tag === 'allocated' || p.badge === 'rare' || p.price > 1000);
+      renderProducts(allocated, "category-grid");
+    }
+  });
+</script>
+</body>
+</html>

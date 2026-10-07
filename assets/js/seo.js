@@ -61,14 +61,24 @@ function injectSiteSchema() {
     "name": "Caskworth Premium Whisky",
     "url": "https://caskworth.com",
     "logo": "https://caskworth.com/assets/images/favicon-512.png",
+    "description": "Caskworth is the premier destination for premium whisky and spirits in the USA. Specializing in bourbon, Scotch whisky, Macallan 18, Angel's Envy, and rare allocations.",
     "sameAs": [
       "https://wa.me/14482348667"
+    ],
+    "knowsAbout": [
+      "Bourbon", "Scotch Whisky", "Japanese Whisky", "Irish Whiskey", "Rye Whiskey", "Canadian Whisky", "Cognac", "Armagnac", "Brandy", "Tequila", "Whiskey Price", "Best Bourbon", "Macallan 18", "Angel's Envy", "Maker's Mark", "Pappy Van Winkle", "Blanton's Bourbon", "High Rye Bourbon", "Rare Spirits", "Allocated Whiskey", "Whiskey Delivery USA"
     ]
   };
   
   const script = document.createElement('script');
   script.type = 'application/ld+json';
+  script.id = 'site-organization-schema';
   script.textContent = JSON.stringify(schema);
+  
+  // Remove existing site schema if present
+  const existing = document.getElementById('site-organization-schema');
+  if (existing) existing.remove();
+  
   document.head.appendChild(script);
 }
 
@@ -111,24 +121,16 @@ export function renderFAQ(containerId) {
   if (!container) return;
 
   container.innerHTML = FAQ_DATA.map((faq, index) => `
-    <div class="faq-item reveal" style="border-bottom: 1px solid #eee; padding: 20px 0;">
-      <button class="faq-toggle" style="width: 100%; text-align: left; background: none; border: none; font-size: 18px; font-weight: 600; cursor: pointer; display: flex; justify-content: space-between; align-items: center;" onclick="this.nextElementSibling.classList.toggle('open'); this.querySelector('.faq-icon').style.transform = this.nextElementSibling.classList.contains('open') ? 'rotate(180deg)' : 'rotate(0deg)'">
+    <div class="faq-item">
+      <button class="faq-q" onclick="toggleFaq(this)">
         <span>${faq.question}</span>
-        <span class="faq-icon" style="transition: transform 0.3s;">▼</span>
+        <span class="faq-icon">+</span>
       </button>
-      <div class="faq-answer" style="max-height: 0; overflow: hidden; transition: max-height 0.3s ease-out; color: #666; line-height: 1.6;">
-        <p style="padding-top: 15px;">${faq.answer}</p>
+      <div class="faq-a">
+        <div class="faq-a-inner">
+          ${faq.answer}
+        </div>
       </div>
     </div>
   `).join('');
-
-  // Add CSS for open state
-  if (!document.getElementById('faq-style')) {
-    const style = document.createElement('style');
-    style.id = 'faq-style';
-    style.textContent = `
-      .faq-answer.open { max-height: 200px; }
-    `;
-    document.head.appendChild(style);
-  }
 }
