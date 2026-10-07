@@ -12,48 +12,33 @@
 .logo-text b{display:block;font-size:19px;font-weight:700;color:#1c1c1e;line-height:1}
 .logo-text small{display:block;font-size:9px;letter-spacing:.18em;text-transform:uppercase;
   color:#c9941a;font-weight:600}
-</style><link rel="stylesheet" href="/assets/css/style.css?v=20260915b">
+</style><meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>FAQ | Caskworth Premium Whisky</title><meta name="description" content="Frequently asked questions about buying premium whisky online at Caskworth. Delivery, payment, crypto discounts, returns and more answered.">
+<link rel="canonical" href="https://caskworth.com/faq/">
+<link rel="api-catalog" href="/.well-known/api-catalog" type="application/linkset+json">
+<link rel="service-desc" href="/openapi.json" type="application/openapi+json">
+<link rel="service-doc" href="/llms.txt" type="text/plain">
+<link rel="describedby" href="/.well-known/agent-skills/index.json" type="application/json">
+<link rel="manifest" href="/site.webmanifest">
 <link rel="preload" href="/assets/fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/assets/fonts/playfair-latin-normal.woff2" as="font" type="font/woff2" crossorigin>
-<meta name="viewport" content="width=device-width,initial-scale=1.0">
-<script type="module">
-  import { injectMetadata, injectFAQSchema, renderFAQ } from '../assets/js/seo.js';
-  import { initSearch } from '../assets/js/search-component.js';
-
-  // Initialize component
-  function initApp() {
-    try {
-      injectMetadata({
-        title: "FAQ | Caskworth Premium Whisky",
-        description: "Frequently asked questions about buying premium whisky online at Caskworth. Delivery, payment, crypto discounts, returns and more answered.",
-        canonical: "https://caskworth.com/faq/",
-        injectSiteSchema: true
-      });
-
-      renderFAQ('faq-container-full');
-      injectFAQSchema();
-      initSearch();
-    } catch (e) {
-      console.error("Component init failed:", e);
-    }
-  }
-
-  if (document.readyState === 'complete') {
-    initApp();
-  } else {
-    window.addEventListener('load', initApp);
-  }
-
-  window.toggleSearch = () => {
-    const overlay = document.getElementById('search-overlay');
-    if (overlay) {
-      overlay.style.display = overlay.style.display === 'flex' ? 'none' : 'flex';
-      if (overlay.style.display === 'flex') {
-        const input = document.getElementById('search-input');
-        if (input) input.focus();
-      }
-    }
-  };
+<link rel="preload" href="/assets/css/style.css?v=20260915b" as="style">
+<link rel="stylesheet" href="/assets/css/style.css?v=20260915b">
+<meta name="keywords" content="whiskey buying faq, is whiskey shipping legal by state, how fast is whiskey delivery, whiskey return policy, whiskey authenticity guarantee, whiskey gift wrapping options, whiskey delivery questions, is it legal to ship whiskey, whiskey age verification faq, whiskey crypto payment faq, whiskey order tracking faq">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Store","name":"Caskworth Premium Whisky","url":"https://caskworth.com","description":"Buy premium whisky online with same-day delivery to 33 U.S. states and 7 Canadian provinces. Bourbon, Scotch, Japanese, Irish, Rye, Cognac and Brandy.","priceRange":"$$$","currenciesAccepted":"USD","paymentAccepted":"Cryptocurrency, PayPal, Apple Pay","areaServed":"US, CA","hasMap":"https://caskworth.com/contact/","contactPoint":{"@type":"ContactPoint","telephone":"+14482348667","contactType":"customer service","availableLanguage":"English"}}
+</script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
+{"@type":"Question","name":"What is the minimum order amount?","acceptedAnswer":{"@type":"Answer","text":"The minimum order at Caskworth is $249.99 USD. This applies to all retail and wholesale orders. Mix and match from any category to reach the minimum."}},
+{"@type":"Question","name":"Which U.S. states receive same-day delivery?","acceptedAnswer":{"@type":"Answer","text":"Caskworth delivers same-day to 33 states, including California, Texas, New York, Florida and Illinois. Orders must be placed by 2PM for same-day delivery."}},
+{"@type":"Question","name":"Do you deliver to Canada?","acceptedAnswer":{"@type":"Answer","text":"Yes. Same-day delivery is available to Ontario, Quebec, British Columbia, Alberta, Manitoba, Saskatchewan and Nova Scotia. Other Canadian provinces receive 1-3 business day delivery."}},
+{"@type":"Question","name":"What payment methods do you accept?","acceptedAnswer":{"@type":"Answer","text":"Caskworth accepts cryptocurrency (Bitcoin, Ethereum, USDT, Solana, XRP, BNB), PayPal, Apple Pay and Chime. QR codes for all crypto wallets are shown at checkout."}},
+{"@type":"Question","name":"How do I place an order?","acceptedAnswer":{"@type":"Answer","text":"Browse the shop, add bottles to your cart until the total reaches $249.99, then go to checkout, enter delivery details and select a payment method. Orders are confirmed by email within 1-4 hours."}},
+{"@type":"Question","name":"Do you offer in-store pickup?","acceptedAnswer":{"@type":"Answer","text":"No. Caskworth is a delivery-only service with no in-store pickup at any location. All orders are delivered from the warehouse closest to the delivery address."}},
+{"@type":"Question","name":"Is age verification required?","acceptedAnswer":{"@type":"Answer","text":"Yes. Customers must be 21 or older to purchase from Caskworth. Age verification is required at the time of order and upon delivery where required by law."}},
+{"@type":"Question","name":"What if I am outside the 33 same-day states?","acceptedAnswer":{"@type":"Answer","text":"All other U.S. states and Canadian provinces receive 1-3 business day delivery from Caskworth's California headquarters. The same $249.99 minimum order applies."}}
+]}
 </script>
 <link rel="icon" type="image/x-icon" href="/assets/images/favicon.ico">
 <link rel="icon" type="image/png" sizes="512x512" href="/assets/images/favicon-512.png">
@@ -333,7 +318,7 @@
     </nav>
     <div class="h-actions">
       <a href="/shop/" class="btn btn-gold btn-sm" style="display:none;" id="hdr-shop-btn">Shop Now</a>
-      <button class="h-btn search-trigger" onclick="toggleSearch()" aria-label="Search">
+      <button class="h-btn" onclick="toggleSearch()" aria-label="Search">
         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
       </button>
       <button class="h-btn" onclick="toggleCart()" aria-label="Cart">
@@ -351,9 +336,31 @@
   <p>Everything you need to know about ordering premium whisky online at Caskworth.</p>
 </div></div>
 <section class="section"><div class="container-sm">
-    <div id="faq-container-full">
-      <!-- FAQ content dynamically generated -->
-    </div>
+  <div class="faq-item">
+  <button class="faq-q" onclick="toggleFaq(this)"><span>What is the minimum order amount?</span><span class="faq-icon">+</span></button>
+  <div class="faq-a"><div class="faq-a-inner">The minimum order at Caskworth is <strong>$249.99 USD</strong>. This applies to all retail and wholesale orders. Mix and match from any category to reach the minimum.</div></div>
+</div><div class="faq-item">
+  <button class="faq-q" onclick="toggleFaq(this)"><span>Which U.S. states receive same-day delivery?</span><span class="faq-icon">+</span></button>
+  <div class="faq-a"><div class="faq-a-inner">We deliver same-day to <strong>33 states</strong>: California, Texas, New York, Florida, Illinois, Pennsylvania, Ohio, Georgia, North Carolina, Michigan, New Jersey, Virginia, Washington, Arizona, Massachusetts, Tennessee, Indiana, Missouri, Maryland, Wisconsin, Colorado, Minnesota, South Carolina, Alabama, Louisiana, Kentucky, Oklahoma, Oregon, Connecticut, Utah, Iowa, Nevada and Arkansas. Order by 2PM.</div></div>
+</div><div class="faq-item">
+  <button class="faq-q" onclick="toggleFaq(this)"><span>Do you deliver to Canada?</span><span class="faq-icon">+</span></button>
+  <div class="faq-a"><div class="faq-a-inner">Yes. Same-day delivery to <strong>Ontario, Quebec, British Columbia, Alberta, Manitoba, Saskatchewan and Nova Scotia</strong>. All other Canadian provinces receive 1–3 business day delivery.</div></div>
+</div><div class="faq-item">
+  <button class="faq-q" onclick="toggleFaq(this)"><span>What payment methods do you accept?</span><span class="faq-icon">+</span></button>
+  <div class="faq-a"><div class="faq-a-inner">We accept <strong>Cryptocurrency</strong> (Bitcoin, Ethereum, USDT/ETH, USDT/TRX, Solana, XRP, BNB), <strong>PayPal</strong>, <strong>Apple Pay</strong> and <strong>Chime</strong>. QR codes for all crypto wallets are displayed at checkout.</div></div>
+</div><div class="faq-item">
+  <button class="faq-q" onclick="toggleFaq(this)"><span>How do I place an order?</span><span class="faq-icon">+</span></button>
+  <div class="faq-a"><div class="faq-a-inner">Browse our shop, add bottles to your cart, ensure your total is $249.99+, then go to checkout. Fill in your delivery details and select a payment method. Your order is confirmed via email within 1–4 hours.</div></div>
+</div><div class="faq-item">
+  <button class="faq-q" onclick="toggleFaq(this)"><span>Do you offer in-store pickup?</span><span class="faq-icon">+</span></button>
+  <div class="faq-a"><div class="faq-a-inner">No — Caskworth is a delivery-only service. We do not offer in-store pickup at any location. All orders are delivered from warehouses closest to your address.</div></div>
+</div><div class="faq-item">
+  <button class="faq-q" onclick="toggleFaq(this)"><span>Is age verification required?</span><span class="faq-icon">+</span></button>
+  <div class="faq-a"><div class="faq-a-inner">Yes. You must be <strong>21 or older</strong> to purchase from Caskworth. Age verification is required at the time of order and upon delivery where applicable by law.</div></div>
+</div><div class="faq-item">
+  <button class="faq-q" onclick="toggleFaq(this)"><span>What if I am outside the 33 same-day states?</span><span class="faq-icon">+</span></button>
+  <div class="faq-a"><div class="faq-a-inner">All other U.S. states and Canadian provinces receive <strong>1–3 business day delivery</strong> from our California headquarters. The same $249.99 minimum order applies.</div></div>
+</div>
   <div style="text-align:center;margin-top:32px;padding:28px;background:var(--bg2);border-radius:var(--rl);">
     <h3 style="font-family:var(--font-d);margin-bottom:12px;">Still have questions?</h3>
     <p style="font-size:13px;margin-bottom:20px;">Our team is available Mon–Sat 9AM–7PM PST.</p>
@@ -371,8 +378,6 @@
     </form>
   </div>
 </div>
-
-
 <footer id="site-footer">
   <div class="footer-top">
     <div class="container">
@@ -396,8 +401,8 @@
           </a>
           <p class="footer-tagline">Buy premium whisky online with same-day delivery to 33 US states and 7 Canadian provinces.</p>
           <div class="footer-contact">
-            <a href="https://wa.me/14482348667" rel="noopener" aria-label="WhatsApp us">📲 WhatsApp: +1 (448) 234-8667</a>
-            <a href="mailto:info@caskworth.com" aria-label="Email us">✉️ info@caskworth.com</a>
+            <a href="https://wa.me/14482348667" rel="noopener" aria-label="WhatsApp us">&#x1F4F1; WhatsApp: +1 (448) 234-8667</a>
+            <a href="mailto:&#105;&#110;&#102;&#111;&#64;&#99;&#97;&#115;&#107;&#119;&#111;&#114;&#116;&#104;&#46;&#99;&#111;&#109;" aria-label="Email us">&#x2709; &#105;&#110;&#102;&#111;&#64;&#99;&#97;&#115;&#107;&#119;&#111;&#114;&#116;&#104;&#46;&#99;&#111;&#109;</a>
           </div>
         </div>
 
@@ -421,15 +426,15 @@
         <div class="footer-col">
           <h3 class="footer-heading">Popular Bottles</h3>
           <ul class="footer-links">
-            <li><a href="/products/blantons-original-single-barrel.html">Blanton’s Original</a></li>
-            <li><a href="/products/pappy-van-winkle-20-year-family-reserve.html">Pappy Van Winkle 20yr</a></li>
-            <li><a href="/products/macallan-18-double-cask.html">Macallan 18 Year</a></li>
-            <li><a href="/products/yamazaki-18-year.html">Yamazaki 18 Year</a></li>
-            <li><a href="/products/hennessy-xo.html">Hennessy XO</a></li>
-            <li><a href="/products/hibiki-21-year.html">Hibiki 21 Year</a></li>
-            <li><a href="/products/johnnie-walker-blue-label.html">Johnnie Walker Blue</a></li>
-            <li><a href="/products/eagle-rare-10-year.html">Eagle Rare 10 Year</a></li>
-            <li><a href="/products/remy-martin-louis-xiii.html">Rémy Martin Louis XIII</a></li>
+            <li><a href="/products/blantons-original-single-barrel">Blanton&#x2019;s Original</a></li>
+            <li><a href="/products/pappy-van-winkle-20-year-family-reserve">Pappy Van Winkle 20yr</a></li>
+            <li><a href="/products/macallan-18-double-cask">Macallan 18 Year</a></li>
+            <li><a href="/products/yamazaki-18-year">Yamazaki 18 Year</a></li>
+            <li><a href="/products/hennessy-xo">Hennessy XO</a></li>
+            <li><a href="/products/hibiki-21-year">Hibiki 21 Year</a></li>
+            <li><a href="/products/johnnie-walker-blue-label">Johnnie Walker Blue</a></li>
+            <li><a href="/products/eagle-rare-10-year">Eagle Rare 10 Year</a></li>
+            <li><a href="/products/remy-martin-louis-xiii">R&#xE9;my Martin Louis XIII</a></li>
           </ul>
         </div>
 
@@ -465,15 +470,12 @@
             <li><a href="/blog/rare-whisky-investment-2025/">Whisky Investment 2025</a></li>
             <li><a href="/blog/same-day-whiskey-delivery/">Same-Day Delivery Guide</a></li>
           </ul>
-          <h3 class="footer-heading" style="margin-top:1.5rem">Industry Authorities</h3>
+          <h3 class="footer-heading" style="margin-top:1.5rem">Industry Links</h3>
           <ul class="footer-links">
-            <li><a href="https://www.ttb.gov/" rel="noopener nofollow" target="_blank">Alcohol &amp; Tobacco Tax &amp; Trade Bureau</a></li>
-            <li><a href="https://www.distilledspirits.org/" rel="noopener nofollow" target="_blank">Distilled Spirits Council (DISCUS)</a></li>
-            <li><a href="https://www.scotch-whisky.org.uk/" rel="noopener nofollow" target="_blank">Scotch Whisky Association (SWA)</a></li>
-            <li><a href="https://kybourbon.com/" rel="noopener nofollow" target="_blank">Kentucky Distillers' Association</a></li>
-            <li><a href="https://www.wsetglobal.com/" rel="noopener nofollow" target="_blank">Wine &amp; Spirit Education Trust (WSET)</a></li>
-            <li><a href="https://www.whiskyadvocate.com/" rel="noopener nofollow" target="_blank">Whisky Advocate</a></li>
-            <li><a href="https://breakingbourbon.com/" rel="noopener nofollow" target="_blank">Breaking Bourbon</a></li>
+            <li><a href="https://www.distilledspirits.org/" rel="noopener nofollow" target="_blank">Distilled Spirits Council</a></li>
+            <li><a href="https://www.ttb.gov/" rel="noopener nofollow" target="_blank">TTB Regulations</a></li>
+            <li><a href="https://scotchwhiskyassociation.com/" rel="noopener nofollow" target="_blank">Scotch Whisky Association</a></li>
+            <li><a href="https://www.thewillowwhiskyclub.com/" rel="noopener nofollow" target="_blank">Whisky Investment Resources</a></li>
           </ul>
         </div>
 
@@ -483,33 +485,6 @@
 
   <div class="footer-bottom">
     <div class="container">
-      <!-- SEO Knowledge Hub -->
-      <div style="margin-bottom: 48px; border-top: 1px solid rgba(255,255,255,0.1); padding-top: 32px;">
-        <h3 class="footer-heading" style="text-align: center; margin-bottom: 24px;">Premium Whisky Knowledge Hub</h3>
-        <div style="display: flex; flex-wrap: wrap; gap: 8px 16px; justify-content: center; font-size: 11px; color: rgba(255,255,255,0.5);">
-          <a href="/shop/bourbon/" style="color: rgba(255,255,255,0.7); text-decoration: none;">best bourbon</a> |
-          <a href="/shop/scotch/" style="color: rgba(255,255,255,0.7); text-decoration: none;">scotch whisky</a> |
-          <a href="/search/?q=macallan+18" style="color: rgba(255,255,255,0.7); text-decoration: none;">macallan 18 price</a> |
-          <a href="/shop/bourbon/" style="color: rgba(255,255,255,0.7); text-decoration: none;">best whiskey</a> |
-          <a href="/shop/allocated/" style="color: rgba(255,255,255,0.7); text-decoration: none;">pappy van winkle's family reserve</a> |
-          <a href="/search/?q=woodford+reserve" style="color: rgba(255,255,255,0.7); text-decoration: none;">woodford reserve double oaked</a> |
-          <a href="/shop/brandy/" style="color: rgba(255,255,255,0.7); text-decoration: none;">best brandy</a> |
-          <a href="/shop/bourbon/" style="color: rgba(255,255,255,0.7); text-decoration: none;">old fitzgerald 7 year</a> |
-          <a href="/shop/bourbon/" style="color: rgba(255,255,255,0.7); text-decoration: none;">maker's mark cask strength</a> |
-          <a href="/shop/allocated/" style="color: rgba(255,255,255,0.7); text-decoration: none;">angel's envy price</a> |
-          <a href="/search/?q=glenfiddich" style="color: rgba(255,255,255,0.7); text-decoration: none;">uisque glenfiddich</a> |
-          <a href="/shop/cognac/" style="color: rgba(255,255,255,0.7); text-decoration: none;">courvoisier vs cognac</a> |
-          <a href="/shop/bourbon/" style="color: rgba(255,255,255,0.7); text-decoration: none;">what is the best bourbon</a> |
-          <a href="/shop/allocated/" style="color: rgba(255,255,255,0.7); text-decoration: none;">where to buy blanton's bourbon</a> |
-          <a href="/shop/rye/" style="color: rgba(255,255,255,0.7); text-decoration: none;">angel's envy finished rye</a> |
-          <a href="/shop/brandy/" style="color: rgba(255,255,255,0.7); text-decoration: none;">apple brandy on the rocks</a> |
-          <a href="/shop/bourbon/" style="color: rgba(255,255,255,0.7); text-decoration: none;">jack daniel's tennessee fire</a> |
-          <a href="/search/?q=basil+hayden" style="color: rgba(255,255,255,0.7); text-decoration: none;">basil hayden bourbon price</a> |
-          <a href="/shop/brandy/" style="color: rgba(255,255,255,0.7); text-decoration: none;">cognac courvoisier</a> |
-          <a href="/shop/scotch/" style="color: rgba(255,255,255,0.7); text-decoration: none;">macallan whiskey price</a> |
-          <a href="/shop/allocated/" style="color: rgba(255,255,255,0.7); text-decoration: none;">angel's envy bottled in bond</a>
-        </div>
-      </div>
       <div class="footer-bottom-inner">
         <p class="footer-copy">&copy; 2026 Caskworth Premium Whisky, a trade name of 49er Liquors Inc. All rights reserved.</p>
         <p class="footer-legal">Must be 21+ to purchase. Drink responsibly. <a href="https://www.responsibility.org/" rel="noopener nofollow" target="_blank">Responsibility.org</a> &bull; <a href="https://www.drinkaware.co.uk/" rel="noopener nofollow" target="_blank">DrinkAware</a></p>
@@ -518,15 +493,11 @@
     </div>
   </div>
 </footer>
-
-
 <div id="toast"></div>
 <a id="wa-float" href="https://wa.me/14482348667" target="_blank" rel="noopener">
   <svg width="26" height="26" viewBox="0 0 24 24" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
   <span class="wa-label">Chat on WhatsApp</span>
-</a><script src="/assets/js/reviews-data.js" defer></script>
-<script src="/assets/js/reviews-init.js" defer></script>
-<script src="/assets/js/app.js?v=20260915b" defer></script>
+</a><script src="/assets/js/app.js?v=20260915b" defer></script>
 <script src="/assets/js/new_products.js?v=20260915b" defer></script>
 <script src="/assets/js/ultra_products.js?v=20260915b" defer></script>
 <script src="/assets/js/more_products.js?v=20260915b" defer></script>

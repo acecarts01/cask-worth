@@ -6,3 +6,9 @@ schema.sql
 .github
 .claude
 node_modules
+server.js
+package.json
+package-lock.json
+metadata.json
+.env.example
+.env

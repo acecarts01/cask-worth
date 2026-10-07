@@ -1,19 +1,136 @@
+# Caskworth.com — robots.txt
+# https://caskworth.com/sitemap.xml
+#
+# Cloudflare's dashboard-level robots.txt management (Security → Settings →
+# "Manage your robots.txt") previously injected a "Cloudflare Managed content"
+# block ABOVE this file's own rules, disallowing ClaudeBot/GPTBot/Google-Extended/
+# Applebot-Extended/CCBot/etc and directly contradicting the Allow rules below.
+# Fixed 2026-09-15 by setting that dashboard option to "Disable robots.txt
+# configuration" so this file is the sole source of truth again.
+
+Content-Signal: search=yes, ai-input=yes, ai-train=no
+
 User-agent: *
 Allow: /
-Disallow: /admin/
 Disallow: /checkout/
+Disallow: /admin/
+Disallow: /api/
+Disallow: /invoice/
+
+# Googlebot
+User-agent: Googlebot
+Allow: /
+Disallow: /checkout/
+Disallow: /admin/
+Disallow: /api/
+Disallow: /invoice/
+
+# Bingbot
+User-agent: Bingbot
+Allow: /
+Disallow: /checkout/
+Disallow: /admin/
+Disallow: /api/
+Disallow: /invoice/
+Crawl-delay: 1
+
+# Machine-readable catalogue API (read-only)
+# https://caskworth.com/openapi.json
+# https://caskworth.com/.well-known/api-catalog
 
 Sitemap: https://caskworth.com/sitemap.xml
 
-# AI crawlers
+# ── AI / agent crawlers (explicitly allowed) ──
 User-agent: GPTBot
 Allow: /
+Disallow: /checkout/
+Disallow: /admin/
+Disallow: /api/
+Disallow: /invoice/
+
+User-agent: OAI-SearchBot
+Allow: /
+Disallow: /checkout/
+Disallow: /admin/
+Disallow: /api/
+Disallow: /invoice/
 
 User-agent: ChatGPT-User
 Allow: /
+Disallow: /checkout/
+Disallow: /admin/
+Disallow: /api/
+Disallow: /invoice/
 
 User-agent: ClaudeBot
 Allow: /
+Disallow: /checkout/
+Disallow: /admin/
+Disallow: /api/
+Disallow: /invoice/
 
-User-agent: Claude-Web
+User-agent: Claude-User
 Allow: /
+Disallow: /checkout/
+Disallow: /admin/
+Disallow: /api/
+Disallow: /invoice/
+
+User-agent: PerplexityBot
+Allow: /
+Disallow: /checkout/
+Disallow: /admin/
+Disallow: /api/
+Disallow: /invoice/
+
+User-agent: Google-Extended
+Allow: /
+Disallow: /checkout/
+Disallow: /admin/
+Disallow: /api/
+Disallow: /invoice/
+
+User-agent: Applebot-Extended
+Allow: /
+Disallow: /checkout/
+Disallow: /admin/
+Disallow: /api/
+Disallow: /invoice/
+
+User-agent: CCBot
+Allow: /
+Disallow: /checkout/
+Disallow: /admin/
+Disallow: /api/
+Disallow: /invoice/
+
+User-agent: Amazonbot
+Allow: /
+Disallow: /checkout/
+Disallow: /admin/
+Disallow: /api/
+Disallow: /invoice/
+
+User-agent: Bytespider
+Allow: /
+Disallow: /checkout/
+Disallow: /admin/
+Disallow: /api/
+Disallow: /invoice/
+
+User-agent: Meta-ExternalAgent
+Allow: /
+Disallow: /checkout/
+Disallow: /admin/
+Disallow: /api/
+Disallow: /invoice/
+
+User-agent: cohere-ai
+Allow: /
+Disallow: /checkout/
+Disallow: /admin/
+Disallow: /api/
+Disallow: /invoice/
+
+# Agent site summary
+# https://caskworth.com/llms.txt
