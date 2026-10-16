@@ -176,4 +176,4 @@ This API is **read-only**. There are no ordering, authentication or payment endp
 - [Terms & Conditions](https://caskworth.com/terms-and-conditions/)
 - [Privacy Policy](https://caskworth.com/privacy-policy/)
 - [Customer Reviews](https://caskworth.com/reviews/)
-- [Sitemap](https://caskworth.com/sitemap.xml): 624 indexable URLs
+- [Sitemap](https://caskworth.com/sitemap.xml): 669 indexable URLs
