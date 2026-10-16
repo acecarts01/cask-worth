@@ -12,3 +12,5 @@ package-lock.json
 metadata.json
 .env.example
 .env
+content
+tools

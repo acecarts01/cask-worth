@@ -1,0 +1,267 @@
+{
+  "_readme": "Producer-sourced facts only. Each entry needs source.url (official producer/brand page) and every field must come from that page. Leave a field out if the page does not state it. Run: node tools/apply-bottle-profiles.mjs",
+  "yamazaki-12-year": {
+    "about": "Yamazaki is Japan's first and oldest malt whisky distillery, established in 1923 by Shinjiro Torii. Yamazaki 12 Years Old is a single malt made from whisky aged in American, Spanish and Japanese Mizunara oak.",
+    "colour": "Pure gold",
+    "nose": "Peach, pineapple, grapefruit, clove, candied orange, vanilla and Mizunara (Japanese oak)",
+    "palate": "Coconut, cranberry and butter",
+    "finish": "Sweet ginger and cinnamon, with a long finish",
+    "casks": "American, Spanish and Japanese Mizunara oak",
+    "awards": [
+      "Gold Medal, International Spirits Challenge 2025",
+      "Gold Medal, International Spirits Challenge 2026"
+    ],
+    "source": {
+      "name": "House of Suntory",
+      "url": "https://house.suntory.com/yamazaki-whisky/yamazaki-12-years-old"
+    }
+  },
+  "yamazaki-18-year": {
+    "about": "Yamazaki is Japan's first and oldest malt whisky distillery, established in 1923 by Shinjiro Torii. House of Suntory presents the 18 Years Old as its flagship single malt, made from whisky aged in American, Spanish and Japanese Mizunara oak.",
+    "colour": "Deep amber",
+    "nose": "Raisin, apricot, cafe au lait and Mizunara (Japanese oak)",
+    "palate": "Blackberry, strawberry jam and dark chocolate",
+    "finish": "Long, spicy and smooth",
+    "casks": "American, Spanish and Japanese Mizunara oak",
+    "awards": [
+      "Supreme Champion Spirit, International Spirits Challenge 2025",
+      "Gold Medal, International Spirits Challenge 2026"
+    ],
+    "source": {
+      "name": "House of Suntory",
+      "url": "https://house.suntory.com/yamazaki-whisky/yamazaki-18-years-old"
+    }
+  },
+  "eagle-rare-10-year": {
+    "about": "Eagle Rare has been produced at the Buffalo Trace Distillery since 1989. This Kentucky straight bourbon is aged for 10 years and is made from the distillery's Mash Bill #1.",
+    "nose": "Toffee, hints of orange peel, herbs, honey, leather and oak",
+    "palate": "Bold, dry and delicate, with candied almonds and very rich cocoa",
+    "finish": "Dry and lingering",
+    "casks": "Aged 10 years; Mash Bill #1 (the distillery does not publish grain percentages on this page)",
+    "awards": [
+      "Gold, International Wine & Spirits Competition 2025",
+      "Gold, Whiskies of the World 2024",
+      "Gold, North American Bourbon and Whiskey Competition 2024"
+    ],
+    "source": {
+      "name": "Buffalo Trace Distillery",
+      "url": "https://www.buffalotracedistillery.com/our-brands/eagle-rare/eagle-rare-10/"
+    },
+    "abv": 45
+  },
+  "makers-mark-original": {
+    "about": "Maker's Mark is made at Star Hill Farm in Kentucky and uses soft red winter wheat in place of rye, which the distillery says gives a softer, sweeter style. Each bottle is hand-dipped in wax.",
+    "nose": "Sweet oak, vanilla, bright fruit and wheat",
+    "palate": "Sweet, with a balance of oak, vanilla and fruity notes",
+    "finish": "Smooth and creamy, with a soft spice and a clean finish",
+    "awards": [
+      "Ranked #6 in Drinks International's Most Admired Whiskies, 2025 edition"
+    ],
+    "source": {
+      "name": "Maker's Mark",
+      "url": "https://www.makersmark.com/en-us/bourbons/makers-mark"
+    },
+    "abv": 45
+  },
+  "hibiki-21-year": {
+    "about": "Hibiki is House of Suntory's blended Japanese whisky range, which the brand describes as celebrating an unrivaled art of blending. This is the 21 Years Old expression.",
+    "colour": "Bronze amber",
+    "nose": "Cooked fruit, blackberry, ripe banana and caramel",
+    "palate": "Sandalwood, honeycomb, dried apricot and Mizunara (Japanese oak)",
+    "finish": "Long and rich, with an incense aroma",
+    "awards": [
+      "Gold Medal, International Spirits Challenge 2025",
+      "Gold Medal, International Spirits Challenge 2026"
+    ],
+    "source": {
+      "name": "House of Suntory",
+      "url": "https://house.suntory.com/hibiki-whisky/hibiki-21-years-old"
+    }
+  },
+  "yamazaki-25-year": {
+    "about": "Yamazaki is Suntory's flagship single malt, made at Japan's first and oldest malt whisky distillery. The range includes 12, 18 and 25 year old expressions, with components aged in American, Spanish and Japanese Mizunara oak.",
+    "colour": "Amber",
+    "nose": "Smoky Mizunara notes of incense, followed by a complex bouquet of mature kaki persimmon and ume plum",
+    "palate": "A smoky first sip of Mizunara sandalwood that deepens into kaki persimmon sweetness, tart ume plum and gentle shoga ginger spice",
+    "finish": "Profound and long, with Mizunara smokiness and lingering, subtly sweet wood notes",
+    "casks": "American, Spanish and Japanese Mizunara oak (range description)",
+    "awards": [
+      "Gold Medal, International Spirits Competition 2024",
+      "Double Gold Medal, International Spirits Challenge 2026",
+      "Japanese Whisky Category Trophy, International Spirits Challenge 2026"
+    ],
+    "source": {
+      "name": "House of Suntory",
+      "url": "https://house.suntory.com/yamazaki-whisky/yamazaki-25-years-old"
+    }
+  },
+  "hakushu-12-year": {
+    "about": "Hakushu is Suntory's mountain forest distillery, set deep in Mt. Kaikomagatake. House of Suntory describes the 12 Years Old as a crisp and gently smoky single malt with herbal notes.",
+    "colour": "Champagne gold",
+    "nose": "Basil, pine needle and green apple",
+    "palate": "Sweet pear, mint and kiwi",
+    "finish": "Green tea and subtle smoke",
+    "awards": [
+      "Gold Medal, International Spirits Challenge 2025",
+      "Gold Medal, International Spirits Challenge 2026"
+    ],
+    "source": {
+      "name": "House of Suntory",
+      "url": "https://house.suntory.com/hakushu-whisky/hakushu-12-years-old"
+    }
+  },
+  "pappy-van-winkle-20-year-family-reserve": {
+    "about": "The Van Winkle family has been producing bourbon for over a century. This 20 year old bourbon is made from the family wheated mash.",
+    "palate": "Intense and tantalizing, smooth with a citrus zest note, with some sherry notes, dried fruits and vanilla",
+    "finish": "Long and elegant",
+    "casks": "20 years old; wheated mash",
+    "awards": [
+      "Gold, San Francisco World Spirits Competition 2019",
+      "Silver, International Wine & Spirits Competition 2019",
+      "Best Bourbon / Best Small Batch Bourbon, New York World Wine & Spirits Competition 2018"
+    ],
+    "source": {
+      "name": "Buffalo Trace Distillery",
+      "url": "https://www.buffalotracedistillery.com/our-brands/van-winkle/pappy-van-winkle-20-year/"
+    },
+    "abv": 45.2
+  },
+  "pappy-van-winkle-15-year": {
+    "about": "This bourbon is crafted from the exclusive Van Winkle family wheated recipe and matured undisturbed for 15 years in deep-charred heavy oak. It is bottled at 107 proof (53.5% ABV).",
+    "nose": "An elegant and sweet aroma of caramel corn and vanilla",
+    "palate": "Big flavor of leather, oak and complex fruitiness",
+    "finish": "Smooth, with notes of spice and oak tannins",
+    "casks": "Matured 15 years in deep-charred heavy oak; wheated mash",
+    "awards": [
+      "Overall Winner, World Whiskies Awards (Whisky Magazine) 2018",
+      "Gold, San Francisco World Spirits Competition 2019",
+      "Best Bourbon / Best Small Batch Bourbon, New York World Wine & Spirits Competition 2018"
+    ],
+    "source": {
+      "name": "Buffalo Trace Distillery",
+      "url": "https://www.buffalotracedistillery.com/our-brands/van-winkle/pappy-van-winkle-15-year/"
+    },
+    "abv": 53.5
+  },
+  "blantons-original-single-barrel": {
+    "about": "Blanton's is billed as the world's first single barrel bourbon. It is aged in Warehouse H, the only metal-clad warehouse at Buffalo Trace Distillery, and each bottle is hand-dumped, individually bottled, labeled and sealed. It is bottled at 93 proof (46.5% ABV) from Mash Bill #2.",
+    "nose": "A deep, satisfying nose of nutmeg and spices",
+    "palate": "Powerful dry vanilla in harmony with hints of honey amid strong caramel and corn",
+    "finish": "Medium, with returning corn and nutmeg flavors",
+    "casks": "Single barrel; Mash Bill #2; aged in Warehouse H",
+    "awards": [
+      "Double Platinum, ASCOT Awards 2024",
+      "Silver, International Wine & Spirits Competition 2022",
+      "Gold, Los Angeles International Wine & Spirits Competition 2019"
+    ],
+    "source": {
+      "name": "Buffalo Trace Distillery",
+      "url": "https://www.buffalotracedistillery.com/our-brands/blantons-original-single-barrel/"
+    },
+    "abv": 46.5
+  },
+  "michters-us1-bourbon": {
+    "about": "Michter's US★1 honors the brand's heritage, which it traces back to America's first whiskey company. Each small batch is blended in a holding tank of no more than twenty full barrels, and no US★1 whiskey is released until Master Distiller Dan McKee and the tasting panel approve it. Bottled at 91.4 proof (45.7% ABV).",
+    "palate": "Rich caramel with balanced vanilla, stone fruit notes and smoky depth, with an oak finish (Michter's gives a single combined description)",
+    "casks": "Fire-charred, new American white oak barrels; small batch",
+    "source": {
+      "name": "Michter's",
+      "url": "https://michters.com/kentucky-straight-bourbon/"
+    },
+    "abv": 45.7
+  },
+  "michters-10-year-bourbon": {
+    "about": "Michter's 10 Year is a single barrel Kentucky straight bourbon, distilled and bottled in Kentucky and aged for over a decade in fire-charred, new American white oak. It is bottled at 94.4 proof (47.2% ABV). A private barrel selection of this whiskey sold at auction in London for £166,000, according to Michter's.",
+    "palate": "Big and bold dark toffee and caramel, charred oak, maple syrup and vanilla (Michter's gives a single combined description)",
+    "casks": "Single barrel; fire-charred, new American white oak",
+    "source": {
+      "name": "Michter's",
+      "url": "https://michters.com/10-year-kentucky-straight-bourbon/"
+    },
+    "abv": 47.2
+  },
+  "johnnie-walker-blue-label": {
+    "about": "Johnnie Walker Blue Label is a blended Scotch whisky. Johnnie Walker says only one in 10,000 casks is hand-selected to craft it, including casks from long-closed ghost distilleries. The US bottling is 40% ABV.",
+    "palate": "A combination of vanilla, honey and rose petals, with sumptuous waves of smoke (Johnnie Walker's description; it does not separate nose, palate and finish)",
+    "source": {
+      "name": "Johnnie Walker",
+      "url": "https://www.johnniewalker.com/en-us/our-whisky/core-range/johnnie-walker-blue-label"
+    },
+    "abv": 40
+  },
+  "jim-beam-original-white-label": {
+    "about": "Jim Beam credits seven generations of the Beam family. Its Original Kentucky straight bourbon is aged for 4 years in newly charred oak barrels, twice what the law requires for straight bourbon.",
+    "nose": "Oaky vanilla with a spicy backdrop",
+    "palate": "Medium-bodied, with mellow hints of caramel and vanilla",
+    "finish": "Hints of spice and a classic bourbon finish",
+    "casks": "Aged 4 years in newly charred oak barrels",
+    "source": {
+      "name": "Jim Beam",
+      "url": "https://www.jimbeam.com/en-us/bourbons/jim-beam"
+    }
+  },
+  "wild-turkey-101": {
+    "about": "Wild Turkey says it has made 101 the same way for over 60 years. The bourbon is aged 6 to 8 years in American white oak barrels with the deepest alligator char, and its mash has a high rye content. It is bottled at 101 proof.",
+    "abv": 50.5,
+    "nose": "Vanilla with cinnamon and oak",
+    "palate": "A hint of sweet up front with vanilla and caramel, then oak and baking spices mid-palate",
+    "finish": "Bold, signature Wild Turkey spice and orange peel",
+    "casks": "Aged 6 to 8 years; American white oak with deepest alligator char; high rye mash",
+    "source": {
+      "name": "Wild Turkey",
+      "url": "https://www.wildturkeybourbon.com/products/wild-turkey-101/"
+    }
+  },
+  "makers-mark-cellar-aged": {
+    "about": "Maker's Mark Cellar Aged is an annual limited release, first launched in 2023. It is a blend of 11, 12 and 14 year old Maker's Mark, aged for roughly the first 7 years in the warehouses and then a further 4 to 6 years in a limestone cellar built into Star Hill Farm.",
+    "nose": "Complex, with dark cherry, clove, vanilla bean and soft orchard fruit",
+    "palate": "Enveloping, with honey, brown sugar and plums",
+    "finish": "A warming, silky finish with hints of almond, nutmeg and crisp green apple",
+    "casks": "Blend of 11, 12 and 14 year old bourbon; final 4 to 6 years in a limestone cellar",
+    "source": {
+      "name": "Maker's Mark",
+      "url": "https://www.makersmark.com/en-us/bourbons/makers-mark-cellar-aged"
+    }
+  },
+  "michters-25-year-bourbon": {
+    "about": "Michter's 25 Year is a limited production Kentucky straight bourbon, distilled and bottled in Kentucky and aged in fire-charred, new American white oak barrels. It is bottled at 116.2 proof (58.1% ABV) and sold only as stock allows.",
+    "abv": 58.1,
+    "palate": "Molasses, holiday spice, chocolate, smoke-roasted nuts, dried fruit, melted butter and vanilla (Michter's does not separate nose, palate and finish)",
+    "casks": "25 years old; fire-charred, new American white oak; select mashbill",
+    "source": {
+      "name": "Michter's",
+      "url": "https://michters.com/25-year-kentucky-straight-bourbon/"
+    }
+  },
+  "macallan-18-double-cask": {
+    "about": "The Macallan Double Cask 18 Years Old is matured for 18 years in sherry seasoned American and European oak casks, seasoned in Jerez de la Frontera, Spain. The Macallan says each cask in this expression spent its entire maturation exclusively in sherry seasoned oak, and that the colour is entirely natural.",
+    "nose": "Toffee, sweet ginger and sultanas (the Macallan's headline flavours; the nose, palate and finish are not listed separately on the page text)",
+    "colour": "Entirely natural colour",
+    "casks": "Sherry seasoned American and European oak, 18 years",
+    "source": {
+      "name": "The Macallan",
+      "url": "https://www.themacallan.com/en-us/single-malt-scotch-whisky/double-cask-18-years-old-2025-release"
+    }
+  },
+  "royal-salute-25-year": {
+    "about": "Royal Salute presents its 25 Year Old, The Treasured Blend, as a tribute to the Crown Jewels of the British Monarchy: a collection of rare Scotch whiskies matured for 25 years in high quality oak casks, with a further four years in oak for added intensity. The US bottling is 40% ABV.",
+    "abv": 40,
+    "nose": "Sweet stewed fruit and blueberry jam, with soft liquorice, a dusting of cinnamon and aromatic marzipan",
+    "palate": "Intensely sweet, with juicy prunes, treacle toffee and dark chocolate, rounded off with caramelised figs",
+    "finish": "Long, dry and slightly spicy",
+    "casks": "Blend of 25 year old Scotch whiskies in oak, with a further four years in oak",
+    "source": {
+      "name": "Royal Salute",
+      "url": "https://www.royalsalute.com/en-us/whisky/25-year-old-the-treasured-blend/"
+    }
+  },
+  "hennessy-pure-white": {
+    "about": "Hennessy created Pure White in 1998 as a return to its roots, after 19th-century drinkers asked the house for some of the palest eaux-de-vie from Cognac. The blend is dominated by Fins Bois, and its eaux-de-vie show minimal wood influence so fresh floral and fruity notes come through. Hennessy recommends serving it over ice with fresh fruit juice or nectar.",
+    "colour": "Straw-gold",
+    "casks": "Fins Bois-dominant blend; minimal wood influence",
+    "source": {
+      "name": "Hennessy",
+      "url": "https://www.hennessy.com/en-us/collection/hennessy-pure-white"
+    }
+  }
+}
