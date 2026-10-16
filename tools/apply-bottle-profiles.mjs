@@ -3,7 +3,7 @@
 import fs from 'fs';
 const data = JSON.parse(fs.readFileSync('content/bottle-profiles.json', 'utf8'));
 const esc = s => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
-const rows = [['colour', 'Colour'], ['nose', 'Nose'], ['palate', 'Palate'], ['finish', 'Finish'], ['casks', 'Cask &amp; make']];
+const rows = [['colour', 'Colour'], ['profile', 'Flavour (producer description)'], ['nose', 'Nose'], ['palate', 'Palate'], ['finish', 'Finish'], ['casks', 'Cask &amp; make']];
 let n = 0;
 for (const [slug, d] of Object.entries(data)) {
   if (slug.startsWith('_')) continue;

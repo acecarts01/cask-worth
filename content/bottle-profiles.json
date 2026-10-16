@@ -162,32 +162,32 @@
   },
   "michters-us1-bourbon": {
     "about": "Michter's US★1 honors the brand's heritage, which it traces back to America's first whiskey company. Each small batch is blended in a holding tank of no more than twenty full barrels, and no US★1 whiskey is released until Master Distiller Dan McKee and the tasting panel approve it. Bottled at 91.4 proof (45.7% ABV).",
-    "palate": "Rich caramel with balanced vanilla, stone fruit notes and smoky depth, with an oak finish (Michter's gives a single combined description)",
     "casks": "Fire-charred, new American white oak barrels; small batch",
     "source": {
       "name": "Michter's",
       "url": "https://michters.com/kentucky-straight-bourbon/"
     },
-    "abv": 45.7
+    "abv": 45.7,
+    "profile": "Rich caramel with balanced vanilla, stone fruit notes and smoky depth, with an oak finish"
   },
   "michters-10-year-bourbon": {
     "about": "Michter's 10 Year is a single barrel Kentucky straight bourbon, distilled and bottled in Kentucky and aged for over a decade in fire-charred, new American white oak. It is bottled at 94.4 proof (47.2% ABV). A private barrel selection of this whiskey sold at auction in London for £166,000, according to Michter's.",
-    "palate": "Big and bold dark toffee and caramel, charred oak, maple syrup and vanilla (Michter's gives a single combined description)",
     "casks": "Single barrel; fire-charred, new American white oak",
     "source": {
       "name": "Michter's",
       "url": "https://michters.com/10-year-kentucky-straight-bourbon/"
     },
-    "abv": 47.2
+    "abv": 47.2,
+    "profile": "Big and bold dark toffee and caramel, charred oak, maple syrup and vanilla"
   },
   "johnnie-walker-blue-label": {
     "about": "Johnnie Walker Blue Label is a blended Scotch whisky. Johnnie Walker says only one in 10,000 casks is hand-selected to craft it, including casks from long-closed ghost distilleries. The US bottling is 40% ABV.",
-    "palate": "A combination of vanilla, honey and rose petals, with sumptuous waves of smoke (Johnnie Walker's description; it does not separate nose, palate and finish)",
     "source": {
       "name": "Johnnie Walker",
       "url": "https://www.johnniewalker.com/en-us/our-whisky/core-range/johnnie-walker-blue-label"
     },
-    "abv": 40
+    "abv": 40,
+    "profile": "A combination of vanilla, honey and rose petals, with sumptuous waves of smoke"
   },
   "jim-beam-original-white-label": {
     "about": "Jim Beam credits seven generations of the Beam family. Its Original Kentucky straight bourbon is aged for 4 years in newly charred oak barrels, twice what the law requires for straight bourbon.",
@@ -226,22 +226,22 @@
   "michters-25-year-bourbon": {
     "about": "Michter's 25 Year is a limited production Kentucky straight bourbon, distilled and bottled in Kentucky and aged in fire-charred, new American white oak barrels. It is bottled at 116.2 proof (58.1% ABV) and sold only as stock allows.",
     "abv": 58.1,
-    "palate": "Molasses, holiday spice, chocolate, smoke-roasted nuts, dried fruit, melted butter and vanilla (Michter's does not separate nose, palate and finish)",
     "casks": "25 years old; fire-charred, new American white oak; select mashbill",
     "source": {
       "name": "Michter's",
       "url": "https://michters.com/25-year-kentucky-straight-bourbon/"
-    }
+    },
+    "profile": "Molasses, holiday spice, chocolate, smoke-roasted nuts, dried fruit, melted butter and vanilla"
   },
   "macallan-18-double-cask": {
     "about": "The Macallan Double Cask 18 Years Old is matured for 18 years in sherry seasoned American and European oak casks, seasoned in Jerez de la Frontera, Spain. The Macallan says each cask in this expression spent its entire maturation exclusively in sherry seasoned oak, and that the colour is entirely natural.",
-    "nose": "Toffee, sweet ginger and sultanas (the Macallan's headline flavours; the nose, palate and finish are not listed separately on the page text)",
     "colour": "Entirely natural colour",
     "casks": "Sherry seasoned American and European oak, 18 years",
     "source": {
       "name": "The Macallan",
       "url": "https://www.themacallan.com/en-us/single-malt-scotch-whisky/double-cask-18-years-old-2025-release"
-    }
+    },
+    "profile": "Toffee, sweet ginger and sultanas"
   },
   "royal-salute-25-year": {
     "about": "Royal Salute presents its 25 Year Old, The Treasured Blend, as a tribute to the Crown Jewels of the British Monarchy: a collection of rare Scotch whiskies matured for 25 years in high quality oak casks, with a further four years in oak for added intensity. The US bottling is 40% ABV.",
