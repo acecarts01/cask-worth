@@ -81,3 +81,12 @@
 /products/duss-limited-edition-750ml  /products/d-usse-limited-edition-750ml  301
 /products/pierre-ferrand-10-gnrations  /products/pierre-ferrand-10-generations  301
 /products/pisco-portn-mosto-verde  /products/pisco-porton-mosto-verde  301
+
+# .html variants Google still reports: make the redirect permanent (platform default is 307)
+/products/wild-turkey-101.html  /products/wild-turkey-101  301
+/products/wild-turkey-rare-breed.html  /products/wild-turkey-rare-breed  301
+/products/dingle-single-malt.html  /products/dingle-single-malt  301
+/products/powers-gold-label.html  /products/powers-gold-label  301
+/products/boulard-calvados.html  /products/boulard-calvados  301
+/products/the-sassenach-blended-scotch.html  /products/the-sassenach-blended-scotch  301
+/products/carlos-i-brandy-de-jerez.html  /products/carlos-i-brandy-de-jerez  301
