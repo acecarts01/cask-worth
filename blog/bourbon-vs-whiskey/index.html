@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="UTF-8">
+<meta name="theme-color" content="#c9941a">
+<style id="logo-critical">
+/* Logo — self-contained fallback (works without style.css) */
+.logo{display:flex;align-items:center;gap:10px;text-decoration:none;flex-shrink:0}
+.logo-icon{width:44px;height:44px;background:linear-gradient(150deg,#2a1a06,#0d0a04);
+  border:1.5px solid #c9941a;border-radius:11px;display:flex;align-items:center;
+  justify-content:center;flex-shrink:0;box-shadow:0 0 14px rgba(201,148,26,.3)}
+.logo-icon svg{width:22px;height:22px}
+.logo-text b{display:block;font-size:19px;font-weight:700;color:#1c1c1e;line-height:1}
+.logo-text small{display:block;font-size:9px;letter-spacing:.18em;text-transform:uppercase;
+  color:#c9941a;font-weight:600}
+</style><meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Bourbon vs Whiskey: What’s the Difference? | Caskworth</title><meta name="description" content="Is bourbon whiskey? Yes. Learn the legal rules that make bourbon different from other whiskey, plus whisky vs whiskey spelling and what to try first.">
+<link rel="canonical" href="https://caskworth.com/blog/bourbon-vs-whiskey/">
+<link rel="api-catalog" href="/.well-known/api-catalog" type="application/linkset+json">
+<link rel="service-desc" href="/openapi.json" type="application/openapi+json">
+<link rel="service-doc" href="/llms.txt" type="text/plain">
+<link rel="describedby" href="/.well-known/agent-skills/index.json" type="application/json">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="preload" href="/assets/fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/playfair-latin-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/css/style.css?v=20260915b" as="style">
+<link rel="stylesheet" href="/assets/css/style.css?v=20260915b">
+<meta name="keywords" content="bourbon vs whiskey, difference between bourbon and whiskey, what's the difference between bourbon and whiskey, is bourbon whiskey, is bourbon a whiskey, is bourbon the same as whiskey, what is bourbon whiskey made from">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"Bourbon vs Whiskey: What’s the Difference? | Caskworth","description":"Is bourbon whiskey? Yes. Learn the legal rules that make bourbon different from other whiskey, plus whisky vs whiskey spelling and what to try first.","url":"https://caskworth.com/blog/bourbon-vs-whiskey/","image":"https://caskworth.com/assets/images/blog/bourbon-vs-whiskey.webp","publisher":{"@type":"Organization","name":"Caskworth Premium Whisky","url":"https://caskworth.com","logo":{"@type":"ImageObject","url":"https://caskworth.com/assets/images/favicon-512.png"}},"mainEntityOfPage":{"@type":"WebPage","@id":"https://caskworth.com/blog/bourbon-vs-whiskey/"},"author":{"@type":"Organization","name":"Caskworth Editorial","url":"https://caskworth.com/about/"},"datePublished":"2026-10-16","dateModified":"2026-10-16"}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://caskworth.com/"},{"@type":"ListItem","position":2,"name":"Blog","item":"https://caskworth.com/blog/"},{"@type":"ListItem","position":3,"name":"Bourbon vs Whiskey: What Makes Bourbon Different?","item":"https://caskworth.com/blog/bourbon-vs-whiskey/"}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Is bourbon whiskey?","acceptedAnswer":{"@type":"Answer","text":"Yes. Bourbon is a style of whiskey defined by US law. It must be made in the United States, from a mash that is at least 51% corn, and aged in new charred oak containers. All bourbon is whiskey, but not all whiskey is bourbon."}},{"@type":"Question","name":"Does bourbon have to be made in Kentucky?","acceptedAnswer":{"@type":"Answer","text":"No. Bourbon can be made anywhere in the United States. Kentucky produces most of it, and a “Kentucky Straight Bourbon” label guarantees a Kentucky origin, but bourbons are also made in Texas, Indiana, New York and many other states across the country."}},{"@type":"Question","name":"Is Jack Daniel’s a bourbon?","acceptedAnswer":{"@type":"Answer","text":"Jack Daniel’s is sold as Tennessee whiskey, not bourbon. It is made using a bourbon-style process, then filtered through charcoal before aging. The Tennessee label signals that extra step, so most drinkers and the brand itself treat it as its own style."}},{"@type":"Question","name":"Why is it spelled whisky and whiskey?","acceptedAnswer":{"@type":"Answer","text":"It is a regional habit. The United States and Ireland usually spell it “whiskey”, while Scotland, Canada and Japan use “whisky”. Some American brands choose the shorter spelling. The spelling does not change the spirit, so check the style on the label."}},{"@type":"Question","name":"Is bourbon sweeter than other whiskey?","acceptedAnswer":{"@type":"Answer","text":"Often, yes. Bourbon is made mostly from corn and aged in new charred oak, which adds vanilla and caramel flavours. Scotch is more likely to taste malty or smoky, and rye tends to taste spicier and drier, though styles vary by brand and age."}}]}</script>
+<link rel="icon" type="image/x-icon" href="/assets/images/favicon.ico">
+<link rel="icon" type="image/png" sizes="512x512" href="/assets/images/favicon-512.png">
+<link rel="icon" type="image/png" sizes="192x192" href="/assets/images/favicon-192.png">
+<link rel="icon" type="image/png" sizes="64x64"   href="/assets/images/favicon-64.png">
+<link rel="icon" type="image/png" sizes="32x32"   href="/assets/images/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16"   href="/assets/images/favicon-16.png">
+<link rel="apple-touch-icon"       href="/assets/images/favicon-192.png">
+<link rel="shortcut icon"         href="/assets/images/favicon.ico">
+<style>
+/* ── Shop dropdown ─────────────────────────────────────── */
+.nav-drop-wrap{position:relative;display:inline-block;}
+.nav-drop-btn{display:flex;align-items:center;gap:3px;cursor:pointer;}
+.drop-arrow{font-size:8px;opacity:.65;transition:transform .2s;}
+.nav-drop-menu{
+  display:none;
+  position:absolute;
+  top:calc(100% + 8px);
+  left:50%;
+  transform:translateX(-50%);
+  background:#fff;
+  border:1px solid #e8e0d0;
+  border-radius:12px;
+  box-shadow:0 12px 40px rgba(0,0,0,.14);
+  padding:16px;
+  min-width:340px;
+  z-index:99999;
+  gap:16px;
+}
+.nav-drop-wrap:hover .nav-drop-menu{display:flex;}
+.nav-drop-wrap:hover .drop-arrow{transform:rotate(-180deg);opacity:1;}
+.ndm-col{flex:1;min-width:0;}
+.ndm-col+.ndm-col{border-left:1px solid #f0e8d8;padding-left:14px;}
+.ndm-head{font-size:9px;font-weight:700;letter-spacing:.14em;
+  text-transform:uppercase;color:#c9941a;
+  padding-bottom:6px;margin-bottom:6px;
+  border-bottom:1px solid #f0e8d8;}
+.nav-drop-menu a{
+  display:block;padding:5px 0;
+  font-size:13px;color:#555;
+  text-decoration:none;
+  transition:color .15s,padding-left .15s;}
+.nav-drop-menu a:hover{color:#c9941a;padding-left:4px;}
+.ndm-divider{height:1px;background:#f0e8d8;margin:8px 0;}
+/* ── Mobile shop collapsible ──────────────────────────── */
+.mob-shop-toggle{
+  display:flex;align-items:center;justify-content:space-between;
+  width:100%;padding:14px 0;
+  font-size:15px;font-weight:600;color:#1c1c1e;
+  background:none;border:none;
+  border-bottom:1px solid #f0e8d8;cursor:pointer;}
+.mob-shop-toggle .mob-arrow{font-size:11px;opacity:.6;transition:transform .2s;}
+.mob-shop-toggle.open .mob-arrow{transform:rotate(-180deg);}
+.mob-shop-cats{display:none;padding:4px 0 8px;border-bottom:1px solid #f0e8d8;}
+.mob-shop-cats.open{display:block;}
+.mob-cat-link{
+  display:block;padding:9px 12px;font-size:13px;color:#555;
+  text-decoration:none;border-radius:6px;
+  transition:background .15s,color .15s;}
+.mob-cat-link:hover,.mob-cat-link:active{background:#fdf8f0;color:#c9941a;}
+</style>
+
+<link rel="alternate" hreflang="en" href="https://caskworth.com/blog/bourbon-vs-whiskey/">
+<link rel="alternate" hreflang="en-US" href="https://caskworth.com/blog/bourbon-vs-whiskey/">
+<link rel="alternate" hreflang="en-CA" href="https://caskworth.com/blog/bourbon-vs-whiskey/">
+<link rel="alternate" hreflang="x-default" href="https://caskworth.com/blog/bourbon-vs-whiskey/">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@caskworth">
+<meta name="twitter:title" content="Bourbon vs Whiskey: What’s the Difference? | Caskworth">
+<meta name="twitter:description" content="Is bourbon whiskey? Yes. Learn the legal rules that make bourbon different from other whiskey, plus whisky vs whiskey spelling and what to try first.">
+<meta name="twitter:image" content="https://caskworth.com/assets/images/blog/bourbon-vs-whiskey.webp">
+<meta name="robots" content="index,follow">
+<meta property="og:title" content="Bourbon vs Whiskey: What’s the Difference? | Caskworth">
+<meta property="og:description" content="Is bourbon whiskey? Yes. Learn the legal rules that make bourbon different from other whiskey, plus whisky vs whiskey spelling and what to try first.">
+<meta property="og:url" content="https://caskworth.com/blog/bourbon-vs-whiskey/">
+<meta property="og:image" content="https://caskworth.com/assets/images/blog/bourbon-vs-whiskey.webp">
+<meta property="og:type" content="article">
+<meta property="og:updated_time" content="2026-10-16T08:00:00+00:00">
+</head><body>
+<a href="#main-content" class="skip-link">Skip to main content</a>
+<script>
+/* Age Gate — runs immediately, before app.js */
+(function(){
+  function _confirmAge(){
+    try{sessionStorage.setItem('cw_age','1');}catch(e){}
+    var ag=document.getElementById('age-gate');
+    if(ag){ag.style.opacity='0';ag.style.transition='opacity .3s';
+    setTimeout(function(){ag.style.display='none';},300);}
+  }
+  function _denyAge(){window.location.href='https://www.responsibility.org/';}
+  function _checkAge(){
+    try{if(sessionStorage.getItem('cw_age')){
+      var ag=document.getElementById('age-gate');
+      if(ag)ag.style.display='none';
+    }}catch(e){}
+  }
+  window.confirmAge=_confirmAge;
+  window.denyAge=_denyAge;
+  window.checkAge=_checkAge;
+  /* Run immediately on DOM ready */
+  if(document.readyState==='loading'){
+    document.addEventListener('DOMContentLoaded',_checkAge);
+  }else{_checkAge();}
+})();
+</script>
+<div id="age-gate">
+  <div class="ag-box">
+    <div class="ag-logo"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 56" width="44" height="44">
+  <defs>
+    <linearGradient id="cg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#fff6c0"/>
+      <stop offset="40%" stop-color="#f0c020"/>
+      <stop offset="100%" stop-color="#8a5000"/>
+    </linearGradient>
+  </defs>
+  <rect x="7" y="29" width="34" height="7" rx="3" fill="url(#cg)"/>
+  <polygon points="9,29 13,9  18,29" fill="url(#cg)"/>
+  <polygon points="21,29 24,3 27,29" fill="#fff0a0"/>
+  <polygon points="30,29 35,9  39,29" fill="url(#cg)"/>
+  <ellipse cx="24" cy="5"  rx="3" ry="3.5" fill="#fffce0" opacity=".95"/>
+  <ellipse cx="13" cy="11" rx="2" ry="2.2" fill="#fffce0" opacity=".8"/>
+  <ellipse cx="35" cy="11" rx="2" ry="2.2" fill="#fffce0" opacity=".8"/>
+  <path d="M24 36 C17 43 14 50 14 54 C14 58 18 61 24 61 C30 61 34 58 34 54 C34 50 31 43 24 36Z" fill="url(#cg)"/>
+  <path d="M20 40 C17 46 16 50 16 54" fill="none" stroke="#fffce0" stroke-width="1.8" stroke-linecap="round" opacity=".45"/>
+</svg></div>
+    <h2 class="ag-title">Welcome to Caskworth</h2>
+    <p class="ag-sub">You must be 21 years or older to enter this site. Please confirm your age to continue.</p>
+    <div class="ag-btns">
+      <button class="btn btn-gold btn-lg" onclick="confirmAge()">I am 21 or Older</button>
+      <button class="btn btn-white" onclick="denyAge()">Under 21 — Exit</button>
+    </div>
+    <p class="ag-legal">By entering you confirm you are of legal drinking age. Adults 21+ only. Please drink responsibly.</p>
+  </div>
+</div><div id="mob-nav">
+  <div class="mob-inner">
+    <button class="mob-close" onclick="toggleNav()">×</button>
+    <a class="mob-link" href="/" onclick="toggleNav()">Home</a>
+    <button class="mob-shop-toggle" onclick="this.classList.toggle('open');document.getElementById('msc').classList.toggle('open')" aria-expanded="false">
+      Shop <span class="mob-arrow">&#9660;</span>
+    </button>
+    <div class="mob-shop-cats" id="msc">
+      <a class="mob-cat-link" href="/shop/bourbon/" onclick="toggleNav()">Bourbon</a>
+      <a class="mob-cat-link" href="/shop/scotch/" onclick="toggleNav()">Scotch Whisky</a>
+      <a class="mob-cat-link" href="/shop/japanese/" onclick="toggleNav()">Japanese Whisky</a>
+      <a class="mob-cat-link" href="/shop/irish/" onclick="toggleNav()">Irish Whiskey</a>
+      <a class="mob-cat-link" href="/shop/rye/" onclick="toggleNav()">Rye Whiskey</a>
+      <a class="mob-cat-link" href="/shop/canadian/" onclick="toggleNav()">Canadian Whisky</a>
+      <a class="mob-cat-link" href="/shop/allocated/" onclick="toggleNav()">Rare &amp; Allocated</a>
+      <a class="mob-cat-link" href="/shop/cognac/" onclick="toggleNav()">Cognac</a>
+      <a class="mob-cat-link" href="/shop/brandy/" onclick="toggleNav()">Brandy &amp; Armagnac</a>
+      <a class="mob-cat-link" href="/shop/gifts/" onclick="toggleNav()">Gift Sets</a>
+      <a class="mob-cat-link" href="/shop/brands/" onclick="toggleNav()">Shop by Brand</a>
+      <a class="mob-cat-link" href="/shop/" onclick="toggleNav()" style="color:var(--gold-a11y);font-weight:700;">Browse All Products</a>
+    </div>
+    <a class="mob-link" href="/blog/" onclick="toggleNav()">Blog</a>
+    <a class="mob-link" href="/how-to-order/" onclick="toggleNav()">How to Order</a>
+    <a class="mob-link" href="/about/" onclick="toggleNav()">About</a>
+    <a class="mob-link" href="/contact/" onclick="toggleNav()">Contact</a>
+    <a class="mob-link" href="/wholesale/" onclick="toggleNav()">Wholesale</a>
+    <div style="margin-top:32px;display:flex;flex-direction:column;gap:10px;">
+      <a href="/shop/" class="btn btn-gold btn-full" onclick="toggleNav()" style="justify-content:center;">Shop Whisky</a>
+      <a href="/contact/" class="btn btn-outline btn-full" onclick="toggleNav()" style="justify-content:center;">Contact Us</a>
+    </div>
+  </div>
+</div><div id="cart-overlay"></div>
+<div id="cart-drawer">
+  <div class="cart-hd"><h3>Your Cart</h3><button class="cart-x" onclick="toggleCart()">×</button></div>
+  <div class="cart-body" id="cart-body"></div>
+  <div id="cart-foot" style="display:none;">
+    <div class="cart-ft">
+      <div id="cart-warn"></div>
+      <div class="cart-row"><span>Subtotal</span><span id="cart-subtotal">$0.00</span></div>
+      <div class="cart-total-row"><span>Total</span><span id="cart-total-disp">$0.00</span></div>
+      <div class="min-warn" style="margin-top:10px;">Minimum order: <strong>$249.99 USD</strong></div>
+      <button class="btn btn-gold btn-full" id="cart-co-btn" onclick="goCheckout()" style="margin-top:12px;">Checkout</button>
+    </div>
+  </div>
+</div><div id="qv-overlay">
+  <div class="qv-box">
+    <div class="qv-img-wrap">
+      <img id="qv-img" src="" alt="" style="max-height:340px;width:auto;object-fit:contain;padding:24px;" loading="lazy">
+      <button class="qv-x" onclick="closeQV()">×</button>
+    </div>
+    <div class="qv-content">
+      <span class="qv-cat" id="qv-cat"></span>
+      <div class="qv-name" id="qv-name"></div>
+      <div style="font-size:11px;color:var(--muted2);" id="qv-dist"></div>
+      <div style="font-size:11px;color:var(--muted);margin:4px 0 0;" id="qv-abv"></div>
+      <div class="qv-price" id="qv-price"></div>
+      <p class="qv-desc" id="qv-desc"></p>
+      <div class="qv-notes" id="qv-notes"></div>
+      <div class="qv-qty-row">
+        <span style="font-size:12px;font-weight:600;color:var(--muted);">QTY</span>
+        <div class="qty-box">
+          <button onclick="qvQtyChange(-1)">−</button>
+          <span id="qv-qty-val">1</span>
+          <button onclick="qvQtyChange(1)">+</button>
+        </div>
+      </div>
+      <button class="btn btn-gold btn-full" onclick="qvAddToCart()">Add to Cart</button>
+      <p style="font-size:10px;color:var(--muted2);text-align:center;margin-top:10px;">Minimum order $249.99 USD · Adults 21+ only</p>
+    </div>
+  </div>
+</div><div id="announce-bar">
+  <div class="announce-track">
+    <span class="announce-item"><span class="ann-dot"></span>Same-Day Delivery to 33 US States</span>
+    <span class="announce-item"><span class="ann-dot"></span>Premium Whisky from $8.99</span>
+    <span class="announce-item"><span class="ann-dot"></span>Minimum Order $249.99 USD</span>
+    <span class="announce-item"><span class="ann-dot"></span>Bourbon · Scotch · Japanese · Irish · Rye</span>
+    <span class="announce-item"><span class="ann-dot"></span>Same-Day to 7 Canadian Provinces</span>
+    <span class="announce-item"><span class="ann-dot"></span>Same-Day Delivery to 33 US States</span>
+    <span class="announce-item"><span class="ann-dot"></span>Premium Whisky from $8.99</span>
+    <span class="announce-item"><span class="ann-dot"></span>Minimum Order $249.99 USD</span>
+    <span class="announce-item"><span class="ann-dot"></span>Bourbon · Scotch · Japanese · Irish · Rye</span>
+    <span class="announce-item"><span class="ann-dot"></span>Same-Day to 7 Canadian Provinces</span>
+  </div>
+</div>
+<header id="site-header" role="banner">
+  <div class="header-inner">
+    <a href="/" class="logo">
+      <div class="logo-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 48" width="26" height="26" aria-hidden="true">
+          <defs>
+            <linearGradient id="cg" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0%" stop-color="#fff6c0"/>
+              <stop offset="40%" stop-color="#f0c020"/>
+              <stop offset="100%" stop-color="#8a5000"/>
+            </linearGradient>
+          </defs>
+          <rect x="6" y="22" width="28" height="5" rx="2" fill="url(#cg)"/>
+          <polygon points="8,22 11.5,8 15,22" fill="url(#cg)"/>
+          <polygon points="17,22 20,4 23,22" fill="#fff0a0"/>
+          <polygon points="25,22 28.5,8 32,22" fill="url(#cg)"/>
+          <ellipse cx="20" cy="6" rx="3.5" ry="4" fill="#fffce0" opacity=".95"/>
+          <ellipse cx="11.5" cy="10" rx="2" ry="2.2" fill="#fffce0" opacity=".8"/>
+          <ellipse cx="28.5" cy="10" rx="2" ry="2.2" fill="#fffce0" opacity=".8"/>
+          <path d="M20 27 C15 33 13 38 13 42 C13 46 16 48 20 48 C24 48 27 46 27 42 C27 38 25 33 20 27Z" fill="url(#cg)"/>
+        </svg>
+      </div>
+      <div class="logo-text"><b>Caskworth</b><small>Premium Whisky</small></div>
+    </a>
+    <nav class="site-nav">
+      <a href="/" class="nav-link">Home</a>
+      <div class="nav-drop-wrap">
+        <a href="/shop/" class="nav-link nav-drop-btn">Shop <span class="drop-arrow">&#9660;</span></a>
+        <div class="nav-drop-menu">
+          <div class="ndm-col">
+            <div class="ndm-head">Whisky</div>
+            <a href="/shop/bourbon/">Bourbon</a>
+            <a href="/shop/scotch/">Scotch</a>
+            <a href="/shop/japanese/">Japanese</a>
+            <a href="/shop/irish/">Irish</a>
+            <a href="/shop/rye/">Rye</a>
+            <a href="/shop/canadian/">Canadian</a>
+            <a href="/shop/allocated/">Rare &amp; Allocated</a>
+          </div>
+          <div class="ndm-col">
+            <div class="ndm-head">Spirits</div>
+            <a href="/shop/cognac/">Cognac</a>
+            <a href="/shop/brandy/">Brandy &amp; Armagnac</a>
+            <a href="/shop/gifts/">Gift Sets</a>
+            <a href="/shop/brands/">Shop by Brand</a>
+            <div class="ndm-divider"></div>
+            <div class="ndm-head" style="margin-top:4px;">Ultra Rare</div>
+            <a href="/shop/allocated/" style="color:var(--gold-a11y);font-weight:600;">$65K – $980K</a>
+            <a href="/shop/" style="color:var(--gold-a11y);font-weight:700;margin-top:6px;display:block;">Browse All &rarr;</a>
+          </div>
+        </div>
+      </div>
+      <a href="/blog/" class="nav-link">Blog</a>
+      <a href="/how-to-order/" class="nav-link">How to Order</a>
+      <a href="/about/" class="nav-link">About</a>
+      <a href="/contact/" class="nav-link">Contact</a>
+    </nav>
+    <div class="h-actions">
+      <a href="/shop/" class="btn btn-gold btn-sm" style="display:none;" id="hdr-shop-btn">Shop Now</a>
+      <button class="h-btn" onclick="toggleSearch()" aria-label="Search">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+      </button>
+      <button class="h-btn" onclick="toggleCart()" aria-label="Cart">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 002 1.61h9.72a2 2 0 002-1.61L23 6H6"/></svg>
+        <span class="cart-count" style="display:none;">0</span>
+      </button>
+      <button class="hamburger" onclick="toggleNav()" aria-label="Open navigation menu" aria-expanded="false"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+<main id="main-content"><article>
+<div style="background:var(--bg2);padding:60px 0 40px;border-bottom:1px solid var(--border);">
+  <div class="container-sm">
+    <nav class="breadcrumb"><a href="/">Home</a> &rsaquo; <a href="/blog/">Blog</a> &rsaquo; <span>Whiskey Basics</span></nav>
+    <span class="label" style="display:block;margin-bottom:12px;">Whiskey Basics</span>
+    <h1 style="font-size:clamp(24px,5vw,46px);margin-bottom:16px;">Bourbon vs Whiskey: What Makes Bourbon Different?</h1>
+    <div style="display:flex;gap:16px;font-size:12px;color:var(--muted2);flex-wrap:wrap;">
+      <span class="blog-byline">By <a href="/about/" rel="author" style="color:inherit;">Caskworth Editorial</a></span>
+      <span><time datetime="2026-10-16">October 16, 2026</time></span><span>8 min read</span><span>Whiskey Basics</span>
+    </div>
+  </div>
+</div>
+<div class="container-sm">
+<div style="margin:40px 0;">
+  <figure style="margin:0 0 32px;">
+    <img src="/assets/images/blog/bourbon-vs-whiskey.webp?v=20261016" alt="A glass of whiskey with ice on a slate coaster on a dark wooden table" style="width:100%;height:auto;aspect-ratio:3/2;object-fit:cover;border-radius:var(--rl);display:block;" width="1200" height="800" fetchpriority="high">
+    <figcaption style="font-size:11px;color:var(--muted2);margin-top:8px;">Photo by <a href="https://unsplash.com/@timothyjames?utm_source=caskworth&amp;utm_medium=referral" rel="noopener noreferrer" target="_blank">Timothy James</a> on <a href="https://unsplash.com/photos/a-glass-of-whiskey-sitting-on-top-of-a-wooden-table-Ktag9JZR1eU?utm_source=caskworth&amp;utm_medium=referral" rel="noopener noreferrer" target="_blank">Unsplash</a></figcaption>
+  </figure>
+  <p style="font-size:16px;font-weight:500;color:var(--dark);line-height:1.8;margin-bottom:28px;border-left:4px solid var(--gold);padding-left:16px;">Bourbon is a type of whiskey. To be called bourbon, a spirit must be made in the United States from a grain mixture that is at least 51% corn, distilled to no more than 160 proof, aged in new charred oak containers and bottled at no less than 80 proof, with no added colour or flavouring. All bourbon is whiskey, but most whiskey is not bourbon.</p>
+  <div class="policy-content" style="font-size:14px;"><h2>Is Bourbon Whiskey? The Short Answer</h2>
+<p>Yes. Whiskey is the broad category for spirits distilled from fermented grain and aged in wood. Bourbon is one specific style within it, defined by United States law. The difference between bourbon and whiskey is therefore the difference between a style and a category, much like the relationship between cognac and brandy that we cover in our <a href="/blog/cognac-vs-brandy/">cognac vs brandy guide</a>.</p>
+<p>If you see a bottle labelled &ldquo;whiskey&rdquo; with no other style name, it could be Scotch, Irish, Canadian, rye, Tennessee whiskey or bourbon. The label has to say bourbon, and meet the rules below, for it to be bourbon.</p>
+<h2>What Makes Bourbon Bourbon: The Legal Rules</h2>
+<p>Under federal rules published by the Alcohol and Tobacco Tax and Trade Bureau (TTB), bourbon whiskey must meet all of these standards:</p>
+<ul>
+<li><strong>Made in the United States.</strong> Bourbon is an American spirit by law.</li>
+<li><strong>At least 51% corn.</strong> The grain mixture (the mash bill) must be at least 51% corn. The rest is usually rye or wheat, plus malted barley.</li>
+<li><strong>Distilled to no more than 160 proof</strong> (80% alcohol by volume), which keeps flavour in the spirit.</li>
+<li><strong>Aged in new, charred oak containers.</strong> New wood and a charred inside give bourbon its vanilla, caramel and toasted-oak character.</li>
+<li><strong>Barrelled at no more than 125 proof</strong> (62.5% ABV).</li>
+<li><strong>Bottled at no less than 80 proof</strong> (40% ABV).</li>
+<li><strong>Nothing added except water.</strong> No colouring, no flavouring and no blending with other spirits.</li>
+</ul>
+<p>&ldquo;Straight bourbon&rdquo; adds a further rule: it must be aged at least two years, and if it is under four years old, the age must appear on the label. Our <a href="/blog/bottled-in-bond-guide/">bottled-in-bond guide</a> covers one of the strictest labels on top of that.</p>
+<h2>How Bourbon Is Made</h2>
+<ol>
+<li><strong>Mash.</strong> Corn (at least 51%) is cooked with other grains, usually rye or wheat, plus malted barley, which supplies the enzymes that turn starch into sugar.</li>
+<li><strong>Ferment.</strong> Yeast is added and the mash ferments into a low-strength &ldquo;beer&rdquo;. Most distillers use a sour mash process, adding some of the previous batch to keep fermentation consistent. Our guide to <a href="/blog/cask-finishing-vs-sweet-mash-transparency/">sweet mash vs sour mash bourbon</a> explains the difference.</li>
+<li><strong>Distil.</strong> The beer is distilled to no more than 160 proof, typically in a column still and often a second pot-style still known as a doubler.</li>
+<li><strong>Barrel.</strong> The spirit goes into new charred oak barrels at no more than 125 proof.</li>
+<li><strong>Age.</strong> In Kentucky&rsquo;s hot summers and cold winters, the whiskey moves in and out of the wood and picks up colour and flavour.</li>
+<li><strong>Bottle.</strong> The bourbon is bottled at no less than 80 proof, either diluted with water or, for barrel-proof releases, undiluted.</li>
+</ol>
+<h2>Mash Bills: Why Bourbons Taste Different From Each Other</h2>
+<p>Because the law sets only a minimum for corn, each distillery chooses its own recipe, called a mash bill. This is the main reason two bourbons can taste so different.</p>
+<ul>
+<li><strong>High-rye bourbon</strong> uses a larger share of rye, giving more spice and a drier, peppery edge.</li>
+<li><strong>Wheated bourbon</strong> replaces rye with wheat, producing a softer, rounder, sweeter style. Our <a href="/blog/wheated-bourbon-heirloom-grains-guide/">wheated bourbon guide</a> covers the best examples.</li>
+<li><strong>Heirloom and specialty grains</strong> such as unusual corn varieties add new flavours.</li>
+</ul>
+<h2>Does Bourbon Have to Be Made in Kentucky?</h2>
+<p>No. Bourbon can be made anywhere in the United States. Kentucky is its heartland and makes most of it, but there are bourbons from Texas, New York, Indiana and other states. Only labels that say &ldquo;Kentucky Straight Bourbon&rdquo; promise a Kentucky origin and a minimum of one year of aging in that state, so they are the ones to look for if Kentucky matters to you.</p>
+<h2>Bourbon Labels Decoded</h2>
+<div style="overflow-x:auto;margin:20px 0;"><table style="width:100%;border-collapse:collapse;font-size:13px;line-height:1.5;">
+<thead><tr><th style="text-align:left;padding:10px 12px;border-bottom:2px solid var(--border);color:var(--dark);font-weight:700;">Label term</th><th style="text-align:left;padding:10px 12px;border-bottom:2px solid var(--border);color:var(--dark);font-weight:700;">What it means</th></tr></thead>
+<tbody><tr><td style="padding:10px 12px;border-bottom:1px solid var(--border);vertical-align:top;font-weight:600;color:var(--dark);">Bourbon whiskey</td><td style="padding:10px 12px;border-bottom:1px solid var(--border);vertical-align:top;">Meets the core rules: made in the US, at least 51% corn, new charred oak, bottled at 80 proof or higher</td></tr><tr><td style="padding:10px 12px;border-bottom:1px solid var(--border);vertical-align:top;font-weight:600;color:var(--dark);">Straight bourbon</td><td style="padding:10px 12px;border-bottom:1px solid var(--border);vertical-align:top;">Aged at least two years, with no added colour or flavour</td></tr><tr><td style="padding:10px 12px;border-bottom:1px solid var(--border);vertical-align:top;font-weight:600;color:var(--dark);">Kentucky straight bourbon</td><td style="padding:10px 12px;border-bottom:1px solid var(--border);vertical-align:top;">Straight bourbon distilled in Kentucky and aged there for at least a year</td></tr><tr><td style="padding:10px 12px;border-bottom:1px solid var(--border);vertical-align:top;font-weight:600;color:var(--dark);">Bottled-in-bond</td><td style="padding:10px 12px;border-bottom:1px solid var(--border);vertical-align:top;">One distillery, one season, aged at least four years and bottled at exactly 100 proof</td></tr><tr><td style="padding:10px 12px;border-bottom:1px solid var(--border);vertical-align:top;font-weight:600;color:var(--dark);">Small batch / single barrel</td><td style="padding:10px 12px;border-bottom:1px solid var(--border);vertical-align:top;">Producer terms with no legal definition; see our <a href="/blog/single-barrel-vs-small-batch-bourbon/">single barrel vs small batch guide</a></td></tr><tr><td style="padding:10px 12px;border-bottom:1px solid var(--border);vertical-align:top;font-weight:600;color:var(--dark);">Barrel proof / cask strength</td><td style="padding:10px 12px;border-bottom:1px solid var(--border);vertical-align:top;">Bottled without being diluted to a lower strength; see our <a href="/blog/cask-strength-vs-barrel-proof/">cask strength vs barrel proof guide</a></td></tr></tbody></table></div>
+<h2>Bourbon vs Other Whiskeys</h2>
+<p>Each major whiskey style has its own rules. This is how bourbon compares:</p>
+<div style="overflow-x:auto;margin:20px 0;"><table style="width:100%;border-collapse:collapse;font-size:13px;line-height:1.5;">
+<thead><tr><th style="text-align:left;padding:10px 12px;border-bottom:2px solid var(--border);color:var(--dark);font-weight:700;">Style</th><th style="text-align:left;padding:10px 12px;border-bottom:2px solid var(--border);color:var(--dark);font-weight:700;">Where</th><th style="text-align:left;padding:10px 12px;border-bottom:2px solid var(--border);color:var(--dark);font-weight:700;">Key rules</th><th style="text-align:left;padding:10px 12px;border-bottom:2px solid var(--border);color:var(--dark);font-weight:700;">Typical flavour</th></tr></thead>
+<tbody><tr><td style="padding:10px 12px;border-bottom:1px solid var(--border);vertical-align:top;font-weight:600;color:var(--dark);">Bourbon</td><td style="padding:10px 12px;border-bottom:1px solid var(--border);vertical-align:top;">United States</td><td style="padding:10px 12px;border-bottom:1px solid var(--border);vertical-align:top;">At least 51% corn; new charred oak</td><td style="padding:10px 12px;border-bottom:1px solid var(--border);vertical-align:top;">Vanilla, caramel, toasted oak</td></tr><tr><td style="padding:10px 12px;border-bottom:1px solid var(--border);vertical-align:top;font-weight:600;color:var(--dark);">Rye whiskey</td><td style="padding:10px 12px;border-bottom:1px solid var(--border);vertical-align:top;">United States</td><td style="padding:10px 12px;border-bottom:1px solid var(--border);vertical-align:top;">At least 51% rye</td><td style="padding:10px 12px;border-bottom:1px solid var(--border);vertical-align:top;">Spicier, drier, peppery</td></tr><tr><td style="padding:10px 12px;border-bottom:1px solid var(--border);vertical-align:top;font-weight:600;color:var(--dark);">Tennessee whiskey</td><td style="padding:10px 12px;border-bottom:1px solid var(--border);vertical-align:top;">Tennessee</td><td style="padding:10px 12px;border-bottom:1px solid var(--border);vertical-align:top;">Bourbon-style production plus charcoal filtering</td><td style="padding:10px 12px;border-bottom:1px solid var(--border);vertical-align:top;">Smooth, mellow, sweet</td></tr><tr><td style="padding:10px 12px;border-bottom:1px solid var(--border);vertical-align:top;font-weight:600;color:var(--dark);">Scotch whisky</td><td style="padding:10px 12px;border-bottom:1px solid var(--border);vertical-align:top;">Scotland</td><td style="padding:10px 12px;border-bottom:1px solid var(--border);vertical-align:top;">Aged at least 3 years in oak</td><td style="padding:10px 12px;border-bottom:1px solid var(--border);vertical-align:top;">Malty, fruity, smoky or peaty</td></tr><tr><td style="padding:10px 12px;border-bottom:1px solid var(--border);vertical-align:top;font-weight:600;color:var(--dark);">Irish whiskey</td><td style="padding:10px 12px;border-bottom:1px solid var(--border);vertical-align:top;">Ireland</td><td style="padding:10px 12px;border-bottom:1px solid var(--border);vertical-align:top;">Aged at least 3 years in wood</td><td style="padding:10px 12px;border-bottom:1px solid var(--border);vertical-align:top;">Light, smooth, often fruity</td></tr><tr><td style="padding:10px 12px;border-bottom:1px solid var(--border);vertical-align:top;font-weight:600;color:var(--dark);">Canadian whisky</td><td style="padding:10px 12px;border-bottom:1px solid var(--border);vertical-align:top;">Canada</td><td style="padding:10px 12px;border-bottom:1px solid var(--border);vertical-align:top;">Aged at least 3 years in small wooden barrels</td><td style="padding:10px 12px;border-bottom:1px solid var(--border);vertical-align:top;">Light, smooth, often sweet</td></tr></tbody></table></div>
+<p>Jack Daniel&rsquo;s is the classic example of the Tennessee style. It is sold as Tennessee whiskey rather than bourbon, even though its production follows bourbon-style rules. Our <a href="/blog/bourbon-vs-rye-vs-scotch/">bourbon vs rye vs Scotch guide</a> goes deeper on the three biggest styles, and <a href="/blog/irish-whiskey-vs-scotch/">Irish whiskey vs Scotch</a> compares the two Atlantic traditions.</p>
+<h2>Whisky vs Whiskey: Why the Different Spelling?</h2>
+<p>Both spellings mean the same thing. The usual convention is that the United States and Ireland write &ldquo;whiskey&rdquo;, while Scotland, Canada and Japan write &ldquo;whisky&rdquo;. A few American brands, including Maker&rsquo;s Mark, choose the shorter spelling for their own reasons. The spelling tells you nothing about quality or style, so use the style name (bourbon, Scotch, rye) to know what is in the bottle.</p>
+<h2>How Bourbon Tastes Compared With Other Whiskey</h2>
+<p>Because bourbon is aged in brand-new charred oak and made mostly from corn, it tends to taste sweeter and rounder than other styles. Expect vanilla, caramel, brown sugar and baking spice, with a toasted-oak finish. Scotch is more likely to bring malt, dried fruit or smoke, and rye adds a peppery bite. Neither is better. They simply answer different moods, which is why many drinkers keep a bottle of each.</p>
+<h2>Common Myths About Bourbon</h2>
+<ul>
+<li><strong>&ldquo;Bourbon must come from Kentucky.&rdquo;</strong> It can be made anywhere in the United States.</li>
+<li><strong>&ldquo;Bourbon is made only from corn.&rdquo;</strong> It must be at least 51% corn, and the remainder is usually rye or wheat and malted barley.</li>
+<li><strong>&ldquo;All bourbon is aged for years.&rdquo;</strong> Bourbon must be aged in new charred oak, but only straight bourbon has a two-year minimum.</li>
+<li><strong>&ldquo;Bourbon always tastes sweet.&rdquo;</strong> It often does, but high-rye and barrel-proof bourbons can be spicy and bold.</li>
+<li><strong>&ldquo;Expensive means better.&rdquo;</strong> Price reflects age, rarity and demand as well as quality. Our <a href="/blog/unicorn-killer-bourbons-under-75/">bourbons under $75</a> guide shows how much value there is below the collector prices.</li>
+</ul>
+<h2>Where to Start With Bourbon</h2>
+<p>These bottles show off the style without a large outlay:</p>
+<ul>
+<li><a href="/products/buffalo-trace-bourbon">Buffalo Trace Bourbon</a> (from $28.99): a benchmark Kentucky straight bourbon with toffee and vanilla.</li>
+<li><a href="/products/four-roses-small-batch">Four Roses Small Batch</a> (from $32.99): honey, pear and light spice in a mellow blend.</li>
+<li><a href="/products/eagle-rare-10-year">Eagle Rare 10 Year</a> (from $37.99): a ten-year single barrel with orange peel and honey.</li>
+</ul>
+<p>When you are ready to compare, our <a href="/blog/best-bourbon-2025/">best bourbon to buy online</a> guide ranks more of the range, and our <a href="/blog/how-to-drink-bourbon/">guide to how to drink bourbon</a> explains how to taste it properly.</p></div>
+  <div style="margin-top:40px;padding:28px;background:var(--goldbg);border:1px solid var(--border2);border-radius:var(--rl);text-align:center;">
+    <h3 style="font-family:var(--font-d);margin-bottom:10px;">Ready to Order?</h3>
+    <p style="font-size:13px;margin-bottom:18px;">Same-day delivery to 33 U.S. states. Minimum order $249.99 USD. Must be 21+ to purchase.</p>
+    <a href="/shop/bourbon/" class="btn btn-gold">Shop Bourbon</a>
+  </div>
+</div>
+</div>
+<div style="margin-top:32px;padding-top:20px;border-top:1px solid var(--border);">
+  <div style="font-size:9px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:#888;margin-bottom:10px;">Keywords &amp; Tags</div>
+  <div class="blog-tags" style="display:flex;flex-wrap:wrap;gap:6px;"><a href="/blog/" class="blog-tag" rel="tag">bourbon legal definition</a><a href="/blog/" class="blog-tag" rel="tag">51 percent corn mash</a><a href="/blog/" class="blog-tag" rel="tag">new charred oak barrels</a><a href="/blog/" class="blog-tag" rel="tag">straight bourbon rules</a><a href="/blog/" class="blog-tag" rel="tag">whisky or whiskey spelling</a><a href="/blog/" class="blog-tag" rel="tag">Tennessee whiskey vs bourbon</a><a href="/blog/" class="blog-tag" rel="tag">types of whiskey</a><a href="/blog/" class="blog-tag" rel="tag">bourbon for beginners</a><a href="/blog/" class="blog-tag" rel="tag">does bourbon have to be Kentucky</a><a href="/blog/" class="blog-tag" rel="tag">bourbon flavor profile</a></div>
+</div>
+
+<div class="container-sm" style="margin-top:32px;">
+  <h2 style="font-size:22px;margin-bottom:16px;">Frequently Asked Questions</h2>
+  <div class="faq-item">
+  <button class="faq-q" onclick="toggleFaq(this)"><span>Is bourbon whiskey?</span><span class="faq-icon">+</span></button>
+  <div class="faq-a"><div class="faq-a-inner">Yes. Bourbon is a style of whiskey defined by US law. It must be made in the United States, from a mash that is at least 51% corn, and aged in new charred oak containers. All bourbon is whiskey, but not all whiskey is bourbon.</div></div>
+</div><div class="faq-item">
+  <button class="faq-q" onclick="toggleFaq(this)"><span>Does bourbon have to be made in Kentucky?</span><span class="faq-icon">+</span></button>
+  <div class="faq-a"><div class="faq-a-inner">No. Bourbon can be made anywhere in the United States. Kentucky produces most of it, and a &ldquo;Kentucky Straight Bourbon&rdquo; label guarantees a Kentucky origin, but bourbons are also made in Texas, Indiana, New York and many other states across the country.</div></div>
+</div><div class="faq-item">
+  <button class="faq-q" onclick="toggleFaq(this)"><span>Is Jack Daniel&rsquo;s a bourbon?</span><span class="faq-icon">+</span></button>
+  <div class="faq-a"><div class="faq-a-inner">Jack Daniel&rsquo;s is sold as Tennessee whiskey, not bourbon. It is made using a bourbon-style process, then filtered through charcoal before aging. The Tennessee label signals that extra step, so most drinkers and the brand itself treat it as its own style.</div></div>
+</div><div class="faq-item">
+  <button class="faq-q" onclick="toggleFaq(this)"><span>Why is it spelled whisky and whiskey?</span><span class="faq-icon">+</span></button>
+  <div class="faq-a"><div class="faq-a-inner">It is a regional habit. The United States and Ireland usually spell it &ldquo;whiskey&rdquo;, while Scotland, Canada and Japan use &ldquo;whisky&rdquo;. Some American brands choose the shorter spelling. The spelling does not change the spirit, so check the style on the label.</div></div>
+</div><div class="faq-item">
+  <button class="faq-q" onclick="toggleFaq(this)"><span>Is bourbon sweeter than other whiskey?</span><span class="faq-icon">+</span></button>
+  <div class="faq-a"><div class="faq-a-inner">Often, yes. Bourbon is made mostly from corn and aged in new charred oak, which adds vanilla and caramel flavours. Scotch is more likely to taste malty or smoky, and rye tends to taste spicier and drier, though styles vary by brand and age.</div></div>
+</div>
+</div>
+</article>
+<section class="shop-prods-cta container" style="margin:32px 0;padding:20px;background:var(--goldbg);border:1px solid var(--border2);border-radius:12px">
+  <h3 style="font-family:var(--font-d);font-size:18px;margin-bottom:12px;color:var(--dark)">Featured Bottles Available Now</h3>
+  <div style="display:flex;flex-wrap:wrap;gap:8px;margin-bottom:12px"><a href="/products/buffalo-trace-bourbon" class="blog-prod-link">Buffalo Trace Bourbon</a><a href="/products/four-roses-small-batch" class="blog-prod-link">Four Roses Small Batch</a><a href="/products/eagle-rare-10-year" class="blog-prod-link">Eagle Rare 10 Year</a><a href="/products/makers-mark-46" class="blog-prod-link">Maker’s Mark 46</a><a href="/products/elijah-craig-small-batch-bourbon" class="blog-prod-link">Elijah Craig Small Batch</a></div>
+  <a href="/shop/bourbon/" style="display:inline-block;padding:8px 20px;background:var(--gold);color:var(--dark);border-radius:8px;text-decoration:none;font-size:13px;font-weight:600">Browse All Spirits &#8594;</a>
+</section>
+<div class="authority-links container">
+  <h4>Sources &amp; Further Reading</h4>
+  <a href="https://www.ecfr.gov/current/title-27/chapter-I/subchapter-A/part-5" rel="noopener noreferrer" target="_blank">Electronic Code of Federal Regulations, 27 CFR Part 5 (Labeling and Advertising of Distilled Spirits) &#x2197;</a><a href="https://www.ttb.gov/regulated-commodities/beverage-alcohol/distilled-spirits" rel="noopener noreferrer" target="_blank">TTB: Distilled Spirits &#x2197;</a><a href="https://www.scotch-whisky.org.uk/" rel="noopener noreferrer" target="_blank">Scotch Whisky Association &#x2197;</a>
+</div>
+</main>
+<div class="nl-section">
+  <div class="container-sm">
+    <span class="label" style="color:var(--gold-a11y-light);display:block;margin-bottom:10px;">Stay Informed</span>
+    <h2>New Arrivals & Limited Releases</h2>
+    <p>Expert picks, rare finds and exclusive offers delivered to your inbox.</p>
+    <form class="nl-form" onsubmit="subscribeNl(event)">
+      <input type="email" id="nl-email" class="nl-input" placeholder="Your email address">
+      <button type="submit" class="nl-btn">Subscribe</button>
+    </form>
+  </div>
+</div>
+
+
+<footer id="site-footer">
+  <div class="footer-top">
+    <div class="container">
+      <div class="footer-grid">
+
+        <!-- Brand -->
+        <div class="footer-col footer-brand">
+          <a href="/" class="logo" aria-label="Caskworth Premium Whisky — Home">
+            <div class="logo-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 48" width="22" height="22" aria-hidden="true">
+                <defs><linearGradient id="fcg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#fff6c0"/><stop offset="40%" stop-color="#f0c020"/><stop offset="100%" stop-color="#8a5000"/></linearGradient></defs>
+                <rect x="6" y="22" width="28" height="5" rx="2" fill="url(#fcg)"/>
+                <polygon points="8,22 11.5,8 15,22" fill="url(#fcg)"/>
+                <polygon points="17,22 20,4 23,22" fill="#fff0a0"/>
+                <polygon points="25,22 28.5,8 32,22" fill="url(#fcg)"/>
+                <ellipse cx="20" cy="6" rx="3.5" ry="4" fill="#fffce0" opacity=".95"/>
+                <path d="M20 27 C15 33 13 38 13 42 C13 46 16 48 20 48 C24 48 27 46 27 42 C27 38 25 33 20 27Z" fill="url(#fcg)"/>
+              </svg>
+            </div>
+            <div class="logo-text"><b>Caskworth</b><small>Premium Whisky</small></div>
+          </a>
+          <p class="footer-tagline">Buy premium whisky online with same-day delivery to 33 US states and 7 Canadian provinces.</p>
+          <div class="footer-contact">
+            <a href="https://wa.me/14482348667" rel="noopener" aria-label="WhatsApp us">📲 WhatsApp: +1 (448) 234-8667</a>
+            <a href="mailto:info@caskworth.com" aria-label="Email us">✉️ info@caskworth.com</a>
+          </div>
+        </div>
+
+        <!-- Shop by Category -->
+        <div class="footer-col">
+          <h3 class="footer-heading">Shop by Category</h3>
+          <ul class="footer-links">
+            <li><a href="/shop/">All Premium Spirits</a></li>
+            <li><a href="/shop/bourbon/">Bourbon Whiskey</a></li>
+            <li><a href="/shop/scotch/">Scotch Whisky</a></li>
+            <li><a href="/shop/japanese/">Japanese Whisky</a></li>
+            <li><a href="/shop/cognac/">Cognac &amp; Brandy</a></li>
+            <li><a href="/shop/irish/">Irish Whiskey</a></li>
+            <li><a href="/shop/rye/">Rye Whiskey</a></li>
+            <li><a href="/shop/canadian/">Canadian Whisky</a></li>
+            <li><a href="/shop/allocated/">Rare &amp; Allocated</a></li>
+          </ul>
+        </div>
+
+        <!-- Top Products -->
+        <div class="footer-col">
+          <h3 class="footer-heading">Popular Bottles</h3>
+          <ul class="footer-links">
+            <li><a href="/products/blantons-original-single-barrel">Blanton’s Original</a></li>
+            <li><a href="/products/pappy-van-winkle-20-year-family-reserve">Pappy Van Winkle 20yr</a></li>
+            <li><a href="/products/macallan-18-double-cask">Macallan 18 Year</a></li>
+            <li><a href="/products/yamazaki-18-year">Yamazaki 18 Year</a></li>
+            <li><a href="/products/hennessy-xo">Hennessy XO</a></li>
+            <li><a href="/products/hibiki-21-year">Hibiki 21 Year</a></li>
+            <li><a href="/products/johnnie-walker-blue-label">Johnnie Walker Blue</a></li>
+            <li><a href="/products/eagle-rare-10-year">Eagle Rare 10 Year</a></li>
+            <li><a href="/products/remy-martin-louis-xiii">Rémy Martin Louis XIII</a></li>
+          </ul>
+        </div>
+
+        <!-- Company + Resources -->
+        <div class="footer-col">
+          <h3 class="footer-heading">Company</h3>
+          <ul class="footer-links">
+            <li><a href="/about/">About Caskworth</a></li>
+            <li><a href="/how-to-order/">How to Order</a></li>
+            <li><a href="/wholesale/">Wholesale &amp; Trade</a></li>
+            <li><a href="/contact/">Contact Us</a></li>
+            <li><a href="/faq/">FAQ</a></li>
+            <li><a href="/reviews/">Customer Reviews</a></li>
+            <li><a href="/blog/">Whisky Blog &amp; Guides</a></li>
+          </ul>
+          <h3 class="footer-heading" style="margin-top:1.5rem">Legal</h3>
+          <ul class="footer-links">
+            <li><a href="/shipping-policy/">Shipping Policy</a></li>
+            <li><a href="/refund-and-returns/">Refunds &amp; Returns</a></li>
+            <li><a href="/terms-and-conditions/">Terms &amp; Conditions</a></li>
+            <li><a href="/privacy-policy/">Privacy Policy</a></li>
+          </ul>
+        </div>
+
+        <!-- Blog + Resources -->
+        <div class="footer-col">
+          <h3 class="footer-heading">Buying Guides</h3>
+          <ul class="footer-links">
+            <li><a href="/blog/best-bourbon-2025/">Best Bourbon 2025</a></li>
+            <li><a href="/blog/pappy-van-winkle-guide/">Pappy Van Winkle Guide</a></li>
+            <li><a href="/blog/macallan-12-vs-18/">Macallan 12 vs 18 Year</a></li>
+            <li><a href="/blog/japanese-vs-scotch/">Japanese vs Scotch Guide</a></li>
+            <li><a href="/blog/rare-whisky-investment-2025/">Whisky Investment 2025</a></li>
+            <li><a href="/blog/same-day-whiskey-delivery/">Same-Day Delivery Guide</a></li>
+          </ul>
+          <h3 class="footer-heading" style="margin-top:1.5rem">Industry Authorities</h3>
+          <ul class="footer-links">
+            <li><a href="https://www.ttb.gov/" rel="noopener nofollow" target="_blank">Alcohol &amp; Tobacco Tax &amp; Trade Bureau</a></li>
+            <li><a href="https://www.distilledspirits.org/" rel="noopener nofollow" target="_blank">Distilled Spirits Council (DISCUS)</a></li>
+            <li><a href="https://www.scotch-whisky.org.uk/" rel="noopener nofollow" target="_blank">Scotch Whisky Association (SWA)</a></li>
+            <li><a href="https://kybourbon.com/" rel="noopener nofollow" target="_blank">Kentucky Distillers' Association</a></li>
+            <li><a href="https://www.wsetglobal.com/" rel="noopener nofollow" target="_blank">Wine &amp; Spirit Education Trust (WSET)</a></li>
+            <li><a href="https://www.whiskyadvocate.com/" rel="noopener nofollow" target="_blank">Whisky Advocate</a></li>
+            <li><a href="https://breakingbourbon.com/" rel="noopener nofollow" target="_blank">Breaking Bourbon</a></li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <div class="container">
+      <!-- SEO Knowledge Hub -->
+      <div style="margin-bottom: 48px; border-top: 1px solid rgba(255,255,255,0.1); padding-top: 32px;">
+        <h3 class="footer-heading" style="text-align: center; margin-bottom: 24px;">Premium Whisky Knowledge Hub</h3>
+        <div style="display: flex; flex-wrap: wrap; gap: 8px 16px; justify-content: center; font-size: 11px; color: rgba(255,255,255,0.5);">
+          <a href="/shop/bourbon/" style="color: rgba(255,255,255,0.7); text-decoration: none;">best bourbon</a> |
+          <a href="/shop/scotch/" style="color: rgba(255,255,255,0.7); text-decoration: none;">scotch whisky</a> |
+          <a href="/search/?q=macallan+18" style="color: rgba(255,255,255,0.7); text-decoration: none;">macallan 18 price</a> |
+          <a href="/shop/bourbon/" style="color: rgba(255,255,255,0.7); text-decoration: none;">best whiskey</a> |
+          <a href="/shop/allocated/" style="color: rgba(255,255,255,0.7); text-decoration: none;">pappy van winkle's family reserve</a> |
+          <a href="/search/?q=woodford+reserve" style="color: rgba(255,255,255,0.7); text-decoration: none;">woodford reserve double oaked</a> |
+          <a href="/shop/brandy/" style="color: rgba(255,255,255,0.7); text-decoration: none;">best brandy</a> |
+          <a href="/shop/bourbon/" style="color: rgba(255,255,255,0.7); text-decoration: none;">old fitzgerald 7 year</a> |
+          <a href="/shop/bourbon/" style="color: rgba(255,255,255,0.7); text-decoration: none;">maker's mark cask strength</a> |
+          <a href="/shop/allocated/" style="color: rgba(255,255,255,0.7); text-decoration: none;">angel's envy price</a> |
+          <a href="/search/?q=glenfiddich" style="color: rgba(255,255,255,0.7); text-decoration: none;">uisque glenfiddich</a> |
+          <a href="/shop/cognac/" style="color: rgba(255,255,255,0.7); text-decoration: none;">courvoisier vs cognac</a> |
+          <a href="/shop/bourbon/" style="color: rgba(255,255,255,0.7); text-decoration: none;">what is the best bourbon</a> |
+          <a href="/shop/allocated/" style="color: rgba(255,255,255,0.7); text-decoration: none;">where to buy blanton's bourbon</a> |
+          <a href="/shop/rye/" style="color: rgba(255,255,255,0.7); text-decoration: none;">angel's envy finished rye</a> |
+          <a href="/shop/brandy/" style="color: rgba(255,255,255,0.7); text-decoration: none;">apple brandy on the rocks</a> |
+          <a href="/shop/bourbon/" style="color: rgba(255,255,255,0.7); text-decoration: none;">jack daniel's tennessee fire</a> |
+          <a href="/search/?q=basil+hayden" style="color: rgba(255,255,255,0.7); text-decoration: none;">basil hayden bourbon price</a> |
+          <a href="/shop/brandy/" style="color: rgba(255,255,255,0.7); text-decoration: none;">cognac courvoisier</a> |
+          <a href="/shop/scotch/" style="color: rgba(255,255,255,0.7); text-decoration: none;">macallan whiskey price</a> |
+          <a href="/shop/allocated/" style="color: rgba(255,255,255,0.7); text-decoration: none;">angel's envy bottled in bond</a>
+        </div>
+      </div>
+      <div class="footer-bottom-inner">
+        <p class="footer-copy">&copy; 2026 Caskworth Premium Whisky, a trade name of 49er Liquors Inc. All rights reserved.</p>
+        <p class="footer-legal">Must be 21+ to purchase. Drink responsibly. <a href="https://www.responsibility.org/" rel="noopener nofollow" target="_blank">Responsibility.org</a> &bull; <a href="https://www.drinkaware.co.uk/" rel="noopener nofollow" target="_blank">DrinkAware</a></p>
+        <p class="footer-delivery">Same-day delivery available in: AL, AK, AZ, CA, CO, CT, DC, DE, FL, GA, HI, ID, IL, IN, IA, KY, LA, ME, MD, MA, MI, MN, MO, MT, NE, NV, NJ, NM, NY, NC, OH, OR, PA, RI, SC, TN, TX, UT, VA, WA, WI, WY &amp; 7 Canadian provinces.</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+<div id="toast"></div>
+<a id="wa-float" href="https://wa.me/14482348667" target="_blank" rel="noopener">
+  <svg width="26" height="26" viewBox="0 0 24 24" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+  <span class="wa-label">Chat on WhatsApp</span>
+</a><script src="/assets/js/app.js?v=20260915b" defer></script>
+<script src="/assets/js/new_products.js?v=20260915b" defer></script>
+<script src="/assets/js/ultra_products.js?v=20260915b" defer></script>
+<script src="/assets/js/more_products.js?v=20260915b" defer></script>
+<script src="/assets/js/webmcp.js" defer></script>
+</body></html>
