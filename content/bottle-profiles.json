@@ -263,5 +263,77 @@
       "name": "Hennessy",
       "url": "https://www.hennessy.com/en-us/collection/hennessy-pure-white"
     }
+  },
+  "makers-mark-cask-strength": {
+    "about": "Maker's Mark Cask Strength is aged for a minimum of 7 years and bottled at barrel proof, without additions or removals, so each release varies slightly. The distillery lists it at 107-114 proof and says each batch is distilled in small lots of just twenty-four barrels at a time.",
+    "nose": "Toasted oak, salted caramel and warm vanilla",
+    "palate": "Robust, with a warm texture and notes of salted caramel, vanilla and spice",
+    "finish": "Full, enveloping and harmonious, with notes of dark chocolate and espresso",
+    "casks": "Minimum 7 years; bottled at barrel proof (107-114 proof)",
+    "awards": [
+      "Double Gold (96 points), San Francisco World Spirits Competition 2026"
+    ],
+    "source": {
+      "name": "Maker's Mark",
+      "url": "https://www.makersmark.com/en-us/bourbons/makers-mark-cask-strength"
+    }
+  },
+  "michters-20-year-bourbon": {
+    "about": "Michter's 20 Year is a limited release Kentucky straight bourbon, distilled and bottled in Kentucky and aged in fire-charred, new American white oak barrels. Master Distiller Dan McKee personally picks the barrels, and Michter's says it pays extra attention to barrels once they pass 17 years. It is bottled at 114.2 proof (57.1% ABV).",
+    "abv": 57.1,
+    "casks": "20 years old; fire-charred, new American white oak; barrels picked by the Master Distiller",
+    "source": {
+      "name": "Michter's",
+      "url": "https://michters.com/20-year-kentucky-straight-bourbon/"
+    }
+  },
+  "blantons-gold-edition": {
+    "about": "Blanton's Gold Edition is described as a limited release at 103 proof (51.5% ABV), originally made for international markets. Blanton's launched in 1984, created by master distiller Elmer T. Lee, and each bottle carries a horse-and-jockey stopper and the barrel dump date on the label.",
+    "abv": 51.5,
+    "nose": "Hints of spicy rye and tobacco, followed by caramel, honey, dark fruit and citrus",
+    "palate": "Rye, tobacco and honey, echoing the aroma",
+    "finish": "Oak and vanilla, extremely long and harmonious",
+    "casks": "Single barrel; Mash Bill #2",
+    "source": {
+      "name": "Buffalo Trace Distillery",
+      "url": "https://buffalotracedistillery.com/our-brands/blanton-s-single-barrel/blantons-gold.html"
+    }
+  },
+  "hibiki-30-year": {
+    "about": "Hibiki is House of Suntory's blended Japanese whisky range, which the brand says celebrates an unrivaled art of blending. The page states that the whisky meets Japan Spirits & Liqueurs Makers Association standards for genuine Japanese whisky.",
+    "colour": "Deep amber",
+    "nose": "Leather, raisin, prune and sweet chestnut",
+    "palate": "Brown sugar, dried fig, apricot jam, cedar and pain d'epices (gingerbread)",
+    "finish": "Extremely rich, with cinnamon and Mizunara (Japanese oak)",
+    "awards": [
+      "Double Gold Medal, International Spirits Challenge 2025",
+      "Gold Medal, International Spirits Challenge 2026"
+    ],
+    "source": {
+      "name": "House of Suntory",
+      "url": "https://house.suntory.com/hibiki-whisky/hibiki-30-year-old"
+    }
+  },
+  "yamazaki-55-year-2021-release": {
+    "about": "Yamazaki 55 Years Old is described by House of Suntory as the much anticipated first release of this age statement. It blends single malts distilled in 1960 under founder Shinjiro Torii (aged in Mizunara casks) and in 1964 under Keizo Saji (aged in white oak casks), blended by Chief Blender Shinji Fukuyo and Master Blender Shingo Torii.",
+    "colour": "Deep amber, distinctive of Mizunara casks",
+    "nose": "A robust aroma redolent of sandalwood, and a sweet, mature bouquet like well-ripened fruit",
+    "palate": "A soft, smooth first sip that blossoms in the mouth, with a mix of sweet and slightly bitter notes and a woody note from the Mizunara cask",
+    "finish": "Slightly bitter, with a fragrance like scented wood and a hint of smokiness; sweet, rich and lingering",
+    "casks": "1960 malt in Mizunara casks; 1964 malt in white oak casks",
+    "source": {
+      "name": "House of Suntory",
+      "url": "https://house.suntory.com/yamazaki-whisky/yamazaki-55-years-old"
+    }
+  },
+  "johnnie-walker-aged-18-year": {
+    "about": "Johnnie Walker Aged 18 Years is a blended Scotch whisky. The brand names Blair Athol (Highlands), Glen Elgin (Speyside) and Cardhu as sources of the blend, and says the creaminess of Cardhu flows into a long, sumptuous finish. The US bottling is 40% ABV.",
+    "abv": 40,
+    "profile": "Soft spice, dark chocolate, richness and a caressing sweetness",
+    "finish": "Long and sumptuous",
+    "source": {
+      "name": "Johnnie Walker",
+      "url": "https://www.johnniewalker.com/en-us/our-whisky/core-range/johnnie-walker-aged-18-years"
+    }
   }
 }
