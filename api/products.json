@@ -5693,7 +5693,7 @@
    "distillery": "Michter's Distillery",
    "region": "Kentucky, USA",
    "age": "25yr",
-   "abv_percent": 58.4,
+   "abv_percent": 58.1,
    "price_usd": 3999.99,
    "currency": "USD",
    "tasting_notes": [
@@ -6213,7 +6213,7 @@
    "distillery": "Buffalo Trace Distillery",
    "region": "Kentucky, USA",
    "age": "20yr",
-   "abv_percent": 53.5,
+   "abv_percent": 45.2,
    "price_usd": 2999.99,
    "currency": "USD",
    "tasting_notes": [
