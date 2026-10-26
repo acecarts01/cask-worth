@@ -90,23 +90,3 @@
 /products/boulard-calvados.html  /products/boulard-calvados  301
 /products/the-sassenach-blended-scotch.html  /products/the-sassenach-blended-scotch  301
 /products/carlos-i-brandy-de-jerez.html  /products/carlos-i-brandy-de-jerez  301
-
-# Old brand-style slugs Google still requests -> the live product page (301)
-/products/glen-grant  /products/glen-grant-single-malt-scotch  301
-/products/glen-grant.html  /products/glen-grant-single-malt-scotch  301
-/products/kilchoman  /products/kilchoman-single-malt-scotch  301
-/products/kilchoman.html  /products/kilchoman-single-malt-scotch  301
-/products/the-sexton  /products/the-sexton-irish-whiskey  301
-/products/the-sexton.html  /products/the-sexton-irish-whiskey  301
-/products/wolfburn  /products/wolfburn-single-malt-scotch  301
-/products/wolfburn.html  /products/wolfburn-single-malt-scotch  301
-/products/tamdhu  /products/tamdhu-single-malt-scotch  301
-/products/tamdhu.html  /products/tamdhu-single-malt-scotch  301
-/products/white-horse  /products/white-horse-scotch-whisky  301
-/products/white-horse.html  /products/white-horse-scotch-whisky  301
-/products/kilbeggan  /products/kilbeggan-irish-whiskey  301
-/products/kilbeggan.html  /products/kilbeggan-irish-whiskey  301
-/products/tullamore-dew  /products/tullamore-dew-irish-whiskey  301
-/products/tullamore-dew.html  /products/tullamore-dew-irish-whiskey  301
-/products/baron-de-sigognac  /products/baron-de-sigognac-armagnac  301
-/products/baron-de-sigognac.html  /products/baron-de-sigognac-armagnac  301
