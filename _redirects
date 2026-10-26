@@ -90,3 +90,6 @@
 /products/boulard-calvados.html  /products/boulard-calvados  301
 /products/the-sassenach-blended-scotch.html  /products/the-sassenach-blended-scotch  301
 /products/carlos-i-brandy-de-jerez.html  /products/carlos-i-brandy-de-jerez  301
+
+# Legacy brand-style slug
+/products/glen-grant  /products/glen-grant-single-malt-scotch  301
