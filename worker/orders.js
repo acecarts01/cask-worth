@@ -52,29 +52,39 @@ export async function handleCreateOrder(request, env) {
   const order = { id, ref, name: data.name, email: data.email, phone: data.phone, address: data.address, items: data.items, subtotal: data.subtotal, discount: data.discount, total: data.total, payment: data.payment, wallet_key: data.walletKey };
   const invoiceUrl = invoiceUrlFor(invoiceToken);
 
-  let emailed = true;
-  try {
-    if (!env.RESEND_API_KEY) throw new Error('Email service is not configured');
-    await sendEmail(env, {
-      from: 'Caskworth Orders <orders@caskworth.com>',
-      to: MERCHANT_EMAIL,
-      replyTo: order.email,
-      subject: `New Order ${ref} - Caskworth Premium Whisky`,
-      html: renderOrderNotificationEmail(order),
-    });
-    await sendEmail(env, {
-      from: 'Caskworth <orders@caskworth.com>',
-      to: order.email,
-      bcc: MERCHANT_EMAIL,
-      replyTo: MERCHANT_EMAIL,
-      subject: `Your Caskworth Order ${ref}`,
-      html: renderOrderConfirmationEmail(order, invoiceUrl),
-    });
-  } catch (e) {
-    emailed = false;
-  }
+  // The merchant notification and the customer confirmation are sent
+  // independently, so a failure of one never blocks the other.
+  const errors = [];
+  const attempt = async (label, payload) => {
+    try {
+      if (!env.RESEND_API_KEY) throw new Error('Email service is not configured (RESEND_API_KEY missing)');
+      await sendEmail(env, payload);
+      return true;
+    } catch (e) {
+      const msg = String((e && e.message) || e).slice(0, 300);
+      errors.push(`${label}: ${msg}`);
+      console.error(`Order ${ref} saved but ${label} email failed: ${msg}`);
+      return false;
+    }
+  };
+  const merchantOk = await attempt('merchant', {
+    from: 'Caskworth Orders <orders@caskworth.com>',
+    to: MERCHANT_EMAIL,
+    replyTo: order.email,
+    subject: `New Order ${ref} - Caskworth Premium Whisky`,
+    html: renderOrderNotificationEmail(order),
+  });
+  const customerOk = await attempt('customer', {
+    from: 'Caskworth <orders@caskworth.com>',
+    to: order.email,
+    bcc: MERCHANT_EMAIL,
+    replyTo: MERCHANT_EMAIL,
+    subject: `Your Caskworth Order ${ref}`,
+    html: renderOrderConfirmationEmail(order, invoiceUrl),
+  });
+  const emailed = merchantOk && customerOk;
 
-  return Response.json({ success: true, ref, emailed });
+  return Response.json({ success: true, ref, emailed, emailError: errors.length ? errors.join(' | ') : null });
 }
 
 export async function handleInvoicePage(token, env) {

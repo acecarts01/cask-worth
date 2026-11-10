@@ -915,7 +915,7 @@ function sendOrderEmail(data, callback) {
     body: JSON.stringify(data)
   })
   .then(function(r) { return r.json(); })
-  .then(function(j) { callback(!!j.success, j.ref); })
+  .then(function(j) { callback(!!j.success && j.emailed !== false, j.ref, !!j.success); })
   .catch(function() { callback(false); });
 }
 
@@ -981,7 +981,7 @@ function placeOrder() {
     + ' | TOTAL: $' + total.toFixed(2) + ' USD'
     + ' | Payment: ' + CO_PAY.toUpperCase();
 
-  sendOrderEmail(data, function(sent, serverRef) {
+  sendOrderEmail(data, function(sent, serverRef, saved) {
     btn.disabled = false;
     btn.classList.remove('busy');
 
@@ -1005,7 +1005,7 @@ function placeOrder() {
         '<div style="margin-top:6px;padding-top:6px;border-top:1px solid #e8e0d4">' +
         (sent
           ? 'Confirmation sent to ' + email + ' and info@caskworth.com'
-          : 'Email delivery failed. Please confirm via WhatsApp below.') +
+          : (saved ? 'Your order is saved (ref ' + finalRef + '), but the confirmation email could not be sent. We will confirm by email; you can also confirm via WhatsApp below.' : 'Order could not be saved. Please confirm via WhatsApp below or email info@caskworth.com.')) +
         '</div>';
     }
     var overlay = document.getElementById('succ-overlay');
