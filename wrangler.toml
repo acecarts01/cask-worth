@@ -1,5 +1,8 @@
 name = "caskworth"
 compatibility_date = "2025-01-01"
+# Keep dashboard-set variables and secrets (RESEND_API_KEY, SESSION_SECRET,
+# ADMIN_SETUP_TOKEN) when deploying from git; without this a deploy can wipe them.
+keep_vars = true
 main = "worker/index.js"
 
 [assets]
