@@ -2429,7 +2429,7 @@
    "slug": "eagle-rare-10-year",
    "name": "Eagle Rare 10 Year",
    "category": "Bourbon",
-   "subcategory": "Single Barrel",
+   "subcategory": "Small Batch",
    "distillery": "Buffalo Trace Distillery",
    "region": "Kentucky, USA",
    "age": "10yr",
@@ -2441,7 +2441,7 @@
     "Herbs",
     "Honey"
    ],
-   "description": "A single barrel bourbon aged 10 years. Complex aroma and flavor — bold, dry with notes of orange peel, herbs and honey. Long satisfying finish.",
+   "description": "A small batch bourbon aged 10 years. Complex aroma and flavor — bold, dry with notes of orange peel, herbs and honey. Long satisfying finish.",
    "url": "https://caskworth.com/products/eagle-rare-10-year",
    "image": "https://caskworth.com/assets/images/products/eagle-rare-10-year.webp"
   },
@@ -5273,7 +5273,7 @@
    "distillery": "The Macallan Distillery",
    "region": "Speyside, Scotland",
    "age": "50yr",
-   "abv_percent": 42.8,
+   "abv_percent": 46,
    "price_usd": 39999.99,
    "currency": "USD",
    "tasting_notes": [
@@ -6153,7 +6153,7 @@
    "distillery": "Brown-Forman Distillery",
    "region": "Kentucky, USA",
    "age": "NAS",
-   "abv_percent": 49,
+   "abv_percent": 53.5,
    "price_usd": 249.99,
    "currency": "USD",
    "tasting_notes": [
@@ -6953,7 +6953,7 @@
    "distillery": "Buffalo Trace Distillery",
    "region": "Kentucky, USA",
    "age": "18yr",
-   "abv_percent": 45,
+   "abv_percent": 47.5,
    "price_usd": 299.99,
    "currency": "USD",
    "tasting_notes": [
