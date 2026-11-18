@@ -1,0 +1,5697 @@
+{
+  "_readme": "Phase 5 product SEO data. primary = Semrush-verified keyword linked from a rebuilt blog post. gtin = UPC/EAN ONLY where at least two independent retailer or distributor listings agree, the check digit validates and the bottle size matches (750ml). No GTIN = not verified, left out. Never invent data.",
+  "eagle-rare-10-year": {
+    "primary": "eagle rare bourbon for sale",
+    "secondary": [
+      "eagle rare 10 year bourbon",
+      "eagle rare 10"
+    ],
+    "gtin": "088004021344",
+    "gtinSources": [
+      "napacabs.com",
+      "shopliquordirect.com",
+      "sudsandspirits.com"
+    ]
+  },
+  "makers-mark-original": {
+    "primary": "makers mark 750ml price",
+    "secondary": [
+      "makers mark bourbon",
+      "makers mark bottle"
+    ],
+    "gtin": "085246139431",
+    "gtinSources": [
+      "shopliquordirect.com",
+      "cooklist.com",
+      "iowaabd.com"
+    ]
+  },
+  "blantons-original-single-barrel": {
+    "primary": "blanton's single barrel price",
+    "secondary": [
+      "blanton's single barrel bourbon"
+    ],
+    "gtin": "080244002039",
+    "gtinSources": [
+      "cwspirits.com",
+      "sudsandspirits.com",
+      "harveynichols.com"
+    ]
+  },
+  "wild-turkey-101": {
+    "primary": "wild turkey 101 price",
+    "secondary": [],
+    "gtin": "721059897501",
+    "gtinSources": [
+      "target.com",
+      "liquorama.com",
+      "napacabs.com"
+    ]
+  },
+  "johnnie-walker-blue-label": {
+    "primary": "johnnie walker blue label price",
+    "secondary": [
+      "johnnie walker blue",
+      "johnnie walker blue label"
+    ],
+    "gtin": "088110070052",
+    "gtinSources": [
+      "liquorama.com",
+      "theliquorbarn.com",
+      "iowaabd.com"
+    ]
+  },
+  "yamazaki-12-year": {
+    "primary": "yamazaki 12 price",
+    "secondary": [],
+    "gtin": "088857001616",
+    "gtinSources": [
+      "napacabs.com",
+      "theliquorbarn.com"
+    ]
+  },
+  "macallan-18-double-cask": {
+    "primary": "macallan 18 years price",
+    "secondary": [
+      "macallan 18 double cask",
+      "macallan 18 double cask price"
+    ],
+    "gtin": "812066023387",
+    "gtinSources": [
+      "napacabs.com",
+      "liquorama.com",
+      "michigan LARA price list"
+    ]
+  },
+  "hibiki-21-year": {
+    "primary": "hibiki 21 price",
+    "secondary": [
+      "hibiki 21 year"
+    ]
+  },
+  "pappy-van-winkle-15-year": {
+    "primary": "pappy van winkle 15 year price",
+    "secondary": [
+      "pappy 15 year price",
+      "pappy van winkle 15 year"
+    ]
+  },
+  "1792-bourbon": {
+    "primary": "buy 1792 online",
+    "secondary": [
+      "1792 bourbon price",
+      "1792 bourbon for sale",
+      "1792 bourbon same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "a-de-fussigny-xo-cognac": {
+    "primary": "buy a. de fussigny x.o cognac online",
+    "secondary": [
+      "a. de fussigny x.o cognac for sale",
+      "a. de fussigny x.o cognac price",
+      "buy a. de fussigny x.o online same day"
+    ],
+    "src": "existing page keyword"
+  },
+  "aberfeldy-12-year": {
+    "primary": "buy aberfeldy 12 year online",
+    "secondary": [
+      "aberfeldy 12 year for sale",
+      "aberfeldy 12 year price",
+      "buy aberfeldy 12yr scotch"
+    ],
+    "src": "existing page keyword"
+  },
+  "aberfeldy-16-year": {
+    "primary": "buy aberfeldy 16 year online",
+    "secondary": [
+      "aberfeldy 16 year for sale",
+      "aberfeldy 16 year price",
+      "buy aberfeldy 16yr scotch"
+    ],
+    "src": "existing page keyword"
+  },
+  "aberlour-12-year-double-cask": {
+    "primary": "aberlour 12 whiskey",
+    "secondary": [
+      "aberlour 12 double cask"
+    ],
+    "src": "blog-linked (Semrush-verified)"
+  },
+  "aberlour-16-year-double-cask": {
+    "primary": "aberlour 16 double cask",
+    "secondary": [],
+    "src": "blog-linked (Semrush-verified)"
+  },
+  "aberlour-18-year": {
+    "primary": "buy aberlour 18 year online",
+    "secondary": [
+      "aberlour 18 year"
+    ],
+    "src": "existing page keyword (name-based, unverified)"
+  },
+  "aberlour-abunadh-cask-strength": {
+    "primary": "aberlour a bunadh",
+    "secondary": [
+      "aberlour abunadh",
+      "a bunadh aberlour"
+    ],
+    "src": "blog-linked (Semrush-verified)"
+  },
+  "abk6-cognac": {
+    "primary": "abk6 cognac",
+    "secondary": [],
+    "src": "blog-linked (Semrush-verified)"
+  },
+  "ae-dor-vsop-fine-champagne": {
+    "primary": "buy a.e. dor cognac online",
+    "secondary": [
+      "a.e. dor cognac price",
+      "a.e. dor vsop fine champagne for sale",
+      "a.e. dor vsop fine champagne same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "ah-hirsch-reserve-bourbon": {
+    "primary": "buy ah hirsch online",
+    "secondary": [
+      "ah hirsch reserve price",
+      "a.h. hirsch reserve for sale",
+      "a.h. hirsch reserve same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "akashi-whisky": {
+    "primary": "buy akashi online",
+    "secondary": [
+      "akashi whisky price",
+      "akashi white oak for sale",
+      "akashi white oak same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "alberta-premium-25-year": {
+    "primary": "alberta premium rye price",
+    "secondary": [],
+    "src": "blog-linked (Semrush-verified)"
+  },
+  "alberta-premium-30-year-dark-horse": {
+    "primary": "where to buy alberta premium cask strength rye",
+    "secondary": [],
+    "src": "blog-linked (Semrush-verified)"
+  },
+  "alberta-premium-cask-strength-rye": {
+    "primary": "alberta premium cask strength rye for sale",
+    "secondary": [],
+    "src": "blog-linked (Semrush-verified)"
+  },
+  "ancient-age-bourbon": {
+    "primary": "buy ancient age online",
+    "secondary": [
+      "ancient age bourbon price",
+      "ancient age for sale",
+      "ancient age same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "ancnoc-12-year": {
+    "primary": "buy ancnoc 12 year online",
+    "secondary": [
+      "ancnoc 12 year for sale",
+      "ancnoc 12 year price",
+      "buy ancnoc 12yr scotch"
+    ],
+    "src": "existing page keyword"
+  },
+  "ancnoc-18-year": {
+    "primary": "buy ancnoc 18 year online",
+    "secondary": [
+      "ancnoc 18 year for sale",
+      "ancnoc 18 year price",
+      "buy ancnoc 18yr scotch"
+    ],
+    "src": "existing page keyword"
+  },
+  "angels-envy-cask-strength-port-finish": {
+    "primary": "angels envy triple oak",
+    "secondary": [],
+    "src": "blog-linked (Semrush-verified)"
+  },
+  "angels-envy-finished-in-tawny-port-barrels": {
+    "primary": "angels envy",
+    "secondary": [],
+    "src": "blog-linked (Semrush-verified)"
+  },
+  "angels-envy-kentucky-straight-bourbon": {
+    "primary": "angels envy bourbon",
+    "secondary": [],
+    "src": "blog-linked (Semrush-verified)"
+  },
+  "angels-envy-rye-whiskey": {
+    "primary": "angel's envy rye price",
+    "secondary": [
+      "angels envy rye"
+    ],
+    "src": "blog-linked (Semrush-verified)"
+  },
+  "ararat-erebuni-30-year-old-armenian-brandy": {
+    "primary": "buy ararat armenian brandy",
+    "secondary": [
+      "erebuni 30 year price",
+      "ararat erebuni 30 year old armenian brandy for sale",
+      "ararat erebuni 30 year old armenian brandy same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "ardbeg-25-year-timeless": {
+    "primary": "buy ardbeg 25 year timeless online",
+    "secondary": [
+      "ardbeg 25 year timeless for sale",
+      "ardbeg 25 year timeless price",
+      "buy ardbeg scotch online"
+    ],
+    "src": "existing page keyword"
+  },
+  "argonaut-fat-thumb-california-brandy": {
+    "primary": "buy argonaut fat thumb california brandy online",
+    "secondary": [
+      "argonaut fat thumb california brandy for sale",
+      "argonaut fat thumb california brandy price",
+      "buy argonaut fat thumb california online same day"
+    ],
+    "src": "existing page keyword"
+  },
+  "around-the-world-whisky-experience": {
+    "primary": "best whiskey sampler gift set",
+    "secondary": [],
+    "src": "blog-linked (Semrush-verified)"
+  },
+  "arran-single-malt-scotch": {
+    "primary": "buy arran whisky online",
+    "secondary": [
+      "arran whisky price",
+      "isle of arran for sale",
+      "isle of arran same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "asbach-brandy": {
+    "primary": "buy asbach online",
+    "secondary": [
+      "asbach uralt price",
+      "asbach uralt for sale",
+      "asbach uralt same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "auchentoshan-american-oak": {
+    "primary": "buy auchentoshan american oak online",
+    "secondary": [
+      "auchentoshan american oak for sale",
+      "auchentoshan american oak price",
+      "buy auchentoshan american oak scotch online"
+    ],
+    "src": "existing page keyword"
+  },
+  "auchentoshan-three-wood": {
+    "primary": "buy auchentoshan three wood online",
+    "secondary": [
+      "auchentoshan three wood for sale",
+      "auchentoshan three wood price",
+      "buy auchentoshan three wood scotch online"
+    ],
+    "src": "existing page keyword"
+  },
+  "bache-gabrielsen-vsop-pure-and-rustic": {
+    "primary": "buy bache-gabrielsen cognac online",
+    "secondary": [
+      "bache-gabrielsen cognac price",
+      "bache-gabrielsen vsop pure &amp; rustic for sale",
+      "bache-gabrielsen vsop pure &amp; rustic same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "bakers-bourbon": {
+    "primary": "buy bakers online",
+    "secondary": [
+      "bakers bourbon price",
+      "baker's bourbon for sale",
+      "baker's bourbon same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "balblair-12-year": {
+    "primary": "balblair whisky price",
+    "secondary": [
+      "buy balblair 12 year online",
+      "balblair 12 year for sale",
+      "balblair 12 year same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "balcones-whiskey": {
+    "primary": "buy balcones online",
+    "secondary": [
+      "balcones price",
+      "balcones for sale",
+      "balcones same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "ballantines-scotch-whisky": {
+    "primary": "buy ballantine's online",
+    "secondary": [
+      "ballantine's whisky price",
+      "ballantine's finest for sale",
+      "ballantine's finest same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "balvenie-21-year-portwood": {
+    "primary": "buy balvenie 21 year portwood online",
+    "secondary": [
+      "balvenie 21 year portwood for sale",
+      "balvenie 21 year portwood price",
+      "buy balvenie 21yr scotch"
+    ],
+    "src": "existing page keyword"
+  },
+  "balvenie-25-year-old": {
+    "primary": "buy balvenie 25 year old online",
+    "secondary": [
+      "balvenie 25 price",
+      "balvenie 25 year old for sale",
+      "balvenie 25 year old same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "balvenie-30-year": {
+    "primary": "buy balvenie 30 year online",
+    "secondary": [
+      "balvenie 30 year for sale",
+      "balvenie 30 year price",
+      "buy balvenie 30yr scotch"
+    ],
+    "src": "existing page keyword"
+  },
+  "balvenie-50-year": {
+    "primary": "buy balvenie 50 year online",
+    "secondary": [
+      "balvenie 50 year for sale",
+      "buy balvenie 50yr scotch"
+    ],
+    "src": "existing page keyword"
+  },
+  "bardstown-bourbon-co-origin-series": {
+    "primary": "buy bardstown origin series bourbon online",
+    "secondary": [
+      "origin series price",
+      "bardstown bourbon co. origin series for sale",
+      "bardstown bourbon co. origin series same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "bardstown-bourbon-company": {
+    "primary": "buy bardstown bourbon online",
+    "secondary": [
+      "bardstown bourbon price",
+      "bardstown bourbon company for sale",
+      "bardstown bourbon company same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "baron-de-lustrac-bas-armagnac-40-year-old": {
+    "primary": "buy baron de lustrac armagnac",
+    "secondary": [
+      "40 year bas armagnac price",
+      "baron de lustrac bas-armagnac 40 year old for sale",
+      "baron de lustrac bas-armagnac 40 year old same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "baron-de-sigognac-armagnac": {
+    "primary": "buy baron de sigognac online",
+    "secondary": [
+      "baron de sigognac price",
+      "baron de sigognac for sale",
+      "baron de sigognac same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "barrell-bourbon": {
+    "primary": "buy barrell bourbon online",
+    "secondary": [
+      "barrell bourbon price",
+      "barrell bourbon for sale",
+      "barrell bourbon same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "barrell-craft-spirits-seagrass-gold-label-20-year-old-canadian-rye": {
+    "primary": "elijah craig toasted barrell",
+    "secondary": [],
+    "src": "blog-linked (Semrush-verified)"
+  },
+  "barsol-quebranta-pisco": {
+    "primary": "buy barsol quebranta pisco online",
+    "secondary": [
+      "barsol quebranta pisco for sale",
+      "barsol quebranta pisco price",
+      "buy barsol quebranta pisco brandy online"
+    ],
+    "src": "existing page keyword"
+  },
+  "basil-haydens-10-year": {
+    "primary": "buy basil hayden's 10 year online",
+    "secondary": [
+      "basil hayden's 10 year for sale",
+      "basil hayden's 10 year price",
+      "buy basil hayden's bourbon online"
+    ],
+    "src": "existing page keyword"
+  },
+  "basil-haydens-dark-rye": {
+    "primary": "buy basil hayden's dark rye online",
+    "secondary": [
+      "basil hayden's dark rye for sale",
+      "basil hayden's dark rye price",
+      "buy basil hayden's dark rye bourbon online"
+    ],
+    "src": "existing page keyword"
+  },
+  "basil-haydens-kentucky-straight-bourbon": {
+    "primary": "buy basil hayden's kentucky straight bourbon online",
+    "secondary": [
+      "basil hayden's kentucky straight bourbon for sale",
+      "basil hayden's kentucky straight bourbon price",
+      "buy basil hayden's kentucky bourbon online"
+    ],
+    "src": "existing page keyword"
+  },
+  "basil-haydens-toast": {
+    "primary": "buy basil hayden's toast online",
+    "secondary": [
+      "basil hayden's toast for sale",
+      "basil hayden's toast price",
+      "buy basil hayden's toast bourbon online"
+    ],
+    "src": "existing page keyword"
+  },
+  "belle-meade-bourbon": {
+    "primary": "buy belle meade online",
+    "secondary": [
+      "belle meade bourbon price",
+      "belle meade bourbon for sale",
+      "belle meade bourbon same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "benriach-10-year": {
+    "primary": "benriach whisky price",
+    "secondary": [
+      "buy benriach 10 year online",
+      "benriach 10 year for sale",
+      "benriach 10 year same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "benriach-50-year": {
+    "primary": "buy benriach 50 year online",
+    "secondary": [
+      "benriach 50 year for sale",
+      "benriach 50 year price",
+      "buy benriach scotch online"
+    ],
+    "src": "existing page keyword"
+  },
+  "benromach-10-year": {
+    "primary": "buy benromach 10 year online",
+    "secondary": [
+      "benromach 10 year for sale",
+      "benromach 10 year price",
+      "buy benromach 10yr scotch"
+    ],
+    "src": "existing page keyword"
+  },
+  "benromach-15-year": {
+    "primary": "buy benromach 15 year online",
+    "secondary": [
+      "benromach 15 year for sale",
+      "benromach 15 year price",
+      "buy benromach 15yr scotch"
+    ],
+    "src": "existing page keyword"
+  },
+  "bhakta-1962-single-vintage-armagnac": {
+    "primary": "buy bhakta vintage armagnac",
+    "secondary": [
+      "bhakta armagnac price",
+      "bhakta 1962 single-vintage armagnac for sale",
+      "bhakta 1962 single-vintage armagnac same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "bib-and-tucker-6-year": {
+    "primary": "buy bib and tucker bourbon online",
+    "secondary": [
+      "bib and tucker price",
+      "bib &amp; tucker 6 year for sale",
+      "bib &amp; tucker 6 year same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "bisquit-dubouche-caractere": {
+    "primary": "buy bisquit &amp; dubouché caractère online",
+    "secondary": [
+      "bisquit &amp; dubouché caractère for sale",
+      "bisquit &amp; dubouché caractère price",
+      "buy bisquit &amp; dubouché caractère cognac online"
+    ],
+    "src": "existing page keyword"
+  },
+  "bisquit-dubouche-extra": {
+    "primary": "buy bisquit &amp; dubouché extra online",
+    "secondary": [
+      "bisquit &amp; dubouché extra for sale",
+      "bisquit &amp; dubouché extra price",
+      "buy bisquit &amp; dubouché cognac online"
+    ],
+    "src": "existing page keyword"
+  },
+  "bisquit-dubouche-vs": {
+    "primary": "buy bisquit &amp; dubouché v.s online",
+    "secondary": [
+      "bisquit &amp; dubouché v.s for sale",
+      "bisquit &amp; dubouché v.s price",
+      "buy bisquit &amp; dubouché v.s cognac online"
+    ],
+    "src": "existing page keyword"
+  },
+  "bisquit-dubouche-vsop": {
+    "primary": "buy bisquit &amp; dubouché v.s.o.p online",
+    "secondary": [
+      "bisquit &amp; dubouché v.s.o.p for sale",
+      "bisquit &amp; dubouché v.s.o.p price",
+      "buy bisquit &amp; dubouché v.s.o.p cognac online"
+    ],
+    "src": "existing page keyword"
+  },
+  "bisquit-dubouche-xo": {
+    "primary": "buy bisquit &amp; dubouché x.o online",
+    "secondary": [
+      "bisquit &amp; dubouché x.o for sale",
+      "bisquit &amp; dubouché x.o price",
+      "buy bisquit &amp; dubouché x.o cognac online"
+    ],
+    "src": "existing page keyword"
+  },
+  "black-and-white-scotch-whisky": {
+    "primary": "buy black and white scotch online",
+    "secondary": [
+      "black and white whisky price",
+      "black &amp; white for sale",
+      "black &amp; white same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "black-maple-hill-16-year-old-premium-small-batch": {
+    "primary": "buy black maple hill 16 year online",
+    "secondary": [
+      "black maple hill bourbon price",
+      "black maple hill for sale",
+      "black maple hill 16 year old premium small batch for sale"
+    ],
+    "src": "existing page keyword"
+  },
+  "black-maple-hill-premium-small-batch": {
+    "primary": "buy black maple hill bourbon online",
+    "secondary": [
+      "black maple hill price",
+      "cult bourbon for sale",
+      "black maple hill premium small batch for sale"
+    ],
+    "src": "existing page keyword"
+  },
+  "black-velvet-canadian-whisky": {
+    "primary": "buy black velvet online",
+    "secondary": [
+      "black velvet price",
+      "black velvet for sale",
+      "black velvet same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "blade-and-bow-bourbon": {
+    "primary": "buy blade and bow bourbon online",
+    "secondary": [
+      "blade and bow price",
+      "blade and bow bourbon for sale",
+      "blade and bow bourbon same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "blantons-gold-edition": {
+    "primary": "buy blanton's gold edition online",
+    "secondary": [
+      "blanton's gold edition for sale",
+      "blanton's gold edition price",
+      "buy blanton's gold allocated online"
+    ],
+    "src": "existing page keyword"
+  },
+  "blantons-straight-from-the-barrel": {
+    "primary": "buy blanton's straight from the barrel online",
+    "secondary": [
+      "blanton's straight from the barrel for sale",
+      "blanton's straight from the barrel price",
+      "buy blanton's allocated online"
+    ],
+    "src": "existing page keyword"
+  },
+  "blended-scotch-gift-set": {
+    "primary": "buy blended scotch gift set",
+    "secondary": [],
+    "src": "existing page keyword"
+  },
+  "blue-run-single-barrel-cask-strength-135-year": {
+    "primary": "buy blue run single barrel cask strength online",
+    "secondary": [
+      "blue run bourbon price",
+      "blue run 13 year for sale",
+      "blue run single barrel cask strength 13.5 year for sale"
+    ],
+    "src": "existing page keyword"
+  },
+  "bookers-annual-batch-2026-01": {
+    "primary": "buy booker's annual batch bourbon online",
+    "secondary": [
+      "booker's batch price",
+      "booker's annual batch 2026-01 for sale",
+      "booker's annual batch 2026-01 same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "bookers-bourbon": {
+    "primary": "buy bookers online",
+    "secondary": [
+      "bookers bourbon price",
+      "booker's bourbon for sale",
+      "booker's bourbon same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "boone-county-1833-12-year-single-barrel-bourbon": {
+    "primary": "buy boone county 1833 12 year online",
+    "secondary": [
+      "boone county distilling price",
+      "single barrel bourbon for sale",
+      "boone county 1833 12 year single barrel bourbon for sale"
+    ],
+    "src": "existing page keyword"
+  },
+  "boulard-calvados": {
+    "primary": "buy boulard online",
+    "secondary": [
+      "boulard calvados price",
+      "boulard calvados for sale",
+      "boulard calvados same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "bowmore-25-year": {
+    "primary": "buy bowmore 25 year online",
+    "secondary": [
+      "bowmore 25 year for sale",
+      "bowmore 25 year price",
+      "buy bowmore 25yr scotch"
+    ],
+    "src": "existing page keyword"
+  },
+  "bowmore-50-year": {
+    "primary": "buy bowmore 50 year online",
+    "secondary": [
+      "bowmore 50 year for sale",
+      "bowmore 50 year price",
+      "rare bowmore scotch buy"
+    ],
+    "src": "existing page keyword"
+  },
+  "brora-40-year-annual-release": {
+    "primary": "buy brora 40 year annual release online",
+    "secondary": [
+      "brora 40 year annual release for sale",
+      "brora 40 year annual release price",
+      "buy brora scotch online"
+    ],
+    "src": "existing page keyword"
+  },
+  "bruichladdich-single-malt-scotch": {
+    "primary": "buy bruichladdich online",
+    "secondary": [
+      "bruichladdich whisky price",
+      "bruichladdich for sale",
+      "bruichladdich same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "buchanans-deluxe-12-year": {
+    "primary": "buchanan's whisky price",
+    "secondary": [
+      "buy buchanan's deluxe online",
+      "buchanan's deluxe 12 year for sale",
+      "buchanan's deluxe 12 year same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "buffalo-trace-bourbon": {
+    "primary": "buffalo trace bourbon for sale",
+    "secondary": [
+      "buffalo trace bourbon price",
+      "is buffalo trace a wheated bourbon"
+    ],
+    "src": "blog-linked (Semrush-verified)"
+  },
+  "bulleit-bourbon": {
+    "primary": "bulleit bourbon whisky",
+    "secondary": [],
+    "src": "blog-linked (Semrush-verified)"
+  },
+  "bulleit-rye": {
+    "primary": "bulleit rye price",
+    "secondary": [
+      "bulleit 95 rye",
+      "bulleit bourbon rye whiskey",
+      "rye bulleit bourbon"
+    ],
+    "src": "blog-linked (Semrush-verified)"
+  },
+  "bunnahabhain-single-malt-scotch": {
+    "primary": "buy bunnahabhain online",
+    "secondary": [
+      "bunnahabhain whisky price",
+      "bunnahabhain for sale",
+      "bunnahabhain same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "bushmills-irish-whiskey": {
+    "primary": "buy bushmills online",
+    "secondary": [
+      "bushmills whiskey price",
+      "bushmills original black bush 10 year 21 year for sale",
+      "bushmills original black bush 10 year 21 year same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "busnel-vsop-calvados": {
+    "primary": "buy busnel v.s.o.p calvados online",
+    "secondary": [
+      "busnel v.s.o.p calvados for sale",
+      "busnel v.s.o.p calvados price",
+      "buy busnel v.s.o.p calvados brandy online"
+    ],
+    "src": "existing page keyword"
+  },
+  "calumet-farm-12-year": {
+    "primary": "buy calumet farm bourbon online",
+    "secondary": [
+      "calumet farm bourbon price",
+      "calumet farm 12 year for sale",
+      "calumet farm 12 year same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "calvados-pere-magloire-1901-vintage": {
+    "primary": "buy calvados pere magloire 1901 vintage online",
+    "secondary": [
+      "calvados pere magloire 1901 vintage for sale",
+      "calvados pere magloire 1901 vintage price",
+      "buy calvados pere magloire brandy online"
+    ],
+    "src": "existing page keyword"
+  },
+  "camus-cuvee-5150-grande-champagne": {
+    "primary": "buy camus cuvee 5.150 grande champagne online",
+    "secondary": [
+      "camus cuvee 5.150 grande champagne for sale",
+      "camus cuvee 5.150 grande champagne price",
+      "buy camus cuvee 5.150 grande cognac online"
+    ],
+    "src": "existing page keyword"
+  },
+  "camus-extra-elegance": {
+    "primary": "buy camus extra elegance online",
+    "secondary": [
+      "camus extra elegance for sale",
+      "camus extra elegance price",
+      "buy camus cognac online"
+    ],
+    "src": "existing page keyword"
+  },
+  "camus-vs-elegance": {
+    "primary": "camus vs cognac",
+    "secondary": [],
+    "src": "blog-linked (Semrush-verified)"
+  },
+  "camus-vsop-elegance": {
+    "primary": "camus cognac vsop",
+    "secondary": [],
+    "src": "blog-linked (Semrush-verified)"
+  },
+  "camus-xo-borderies": {
+    "primary": "camus borderies xo",
+    "secondary": [],
+    "src": "blog-linked (Semrush-verified)"
+  },
+  "camus-xo-elegance": {
+    "primary": "camus cognac elegance xo",
+    "secondary": [],
+    "src": "blog-linked (Semrush-verified)"
+  },
+  "canadian-club-100-rye-aged-8-year": {
+    "primary": "canadian club 100 rye",
+    "secondary": [],
+    "src": "blog-linked (Semrush-verified)"
+  },
+  "canadian-club-30-year": {
+    "primary": "grand canadian resort vacation club canmore",
+    "secondary": [],
+    "src": "blog-linked (Semrush-verified)"
+  },
+  "canadian-club-40-year": {
+    "primary": "canadian club whiskey",
+    "secondary": [],
+    "src": "blog-linked (Semrush-verified)"
+  },
+  "canadian-club-chronicles-issue-no5": {
+    "primary": "buy canadian club chronicles issue no.5 online",
+    "secondary": [
+      "canadian club chronicles issue no.5 for sale",
+      "canadian club chronicles issue no.5 price",
+      "buy canadian club chronicles issue canadian online"
+    ],
+    "src": "existing page keyword"
+  },
+  "canadian-club-classic-12-year-limited-edition": {
+    "primary": "canadian club 12 year",
+    "secondary": [],
+    "src": "blog-linked (Semrush-verified)"
+  },
+  "canadian-mist-whisky": {
+    "primary": "buy canadian mist online",
+    "secondary": [
+      "canadian mist price",
+      "canadian mist for sale",
+      "canadian mist same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "capel-premium-pisco": {
+    "primary": "buy capel premium pisco online",
+    "secondary": [
+      "capel premium pisco for sale",
+      "capel premium pisco price",
+      "buy capel brandy online"
+    ],
+    "src": "existing page keyword"
+  },
+  "cardenal-mendoza-brandy": {
+    "primary": "buy cardenal mendoza brandy online",
+    "secondary": [
+      "cardenal mendoza brandy for sale",
+      "cardenal mendoza brandy price",
+      "sánchez brandy buy online"
+    ],
+    "src": "existing page keyword"
+  },
+  "cardhu-single-malt-scotch": {
+    "primary": "buy cardhu online",
+    "secondary": [
+      "cardhu whisky price",
+      "cardhu for sale",
+      "cardhu same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "caribou-crossing-canadian-whisky": {
+    "primary": "buy caribou crossing online",
+    "secondary": [
+      "caribou crossing price",
+      "caribou crossing for sale",
+      "caribou crossing same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "carlos-i-brandy-de-jerez": {
+    "primary": "buy carlos i brandy online",
+    "secondary": [
+      "carlos i brandy price",
+      "carlos i brandy de jerez for sale",
+      "carlos i brandy de jerez same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "catoctin-creek-roundstone-rye": {
+    "primary": "buy catoctin creek roundstone rye online",
+    "secondary": [
+      "catoctin creek price",
+      "catoctin creek roundstone rye for sale",
+      "catoctin creek roundstone rye same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "chateau-de-lacaze-1982-hallmark-collection-bas-armagnac": {
+    "primary": "buy chateau de lacaze armagnac",
+    "secondary": [
+      "1982 vintage armagnac price",
+      "château de lacaze 1982 hallmark collection bas-armagnac for sale",
+      "château de lacaze 1982 hallmark collection bas-armagnac same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "chateau-de-laubade-1888-vintage-armagnac": {
+    "primary": "buy chateau de laubade 1888 vintage armagnac online",
+    "secondary": [
+      "vintage armagnac"
+    ],
+    "src": "existing page keyword (name-based, unverified)"
+  },
+  "chateau-de-laubade-vsop-armagnac": {
+    "primary": "laubade armagnac",
+    "secondary": [],
+    "src": "blog-linked (Semrush-verified)"
+  },
+  "chateau-de-laubade-xo-armagnac": {
+    "primary": "buy chateau de laubade x.o armagnac online",
+    "secondary": [
+      "chateau de laubade x.o armagnac for sale",
+      "chateau de laubade x.o armagnac price",
+      "buy chateau de laubade x.o brandy online"
+    ],
+    "src": "existing page keyword"
+  },
+  "chateau-du-breuil-xo-calvados": {
+    "primary": "buy château du breuil x.o calvados online",
+    "secondary": [
+      "château du breuil x.o calvados for sale",
+      "château du breuil x.o calvados price",
+      "buy château du breuil x.o brandy online"
+    ],
+    "src": "existing page keyword"
+  },
+  "chichibu-whisky": {
+    "primary": "buy chichibu online",
+    "secondary": [
+      "chichibu single malt price",
+      "chichibu ichiro's malt for sale",
+      "chichibu ichiro's malt same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "chicken-cock-cotton-club-20-year-old-canadian-rye-whiskey": {
+    "primary": "buy chicken cock whiskey online",
+    "secondary": [
+      "chicken cock cotton club 20 year old canadian rye whiskey for sale",
+      "chicken cock cotton club 20 year old canadian rye whiskey same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "chicken-cock-cotton-club-20-year-rye": {
+    "primary": "buy chicken cock cotton club rye online",
+    "secondary": [
+      "chicken cock cotton club for sale",
+      "collectible rye whiskey buy online",
+      "chicken cock cotton club 20 year rye for sale"
+    ],
+    "src": "existing page keyword"
+  },
+  "chivas-brothers-blend": {
+    "primary": "chivas brothers blend vs chivas regal",
+    "secondary": [],
+    "src": "blog-linked (Semrush-verified)"
+  },
+  "chivas-regal-12-year": {
+    "primary": "chivas 12 years price",
+    "secondary": [
+      "chivas regal 12 years price"
+    ],
+    "src": "blog-linked (Semrush-verified)"
+  },
+  "chivas-regal-18-year-gold-signature": {
+    "primary": "buy chivas regal 18 year gold signature online",
+    "secondary": [
+      "chivas regal 18 year gold signature for sale",
+      "chivas regal 18 year gold signature price"
+    ],
+    "src": "existing page keyword"
+  },
+  "chivas-regal-18-year-ultimate-cask-collection": {
+    "primary": "buy chivas regal 18 year ultimate cask collection online",
+    "secondary": [
+      "chivas regal 18 year ultimate cask collection for sale",
+      "chivas regal 18 year ultimate cask collection price"
+    ],
+    "src": "existing page keyword"
+  },
+  "chivas-regal-25-year": {
+    "primary": "chivas regal 25 years",
+    "secondary": [],
+    "src": "blog-linked (Semrush-verified)"
+  },
+  "chivas-regal-extra-13-year-american-rye-cask": {
+    "primary": "buy chivas regal extra 13 year american rye cask online",
+    "secondary": [
+      "chivas regal extra 13 year american rye cask for sale",
+      "chivas regal extra 13 year american rye cask price"
+    ],
+    "src": "existing page keyword"
+  },
+  "chivas-regal-extra-13-year-oloroso-cask": {
+    "primary": "buy chivas regal extra 13 year oloroso cask online",
+    "secondary": [
+      "chivas regal extra 13 year oloroso cask for sale",
+      "chivas regal extra 13 year oloroso cask price"
+    ],
+    "src": "existing page keyword"
+  },
+  "chivas-regal-extra-13-year-rum-cask": {
+    "primary": "buy chivas regal extra 13 year rum cask online",
+    "secondary": [
+      "chivas regal extra 13 year rum cask for sale",
+      "chivas regal extra 13 year rum cask price"
+    ],
+    "src": "existing page keyword"
+  },
+  "chivas-regal-extra-13-year-sherry-cask": {
+    "primary": "buy chivas regal extra 13 year sherry cask online",
+    "secondary": [
+      "chivas regal extra 13 year sherry cask for sale",
+      "chivas regal extra 13 year sherry cask price"
+    ],
+    "src": "existing page keyword"
+  },
+  "chivas-regal-icon": {
+    "primary": "buy chivas regal icon online",
+    "secondary": [
+      "chivas regal icon for sale",
+      "chivas regal icon price",
+      "buy chivas regal icon scotch online"
+    ],
+    "src": "existing page keyword"
+  },
+  "chivas-regal-mizunara": {
+    "primary": "buy chivas regal mizunara online",
+    "secondary": [
+      "chivas regal mizunara for sale",
+      "chivas regal mizunara price",
+      "buy chivas regal mizunara scotch online"
+    ],
+    "src": "existing page keyword"
+  },
+  "chivas-regal-ultis": {
+    "primary": "buy chivas regal ultis online",
+    "secondary": [
+      "chivas regal ultis"
+    ],
+    "src": "existing page keyword (name-based, unverified)"
+  },
+  "chivas-regal-xv-15-year": {
+    "primary": "chivas regal liquor price",
+    "secondary": [],
+    "src": "blog-linked (Semrush-verified)"
+  },
+  "christian-brothers-vs-brandy": {
+    "primary": "buy christian brothers v.s brandy online",
+    "secondary": [
+      "christian brothers v.s brandy for sale",
+      "christian brothers v.s brandy price",
+      "buy christian brothers v.s brandy online same day"
+    ],
+    "src": "existing page keyword"
+  },
+  "christian-drouin-calvados-vsop": {
+    "primary": "buy christian drouin calvados v.s.o.p online",
+    "secondary": [
+      "christian drouin calvados v.s.o.p for sale",
+      "christian drouin calvados v.s.o.p price",
+      "buy christian drouin calvados v.s.o.p brandy online"
+    ],
+    "src": "existing page keyword"
+  },
+  "clear-creek-apple-brandy": {
+    "primary": "buy clear creek apple brandy online",
+    "secondary": [
+      "clear creek apple brandy for sale",
+      "clear creek apple brandy price",
+      "buy clear creek apple brandy online same day"
+    ],
+    "src": "existing page keyword"
+  },
+  "clynelish-14-year": {
+    "primary": "clynelish whisky price",
+    "secondary": [
+      "buy clynelish 14 year online",
+      "clynelish 14 year for sale",
+      "clynelish 14 year same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "coeur-de-lion-calvados": {
+    "primary": "buy coeur de lion online",
+    "secondary": [
+      "coeur de lion price",
+      "coeur de lion calvados for sale",
+      "coeur de lion calvados same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "coleraine-1959-34-year-old-very-rare": {
+    "primary": "coleraine 1959 price",
+    "secondary": [
+      "coleraine 1959 34 year old very rare for sale",
+      "coleraine 1959 34 year old very rare same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "collingwood-21-year-rare-limited": {
+    "primary": "buy collingwood 21 year rare limited online",
+    "secondary": [
+      "collingwood 21 year rare limited for sale",
+      "collingwood 21 year rare limited price",
+      "buy collingwood canadian online"
+    ],
+    "src": "existing page keyword"
+  },
+  "compass-box-asyla-blended-scotch": {
+    "primary": "buy compass box asyla blended scotch online",
+    "secondary": [
+      "compass box asyla blended scotch for sale",
+      "compass box asyla blended scotch price",
+      "buy compass box asyla blended online same day"
+    ],
+    "src": "existing page keyword"
+  },
+  "compass-box-no-name-no3": {
+    "primary": "buy compass box no name no.3 online",
+    "secondary": [
+      "compass box no name no.3 for sale",
+      "compass box no name no.3 price",
+      "buy compass box no name scotch online"
+    ],
+    "src": "existing page keyword"
+  },
+  "compass-box-orchard-house": {
+    "primary": "buy compass box orchard house online",
+    "secondary": [
+      "compass box orchard house for sale",
+      "compass box orchard house price",
+      "buy compass box orchard house scotch online"
+    ],
+    "src": "existing page keyword"
+  },
+  "compass-box-the-peat-monster": {
+    "primary": "buy compass box the peat monster online",
+    "secondary": [
+      "compass box the peat monster for sale",
+      "compass box the peat monster price",
+      "buy compass box the peat scotch online"
+    ],
+    "src": "existing page keyword"
+  },
+  "connemara-peated-irish-whiskey": {
+    "primary": "buy connemara online",
+    "secondary": [
+      "connemara whiskey price",
+      "connemara for sale",
+      "connemara same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "copper-and-kings-american-craft-brandy": {
+    "primary": "buy copper and kings brandy online",
+    "secondary": [
+      "copper and kings brandy price",
+      "copper &amp; kings american craft brandy for sale",
+      "copper &amp; kings american craft brandy same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "courvoisier-12-year": {
+    "primary": "buy courvoisier 12 year online",
+    "secondary": [
+      "courvoisier 12 year for sale",
+      "courvoisier 12 year price",
+      "buy courvoisier 12yr cognac"
+    ],
+    "src": "existing page keyword"
+  },
+  "courvoisier-21-year": {
+    "primary": "courvoisier cognac price",
+    "secondary": [],
+    "src": "blog-linked (Semrush-verified)"
+  },
+  "courvoisier-l-essence": {
+    "primary": "buy courvoisier l essence online",
+    "secondary": [
+      "courvoisier l essence for sale",
+      "courvoisier l essence price",
+      "buy courvoisier l essence cognac online"
+    ],
+    "src": "existing page keyword"
+  },
+  "courvoisier-lesprit-original-1800s-reserve": {
+    "primary": "buy courvoisier l'esprit original 1800s reserve online",
+    "secondary": [
+      "courvoisier l'esprit original 1800s reserve for sale",
+      "courvoisier l'esprit original 1800s reserve price",
+      "buy courvoisier l'esprit cognac online"
+    ],
+    "src": "existing page keyword"
+  },
+  "courvoisier-rose": {
+    "primary": "buy courvoisier rose online",
+    "secondary": [
+      "courvoisier rose for sale",
+      "courvoisier rose price",
+      "buy courvoisier rose cognac online"
+    ],
+    "src": "existing page keyword"
+  },
+  "courvoisier-succession-js": {
+    "primary": "buy courvoisier succession j.s online",
+    "secondary": [
+      "courvoisier succession j.s for sale",
+      "courvoisier succession j.s price",
+      "buy courvoisier succession j.s cognac online"
+    ],
+    "src": "existing page keyword"
+  },
+  "courvoisier-vs": {
+    "primary": "courvoisier vs cognac",
+    "secondary": [
+      "courvoisier cognac vs"
+    ],
+    "src": "blog-linked (Semrush-verified)"
+  },
+  "courvoisier-vsop": {
+    "primary": "courvoisier vsop price",
+    "secondary": [],
+    "src": "blog-linked (Semrush-verified)"
+  },
+  "courvoisier-xo": {
+    "primary": "courvoisier cognac xo",
+    "secondary": [],
+    "src": "blog-linked (Semrush-verified)"
+  },
+  "craft-bourbon-gift-set": {
+    "primary": "buy craft bourbon gift set",
+    "secondary": [
+      "bourbon sampler online"
+    ],
+    "src": "existing page keyword"
+  },
+  "cragganmore-single-malt-scotch": {
+    "primary": "buy cragganmore online",
+    "secondary": [
+      "cragganmore whisky price",
+      "cragganmore for sale",
+      "cragganmore same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "craigellachie-13-year": {
+    "primary": "craigellachie whisky price",
+    "secondary": [
+      "buy craigellachie 13 year online",
+      "craigellachie 13 year for sale",
+      "craigellachie 13 year same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "croizet-vsop": {
+    "primary": "buy croizet cognac online",
+    "secondary": [
+      "croizet cognac price",
+      "croizet vsop for sale",
+      "croizet vsop same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "crown-royal-18-year-extra-rare": {
+    "primary": "crown royal xr",
+    "secondary": [],
+    "src": "blog-linked (Semrush-verified)"
+  },
+  "crown-royal-black": {
+    "primary": "blackberry crown royal",
+    "secondary": [
+      "crown royal black"
+    ],
+    "src": "blog-linked (Semrush-verified)"
+  },
+  "crown-royal-deluxe": {
+    "primary": "crown royal whiskey price",
+    "secondary": [
+      "crown royal deluxe"
+    ],
+    "src": "blog-linked (Semrush-verified)"
+  },
+  "crown-royal-extra-rare-xr-limited": {
+    "primary": "buy crown royal extra rare (xr) limited online",
+    "secondary": [
+      "crown royal extra rare (xr) limited for sale",
+      "crown royal extra rare (xr) limited price",
+      "buy crown royal online same day"
+    ],
+    "src": "existing page keyword"
+  },
+  "crown-royal-noble-collection-cornerstone-blend": {
+    "primary": "buy crown royal noble collection cornerstone blend online",
+    "secondary": [
+      "crown royal noble collection cornerstone blend for sale",
+      "crown royal noble collection cornerstone blend price"
+    ],
+    "src": "existing page keyword"
+  },
+  "crown-royal-noble-collection-winter-wheat": {
+    "primary": "buy crown royal noble collection winter wheat online",
+    "secondary": [
+      "crown royal noble collection winter wheat for sale",
+      "crown royal noble collection winter wheat price"
+    ],
+    "src": "existing page keyword"
+  },
+  "crown-royal-xo": {
+    "primary": "buy crown royal xo online",
+    "secondary": [
+      "crown royal xo"
+    ],
+    "src": "existing page keyword (name-based, unverified)"
+  },
+  "cutty-sark-scotch-whisky": {
+    "primary": "buy cutty sark online",
+    "secondary": [
+      "cutty sark price",
+      "cutty sark for sale",
+      "cutty sark same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "d-usse-cabaret-edition": {
+    "primary": "d usse the liquor",
+    "secondary": [],
+    "src": "blog-linked (Semrush-verified)"
+  },
+  "d-usse-limited-edition-750ml": {
+    "primary": "dusse 750ml",
+    "secondary": [],
+    "src": "blog-linked (Semrush-verified)"
+  },
+  "d-usse-vsop-cognac": {
+    "primary": "d'usse vsop",
+    "secondary": [],
+    "src": "blog-linked (Semrush-verified)"
+  },
+  "d-usse-xo-cognac": {
+    "primary": "d'usse xo cognac",
+    "secondary": [],
+    "src": "blog-linked (Semrush-verified)"
+  },
+  "dads-hat-rye-whiskey": {
+    "primary": "buy dads hat online",
+    "secondary": [
+      "dads hat price",
+      "dad's hat for sale",
+      "dad's hat same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "dalmore-25-year": {
+    "primary": "buy dalmore 25 year online",
+    "secondary": [
+      "dalmore 25 year for sale",
+      "dalmore 25 year price",
+      "buy dalmore 25yr scotch"
+    ],
+    "src": "existing page keyword"
+  },
+  "dalmore-62-year-trinitas": {
+    "primary": "buy dalmore 62 year trinitas online",
+    "secondary": [
+      "dalmore 62 year trinitas for sale",
+      "dalmore 62 year trinitas price",
+      "rare dalmore scotch buy"
+    ],
+    "src": "existing page keyword"
+  },
+  "dalmore-luminary-no3-1987": {
+    "primary": "buy dalmore luminary no.3 1987 online",
+    "secondary": [
+      "dalmore luminary no.3 1987 for sale",
+      "dalmore luminary no.3 1987 price",
+      "buy dalmore luminary no.3 scotch online"
+    ],
+    "src": "existing page keyword"
+  },
+  "dalwhinnie-15-year": {
+    "primary": "dalwhinnie whisky price",
+    "secondary": [
+      "buy dalwhinnie 15 year online",
+      "dalwhinnie 15 year for sale",
+      "dalwhinnie 15 year same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "darroze-bas-armagnac": {
+    "primary": "darroze armagnac",
+    "secondary": [],
+    "src": "blog-linked (Semrush-verified)"
+  },
+  "deanston-single-malt-scotch": {
+    "primary": "buy deanston online",
+    "secondary": [
+      "deanston whisky price",
+      "deanston for sale",
+      "deanston same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "delamain-pale-dry-xo": {
+    "primary": "buy delamain pale &amp; dry x.o online",
+    "secondary": [
+      "delamain pale &amp; dry x.o for sale",
+      "delamain pale &amp; dry x.o price",
+      "buy delamain pale &amp; dry cognac online"
+    ],
+    "src": "existing page keyword"
+  },
+  "delord-15-year-armagnac": {
+    "primary": "delord bas armagnac",
+    "secondary": [],
+    "src": "blog-linked (Semrush-verified)"
+  },
+  "delord-25-year-armagnac": {
+    "primary": "buy delord 25 year armagnac online",
+    "secondary": [
+      "delord 25 year armagnac for sale",
+      "delord 25 year armagnac price",
+      "rare delord brandy buy"
+    ],
+    "src": "existing page keyword"
+  },
+  "dewars-12-year": {
+    "primary": "dewars 12 year",
+    "secondary": [
+      "dewar's 12 year scotch whisky"
+    ],
+    "src": "blog-linked (Semrush-verified)"
+  },
+  "dewars-15-year": {
+    "primary": "buy dewar's 15 year online",
+    "secondary": [
+      "dewar's 15 year for sale",
+      "dewar's 15 year price",
+      "buy dewar's 15yr scotch"
+    ],
+    "src": "existing page keyword"
+  },
+  "dewars-18-year": {
+    "primary": "dewars 18 year",
+    "secondary": [],
+    "src": "blog-linked (Semrush-verified)"
+  },
+  "dewars-25-year": {
+    "primary": "buy dewar's 25 year online",
+    "secondary": [
+      "dewar's 25 year for sale",
+      "dewar's 25 year price",
+      "buy dewar's 25yr scotch"
+    ],
+    "src": "existing page keyword"
+  },
+  "dewars-caribbean-smooth-8-year": {
+    "primary": "buy dewar's caribbean smooth 8 year online",
+    "secondary": [
+      "dewar's caribbean smooth 8 year for sale",
+      "dewar's caribbean smooth 8 year price",
+      "buy dewar's caribbean smooth scotch online"
+    ],
+    "src": "existing page keyword"
+  },
+  "dewars-double-double-21-year": {
+    "primary": "dewar's scotch whisky",
+    "secondary": [],
+    "src": "blog-linked (Semrush-verified)"
+  },
+  "dewars-double-double-27-year": {
+    "primary": "buy dewar's double 27 year online",
+    "secondary": [
+      "dewar's double 27 year for sale",
+      "dewar's double 27 year price",
+      "buy dewar's 27yr scotch"
+    ],
+    "src": "existing page keyword"
+  },
+  "dewars-double-double-32-year": {
+    "primary": "buy dewar's double 32 year online",
+    "secondary": [
+      "dewar's double 32 year for sale",
+      "dewar's double 32 year price",
+      "buy dewar's 32yr scotch"
+    ],
+    "src": "existing page keyword"
+  },
+  "dewars-ilegal-smooth-mezcal-cask": {
+    "primary": "buy dewar's ilegal smooth mezcal cask online",
+    "secondary": [
+      "dewar's ilegal smooth mezcal cask for sale",
+      "dewar's ilegal smooth mezcal cask price",
+      "buy dewar's ilegal smooth mezcal scotch online"
+    ],
+    "src": "existing page keyword"
+  },
+  "dewars-scratched-cask-8-year": {
+    "primary": "buy dewar's scratched cask 8 year online",
+    "secondary": [
+      "dewar's scratched cask 8 year for sale",
+      "dewar's scratched cask 8 year price",
+      "buy dewar's scratched scotch online"
+    ],
+    "src": "existing page keyword"
+  },
+  "dewars-white-label": {
+    "primary": "dewars white label price",
+    "secondary": [
+      "dewar's white label scotch whisky"
+    ],
+    "src": "blog-linked (Semrush-verified)"
+  },
+  "dillons-small-batch-rye": {
+    "primary": "buy dillon's rye whisky online",
+    "secondary": [
+      "dillon's rye whisky price",
+      "dillon's small batch rye for sale",
+      "dillon's small batch rye same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "dingle-single-malt": {
+    "primary": "buy dingle single malt online",
+    "secondary": [
+      "dingle whiskey price",
+      "dingle single malt for sale",
+      "dingle single malt same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "domaine-boingneres-armagnac": {
+    "primary": "buy domaine boingneres armagnac online",
+    "secondary": [
+      "domaine boingneres price",
+      "domaine boingnères armagnac for sale",
+      "domaine boingnères armagnac same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "domfront-calvados": {
+    "primary": "buy domfront calvados online",
+    "secondary": [
+      "domfront calvados price",
+      "domfront calvados for sale",
+      "domfront calvados same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "dupuy-cognac": {
+    "primary": "buy dupuy online",
+    "secondary": [
+      "dupuy xo price",
+      "dupuy for sale",
+      "dupuy same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "eau-claire-distillery-ruperts-whisky": {
+    "primary": "buy eau claire distillery whisky online",
+    "secondary": [
+      "eau claire whisky price",
+      "eau claire distillery rupert's whisky for sale",
+      "eau claire distillery rupert's whisky same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "edradour-10-year": {
+    "primary": "edradour whisky price",
+    "secondary": [
+      "buy edradour 10 year online",
+      "edradour 10 year for sale",
+      "edradour 10 year same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "egans-vintage-grain": {
+    "primary": "buy egan's vintage grain online",
+    "secondary": [
+      "egans whiskey price",
+      "egan's vintage grain for sale",
+      "egan's vintage grain same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "eh-taylor-single-barrel-bourbon": {
+    "primary": "buy eh taylor single barrel online",
+    "secondary": [
+      "eh taylor barrel proof price",
+      "colonel e.h. taylor single barrel / barrel proof for sale",
+      "colonel e.h. taylor single barrel / barrel proof same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "eh-taylor-small-batch-bib": {
+    "primary": "eh taylor small batch bottled in bond",
+    "secondary": [],
+    "src": "blog-linked (Semrush-verified)"
+  },
+  "ej-vs-brandy": {
+    "primary": "buy e&amp;j v.s brandy online",
+    "secondary": [
+      "e&amp;j v.s brandy for sale",
+      "e&amp;j v.s brandy price",
+      "buy e&amp;j v.s brandy online same day"
+    ],
+    "src": "existing page keyword"
+  },
+  "ej-vsop-brandy": {
+    "primary": "buy e&amp;j v.s.o.p brandy online",
+    "secondary": [
+      "e&amp;j v.s.o.p brandy for sale",
+      "e&amp;j v.s.o.p brandy price",
+      "buy e&amp;j v.s.o.p brandy online same day"
+    ],
+    "src": "existing page keyword"
+  },
+  "elijah-craig-18-year-single-barrel": {
+    "primary": "elijah craig single barrel 18 year",
+    "secondary": [],
+    "src": "blog-linked (Semrush-verified)"
+  },
+  "elijah-craig-barrel-proof-bourbon": {
+    "primary": "buy elijah craig barrel proof bourbon online",
+    "secondary": [
+      "elijah craig barrel proof",
+      "elijah craig barrel proof b525"
+    ],
+    "src": "existing page keyword (name-based, unverified)"
+  },
+  "elijah-craig-small-batch-bourbon": {
+    "primary": "elijah craig price",
+    "secondary": [],
+    "src": "blog-linked (Semrush-verified)"
+  },
+  "elijah-craig-toasted-barrel": {
+    "primary": "buy elijah craig toasted barrel online",
+    "secondary": [
+      "elijah craig toasted barrel"
+    ],
+    "src": "existing page keyword (name-based, unverified)"
+  },
+  "elmer-t-lee-bourbon": {
+    "primary": "buy elmer t lee online",
+    "secondary": [
+      "elmer t lee single barrel price",
+      "elmer t. lee single barrel for sale",
+      "elmer t. lee single barrel same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "evan-williams-black-label": {
+    "primary": "evan williams black label bourbon",
+    "secondary": [
+      "evan williams bourbon whiskey"
+    ],
+    "src": "blog-linked (Semrush-verified)"
+  },
+  "evan-williams-single-barrel-vintage": {
+    "primary": "buy evan williams single barrel vintage online",
+    "secondary": [
+      "evan williams single barrel vintage for sale",
+      "evan williams single barrel vintage price",
+      "buy evan williams bourbon online"
+    ],
+    "src": "existing page keyword"
+  },
+  "ezra-brooks-bourbon": {
+    "primary": "buy ezra brooks online",
+    "secondary": [
+      "ezra brooks bourbon price",
+      "ezra brooks for sale",
+      "ezra brooks same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "famous-grouse-smoky-black": {
+    "primary": "buy famous grouse smoky black online",
+    "secondary": [
+      "famous grouse smoky black for sale",
+      "famous grouse smoky black price",
+      "buy famous grouse smoky black scotch online"
+    ],
+    "src": "existing page keyword"
+  },
+  "few-rye-whiskey": {
+    "primary": "best rye whiskey 2025",
+    "secondary": [],
+    "src": "blog-linked (Semrush-verified)"
+  },
+  "forty-creek-blood-oath-pact-no7": {
+    "primary": "buy forty creek blood oath pact no.7 online",
+    "secondary": [
+      "forty creek blood oath pact no.7 for sale",
+      "forty creek blood oath pact no.7 price",
+      "buy forty creek blood oath canadian online"
+    ],
+    "src": "existing page keyword"
+  },
+  "forty-creek-confederation-oak-reserve": {
+    "primary": "buy forty creek confederation oak reserve online",
+    "secondary": [
+      "forty creek confederation oak"
+    ],
+    "src": "existing page keyword (name-based, unverified)"
+  },
+  "forty-creek-double-barrel-reserve": {
+    "primary": "buy forty creek double barrel reserve online",
+    "secondary": [
+      "forty creek double barrel reserve for sale",
+      "forty creek double barrel reserve price",
+      "buy forty creek canadian online"
+    ],
+    "src": "existing page keyword"
+  },
+  "forty-creek-heart-of-gold": {
+    "primary": "buy forty creek heart of gold online",
+    "secondary": [
+      "forty creek heart of gold for sale",
+      "forty creek heart of gold price",
+      "buy forty creek heart of canadian online"
+    ],
+    "src": "existing page keyword"
+  },
+  "forty-creek-rye-whisky-masters-cut": {
+    "primary": "buy forty creek rye whisky masters cut online",
+    "secondary": [
+      "forty creek rye whisky masters cut for sale",
+      "forty creek rye whisky masters cut price",
+      "buy forty creek rye whisky canadian online"
+    ],
+    "src": "existing page keyword"
+  },
+  "found-north-peregrine-first-flight-21-year-old-cask-strength": {
+    "primary": "found north 21 year price",
+    "secondary": [
+      "buy found north canadian whisky",
+      "found north peregrine first flight 21 year old cask strength for sale",
+      "found north peregrine first flight 21 year old cask strength same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "four-roses-limited-edition-single-barrel": {
+    "primary": "buy four roses single barrel online",
+    "secondary": [
+      "four roses le price",
+      "four roses limited edition single barrel for sale",
+      "four roses limited edition single barrel same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "four-roses-limited-edition-small-batch": {
+    "primary": "buy four roses limited edition small batch online",
+    "secondary": [
+      "four roses limited edition small batch for sale",
+      "four roses limited edition small batch price",
+      "buy four roses bourbon online"
+    ],
+    "src": "existing page keyword"
+  },
+  "four-roses-small-batch": {
+    "primary": "buy four roses small batch online",
+    "secondary": [
+      "four roses small batch for sale",
+      "buy four roses small bourbon online",
+      "buy four roses small online same day"
+    ],
+    "src": "existing page keyword"
+  },
+  "francois-voyer-hors-dage-grande-champagne-cognac": {
+    "primary": "buy francois voyer cognac",
+    "secondary": [
+      "voyer grande champagne price",
+      "françois voyer hors d'âge grande champagne cognac for sale",
+      "françois voyer hors d'âge grande champagne cognac same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "frapin-1858-grande-champagne-1er-cru": {
+    "primary": "buy frapin 1858 grande champagne 1er cru online",
+    "secondary": [
+      "frapin 1858 grande champagne 1er cru for sale",
+      "frapin 1858 grande champagne 1er cru price",
+      "buy frapin brandy online"
+    ],
+    "src": "existing page keyword"
+  },
+  "frapin-chateau-fontpinot-xo": {
+    "primary": "buy frapin chateau fontpinot x.o online",
+    "secondary": [
+      "frapin chateau fontpinot x.o for sale",
+      "frapin chateau fontpinot x.o price",
+      "buy frapin chateau fontpinot x.o cognac online"
+    ],
+    "src": "existing page keyword"
+  },
+  "frey-ranch-bourbon": {
+    "primary": "buy frey ranch bourbon online",
+    "secondary": [
+      "frey ranch bourbon price",
+      "frey ranch bourbon for sale",
+      "frey ranch bourbon same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "fuji-whisky": {
+    "primary": "buy fuji whisky online",
+    "secondary": [
+      "fuji whisky price",
+      "fuji whisky for sale",
+      "fuji whisky same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "fundador-brandy": {
+    "primary": "buy fundador brandy online",
+    "secondary": [
+      "fundador brandy price",
+      "fundador brandy for sale",
+      "fundador brandy same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "garrison-brothers-bourbon": {
+    "primary": "buy garrison brothers online",
+    "secondary": [
+      "garrison brothers price",
+      "garrison brothers for sale",
+      "garrison brothers same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "gautier-cognac": {
+    "primary": "buy gautier online",
+    "secondary": [
+      "gautier xo price",
+      "gautier cognac for sale",
+      "gautier cognac same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "george-dickel-rye-1988-cask-strength-heritage": {
+    "primary": "buy george dickel rye 1988 cask strength heritage online",
+    "secondary": [
+      "george dickel rye 1988 cask strength heritage for sale",
+      "george dickel rye 1988 cask strength heritage price",
+      "buy george dickel rye online"
+    ],
+    "src": "existing page keyword"
+  },
+  "george-remus-bourbon": {
+    "primary": "buy george remus bourbon online",
+    "secondary": [
+      "george remus bourbon price",
+      "george remus bourbon for sale",
+      "george remus bourbon same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "george-t-stagg-1978-single-barrel": {
+    "primary": "buy george t. stagg 1978 single barrel online",
+    "secondary": [
+      "george t. stagg 1978 single barrel for sale",
+      "george t. stagg 1978 single barrel price"
+    ],
+    "src": "existing page keyword"
+  },
+  "george-t-stagg-2007-vintage-release": {
+    "primary": "buy george t. stagg 2007 vintage release online",
+    "secondary": [
+      "george t. stagg 2007 vintage release for sale",
+      "george t. stagg 2007 vintage release price"
+    ],
+    "src": "existing page keyword"
+  },
+  "george-t-stagg-barrel-proof": {
+    "primary": "buy george t. stagg barrel proof online",
+    "secondary": [
+      "george t. stagg barrel proof for sale",
+      "george t. stagg barrel proof price"
+    ],
+    "src": "existing page keyword"
+  },
+  "germain-robin-brandy": {
+    "primary": "buy germain robin online",
+    "secondary": [
+      "germain robin price",
+      "germain-robin for sale",
+      "germain-robin same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "gibsons-finest-canadian-whisky": {
+    "primary": "buy gibsons finest online",
+    "secondary": [
+      "gibsons finest price",
+      "gibson's finest for sale",
+      "gibson's finest same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "gimli-distillery-crown-royal-cask-series-no16": {
+    "primary": "buy gimli distillery crown royal cask series no.16 online",
+    "secondary": [
+      "gimli distillery crown royal cask series no.16 for sale",
+      "gimli distillery crown royal cask series no.16 price",
+      "buy gimli distillery crown royal canadian online"
+    ],
+    "src": "existing page keyword"
+  },
+  "glen-grant-single-malt-scotch": {
+    "primary": "buy glen grant online",
+    "secondary": [
+      "glen grant whisky price",
+      "glen grant for sale",
+      "glen grant same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "glen-moray-classic": {
+    "primary": "glen moray whisky price",
+    "secondary": [
+      "buy glen moray classic online",
+      "glen moray classic for sale",
+      "glen moray classic same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "glen-scotia-double-cask": {
+    "primary": "glen scotia whisky price",
+    "secondary": [
+      "buy glen scotia double cask online",
+      "glen scotia double cask for sale",
+      "glen scotia double cask same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "glenallachie-12-year": {
+    "primary": "glenallachie whisky price",
+    "secondary": [
+      "buy glenallachie 12 year online",
+      "glenallachie 12 year for sale",
+      "glenallachie 12 year same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "glendalough-double-barrel": {
+    "primary": "buy glendalough double barrel online",
+    "secondary": [
+      "glendalough whiskey price",
+      "glendalough double barrel for sale",
+      "glendalough double barrel same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "glendronach-12-year-original": {
+    "primary": "glendronach 12 price",
+    "secondary": [
+      "glendronach 12"
+    ],
+    "src": "blog-linked (Semrush-verified)"
+  },
+  "glendronach-15-year-revival": {
+    "primary": "buy glendronach 15 year revival online",
+    "secondary": [
+      "glendronach 15",
+      "glendronach 15 revival"
+    ],
+    "src": "existing page keyword (name-based, unverified)"
+  },
+  "glendronach-18-year-allardice": {
+    "primary": "glendronach allardice 18",
+    "secondary": [],
+    "src": "blog-linked (Semrush-verified)"
+  },
+  "glendronach-21-year-parliament": {
+    "primary": "glendronach 21 parliament",
+    "secondary": [],
+    "src": "blog-linked (Semrush-verified)"
+  },
+  "glendronach-grandeur-25-year-old-batch-8": {
+    "primary": "glendronach grandeur 25 year old price",
+    "secondary": [
+      "buy glendronach grandeur online",
+      "glendronach grandeur 25 year old batch 8 for sale",
+      "glendronach grandeur 25 year old batch 8 same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "glenfarclas-10-year": {
+    "primary": "buy glenfarclas 10 year online",
+    "secondary": [
+      "glenfarclas 10 year for sale",
+      "glenfarclas 10 year price",
+      "buy glenfarclas 10yr scotch"
+    ],
+    "src": "existing page keyword"
+  },
+  "glenfarclas-15-year": {
+    "primary": "buy glenfarclas 15 year online",
+    "secondary": [
+      "glenfarclas 15 year for sale",
+      "glenfarclas 15 year price",
+      "buy glenfarclas 15yr scotch"
+    ],
+    "src": "existing page keyword"
+  },
+  "glenfarclas-21-year": {
+    "primary": "buy glenfarclas 21 year online",
+    "secondary": [
+      "glenfarclas 21 year for sale",
+      "glenfarclas 21 year price",
+      "buy glenfarclas 21yr scotch"
+    ],
+    "src": "existing page keyword"
+  },
+  "glenfarclas-40-year-old": {
+    "primary": "buy glenfarclas 40 year old",
+    "secondary": [
+      "glenfarclas 40 price",
+      "glenfarclas 40 year old for sale",
+      "glenfarclas 40 year old same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "glenfiddich-12-year": {
+    "primary": "price for glenfiddich 12",
+    "secondary": [
+      "glenfiddich single malt whisky",
+      "glenfiddich 12 year",
+      "12 year glenfiddich"
+    ],
+    "src": "blog-linked (Semrush-verified)"
+  },
+  "glenfiddich-18-year": {
+    "primary": "glenfiddich 18 price",
+    "secondary": [
+      "glenfiddich 18"
+    ],
+    "src": "blog-linked (Semrush-verified)"
+  },
+  "glenfiddich-1937-rare-collection": {
+    "primary": "buy glenfiddich 1937 rare collection online",
+    "secondary": [
+      "glenfiddich 1937 rare collection for sale",
+      "glenfiddich 1937 rare collection price",
+      "buy glenfiddich online same day"
+    ],
+    "src": "existing page keyword"
+  },
+  "glenfiddich-26-year-excellence": {
+    "primary": "glenfiddich single malt scotch whisky",
+    "secondary": [],
+    "src": "blog-linked (Semrush-verified)"
+  },
+  "glenfiddich-30-year": {
+    "primary": "glenfiddich 30 year old",
+    "secondary": [],
+    "src": "blog-linked (Semrush-verified)"
+  },
+  "glenfiddich-40-year": {
+    "primary": "buy glenfiddich 40 year online",
+    "secondary": [
+      "glenfiddich 40 year for sale",
+      "glenfiddich 40 year price",
+      "buy glenfiddich 40yr scotch"
+    ],
+    "src": "existing page keyword"
+  },
+  "glenfiddich-50-year": {
+    "primary": "glenfiddich 50 years price",
+    "secondary": [
+      "buy glenfiddich 50 year online",
+      "glenfiddich 50 year for sale",
+      "glenfiddich 50 year price"
+    ],
+    "src": "existing page keyword"
+  },
+  "glengoyne-single-malt-scotch": {
+    "primary": "buy glengoyne online",
+    "secondary": [
+      "glengoyne whisky price",
+      "glengoyne for sale",
+      "glengoyne same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "glenkinchie-12-year": {
+    "primary": "glenkinchie whisky price",
+    "secondary": [
+      "buy glenkinchie 12 year online",
+      "glenkinchie 12 year for sale",
+      "glenkinchie 12 year same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "glenlivet-21-year-archive": {
+    "primary": "buy glenlivet 21 year archive online",
+    "secondary": [
+      "glenlivet 21 year archive for sale",
+      "glenlivet 21 year archive price",
+      "buy glenlivet 21yr scotch"
+    ],
+    "src": "existing page keyword"
+  },
+  "glenlivet-50-year": {
+    "primary": "buy glenlivet 50 year online",
+    "secondary": [
+      "glenlivet 50 year for sale",
+      "glenlivet 50 year price",
+      "rare glenlivet scotch buy"
+    ],
+    "src": "existing page keyword"
+  },
+  "glenmorangie-18-year-extremely-rare": {
+    "primary": "buy glenmorangie 18 year extremely rare online",
+    "secondary": [
+      "glenmorangie 18 year extremely rare for sale",
+      "glenmorangie 18 year extremely rare price",
+      "buy glenmorangie 18yr scotch"
+    ],
+    "src": "existing page keyword"
+  },
+  "glenmorangie-a-tale-of-cake": {
+    "primary": "buy glenmorangie a tale of cake online",
+    "secondary": [
+      "glenmorangie a tale of cake for sale",
+      "glenmorangie a tale of cake price",
+      "buy glenmorangie a tale of scotch online"
+    ],
+    "src": "existing page keyword"
+  },
+  "glenmorangie-nectar-dor-12-year": {
+    "primary": "buy glenmorangie nectar d'or 12 year online",
+    "secondary": [
+      "glenmorangie nectar d'or 12 year for sale",
+      "glenmorangie nectar d'or 12 year price",
+      "buy glenmorangie nectar d'or scotch online"
+    ],
+    "src": "existing page keyword"
+  },
+  "glenmorangie-original-10-year": {
+    "primary": "highland scotch whisky single malt",
+    "secondary": [],
+    "src": "blog-linked (Semrush-verified)"
+  },
+  "glenmorangie-quinta-ruban-14-year": {
+    "primary": "buy glenmorangie quinta ruban 14 year online",
+    "secondary": [
+      "glenmorangie quinta ruban 14 year for sale",
+      "glenmorangie quinta ruban 14 year price",
+      "buy glenmorangie quinta ruban scotch online"
+    ],
+    "src": "existing page keyword"
+  },
+  "glenmorangie-signet": {
+    "primary": "buy glenmorangie signet online",
+    "secondary": [
+      "glenmorangie signet for sale",
+      "buy glenmorangie signet scotch online",
+      "buy glenmorangie signet online same day"
+    ],
+    "src": "existing page keyword"
+  },
+  "glenora-glen-breton-rare-25-year": {
+    "primary": "buy glenora glen breton rare 25 year online",
+    "secondary": [
+      "glenora glen breton rare 25 year for sale",
+      "glenora glen breton rare 25 year price",
+      "buy glenora glen breton canadian online"
+    ],
+    "src": "existing page keyword"
+  },
+  "glenrothes-single-malt-scotch": {
+    "primary": "buy glenrothes online",
+    "secondary": [
+      "glenrothes whisky price",
+      "the glenrothes for sale",
+      "the glenrothes same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "godet-cognac": {
+    "primary": "buy godet online",
+    "secondary": [
+      "godet xo price",
+      "godet for sale",
+      "godet same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "gooderham-and-worts-canadian-whisky": {
+    "primary": "buy gooderham and worts online",
+    "secondary": [
+      "gooderham and worts price",
+      "gooderham &amp; worts for sale",
+      "gooderham &amp; worts same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "gran-duque-de-alba-brandy": {
+    "primary": "buy gran duque de alba online",
+    "secondary": [
+      "gran duque de alba price",
+      "gran duque d'alba for sale",
+      "gran duque d'alba same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "grants-ale-cask-finish": {
+    "primary": "grant's whisky price",
+    "secondary": [
+      "buy grant's ale cask online",
+      "grant's ale cask finish for sale",
+      "grant's ale cask finish same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "grants-triple-wood": {
+    "primary": "buy grant's triple wood online",
+    "secondary": [
+      "grant's triple wood for sale",
+      "grant's triple wood price",
+      "buy grant's scotch online"
+    ],
+    "src": "existing page keyword"
+  },
+  "green-river-bourbon": {
+    "primary": "buy green river bourbon online",
+    "secondary": [
+      "green river bourbon for sale",
+      "green river bourbon same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "green-spot-chateau-leoville-barton-1989-vintage": {
+    "primary": "buy green spot chateau leoville barton 1989 vintage online",
+    "secondary": [
+      "green spot chateau leoville barton 1989 vintage for sale",
+      "green spot chateau leoville barton 1989 vintage price",
+      "buy green spot chateau leoville irish online"
+    ],
+    "src": "existing page keyword"
+  },
+  "green-spot-single-pot-still": {
+    "primary": "green spot single pot still irish whiskey",
+    "secondary": [],
+    "src": "blog-linked (Semrush-verified)"
+  },
+  "grosperrin-18-year-old": {
+    "primary": "buy grosperrin cognac online",
+    "secondary": [
+      "grosperrin cognac price",
+      "grosperrin 18 year old for sale",
+      "grosperrin 18 year old same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "hakushu-12-year": {
+    "primary": "buy hakushu 12 year online",
+    "secondary": [
+      "hakushu 12 year"
+    ],
+    "src": "existing page keyword (name-based, unverified)"
+  },
+  "hakushu-18-year": {
+    "primary": "buy hakushu 18 year online",
+    "secondary": [
+      "hakushu 18 year for sale",
+      "hakushu 18 year price",
+      "buy hakushu 18yr japanese"
+    ],
+    "src": "existing page keyword"
+  },
+  "hakushu-35-year": {
+    "primary": "buy hakushu 35 year online",
+    "secondary": [
+      "hakushu 35 year for sale",
+      "hakushu 35 year price",
+      "rare hakushu japanese buy"
+    ],
+    "src": "existing page keyword"
+  },
+  "hardy-noces-dor-sublime-50-year-old": {
+    "primary": "buy hardy 50 year cognac",
+    "secondary": [
+      "hardy noces d'or price",
+      "hardy noces d'or sublime 50 year old for sale",
+      "hardy noces d'or sublime 50 year old same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "hatozaki-small-batch": {
+    "primary": "buy hatozaki small batch online",
+    "secondary": [
+      "hatozaki whisky price",
+      "hatozaki small batch for sale",
+      "hatozaki small batch same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "heaven-hill-bottled-in-bond-7-year": {
+    "primary": "heaven hill bottled in bond bourbon",
+    "secondary": [
+      "heaven hill bottled in bond 7 year"
+    ],
+    "src": "blog-linked (Semrush-verified)"
+  },
+  "hennessy-8": {
+    "primary": "buy hennessy 8 online",
+    "secondary": [
+      "hennessy 8 for sale",
+      "hennessy 8 price",
+      "buy hennessy cognac online"
+    ],
+    "src": "existing page keyword"
+  },
+  "hennessy-black": {
+    "primary": "buy hennessy black online",
+    "secondary": [
+      "hennessy black for sale",
+      "hennessy black price",
+      "buy hennessy black cognac online"
+    ],
+    "src": "existing page keyword"
+  },
+  "hennessy-classivm": {
+    "primary": "buy hennessy classivm online",
+    "secondary": [
+      "hennessy classivm for sale",
+      "hennessy classivm price",
+      "buy hennessy classivm cognac online"
+    ],
+    "src": "existing page keyword"
+  },
+  "hennessy-ellipse-baccarat-crystal-1-of-100": {
+    "primary": "buy hennessy ellipse baccarat crystal 1 of 100 online",
+    "secondary": [
+      "hennessy ellipse baccarat crystal 1 of 100 for sale",
+      "hennessy ellipse baccarat crystal 1 of 100 price",
+      "buy hennessy ellipse baccarat crystal cognac online"
+    ],
+    "src": "existing page keyword"
+  },
+  "hennessy-ellipse": {
+    "primary": "buy hennessy ellipse online",
+    "secondary": [
+      "hennessy ellipse for sale",
+      "hennessy ellipse price",
+      "buy hennessy ellipse cognac online"
+    ],
+    "src": "existing page keyword"
+  },
+  "hennessy-master-blenders-selection-no5": {
+    "primary": "buy hennessy master blenders selection no.5 online",
+    "secondary": [
+      "hennessy master blenders selection no.5 for sale",
+      "hennessy master blenders selection no.5 price",
+      "buy hennessy master blenders selection cognac online"
+    ],
+    "src": "existing page keyword"
+  },
+  "hennessy-paradis-imperial": {
+    "primary": "buy hennessy paradis imperial online",
+    "secondary": [
+      "hennessy paradis imperial for sale",
+      "hennessy paradis imperial price",
+      "buy hennessy paradis imperial cognac online"
+    ],
+    "src": "existing page keyword"
+  },
+  "hennessy-paradis": {
+    "primary": "buy hennessy paradis online",
+    "secondary": [
+      "hennessy paradis",
+      "hennessy paradis imperial cognac"
+    ],
+    "src": "existing page keyword (name-based, unverified)"
+  },
+  "hennessy-pure-white": {
+    "primary": "hennessy pure white price",
+    "secondary": [
+      "buy hennessy pure white online",
+      "hennessy pure white for sale",
+      "buy hennessy pure white cognac online"
+    ],
+    "src": "existing page keyword"
+  },
+  "hennessy-richard-hennessy": {
+    "primary": "richard hennessy cognac",
+    "secondary": [],
+    "src": "blog-linked (Semrush-verified)"
+  },
+  "hennessy-vs": {
+    "primary": "hennessy very special",
+    "secondary": [
+      "hennessy vs shaker set"
+    ],
+    "src": "blog-linked (Semrush-verified)"
+  },
+  "hennessy-vsop-privilege-limited-edition": {
+    "primary": "buy hennessy v.s.o.p privilege limited edition online",
+    "secondary": [
+      "hennessy v.s.o.p privilege limited edition for sale",
+      "hennessy v.s.o.p privilege limited edition price"
+    ],
+    "src": "existing page keyword"
+  },
+  "hennessy-vsop-privilege": {
+    "primary": "hennessy privilege vsop cognac",
+    "secondary": [
+      "hennessy vsop privilege",
+      "privilege vsop hennessy"
+    ],
+    "src": "blog-linked (Semrush-verified)"
+  },
+  "hennessy-xo-limited-edition-by-marc-newson": {
+    "primary": "buy hennessy x.o limited edition by marc newson online",
+    "secondary": [
+      "hennessy x.o limited edition by marc newson for sale",
+      "hennessy x.o limited edition by marc newson price"
+    ],
+    "src": "existing page keyword"
+  },
+  "hennessy-xo-limited-edition-by-ridley-scott": {
+    "primary": "buy hennessy x.o limited edition by ridley scott online",
+    "secondary": [
+      "hennessy x.o limited edition by ridley scott for sale",
+      "hennessy x.o limited edition by ridley scott price"
+    ],
+    "src": "existing page keyword"
+  },
+  "hennessy-xo": {
+    "primary": "hennessy xo price",
+    "secondary": [
+      "extra old cognac hennessy xo",
+      "hennessy xo vs vsop"
+    ],
+    "src": "blog-linked (Semrush-verified)"
+  },
+  "henry-mckenna-bourbon": {
+    "primary": "henry mckenna bourbon",
+    "secondary": [],
+    "src": "blog-linked (Semrush-verified)"
+  },
+  "hibiki-30-year": {
+    "primary": "buy hibiki 30 year online",
+    "secondary": [
+      "hibiki 30 year"
+    ],
+    "src": "existing page keyword (name-based, unverified)"
+  },
+  "hibiki-35-year": {
+    "primary": "buy hibiki 35 year online",
+    "secondary": [
+      "hibiki 35 year for sale",
+      "hibiki 35 year price",
+      "buy hibiki 35yr japanese"
+    ],
+    "src": "existing page keyword"
+  },
+  "hibiki-harmony": {
+    "primary": "hibiki harmony japanese whisky",
+    "secondary": [
+      "hibiki harmony whiskey"
+    ],
+    "src": "blog-linked (Semrush-verified)"
+  },
+  "high-west-bourbon": {
+    "primary": "buy high west online",
+    "secondary": [
+      "high west price",
+      "high west bourye / rendezvous rye / campfire for sale",
+      "high west bourye / rendezvous rye / campfire same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "high-west-double-rye": {
+    "primary": "high west whiskey double rye",
+    "secondary": [],
+    "src": "blog-linked (Semrush-verified)"
+  },
+  "highland-park-25-year": {
+    "primary": "buy highland park 25 year online",
+    "secondary": [
+      "highland park 25 year for sale",
+      "highland park 25 year price",
+      "buy highland park 25yr scotch"
+    ],
+    "src": "existing page keyword"
+  },
+  "highland-park-50-year": {
+    "primary": "buy highland park 50 year online",
+    "secondary": [
+      "highland park 50 year for sale",
+      "highland park 50 year price",
+      "rare highland park scotch buy"
+    ],
+    "src": "existing page keyword"
+  },
+  "highwood-20-year-centennial-limited": {
+    "primary": "buy highwood 20 year centennial limited online",
+    "secondary": [
+      "highwood 20 year centennial limited for sale",
+      "highwood 20 year centennial limited price",
+      "buy highwood 20yr canadian"
+    ],
+    "src": "existing page keyword"
+  },
+  "highwood-25-year-presidents-reserve": {
+    "primary": "buy highwood 25 year president's reserve online",
+    "secondary": [
+      "highwood 25 year president's reserve for sale",
+      "highwood 25 year president's reserve price",
+      "rare highwood canadian buy"
+    ],
+    "src": "existing page keyword"
+  },
+  "hine-antique-xo-premier-cru": {
+    "primary": "buy hine antique x.o premier cru online",
+    "secondary": [
+      "hine antique x.o premier cru for sale",
+      "hine antique x.o premier cru price",
+      "buy hine antique x.o premier cognac online"
+    ],
+    "src": "existing page keyword"
+  },
+  "hine-h-by-hine-vsop": {
+    "primary": "buy hine h by hine v.s.o.p online",
+    "secondary": [
+      "hine h by hine v.s.o.p for sale",
+      "hine h by hine v.s.o.p price",
+      "buy hine h by hine cognac online"
+    ],
+    "src": "existing page keyword"
+  },
+  "hine-rare-vsop": {
+    "primary": "buy hine rare v.s.o.p online",
+    "secondary": [
+      "hine rare v.s.o.p for sale",
+      "hine rare v.s.o.p price",
+      "buy hine cognac online"
+    ],
+    "src": "existing page keyword"
+  },
+  "hine-triomphe-grande-champagne": {
+    "primary": "buy hine triomphe grande champagne online",
+    "secondary": [
+      "hine triomphe grande champagne for sale",
+      "hine triomphe grande champagne price",
+      "buy hine triomphe grande champagne cognac online"
+    ],
+    "src": "existing page keyword"
+  },
+  "horse-soldier-bourbon": {
+    "primary": "buy horse soldier bourbon online",
+    "secondary": [
+      "horse soldier bourbon price",
+      "horse soldier bourbon for sale",
+      "horse soldier bourbon same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "ichiros-malt-hanyu-2000-final-vintage-15-year": {
+    "primary": "hanyu final vintage 15 year old price",
+    "secondary": [
+      "buy ichiro's malt hanyu",
+      "ichiro's malt hanyu 2000 final vintage 15 year for sale",
+      "ichiro's malt hanyu 2000 final vintage 15 year same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "irish-whiskey-gift-set": {
+    "primary": "buy irish whiskey gift set",
+    "secondary": [],
+    "src": "existing page keyword"
+  },
+  "islay-peated-whisky-gift-set": {
+    "primary": "buy peated whisky gift set",
+    "secondary": [
+      "whisky tasting set online"
+    ],
+    "src": "existing page keyword"
+  },
+  "iwai-tradition-whisky": {
+    "primary": "buy iwai tradition online",
+    "secondary": [
+      "iwai whisky price",
+      "iwai tradition mars for sale",
+      "iwai tradition mars same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "jack-daniels-10-year": {
+    "primary": "jack daniels 10 year",
+    "secondary": [],
+    "src": "blog-linked (Semrush-verified)"
+  },
+  "jack-daniels-gentleman-jack": {
+    "primary": "jack daniels gentleman jack",
+    "secondary": [],
+    "src": "blog-linked (Semrush-verified)"
+  },
+  "jack-daniels-old-no-7": {
+    "primary": "jack daniels old no 7",
+    "secondary": [],
+    "src": "blog-linked (Semrush-verified)"
+  },
+  "jack-daniels-rye-whiskey": {
+    "primary": "buy jack daniels rye online",
+    "secondary": [
+      "jack daniels rye price",
+      "jack daniel's rye for sale",
+      "jack daniel's rye same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "jack-daniels-sinatra-select": {
+    "primary": "jack daniels sinatra select price",
+    "secondary": [
+      "buy jack daniel's sinatra select online",
+      "jack daniel's sinatra select for sale",
+      "jack daniel's sinatra select price"
+    ],
+    "src": "existing page keyword"
+  },
+  "jack-daniels-single-barrel": {
+    "primary": "jack daniels single barrel",
+    "secondary": [],
+    "src": "blog-linked (Semrush-verified)"
+  },
+  "jack-daniels-tennessee-apple": {
+    "primary": "buy jack daniel's tennessee apple online",
+    "secondary": [
+      "jack daniel's tennessee apple for sale",
+      "jack daniel's tennessee apple price",
+      "buy jack daniel's tennessee apple bourbon online"
+    ],
+    "src": "existing page keyword"
+  },
+  "jack-daniels-tennessee-fire": {
+    "primary": "buy jack daniel's tennessee fire online",
+    "secondary": [
+      "jack daniel's tennessee fire for sale",
+      "jack daniel's tennessee fire price",
+      "buy jack daniel's tennessee fire bourbon online"
+    ],
+    "src": "existing page keyword"
+  },
+  "jack-daniels-tennessee-honey": {
+    "primary": "jack daniels tennessee honey price",
+    "secondary": [
+      "buy jack daniel's tennessee honey online",
+      "jack daniel's tennessee honey for sale",
+      "jack daniel's tennessee honey price"
+    ],
+    "src": "existing page keyword"
+  },
+  "jacopo-poli-sarpa-di-poli": {
+    "primary": "buy jacopo poli sarpa di poli online",
+    "secondary": [
+      "jacopo poli sarpa di poli for sale",
+      "jacopo poli sarpa di poli price",
+      "buy jacopo poli sarpa di brandy online"
+    ],
+    "src": "existing page keyword"
+  },
+  "james-e-pepper-rye-whiskey": {
+    "primary": "buy james e pepper online",
+    "secondary": [
+      "james e pepper price",
+      "james e. pepper 1776 for sale",
+      "james e. pepper 1776 same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "jameson-black-barrel": {
+    "primary": "buy jameson black barrel online",
+    "secondary": [
+      "jameson black barrel for sale",
+      "buy jameson black irish online",
+      "buy jameson black online same day"
+    ],
+    "src": "existing page keyword"
+  },
+  "jameson-original": {
+    "primary": "jameson irish whiskey original",
+    "secondary": [],
+    "src": "blog-linked (Semrush-verified)"
+  },
+  "janneau-1904-vintage-grand-armagnac": {
+    "primary": "buy janneau 1904 vintage grand armagnac online",
+    "secondary": [
+      "janneau 1904 vintage grand armagnac for sale",
+      "janneau 1904 vintage grand armagnac price",
+      "buy janneau brandy online"
+    ],
+    "src": "existing page keyword"
+  },
+  "janneau-vsop-grand-armagnac": {
+    "primary": "buy janneau v.s.o.p grand armagnac online",
+    "secondary": [
+      "janneau v.s.o.p grand armagnac for sale",
+      "janneau v.s.o.p grand armagnac price",
+      "buy janneau v.s.o.p grand armagnac brandy online"
+    ],
+    "src": "existing page keyword"
+  },
+  "janneau-xo-grand-armagnac": {
+    "primary": "buy janneau x.o grand armagnac online",
+    "secondary": [
+      "janneau x.o grand armagnac for sale",
+      "janneau x.o grand armagnac price",
+      "buy janneau x.o grand armagnac brandy online"
+    ],
+    "src": "existing page keyword"
+  },
+  "japanese-whisky-gift-set": {
+    "primary": "buy japanese whisky gift set",
+    "secondary": [],
+    "src": "existing page keyword"
+  },
+  "japanese-whisky-trio": {
+    "primary": "hibiki japanese harmony whisky",
+    "secondary": [],
+    "src": "blog-linked (Semrush-verified)"
+  },
+  "jb-rare-scotch-whisky": {
+    "primary": "buy j&amp;amp;b online",
+    "secondary": [
+      "j&amp;amp;b whisky price",
+      "j&amp;b rare for sale",
+      "j&amp;b rare same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "jcb-xo-grande-champagne-cognac": {
+    "primary": "buy jcb grande champagne cognac",
+    "secondary": [
+      "jean-charles boisset cognac price",
+      "jcb xo grande champagne cognac for sale",
+      "jcb xo grande champagne cognac same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "jeffersons-ocean-aged-at-sea": {
+    "primary": "buy jefferson's ocean bourbon online",
+    "secondary": [
+      "jefferson's ocean price",
+      "jefferson's ocean aged at sea for sale",
+      "jefferson's ocean aged at sea same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "jeffersons-presidential-select-17-year": {
+    "primary": "buy jefferson's presidential select 17 year online",
+    "secondary": [
+      "jefferson's presidential select price",
+      "stitzel-weller bourbon for sale",
+      "allocated wheated bourbon buy online"
+    ],
+    "src": "existing page keyword"
+  },
+  "jim-beam-black-extra-aged": {
+    "primary": "buy jim beam black extra-aged online",
+    "secondary": [
+      "jim beam black extra-aged for sale",
+      "jim beam black extra-aged price",
+      "buy jim beam black extra-aged bourbon online"
+    ],
+    "src": "existing page keyword"
+  },
+  "jim-beam-bonded-4-year": {
+    "primary": "buy jim beam bonded 4 year online",
+    "secondary": [
+      "jim beam bonded 4 year for sale",
+      "jim beam bonded 4 year price",
+      "buy jim beam bonded bourbon online"
+    ],
+    "src": "existing page keyword"
+  },
+  "jim-beam-double-oak": {
+    "primary": "buy jim beam double oak online",
+    "secondary": [
+      "jim beam double oak for sale",
+      "jim beam double oak price",
+      "buy jim beam online same day"
+    ],
+    "src": "existing page keyword"
+  },
+  "jim-beam-original-white-label": {
+    "primary": "buy jim beam original white label online",
+    "secondary": [
+      "jim beam original white label for sale",
+      "jim beam original white label price",
+      "buy jim beam 4yr bourbon"
+    ],
+    "src": "existing page keyword"
+  },
+  "johnnie-walker-aged-18-year": {
+    "primary": "buy johnnie walker aged 18 year online",
+    "secondary": [
+      "johnnie walker aged 18 year for sale",
+      "johnnie walker aged 18 year price",
+      "buy johnnie walker 18yr scotch"
+    ],
+    "src": "existing page keyword"
+  },
+  "johnnie-walker-black-label-12-year": {
+    "primary": "johnnie walker black label scotch",
+    "secondary": [
+      "johnnie walker black label whiskey"
+    ],
+    "src": "blog-linked (Semrush-verified)"
+  },
+  "johnnie-walker-blenders-batch-red-rye-finish": {
+    "primary": "buy johnnie walker blenders' batch red rye finish online",
+    "secondary": [
+      "johnnie walker blenders' batch red rye finish for sale",
+      "johnnie walker blenders' batch red rye finish price",
+      "buy johnnie walker blenders' scotch online"
+    ],
+    "src": "existing page keyword"
+  },
+  "johnnie-walker-blue-label-elusive-ports": {
+    "primary": "buy johnnie walker blue label elusive ports online",
+    "secondary": [
+      "johnnie walker blue label elusive ports for sale",
+      "johnnie walker blue label elusive ports price"
+    ],
+    "src": "existing page keyword"
+  },
+  "johnnie-walker-blue-label-ghost-rare-port-dundas": {
+    "primary": "buy johnnie walker blue label ghost &amp; rare port dundas online",
+    "secondary": [
+      "johnnie walker blue label ghost &amp; rare port dundas for sale",
+      "johnnie walker blue label ghost &amp; rare port dundas price",
+      "rare johnnie walker blue label scotch buy"
+    ],
+    "src": "existing page keyword"
+  },
+  "johnnie-walker-blue-label-xordinaire": {
+    "primary": "buy johnnie walker blue label xordinaire online",
+    "secondary": [
+      "johnnie walker blue label xordinaire for sale",
+      "johnnie walker blue label xordinaire price"
+    ],
+    "src": "existing page keyword"
+  },
+  "johnnie-walker-blue-label-year-of-the-dragon-2024": {
+    "primary": "buy johnnie walker blue label year of the dragon 2024 online",
+    "secondary": [
+      "johnnie walker blue label year of the dragon 2024 for sale",
+      "johnnie walker blue label year of the dragon 2024 price"
+    ],
+    "src": "existing page keyword"
+  },
+  "johnnie-walker-double-black": {
+    "primary": "buy johnnie walker double black online",
+    "secondary": [
+      "johnnie walker double black"
+    ],
+    "src": "existing page keyword (name-based, unverified)"
+  },
+  "johnnie-walker-gold-label-reserve": {
+    "primary": "johnnie walker gold label reserve price",
+    "secondary": [],
+    "src": "blog-linked (Semrush-verified)"
+  },
+  "johnnie-walker-green-label-15-year": {
+    "primary": "johnnie walker green label price",
+    "secondary": [],
+    "src": "blog-linked (Semrush-verified)"
+  },
+  "johnnie-walker-king-george-v": {
+    "primary": "buy johnnie walker king george v online",
+    "secondary": [
+      "johnnie walker king george v for sale",
+      "johnnie walker king george v price",
+      "buy johnnie walker king george scotch online"
+    ],
+    "src": "existing page keyword"
+  },
+  "johnnie-walker-platinum-label-18-year": {
+    "primary": "johnnie walker platinum label price",
+    "secondary": [
+      "buy johnnie walker platinum label 18 year online",
+      "johnnie walker platinum label 18 year for sale",
+      "johnnie walker platinum label 18 year price"
+    ],
+    "src": "existing page keyword"
+  },
+  "johnnie-walker-red-label": {
+    "primary": "johnnie walker red whisky",
+    "secondary": [],
+    "src": "blog-linked (Semrush-verified)"
+  },
+  "johnnie-walker-swing": {
+    "primary": "buy johnnie walker swing online",
+    "secondary": [
+      "johnnie walker swing for sale",
+      "johnnie walker swing price",
+      "buy johnnie walker swing scotch online"
+    ],
+    "src": "existing page keyword"
+  },
+  "johnnie-walker-the-john-walker": {
+    "primary": "buy johnnie walker the john walker online",
+    "secondary": [
+      "johnnie walker the john walker for sale",
+      "johnnie walker the john walker price",
+      "buy johnnie walker the john scotch online"
+    ],
+    "src": "existing page keyword"
+  },
+  "johnnie-walker-xr-21-year": {
+    "primary": "johnnie walker xr 21 price",
+    "secondary": [
+      "buy johnnie walker xr 21 year online",
+      "johnnie walker xr 21 year for sale",
+      "johnnie walker xr 21 year price"
+    ],
+    "src": "existing page keyword"
+  },
+  "journeyman-ravenswood-rye": {
+    "primary": "buy journeyman ravenswood rye online",
+    "secondary": [
+      "journeyman rye price",
+      "journeyman ravenswood rye for sale",
+      "journeyman ravenswood rye same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "jp-wisers-18-year-dissertation": {
+    "primary": "buy jp wiser's 18 year dissertation online",
+    "secondary": [
+      "jp wiser's 18 year dissertation for sale",
+      "jp wiser's 18 year dissertation price",
+      "buy jp wiser's 18yr canadian"
+    ],
+    "src": "existing page keyword"
+  },
+  "jp-wisers-35-year": {
+    "primary": "buy jp wiser's 35 year online",
+    "secondary": [
+      "jp wiser's 35 year for sale",
+      "jp wiser's 35 year price",
+      "rare jp wiser's canadian buy"
+    ],
+    "src": "existing page keyword"
+  },
+  "jp-wisers-deluxe": {
+    "primary": "buy jp wiser's deluxe online",
+    "secondary": [
+      "wiser's deluxe price",
+      "jp wiser's whisky online",
+      "j.p. wiser's deluxe for sale"
+    ],
+    "src": "existing page keyword"
+  },
+  "jp-wisers-legacy-canadian-whisky": {
+    "primary": "buy jp wisers legacy online",
+    "secondary": [
+      "jp wisers legacy price",
+      "j.p. wiser's legacy for sale",
+      "j.p. wiser's legacy same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "jura-single-malt-scotch": {
+    "primary": "buy jura whisky online",
+    "secondary": [
+      "jura whisky price",
+      "isle of jura for sale",
+      "isle of jura same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "kaiyo-mizunara-oak": {
+    "primary": "buy kaiyo mizunara oak online",
+    "secondary": [
+      "kaiyo whisky price",
+      "kaiyo mizunara oak for sale",
+      "kaiyo mizunara oak same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "kamiki-original": {
+    "primary": "buy kamiki whisky online",
+    "secondary": [
+      "kamiki whisky price",
+      "kamiki original for sale",
+      "kamiki original same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "karuizawa-1960-single-cask-no3603": {
+    "primary": "buy karuizawa 1960 single cask no.3603 online",
+    "secondary": [
+      "karuizawa 1960 single cask no.3603 for sale",
+      "karuizawa 1960 single cask no.3603 price"
+    ],
+    "src": "existing page keyword"
+  },
+  "karuizawa-1960-single-cask": {
+    "primary": "buy karuizawa 1960 single cask online",
+    "secondary": [
+      "karuizawa 1960 single cask for sale",
+      "karuizawa 1960 single cask price"
+    ],
+    "src": "existing page keyword"
+  },
+  "karuizawa-1964-noh-whisky-single-cask": {
+    "primary": "buy karuizawa 1964 noh whisky single cask online",
+    "secondary": [
+      "karuizawa 1964 noh whisky single cask for sale",
+      "karuizawa 1964 noh whisky single cask price"
+    ],
+    "src": "existing page keyword"
+  },
+  "karuizawa-1967-single-cask": {
+    "primary": "buy karuizawa 1967 single cask online",
+    "secondary": [
+      "karuizawa 1967 single cask for sale",
+      "karuizawa 1967 single cask price"
+    ],
+    "src": "existing page keyword"
+  },
+  "karuizawa-1984-single-cask": {
+    "primary": "buy karuizawa 1984 single cask online",
+    "secondary": [
+      "karuizawa 1984 single cask for sale"
+    ],
+    "src": "existing page keyword"
+  },
+  "kelt-tour-du-monde-xo": {
+    "primary": "buy kelt tour du monde x.o online",
+    "secondary": [
+      "kelt tour du monde x.o for sale",
+      "kelt tour du monde x.o price",
+      "buy kelt tour du monde cognac online"
+    ],
+    "src": "existing page keyword"
+  },
+  "kentucky-owl-batch-7-straight-bourbon": {
+    "primary": "buy kentucky owl batch 7 online",
+    "secondary": [
+      "kentucky owl batch 7 price",
+      "kentucky owl bourbon for sale",
+      "kentucky owl batch 7 straight bourbon for sale"
+    ],
+    "src": "existing page keyword"
+  },
+  "kentucky-owl-batch-8": {
+    "primary": "buy kentucky owl batch 8 online",
+    "secondary": [
+      "kentucky owl batch 8 same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "kentucky-owl-mardi-gras-xo-cask-rye": {
+    "primary": "buy kentucky owl mardi gras rye online",
+    "secondary": [
+      "kentucky owl mardi gras xo price",
+      "limited edition rye for sale",
+      "kentucky owl mardi gras x.o. cask rye for sale"
+    ],
+    "src": "existing page keyword"
+  },
+  "kentucky-owl-rye-batch-1": {
+    "primary": "buy kentucky owl rye batch 1 online",
+    "secondary": [
+      "kentucky owl 11 year rye price",
+      "kentucky owl rye for sale",
+      "kentucky owl rye batch 1 for sale"
+    ],
+    "src": "existing page keyword"
+  },
+  "kentucky-owl-the-wiseman": {
+    "primary": "buy kentucky owl the wiseman online",
+    "secondary": [
+      "kentucky owl the wiseman for sale",
+      "kentucky owl the wiseman price",
+      "buy kentucky owl the wiseman allocated online"
+    ],
+    "src": "existing page keyword"
+  },
+  "kigai-japanese-whisky-7-year": {
+    "primary": "buy kigai japanese whisky",
+    "secondary": [
+      "kigai 7 year old price",
+      "kigai japanese whisky 7 year for sale",
+      "kigai japanese whisky 7 year same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "kilbeggan-irish-whiskey": {
+    "primary": "buy kilbeggan online",
+    "secondary": [
+      "kilbeggan whiskey price",
+      "kilbeggan for sale",
+      "kilbeggan same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "kilchoman-single-malt-scotch": {
+    "primary": "buy kilchoman online",
+    "secondary": [
+      "kilchoman whisky price",
+      "kilchoman for sale",
+      "kilchoman same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "kinahans-10-year": {
+    "primary": "buy kinahan's 10 year online",
+    "secondary": [
+      "kinahans whiskey price",
+      "kinahan's 10 year for sale",
+      "kinahan's 10 year same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "klipdrift-premium-brandy": {
+    "primary": "buy klipdrift premium brandy online",
+    "secondary": [
+      "klipdrift premium brandy for sale",
+      "klipdrift premium brandy price",
+      "buy klipdrift brandy online"
+    ],
+    "src": "existing page keyword"
+  },
+  "knappogue-castle-1951-vintage": {
+    "primary": "buy knappogue castle 1951 vintage online",
+    "secondary": [
+      "knappogue castle 1951 vintage for sale",
+      "knappogue castle 1951 vintage price",
+      "old irish buy online"
+    ],
+    "src": "existing page keyword"
+  },
+  "knappogue-castle-21-year-twin-wood": {
+    "primary": "buy knappogue castle 21 year twin wood online",
+    "secondary": [
+      "knappogue castle 21 year twin wood for sale",
+      "knappogue castle 21 year twin wood price",
+      "buy knappogue castle 21yr irish"
+    ],
+    "src": "existing page keyword"
+  },
+  "knob-creek-9-year": {
+    "primary": "knob creek bourbon 9 year",
+    "secondary": [],
+    "src": "blog-linked (Semrush-verified)"
+  },
+  "knob-creek-rye-whiskey": {
+    "primary": "kentucky straight rye whiskey",
+    "secondary": [],
+    "src": "blog-linked (Semrush-verified)"
+  },
+  "knockando-single-malt-scotch": {
+    "primary": "buy knockando online",
+    "secondary": [
+      "knockando whisky price",
+      "knockando for sale",
+      "knockando same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "korbel-brandy": {
+    "primary": "buy korbel online",
+    "secondary": [
+      "korbel brandy price",
+      "american brandy buy online",
+      "korbel brandy for sale"
+    ],
+    "src": "existing page keyword"
+  },
+  "kurayoshi-whisky": {
+    "primary": "buy kurayoshi online",
+    "secondary": [
+      "kurayoshi whisky price",
+      "kurayoshi for sale",
+      "kurayoshi same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "kwv-10-year-brandy": {
+    "primary": "buy kwv 10 year brandy online",
+    "secondary": [
+      "kwv 10 year brandy for sale",
+      "kwv 10 year brandy price",
+      "buy kwv 10yr brandy"
+    ],
+    "src": "existing page keyword"
+  },
+  "kwv-15-year-brandy": {
+    "primary": "buy kwv 15 year brandy online",
+    "secondary": [
+      "kwv 15 year brandy for sale",
+      "kwv 15 year brandy price",
+      "buy kwv 15yr brandy"
+    ],
+    "src": "existing page keyword"
+  },
+  "l-de-salignac-fine-champagne-extra-cognac-50-year-old": {
+    "primary": "buy salignac vintage cognac",
+    "secondary": [
+      "l de salignac price",
+      "l. de salignac fine champagne extra cognac 50 year old for sale",
+      "l. de salignac fine champagne extra cognac 50 year old same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "lagavulin-16-year": {
+    "primary": "islay single malt scotch whisky",
+    "secondary": [],
+    "src": "blog-linked (Semrush-verified)"
+  },
+  "lairds-applejack-brandy": {
+    "primary": "buy laird's applejack brandy online",
+    "secondary": [
+      "laird's applejack brandy for sale",
+      "laird's applejack brandy price",
+      "buy laird's applejack brandy online same day"
+    ],
+    "src": "existing page keyword"
+  },
+  "laphroaig-10-year": {
+    "primary": "laphroaig 10 islay",
+    "secondary": [],
+    "src": "blog-linked (Semrush-verified)"
+  },
+  "larceny-barrel-proof-bourbon": {
+    "primary": "larceny bourbon barrel proof",
+    "secondary": [],
+    "src": "blog-linked (Semrush-verified)"
+  },
+  "larceny-small-batch-bourbon": {
+    "primary": "buy larceny small batch bourbon online",
+    "secondary": [
+      "larceny small batch bourbon",
+      "larceny bourbon small batch"
+    ],
+    "src": "existing page keyword (name-based, unverified)"
+  },
+  "larressingle-armagnac": {
+    "primary": "buy larressingle online",
+    "secondary": [
+      "larressingle price",
+      "larressingle for sale",
+      "larressingle same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "larsen-vsop": {
+    "primary": "buy larsen cognac online",
+    "secondary": [
+      "vsop cognac price",
+      "larsen cognac price",
+      "larsen vsop for sale"
+    ],
+    "src": "existing page keyword"
+  },
+  "lencantada-1973-brut-de-fut-bas-armagnac": {
+    "primary": "buy l'encantada armagnac online",
+    "secondary": [
+      "1973 vintage armagnac price",
+      "l'encantada 1973 brut de fût bas-armagnac for sale",
+      "l'encantada 1973 brut de fût bas-armagnac same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "leopold-gourmel-cognac": {
+    "primary": "buy leopold gourmel online",
+    "secondary": [
+      "leopold gourmel price",
+      "léopold gourmel for sale",
+      "léopold gourmel same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "lepanto-brandy": {
+    "primary": "buy lepanto online",
+    "secondary": [
+      "lepanto price",
+      "lepanto brandy de jerez for sale",
+      "lepanto brandy de jerez same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "lheraud-cognac": {
+    "primary": "buy lheraud online",
+    "secondary": [
+      "lheraud cognac price",
+      "lhéraud for sale",
+      "lhéraud same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "loch-lomond-single-malt-scotch": {
+    "primary": "buy loch lomond online",
+    "secondary": [
+      "loch lomond whisky price",
+      "loch lomond for sale",
+      "loch lomond same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "lockes-8-year-old-single-malt": {
+    "primary": "locke's single malt price",
+    "secondary": [
+      "locke's 8 year old single malt for sale",
+      "locke's 8 year old single malt same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "lot-no-40-canadian-whisky": {
+    "primary": "pappy van winkle 12 year lot b",
+    "secondary": [],
+    "src": "blog-linked (Semrush-verified)"
+  },
+  "louis-royer-xo-cognac": {
+    "primary": "buy louis royer x.o cognac online",
+    "secondary": [
+      "louis royer x.o cognac for sale",
+      "louis royer x.o cognac price",
+      "buy louis royer x.o cognac online same day"
+    ],
+    "src": "existing page keyword"
+  },
+  "macallan-12-double-cask": {
+    "primary": "macallan 12 years price",
+    "secondary": [
+      "macallan double cask 12",
+      "macallan single malt whiskey"
+    ],
+    "src": "blog-linked (Semrush-verified)"
+  },
+  "macallan-12-sherry-oak": {
+    "primary": "macallan 12 year sherry oak",
+    "secondary": [
+      "sherry oak macallan 12",
+      "macallan 12 sherry oak"
+    ],
+    "src": "blog-linked (Semrush-verified)"
+  },
+  "macallan-1926-fine-rare-60-year": {
+    "primary": "buy macallan 1926 fine &amp; rare 60 year online",
+    "secondary": [
+      "macallan 1926 fine &amp; rare 60 year for sale",
+      "macallan 1926 fine &amp; rare 60 year price",
+      "buy macallan 60yr scotch"
+    ],
+    "src": "existing page keyword"
+  },
+  "macallan-25-year-double-cask": {
+    "primary": "macallan 25 years price",
+    "secondary": [
+      "macallan whiskey 25"
+    ],
+    "src": "blog-linked (Semrush-verified)"
+  },
+  "macallan-30-year-double-cask": {
+    "primary": "30 year macallan",
+    "secondary": [
+      "macallan 30 double cask"
+    ],
+    "src": "blog-linked (Semrush-verified)"
+  },
+  "macallan-40-year-double-cask": {
+    "primary": "macallan double cask",
+    "secondary": [],
+    "src": "blog-linked (Semrush-verified)"
+  },
+  "macallan-50-year-in-lalique-crystal": {
+    "primary": "50 year macallan price",
+    "secondary": [],
+    "src": "blog-linked (Semrush-verified)"
+  },
+  "macallan-discovery-set": {
+    "primary": "macallan scotch whiskey",
+    "secondary": [],
+    "src": "blog-linked (Semrush-verified)"
+  },
+  "macallan-the-reach-81-year": {
+    "primary": "buy macallan the reach 81 year online",
+    "secondary": [
+      "macallan the reach 81 year for sale",
+      "macallan the reach 81 year price",
+      "buy macallan the reach scotch online"
+    ],
+    "src": "existing page keyword"
+  },
+  "makers-mark-46": {
+    "primary": "makers mark 46 bourbon",
+    "secondary": [],
+    "src": "blog-linked (Semrush-verified)"
+  },
+  "makers-mark-cask-strength": {
+    "primary": "maker's mark cask strength price",
+    "secondary": [
+      "makers mark cask strength"
+    ],
+    "src": "blog-linked (Semrush-verified)"
+  },
+  "makers-mark-cellar-aged": {
+    "primary": "makers mark cellar aged",
+    "secondary": [],
+    "src": "blog-linked (Semrush-verified)"
+  },
+  "makers-mark-rc6-limited-release": {
+    "primary": "buy maker's mark rc6 limited release online",
+    "secondary": [
+      "maker's mark rc6 limited release for sale",
+      "maker's mark rc6 limited release price",
+      "buy maker's mark rc6 bourbon online"
+    ],
+    "src": "existing page keyword"
+  },
+  "marquis-de-montesquiou-armagnac": {
+    "primary": "buy marquis de montesquiou online",
+    "secondary": [
+      "marquis de montesquiou price",
+      "marquis de montesquiou for sale",
+      "marquis de montesquiou same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "mars-komagatake-27-year-old-single-malt": {
+    "primary": "mars komagatake 27 year old price",
+    "secondary": [
+      "buy mars komagatake 27 year",
+      "mars komagatake 27 year old single malt for sale",
+      "mars komagatake 27 year old single malt same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "mars-komagatake-single-cask-vintage": {
+    "primary": "buy mars komagatake single cask",
+    "secondary": [
+      "komagatake vintage price",
+      "mars komagatake single cask vintage for sale",
+      "mars komagatake single cask vintage same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "mars-shinshu-whisky": {
+    "primary": "buy mars shinshu online",
+    "secondary": [
+      "mars shinshu komagatake for sale",
+      "mars shinshu komagatake same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "mars-the-lucky-cat-blended": {
+    "primary": "buy mars lucky cat whisky online",
+    "secondary": [
+      "mars the lucky cat blended for sale",
+      "mars the lucky cat blended same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "martell-assemblage-mathieu-gregoire": {
+    "primary": "buy martell assemblage mathieu gregoire online",
+    "secondary": [
+      "martell assemblage mathieu gregoire for sale",
+      "martell assemblage mathieu gregoire price",
+      "buy martell assemblage mathieu gregoire cognac online"
+    ],
+    "src": "existing page keyword"
+  },
+  "martell-chanteloup-perspective": {
+    "primary": "buy martell chanteloup perspective online",
+    "secondary": [
+      "martell chanteloup perspective for sale",
+      "martell chanteloup perspective price",
+      "buy martell chanteloup perspective cognac online"
+    ],
+    "src": "existing page keyword"
+  },
+  "martell-cohiba-edition": {
+    "primary": "buy martell cohiba edition online",
+    "secondary": [
+      "martell cohiba edition for sale",
+      "martell cohiba edition price",
+      "buy martell cohiba cognac online"
+    ],
+    "src": "existing page keyword"
+  },
+  "martell-cordon-bleu-extra": {
+    "primary": "buy martell cordon bleu extra online",
+    "secondary": [
+      "martell cordon bleu extra for sale",
+      "martell cordon bleu extra price",
+      "rare martell cordon bleu cognac buy"
+    ],
+    "src": "existing page keyword"
+  },
+  "martell-cordon-bleu": {
+    "primary": "martell cordon bleu cognac 750ml",
+    "secondary": [
+      "martell cordon bleu cognac"
+    ],
+    "src": "blog-linked (Semrush-verified)"
+  },
+  "martell-creation-grand-extra": {
+    "primary": "buy martell creation grand extra online",
+    "secondary": [
+      "martell creation grand extra for sale",
+      "martell creation grand extra price",
+      "buy martell creation grand cognac online"
+    ],
+    "src": "existing page keyword"
+  },
+  "martell-l-or-de-jean-martell": {
+    "primary": "buy martell l or de jean martell online",
+    "secondary": [
+      "martell l or de jean martell for sale",
+      "martell l or de jean martell price",
+      "buy martell l or de cognac online"
+    ],
+    "src": "existing page keyword"
+  },
+  "martell-lor-de-jean-martell-baccarat-edition": {
+    "primary": "buy martell l'or de jean martell baccarat edition online",
+    "secondary": [
+      "martell l'or de jean martell baccarat edition for sale",
+      "martell l'or de jean martell baccarat edition price",
+      "buy martell l'or de jean cognac online"
+    ],
+    "src": "existing page keyword"
+  },
+  "martell-vs-single-distillery": {
+    "primary": "martell cognac vs",
+    "secondary": [],
+    "src": "blog-linked (Semrush-verified)"
+  },
+  "martell-vsop-aged-in-red-barrels": {
+    "primary": "martell cognac vsop",
+    "secondary": [],
+    "src": "blog-linked (Semrush-verified)"
+  },
+  "martell-xo": {
+    "primary": "martell cognac xo",
+    "secondary": [],
+    "src": "blog-linked (Semrush-verified)"
+  },
+  "mastersons-10-year-straight-rye": {
+    "primary": "buy masterson's rye online",
+    "secondary": [
+      "masterson's whiskey price",
+      "masterson's 10 year straight rye for sale",
+      "masterson's 10 year straight rye same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "merlet-vsop": {
+    "primary": "buy merlet cognac online",
+    "secondary": [
+      "merlet cognac price",
+      "merlet vsop for sale",
+      "merlet vsop same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "metaxa-brandy": {
+    "primary": "buy metaxa online",
+    "secondary": [
+      "metaxa price",
+      "metaxa for sale",
+      "metaxa same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "method-and-madness-irish-whiskey": {
+    "primary": "buy method and madness online",
+    "secondary": [
+      "method and madness price",
+      "method and madness for sale",
+      "method and madness same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "meukow-cognac": {
+    "primary": "buy meukow online",
+    "secondary": [
+      "meukow price",
+      "meukow for sale",
+      "meukow same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "michters-10-year-bourbon": {
+    "primary": "buy michter's 10 year bourbon online",
+    "secondary": [
+      "michter's 10 year bourbon for sale",
+      "michter's 10 year bourbon price",
+      "buy michter's allocated online"
+    ],
+    "src": "existing page keyword"
+  },
+  "michters-20-year-bourbon": {
+    "primary": "buy michter's 20 year bourbon online",
+    "secondary": [
+      "michter's 20 year bourbon for sale",
+      "michter's 20 year bourbon price",
+      "premium bourbon buy online"
+    ],
+    "src": "existing page keyword"
+  },
+  "michters-25-year-american-rye-pre-prohibition-era": {
+    "primary": "buy michter's 25 year american rye pre-prohibition era online",
+    "secondary": [
+      "michter's 25 year american rye pre-prohibition era for sale",
+      "michter's 25 year american rye pre-prohibition era price",
+      "buy michter's rye online"
+    ],
+    "src": "existing page keyword"
+  },
+  "michters-25-year-bourbon": {
+    "primary": "buy michter's 25 year bourbon online",
+    "secondary": [
+      "michter's 25 year bourbon for sale",
+      "michter's 25 year bourbon price",
+      "luxury bourbon buy online"
+    ],
+    "src": "existing page keyword"
+  },
+  "michters-25-year-celebration-bourbon-original-1970s": {
+    "primary": "buy michter's 25 year celebration bourbon original 1970s online",
+    "secondary": [
+      "michter's 25 year celebration bourbon original 1970s for sale",
+      "michter's 25 year celebration bourbon original 1970s price"
+    ],
+    "src": "existing page keyword"
+  },
+  "michters-25-year-celebration-bourbon": {
+    "primary": "buy michter's 25 year celebration bourbon online",
+    "secondary": [
+      "michter's 25 year celebration bourbon for sale",
+      "michter's 25 year celebration bourbon price",
+      "ultra premium bourbon buy online"
+    ],
+    "src": "existing page keyword"
+  },
+  "michters-bombergers-declaration": {
+    "primary": "buy michter's bomberger's declaration online",
+    "secondary": [
+      "bomberger's declaration price",
+      "michter's bomberger's declaration for sale",
+      "michter's bomberger's declaration same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "michters-us1-bourbon": {
+    "primary": "buy michter's us*1 bourbon online",
+    "secondary": [
+      "michter's us*1 bourbon for sale",
+      "michter's us*1 bourbon price",
+      "buy michter's us*1 bourbon online same day"
+    ],
+    "src": "existing page keyword"
+  },
+  "michters-us1-rye": {
+    "primary": "straight rye whiskey",
+    "secondary": [],
+    "src": "blog-linked (Semrush-verified)"
+  },
+  "midleton-silent-distillery-chapter-one": {
+    "primary": "buy midleton silent distillery chapter one online",
+    "secondary": [
+      "midleton silent distillery chapter one for sale",
+      "midleton silent distillery chapter one price",
+      "buy midleton silent distillery chapter irish online"
+    ],
+    "src": "existing page keyword"
+  },
+  "midleton-very-rare-2014": {
+    "primary": "buy midleton very rare 2014 online",
+    "secondary": [
+      "midleton very rare 2014 for sale",
+      "midleton very rare 2014 price",
+      "premium irish buy online"
+    ],
+    "src": "existing page keyword"
+  },
+  "midleton-very-rare-2024": {
+    "primary": "buy midleton very rare 2024 online",
+    "secondary": [
+      "midleton very rare 2024 for sale",
+      "midleton very rare 2024 price"
+    ],
+    "src": "existing page keyword"
+  },
+  "midleton-very-rare-silent-distillery-chapter-four": {
+    "primary": "buy midleton very rare silent distillery chapter four online",
+    "secondary": [
+      "midleton very rare silent distillery chapter four for sale",
+      "midleton very rare silent distillery chapter four price",
+      "ultra rare irish buy online"
+    ],
+    "src": "existing page keyword"
+  },
+  "miguel-torres-gran-reserva-brandy": {
+    "primary": "buy miguel torres gran reserva brandy online",
+    "secondary": [
+      "miguel torres gran reserva brandy for sale",
+      "miguel torres gran reserva brandy price",
+      "rare miguel torres gran reserva brandy buy"
+    ],
+    "src": "existing page keyword"
+  },
+  "miyagikyo-whisky": {
+    "primary": "buy miyagikyo online",
+    "secondary": [
+      "miyagikyo price",
+      "miyagikyo for sale",
+      "miyagikyo same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "monkey-shoulder-blended-malt": {
+    "primary": "buy monkey shoulder blended malt online",
+    "secondary": [
+      "monkey shoulder blended malt for sale",
+      "monkey shoulder blended malt price",
+      "buy monkey shoulder blended malt scotch online"
+    ],
+    "src": "existing page keyword"
+  },
+  "mortlach-12-year-wee-witchie": {
+    "primary": "mortlach whisky price",
+    "secondary": [
+      "buy mortlach 12 year online",
+      "mortlach 12 year wee witchie for sale",
+      "mortlach 12 year wee witchie same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "nagahama-tokyo-2020-whisky": {
+    "primary": "nagahama tokyo whisky price",
+    "secondary": [
+      "buy nagahama distillery whisky",
+      "nagahama tokyo 2020 whisky for sale",
+      "nagahama tokyo 2020 whisky same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "naked-malt": {
+    "primary": "naked malt whisky price",
+    "secondary": [
+      "buy naked malt online",
+      "naked malt for sale",
+      "naked malt same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "nardini-grappa-riserva": {
+    "primary": "buy nardini grappa riserva online",
+    "secondary": [
+      "nardini grappa riserva for sale",
+      "nardini grappa riserva price",
+      "buy nardini grappa riserva brandy online"
+    ],
+    "src": "existing page keyword"
+  },
+  "new-riff-bourbon": {
+    "primary": "buy new riff online",
+    "secondary": [
+      "new riff bourbon price",
+      "new riff for sale",
+      "new riff same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "niche-cognac-gift-set": {
+    "primary": "buy cognac gift set",
+    "secondary": [
+      "cognac sampler online"
+    ],
+    "src": "existing page keyword"
+  },
+  "nikka-coffey-whisky": {
+    "primary": "buy nikka coffey grain online",
+    "secondary": [
+      "nikka coffey malt price",
+      "nikka coffey grain / coffey malt for sale",
+      "nikka coffey grain / coffey malt same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "nikka-from-the-barrel": {
+    "primary": "buy nikka from the barrel online",
+    "secondary": [
+      "nikka from the barrel for sale",
+      "buy nikka from the japanese online",
+      "buy nikka from the online same day"
+    ],
+    "src": "existing page keyword"
+  },
+  "nikka-single-malt-yoichi-20-year": {
+    "primary": "buy nikka single malt yoichi 20 year online",
+    "secondary": [
+      "nikka single malt yoichi 20 year for sale",
+      "nikka single malt yoichi 20 year price",
+      "buy nikka japanese online"
+    ],
+    "src": "existing page keyword"
+  },
+  "nikka-taketsuru-pure-malt": {
+    "primary": "buy nikka taketsuru online",
+    "secondary": [
+      "taketsuru whisky price",
+      "nikka taketsuru pure malt for sale",
+      "nikka taketsuru pure malt same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "nikka-yoichi-1987-single-cask-35-year": {
+    "primary": "buy nikka yoichi 1987 single cask 35 year online",
+    "secondary": [
+      "nikka yoichi 1987 single cask 35 year for sale",
+      "nikka yoichi 1987 single cask 35 year price",
+      "buy nikka yoichi 35yr japanese"
+    ],
+    "src": "existing page keyword"
+  },
+  "nikka-yoichi-50-year": {
+    "primary": "buy nikka yoichi 50 year online",
+    "secondary": [
+      "nikka yoichi 50 year for sale",
+      "nikka yoichi 50 year price",
+      "buy nikka yoichi 50yr japanese"
+    ],
+    "src": "existing page keyword"
+  },
+  "nonino-grappa-monovitigno": {
+    "primary": "buy nonino grappa monovitigno online",
+    "secondary": [
+      "nonino grappa monovitigno for sale",
+      "nonino grappa monovitigno price",
+      "buy nonino grappa monovitigno brandy online"
+    ],
+    "src": "existing page keyword"
+  },
+  "normandin-mercier-cognac": {
+    "primary": "buy normandin mercier online",
+    "secondary": [
+      "normandin mercier cognac price",
+      "normandin-mercier for sale",
+      "normandin-mercier same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "nulu-bourbon": {
+    "primary": "buy nulu bourbon online",
+    "secondary": [
+      "nulu bourbon price",
+      "nulu bourbon for sale",
+      "nulu bourbon same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "oban-14-year": {
+    "primary": "oban 14 years price",
+    "secondary": [
+      "buy oban 14 year online",
+      "oban 14 year for sale",
+      "buy oban 14yr scotch"
+    ],
+    "src": "existing page keyword"
+  },
+  "oban-18-year": {
+    "primary": "buy oban 18 year online",
+    "secondary": [
+      "oban 18 year for sale",
+      "buy oban 18yr scotch"
+    ],
+    "src": "existing page keyword"
+  },
+  "oban-21-year": {
+    "primary": "buy oban 21 year online",
+    "secondary": [
+      "oban 21 year for sale",
+      "oban 21 year price",
+      "rare oban scotch buy"
+    ],
+    "src": "existing page keyword"
+  },
+  "oban-little-bay": {
+    "primary": "oban little bay for sale",
+    "secondary": [
+      "buy oban little bay scotch online",
+      "buy oban little bay online same day"
+    ],
+    "src": "existing page keyword"
+  },
+  "ohishi-whisky": {
+    "primary": "buy ohishi online",
+    "secondary": [
+      "ohishi whisky price",
+      "ohishi for sale",
+      "ohishi same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "okanagan-spirits-laird-of-fintry": {
+    "primary": "buy laird of fintry whisky online",
+    "secondary": [
+      "laird of fintry price",
+      "okanagan spirits laird of fintry for sale",
+      "okanagan spirits laird of fintry same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "old-carter-straight-rye": {
+    "primary": "buy old carter rye online",
+    "secondary": [
+      "allocated rye buy online",
+      "old carter straight rye for sale",
+      "old carter straight rye same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "old-carter-whiskey": {
+    "primary": "buy old carter online",
+    "secondary": [
+      "old carter batch price",
+      "old carter whiskey co. for sale",
+      "old carter whiskey co. same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "old-comber-30-year-old-pure-pot-still": {
+    "primary": "old comber 30 year old price",
+    "secondary": [
+      "buy old comber irish whiskey",
+      "old comber 30 year old pure pot still for sale",
+      "old comber 30 year old pure pot still same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "old-elk-bourbon": {
+    "primary": "buy old elk online",
+    "secondary": [
+      "old elk bourbon price",
+      "old elk for sale",
+      "old elk same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "old-fitzgerald-19-year-bottled-in-bond": {
+    "primary": "old fitzgerald bottled in bond",
+    "secondary": [],
+    "src": "blog-linked (Semrush-verified)"
+  },
+  "old-fitzgerald-1954-bottled-in-bond-stitzel-weller": {
+    "primary": "buy old fitzgerald 1954 bottled-in-bond stitzel-weller online",
+    "secondary": [
+      "old fitzgerald 1954 bottled-in-bond stitzel-weller for sale",
+      "old fitzgerald 1954 bottled-in-bond stitzel-weller price",
+      "rare old bourbon buy"
+    ],
+    "src": "existing page keyword"
+  },
+  "old-forester-1920-prohibition-style": {
+    "primary": "old forester 1920 price",
+    "secondary": [],
+    "src": "blog-linked (Semrush-verified)"
+  },
+  "old-forester-birthday-bourbon-2024": {
+    "primary": "old forester birthday bourbon price",
+    "secondary": [],
+    "src": "blog-linked (Semrush-verified)"
+  },
+  "old-forester-rye": {
+    "primary": "buy old forester rye online",
+    "secondary": [
+      "old forester rye"
+    ],
+    "src": "existing page keyword (name-based, unverified)"
+  },
+  "old-grand-dad-bourbon": {
+    "primary": "buy old grand dad online",
+    "secondary": [
+      "old grand dad price",
+      "old grand-dad for sale",
+      "old grand-dad same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "old-overholt-rye-whiskey": {
+    "primary": "buy old overholt online",
+    "secondary": [
+      "old overholt price",
+      "old overholt extra aged cask strength 11 year for sale",
+      "old overholt extra aged cask strength 11 year same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "old-pulteney-single-malt-scotch": {
+    "primary": "buy old pulteney online",
+    "secondary": [
+      "old pulteney whisky price",
+      "old pulteney for sale",
+      "old pulteney same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "old-rip-van-winkle-10-year": {
+    "primary": "old rip van winkle 10 year price",
+    "secondary": [
+      "old rip van winkle 10 year",
+      "10 year rip van winkle"
+    ],
+    "src": "blog-linked (Semrush-verified)"
+  },
+  "orphan-barrel-entrapment-25-year-old-canadian-whisky": {
+    "primary": "orphan barrel entrapment price",
+    "secondary": [
+      "buy orphan barrel canadian whisky",
+      "orphan barrel entrapment 25 year old canadian whisky for sale",
+      "orphan barrel entrapment 25 year old canadian whisky same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "orphan-barrel-whiskey": {
+    "primary": "buy orphan barrel online",
+    "secondary": [
+      "orphan barrel price",
+      "allocated whiskey buy online",
+      "orphan barrel series for sale"
+    ],
+    "src": "existing page keyword"
+  },
+  "otard-cognac": {
+    "primary": "buy otard online",
+    "secondary": [
+      "otard xo price",
+      "otard for sale",
+      "otard same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "oude-meester-brandy": {
+    "primary": "buy oude meester brandy online",
+    "secondary": [
+      "oude meester brandy for sale",
+      "oude meester brandy price",
+      "distell brandy buy online"
+    ],
+    "src": "existing page keyword"
+  },
+  "pappy-van-winkle-20-year-family-reserve": {
+    "primary": "20 year pappy van winkle",
+    "secondary": [
+      "pappy van winkle family reserve 20 year",
+      "pappy van winkle s family reserve 20 year"
+    ],
+    "src": "blog-linked (Semrush-verified)"
+  },
+  "pappy-van-winkle-23-year-collector-edition": {
+    "primary": "buy pappy van winkle 23 year collector edition online",
+    "secondary": [
+      "pappy van winkle 23 year collector edition for sale",
+      "pappy van winkle 23 year collector edition price"
+    ],
+    "src": "existing page keyword"
+  },
+  "pappy-van-winkle-23-year-family-reserve": {
+    "primary": "pappy van winkle 23 year price",
+    "secondary": [
+      "pappy van winkle 23 year",
+      "pappy van winkle s family reserve 23 year"
+    ],
+    "src": "blog-linked (Semrush-verified)"
+  },
+  "pappy-van-winkle-23-year-pre-fire-vintage-1990s": {
+    "primary": "buy pappy van winkle 23 year pre-fire vintage 1990s online",
+    "secondary": [
+      "pappy van winkle 23 year pre-fire vintage 1990s for sale",
+      "pappy van winkle 23 year pre-fire vintage 1990s price"
+    ],
+    "src": "existing page keyword"
+  },
+  "parkers-heritage-27-year-promise-of-hope": {
+    "primary": "buy parker's heritage 27 year promise of hope online",
+    "secondary": [
+      "parker's heritage 27 year promise of hope for sale",
+      "parker's heritage 27 year promise of hope price",
+      "buy parker's heritage bourbon online"
+    ],
+    "src": "existing page keyword"
+  },
+  "parkers-heritage-promise-of-hope-27-year-signed": {
+    "primary": "buy parker's heritage promise of hope 27 year signed online",
+    "secondary": [
+      "parker's heritage promise of hope 27 year signed for sale",
+      "parker's heritage promise of hope 27 year signed price",
+      "buy parker's heritage promise of bourbon online"
+    ],
+    "src": "existing page keyword"
+  },
+  "paul-masson-grande-amber-vs-brandy": {
+    "primary": "buy paul masson grande amber v.s brandy online",
+    "secondary": [
+      "paul masson grande amber v.s brandy for sale",
+      "paul masson grande amber v.s brandy price",
+      "buy paul masson grande amber brandy online"
+    ],
+    "src": "existing page keyword"
+  },
+  "peerless-straight-rye": {
+    "primary": "buy peerless straight rye online",
+    "secondary": [
+      "peerless rye price",
+      "peerless straight rye for sale",
+      "peerless straight rye same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "pendleton-canadian-whisky": {
+    "primary": "buy pendleton online",
+    "secondary": [
+      "pendleton whisky price",
+      "pendleton for sale",
+      "pendleton same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "penelope-bourbon-toasted-series": {
+    "primary": "buy penelope bourbon online",
+    "secondary": [
+      "penelope bourbon price",
+      "penelope bourbon toasted series for sale",
+      "penelope bourbon toasted series same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "pierre-ferrand-10-generations": {
+    "primary": "buy pierre ferrand 10 générations online",
+    "secondary": [
+      "pierre ferrand 10 générations for sale",
+      "pierre ferrand 10 générations price",
+      "buy pierre ferrand cognac online"
+    ],
+    "src": "existing page keyword"
+  },
+  "pike-creek-21-year-double-barrel": {
+    "primary": "buy pike creek 21 year double barrel online",
+    "secondary": [
+      "pike creek 21 year double barrel for sale",
+      "pike creek 21 year double barrel price",
+      "buy pike creek 21yr canadian"
+    ],
+    "src": "existing page keyword"
+  },
+  "pike-creek-30-year-speyside-finish": {
+    "primary": "buy pike creek 30 year speyside finish online",
+    "secondary": [
+      "pike creek 30 year speyside finish for sale",
+      "pike creek 30 year speyside finish price",
+      "rare pike creek canadian buy"
+    ],
+    "src": "existing page keyword"
+  },
+  "pikesville-rye-whiskey": {
+    "primary": "buy pikesville online",
+    "secondary": [
+      "pikesville price",
+      "pikesville rye for sale",
+      "pikesville rye same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "pisco-porton-mosto-verde": {
+    "primary": "buy pisco portón mosto verde online",
+    "secondary": [
+      "pisco portón mosto verde for sale",
+      "pisco portón mosto verde price",
+      "buy pisco portón mosto verde brandy online"
+    ],
+    "src": "existing page keyword"
+  },
+  "port-ellen-1979-first-fill-sherry-40-year": {
+    "primary": "buy port ellen 1979 first fill sherry 40 year online",
+    "secondary": [
+      "port ellen 1979 first fill sherry 40 year for sale",
+      "port ellen 1979 first fill sherry 40 year price",
+      "buy port ellen 40yr scotch"
+    ],
+    "src": "existing page keyword"
+  },
+  "port-ellen-32-year-13th-release": {
+    "primary": "buy port ellen 32 year 13th release online",
+    "secondary": [
+      "port ellen 32 year 13th release for sale",
+      "port ellen 32 year 13th release price",
+      "buy port ellen 32yr scotch"
+    ],
+    "src": "existing page keyword"
+  },
+  "port-ellen-38-year-annual-release": {
+    "primary": "buy port ellen 38 year annual release online",
+    "secondary": [
+      "port ellen 38 year annual release for sale",
+      "port ellen 38 year annual release price",
+      "buy port ellen 38yr scotch"
+    ],
+    "src": "existing page keyword"
+  },
+  "powers-gold-label": {
+    "primary": "buy powers gold label online",
+    "secondary": [
+      "powers whiskey price",
+      "powers gold label for sale",
+      "powers gold label same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "powers-johns-lane-28-year-single-cask-1993": {
+    "primary": "buy powers john's lane 28 year single cask 1993 online",
+    "secondary": [
+      "powers john's lane 28 year single cask 1993 for sale",
+      "powers john's lane 28 year single cask 1993 price",
+      "buy powers john's lane irish online"
+    ],
+    "src": "existing page keyword"
+  },
+  "presidente-brandy": {
+    "primary": "buy presidente online",
+    "secondary": [
+      "presidente brandy price",
+      "presidente brandy for sale",
+      "presidente brandy same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "proper-no-twelve": {
+    "primary": "buy proper no twelve online",
+    "secondary": [
+      "proper twelve whiskey price",
+      "proper no. twelve for sale",
+      "proper no. twelve same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "prunier-vsop-grande-champagne": {
+    "primary": "buy prunier cognac online",
+    "secondary": [
+      "prunier cognac price",
+      "prunier vsop grande champagne for sale",
+      "prunier vsop grande champagne same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "rabbit-hole-boxergrail": {
+    "primary": "buy rabbit hole boxergrail online",
+    "secondary": [
+      "boxergrail price",
+      "rabbit hole boxergrail for sale",
+      "rabbit hole boxergrail same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "rabbit-hole-dareringer": {
+    "primary": "buy rabbit hole dareringer online",
+    "secondary": [
+      "dareringer price",
+      "rabbit hole dareringer for sale",
+      "rabbit hole dareringer same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "rabbit-hole-founders-collection-mizunara-cask-strength": {
+    "primary": "buy rabbit hole mizunara online",
+    "secondary": [
+      "rabbit hole mizunara price",
+      "japanese oak bourbon for sale",
+      "cask strength bourbon buy online"
+    ],
+    "src": "existing page keyword"
+  },
+  "rabbit-hole-founders-collection-nevallier-16-year": {
+    "primary": "buy rabbit hole nevallier online",
+    "secondary": [
+      "rabbit hole nevallier price",
+      "rabbit hole founder's collection for sale",
+      "limited edition bourbon buy online"
+    ],
+    "src": "existing page keyword"
+  },
+  "ragnaud-sabourin-cognac": {
+    "primary": "buy ragnaud sabourin online",
+    "secondary": [
+      "ragnaud sabourin price",
+      "ragnaud-sabourin for sale",
+      "ragnaud-sabourin same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "rare-character-obliteration-14-year-bourbon": {
+    "primary": "buy rare character obliteration online",
+    "secondary": [
+      "rare character whiskey price",
+      "obliteration bourbon for sale",
+      "rare character obliteration 14 year bourbon for sale"
+    ],
+    "src": "existing page keyword"
+  },
+  "rare-hare-lucky-bastard-30-year-canadian-whiskey": {
+    "primary": "buy rare hare 30 year online",
+    "secondary": [
+      "lucky bastard canadian whiskey price",
+      "rare hare lucky bastard 30 year canadian whiskey for sale",
+      "rare hare lucky bastard 30 year canadian whiskey same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "rebel-yell-bourbon": {
+    "primary": "rebel yell bourbon",
+    "secondary": [],
+    "src": "blog-linked (Semrush-verified)"
+  },
+  "redbreast-12-year": {
+    "primary": "redbreast 12 price",
+    "secondary": [
+      "redbreast 12"
+    ],
+    "src": "blog-linked (Semrush-verified)"
+  },
+  "redbreast-21-year": {
+    "primary": "redbreast 21 price",
+    "secondary": [],
+    "src": "blog-linked (Semrush-verified)"
+  },
+  "redbreast-27-year-cask-strength": {
+    "primary": "redbreast 27 price",
+    "secondary": [],
+    "src": "blog-linked (Semrush-verified)"
+  },
+  "redbreast-27-year-old-single-pot-still": {
+    "primary": "buy redbreast 27 year old single pot still online",
+    "secondary": [
+      "redbreast 27 year"
+    ],
+    "src": "existing page keyword (name-based, unverified)"
+  },
+  "redbreast-32-year-cask-strength": {
+    "primary": "buy redbreast 32 year cask strength online",
+    "secondary": [
+      "redbreast 32 year cask strength for sale",
+      "redbreast 32 year cask strength price"
+    ],
+    "src": "existing page keyword"
+  },
+  "redbreast-32-year-dream-cask-tawny-port": {
+    "primary": "buy redbreast 32 year dream cask tawny port online",
+    "secondary": [
+      "redbreast 32 year dream cask tawny port for sale",
+      "redbreast 32 year dream cask tawny port price"
+    ],
+    "src": "existing page keyword"
+  },
+  "redemption-bourbon": {
+    "primary": "buy redemption online",
+    "secondary": [
+      "redemption bourbon price",
+      "redemption bourbon / high-rye for sale",
+      "redemption bourbon / high-rye same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "redemption-rye-whiskey": {
+    "primary": "buy redemption rye online",
+    "secondary": [
+      "redemption rye price",
+      "redemption rye for sale",
+      "redemption rye same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "remy-martin-1738-accord-royal": {
+    "primary": "remy martin 1738 price",
+    "secondary": [],
+    "src": "blog-linked (Semrush-verified)"
+  },
+  "remy-martin-300-years-anniversary": {
+    "primary": "buy remy martin 300 years anniversary online",
+    "secondary": [
+      "remy martin 300 years anniversary for sale",
+      "remy martin 300 years anniversary price",
+      "rare remy martin cognac buy"
+    ],
+    "src": "existing page keyword"
+  },
+  "remy-martin-centaure-de-diamant": {
+    "primary": "buy remy martin centaure de diamant online",
+    "secondary": [
+      "remy martin centaure de diamant for sale",
+      "remy martin centaure de diamant price",
+      "buy remy martin centaure de cognac online"
+    ],
+    "src": "existing page keyword"
+  },
+  "remy-martin-club": {
+    "primary": "buy remy martin club online",
+    "secondary": [
+      "remy martin club for sale",
+      "remy martin club price",
+      "buy remy martin club cognac online"
+    ],
+    "src": "existing page keyword"
+  },
+  "remy-martin-coeur-de-cognac": {
+    "primary": "buy remy martin coeur de cognac online",
+    "secondary": [
+      "remy martin coeur de cognac for sale",
+      "remy martin coeur de cognac price",
+      "buy remy martin coeur de online same day"
+    ],
+    "src": "existing page keyword"
+  },
+  "remy-martin-louis-xiii-black-pearl-grande-champagne": {
+    "primary": "buy remy martin louis xiii black pearl grande champagne online",
+    "secondary": [
+      "remy martin louis xiii black pearl grande champagne for sale",
+      "remy martin louis xiii black pearl grande champagne price"
+    ],
+    "src": "existing page keyword"
+  },
+  "remy-martin-louis-xiii-black-pearl": {
+    "primary": "buy remy martin louis xiii black pearl online",
+    "secondary": [
+      "remy martin louis xiii black pearl for sale",
+      "remy martin louis xiii black pearl price"
+    ],
+    "src": "existing page keyword"
+  },
+  "remy-martin-louis-xiii-rare-cask": {
+    "primary": "buy remy martin louis xiii rare cask online",
+    "secondary": [
+      "remy martin louis xiii rare cask for sale",
+      "remy martin louis xiii rare cask price"
+    ],
+    "src": "existing page keyword"
+  },
+  "remy-martin-louis-xiii": {
+    "primary": "remy xiii cognac",
+    "secondary": [],
+    "src": "blog-linked (Semrush-verified)"
+  },
+  "remy-martin-tercet": {
+    "primary": "buy remy martin tercet online",
+    "secondary": [
+      "remy martin tercet for sale",
+      "remy martin tercet price",
+      "buy remy martin tercet cognac online"
+    ],
+    "src": "existing page keyword"
+  },
+  "remy-martin-vsop": {
+    "primary": "remy martin vsop 750ml price",
+    "secondary": [
+      "remy martin vsop cognac",
+      "remy martin vsop"
+    ],
+    "src": "blog-linked (Semrush-verified)"
+  },
+  "remy-martin-xo-excellence": {
+    "primary": "remy xo cognac",
+    "secondary": [],
+    "src": "blog-linked (Semrush-verified)"
+  },
+  "remy-martin-xo-limited-edition": {
+    "primary": "remy martin xo limited edition price",
+    "secondary": [
+      "buy remy martin x.o limited edition online",
+      "remy martin x.o limited edition for sale",
+      "remy martin x.o limited edition price"
+    ],
+    "src": "existing page keyword"
+  },
+  "renault-vsop-carte-noire": {
+    "primary": "buy renault cognac online",
+    "secondary": [
+      "renault cognac price",
+      "renault vsop carte noire for sale",
+      "renault vsop carte noire same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "rittenhouse-rye-bib": {
+    "primary": "rittenhouse rye bottled in bond",
+    "secondary": [
+      "rittenhouse bottled in bond rye"
+    ],
+    "src": "blog-linked (Semrush-verified)"
+  },
+  "rock-hill-farms-bourbon": {
+    "primary": "buy rock hill farms online",
+    "secondary": [
+      "rock hill farms single barrel price",
+      "rock hill farms for sale",
+      "rock hill farms same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "roe-and-co-irish-whiskey": {
+    "primary": "buy roe and co online",
+    "secondary": [
+      "roe and co price",
+      "roe &amp; co for sale",
+      "roe &amp; co same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "roger-groult-calvados": {
+    "primary": "buy roger groult calvados online",
+    "secondary": [
+      "roger groult calvados price",
+      "roger groult calvados for sale",
+      "roger groult calvados same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "rosebank-special-release-21-year-old": {
+    "primary": "rosebank 21 year old price",
+    "secondary": [
+      "buy rosebank single malt",
+      "rosebank special release 21 year old for sale",
+      "rosebank special release 21 year old same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "royal-brackla-12-year": {
+    "primary": "royal brackla whisky price",
+    "secondary": [
+      "buy royal brackla 12 year online",
+      "royal brackla 12 year for sale",
+      "royal brackla 12 year same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "royal-salute-21-year": {
+    "primary": "royal salute 21 price",
+    "secondary": [
+      "royal salute 21 years price",
+      "buy royal salute 21 year online",
+      "royal salute 21 year for sale"
+    ],
+    "src": "existing page keyword"
+  },
+  "royal-salute-25-year": {
+    "primary": "royal salute 25 years price",
+    "secondary": [
+      "buy royal salute 25 year online",
+      "royal salute 25 year for sale",
+      "royal salute 25 year price"
+    ],
+    "src": "existing page keyword"
+  },
+  "russells-reserve-rye-whiskey": {
+    "primary": "buy russells reserve rye online",
+    "secondary": [
+      "russells reserve price",
+      "russell's reserve rye for sale",
+      "russell's reserve rye same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "rye-whiskey-gift-set": {
+    "primary": "buy rye whiskey gift set",
+    "secondary": [],
+    "src": "existing page keyword"
+  },
+  "sagamore-spirit-straight-rye": {
+    "primary": "buy sagamore spirit rye online",
+    "secondary": [
+      "sagamore spirit price",
+      "sagamore spirit straight rye for sale",
+      "sagamore spirit straight rye same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "sazerac-18-year-1968-heritage-bottling": {
+    "primary": "thomas handy sazerac rye",
+    "secondary": [],
+    "src": "blog-linked (Semrush-verified)"
+  },
+  "sazerac-18-year-rye": {
+    "primary": "sazerac rye",
+    "secondary": [
+      "sazerac 18 year rye"
+    ],
+    "src": "blog-linked (Semrush-verified)"
+  },
+  "scotch-malt-whisky-society-cognac-nectar-celeste": {
+    "primary": "buy smws cognac online",
+    "secondary": [
+      "smws c1 nectar celeste price",
+      "scotch malt whisky society cognac nectar céleste for sale",
+      "scotch malt whisky society cognac nectar céleste same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "seagrams-vo-canadian-whisky": {
+    "primary": "buy seagrams vo online",
+    "secondary": [
+      "seagrams vo price",
+      "seagram's vo for sale",
+      "seagram's vo same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "sekk-sato-shiki-single-grain": {
+    "primary": "buy sekk sato shiki online",
+    "secondary": [
+      "sekk whisky price",
+      "sekk sato shiki single grain for sale",
+      "sekk sato shiki single grain same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "shelter-point-single-malt-10-year-cask-strength": {
+    "primary": "buy shelter point single malt 10 year cask strength online",
+    "secondary": [
+      "shelter point single malt 10 year cask strength for sale",
+      "shelter point single malt 10 year cask strength price",
+      "buy shelter point canadian online"
+    ],
+    "src": "existing page keyword"
+  },
+  "singleton-12-year": {
+    "primary": "buy singleton 12 year online",
+    "secondary": [
+      "singleton 12 year for sale",
+      "singleton 12 year price",
+      "buy singleton 12yr scotch"
+    ],
+    "src": "existing page keyword"
+  },
+  "singleton-15-year": {
+    "primary": "buy singleton 15 year online",
+    "secondary": [
+      "singleton 15 year for sale",
+      "singleton 15 year price",
+      "buy singleton 15yr scotch"
+    ],
+    "src": "existing page keyword"
+  },
+  "singleton-18-year": {
+    "primary": "buy singleton 18 year online",
+    "secondary": [
+      "singleton 18 year for sale",
+      "singleton 18 year price",
+      "buy singleton 18yr scotch"
+    ],
+    "src": "existing page keyword"
+  },
+  "slane-irish-whiskey": {
+    "primary": "buy slane online",
+    "secondary": [
+      "slane whiskey price",
+      "slane irish whiskey for sale",
+      "slane irish whiskey same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "smooth-ambler-bourbon": {
+    "primary": "buy smooth ambler online",
+    "secondary": [
+      "smooth ambler price",
+      "smooth ambler for sale",
+      "smooth ambler same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "speyburn-10-year": {
+    "primary": "speyburn whisky price",
+    "secondary": [
+      "buy speyburn 10 year online",
+      "speyburn 10 year for sale",
+      "speyburn 10 year same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "springbank-1919-100-year": {
+    "primary": "buy springbank 1919 100 year online",
+    "secondary": [
+      "springbank 1919 100 year for sale",
+      "springbank 1919 100 year price",
+      "buy springbank 100yr scotch"
+    ],
+    "src": "existing page keyword"
+  },
+  "springbank-21-year": {
+    "primary": "buy springbank 21 year online",
+    "secondary": [
+      "springbank 21 year for sale",
+      "springbank 21 year price",
+      "buy springbank 21yr scotch"
+    ],
+    "src": "existing page keyword"
+  },
+  "springbank-50-year": {
+    "primary": "buy springbank 50 year online",
+    "secondary": [
+      "springbank 50 year for sale",
+      "springbank 50 year price",
+      "buy springbank 50yr scotch"
+    ],
+    "src": "existing page keyword"
+  },
+  "st-george-spirits-pear-brandy": {
+    "primary": "buy st george spirits brandy online",
+    "secondary": [
+      "st george brandy price",
+      "st. george spirits pear brandy for sale",
+      "st. george spirits pear brandy same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "stalk-barrel-single-malt-18-year": {
+    "primary": "buy stalk &amp; barrel single malt 18 year online",
+    "secondary": [
+      "stalk &amp; barrel single malt 18 year for sale",
+      "stalk &amp; barrel single malt 18 year price",
+      "buy stalk &amp; canadian online"
+    ],
+    "src": "existing page keyword"
+  },
+  "starlight-distillery-bourbon": {
+    "primary": "buy starlight distillery bourbon online",
+    "secondary": [
+      "starlight bourbon price",
+      "starlight distillery bourbon for sale",
+      "starlight distillery bourbon same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "stellum-bourbon": {
+    "primary": "buy stellum bourbon online",
+    "secondary": [
+      "stellum bourbon price",
+      "stellum bourbon for sale",
+      "stellum bourbon same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "stock-84-vsop-brandy": {
+    "primary": "buy stock 84 v.s.o.p brandy online",
+    "secondary": [
+      "stock 84 v.s.o.p brandy for sale",
+      "stock 84 v.s.o.p brandy price",
+      "buy stock brandy online"
+    ],
+    "src": "existing page keyword"
+  },
+  "suntory-royal-1960-original-bottling": {
+    "primary": "buy suntory royal 1960 original bottling online",
+    "secondary": [
+      "suntory royal 1960 original bottling for sale",
+      "suntory royal 1960 original bottling price",
+      "buy suntory royal japanese online"
+    ],
+    "src": "existing page keyword"
+  },
+  "suntory-toki": {
+    "primary": "toki suntory whiskey",
+    "secondary": [],
+    "src": "blog-linked (Semrush-verified)"
+  },
+  "suntory-ultimate-collection-vault": {
+    "primary": "buy suntory ultimate collection vault online",
+    "secondary": [
+      "suntory ultimate collection vault for sale",
+      "suntory ultimate collection vault price",
+      "buy suntory ultimate gifts online"
+    ],
+    "src": "existing page keyword"
+  },
+  "suntory-yamazaki-1984-single-cask": {
+    "primary": "buy suntory yamazaki 1984 single cask online",
+    "secondary": [
+      "suntory yamazaki 1984 single cask for sale",
+      "suntory yamazaki 1984 single cask price",
+      "buy suntory yamazaki japanese online"
+    ],
+    "src": "existing page keyword"
+  },
+  "talisker-10-year": {
+    "primary": "talisker single malt 10 years price",
+    "secondary": [
+      "talisker 10"
+    ],
+    "src": "blog-linked (Semrush-verified)"
+  },
+  "talisker-18-year": {
+    "primary": "talisker 18 year old",
+    "secondary": [],
+    "src": "blog-linked (Semrush-verified)"
+  },
+  "talisker-25-year": {
+    "primary": "buy talisker 25 year online",
+    "secondary": [
+      "talisker 25"
+    ],
+    "src": "existing page keyword (name-based, unverified)"
+  },
+  "talisker-30-year": {
+    "primary": "buy talisker 30 year online",
+    "secondary": [
+      "talisker 30 year for sale",
+      "talisker 30 year price",
+      "buy talisker 30yr scotch"
+    ],
+    "src": "existing page keyword"
+  },
+  "talisker-storm": {
+    "primary": "buy talisker storm online",
+    "secondary": [
+      "talisker storm"
+    ],
+    "src": "existing page keyword (name-based, unverified)"
+  },
+  "tamdhu-single-malt-scotch": {
+    "primary": "buy tamdhu online",
+    "secondary": [
+      "tamdhu whisky price",
+      "tamdhu for sale",
+      "tamdhu same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "tariquet-vsop-armagnac": {
+    "primary": "buy tariquet v.s.o.p armagnac online",
+    "secondary": [
+      "tariquet v.s.o.p armagnac for sale",
+      "tariquet v.s.o.p armagnac price",
+      "buy tariquet v.s.o.p armagnac brandy online"
+    ],
+    "src": "existing page keyword"
+  },
+  "tariquet-xo-armagnac": {
+    "primary": "buy tariquet x.o armagnac online",
+    "secondary": [
+      "tariquet x.o armagnac for sale",
+      "tariquet x.o armagnac price",
+      "buy tariquet x.o armagnac brandy online"
+    ],
+    "src": "existing page keyword"
+  },
+  "teachers-highland-cream-scotch": {
+    "primary": "buy teachers scotch online",
+    "secondary": [
+      "teachers highland cream price",
+      "teacher's highland cream for sale",
+      "teacher's highland cream same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "teeling-irish-whiskey": {
+    "primary": "buy teeling online",
+    "secondary": [
+      "teeling whiskey price",
+      "teeling whiskey for sale",
+      "teeling whiskey same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "templeton-rye-whiskey": {
+    "primary": "buy templeton rye online",
+    "secondary": [
+      "templeton rye price",
+      "templeton rye for sale",
+      "templeton rye same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "tenjaku-pure-malt": {
+    "primary": "buy tenjaku pure malt online",
+    "secondary": [
+      "tenjaku whisky price",
+      "tenjaku pure malt for sale",
+      "tenjaku pure malt same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "tesseron-cognac": {
+    "primary": "buy tesseron online",
+    "secondary": [
+      "tesseron xo price",
+      "tesseron cognac for sale",
+      "tesseron cognac same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "the-allocated-rarities-trio": {
+    "primary": "buy the allocated rarities trio online",
+    "secondary": [
+      "the allocated rarities trio for sale",
+      "the allocated rarities trio price",
+      "buy the allocated rarities trio gifts online"
+    ],
+    "src": "existing page keyword"
+  },
+  "the-american-rye-masters-set": {
+    "primary": "buy the american rye masters set online",
+    "secondary": [
+      "the american rye masters set for sale",
+      "the american rye masters set price",
+      "buy the american rye masters gifts online"
+    ],
+    "src": "existing page keyword"
+  },
+  "the-bourbon-collectors-vault": {
+    "primary": "buy the bourbon collector's vault online",
+    "secondary": [
+      "the bourbon collector's vault for sale",
+      "the bourbon collector's vault price",
+      "buy the bourbon collector's vault gifts online"
+    ],
+    "src": "existing page keyword"
+  },
+  "the-bourbon-foundations-set": {
+    "primary": "buy the bourbon foundations set online",
+    "secondary": [
+      "the bourbon foundations set for sale",
+      "the bourbon foundations set price",
+      "buy the bourbon foundations set gifts online"
+    ],
+    "src": "existing page keyword"
+  },
+  "the-buffalo-trace-antique-collection": {
+    "primary": "buy the buffalo trace antique collection online",
+    "secondary": [
+      "the buffalo trace antique collection for sale",
+      "the buffalo trace antique collection price",
+      "buy the buffalo trace antique gifts online"
+    ],
+    "src": "existing page keyword"
+  },
+  "the-busker-single-malt": {
+    "primary": "buy the busker single malt online",
+    "secondary": [
+      "busker whiskey price",
+      "the busker single malt for sale",
+      "the busker single malt same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "the-collectors-ultimate-cellar": {
+    "primary": "buy the collector's ultimate cellar online",
+    "secondary": [
+      "the collector's ultimate cellar for sale",
+      "the collector's ultimate cellar price",
+      "buy the collector's ultimate cellar gifts online"
+    ],
+    "src": "existing page keyword"
+  },
+  "the-craft-irish-whiskey-co-the-taoscan-15-year": {
+    "primary": "buy the taoscan irish whiskey",
+    "secondary": [
+      "rare irish whiskey price",
+      "the craft irish whiskey co the taoscán 15 year for sale",
+      "the craft irish whiskey co the taoscán 15 year same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "the-dalmore-64-year-trinitas-presentation-set": {
+    "primary": "buy the dalmore 64 year trinitas presentation set online",
+    "secondary": [
+      "the dalmore 64 year trinitas presentation set for sale",
+      "the dalmore 64 year trinitas presentation set price",
+      "buy the dalmore gifts online"
+    ],
+    "src": "existing page keyword"
+  },
+  "the-famous-grouse": {
+    "primary": "famous grouse scotch whisky",
+    "secondary": [],
+    "src": "blog-linked (Semrush-verified)"
+  },
+  "the-glenfiddich-century-vault": {
+    "primary": "buy the glenfiddich century vault online",
+    "secondary": [
+      "the glenfiddich century vault for sale",
+      "the glenfiddich century vault price",
+      "buy the glenfiddich century vault gifts online"
+    ],
+    "src": "existing page keyword"
+  },
+  "the-glenfiddich-janet-sheed-roberts-reserve-1955-set": {
+    "primary": "buy the glenfiddich janet sheed roberts reserve 1955 set online",
+    "secondary": [
+      "the glenfiddich janet sheed roberts reserve 1955 set for sale",
+      "the glenfiddich janet sheed roberts reserve 1955 set price",
+      "buy the glenfiddich janet sheed gifts online"
+    ],
+    "src": "existing page keyword"
+  },
+  "the-irish-whiskey-trio": {
+    "primary": "buy the irish whiskey trio online",
+    "secondary": [
+      "the irish whiskey trio for sale",
+      "the irish whiskey trio price",
+      "buy the irish whiskey trio gifts online"
+    ],
+    "src": "existing page keyword"
+  },
+  "the-islay-smoke-collection": {
+    "primary": "buy the islay smoke collection online",
+    "secondary": [
+      "the islay smoke collection for sale",
+      "the islay smoke collection price",
+      "buy the islay smoke gifts online"
+    ],
+    "src": "existing page keyword"
+  },
+  "the-japanese-century-collection": {
+    "primary": "buy the japanese century collection online",
+    "secondary": [
+      "the japanese century collection for sale",
+      "the japanese century collection price",
+      "buy the japanese century gifts online"
+    ],
+    "src": "existing page keyword"
+  },
+  "the-japanese-whisky-journey": {
+    "primary": "buy the japanese whisky journey online",
+    "secondary": [
+      "the japanese whisky journey for sale",
+      "the japanese whisky journey price",
+      "buy the japanese whisky journey gifts online"
+    ],
+    "src": "existing page keyword"
+  },
+  "the-legendary-islay-vault": {
+    "primary": "buy the legendary islay vault online",
+    "secondary": [
+      "the legendary islay vault for sale",
+      "the legendary islay vault price",
+      "buy the legendary islay vault gifts online"
+    ],
+    "src": "existing page keyword"
+  },
+  "the-macallan-masters-of-photography-ansel-adams-edition": {
+    "primary": "buy the macallan masters of photography ansel adams edition online",
+    "secondary": [
+      "the macallan masters of photography ansel adams edition for sale",
+      "the macallan masters of photography ansel adams edition price",
+      "buy the macallan masters of gifts online"
+    ],
+    "src": "existing page keyword"
+  },
+  "the-macallan-pinnacle-collection": {
+    "primary": "buy the macallan pinnacle collection online",
+    "secondary": [
+      "the macallan pinnacle collection for sale",
+      "the macallan pinnacle collection price",
+      "buy the macallan pinnacle gifts online"
+    ],
+    "src": "existing page keyword"
+  },
+  "the-macallan-sherry-cask-journey": {
+    "primary": "buy the macallan sherry cask journey online",
+    "secondary": [
+      "the macallan sherry cask journey for sale",
+      "the macallan sherry cask journey price",
+      "buy the macallan sherry gifts online"
+    ],
+    "src": "existing page keyword"
+  },
+  "the-pappy-family-legacy-collection": {
+    "primary": "buy the pappy family legacy collection online",
+    "secondary": [
+      "the pappy family legacy collection for sale",
+      "the pappy family legacy collection price",
+      "buy the pappy family legacy gifts online"
+    ],
+    "src": "existing page keyword"
+  },
+  "the-pappy-van-winkle-experience": {
+    "primary": "buy the pappy van winkle experience online",
+    "secondary": [
+      "the pappy van winkle experience for sale",
+      "the pappy van winkle experience price",
+      "buy the pappy van winkle gifts online"
+    ],
+    "src": "existing page keyword"
+  },
+  "the-rare-japanese-masters-set": {
+    "primary": "buy the rare japanese masters set online",
+    "secondary": [
+      "the rare japanese masters set for sale",
+      "the rare japanese masters set price",
+      "buy the gifts online"
+    ],
+    "src": "existing page keyword"
+  },
+  "the-sassenach-blended-scotch": {
+    "primary": "sassenach whisky price",
+    "secondary": [
+      "buy the sassenach scotch online",
+      "the sassenach blended scotch for sale",
+      "the sassenach blended scotch same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "the-scotch-explorer-set": {
+    "primary": "buy the scotch explorer set online",
+    "secondary": [
+      "the scotch explorer set for sale",
+      "the scotch explorer set price",
+      "buy the scotch explorer set gifts online"
+    ],
+    "src": "existing page keyword"
+  },
+  "the-sexton-irish-whiskey": {
+    "primary": "buy the sexton online",
+    "secondary": [
+      "the sexton whiskey price",
+      "the sexton for sale",
+      "the sexton same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "the-speyside-masters-collection": {
+    "primary": "buy the speyside masters collection online",
+    "secondary": [
+      "the speyside masters collection for sale",
+      "the speyside masters collection price",
+      "buy the speyside masters gifts online"
+    ],
+    "src": "existing page keyword"
+  },
+  "the-worlds-finest-whisky-box": {
+    "primary": "buy the world's finest whisky box online",
+    "secondary": [
+      "the world's finest whisky box for sale",
+      "the world's finest whisky box price",
+      "buy the world's finest whisky gifts online"
+    ],
+    "src": "existing page keyword"
+  },
+  "thomas-h-handy-sazerac-rye-2003-first-release": {
+    "primary": "buy thomas h. handy sazerac rye 2003 first release online",
+    "secondary": [
+      "thomas h. handy sazerac rye 2003 first release for sale",
+      "thomas h. handy sazerac rye 2003 first release price",
+      "buy thomas h. handy sazerac rye online"
+    ],
+    "src": "existing page keyword"
+  },
+  "thomas-h-handy-sazerac-rye": {
+    "primary": "sazerac rye thomas handy",
+    "secondary": [],
+    "src": "blog-linked (Semrush-verified)"
+  },
+  "tobermory-single-malt-scotch": {
+    "primary": "buy tobermory online",
+    "secondary": [
+      "tobermory whisky price",
+      "tobermory / ledaig for sale",
+      "tobermory / ledaig same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "togouchi-whisky": {
+    "primary": "buy togouchi online",
+    "secondary": [
+      "togouchi whisky price",
+      "togouchi for sale",
+      "togouchi same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "tomatin-12-year": {
+    "primary": "buy tomatin 12 year online",
+    "secondary": [
+      "tomatin 12 year for sale",
+      "tomatin 12 year price",
+      "buy tomatin 12yr scotch"
+    ],
+    "src": "existing page keyword"
+  },
+  "tomatin-18-year": {
+    "primary": "buy tomatin 18 year online",
+    "secondary": [
+      "tomatin 18 year for sale",
+      "tomatin 18 year price",
+      "buy tomatin 18yr scotch"
+    ],
+    "src": "existing page keyword"
+  },
+  "tomintoul-10-year": {
+    "primary": "tomintoul whisky price",
+    "secondary": [
+      "buy tomintoul 10 year online",
+      "tomintoul 10 year for sale",
+      "tomintoul 10 year same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "torres-10-year-brandy": {
+    "primary": "buy torres 10 year brandy online",
+    "secondary": [
+      "torres 10 year brandy for sale",
+      "torres 10 year brandy price",
+      "buy torres 10yr brandy"
+    ],
+    "src": "existing page keyword"
+  },
+  "torres-15-year-brandy": {
+    "primary": "buy torres 15 year brandy online",
+    "secondary": [
+      "torres 15 year brandy for sale",
+      "torres 15 year brandy price",
+      "buy torres 15yr brandy"
+    ],
+    "src": "existing page keyword"
+  },
+  "torres-20-year-brandy": {
+    "primary": "buy torres 20 year brandy online",
+    "secondary": [
+      "torres 20 year brandy for sale",
+      "torres 20 year brandy price",
+      "buy torres 20yr brandy"
+    ],
+    "src": "existing page keyword"
+  },
+  "torres-reserva-privada-1922-gran-reserva": {
+    "primary": "buy torres reserva privada 1922 gran reserva online",
+    "secondary": [
+      "torres reserva privada 1922 gran reserva for sale",
+      "torres reserva privada 1922 gran reserva price",
+      "buy torres reserva privada brandy online"
+    ],
+    "src": "existing page keyword"
+  },
+  "tullamore-dew-irish-whiskey": {
+    "primary": "buy tullamore dew online",
+    "secondary": [
+      "tullamore dew price",
+      "tullamore d.e.w. for sale",
+      "tullamore d.e.w. same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "tullibardine-single-malt-scotch": {
+    "primary": "buy tullibardine online",
+    "secondary": [
+      "tullibardine whisky price",
+      "tullibardine for sale",
+      "tullibardine same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "two-brewers-whisky": {
+    "primary": "buy two brewers online",
+    "secondary": [
+      "two brewers price",
+      "two brewers for sale",
+      "two brewers same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "vallein-tercinier-cognac": {
+    "primary": "buy vallein tercinier online",
+    "secondary": [
+      "vallein tercinier cognac price",
+      "vallein tercinier for sale",
+      "vallein tercinier same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "very-old-barton-bourbon": {
+    "primary": "buy very old barton online",
+    "secondary": [
+      "very old barton price",
+      "very old barton for sale",
+      "very old barton same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "very-olde-st-nick-15-year-ancient-cask": {
+    "primary": "buy very olde st nick bourbon online",
+    "secondary": [
+      "very olde st nick price",
+      "very olde st. nick 15 year ancient cask for sale",
+      "very olde st. nick 15 year ancient cask same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "waterford-irish-whisky": {
+    "primary": "buy waterford online",
+    "secondary": [
+      "waterford whisky price",
+      "waterford whisky for sale",
+      "waterford whisky same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "wathens-single-barrel": {
+    "primary": "buy wathen's single barrel bourbon online",
+    "secondary": [
+      "wathen's bourbon price",
+      "wathen's single barrel for sale",
+      "wathen's single barrel same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "wayne-gretzky-no99-red-cask": {
+    "primary": "buy wayne gretzky whisky online",
+    "secondary": [
+      "wayne gretzky whisky price",
+      "wayne gretzky no.99 red cask for sale",
+      "wayne gretzky no.99 red cask same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "weller-12-year-bourbon": {
+    "primary": "weller 12 year price",
+    "secondary": [
+      "weller 12 for sale"
+    ],
+    "src": "blog-linked (Semrush-verified)"
+  },
+  "weller-antique-107": {
+    "primary": "weller bourbon 107",
+    "secondary": [
+      "weller wheated bourbon"
+    ],
+    "src": "blog-linked (Semrush-verified)"
+  },
+  "weller-full-proof-bourbon": {
+    "primary": "weller full proof for sale",
+    "secondary": [],
+    "src": "blog-linked (Semrush-verified)"
+  },
+  "wemyss-spice-king-8-year": {
+    "primary": "wemyss malts whisky price",
+    "secondary": [
+      "buy wemyss spice king online",
+      "wemyss spice king 8 year for sale",
+      "wemyss spice king 8 year same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "west-cork-bourbon-cask": {
+    "primary": "buy west cork irish whiskey online",
+    "secondary": [
+      "west cork whiskey price",
+      "west cork bourbon cask for sale",
+      "west cork bourbon cask same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "whistlepig-10-year": {
+    "primary": "buy whistlepig 10 year online",
+    "secondary": [
+      "whistlepig 10 year",
+      "10 year whistlepig"
+    ],
+    "src": "existing page keyword (name-based, unverified)"
+  },
+  "whistlepig-15-year-vermont-estate-oak": {
+    "primary": "buy whistlepig 15 year vermont estate oak online",
+    "secondary": [
+      "whistlepig 15 year"
+    ],
+    "src": "existing page keyword (name-based, unverified)"
+  },
+  "whistlepig-18-year-double-malt-rye": {
+    "primary": "whistlepig farmstock rye",
+    "secondary": [],
+    "src": "blog-linked (Semrush-verified)"
+  },
+  "whistlepig-boss-hog-spirit-of-mauve-special-edition": {
+    "primary": "buy whistlepig boss hog spirit of mauve special edition online",
+    "secondary": [
+      "whistlepig boss hog spirit of mauve special edition for sale",
+      "whistlepig boss hog spirit of mauve special edition price",
+      "buy whistlepig boss hog spirit rye online"
+    ],
+    "src": "existing page keyword"
+  },
+  "whistlepig-farmstock-rye-crop-no003": {
+    "primary": "buy whistlepig farmstock rye crop no.003 online",
+    "secondary": [
+      "whistlepig farmstock rye crop no.003 for sale",
+      "whistlepig farmstock rye crop no.003 price",
+      "buy whistlepig farmstock rye crop canadian online"
+    ],
+    "src": "existing page keyword"
+  },
+  "whistlepig-the-boss-hog-ix": {
+    "primary": "boss hog whistlepig",
+    "secondary": [],
+    "src": "blog-linked (Semrush-verified)"
+  },
+  "whistlepig-the-boss-hog-magellans-atlantic": {
+    "primary": "buy whistlepig the boss hog: magellan's atlantic online",
+    "secondary": [
+      "whistlepig the boss hog: magellan's atlantic for sale",
+      "whistlepig the boss hog: magellan's atlantic price",
+      "luxury rye buy online"
+    ],
+    "src": "existing page keyword"
+  },
+  "white-horse-scotch-whisky": {
+    "primary": "buy white horse online",
+    "secondary": [
+      "white horse whisky price",
+      "white horse for sale",
+      "white horse same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "whyte-and-mackay-scotch-whisky": {
+    "primary": "buy whyte and mackay online",
+    "secondary": [
+      "whyte and mackay price",
+      "whyte &amp; mackay for sale",
+      "whyte &amp; mackay same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "widow-jane-bourbon": {
+    "primary": "buy widow jane online",
+    "secondary": [
+      "widow jane bourbon price",
+      "widow jane for sale",
+      "widow jane same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "wild-turkey-rare-breed": {
+    "primary": "buy wild turkey rare breed online",
+    "secondary": [
+      "wild turkey rare breed"
+    ],
+    "src": "existing page keyword (name-based, unverified)"
+  },
+  "wild-turkey-rye-101": {
+    "primary": "buy wild turkey rye online",
+    "secondary": [
+      "wild turkey rye 101 price",
+      "wild turkey rye 101 for sale",
+      "wild turkey rye 101 same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "wilderness-trail-bourbon": {
+    "primary": "buy wilderness trail online",
+    "secondary": [
+      "wilderness trail price",
+      "wilderness trail for sale",
+      "wilderness trail same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "willett-bourbon": {
+    "primary": "buy willett online",
+    "secondary": [
+      "willett bourbon price",
+      "willett family estate / pot still for sale",
+      "willett family estate / pot still same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "willett-family-estate-single-barrel": {
+    "primary": "buy willett single barrel online",
+    "secondary": [
+      "willett family estate price",
+      "willett family estate single barrel for sale",
+      "willett family estate single barrel same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "william-larue-weller-barrel-proof": {
+    "primary": "weller wheat bourbon",
+    "secondary": [
+      "evan williams bottled in bond"
+    ],
+    "src": "blog-linked (Semrush-verified)"
+  },
+  "wolfburn-single-malt-scotch": {
+    "primary": "buy wolfburn online",
+    "secondary": [
+      "wolfburn whisky price",
+      "wolfburn for sale",
+      "wolfburn same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "woodford-reserve-distillers-select": {
+    "primary": "buy woodford reserve distiller's select online",
+    "secondary": [
+      "woodford reserve distiller's select for sale",
+      "woodford reserve distiller's select price"
+    ],
+    "src": "existing page keyword"
+  },
+  "woodford-reserve-double-oaked": {
+    "primary": "woodford reserve double oaked price",
+    "secondary": [
+      "woodford reserve double double oaked price",
+      "buy woodford reserve double oaked online",
+      "woodford reserve double oaked for sale"
+    ],
+    "src": "existing page keyword"
+  },
+  "woodford-reserve-gift-set-with-glasses": {
+    "primary": "woodford reserve bourbon whiskey gift set",
+    "secondary": [],
+    "src": "blog-linked (Semrush-verified)"
+  },
+  "woodford-reserve-rye": {
+    "primary": "buy woodford reserve rye online",
+    "secondary": [
+      "woodford reserve rye price",
+      "woodford reserve rye for sale",
+      "woodford reserve rye same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "world-brandy-gift-set": {
+    "primary": "buy brandy gift set",
+    "secondary": [],
+    "src": "existing page keyword"
+  },
+  "writers-tears-irish-whiskey": {
+    "primary": "buy writers tears online",
+    "secondary": [
+      "writers tears price",
+      "writers' tears for sale",
+      "writers' tears same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "wyoming-whiskey-small-batch": {
+    "primary": "buy wyoming whiskey online",
+    "secondary": [
+      "wyoming whiskey price",
+      "wyoming whiskey small batch for sale",
+      "wyoming whiskey small batch same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "yamato-takeda-shingen-edition": {
+    "primary": "buy yamato whisky online",
+    "secondary": [
+      "yamato whisky price",
+      "yamato takeda shingen edition for sale",
+      "yamato takeda shingen edition same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "yamazaki-18-year": {
+    "primary": "yamazaki 18 whiskey price",
+    "secondary": [
+      "buy yamazaki 18 year online",
+      "yamazaki 18 year for sale",
+      "yamazaki 18 year price"
+    ],
+    "src": "existing page keyword"
+  },
+  "yamazaki-25-year": {
+    "primary": "yamazaki 25 price",
+    "secondary": [],
+    "src": "blog-linked (Semrush-verified)"
+  },
+  "yamazaki-35-year": {
+    "primary": "buy yamazaki 35 year online",
+    "secondary": [
+      "yamazaki 35 year for sale",
+      "yamazaki 35 year price",
+      "buy yamazaki 35yr japanese"
+    ],
+    "src": "existing page keyword"
+  },
+  "yamazaki-50-year": {
+    "primary": "buy yamazaki 50 year online",
+    "secondary": [
+      "yamazaki 50 year for sale",
+      "yamazaki 50 year price",
+      "buy yamazaki 50yr japanese"
+    ],
+    "src": "existing page keyword"
+  },
+  "yamazaki-55-year-2021-release": {
+    "primary": "buy yamazaki 55 year 2021 release online",
+    "secondary": [
+      "yamazaki 55 year 2021 release for sale",
+      "yamazaki 55 year 2021 release price",
+      "buy yamazaki 55yr japanese"
+    ],
+    "src": "existing page keyword"
+  },
+  "yellow-spot-irish-whiskey": {
+    "primary": "buy yellow spot online",
+    "secondary": [
+      "yellow spot price",
+      "yellow spot for sale",
+      "yellow spot same day delivery"
+    ],
+    "src": "existing page keyword"
+  },
+  "yellowstone-bourbon": {
+    "primary": "buy yellowstone online",
+    "secondary": [
+      "yellowstone bourbon price",
+      "yellowstone bourbon for sale",
+      "yellowstone bourbon same day delivery"
+    ],
+    "src": "existing page keyword"
+  }
+}
