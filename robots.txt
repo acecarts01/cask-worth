@@ -1,12 +1,9 @@
 # Caskworth.com — robots.txt
 # https://caskworth.com/sitemap.xml
 #
-# Cloudflare's dashboard-level robots.txt management (Security → Settings →
-# "Manage your robots.txt") previously injected a "Cloudflare Managed content"
-# block ABOVE this file's own rules, disallowing ClaudeBot/GPTBot/Google-Extended/
-# Applebot-Extended/CCBot/etc and directly contradicting the Allow rules below.
-# Fixed 2026-09-15 by setting that dashboard option to "Disable robots.txt
-# configuration" so this file is the sole source of truth again.
+# Policy (owner decision, 18 Nov 2026): AI SEARCH and CITATION crawlers are allowed so the shop can be
+# found and cited; AI TRAINING crawlers are blocked. Cloudflare dashboard robots.txt management stays
+# disabled (Security > Settings > Manage your robots.txt) so this file is the only source of truth.
 
 Content-Signal: search=yes, ai-input=yes, ai-train=no
 
@@ -17,7 +14,7 @@ Disallow: /admin/
 Disallow: /api/
 Disallow: /invoice/
 
-# Googlebot
+# ── Search engines and AI search / citation / user-action bots (allowed) ──
 User-agent: Googlebot
 Allow: /
 Disallow: /checkout/
@@ -25,7 +22,6 @@ Disallow: /admin/
 Disallow: /api/
 Disallow: /invoice/
 
-# Bingbot
 User-agent: Bingbot
 Allow: /
 Disallow: /checkout/
@@ -33,20 +29,6 @@ Disallow: /admin/
 Disallow: /api/
 Disallow: /invoice/
 Crawl-delay: 1
-
-# Machine-readable catalogue API (read-only)
-# https://caskworth.com/openapi.json
-# https://caskworth.com/.well-known/api-catalog
-
-Sitemap: https://caskworth.com/sitemap.xml
-
-# ── AI / agent crawlers (explicitly allowed) ──
-User-agent: GPTBot
-Allow: /
-Disallow: /checkout/
-Disallow: /admin/
-Disallow: /api/
-Disallow: /invoice/
 
 User-agent: OAI-SearchBot
 Allow: /
@@ -62,7 +44,21 @@ Disallow: /admin/
 Disallow: /api/
 Disallow: /invoice/
 
-User-agent: ClaudeBot
+User-agent: PerplexityBot
+Allow: /
+Disallow: /checkout/
+Disallow: /admin/
+Disallow: /api/
+Disallow: /invoice/
+
+User-agent: Perplexity-User
+Allow: /
+Disallow: /checkout/
+Disallow: /admin/
+Disallow: /api/
+Disallow: /invoice/
+
+User-agent: Claude-SearchBot
 Allow: /
 Disallow: /checkout/
 Disallow: /admin/
@@ -76,61 +72,48 @@ Disallow: /admin/
 Disallow: /api/
 Disallow: /invoice/
 
-User-agent: PerplexityBot
-Allow: /
-Disallow: /checkout/
-Disallow: /admin/
-Disallow: /api/
-Disallow: /invoice/
+# ── AI TRAINING crawlers (blocked) ──
+User-agent: GPTBot
+Disallow: /
+
+User-agent: ClaudeBot
+Disallow: /
+
+User-agent: anthropic-ai
+Disallow: /
 
 User-agent: Google-Extended
-Allow: /
-Disallow: /checkout/
-Disallow: /admin/
-Disallow: /api/
-Disallow: /invoice/
+Disallow: /
 
 User-agent: Applebot-Extended
-Allow: /
-Disallow: /checkout/
-Disallow: /admin/
-Disallow: /api/
-Disallow: /invoice/
+Disallow: /
 
 User-agent: CCBot
-Allow: /
-Disallow: /checkout/
-Disallow: /admin/
-Disallow: /api/
-Disallow: /invoice/
-
-User-agent: Amazonbot
-Allow: /
-Disallow: /checkout/
-Disallow: /admin/
-Disallow: /api/
-Disallow: /invoice/
+Disallow: /
 
 User-agent: Bytespider
-Allow: /
-Disallow: /checkout/
-Disallow: /admin/
-Disallow: /api/
-Disallow: /invoice/
+Disallow: /
 
 User-agent: Meta-ExternalAgent
-Allow: /
-Disallow: /checkout/
-Disallow: /admin/
-Disallow: /api/
-Disallow: /invoice/
+Disallow: /
 
 User-agent: cohere-ai
-Allow: /
-Disallow: /checkout/
-Disallow: /admin/
-Disallow: /api/
-Disallow: /invoice/
+Disallow: /
+
+User-agent: Amazonbot
+Disallow: /
+
+User-agent: Diffbot
+Disallow: /
+
+User-agent: ImagesiftBot
+Disallow: /
+
+# Machine-readable catalogue API (read-only)
+# https://caskworth.com/openapi.json
+# https://caskworth.com/.well-known/api-catalog
 
 # Agent site summary
 # https://caskworth.com/llms.txt
+
+Sitemap: https://caskworth.com/sitemap.xml

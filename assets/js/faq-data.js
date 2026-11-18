@@ -4,6 +4,10 @@ export const FAQ_DATA = [
     answer: "The minimum order at Caskworth is $249.99 USD. This applies to all retail and wholesale orders. Mix and match from any category to reach the minimum."
   },
   {
+    question: "How much does delivery cost?",
+    answer: "Delivery is a flat $24.35 USD per order anywhere in the USA and Canada, shown at checkout before you pay. Orders over $900 ship free."
+  },
+  {
     question: "Which U.S. states receive same-day delivery?",
     answer: "Caskworth delivers same-day to 33 states, including California, Texas, New York, Florida and Illinois. Orders must be placed by 2PM for same-day delivery."
   },

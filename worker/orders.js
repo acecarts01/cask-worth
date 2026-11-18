@@ -1,5 +1,6 @@
 import { sendEmail } from './lib/resend.js';
 import { randomToken } from './lib/auth.js';
+import { shippingText } from './lib/shipping.js';
 import { renderOrderNotificationEmail, renderOrderConfirmationEmail, renderInvoiceEmail, customPaymentDetailsHtml } from './lib/email-templates.js';
 
 const REQUIRED_FIELDS = ['name', 'email', 'phone', 'address', 'items', 'subtotal', 'discount', 'total', 'payment'];
@@ -128,6 +129,7 @@ export async function handleInvoicePage(token, env) {
     <table class="totals" style="margin-top:16px">
       <tr><td>Subtotal</td><td align="right">${esc(order.subtotal)}</td></tr>
       <tr><td>Discount</td><td align="right">${esc(order.discount)}</td></tr>
+      <tr><td>Delivery</td><td align="right">${esc(shippingText(order))}</td></tr>
       <tr class="grand"><td>Total</td><td align="right">${esc(order.total)}</td></tr>
     </table>
     ${customPaymentDetailsHtml(order)}

@@ -1,3 +1,4 @@
+import { shippingText } from './shipping.js';
 // Luxury-branded HTML email templates, built from the site's real design tokens
 // (assets/css/style.css :root) rather than generic styling:
 //   --dark:#1c1c1e   --gold:#c9941a   --gold2:#e8a820
@@ -93,6 +94,7 @@ function orderSummaryTable(order) {
     <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-top:16px;">
       <tr><td style="font-family:'Inter',Arial,sans-serif;font-size:13px;color:#6b6b6b;padding:3px 0;">Subtotal</td><td align="right" style="font-family:'Inter',Arial,sans-serif;font-size:13px;color:#2d2d2d;">${esc(order.subtotal)}</td></tr>
       <tr><td style="font-family:'Inter',Arial,sans-serif;font-size:13px;color:#6b6b6b;padding:3px 0;">Discount</td><td align="right" style="font-family:'Inter',Arial,sans-serif;font-size:13px;color:#2d2d2d;">${esc(order.discount)}</td></tr>
+      <tr><td style="font-family:'Inter',Arial,sans-serif;font-size:13px;color:#6b6b6b;padding:3px 0;">Delivery</td><td align="right" style="font-family:'Inter',Arial,sans-serif;font-size:13px;color:#2d2d2d;">${esc(shippingText(order))}</td></tr>
       <tr><td style="font-family:'Inter',Arial,sans-serif;font-size:15px;font-weight:700;color:#1c1c1e;padding:10px 0 0;border-top:1px solid #e8e0d4;">Total</td><td align="right" style="font-family:'Inter',Arial,sans-serif;font-size:15px;font-weight:700;color:#1c1c1e;padding:10px 0 0;border-top:1px solid #e8e0d4;">${esc(order.total)}</td></tr>
     </table>`;
 }

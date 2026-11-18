@@ -26,7 +26,8 @@ AI agents running in an agent-enabled browser can use this site's WebMCP tools (
 ## Ordering & policies
 
 - [How to Order](https://caskworth.com/how-to-order/): Ordering process, delivery windows and coverage
-- [Shipping Policy](https://caskworth.com/shipping-policy/): Delivery areas, timing and requirements
+- [Whiskey Sale](https://caskworth.com/whiskey-sale/): Christmas and New Year offer, 15% off every bottle until 20 February 2027
+- [Shipping Policy](https://caskworth.com/shipping-policy/): Delivery areas, timing, flat $24.35 delivery fee and free delivery over $900
 - [Refunds & Returns](https://caskworth.com/refund-and-returns/): Return conditions and process
 - [FAQ](https://caskworth.com/faq/): Delivery, payment and age-verification questions
 - [Wholesale](https://caskworth.com/wholesale/): Trade and bulk enquiries

@@ -22,8 +22,9 @@
 <link rel="manifest" href="/site.webmanifest">
 <link rel="preload" href="/assets/fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/assets/fonts/playfair-latin-normal.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="/assets/css/style.css?v=20260915b" as="style">
-<link rel="stylesheet" href="/assets/css/style.css?v=20260915b">
+<link rel="preload" href="/assets/css/style.css?v=20261118a" as="style">
+<link rel="stylesheet" href="/assets/css/style.css?v=20261118a">
+<link rel="stylesheet" href="/assets/css/promo.css?v=20261118a">
 <meta name="keywords" content="best Irish whiskey 2025, buy Irish whiskey online, Redbreast buy online, Green Spot buy online, Jameson Black Barrel buy, Midleton Very Rare buy, single pot still whiskey buy, Knappogue Castle buy online, best Irish whiskey brands, buy triple distilled whiskey, Midleton Distillery buy online">
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "Best Irish Whiskey to Buy Online in 2025", "description": "The best Irish whiskey to buy online in 2025 — Redbreast, Green Spot, Jameson Black Barrel and Midleton's rarest release, ranked with same-day delivery.", "url": "https://caskworth.com/blog/best-irish-whiskey-2025/", "image": "https://caskworth.com/assets/images/products/redbreast-12-year.webp?v=20260915b", "publisher": {"@type": "Organization", "name": "Caskworth Premium Whisky", "url": "https://caskworth.com", "logo": {"@type": "ImageObject", "url": "https://caskworth.com/assets/images/favicon-512.png"}}, "mainEntityOfPage": {"@type": "WebPage", "@id": "https://caskworth.com/blog/best-irish-whiskey-2025/"}, "author": {"@type": "Organization", "name": "Caskworth Editorial", "url": "https://caskworth.com/about/"}, "datePublished": "2026-08-11", "dateModified": "2026-08-11"}</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://caskworth.com/"}, {"@type": "ListItem", "position": 2, "name": "Blog", "item": "https://caskworth.com/blog/"}, {"@type": "ListItem", "position": 3, "name": "Best Irish Whiskey to Buy Online in 2025", "item": "https://caskworth.com/blog/best-irish-whiskey-2025/"}]}</script>
@@ -152,7 +153,7 @@
   <path d="M24 36 C17 43 14 50 14 54 C14 58 18 61 24 61 C30 61 34 58 34 54 C34 50 31 43 24 36Z" fill="url(#cg)"/>
   <path d="M20 40 C17 46 16 50 16 54" fill="none" stroke="#fffce0" stroke-width="1.8" stroke-linecap="round" opacity=".45"/>
 </svg></div>
-    <h2 class="ag-title">Welcome to Caskworth</h2>
+    <div class="ag-title">Welcome to Caskworth</div>
     <p class="ag-sub">You must be 21 years or older to enter this site. Please confirm your age to continue.</p>
     <div class="ag-btns">
       <button class="btn btn-gold btn-lg" onclick="confirmAge()">I am 21 or Older</button>
@@ -193,7 +194,7 @@
   </div>
 </div><div id="cart-overlay"></div>
 <div id="cart-drawer">
-  <div class="cart-hd"><h3>Your Cart</h3><button class="cart-x" onclick="toggleCart()">×</button></div>
+  <div class="cart-hd"><div class="cart-title">Your Cart</div><button class="cart-x" onclick="toggleCart()">×</button></div>
   <div class="cart-body" id="cart-body"></div>
   <div id="cart-foot" style="display:none;">
     <div class="cart-ft">
@@ -244,6 +245,7 @@
     <span class="announce-item"><span class="ann-dot"></span>Same-Day to 7 Canadian Provinces</span>
   </div>
 </div>
+<a id="promo-strip" href="/whiskey-sale/" aria-label="Christmas and New Year sale: 15% off every bottle until 20 February"><span class="ps-in"><span class="ps-flake" aria-hidden="true">❄</span><b>Christmas &amp; New Year Sale</b><span class="ps-pct">15% OFF</span><span>every bottle · ends 20 Feb</span><span class="ps-count" aria-hidden="true">Limited time</span><span class="ps-cta">Shop the sale →</span></span></a>
 <header role="banner" id="site-header">
   <div class="header-inner">
     <a href="/" class="logo">
@@ -423,7 +425,7 @@
 
         <!-- Shop by Category -->
         <div class="footer-col">
-          <h3 class="footer-heading">Shop by Category</h3>
+          <div class="footer-heading">Shop by Category</div>
           <ul class="footer-links">
             <li><a href="/shop/">All Premium Spirits</a></li>
             <li><a href="/shop/bourbon/">Bourbon Whiskey</a></li>
@@ -439,7 +441,7 @@
 
         <!-- Top Products -->
         <div class="footer-col">
-          <h3 class="footer-heading">Popular Bottles</h3>
+          <div class="footer-heading">Popular Bottles</div>
           <ul class="footer-links">
             <li><a href="/products/blantons-original-single-barrel">Blanton’s Original</a></li>
             <li><a href="/products/pappy-van-winkle-20-year-family-reserve">Pappy Van Winkle 20yr</a></li>
@@ -455,7 +457,7 @@
 
         <!-- Company + Resources -->
         <div class="footer-col">
-          <h3 class="footer-heading">Company</h3>
+          <div class="footer-heading">Company</div>
           <ul class="footer-links">
             <li><a href="/about/">About Caskworth</a></li>
             <li><a href="/how-to-order/">How to Order</a></li>
@@ -465,7 +467,7 @@
             <li><a href="/reviews/">Customer Reviews</a></li>
             <li><a href="/blog/">Whisky Blog &amp; Guides</a></li>
           </ul>
-          <h3 class="footer-heading" style="margin-top:1.5rem">Legal</h3>
+          <div class="footer-heading" style="margin-top:1.5rem">Legal</div>
           <ul class="footer-links">
             <li><a href="/shipping-policy/">Shipping Policy</a></li>
             <li><a href="/refund-and-returns/">Refunds &amp; Returns</a></li>
@@ -476,7 +478,7 @@
 
         <!-- Blog + Resources -->
         <div class="footer-col">
-          <h3 class="footer-heading">Buying Guides</h3>
+          <div class="footer-heading">Buying Guides</div>
           <ul class="footer-links">
             <li><a href="/blog/best-bourbon-2025/">Best Bourbon 2025</a></li>
             <li><a href="/blog/pappy-van-winkle-guide/">Pappy Van Winkle Guide</a></li>
@@ -485,7 +487,7 @@
             <li><a href="/blog/rare-whisky-investment-2025/">Whisky Investment 2025</a></li>
             <li><a href="/blog/same-day-whiskey-delivery/">Same-Day Delivery Guide</a></li>
           </ul>
-          <h3 class="footer-heading" style="margin-top:1.5rem">Industry Authorities</h3>
+          <div class="footer-heading" style="margin-top:1.5rem">Industry Authorities</div>
           <ul class="footer-links">
             <li><a href="https://www.ttb.gov/" rel="noopener nofollow" target="_blank">Alcohol &amp; Tobacco Tax &amp; Trade Bureau</a></li>
             <li><a href="https://www.distilledspirits.org/" rel="noopener nofollow" target="_blank">Distilled Spirits Council (DISCUS)</a></li>
@@ -505,7 +507,7 @@
     <div class="container">
       <!-- SEO Knowledge Hub -->
       <div style="margin-bottom: 48px; border-top: 1px solid rgba(255,255,255,0.1); padding-top: 32px;">
-        <h3 class="footer-heading" style="text-align: center; margin-bottom: 24px;">Premium Whisky Knowledge Hub</h3>
+        <div class="footer-heading" style="text-align: center; margin-bottom: 24px;">Premium Whisky Knowledge Hub</div>
         <div style="display: flex; flex-wrap: wrap; gap: 8px 16px; justify-content: center; font-size: 11px; color: rgba(255,255,255,0.5);">
           <a href="/shop/bourbon/" style="color: rgba(255,255,255,0.7); text-decoration: none;">best bourbon</a> |
           <a href="/shop/scotch/" style="color: rgba(255,255,255,0.7); text-decoration: none;">scotch whisky</a> |
@@ -548,4 +550,5 @@
 <script src="/assets/js/ultra_products.js?v=20260915b" defer></script>
 <script src="/assets/js/more_products.js?v=20260915b" defer></script>
 <script src="/assets/js/webmcp.js" defer></script>
+<script src="/assets/js/promo.js?v=20261118a" defer></script>
 </body></html>

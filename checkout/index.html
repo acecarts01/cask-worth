@@ -19,7 +19,8 @@
 <link rel="icon" type="image/x-icon" href="/assets/images/favicon.ico">
 <link rel="preload" href="/assets/fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/assets/fonts/playfair-latin-normal.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="/assets/css/style.css?v=20260915b">
+<link rel="stylesheet" href="/assets/css/style.css?v=20261118a">
+<link rel="stylesheet" href="/assets/css/promo.css?v=20261118a">
 <style id="logo-critical">
 .logo{display:flex;align-items:center;gap:10px;text-decoration:none;flex-shrink:0}
 .logo-icon{width:44px;height:44px;background:linear-gradient(150deg,#2a1a06,#0d0a04);border:1.5px solid #c9941a;border-radius:11px;display:flex;align-items:center;justify-content:center;flex-shrink:0;box-shadow:0 0 14px rgba(201,148,26,.3)}
@@ -185,6 +186,7 @@
     <span class="announce-item"><span class="ann-dot"></span>Same-Day to 7 Canadian Provinces</span>
   </div>
 </div>
+<a id="promo-strip" href="/whiskey-sale/" aria-label="Christmas and New Year sale: 15% off every bottle until 20 February"><span class="ps-in"><span class="ps-flake" aria-hidden="true">❄</span><b>Christmas &amp; New Year Sale</b><span class="ps-pct">15% OFF</span><span>every bottle · ends 20 Feb</span><span class="ps-count" aria-hidden="true">Limited time</span><span class="ps-cta">Shop the sale →</span></span></a>
 <header id="site-header" role="banner">
   <div class="header-inner">
     <a href="/" class="logo">
@@ -259,7 +261,7 @@
 <div id="age-gate" style="display:none;position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(15,8,2,.96);z-index:9999;align-items:center;justify-content:center;padding:20px">
 <div style="background:#fff;border-radius:18px;padding:40px;max-width:420px;width:100%;text-align:center;box-shadow:0 20px 60px rgba(0,0,0,.5)">
 <div style="font-size:42px;margin-bottom:12px">&#x1F943;</div>
-<h2 style="font-family:Georgia,serif;font-size:22px;margin-bottom:10px;color:#1c1c1e">Welcome to Caskworth</h2>
+<div style="font-family:Georgia,serif;font-size:22px;margin-bottom:10px;color:#1c1c1e">Welcome to Caskworth</div>
 <p style="font-size:14px;color:#6b6b6b;margin-bottom:24px;line-height:1.5">You must be 21 years of age or older to enter this site and purchase alcohol.</p>
 <button onclick="agYes()" style="display:block;width:100%;padding:14px;margin-bottom:10px;background:linear-gradient(135deg,#c9941a,#e8a820);color:#fff;border:none;border-radius:10px;font-size:15px;font-weight:700;cursor:pointer">Yes, I am 21 or older</button>
 <button onclick="agNo()" style="display:block;width:100%;padding:12px;background:#f0ebe3;color:#6b6b6b;border:none;border-radius:10px;font-size:13px;cursor:pointer">No, I am under 21</button>
@@ -268,7 +270,7 @@
 
 <div id="cart-overlay"></div>
 <div id="cart-drawer">
-  <div class="cart-hd"><h3>Your Cart</h3><button class="cart-x" onclick="toggleCart()" aria-label="Close cart">×</button></div>
+  <div class="cart-hd"><div class="cart-title">Your Cart</div><button class="cart-x" onclick="toggleCart()" aria-label="Close cart">×</button></div>
   <div class="cart-body" id="cart-body"></div>
   <div id="cart-foot" style="display:none;">
     <div class="cart-ft">
@@ -451,11 +453,16 @@
     <!-- Totals -->
     <div class="sum-totals">
       <div class="trow"><span>Subtotal</span><span id="t-sub">$0.00</span></div>
+      <div class="trow disc-row promo-row" id="t-promo-row" style="display:none">
+        <span>&#127876; Christmas &amp; New Year offer (15% off)</span>
+        <span id="t-promo" style="color:#16a34a">-$0.00</span>
+      </div>
       <div class="trow disc-row" id="t-disc-row" style="display:none">
         <span>&#127881; 10% crypto discount</span>
         <span id="t-disc" style="color:#16a34a">-$0.00</span>
       </div>
-      <div class="trow"><span>Shipping</span><span style="color:#16a34a;font-weight:600">FREE</span></div>
+      <div class="trow"><span>Shipping (flat rate)</span><span id="t-ship" style="font-weight:600">$24.35</span></div>
+      <div id="t-ship-note" style="font-size:12px;color:#6b6b6b;margin:-4px 0 8px;">Flat-rate delivery across the USA and Canada. Free delivery on orders over $900.</div>
       <div class="trow grand-row" id="t-grand">
         <span>Total</span>
         <strong id="t-total">$0.00</strong>
@@ -521,7 +528,7 @@
 
         <!-- Shop by Category -->
         <div class="footer-col">
-          <h3 class="footer-heading">Shop by Category</h3>
+          <div class="footer-heading">Shop by Category</div>
           <ul class="footer-links">
             <li><a href="/shop/">All Premium Spirits</a></li>
             <li><a href="/shop/bourbon/">Bourbon Whiskey</a></li>
@@ -537,7 +544,7 @@
 
         <!-- Top Products -->
         <div class="footer-col">
-          <h3 class="footer-heading">Popular Bottles</h3>
+          <div class="footer-heading">Popular Bottles</div>
           <ul class="footer-links">
             <li><a href="/products/blantons-original-single-barrel">Blanton&#x2019;s Original</a></li>
             <li><a href="/products/pappy-van-winkle-20-year-family-reserve">Pappy Van Winkle 20yr</a></li>
@@ -553,7 +560,7 @@
 
         <!-- Company + Resources -->
         <div class="footer-col">
-          <h3 class="footer-heading">Company</h3>
+          <div class="footer-heading">Company</div>
           <ul class="footer-links">
             <li><a href="/about/">About Caskworth</a></li>
             <li><a href="/how-to-order/">How to Order</a></li>
@@ -563,7 +570,7 @@
             <li><a href="/reviews/">Customer Reviews</a></li>
             <li><a href="/blog/">Whisky Blog &amp; Guides</a></li>
           </ul>
-          <h3 class="footer-heading" style="margin-top:1.5rem">Legal</h3>
+          <div class="footer-heading" style="margin-top:1.5rem">Legal</div>
           <ul class="footer-links">
             <li><a href="/shipping-policy/">Shipping Policy</a></li>
             <li><a href="/refund-and-returns/">Refunds &amp; Returns</a></li>
@@ -574,7 +581,7 @@
 
         <!-- Blog + Resources -->
         <div class="footer-col">
-          <h3 class="footer-heading">Buying Guides</h3>
+          <div class="footer-heading">Buying Guides</div>
           <ul class="footer-links">
             <li><a href="/blog/best-bourbon-2025/">Best Bourbon 2025</a></li>
             <li><a href="/blog/pappy-van-winkle-guide/">Pappy Van Winkle Guide</a></li>
@@ -583,7 +590,7 @@
             <li><a href="/blog/rare-whisky-investment-2025/">Whisky Investment 2025</a></li>
             <li><a href="/blog/same-day-whiskey-delivery/">Same-Day Delivery Guide</a></li>
           </ul>
-          <h3 class="footer-heading" style="margin-top:1.5rem">Industry Links</h3>
+          <div class="footer-heading" style="margin-top:1.5rem">Industry Links</div>
           <ul class="footer-links">
             <li><a href="https://www.distilledspirits.org/" rel="noopener nofollow" target="_blank">Distilled Spirits Council</a></li>
             <li><a href="https://www.ttb.gov/" rel="noopener nofollow" target="_blank">TTB Regulations</a></li>
@@ -636,6 +643,7 @@
 <script src="/assets/js/ultra_products.js?v=20260915b" defer></script>
 <script src="/assets/js/more_products.js?v=20260915b" defer></script>
 <script src="/assets/js/webmcp.js" defer></script>
+<script src="/assets/js/promo.js?v=20261118a" defer></script>
 
 <script>
 
@@ -651,6 +659,12 @@ if (typeof cart === 'undefined') { var cart = []; }
 })();
 
 var CO_MIN  = 249.99;
+var CO_SHIP = 24.35;      /* flat delivery fee, USD (FedEx One Rate medium box, Express Saver/2Day) */
+var CO_FREE_OVER = 900;   /* delivery is free when the subtotal is over this amount */
+var CO_PROMO_RATE = 0.15;                       /* Christmas & New Year offer: 15% off, until 20 Feb 2027 (Pacific) */
+var CO_PROMO_END  = Date.parse('2027-02-21T08:00:00Z');
+function promoFor(sub) { return (sub > 0 && Date.now() < CO_PROMO_END) ? Math.round(sub * CO_PROMO_RATE * 100) / 100 : 0; }
+function shipFor(sub) { return (sub > 0 && sub <= CO_FREE_OVER) ? CO_SHIP : 0; }
 var CO_DISC = 0.10;
 var CO_PAY  = 'crypto';
 var CO_WKEY = 'usdt-eth';
@@ -769,14 +783,22 @@ function setText(id, v) {
 /* --- Recalculate totals + progress bar --- */
 function recalc() {
   var sub   = getSub();
-  var disc  = CO_PAY === 'crypto' ? Math.round(sub * CO_DISC * 100) / 100 : 0;
-  var total = sub - disc;
+  var promo = promoFor(sub);
+  var disc  = CO_PAY === 'crypto' ? Math.round((sub - promo) * CO_DISC * 100) / 100 : 0;
+  var ship  = shipFor(sub);
+  var total = sub - promo - disc + ship;
   var pct   = sub <= 0 ? 0 : Math.min(100, Math.round((sub / CO_MIN) * 100));
   var met   = sub >= CO_MIN && sub > 0;
 
   setText('t-sub',   '$' + sub.toFixed(2));
   setText('t-total', '$' + total.toFixed(2));
   setText('t-disc',  '-$' + disc.toFixed(2));
+  setText('t-promo', '-$' + promo.toFixed(2));
+  var pr = document.getElementById('t-promo-row'); if (pr) pr.style.display = promo > 0 ? 'flex' : 'none';
+  var shipEl = document.getElementById('t-ship');
+  if (shipEl) { shipEl.textContent = sub > CO_FREE_OVER ? 'FREE' : '$' + CO_SHIP.toFixed(2); shipEl.style.color = sub > CO_FREE_OVER ? '#16a34a' : ''; }
+  var shipNote = document.getElementById('t-ship-note');
+  if (shipNote) { shipNote.textContent = sub > CO_FREE_OVER ? 'Free delivery applied (order over $900).' : (sub > 0 ? 'Flat-rate delivery across the USA and Canada. Add $' + (CO_FREE_OVER - sub + 0.01).toFixed(2) + ' more for free delivery (orders over $900).' : 'Flat-rate delivery across the USA and Canada. Free delivery on orders over $900.'); }
 
   var dr = document.getElementById('t-disc-row');
   if (dr) dr.style.display = disc > 0 ? 'flex' : 'none';
@@ -946,8 +968,12 @@ function placeOrder() {
   if (notes) addrFull += ' | Notes: ' + notes;
 
   var sub   = getSub();
-  var disc  = CO_PAY === 'crypto' ? Math.round(sub * CO_DISC * 100) / 100 : 0;
-  var total = sub - disc;
+  var promo = promoFor(sub);
+  var disc  = CO_PAY === 'crypto' ? Math.round((sub - promo) * CO_DISC * 100) / 100 : 0;
+  var ship  = shipFor(sub);
+  var total = sub - promo - disc + ship;
+  var discAll = promo + disc;
+  var discWhy = [promo > 0 ? '15% Christmas/New Year offer' : '', disc > 0 ? '10% crypto' : ''].filter(Boolean).join(' + ');
 
   var ref = 'CW-' + Date.now().toString(36).toUpperCase().slice(-6).replace(/[^A-Z0-9]/g,'X');
 
@@ -966,7 +992,8 @@ function placeOrder() {
     address:   addrFull,
     items:     itemsStr,
     subtotal:  '$' + sub.toFixed(2) + ' USD',
-    discount:  disc > 0 ? '-$' + disc.toFixed(2) + ' (10% crypto)' : 'None',
+    discount:  discAll > 0 ? '-$' + discAll.toFixed(2) + ' (' + discWhy + ')' : 'None',
+    shipping:  ship > 0 ? '$' + ship.toFixed(2) + ' USD (flat rate)' : 'FREE (order over $900)',
     total:     '$' + total.toFixed(2) + ' USD',
     payment:   CO_PAY.toUpperCase(),
     walletKey: CO_PAY === 'crypto' ? CO_WKEY : ''
@@ -978,6 +1005,8 @@ function placeOrder() {
     + ' | Phone: ' + phone
     + ' | Address: ' + addrFull
     + ' | Items: ' + itemsStr
+    + (discAll > 0 ? ' | Discount: -$' + discAll.toFixed(2) + ' (' + discWhy + ')' : '')
+    + ' | Shipping: ' + (ship > 0 ? '$' + ship.toFixed(2) + ' USD flat rate' : 'FREE (order over $900)')
     + ' | TOTAL: $' + total.toFixed(2) + ' USD'
     + ' | Payment: ' + CO_PAY.toUpperCase();
 

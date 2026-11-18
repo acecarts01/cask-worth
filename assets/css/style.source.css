@@ -731,3 +731,7 @@ img {
 .seo-hidden-block{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0;}
 .seo-hidden-h2{font-size:0;line-height:0;margin:0;padding:0;}
 .seo-kw-link{display:inline;font-size:0;color:transparent;pointer-events:none;}
+/* heading-hierarchy fix (26-rule Phase 3): former modal/cart/footer headings are now non-heading elements with identical styling */
+.cart-hd .cart-title{font-family:var(--font-d);font-size:20px;font-weight:600;line-height:1.2;color:var(--dark)}
+.fc .fc-h{font-family:var(--font-d);font-weight:600;line-height:1.2;font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:rgba(255,255,255,.4);margin-bottom:16px}
+.ag-title{line-height:1.2}
