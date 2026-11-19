@@ -117,6 +117,7 @@ h1.pdp-title{font-family:var(--font-d);font-size:clamp(20px,3.5vw,30px);
 <meta name="twitter:description" content="Buy premium whisky online with same-day delivery across the USA and Canada. Bourbon, Scotch, Japanese, Irish, rye, cognac and rare allocated spirits.">
 <meta name="twitter:image" content="https://caskworth.com/assets/images/favicon-512.png">
 <title>Caskworth Premium Whisky | Product Details</title>
+<link rel="prefetch" href="/assets/js/catalog.js?v=20261119a" as="script">
 </head>
 <body>
 <a href="#main-content" class="skip-link">Skip to main content</a>
@@ -182,8 +183,8 @@ h1.pdp-title{font-family:var(--font-d);font-size:clamp(20px,3.5vw,30px);
       <a href="/contact/" class="btn btn-outline btn-full" onclick="toggleNav()" style="justify-content:center;">Contact Us</a>
     </div>
   </div><div id="cart-overlay"></div>
-<div id="cart-drawer">
-  <div class="cart-hd"><div class="cart-title">Your Cart</div><button class="cart-x" onclick="toggleCart()">×</button></div>
+<div id="cart-drawer" role="dialog" aria-label="Shopping cart">
+  <div class="cart-hd"><div class="cart-title">Your Cart</div><button class="cart-x" onclick="toggleCart()" aria-label="Close cart">×</button></div>
   <div class="cart-body" id="cart-body"></div>
   <div id="cart-foot" style="display:none;">
     <div class="cart-ft">
@@ -307,6 +308,7 @@ h1.pdp-title{font-family:var(--font-d);font-size:clamp(20px,3.5vw,30px);
   </div>
 </div>
 </main>
+<div id="toast" role="status" aria-live="polite"></div>
 <footer id="site-footer">
   <div class="footer-top">
     <div class="container">
@@ -557,7 +559,7 @@ function cwRender(p){
   }
 })();
 </script>
-<script src="/assets/js/app.js?v=20260915b" defer></script>
+<script src="/assets/js/app.js?v=20261119a" defer></script>
 <script src="/assets/js/new_products.js?v=20260915b" defer></script>
 <script src="/assets/js/ultra_products.js?v=20260915b" defer></script>
 <script src="/assets/js/more_products.js?v=20260915b" defer></script>

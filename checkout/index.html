@@ -170,6 +170,7 @@
 /* === SEO HIDE === */
 .sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
 </style>
+<link rel="prefetch" href="/assets/js/catalog.js?v=20261119a" as="script">
 </head>
 <body>
 <div id="announce-bar">
@@ -269,7 +270,7 @@
 </div>
 
 <div id="cart-overlay"></div>
-<div id="cart-drawer">
+<div id="cart-drawer" role="dialog" aria-label="Shopping cart">
   <div class="cart-hd"><div class="cart-title">Your Cart</div><button class="cart-x" onclick="toggleCart()" aria-label="Close cart">×</button></div>
   <div class="cart-body" id="cart-body"></div>
   <div id="cart-foot" style="display:none;">
@@ -498,6 +499,7 @@
 </div><!-- end co-wrap -->
 </main>
 
+<div id="toast" role="status" aria-live="polite"></div>
 <footer id="site-footer">
   <div class="footer-top">
     <div class="container">
@@ -638,7 +640,7 @@
 
 <!-- QRCode.js loaded AFTER content — never blocks rendering -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js" async></script>
-<script src="/assets/js/app.js?v=20260915b" defer></script>
+<script src="/assets/js/app.js?v=20261119a" defer></script>
 <script src="/assets/js/new_products.js?v=20260915b" defer></script>
 <script src="/assets/js/ultra_products.js?v=20260915b" defer></script>
 <script src="/assets/js/more_products.js?v=20260915b" defer></script>

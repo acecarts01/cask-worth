@@ -30,8 +30,8 @@
 <link rel="stylesheet" href="/assets/css/promo.css?v=20261118a">
 <style>
 .pdp-wrap{max-width:1040px;margin:0 auto;padding:32px 20px 80px;}
-.pdp-bc{font-size:11px;color:#999;margin-bottom:24px;}
-.pdp-bc a{color:#999;text-decoration:none;}
+.pdp-bc{font-size:11px;color:#6b6b6b;margin-bottom:24px;}
+.pdp-bc a{color:#6b6b6b;text-decoration:none;}
 .pdp-bc a:hover{color:#c9941a;}
 .pdp-layout{display:grid;grid-template-columns:420px 1fr;gap:56px;align-items:start;}
 .pdp-img-side{position:sticky;top:24px;background:linear-gradient(150deg,#1c0e03,#0a0602);
@@ -42,24 +42,24 @@
   filter:drop-shadow(0 6px 24px rgba(0,0,0,.3));}
 .pdp-info-side{padding-top:4px;}
 .pdp-cat-label{font-size:9px;font-weight:700;letter-spacing:.18em;
-  text-transform:uppercase;color:#c9941a;display:block;margin-bottom:10px;}
+  text-transform:uppercase;color:#7a5800;display:block;margin-bottom:10px;}
 .pdp-name{font-family:var(--font-d,Georgia,serif);
   font-size:clamp(22px,3.5vw,32px);font-weight:700;
   color:#1c1c1e;margin:0 0 10px;line-height:1.2;}
 .pdp-distillery{font-size:13px;font-weight:600;color:#333;margin-bottom:4px;}
-.pdp-region{font-size:12px;color:#888;margin-bottom:22px;}
+.pdp-region{font-size:12px;color:#6b6b6b;margin-bottom:22px;}
 .pdp-specs-row{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:24px;}
 .spec-tile{background:#faf8f5;border:1px solid #f0e8d8;border-radius:10px;
   padding:10px 16px;text-align:center;min-width:72px;}
 .spec-val{display:block;font-size:14px;font-weight:700;color:#1c1c1e;}
 .spec-key{display:block;font-size:9px;letter-spacing:.1em;
-  text-transform:uppercase;color:#999;margin-top:3px;}
-.pdp-price{font-size:32px;font-weight:800;color:#c9941a;
+  text-transform:uppercase;color:#6b6b6b;margin-top:3px;}
+.pdp-price{font-size:32px;font-weight:800;color:#8a6712;
   margin:4px 0 6px;letter-spacing:-.5px;}
 .pdp-price small{font-size:13px;color:#999;font-weight:400;}
 .pdp-divider{height:1px;background:linear-gradient(90deg,#e8e0d0,transparent);margin:22px 0;}
 .pdp-section-label{font-size:9px;font-weight:700;letter-spacing:.16em;
-  text-transform:uppercase;color:#888;margin-bottom:10px;}
+  text-transform:uppercase;color:#6b6b6b;margin-bottom:10px;}
 .pdp-description{font-size:15px;line-height:1.85;color:#444;
   margin-bottom:26px;}
 .pdp-action-row{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:16px;}
@@ -69,8 +69,8 @@
   padding:14px 18px;margin-bottom:24px;font-size:13px;color:#5c4500;line-height:1.6;}
 .pdp-tags{margin-top:28px;padding-top:20px;border-top:1px solid #f0e8d8;}
 .pdp-tags-lbl{font-size:9px;font-weight:700;letter-spacing:.16em;
-  text-transform:uppercase;color:#888;margin-bottom:8px;display:block;}
-.pdp-tags-text{font-size:11px;color:#999;line-height:1.8;margin:0;}
+  text-transform:uppercase;color:#6b6b6b;margin-bottom:8px;display:block;}
+.pdp-tags-text{font-size:11px;color:#6b6b6b;line-height:1.8;margin:0;}
 @media(max-width:820px){
   .pdp-layout{grid-template-columns:1fr;gap:32px;}
   .pdp-img-side{position:static;min-height:260px;padding:24px;}
@@ -93,6 +93,7 @@
 <link rel="apple-touch-icon"       href="/assets/images/favicon-192.png">
 <link rel="shortcut icon"          href="/assets/images/favicon.ico">
 <link rel="manifest"               href="/site.webmanifest">
+<link rel="prefetch" href="/assets/js/catalog.js?v=20261119a" as="script">
 </head>
 <body>
 <a href="#main-content" class="skip-link">Skip to main content</a>
@@ -134,7 +135,7 @@
     </p>
     <div style="display:flex;gap:10px;">
       <button onclick="confirmAge()" style="flex:1;padding:13px;background:#c9941a;
-        color:#fff;border:none;border-radius:8px;font-size:14px;font-weight:700;cursor:pointer;">
+        color:#1c1c1e;border:none;border-radius:8px;font-size:14px;font-weight:700;cursor:pointer;">
         Yes, I am 21+
       </button>
       <button onclick="denyAge()" style="flex:1;padding:13px;background:#f3f3f3;
@@ -241,7 +242,7 @@
   <div class="pdp-layout">
 
     <div class="pdp-img-side">
-      <img src="/assets/images/products/blended-scotch-gift-set.webp" alt="The Ballantine's to Blue Label Blend Flight — placeholder, not yet photographed" width="480" height="640" loading="eager" onerror="this.onerror=null;this.src='/assets/images/placeholder.svg'">
+      <img fetchpriority="high" src="/assets/images/products/blended-scotch-gift-set.webp" alt="The Ballantine's to Blue Label Blend Flight — placeholder, not yet photographed" width="480" height="640" loading="eager" onerror="this.onerror=null;this.src='/assets/images/placeholder.svg'">
     </div>
 
     <div class="pdp-info-side">
@@ -280,6 +281,21 @@
 </div>
 </main>
 
+<div id="cart-overlay"></div>
+<div id="cart-drawer" role="dialog" aria-label="Shopping cart">
+  <div class="cart-hd"><div class="cart-title">Your Cart</div><button class="cart-x" onclick="toggleCart()" aria-label="Close cart">×</button></div>
+  <div class="cart-body" id="cart-body"></div>
+  <div id="cart-foot" style="display:none;">
+    <div class="cart-ft">
+      <div id="cart-warn"></div>
+      <div class="cart-row"><span>Subtotal</span><span id="cart-subtotal">$0.00</span></div>
+      <div class="cart-total-row"><span>Total</span><span id="cart-total-disp">$0.00</span></div>
+      <div class="min-warn" style="margin-top:10px;">Minimum order: <strong>$249.99 USD</strong></div>
+      <button class="btn btn-gold btn-full" id="cart-co-btn" onclick="goCheckout()" style="margin-top:12px;">Checkout</button>
+    </div>
+  </div>
+</div>
+<div id="toast" role="status" aria-live="polite"></div>
 <footer role="contentinfo" id="site-footer">
   <div class="container">
     <div class="footer-grid">
@@ -324,7 +340,7 @@
   </div>
 </footer>
 
-<script src="/assets/js/app.js?v=20260915b" defer></script>
+<script src="/assets/js/app.js?v=20261119a" defer></script>
 <script src="/assets/js/new_products.js?v=20260915b" defer></script>
 <script src="/assets/js/ultra_products.js?v=20260915b" defer></script>
 <script src="/assets/js/more_products.js?v=20260915b" defer></script>

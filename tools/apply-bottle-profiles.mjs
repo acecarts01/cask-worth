@@ -16,7 +16,7 @@ for (const [slug, d] of Object.entries(data)) {
   if (!d.source || !/^https:\/\//.test(d.source.url)) { console.log('NO SOURCE', slug); continue; }
   if (d.abv) { const t=(h.match(/<span class="spec-val">([\d.]+)%<\/span><span class="spec-key">ABV/)||[])[1]; if (t && Math.abs(+t - d.abv) > 0.05) console.log('ABV MISMATCH', slug, 'page', t, 'producer', d.abv); }
   const dl = rows.filter(([k]) => d[k]).map(([k, l]) => `<dt style="font-weight:700;color:var(--dark);">${l}</dt><dd style="margin:0 0 10px;">${k === 'casks' ? esc(d[k]) : esc(d[k])}</dd>`).join('');
-  const aw = d.awards && d.awards.length ? `<h3 style="font-size:15px;margin:18px 0 6px;">Recognition</h3><ul style="margin:0 0 12px 18px;">${d.awards.map(a => `<li>${esc(a)}</li>`).join('')}</ul>` : '';
+  const aw = d.awards && d.awards.length ? `<h2 style="font-size:15px;margin:18px 0 6px;">Recognition</h2><ul style="margin:0 0 12px 18px;">${d.awards.map(a => `<li>${esc(a)}</li>`).join('')}</ul>` : '';
   const block = `<!--bp-start-->
 <section class="pdp-profile" style="margin-top:32px;padding-top:24px;border-top:1px solid var(--border);font-size:14px;line-height:1.7;">
 <div class="pdp-section-label">About ${name}</div>
